@@ -420,6 +420,8 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "indust
 <li><b>Lavés, triés et traités</b> contre les punaises de lit, emballés à Laval.</li></ul>
 <h2>Conditions</h2>
 <p>Prix par [pack] : 32 $ couleur, 42 $ blanc, avant taxes. Hors Laval et Montréal, minimum de 1 000 lb (40 sacs) par livraison, frais de livraison selon votre emplacement. Commande confirmée et payée une semaine avant la livraison.</p>
+<h2>Fiche d'approvisionnement responsable</h2>
+<p>Pour vos dossiers d'achat : entreprise québécoise, textile réutilisé (environ 11 kg détournés de l'enfouissement par sac), prix et inscriptions fournisseur sur une page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Télécharger la fiche (PDF)</a></p>
 <h2>Demander une soumission</h2>
 <p>Indiquez le produit, la quantité et la ville de livraison dans le <a href="{{home#devis}}">formulaire</a> : nous vous répondons avec un prix livré.</p>""",
   "faq": [("Offrez-vous des prix de volume?", "Demandez une soumission avec vos quantités prévues : nous vous répondons avec un prix livré."),
@@ -439,6 +441,8 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "indust
 <li><b>Washed, sorted and treated</b> against bedbugs, packed in Laval.</li></ul>
 <h2>Terms</h2>
 <p>Price per [pack]: $32 colored, $42 white, before tax. Outside Laval and Montréal, 1,000 lb minimum (40 bags) per delivery, delivery fee based on your location. Orders confirmed and paid one week before delivery.</p>
+<h2>Responsible purchasing sheet</h2>
+<p>For your purchasing file: Québec company, reused textile (about 11 kg kept out of landfill per bag), prices and supplier registrations on one page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Download the sheet (PDF, French)</a></p>
 <h2>Request a quote</h2>
 <p>Tell us the product, quantity and delivery city in the <a href="{{home#devis}}">form</a> and we'll reply with a delivered price.</p>""",
   "faq": [("Do you offer volume pricing?", "Request a quote with your expected quantities and we'll reply with a delivered price."),
