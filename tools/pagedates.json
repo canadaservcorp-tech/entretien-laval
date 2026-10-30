@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "72199fd760967d1b1b71a5c52e6d454d90b3cdb7",
-  "modified": "2026-10-12",
+  "hash": "0a7bae3c255604e8b59a51d9f9bd8be290dee74b",
+  "modified": "2026-10-30",
   "published": "2026-10-10"
  },
  "/a-propos/": {
@@ -155,8 +155,8 @@
   "published": "2026-10-10"
  },
  "/en/": {
-  "hash": "c7175802006af16655716a541125d649bcf78f7b",
-  "modified": "2026-10-12",
+  "hash": "f3d96e3e3b89e9c964c5e83127549c1aa55b56bf",
+  "modified": "2026-10-30",
   "published": "2026-10-10"
  },
  "/en/about/": {
@@ -190,8 +190,8 @@
   "published": "2026-10-10"
  },
  "/en/faq/": {
-  "hash": "625146ca997a2c09f87e6eb194ee4f8d68ae0741",
-  "modified": "2026-10-12",
+  "hash": "3e9eef6e2d29e2c92f7c4b364a6ea53d8160274e",
+  "modified": "2026-10-30",
   "published": "2026-10-10"
  },
  "/en/farm-machinery-rags/": {
@@ -355,8 +355,8 @@
   "published": "2026-10-10"
  },
  "/en/wholesale-rags/": {
-  "hash": "f8e9f5b83c6594bf394df08e44b3ba00d83648cd",
-  "modified": "2026-10-28",
+  "hash": "0a670c30bda2d3acd4e7303de625b3816febc836",
+  "modified": "2026-10-30",
   "published": "2026-10-10"
  },
  "/en/woodworking-cabinetmaking-rags/": {
@@ -365,13 +365,13 @@
   "published": "2026-10-10"
  },
  "/faq/": {
-  "hash": "b5380929fc78514a08195c77d3a51db39610d9af",
-  "modified": "2026-10-12",
+  "hash": "d029f7a1a3a9bc305218d98a472c8460615e2de3",
+  "modified": "2026-10-30",
   "published": "2026-10-10"
  },
  "/guenilles-en-gros/": {
-  "hash": "895f2823c623a502d06f95048e55527994e00d55",
-  "modified": "2026-10-28",
+  "hash": "172291a37a113106fb66a28c18db88b7a39e5d84",
+  "modified": "2026-10-30",
   "published": "2026-10-10"
  },
  "/guides/": {
