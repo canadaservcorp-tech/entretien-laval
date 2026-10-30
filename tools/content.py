@@ -74,7 +74,7 @@ FAQ = {
   ("Livrez-vous? Où?", "Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir <a href=\"{{livraison}}\">la livraison</a>."),
   ("Comment commander?", "Remplissez le <a href=\"{{home#devis}}\">formulaire de soumission</a> ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison."),
   ("Y a-t-il un minimum de commande?", "Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Pour le Grand Montréal, demandez-nous les conditions selon votre secteur."),
-  ("Les chiffons sont-ils propres?", "Oui. Chaque lot est lavé et traité contre les punaises de lit avant d'être trié et emballé à Laval."),
+  ("Les chiffons sont-ils propres?", "Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon."),
   ("Offrez-vous des échantillons?", "Oui, sur demande, pour vérifier la qualité et le format avant une première commande."),
   ("Pouvez-vous fournir de grandes quantités?", "Oui, la quantité est illimitée. Nous approvisionnons aussi les distributeurs sanitaires et les fournisseurs industriels. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
   ("Recevrai-je une facture avec taxes?", "Oui. Entretien Laval est une entreprise enregistrée au Québec (NEQ 2280629637, TPS et TVQ). Les prix affichés sont avant taxes."),
@@ -89,7 +89,7 @@ FAQ = {
   ("Do you deliver? Where?", "Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See <a href=\"{{livraison}}\">delivery</a>."),
   ("How do I order?", "Fill in the <a href=\"{{home#devis}}\">quote form</a> or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery."),
   ("Is there a minimum order?", "Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. For Greater Montreal, ask us about the terms for your area."),
-  ("Are the rags clean?", "Yes. Every lot is washed and treated against bedbugs before being sorted and packed in Laval."),
+  ("Are the rags clean?", "Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh."),
   ("Do you offer samples?", "Yes, on request, so you can check quality and size before a first order."),
   ("Can you supply large volumes?", "Yes, quantity is unlimited. We also supply janitorial distributors and industrial suppliers. See <a href=\"{{gros}}\">wholesale rags</a>."),
   ("Will I get an invoice with taxes?", "Yes. Entretien Laval is a registered Québec business (NEQ 2280629637, GST and QST). Listed prices are before tax."),
@@ -102,7 +102,7 @@ HOME = {
  "fr": {"path": "/", "title": "Guenilles et chiffons d'essuyage recyclés à Laval | Chiffons ÉCO",
         "desc": "Guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, dès 32 $ le sac de 25 lb. Triés à Laval, livrés partout au Québec.",
         "prod_eyebrow": "Nos chiffons · 4 produits", "prod_h2": "T-shirt ou ratine, blanc ou couleur.",
-        "prod_p": "Tous lavés, triés et traités contre les punaises de lit, en [packs]. Échantillons sur demande.",
+        "prod_p": "Sans métal ni boutons, lavés à l'eau chaude, traités contre les punaises de lit et coupés prêts à utiliser, en [packs]. Échantillons sur demande.",
         "photo_alt": ["Sacs de 25 lb de chiffons recyclés couleur, scellés", "Sac de chiffons t-shirt couleur de 25 lb"],
         "sec_eyebrow": "Secteurs", "sec_h2": "Fait pour ceux qui salissent leurs mains.",
         "sec_p": "Choisissez votre secteur : quel chiffon prendre, comment l'utiliser et quoi faire après.",
@@ -122,7 +122,7 @@ HOME = {
  "en": {"path": "/en/", "title": "Recycled wiping rags in Laval – 25 lb bags | ECO Rags",
         "desc": "Recycled cotton wiping rags and shop rags, washed and bedbug-treated, from $32 per 25 lb bag. Sorted in Laval, delivered across Greater Montreal and Québec.",
         "prod_eyebrow": "Our rags · 4 products", "prod_h2": "T-shirt or terry, white or colored.",
-        "prod_p": "All washed, sorted and treated against bedbugs, in [packs]. Samples on request.",
+        "prod_p": "No metal or buttons, washed in hot water, bedbug-treated and cut ready to use, in [packs]. Samples on request.",
         "photo_alt": ["Sealed 25 lb bags of colored recycled rags", "25 lb bag of colored T-shirt rags"],
         "sec_eyebrow": "Industries", "sec_h2": "Made for people who get their hands dirty.",
         "sec_p": "Pick your industry: which rag to use, how to use it and what to do after.",
@@ -417,7 +417,10 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "indust
 <p>Distributeurs de produits sanitaires, quincailleries, fournisseurs industriels, centres de location et grandes entreprises : nous fournissons des chiffons d'essuyage recyclés triés, emballés en [packs] et prêts à revendre ou à utiliser.</p>
 <ul><li><b>4 produits</b> : t-shirt ou ratine, blanc ou couleur.</li>
 <li><b>Quantité illimitée</b>, livraisons planifiées selon vos besoins.</li>
-<li><b>Lavés, triés et traités</b> contre les punaises de lit, emballés à Laval.</li></ul>
+<li><b>Sans métal, boutons ni fermetures éclair</b> : rien qui raye l'inox, la peinture ou les machines.</li>
+<li><b>Lavés à l'eau chaude</b>, triés et traités contre les punaises de lit, emballés à Laval.</li>
+<li><b>Coupés en morceaux prêts à utiliser</b> : aucune perte de temps.</li>
+<li><b>Propres, avec une bonne odeur.</b></li></ul>
 <h2>Conditions</h2>
 <p>Prix par [pack] : 32 $ couleur, 42 $ blanc, avant taxes. Hors Laval et Montréal, minimum de 1 000 lb (40 sacs) par livraison, frais de livraison selon votre emplacement. Commande confirmée et payée une semaine avant la livraison.</p>
 <h2>Fiche d'approvisionnement responsable</h2>
@@ -438,7 +441,10 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "indust
 <p>Janitorial supply distributors, hardware stores, industrial suppliers, rental centres and large companies: we supply sorted recycled wiping rags, packed in [packs] and ready to resell or use.</p>
 <ul><li><b>4 products</b>: T-shirt or terry, white or colored.</li>
 <li><b>Unlimited quantity</b>, deliveries scheduled to your needs.</li>
-<li><b>Washed, sorted and treated</b> against bedbugs, packed in Laval.</li></ul>
+<li><b>No metal, buttons or zippers</b>: nothing to scratch stainless steel, paint or machines.</li>
+<li><b>Washed in hot water</b>, sorted and treated against bedbugs, packed in Laval.</li>
+<li><b>Cut into ready-to-use pieces</b>: no time lost.</li>
+<li><b>Clean, with a fresh smell.</b></li></ul>
 <h2>Terms</h2>
 <p>Price per [pack]: $32 colored, $42 white, before tax. Outside Laval and Montréal, 1,000 lb minimum (40 bags) per delivery, delivery fee based on your location. Orders confirmed and paid one week before delivery.</p>
 <h2>Responsible purchasing sheet</h2>
