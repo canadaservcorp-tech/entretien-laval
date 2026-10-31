@@ -242,4 +242,4 @@ footer{background:#0B2238}
 .mascot svg{filter:drop-shadow(1px 3px 2px rgba(15,42,68,.3))}
 .mascot .m-face{transition:transform .2s ease-out}
 .mascot .m-body.walk .m-face{transform:translateX(6px)}
-.mascot .m-body.climb .m-shadow{display:none}
+.mascot .m-body.climb .m-shadow,.mascot .m-body.wipe .m-shadow{display:none}
