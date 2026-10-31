@@ -215,7 +215,7 @@ footer{background:#0B2238}
 .mascot .m-body.walk:not(.climb) svg{animation:m-bob .9s ease-in-out infinite}
 .mascot .m-leg.l .m-th{transform-origin:39px 72px}.mascot .m-leg.l .m-sh{transform-origin:37px 90px}.mascot .m-leg.l .m-ft{transform-origin:37px 108px}
 .mascot .m-leg.r .m-th{transform-origin:41px 72px}.mascot .m-leg.r .m-sh{transform-origin:43px 90px}.mascot .m-leg.r .m-ft{transform-origin:43px 108px}
-.mascot .m-arm2{transform-origin:40px 46px}.mascot .m-fa{transform-origin:36px 58px}
+.mascot .m-arm2{transform-origin:40px 46px}.mascot .m-fa{transform-origin:29px 57px}
 .mascot .m-body.walk:not(.climb) .m-th{animation:m-hip .9s linear infinite}
 .mascot .m-body.walk:not(.climb) .m-sh{animation:m-knee .9s linear infinite}
 .mascot .m-body.walk:not(.climb) .m-ft{animation:m-ankle .9s linear infinite}
@@ -267,3 +267,35 @@ footer{background:#0B2238}
 @keyframes m-dangle{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
 @keyframes m-kick{from{transform:rotate(-30deg)}to{transform:rotate(28deg)}}
 @keyframes m-land{0%{transform:scale(1.08,.82)}55%{transform:scale(.96,1.06)}100%{transform:none}}
+.mascot .m-belly{transform-origin:41px 72px}
+.mascot .m-body.walk:not(.climb) .m-belly{animation:m-jiggle .45s ease-in-out infinite}
+.mascot .m-body.wipe .m-belly,.mascot .m-body.held .m-belly{animation:m-jiggle .2s ease-in-out infinite}
+.mascot .m-hat{transform-origin:40px 18px}
+.mascot .m-body.held .m-hat{animation:m-hat .25s ease-in-out infinite alternate}
+@keyframes m-jiggle{0%,100%{transform:none}35%{transform:scale(1.06,.95)}70%{transform:scale(.97,1.04)}}
+@keyframes m-hat{from{transform:translateY(-1px) rotate(-6deg)}to{transform:translateY(-3px) rotate(6deg)}}
+.mascot .m-oh{display:none}
+.mascot .m-body.held .m-oh{display:inline}.mascot .m-body.held .m-mouth{display:none}
+.mascot .m-body.held svg{animation:m-dangle .35s ease-in-out infinite alternate}
+.mascot .m-body.held .m-leg.l .m-th{animation:m-pedal-hip .42s linear infinite}
+.mascot .m-body.held .m-leg.r .m-th{animation:m-pedal-hip .42s linear -.21s infinite}
+.mascot .m-body.held .m-leg.l .m-sh{animation:m-pedal-knee .42s linear infinite}
+.mascot .m-body.held .m-leg.r .m-sh{animation:m-pedal-knee .42s linear -.21s infinite}
+.mascot .m-body.held .m-ft{animation:m-pedal-ankle .21s ease-in-out infinite alternate}
+.mascot .m-body.held .m-arm2{transform:none;animation:m-flail .3s ease-in-out infinite alternate}
+.mascot .m-body.held .m-fa{animation:m-flail-fa .3s ease-in-out -.15s infinite alternate}
+.mascot .m-body.held .m-arm{transform-origin:40px 46px;animation:m-flail-r .34s ease-in-out infinite alternate}
+@keyframes m-pedal-hip{0%{transform:rotate(-45deg)}25%{transform:rotate(-10deg)}50%{transform:rotate(30deg)}75%{transform:rotate(-5deg)}100%{transform:rotate(-45deg)}}
+@keyframes m-pedal-knee{0%{transform:rotate(10deg)}25%{transform:rotate(70deg)}50%{transform:rotate(20deg)}75%{transform:rotate(0)}100%{transform:rotate(10deg)}}
+@keyframes m-pedal-ankle{from{transform:rotate(-25deg)}to{transform:rotate(25deg)}}
+@keyframes m-flail{from{transform:rotate(60deg)}to{transform:rotate(150deg)}}
+@keyframes m-flail-fa{from{transform:rotate(-40deg)}to{transform:rotate(30deg)}}
+@keyframes m-flail-r{from{transform:rotate(-35deg)}to{transform:rotate(25deg)}}
+.mascot .m-fear{display:none}
+.mascot .m-body.held .m-front{display:none}
+.mascot .m-body.held .m-fear{display:inline;animation:m-tremble .07s linear infinite alternate}
+.mascot .m-body.held .m-belly{animation:m-tremble .07s linear -.035s infinite alternate}
+.mascot .m-body.held .m-sweat path{animation:m-sweat .6s ease-in infinite}
+.mascot .m-body.held .m-sweat path+path{animation-delay:-.3s}
+@keyframes m-tremble{from{transform:translateX(-.8px)}to{transform:translateX(.8px)}}
+@keyframes m-sweat{0%{opacity:0;transform:translateY(-2px)}30%{opacity:1}100%{opacity:0;transform:translateY(9px)}}
