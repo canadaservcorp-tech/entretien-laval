@@ -4,8 +4,8 @@
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
-  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.7), SPEED = 150;
-  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><g fill="none" stroke="#0F2A44" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">'
+  var H = innerWidth < 600 ? 164 : 200, W = Math.round(H * 0.7), SPEED = 150;
+  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><g fill="none" stroke="#0F2A44" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'
     + '<g class="m-leg l"><g class="m-th"><path d="M39 72L37 90"/><g class="m-sh"><path d="M37 90L37 108"/><g class="m-ft"><path d="M37 108h7"/></g></g></g></g>'
     + '<g class="m-leg r"><g class="m-th"><path d="M41 72L43 90"/><g class="m-sh"><path d="M43 90L43 108"/><g class="m-ft"><path d="M43 108h7"/></g></g></g></g>'
     + '<path d="M40 38L40 72"/><g class="m-arm2"><path d="M40 46L36 58"/><g class="m-fa"><path d="M36 58L37 70"/></g></g>'
@@ -72,7 +72,7 @@
       return r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
-  var pending = null, justScrolled = false;
+  var pending = null, justScrolled = false, drag = null;
   function dist(e) { var r = e.getBoundingClientRect(); return Math.abs(r.left - x) + (innerHeight - r.bottom) * 1.5; }
   async function cycle() {
     var id = ++run, b = null, r;
@@ -139,11 +139,44 @@
     reset(); scrolled = 0;
   }, true);
   addEventListener('resize', function () { y = floor(); place(); });
+  // the visitor grabs him and moves him; when let go he drops down and cleans the closest thing
+  body.addEventListener('pointerdown', function (e) {
+    if (e.button > 0) return;
+    e.preventDefault(); reset(); lad.classList.remove('on');
+    drag = { dx: e.clientX - x, dy: e.clientY - y, id: e.pointerId, moved: false };
+    try { body.setPointerCapture(e.pointerId); } catch (er) {}
+    body.classList.remove('walk', 'carry', 'land'); body.classList.add('held');
+  });
+  body.addEventListener('pointermove', function (e) {
+    if (!drag || e.pointerId !== drag.id) return;
+    var nx = Math.max(0, Math.min(e.clientX - drag.dx, innerWidth - W)), ny = Math.max(0, Math.min(e.clientY - drag.dy, floor()));
+    if (Math.abs(nx - x) > 1) body.classList.toggle('flip', nx < x);
+    if (Math.abs(nx - x) + Math.abs(ny - y) > 1) drag.moved = true;
+    x = nx; y = ny; place();
+  });
+  function release(e) {
+    if (!drag || e.pointerId !== drag.id) return;
+    drag = null; body.classList.remove('held');
+    var cx = x + W / 2, cy = y + H / 2, best = null, bd = 1e9;
+    targets().forEach(function (t) {
+      var r = t.getBoundingClientRect(), d = Math.hypot(r.left + r.width / 2 - cx, r.top + r.height / 2 - cy);
+      if (d < bd) { bd = d; best = t; }
+    });
+    pending = best ? { el: best } : { x: cx, y: cy, el: null };
+    run++; scrolled = 0;
+  }
+  body.addEventListener('pointerup', release);
+  body.addEventListener('pointercancel', release);
   (async function loop() {
     await wait(500);
     while (run >= 0) {
-      if (Date.now() - scrolled < 600 || document.hidden) { await wait(150); continue; }
-      if (y < floor() - 1 && !lad.classList.contains('on')) { body.classList.add('walk', 'carry'); await tween(x, floor(), 250, ++run); }
+      if (drag || Date.now() - scrolled < 600 || document.hidden) { await wait(150); continue; }
+      if (y < floor() - 1 && !lad.classList.contains('on')) {
+        var fall = floor() - y > 40;
+        if (!fall) body.classList.add('walk', 'carry');
+        await tween(x, floor(), fall ? Math.min(600, 120 + (floor() - y) * 0.8) : 250, ++run);
+        if (fall) { body.classList.add('land'); await wait(380); body.classList.remove('land'); }
+      }
       body.classList.remove('walk', 'carry');
       await cycle(); await wait(50);
     }

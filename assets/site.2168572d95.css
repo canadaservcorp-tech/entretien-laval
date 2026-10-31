@@ -439,3 +439,15 @@ footer{background:#0B2238}
 .mascot .m-body.walk:not(.climb) .m-side{display:inline}
 .mascot .m-body.walk:not(.climb) .m-front{display:none}
 .mascot .m-body.climb .m-shadow,.mascot .m-body.wipe .m-shadow{display:none}
+.mascot .m-body{pointer-events:auto;cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none}
+.mascot .m-body.held{cursor:grabbing}
+.mascot .m-body.held svg{animation:m-dangle .5s ease-in-out infinite alternate;transform-origin:40px 16px}
+.mascot .m-body.held .m-leg.l .m-th{animation:m-kick .25s ease-in-out infinite alternate}
+.mascot .m-body.held .m-leg.r .m-th{animation:m-kick .25s ease-in-out -.12s infinite alternate}
+.mascot .m-body.held .m-arm2{transform:rotate(150deg)}
+.mascot .m-body.held .m-front{display:inline}.mascot .m-body.held .m-side{display:none}
+.mascot .m-body.held .m-steam{animation:m-steam .9s ease-out infinite}
+.mascot .m-body.land svg{animation:m-land .38s ease-out;transform-origin:40px 108px}
+@keyframes m-dangle{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+@keyframes m-kick{from{transform:rotate(-30deg)}to{transform:rotate(28deg)}}
+@keyframes m-land{0%{transform:scale(1.08,.82)}55%{transform:scale(.96,1.06)}100%{transform:none}}
