@@ -414,12 +414,16 @@ footer{background:#0B2238}
 .mascot .m-body.carry .m-arm,.mascot .m-body.walk:not(.climb) .m-arm{transform:rotate(-70deg);transform-origin:54px 54px}
 .mascot .m-steam{opacity:0}
 .mascot .m-leg,.mascot .m-arm{transition:transform .17s ease-out}
-.mascot .m-body.climb .m-leg.l{transform:translateY(-7px)}
+.mascot .m-body.climb .m-leg{transition:transform .24s linear}
+.mascot .m-body.climb .m-leg.l,.mascot .m-body.climb.rung .m-leg.r{transform:translateY(calc(var(--ru) * var(--dir) * 1px))}
 .mascot .m-body.climb.rung .m-leg.l{transform:none}
-.mascot .m-body.climb.rung .m-leg.r{transform:translateY(-7px)}
 .mascot .m-body.climb .m-arm{transform:rotate(-75deg);transform-origin:54px 54px}
 .mascot .m-body.climb.rung .m-arm{transform:rotate(-45deg)}
 .mascot .m-body.wipe svg{animation:m-wiggle .2s ease-in-out infinite alternate;transform-origin:40px 108px}
 .mascot .m-body.wipe .m-steam{animation:m-steam .9s ease-out infinite}
 @keyframes m-wiggle{from{transform:rotate(-4deg) translateY(0)}to{transform:rotate(4deg) translateY(-3px)}}
 @keyframes m-steam{0%{opacity:0;transform:translateY(4px)}40%{opacity:1}100%{opacity:0;transform:translateY(-8px)}}
+.mascot svg{filter:drop-shadow(1px 3px 2px rgba(15,42,68,.3))}
+.mascot .m-face{transition:transform .2s ease-out}
+.mascot .m-body.walk .m-face{transform:translateX(6px)}
+.mascot .m-body.climb .m-shadow{display:none}
