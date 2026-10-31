@@ -5,21 +5,32 @@
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
   var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.7), SPEED = 150;
-  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true">'
-    + '<g class="m-leg l"><rect x="28" y="72" width="9" height="34" rx="4" fill="#0E4C82"/><rect x="24" y="102" width="17" height="8" rx="4" fill="#0F2A44"/></g>'
-    + '<g class="m-leg r"><rect x="43" y="72" width="9" height="34" rx="4" fill="#0E4C82"/><rect x="40" y="102" width="17" height="8" rx="4" fill="#0F2A44"/></g>'
-    + '<rect x="22" y="46" width="36" height="32" rx="10" fill="#1E7FC0"/><rect x="29" y="52" width="22" height="14" rx="3" fill="#1565A8"/>'
-    + '<circle cx="40" cy="30" r="17" fill="#F6CFA8"/><circle cx="34" cy="30" r="2.6" fill="#0F2A44"/><circle cx="46" cy="30" r="2.6" fill="#0F2A44"/>'
-    + '<path d="M33 40q7-5 14 0" stroke="#0F2A44" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M29 25l8 3.5M51 25l-8 3.5" stroke="#0F2A44" stroke-width="3" stroke-linecap="round"/><g class="m-steam" fill="#fff" stroke="#9FB6CC" stroke-width="1.5"><circle cx="16" cy="14" r="4"/><circle cx="10" cy="7" r="3"/><circle cx="64" cy="10" r="3.5"/></g><circle cx="29" cy="35" r="3" fill="#F2A0A0" opacity=".7"/><circle cx="51" cy="35" r="3" fill="#F2A0A0" opacity=".7"/>'
-    + '<path d="M22 24q18-20 36 0z" fill="#1565A8"/><rect x="38" y="20" width="26" height="5" rx="2.5" fill="#1565A8"/>'
-    + '<g class="m-arm"><rect x="52" y="50" width="20" height="8" rx="4" fill="#1E7FC0"/><circle cx="72" cy="54" r="5" fill="#F6CFA8"/>'
-    + '<path d="M68 44q10-4 12 6q2 10-8 12q-8 1-9-8z" fill="#E94F64"/><path d="M70 47l8 4M69 53l8 3" stroke="#F7C948" stroke-width="2"/></g>'
+  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><defs>'
+    + '<radialGradient id="mg-skin" cx=".38" cy=".32" r=".75"><stop offset="0" stop-color="#FFE6CC"/><stop offset=".55" stop-color="#F6CFA8"/><stop offset="1" stop-color="#D49A6E"/></radialGradient>'
+    + '<radialGradient id="mg-suit" cx=".35" cy=".25" r=".9"><stop offset="0" stop-color="#5DB3EE"/><stop offset=".5" stop-color="#1E7FC0"/><stop offset="1" stop-color="#0B4F86"/></radialGradient>'
+    + '<linearGradient id="mg-leg" x1="0" x2="1"><stop offset="0" stop-color="#2A7BC0"/><stop offset=".45" stop-color="#0E4C82"/><stop offset="1" stop-color="#062F55"/></linearGradient>'
+    + '<radialGradient id="mg-hat" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#3A93D8"/><stop offset=".6" stop-color="#1565A8"/><stop offset="1" stop-color="#0A3F72"/></radialGradient>'
+    + '<radialGradient id="mg-rag" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FF8A9A"/><stop offset="1" stop-color="#C23A50"/></radialGradient></defs>'
+    + '<ellipse class="m-shadow" cx="40" cy="110" rx="24" ry="3.5" fill="#0F2A44" opacity=".22"/>'
+    + '<g class="m-leg l"><rect x="28" y="72" width="9" height="34" rx="4" fill="url(#mg-leg)"/><rect x="24" y="102" width="17" height="8" rx="4" fill="#0F2A44"/><rect x="26" y="103" width="8" height="2" rx="1" fill="#fff" opacity=".25"/></g>'
+    + '<g class="m-leg r"><rect x="43" y="72" width="9" height="34" rx="4" fill="url(#mg-leg)"/><rect x="40" y="102" width="17" height="8" rx="4" fill="#0F2A44"/><rect x="42" y="103" width="8" height="2" rx="1" fill="#fff" opacity=".25"/></g>'
+    + '<rect x="22" y="46" width="36" height="32" rx="10" fill="url(#mg-suit)"/><rect x="29" y="52" width="22" height="14" rx="3" fill="#1565A8" opacity=".85"/><ellipse cx="31" cy="51" rx="6" ry="3" fill="#fff" opacity=".22"/>'
+    + '<circle cx="40" cy="30" r="17" fill="url(#mg-skin)"/><ellipse cx="34" cy="22" rx="6" ry="3.5" fill="#fff" opacity=".3"/>'
+    + '<g class="m-face"><circle cx="34" cy="30" r="2.6" fill="#0F2A44"/><circle cx="46" cy="30" r="2.6" fill="#0F2A44"/><circle cx="35" cy="29" r=".9" fill="#fff"/><circle cx="47" cy="29" r=".9" fill="#fff"/>'
+    + '<ellipse cx="40.5" cy="34.5" rx="2.6" ry="2" fill="#E3A57A"/>'
+    + '<path d="M33 40q7-5 14 0" stroke="#0F2A44" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M29 25l8 3.5M51 25l-8 3.5" stroke="#0F2A44" stroke-width="3" stroke-linecap="round"/><circle cx="29" cy="35" r="3" fill="#F2A0A0" opacity=".7"/><circle cx="51" cy="35" r="3" fill="#F2A0A0" opacity=".7"/></g>'
+    + '<g class="m-steam" fill="#fff" stroke="#9FB6CC" stroke-width="1.5"><circle cx="16" cy="14" r="4"/><circle cx="10" cy="7" r="3"/><circle cx="64" cy="10" r="3.5"/></g>'
+    + '<path d="M22 24q18-20 36 0z" fill="url(#mg-hat)"/><rect x="38" y="20" width="26" height="5" rx="2.5" fill="#0E528F"/>'
+    + '<g class="m-arm"><rect x="52" y="50" width="20" height="8" rx="4" fill="url(#mg-suit)"/><circle cx="72" cy="54" r="5" fill="url(#mg-skin)"/>'
+    + '<path d="M68 44q10-4 12 6q2 10-8 12q-8 1-9-8z" fill="url(#mg-rag)"/><path d="M70 47l8 4M69 53l8 3" stroke="#F7C948" stroke-width="2"/></g>'
     + '</svg>';
   var m = document.createElement('div'); m.className = 'mascot'; m.style.width = W + 'px'; m.style.height = H + 'px';
   m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher le petit nettoyeur' : 'Hide the little cleaner') + '">×</button>';
   var lad = document.createElement('div'); lad.className = 'm-ladder';
   document.body.appendChild(lad); document.body.appendChild(m);
   var body = m.firstChild, x = 16, y = 0, run = 0, last = null;
+  var RUNG = Math.round(H * 0.2), FOOT = H * 110 / 114;
+  m.style.setProperty('--ru', (RUNG * 114 / H).toFixed(2));
   var floor = function () { return innerHeight - H - 6; };
   var place = function () { m.style.transform = 'translate(' + x + 'px,' + y + 'px)'; };
   y = floor(); place();
@@ -38,18 +49,21 @@
       })(t0);
     });
   }
-  // rung by rung: one foot and one hand go up, short pause, then the other side
+  // rung by rung: one foot moves to the next rung, then the body follows while the other foot moves up; feet always land on a rung
   async function climb(ty, id) {
-    var step = H * 0.2;
+    m.style.setProperty('--dir', y > ty ? -1 : 1);
     body.classList.add('climb');
+    await wait(240);
     while (Math.abs(y - ty) > 0.5) {
+      if (id !== run) break;
       body.classList.toggle('rung');
-      var ny = y > ty ? Math.max(ty, y - step) : Math.min(ty, y + step);
-      if (!(await tween(x, ny, 160, id))) { body.classList.remove('climb', 'rung'); return false; }
-      await wait(40);
+      var ny = y > ty ? Math.max(ty, y - RUNG) : Math.min(ty, y + RUNG);
+      if (!(await tween(x, ny, 240, id))) { body.classList.remove('climb', 'rung'); return false; }
+      await wait(90);
     }
     body.classList.remove('climb', 'rung');
-    return true;
+    await wait(200);
+    return id === run;
   }
   function sparkle(r) {
     for (var i = 0; i < 4; i++) {
@@ -88,13 +102,19 @@
     var left = r.left > W + 10;
     var tx = left ? r.left - W + 6 : Math.min(r.right - 6, innerWidth - W - 4);
     var ty = r.top + r.height / 2 - H * 0.5, fy = floor();
-    body.classList.toggle('flip', !left);
+    if (Math.abs(tx - x) > 2) body.classList.toggle('flip', tx < x);
     body.classList.add('walk', 'carry');
     if (!(await tween(tx, fy, Math.abs(tx - x) / SPEED * 1000, id))) return;
     body.classList.remove('walk', 'carry');
-    if (fy - ty > 30) {
-      lad.style.left = (tx + W * 0.2) + 'px'; lad.style.width = Math.round(W * 0.38) + 'px'; lad.style.top = (ty + H * 0.9) + 'px';
-      lad.style.height = (fy - ty) + 'px'; lad.classList.add('on');
+    body.classList.toggle('flip', !left);
+    var k = Math.round((fy - ty) / RUNG);
+    if (k >= 2) {
+      ty = fy - k * RUNG;
+      var lt = ty + H * 0.45, lb = fy + FOOT + 3;
+      lad.style.left = Math.round(tx + W * 0.27) + 'px'; lad.style.width = Math.round(W * 0.46) + 'px';
+      lad.style.top = lt + 'px'; lad.style.height = (lb - lt) + 'px';
+      lad.style.backgroundImage = 'repeating-linear-gradient(to top,#C98A4B 0 3px,transparent 3px ' + RUNG + 'px)';
+      lad.classList.add('on');
       await wait(350);
       if (!(await climb(ty, id))) return;
     }
