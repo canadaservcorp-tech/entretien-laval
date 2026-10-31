@@ -13,6 +13,9 @@
     + '<g class="m-front"><circle cx="36" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><path d="M33 22l5 2.5M47 22l-5 2.5" stroke-width="2.2"/><path class="m-mouth" d="M36 33q4-3 8 0" stroke-width="2"/><ellipse class="m-oh" cx="40" cy="33" rx="2.2" ry="2.8" stroke-width="1.6"/></g>'
     + '<g class="m-fear"><circle cx="35.5" cy="27" r="3.2" fill="#fff"/><circle cx="44.5" cy="27" r="3.2" fill="#fff"/><circle cx="35.8" cy="27.6" r="1.1" fill="#0F2A44" stroke="none"/><circle cx="44.2" cy="27.6" r="1.1" fill="#0F2A44" stroke="none"/><path d="M31.5 22l5-2.5M48.5 22l-5-2.5" stroke-width="2"/><ellipse cx="40" cy="34" rx="2.4" ry="3" stroke-width="1.6"/>'
     + '<g class="m-sweat" fill="#7CC4F0" stroke="#3E8FC9" stroke-width="1"><path d="M53 20q2 3 0 5q-2-2 0-5z"/><path d="M27 24q2 3 0 5q-2-2 0-5z"/></g></g>'
+    + '<g class="m-relax"><path d="M33.5 25.8h5M41.5 25.8h5" stroke-width="1.8"/><circle cx="36" cy="27.4" r="1.2" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27.4" r="1.2" fill="#0F2A44" stroke="none"/><path d="M37 33.5q3.5 1.5 7-1.2" stroke-width="1.8"/></g>'
+    + '<g class="m-sleep"><path d="M33.5 27q2.5 2 5 0M41.5 27q2.5 2 5 0" stroke-width="1.8"/><ellipse cx="40.5" cy="33.5" rx="1.4" ry="1.1" stroke-width="1.4"/></g>'
+    + '<g class="m-zzz" fill="#1E7FC0" stroke="none" font-family="Arial,sans-serif" font-weight="700"><text x="51" y="18" font-size="11">Z</text><text x="60" y="10" font-size="8.5">z</text><text x="67" y="4" font-size="6.5">z</text></g>'
     + '<g class="m-side"><circle cx="46" cy="26" r="1.6" fill="#0F2A44" stroke="none"/><path d="M42 21.5l6 2.5" stroke-width="2.2"/><path d="M51 27l2 2.5l-2 .5" stroke-width="2"/><path d="M44 33q3-2 6-1" stroke-width="2"/></g>'
     + '<g class="m-hat"><path d="M29.5 18q0-11 10.5-11q10.5 0 10.5 11z"/><path d="M27 18h31"/><path d="M33 13.5q7-2.5 14 0" stroke-width="1.4"/></g>'
     + '<g class="m-steam" stroke="#9FB6CC" stroke-width="1.5"><circle cx="22" cy="12" r="3.5"/><circle cx="16" cy="6" r="2.5"/><circle cx="60" cy="9" r="3"/></g>'
@@ -103,7 +106,28 @@
       return r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
-  var pending = null, justScrolled = false, drag = null;
+  var pending = null, justScrolled = false, drag = null, active = Date.now(), IDLE = 20000;
+  // nobody scrolls or clicks for a while: he walks to the closest bottom corner, sits, swings his legs, then dozes off
+  async function rest() {
+    var id = ++run, cx = x + W / 2 < innerWidth / 2 ? 4 : innerWidth - W - 4;
+    if (Math.abs(cx - x) > 2) body.classList.toggle('flip', cx < x);
+    body.classList.add('walk', 'carry');
+    if (!(await tween(cx, floor(), Math.abs(cx - x) / SPEED * 1000, id))) return;
+    body.classList.remove('walk', 'carry');
+    body.classList.toggle('flip', cx > innerWidth / 2);
+    body.classList.add('rest');
+    var t0 = Date.now();
+    while (id === run) {
+      if (Date.now() - t0 > 7000) body.classList.add('sleep');
+      await wait(200);
+    }
+  }
+  function wake() {
+    active = Date.now();
+    if (!body.classList.contains('rest')) return;
+    body.classList.remove('rest', 'sleep'); body.classList.add('wake');
+    setTimeout(function () { body.classList.remove('wake'); }, 450);
+  }
   function dist(e) { var r = e.getBoundingClientRect(); return Math.abs(r.left - x) + (innerHeight - r.bottom) * 1.5; }
   async function cycle() {
     var id = ++run, b = null, r;
@@ -151,7 +175,7 @@
   }
   var scrolled = 0, lastY = scrollY;
   function reset() {
-    run++; lad.classList.remove('on'); body.classList.remove('wipe', 'climb', 'rung');
+    run++; wake(); lad.classList.remove('on'); body.classList.remove('wipe', 'climb', 'rung');
     document.querySelectorAll('.m-clean').forEach(function (e) { e.classList.remove('m-clean'); });
   }
   // the visitor scrolls: he runs along with them, ladder on his shoulder
@@ -169,6 +193,7 @@
     pending = { x: e.clientX, y: e.clientY, el: b && b.getBoundingClientRect().height < 260 ? b : null };
     reset(); scrolled = 0;
   }, true);
+  addEventListener('keydown', function () { active = Date.now(); }, true);
   addEventListener('resize', function () { y = floor(); place(); });
   // the visitor grabs him and moves him; when let go he drops down and cleans the closest thing
   body.addEventListener('pointerdown', function (e) {
@@ -209,6 +234,7 @@
         if (fall) { body.classList.add('land'); await wait(380); body.classList.remove('land'); }
       }
       body.classList.remove('walk', 'carry');
+      if (Date.now() - active > IDLE) { await rest(); continue; }
       await cycle(); await wait(50);
     }
   })();
