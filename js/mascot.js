@@ -4,7 +4,7 @@
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
-  var H = innerWidth < 600 ? 54 : 64, W = Math.round(H * 0.8), SPEED = 300;
+  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.8), SPEED = 300;
   var svg = '<svg viewBox="0 0 80 100" aria-hidden="true">'
     + '<g class="m-leg l"><rect x="28" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="25" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
     + '<g class="m-leg r"><rect x="43" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="41" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
@@ -61,7 +61,7 @@
       pending = null;
     } else {
       var list = targets();
-      if (!list.length) { await tween(x, floor(), 300, id); return; }
+      if (!list.length) { var rx = 10 + Math.random() * (innerWidth - W - 20); body.classList.toggle('flip', rx < x); body.classList.add('walk'); await tween(rx, floor(), Math.abs(rx - x) / SPEED * 1000, id); body.classList.remove('walk'); return; }
       b = list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
     }
     var left = r.left > W + 10;
@@ -72,7 +72,7 @@
     if (!(await tween(tx, fy, Math.abs(tx - x) / SPEED * 1000, id))) return;
     body.classList.remove('walk', 'carry');
     if (fy - ty > 30) {
-      lad.style.left = (tx + W * 0.2) + 'px'; lad.style.top = (ty + H * 0.9) + 'px';
+      lad.style.left = (tx + W * 0.2) + 'px'; lad.style.width = Math.round(W * 0.38) + 'px'; lad.style.top = (ty + H * 0.9) + 'px';
       lad.style.height = (fy - ty) + 'px'; lad.classList.add('on');
       await wait(350);
       body.classList.add('walk');
@@ -80,7 +80,7 @@
       body.classList.remove('walk');
     }
     body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r);
-    await wait(1800);
+    await wait(1500);
     body.classList.remove('wipe'); if (b) b.classList.remove('m-clean');
     if (id !== run) return;
     if (y < fy - 1) {
@@ -89,7 +89,7 @@
       body.classList.remove('walk');
     }
     lad.classList.remove('on');
-    await wait(900);
+    await wait(150);
   }
   var scrolled = 0, lastY = scrollY;
   function reset() {
@@ -113,12 +113,12 @@
   }, true);
   addEventListener('resize', function () { y = floor(); place(); });
   (async function loop() {
-    await wait(1500);
+    await wait(500);
     while (run >= 0) {
       if (Date.now() - scrolled < 600 || document.hidden) { await wait(150); continue; }
       if (y < floor() - 1 && !lad.classList.contains('on')) { body.classList.add('walk', 'carry'); await tween(x, floor(), 250, ++run); }
       body.classList.remove('walk', 'carry');
-      await cycle(); await wait(400);
+      await cycle(); await wait(50);
     }
   })();
 })();
