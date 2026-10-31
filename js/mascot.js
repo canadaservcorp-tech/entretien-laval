@@ -5,17 +5,16 @@
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
   var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.7), SPEED = 150;
-  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><g fill="none" stroke="#0F2A44" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">'
-    + '<g class="m-leg l"><path d="M29 78v24M36 78v24"/><path d="M24 109v-4q0-3 3-3h10q3 0 3 3v4z"/></g>'
-    + '<g class="m-leg r"><path d="M44 78v24M51 78v24"/><path d="M40 109v-4q0-3 3-3h10q3 0 3 3v4z"/></g>'
-    + '<rect x="22" y="46" width="36" height="32" rx="10"/><rect x="29" y="52" width="22" height="13" rx="3"/><path d="M33 46v6M47 46v6"/>'
-    + '<circle cx="40" cy="30" r="17"/>'
-    + '<g class="m-front"><circle cx="34" cy="30" r="2.4" fill="#0F2A44" stroke="none"/><circle cx="46" cy="30" r="2.4" fill="#0F2A44" stroke="none"/><path d="M39 33q1.5 3 3 0"/><path d="M33 40q7-5 14 0"/><path d="M29 25l8 3.5M51 25l-8 3.5" stroke-width="3"/></g>'
-    + '<g class="m-side"><circle cx="49" cy="30" r="2.4" fill="#0F2A44" stroke="none"/><path d="M44 25l9 3" stroke-width="3"/><path d="M56 30q5 2 1 5"/><path d="M47 40q4-3 8-1"/><path d="M28 27q-4 3 0 7"/></g>'
-    + '<g class="m-steam" stroke="#9FB6CC" stroke-width="1.5"><circle cx="16" cy="14" r="4"/><circle cx="10" cy="7" r="3"/><circle cx="64" cy="10" r="3.5"/></g>'
-    + '<path d="M22 24q18-20 36 0z"/><rect x="38" y="20" width="26" height="5" rx="2.5"/>'
-    + '<g class="m-arm"><path d="M58 50h12M58 58h12"/><circle cx="72" cy="54" r="4.5"/>'
-    + '<path d="M65 40q16-6 19 9q3 15-12 18q-13 2-14-12z" fill="#E94F64" stroke="#B5283E"/><path d="M68 45l13 6M67 54l13 5M69 61l9 2" stroke="#F7C948" stroke-width="2.4"/></g>'
+  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><g fill="none" stroke="#0F2A44" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">'
+    + '<g class="m-leg l"><path d="M39 72L32 90L30 108M30 108h-6"/></g>'
+    + '<g class="m-leg r"><path d="M41 72L47 90L50 108M50 108h6"/></g>'
+    + '<path d="M40 38L40 72"/><path d="M40 46L31 58L28 70"/>'
+    + '<circle cx="40" cy="27" r="11"/>'
+    + '<g class="m-front"><circle cx="36" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><path d="M33 22l5 2.5M47 22l-5 2.5" stroke-width="2.2"/><path d="M36 33q4-3 8 0" stroke-width="2"/></g>'
+    + '<g class="m-side"><circle cx="46" cy="26" r="1.6" fill="#0F2A44" stroke="none"/><path d="M42 21.5l6 2.5" stroke-width="2.2"/><path d="M51 27l2 2.5l-2 .5" stroke-width="2"/><path d="M44 33q3-2 6-1" stroke-width="2"/></g>'
+    + '<g class="m-steam" stroke="#9FB6CC" stroke-width="1.5"><circle cx="22" cy="12" r="3.5"/><circle cx="16" cy="6" r="2.5"/><circle cx="60" cy="9" r="3"/></g>'
+    + '<g class="m-arm"><path d="M40 46L53 52L64 54"/>'
+    + '<path d="M58 42q16-6 19 9q3 15-12 18q-13 2-14-12z" fill="#E94F64" stroke="#B5283E" stroke-width="2"/><path d="M61 47l13 6M60 56l13 5M62 63l9 2" stroke="#F7C948" stroke-width="2.4"/></g>'
     + '</g></svg>';
   var m = document.createElement('div'); m.className = 'mascot'; m.style.width = W + 'px'; m.style.height = H + 'px';
   m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher le petit nettoyeur' : 'Hide the little cleaner') + '">×</button>';
