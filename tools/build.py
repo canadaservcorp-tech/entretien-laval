@@ -141,6 +141,7 @@ def footer(lang):
 </footer>
 <script>document.querySelectorAll('.mnav a').forEach(function(a){{a.addEventListener('click',function(){{a.closest('details').removeAttribute('open')}})}});</script>
 <script async src="https://www.ateliersurmesure.ca/t.js"></script>
+<script defer src="/js/mascot.js"></script>
 </body>
 </html>
 """
