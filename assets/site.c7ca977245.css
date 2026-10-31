@@ -516,3 +516,7 @@ footer{background:#0B2238}
 .mascot .m-name{position:absolute;left:50%;top:-16px;transform:translateX(-50%);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:700;color:#0F2A44;white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
 .mascot:hover .m-name,.mascot.named .m-name{opacity:1}
 @keyframes m-cross-leg{from{transform:rotate(-55deg)}to{transform:rotate(-15deg)}}
+.mascot .m-back{display:none}
+.mascot .m-body.climb:not(.wipe):not(.held) .m-back{display:inline}
+.mascot .m-body.climb:not(.wipe):not(.held) .m-front,.mascot .m-body.climb:not(.wipe):not(.held) .m-side{display:none}
+.mascot .m-body.flip .m-back text{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
