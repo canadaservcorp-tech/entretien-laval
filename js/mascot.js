@@ -10,7 +10,7 @@
     + '<g class="m-leg r"><g class="m-th"><path d="M41 72L43 90"/><g class="m-sh"><path d="M43 90L43 108"/><g class="m-ft"><path d="M43 108h7"/></g></g></g></g>'
     + '<path d="M40 38V48"/><g class="m-belly"><ellipse cx="41" cy="60" rx="10.5" ry="12.5"/><circle cx="43" cy="61" r=".9" fill="#0F2A44" stroke="none"/></g><g class="m-arm2"><path d="M40 46L29 57"/><g class="m-fa"><path d="M29 57L28 69"/></g></g>'
     + '<circle cx="40" cy="27" r="11"/>'
-    + '<g class="m-front"><circle cx="36" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><path d="M33 22l5 2.5M47 22l-5 2.5" stroke-width="2.2"/><path d="M36 33q4-3 8 0" stroke-width="2"/></g>'
+    + '<g class="m-front"><circle cx="36" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><path d="M33 22l5 2.5M47 22l-5 2.5" stroke-width="2.2"/><path class="m-mouth" d="M36 33q4-3 8 0" stroke-width="2"/><ellipse class="m-oh" cx="40" cy="33" rx="2.2" ry="2.8" stroke-width="1.6"/></g>'
     + '<g class="m-side"><circle cx="46" cy="26" r="1.6" fill="#0F2A44" stroke="none"/><path d="M42 21.5l6 2.5" stroke-width="2.2"/><path d="M51 27l2 2.5l-2 .5" stroke-width="2"/><path d="M44 33q3-2 6-1" stroke-width="2"/></g>'
     + '<g class="m-hat"><path d="M29.5 18q0-11 10.5-11q10.5 0 10.5 11z"/><path d="M27 18h31"/><path d="M33 13.5q7-2.5 14 0" stroke-width="1.4"/></g>'
     + '<g class="m-steam" stroke="#9FB6CC" stroke-width="1.5"><circle cx="22" cy="12" r="3.5"/><circle cx="16" cy="6" r="2.5"/><circle cx="60" cy="9" r="3"/></g>'

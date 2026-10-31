@@ -274,3 +274,20 @@ footer{background:#0B2238}
 .mascot .m-body.held .m-hat{animation:m-hat .25s ease-in-out infinite alternate}
 @keyframes m-jiggle{0%,100%{transform:none}35%{transform:scale(1.06,.95)}70%{transform:scale(.97,1.04)}}
 @keyframes m-hat{from{transform:translateY(-1px) rotate(-6deg)}to{transform:translateY(-3px) rotate(6deg)}}
+.mascot .m-oh{display:none}
+.mascot .m-body.held .m-oh{display:inline}.mascot .m-body.held .m-mouth{display:none}
+.mascot .m-body.held svg{animation:m-dangle .35s ease-in-out infinite alternate}
+.mascot .m-body.held .m-leg.l .m-th{animation:m-pedal-hip .42s linear infinite}
+.mascot .m-body.held .m-leg.r .m-th{animation:m-pedal-hip .42s linear -.21s infinite}
+.mascot .m-body.held .m-leg.l .m-sh{animation:m-pedal-knee .42s linear infinite}
+.mascot .m-body.held .m-leg.r .m-sh{animation:m-pedal-knee .42s linear -.21s infinite}
+.mascot .m-body.held .m-ft{animation:m-pedal-ankle .21s ease-in-out infinite alternate}
+.mascot .m-body.held .m-arm2{transform:none;animation:m-flail .3s ease-in-out infinite alternate}
+.mascot .m-body.held .m-fa{animation:m-flail-fa .3s ease-in-out -.15s infinite alternate}
+.mascot .m-body.held .m-arm{transform-origin:40px 46px;animation:m-flail-r .34s ease-in-out infinite alternate}
+@keyframes m-pedal-hip{0%{transform:rotate(-45deg)}25%{transform:rotate(-10deg)}50%{transform:rotate(30deg)}75%{transform:rotate(-5deg)}100%{transform:rotate(-45deg)}}
+@keyframes m-pedal-knee{0%{transform:rotate(10deg)}25%{transform:rotate(70deg)}50%{transform:rotate(20deg)}75%{transform:rotate(0)}100%{transform:rotate(10deg)}}
+@keyframes m-pedal-ankle{from{transform:rotate(-25deg)}to{transform:rotate(25deg)}}
+@keyframes m-flail{from{transform:rotate(60deg)}to{transform:rotate(150deg)}}
+@keyframes m-flail-fa{from{transform:rotate(-40deg)}to{transform:rotate(30deg)}}
+@keyframes m-flail-r{from{transform:rotate(-35deg)}to{transform:rotate(25deg)}}
