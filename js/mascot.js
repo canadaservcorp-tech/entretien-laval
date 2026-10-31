@@ -4,10 +4,10 @@
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
-  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.8), SPEED = 150;
-  var svg = '<svg viewBox="0 0 80 100" aria-hidden="true">'
-    + '<g class="m-leg l"><rect x="28" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="25" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
-    + '<g class="m-leg r"><rect x="43" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="41" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
+  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.7), SPEED = 150;
+  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true">'
+    + '<g class="m-leg l"><rect x="28" y="72" width="9" height="34" rx="4" fill="#0E4C82"/><rect x="24" y="102" width="17" height="8" rx="4" fill="#0F2A44"/></g>'
+    + '<g class="m-leg r"><rect x="43" y="72" width="9" height="34" rx="4" fill="#0E4C82"/><rect x="40" y="102" width="17" height="8" rx="4" fill="#0F2A44"/></g>'
     + '<rect x="22" y="46" width="36" height="32" rx="10" fill="#1E7FC0"/><rect x="29" y="52" width="22" height="14" rx="3" fill="#1565A8"/>'
     + '<circle cx="40" cy="30" r="17" fill="#F6CFA8"/><circle cx="34" cy="30" r="2.6" fill="#0F2A44"/><circle cx="46" cy="30" r="2.6" fill="#0F2A44"/>'
     + '<path d="M33 40q7-5 14 0" stroke="#0F2A44" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M29 25l8 3.5M51 25l-8 3.5" stroke="#0F2A44" stroke-width="3" stroke-linecap="round"/><g class="m-steam" fill="#fff" stroke="#9FB6CC" stroke-width="1.5"><circle cx="16" cy="14" r="4"/><circle cx="10" cy="7" r="3"/><circle cx="64" cy="10" r="3.5"/></g><circle cx="29" cy="35" r="3" fill="#F2A0A0" opacity=".7"/><circle cx="51" cy="35" r="3" fill="#F2A0A0" opacity=".7"/>'
