@@ -361,3 +361,61 @@ footer{padding-bottom:90px}
 .oerr{margin:16px 0 0;padding:12px 14px;border-left:3px solid var(--rust);background:var(--paper-2);border-radius:0 9px 9px 0;font-size:14.5px}
 #paypal-buttons{margin-top:20px;max-width:420px}
 .pbox .btn+.btn{margin-top:8px}
+:root{--paper:#F3F8FC;--paper-2:#FFFFFF;--ink:#0F2A44;--ink-soft:#3D5770;--olive:#1565A8;--olive-deep:#0E4C82;--rust:#1E7FC0;--muted:#6A8299;--line:#DBE7F1;--line-2:#C3D6E6}
+.eyebrow{color:#1E7FC0}
+header{background:rgba(243,248,252,.9)}
+.btn-primary{box-shadow:0 8px 22px -10px rgba(21,101,168,.75)}
+.imgband .veil{background:linear-gradient(90deg,rgba(11,34,56,.88),rgba(11,34,56,.5) 58%,rgba(11,34,56,.1))}
+footer{background:#0B2238}
+.hero{background:radial-gradient(1100px 520px at 85% 0,#D9ECFA 0,transparent 62%);overflow:hidden;padding-bottom:120px}
+.hero>.wrap{position:relative;z-index:1}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:100px;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath fill='%23BFDDF3' d='M0 52C240 104 480 4 720 46s480 38 720-6v80H0z'/%3E%3Cpath fill='%2390C4EA' fill-opacity='.45' d='M0 74c260 40 520-34 760-4s460 40 680 0v54H0z'/%3E%3Cpath fill='%23F3F8FC' d='M0 92c260 28 520-28 760 0s460 24 680 0v28H0z'/%3E%3C/svg%3E") bottom/100% 100% no-repeat}
+#parcours{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='40' viewBox='0 0 160 40'%3E%3Cpath d='M0 20c20-12 60-12 80 0s60 12 80 0' fill='none' stroke='%231E7FC0' stroke-opacity='.08' stroke-width='2'/%3E%3C/svg%3E") repeat}
+.local{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 8px;margin-bottom:16px}
+.local img{height:18px;width:auto;border-radius:2px;box-shadow:0 0 0 1px rgba(15,42,68,.12)}
+.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}
+.jstep{background:var(--paper-2);border:1px solid var(--line);border-radius:14px;padding:20px}
+.jstep .num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--rust);letter-spacing:.14em}
+.jstep h3{font-size:19px;margin:8px 0 6px}
+.jstep p{font-size:15px;color:var(--ink-soft)}
+.action{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.action .frame img{width:100%;height:auto;display:block}
+.action figcaption{font-size:14.5px;color:var(--ink-soft);margin-top:10px}
+.illus{font-size:12.5px;color:var(--muted);margin-top:12px}
+.specs{overflow-x:auto;margin-top:34px}
+.specs table{width:100%;min-width:560px;border-collapse:collapse;background:var(--paper-2);border:1px solid var(--line)}
+.specs th,.specs td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;font-size:15px;vertical-align:top}
+.specs thead th{background:#E4F0FA;font-family:'Archivo',sans-serif;font-size:16px}
+.specs tbody th{font-weight:600;color:var(--ink);width:26%}
+.visits{display:inline-flex;align-items:center;gap:9px;margin-top:20px;font-size:14px;color:var(--ink-soft);background:var(--paper-2);border:1px solid var(--line);border-radius:999px;padding:7px 15px}
+.visits[hidden]{display:none}
+.visits .dot{width:8px;height:8px;border-radius:50%;background:#2BB673;box-shadow:0 0 0 4px rgba(43,182,115,.18)}
+@media(max-width:860px){.journey{grid-template-columns:1fr 1fr}.action{grid-template-columns:1fr}}
+@media(max-width:520px){.journey{grid-template-columns:1fr}}
+.mascot{position:fixed;left:0;top:0;z-index:55;pointer-events:none;will-change:transform}
+.mascot .m-body{width:100%;height:100%}
+.mascot svg{width:100%;height:100%;display:block;overflow:visible}
+.mascot .m-body.flip svg{transform:scaleX(-1)}
+.mascot .m-body.walk svg{animation:m-bob .32s ease-in-out infinite alternate}
+.mascot .m-body.walk .m-leg.l{animation:m-step .32s ease-in-out infinite alternate;transform-origin:32px 74px}
+.mascot .m-body.walk .m-leg.r{animation:m-step .32s ease-in-out infinite alternate-reverse;transform-origin:47px 74px}
+.mascot .m-body.wipe .m-arm{animation:m-wipe .28s ease-in-out infinite alternate;transform-origin:54px 54px}
+.mascot .m-close{pointer-events:auto;position:absolute;top:-6px;left:-6px;width:20px;height:20px;border-radius:50%;border:1px solid var(--line-2);background:#fff;color:var(--ink-soft);font-size:13px;line-height:1;cursor:pointer;opacity:.85;padding:0}
+.m-ladder{position:fixed;z-index:54;width:22px;height:0;pointer-events:none;opacity:0;transition:opacity .25s;border-left:3px solid #B0703A;border-right:3px solid #B0703A;background:repeating-linear-gradient(to bottom,transparent 0 9px,#C98A4B 9px 12px)}
+.m-ladder.on{opacity:1}
+.m-clean{box-shadow:0 0 0 3px rgba(30,127,192,.25),0 0 22px rgba(144,196,234,.9)!important}
+.m-spark{position:fixed;z-index:56;color:#7FC3F0;font-size:16px;pointer-events:none;animation:m-spark 1.2s ease-out forwards;opacity:0}
+@keyframes m-bob{to{transform:translateY(-3px)}}
+@keyframes m-step{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+@keyframes m-wipe{from{transform:rotate(-22deg) translateY(-3px)}to{transform:rotate(18deg) translateY(4px)}}
+@keyframes m-spark{0%{opacity:0;transform:scale(.4)}30%{opacity:1}100%{opacity:0;transform:translateY(-18px) scale(1.2)}}
+.mascot .m-carry{display:none;position:absolute;left:-30%;top:18%;width:160%;height:12px;border-top:3px solid #B0703A;border-bottom:3px solid #B0703A;background:repeating-linear-gradient(to right,transparent 0 8px,#C98A4B 8px 11px);transform:rotate(-8deg)}
+.mascot .m-body.carry .m-carry{display:block}
+.mascot .m-body.carry .m-arm{transform:rotate(-70deg);transform-origin:54px 54px}
+.mascot .m-steam{opacity:0}
+.mascot .m-body.wipe svg{animation:m-wiggle .2s ease-in-out infinite alternate;transform-origin:40px 95px}
+.mascot .m-body.wipe.flip svg{animation-name:m-wiggle-f}
+.mascot .m-body.wipe .m-steam{animation:m-steam .9s ease-out infinite}
+@keyframes m-wiggle{from{transform:rotate(-7deg) translateY(0)}to{transform:rotate(7deg) translateY(-4px)}}
+@keyframes m-wiggle-f{from{transform:scaleX(-1) rotate(-7deg)}to{transform:scaleX(-1) rotate(7deg) translateY(-4px)}}
+@keyframes m-steam{0%{opacity:0;transform:translateY(4px)}40%{opacity:1}100%{opacity:0;transform:translateY(-8px)}}
