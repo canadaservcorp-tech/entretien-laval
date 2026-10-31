@@ -4,10 +4,10 @@
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
-  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.8), SPEED = 300;
-  var svg = '<svg viewBox="0 0 80 100" aria-hidden="true">'
-    + '<g class="m-leg l"><rect x="28" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="25" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
-    + '<g class="m-leg r"><rect x="43" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="41" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
+  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.7), SPEED = 150;
+  var svg = '<svg viewBox="0 0 80 114" aria-hidden="true">'
+    + '<g class="m-leg l"><rect x="28" y="72" width="9" height="34" rx="4" fill="#0E4C82"/><rect x="24" y="102" width="17" height="8" rx="4" fill="#0F2A44"/></g>'
+    + '<g class="m-leg r"><rect x="43" y="72" width="9" height="34" rx="4" fill="#0E4C82"/><rect x="40" y="102" width="17" height="8" rx="4" fill="#0F2A44"/></g>'
     + '<rect x="22" y="46" width="36" height="32" rx="10" fill="#1E7FC0"/><rect x="29" y="52" width="22" height="14" rx="3" fill="#1565A8"/>'
     + '<circle cx="40" cy="30" r="17" fill="#F6CFA8"/><circle cx="34" cy="30" r="2.6" fill="#0F2A44"/><circle cx="46" cy="30" r="2.6" fill="#0F2A44"/>'
     + '<path d="M33 40q7-5 14 0" stroke="#0F2A44" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M29 25l8 3.5M51 25l-8 3.5" stroke="#0F2A44" stroke-width="3" stroke-linecap="round"/><g class="m-steam" fill="#fff" stroke="#9FB6CC" stroke-width="1.5"><circle cx="16" cy="14" r="4"/><circle cx="10" cy="7" r="3"/><circle cx="64" cy="10" r="3.5"/></g><circle cx="29" cy="35" r="3" fill="#F2A0A0" opacity=".7"/><circle cx="51" cy="35" r="3" fill="#F2A0A0" opacity=".7"/>'
@@ -38,6 +38,19 @@
       })(t0);
     });
   }
+  // rung by rung: one foot and one hand go up, short pause, then the other side
+  async function climb(ty, id) {
+    var step = H * 0.2;
+    body.classList.add('climb');
+    while (Math.abs(y - ty) > 0.5) {
+      body.classList.toggle('rung');
+      var ny = y > ty ? Math.max(ty, y - step) : Math.min(ty, y + step);
+      if (!(await tween(x, ny, 160, id))) { body.classList.remove('climb', 'rung'); return false; }
+      await wait(40);
+    }
+    body.classList.remove('climb', 'rung');
+    return true;
+  }
   function sparkle(r) {
     for (var i = 0; i < 4; i++) {
       var s = document.createElement('span'); s.className = 'm-spark'; s.textContent = '✦';
@@ -48,12 +61,13 @@
   }
   function targets() {
     var top = 80, bot = innerHeight - 10;
-    return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn'), function (b) {
+    return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn, .chip, .prod, .card, .jstep, main h2, main h3, main img, main th'), function (b) {
       var r = b.getBoundingClientRect();
-      return r.width > 0 && r.top > top && r.bottom < bot && b !== last;
+      return r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
-  var pending = null;
+  var pending = null, justScrolled = false;
+  function dist(e) { var r = e.getBoundingClientRect(); return Math.abs(r.left - x) + (innerHeight - r.bottom) * 1.5; }
   async function cycle() {
     var id = ++run, b = null, r;
     if (pending) {
@@ -61,8 +75,15 @@
       pending = null;
     } else {
       var list = targets();
-      if (!list.length) { var rx = 10 + Math.random() * (innerWidth - W - 20); body.classList.toggle('flip', rx < x); body.classList.add('walk'); await tween(rx, floor(), Math.abs(rx - x) / SPEED * 1000, id); body.classList.remove('walk'); return; }
-      b = list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
+      if (list.length) {
+        // right after a scroll he grabs the closest thing to clean; otherwise any visible one
+        if (justScrolled) list.sort(function (a, c) { return dist(a) - dist(c); });
+        b = justScrolled ? list[0] : list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
+      } else {
+        var sx = 40 + Math.random() * (innerWidth - 80), sy = innerHeight * (0.3 + Math.random() * 0.3);
+        r = { left: sx - 30, right: sx + 30, top: sy - 14, height: 28, width: 60 };
+      }
+      justScrolled = false;
     }
     var left = r.left > W + 10;
     var tx = left ? r.left - W + 6 : Math.min(r.right - 6, innerWidth - W - 4);
@@ -75,33 +96,27 @@
       lad.style.left = (tx + W * 0.2) + 'px'; lad.style.width = Math.round(W * 0.38) + 'px'; lad.style.top = (ty + H * 0.9) + 'px';
       lad.style.height = (fy - ty) + 'px'; lad.classList.add('on');
       await wait(350);
-      body.classList.add('walk');
-      if (!(await tween(tx, ty, (fy - ty) / 140 * 1000, id))) return;
-      body.classList.remove('walk');
+      if (!(await climb(ty, id))) return;
     }
     body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r);
     await wait(1500);
     body.classList.remove('wipe'); if (b) b.classList.remove('m-clean');
     if (id !== run) return;
-    if (y < fy - 1) {
-      body.classList.add('walk');
-      if (!(await tween(tx, fy, (fy - y) / 220 * 1000, id))) return;
-      body.classList.remove('walk');
-    }
+    if (y < fy - 1 && !(await climb(fy, id))) return;
     lad.classList.remove('on');
     await wait(150);
   }
   var scrolled = 0, lastY = scrollY;
   function reset() {
-    run++; lad.classList.remove('on'); body.classList.remove('wipe');
+    run++; lad.classList.remove('on'); body.classList.remove('wipe', 'climb', 'rung');
     document.querySelectorAll('.m-clean').forEach(function (e) { e.classList.remove('m-clean'); });
   }
   // the visitor scrolls: he runs along with them, ladder on his shoulder
   addEventListener('scroll', function () {
-    var d = scrollY - lastY; lastY = scrollY; scrolled = Date.now();
+    var d = scrollY - lastY; lastY = scrollY; scrolled = Date.now(); justScrolled = true;
     reset(); body.classList.add('walk', 'carry');
     if (Math.abs(d) > 2) body.classList.toggle('flip', d < 0);
-    x = Math.max(4, Math.min(x + (d > 0 ? 1.5 : -1.5), innerWidth - W - 4));
+    x = Math.max(4, Math.min(x + (d > 0 ? 0.75 : -0.75), innerWidth - W - 4));
     y = floor() - Math.min(26, Math.abs(d) * 0.35); place();
   }, { passive: true });
   // the visitor clicks: he goes there and cleans that spot
