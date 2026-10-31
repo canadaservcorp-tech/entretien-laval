@@ -453,12 +453,12 @@ footer{background:#0B2238}
 @keyframes m-dangle{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
 @keyframes m-kick{from{transform:rotate(-30deg)}to{transform:rotate(28deg)}}
 @keyframes m-land{0%{transform:scale(1.08,.82)}55%{transform:scale(.96,1.06)}100%{transform:none}}
-.mascot .m-belly{transform-origin:41px 72px}
-.mascot .m-body.walk:not(.climb) .m-belly{animation:m-jiggle .45s ease-in-out infinite}
+.mascot .m-belly{transform-origin:41px 74px}
+.mascot .m-body.walk:not(.climb) .m-belly{animation:m-jiggle .45s ease-in-out infinite;will-change:transform}
 .mascot .m-body.wipe .m-belly,.mascot .m-body.held .m-belly{animation:m-jiggle .2s ease-in-out infinite}
 .mascot .m-hat{transform-origin:40px 18px}
 .mascot .m-body.held .m-hat{animation:m-hat .25s ease-in-out infinite alternate}
-@keyframes m-jiggle{0%,100%{transform:none}35%{transform:scale(1.06,.95)}70%{transform:scale(.97,1.04)}}
+@keyframes m-jiggle{0%,100%{transform:none}25%{transform:translateY(1.5px) scale(1.13,.88)}55%{transform:translateY(-2px) scale(.93,1.09)}80%{transform:scale(1.05,.96)}}
 @keyframes m-hat{from{transform:translateY(-1px) rotate(-6deg)}to{transform:translateY(-3px) rotate(6deg)}}
 .mascot .m-oh{display:none}
 .mascot .m-body.held .m-oh{display:inline}.mascot .m-body.held .m-mouth{display:none}
@@ -506,9 +506,9 @@ footer{background:#0B2238}
 @keyframes m-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 @keyframes m-zzz{0%{opacity:0;transform:translate(0,4px)}25%{opacity:1}100%{opacity:0;transform:translate(3px,-6px)}}
 @keyframes m-wake{0%{transform:translateY(0) scaleY(.9)}40%{transform:translateY(-16%) scaleY(1.05)}100%{transform:translateY(0)}}
-.mascot .m-name{position:absolute;left:50%;top:-16px;transform:translateX(-50%);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:700;color:#0F2A44;white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
+.mascot .m-name{position:absolute;left:50%;top:-16px;transform:translateX(-50%);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:800;color:#D62839;white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
 .mascot:hover .m-name,.mascot.named .m-name{opacity:1}
 .mascot .m-body.climb:not(.wipe):not(.held) .m-front,.mascot .m-body.climb:not(.wipe):not(.held) .m-side{display:none}
-.mascot .m-body.flip .m-shirt{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
+.mascot .m-body.flip .m-shirt text{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
 @keyframes m-swing{from{transform:rotate(-7deg)}to{transform:rotate(6deg)}}
 @keyframes m-tap{from{transform:rotate(-7deg)}to{transform:rotate(14deg)}}
