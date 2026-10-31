@@ -6,9 +6,9 @@
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
   var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.7), SPEED = 150;
   var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><g fill="none" stroke="#0F2A44" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">'
-    + '<g class="m-leg l"><path d="M39 72L32 90L30 108M30 108h-6"/></g>'
-    + '<g class="m-leg r"><path d="M41 72L47 90L50 108M50 108h6"/></g>'
-    + '<path d="M40 38L40 72"/><path d="M40 46L31 58L28 70"/>'
+    + '<g class="m-leg l"><g class="m-th"><path d="M39 72L37 90"/><g class="m-sh"><path d="M37 90L37 108"/><g class="m-ft"><path d="M37 108h7"/></g></g></g></g>'
+    + '<g class="m-leg r"><g class="m-th"><path d="M41 72L43 90"/><g class="m-sh"><path d="M43 90L43 108"/><g class="m-ft"><path d="M43 108h7"/></g></g></g></g>'
+    + '<path d="M40 38L40 72"/><g class="m-arm2"><path d="M40 46L36 58"/><g class="m-fa"><path d="M36 58L37 70"/></g></g>'
     + '<circle cx="40" cy="27" r="11"/>'
     + '<g class="m-front"><circle cx="36" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><path d="M33 22l5 2.5M47 22l-5 2.5" stroke-width="2.2"/><path d="M36 33q4-3 8 0" stroke-width="2"/></g>'
     + '<g class="m-side"><circle cx="46" cy="26" r="1.6" fill="#0F2A44" stroke="none"/><path d="M42 21.5l6 2.5" stroke-width="2.2"/><path d="M51 27l2 2.5l-2 .5" stroke-width="2"/><path d="M44 33q3-2 6-1" stroke-width="2"/></g>'
