@@ -4,7 +4,7 @@
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
-  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.8), SPEED = 300;
+  var H = innerWidth < 600 ? 82 : 100, W = Math.round(H * 0.8), SPEED = 150;
   var svg = '<svg viewBox="0 0 80 100" aria-hidden="true">'
     + '<g class="m-leg l"><rect x="28" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="25" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
     + '<g class="m-leg r"><rect x="43" y="72" width="9" height="20" rx="4" fill="#0E4C82"/><rect x="41" y="88" width="15" height="7" rx="3.5" fill="#0F2A44"/></g>'
@@ -116,7 +116,7 @@
     var d = scrollY - lastY; lastY = scrollY; scrolled = Date.now(); justScrolled = true;
     reset(); body.classList.add('walk', 'carry');
     if (Math.abs(d) > 2) body.classList.toggle('flip', d < 0);
-    x = Math.max(4, Math.min(x + (d > 0 ? 1.5 : -1.5), innerWidth - W - 4));
+    x = Math.max(4, Math.min(x + (d > 0 ? 0.75 : -0.75), innerWidth - W - 4));
     y = floor() - Math.min(26, Math.abs(d) * 0.35); place();
   }, { passive: true });
   // the visitor clicks: he goes there and cleans that spot
