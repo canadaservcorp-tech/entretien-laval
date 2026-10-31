@@ -17,10 +17,12 @@
     + '<g class="m-hat"><path d="M29.5 18q0-11 10.5-11q10.5 0 10.5 11z"/><path d="M27 18h31"/><path d="M33 13.5q7-2.5 14 0" stroke-width="1.4"/></g>'
     + '<g class="m-steam" stroke="#9FB6CC" stroke-width="1.5"><circle cx="22" cy="12" r="3.5"/><circle cx="16" cy="6" r="2.5"/><circle cx="60" cy="9" r="3"/></g>'
     + '<g class="m-arm"><path d="M40 46L53 52L64 54"/>'
-    + '<path d="M58 42q16-6 19 9q3 15-12 18q-13 2-14-12z" fill="#E94F64" stroke="#B5283E" stroke-width="2"/><path d="M61 47l13 6M60 56l13 5M62 63l9 2" stroke="#F7C948" stroke-width="2.4"/></g>'
+    + '<g class="m-rag"><path d="M60.5 51q4.5-4 9.5 0q2 3 4 7q4 8 3.5 18l-2.6-1.6-1.6 3-2.6-1.8-1.8 3-2.6-2-1.8 3-2.4-2.2-2 2.6q-2.5-9-.6-17q1-4 1.8-9.6z" fill="#E94F64" stroke="#B5283E" stroke-width="1.6"/>'
+    + '<path d="M64 56q-1.5 9 .5 18M68 55q3 8 3 17M61.5 61q2 5 1 10" stroke="#B5283E" stroke-width="1.1"/><path d="M62 58l11 3M61.5 66l13 2" stroke="#F7C948" stroke-width="1.8"/>'
+    + '<path d="M60 50q5-4 11 0q-1 3-5.5 3q-4.5 0-5.5-3z" fill="#D63F55" stroke="#B5283E" stroke-width="1.4"/></g><circle cx="65" cy="52" r="3.2" fill="#fff"/></g>'
     + '</g></svg>';
   var m = document.createElement('div'); m.className = 'mascot'; m.style.width = W + 'px'; m.style.height = H + 'px';
-  m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher le petit nettoyeur' : 'Hide the little cleaner') + '">×</button>';
+  m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher le petit nettoyeur' : 'Hide the little cleaner') + '">×</button><button type="button" class="m-snd" aria-label="' + (fr ? 'Son du petit nettoyeur' : 'Little cleaner sound') + '">♪</button>';
   var lad = document.createElement('div'); lad.className = 'm-ladder';
   document.body.appendChild(lad); document.body.appendChild(m);
   var body = m.firstChild, x = 16, y = 0, run = 0, last = null;
@@ -32,6 +34,32 @@
   m.querySelector('.m-close').addEventListener('click', function () {
     run = -1; m.remove(); lad.remove(); try { localStorage.setItem('el-mascot-off', '1'); } catch (e) {}
   });
+  // glass-wiping squeak made with Web Audio (no file); browsers only allow sound after the visitor taps or clicks once
+  var ac = null, snd = true;
+  try { snd = localStorage.getItem('el-mascot-sound') !== '0'; } catch (e) {}
+  var sb = m.querySelector('.m-snd'); sb.classList.toggle('off', !snd); sb.setAttribute('aria-pressed', snd);
+  function unlock() {
+    var A = window.AudioContext || window.webkitAudioContext;
+    if (!A) return;
+    try { if (!ac) ac = new A(); if (ac.state === 'suspended') ac.resume(); } catch (e) {}
+  }
+  addEventListener('pointerdown', unlock, true); addEventListener('keydown', unlock, true);
+  sb.addEventListener('click', function () {
+    snd = !snd; sb.classList.toggle('off', !snd); sb.setAttribute('aria-pressed', snd);
+    try { localStorage.setItem('el-mascot-sound', snd ? '1' : '0'); } catch (e) {}
+  });
+  function squeak(ms) {
+    if (!snd || !ac || ac.state !== 'running') return;
+    var t = ac.currentTime + 0.02, n = Math.floor(ms / 280);
+    for (var i = 0; i < n; i++) {
+      var o = ac.createOscillator(), v = ac.createOscillator(), vg = ac.createGain(), g = ac.createGain(), s0 = t + i * 0.28 + Math.random() * 0.03, d = 0.11 + Math.random() * 0.05, f = 1500 + Math.random() * 500;
+      o.type = 'triangle'; o.frequency.setValueAtTime(f, s0); o.frequency.linearRampToValueAtTime(f * (i % 2 ? 0.8 : 1.35), s0 + d);
+      v.frequency.value = 38; vg.gain.value = 90; v.connect(vg); vg.connect(o.frequency);
+      g.gain.setValueAtTime(0, s0); g.gain.linearRampToValueAtTime(0.045, s0 + 0.02); g.gain.linearRampToValueAtTime(0.03, s0 + d - 0.03); g.gain.linearRampToValueAtTime(0, s0 + d);
+      o.connect(g); g.connect(ac.destination);
+      o.start(s0); v.start(s0); o.stop(s0 + d + 0.02); v.stop(s0 + d + 0.02);
+    }
+  }
   var wait = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
   function tween(tx, ty, ms, id) {
     return new Promise(function (res) {
@@ -113,7 +141,7 @@
       await wait(350);
       if (!(await climb(ty, id))) return;
     }
-    body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r);
+    body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r); squeak(1500);
     await wait(1500);
     body.classList.remove('wipe'); if (b) b.classList.remove('m-clean');
     if (id !== run) return;
