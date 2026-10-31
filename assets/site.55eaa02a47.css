@@ -512,3 +512,5 @@ footer{background:#0B2238}
 @keyframes m-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
 @keyframes m-zzz{0%{opacity:0;transform:translate(0,4px)}25%{opacity:1}100%{opacity:0;transform:translate(3px,-6px)}}
 @keyframes m-wake{0%{transform:translateY(0) scaleY(.9)}40%{transform:translateY(-16%) scaleY(1.05)}100%{transform:translateY(0)}}
+.mascot .m-name{position:absolute;left:50%;top:-16px;transform:translateX(-50%);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:700;color:#0F2A44;white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
+.mascot:hover .m-name,.mascot.named .m-name{opacity:1}

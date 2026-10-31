@@ -1,4 +1,4 @@
-/* "Petit nettoyeur": a cartoon cleaner who walks to the buttons on screen, climbs a small ladder and wipes them with a rag. */
+/* "Saleem, le petit nettoyeur": a cartoon cleaner who walks to the buttons on screen, climbs a small ladder and wipes them with a rag. */
 (function () {
   if (!window.requestAnimationFrame || !document.querySelector) return;
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -25,7 +25,8 @@
     + '<path d="M60 50q5-4 11 0q-1 3-5.5 3q-4.5 0-5.5-3z" fill="#D63F55" stroke="#B5283E" stroke-width="1.4"/></g><circle cx="65" cy="52" r="3.2" fill="#fff"/></g>'
     + '</g></svg>';
   var m = document.createElement('div'); m.className = 'mascot'; m.style.width = W + 'px'; m.style.height = H + 'px';
-  m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher le petit nettoyeur' : 'Hide the little cleaner') + '">×</button><button type="button" class="m-snd" aria-label="' + (fr ? 'Son du petit nettoyeur' : 'Little cleaner sound') + '">♪</button>';
+  m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher Saleem, le petit nettoyeur' : 'Hide Saleem, the little cleaner') + '">×</button><button type="button" class="m-snd" aria-label="' + (fr ? 'Son de Saleem' : 'Saleem sound') + '">♪</button><span class="m-name" aria-hidden="true">Saleem</span>';
+  m.firstChild.title = fr ? 'Saleem, le petit nettoyeur' : 'Saleem, the little cleaner';
   var lad = document.createElement('div'); lad.className = 'm-ladder';
   document.body.appendChild(lad); document.body.appendChild(m);
   var body = m.firstChild, x = 16, y = 0, run = 0, last = null;
@@ -63,6 +64,24 @@
       o.start(s0); v.start(s0); o.stop(s0 + d + 0.02); v.stop(s0 + d + 0.02);
     }
   }
+  // original sneaky-jazz walking tune (tiptoe bass + muted melody), only while he walks and sound is on
+  var BEAT = 0.45, BASS = [40, 43, 45, 46, 47, 45, 43, 40],
+    MEL = [[0, .5], [71, .5], [74, .5], [76, 1], [0, .5], [79, .5], [78, .5], [74, .5], [76, 1.5], [0, 1.5],
+      [0, .5], [69, .5], [71, .5], [72, .5], [71, .5], [70, .5], [69, .5], [67, .5], [64, 1.5], [0, .5], [63, .5], [64, 1.5]],
+    mt = 0, bt = 0, mi = 0, bi = 0;
+  function tone(n, t, d, type, g) {
+    var o = ac.createOscillator(), e = ac.createGain();
+    o.type = type; o.frequency.value = 440 * Math.pow(2, (n - 69) / 12);
+    e.gain.setValueAtTime(0, t); e.gain.linearRampToValueAtTime(g, t + 0.012); e.gain.exponentialRampToValueAtTime(0.0005, t + d);
+    o.connect(e); e.connect(ac.destination); o.start(t); o.stop(t + d + 0.02);
+  }
+  setInterval(function () {
+    if (!snd || !ac || ac.state !== 'running' || document.hidden || !body.classList.contains('walk') || body.classList.contains('climb')) { mt = 0; return; }
+    var now = ac.currentTime;
+    if (!mt) { mt = bt = now + 0.05; mi = bi = 0; }
+    while (bt < now + 0.3) { tone(BASS[bi % 8], bt, 0.3, 'sine', 0.07); bt += BEAT; bi++; }
+    while (mt < now + 0.3) { var q = MEL[mi % MEL.length]; if (q[0]) tone(q[0], mt, q[1] * BEAT * 0.85, 'triangle', 0.03); mt += q[1] * BEAT; mi++; }
+  }, 100);
   var wait = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
   function tween(tx, ty, ms, id) {
     return new Promise(function (res) {
@@ -199,6 +218,7 @@
   body.addEventListener('pointerdown', function (e) {
     if (e.button > 0) return;
     e.preventDefault(); reset(); lad.classList.remove('on');
+    m.classList.add('named'); clearTimeout(m.nt); m.nt = setTimeout(function () { m.classList.remove('named'); }, 2500);
     drag = { dx: e.clientX - x, dy: e.clientY - y, id: e.pointerId, moved: false };
     try { body.setPointerCapture(e.pointerId); } catch (er) {}
     body.classList.remove('walk', 'carry', 'land'); body.classList.add('held');
