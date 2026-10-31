@@ -48,12 +48,12 @@
   }
   function targets() {
     var top = 80, bot = innerHeight - 10;
-    return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn'), function (b) {
+    return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn, .chip, .prod, .card, .jstep, main h2, main h3, main img, main th'), function (b) {
       var r = b.getBoundingClientRect();
-      return r.width > 0 && r.top > top && r.bottom < bot && b !== last;
+      return r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
-  var pending = null;
+  var pending = null, justScrolled = false;
   async function cycle() {
     var id = ++run, b = null, r;
     if (pending) {
@@ -61,8 +61,15 @@
       pending = null;
     } else {
       var list = targets();
-      if (!list.length) { var rx = 10 + Math.random() * (innerWidth - W - 20); body.classList.toggle('flip', rx < x); body.classList.add('walk'); await tween(rx, floor(), Math.abs(rx - x) / SPEED * 1000, id); body.classList.remove('walk'); return; }
-      b = list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
+      if (list.length) {
+        // right after a scroll he grabs the closest thing to clean; otherwise any visible one
+        if (justScrolled) list.sort(function (a, c) { return Math.abs(a.getBoundingClientRect().left - x) - Math.abs(c.getBoundingClientRect().left - x); });
+        b = justScrolled ? list[0] : list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
+      } else {
+        var sx = 40 + Math.random() * (innerWidth - 80), sy = innerHeight * (0.3 + Math.random() * 0.3);
+        r = { left: sx - 30, right: sx + 30, top: sy - 14, height: 28, width: 60 };
+      }
+      justScrolled = false;
     }
     var left = r.left > W + 10;
     var tx = left ? r.left - W + 6 : Math.min(r.right - 6, innerWidth - W - 4);
@@ -98,7 +105,7 @@
   }
   // the visitor scrolls: he runs along with them, ladder on his shoulder
   addEventListener('scroll', function () {
-    var d = scrollY - lastY; lastY = scrollY; scrolled = Date.now();
+    var d = scrollY - lastY; lastY = scrollY; scrolled = Date.now(); justScrolled = true;
     reset(); body.classList.add('walk', 'carry');
     if (Math.abs(d) > 2) body.classList.toggle('flip', d < 0);
     x = Math.max(4, Math.min(x + (d > 0 ? 1.5 : -1.5), innerWidth - W - 4));
