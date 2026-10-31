@@ -136,7 +136,7 @@ def footer(lang):
 {col(u['guides'], ['guide-huileux', 'guide-papier', 'guide-ratine', 'guide-ranger', 'glossaire', 'calculateur', 'faq'])}
 </div>
 <div class="ftop"><div class="legal">Entretien Laval · NEQ 2280629637 · TPS 783132566 RT0001 · TVQ 4054025241 TQ0001<br>309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4</div><div class="legal cityline">{u['delivery_to']} {" · ".join(f'<a href="{L(k, lang)}">{C.PAGES[k][lang]["short"]}</a>' for k in C.CITY_KEYS)}</div></div>
-<div class="fbot"><span>© {YEAR} Entretien Laval — Chiffons ÉCO / ECO Rags</span><span>{'Website by' if lang == 'en' else 'Site conçu par'} <a href="https://www.ateliersurmesure.ca">Atelier Sur Mesure</a></span><span><a href="{L('home', 'fr')}" lang="fr-CA">Français</a> · <a href="{L('home', 'en')}" lang="en-CA">English</a></span></div>
+<div class="fbot"><span>© {YEAR} Entretien Laval — Chiffons ÉCO / ECO Rags</span><span><a class="asm-credit" href="https://www.ateliersurmesure.ca" target="_blank" rel="noopener" style="display:inline-block;padding:6px 14px;border:1px solid currentColor;border-radius:999px;font-size:12px;font-weight:600;line-height:1.2;text-decoration:none;color:inherit;white-space:nowrap">{'Website by' if lang == 'en' else 'Site conçu par'} Atelier Sur Mesure</a></span><span><a href="{L('home', 'fr')}" lang="fr-CA">Français</a> · <a href="{L('home', 'en')}" lang="en-CA">English</a></span></div>
 </div>
 </footer>
 <script>document.querySelectorAll('.mnav a').forEach(function(a){{a.addEventListener('click',function(){{a.closest('details').removeAttribute('open')}})}});</script>
