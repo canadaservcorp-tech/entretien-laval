@@ -9,6 +9,7 @@
 <a class="btn btn-primary" data-i="hero_cta1" href="#contact">Demander la liste de prix</a>
 <a class="btn btn-ghost" data-i="hero_cta2" href="#grades">Voir les grades</a>
 </div>
+<p class="visits" id="visits" hidden><span class="dot"></span><span id="visits-t"></span></p>
 </div>
 <div class="hero-media">
 <div class="frame"><img alt="Balle compressée de Chiffons ÉCO en textiles recyclés" decoding="async" height="1200" src="/img/balle-compressee-de-chiffons-eco-en-textiles-recyc.webp" width="1200"/></div>
@@ -23,11 +24,23 @@
 </div>
 </div>
 </section>
+
+<!-- JOURNEY -->
+<section class="section" id="parcours">
+<div class="wrap">
+<div class="sec-head" style="margin-bottom:0">
+<div class="eyebrow">La dernière vie d'un vêtement</div>
+<h2>Avant de disparaître, un dernier service utile.</h2>
+<p>Un t-shirt ou une serviette trop usés pour être revendus finissent souvent à la poubelle. Nous leur donnons une dernière étape utile : devenir un chiffon qui travaille dans un garage, une usine ou sur un chantier, au lieu de partir directement à l'enfouissement.</p>
+</div>
+<div class="journey"><div class="jstep"><div class="num">01</div><h3>Porté</h3><p>Le vêtement sert des années, puis il est donné ou recyclé.</p></div><div class="jstep"><div class="num">02</div><h3>Récupéré</h3><p>Trop usé pour la revente, il est récupéré au lieu d'être jeté.</p></div><div class="jstep"><div class="num">03</div><h3>Préparé</h3><p>Métal et boutons retirés, lavé à l'eau chaude, traité anti-punaises, coupé prêt à l'emploi.</p></div><div class="jstep"><div class="num">04</div><h3>Dernier usage</h3><p>Il essuie l'huile, la graisse et la peinture, à la place du papier jetable.</p></div></div>
+</div>
+</section>
 <!-- WHY -->
 <section class="band" id="why">
 <div class="wrap">
 <div class="media-split">
-<div class="frame"><img alt="Symbole de recyclage formé de textiles colorés" decoding="async" height="776" loading="lazy" src="/img/symbole-de-recyclage-forme-de-textiles-colores.webp" width="1164"/></div>
+<div class="frame"><img alt="Vêtements de coton triés par couleur et coupés en chiffons" decoding="async" height="800" loading="lazy" src="/img/tri-vetements-coton-chiffons.webp" width="1200"/></div>
 <div class="sec-head" style="margin-bottom:0">
 <div class="eyebrow" data-i="why_eyebrow">Pourquoi recyclé</div>
 <h2 data-i="why_h2">Le même pouvoir d'essuyage, sans le gaspillage.</h2>
@@ -72,6 +85,22 @@
 </div></div>
 </div>
 </section>
+<!-- ACTION -->
+<section class="section" id="terrain">
+<div class="wrap">
+<div class="sec-head">
+<div class="eyebrow">Sur le terrain</div>
+<h2>Fait pour l'huile, la graisse et les gros dégâts.</h2>
+<p>Le t-shirt pour les mains et les outils, la ratine pour absorber l'huile et les déversements.</p>
+</div>
+<div class="action">
+<figure><div class="frame"><img alt="Mécanicien qui essuie l'huile sur ses mains avec un chiffon t-shirt de couleur" decoding="async" height="800" loading="lazy" src="/img/chiffon-garagiste-huile-mains.webp" width="1200"/></div><figcaption>T-shirt couleur : les mains et les outils</figcaption></figure>
+<figure><div class="frame"><img alt="Chiffon en ratine blanche qui essuie l'huile sur une pièce de moteur" decoding="async" height="800" loading="lazy" src="/img/chiffon-ratine-blanc-moteur.webp" width="1200"/></div><figcaption>Ratine blanche : l'huile sur les pièces</figcaption></figure>
+</div>
+<p class="illus">Photos d'illustration.</p>
+<div class="specs" id="fiche-technique"><h3 style="font-size:24px;margin-bottom:14px">Fiche technique : ratine ou t-shirt</h3><table><thead><tr><th></th><th>T-shirt (jersey)</th><th>Ratine (tissu éponge)</th></tr></thead><tbody><tr><th>Structure</th><td>Coton tricoté, lisse et souple</td><td>Coton bouclé, épais</td></tr><tr><th>Grammage (densité)</th><td>≈ 140 à 200 g/m²</td><td>≈ 350 à 550 g/m²</td></tr><tr><th>Épaisseur</th><td>≈ 0,5 à 0,8 mm</td><td>≈ 2 à 3 mm</td></tr><tr><th>Absorption d'eau</th><td>≈ 2 à 3 fois son poids</td><td>≈ 3 à 5 fois son poids</td></tr><tr><th>Peluches</th><td>Faibles</td><td>Moyennes</td></tr><tr><th>Résistance à l'usure</th><td>Moyenne</td><td>Élevée</td></tr><tr><th>Idéal pour</th><td>Mains, outils, surfaces, polissage, peinture (blanc)</td><td>Huile, graisse, eau, déversements, gros nettoyage</td></tr></tbody></table><p class="illus">Valeurs typiques du coton, à titre indicatif : elles varient d'un lot à l'autre.</p></div>
+</div>
+</section>
 <!-- FORMATS -->
 <section class="band" id="formats">
 <div class="wrap">
@@ -92,3 +121,4 @@
 <p class="mono" data-i="sp_note" style="font-size:13px;color:var(--muted);margin-top:16px">Autres formats et gros volumes sur demande — écrivez-nous pour vos besoins.</p>
 </div>
 </section>
+<script>(function(){var el=document.getElementById('visits');if(!el||!window.fetch)return;fetch('https://www.ateliersurmesure.ca/api/track/stats').then(function(r){return r.ok?r.json():null}).then(function(j){if(!j||j.month<20)return;var fr=(document.documentElement.lang||'').indexOf('fr')===0;document.getElementById('visits-t').textContent=fr?(j.month+' visites ces 30 derniers jours'+(j.today?' \u00b7 '+j.today+' aujourd\u2019hui':'')):(j.month+' visits in the last 30 days'+(j.today?' \u00b7 '+j.today+' today':''));el.hidden=false}).catch(function(){})})();</script>

@@ -9,6 +9,7 @@
 <a class="btn btn-primary" data-i="hero_cta1" href="#contact">Request the price list</a>
 <a class="btn btn-ghost" data-i="hero_cta2" href="#grades">See the grades</a>
 </div>
+<p class="visits" id="visits" hidden><span class="dot"></span><span id="visits-t"></span></p>
 </div>
 <div class="hero-media">
 <div class="frame"><img alt="Compressed bale of ECO Rags made from recycled textiles" decoding="async" height="1200" src="/img/balle-compressee-de-chiffons-eco-en-textiles-recyc.webp" width="1200"/></div>
@@ -23,11 +24,23 @@
 </div>
 </div>
 </section>
+
+<!-- JOURNEY -->
+<section class="section" id="parcours">
+<div class="wrap">
+<div class="sec-head" style="margin-bottom:0">
+<div class="eyebrow">A garment's last life</div>
+<h2>Before it's gone, one last useful job.</h2>
+<p>A T-shirt or towel too worn to resell usually ends up in the trash. We give it one last useful step: becoming a rag that works in a garage, a factory or on a job site, instead of going straight to landfill.</p>
+</div>
+<div class="journey"><div class="jstep"><div class="num">01</div><h3>Worn</h3><p>The garment is used for years, then donated or recycled.</p></div><div class="jstep"><div class="num">02</div><h3>Recovered</h3><p>Too worn to resell, it is recovered instead of thrown away.</p></div><div class="jstep"><div class="num">03</div><h3>Prepared</h3><p>Metal and buttons removed, hot-water washed, treated against bedbugs, cut ready to use.</p></div><div class="jstep"><div class="num">04</div><h3>Last use</h3><p>It wipes oil, grease and paint, instead of disposable paper.</p></div></div>
+</div>
+</section>
 <!-- WHY -->
 <section class="band" id="why">
 <div class="wrap">
 <div class="media-split">
-<div class="frame"><img alt="Recycling symbol made of coloured textiles" decoding="async" height="776" loading="lazy" src="/img/symbole-de-recyclage-forme-de-textiles-colores.webp" width="1164"/></div>
+<div class="frame"><img alt="Cotton clothes sorted by color and cut into rags" decoding="async" height="800" loading="lazy" src="/img/tri-vetements-coton-chiffons.webp" width="1200"/></div>
 <div class="sec-head" style="margin-bottom:0">
 <div class="eyebrow" data-i="why_eyebrow">Why recycled</div>
 <h2 data-i="why_h2">The same wiping power, without the waste.</h2>
@@ -72,6 +85,22 @@
 </div></div>
 </div>
 </section>
+<!-- ACTION -->
+<section class="section" id="terrain">
+<div class="wrap">
+<div class="sec-head">
+<div class="eyebrow">On the job</div>
+<h2>Made for oil, grease and big spills.</h2>
+<p>T-shirt rags for hands and tools, terry to soak up oil and spills.</p>
+</div>
+<div class="action">
+<figure><div class="frame"><img alt="Mechanic wiping oil off his hands with a colored T-shirt rag" decoding="async" height="800" loading="lazy" src="/img/chiffon-garagiste-huile-mains.webp" width="1200"/></div><figcaption>Colored T-shirt: hands and tools</figcaption></figure>
+<figure><div class="frame"><img alt="White terry rag wiping oil off an engine part" decoding="async" height="800" loading="lazy" src="/img/chiffon-ratine-blanc-moteur.webp" width="1200"/></div><figcaption>White terry: oil on engine parts</figcaption></figure>
+</div>
+<p class="illus">Illustration photos.</p>
+<div class="specs" id="fiche-technique"><h3 style="font-size:24px;margin-bottom:14px">Technical sheet: terry or T-shirt</h3><table><thead><tr><th></th><th>T-shirt (jersey)</th><th>Terry (towel cloth)</th></tr></thead><tbody><tr><th>Structure</th><td>Knitted cotton, smooth and soft</td><td>Looped cotton, thick</td></tr><tr><th>Fabric weight (density)</th><td>≈ 140 to 200 g/m²</td><td>≈ 350 to 550 g/m²</td></tr><tr><th>Thickness</th><td>≈ 0.5 to 0.8 mm</td><td>≈ 2 to 3 mm</td></tr><tr><th>Water absorption</th><td>≈ 2 to 3 times its weight</td><td>≈ 3 to 5 times its weight</td></tr><tr><th>Lint</th><td>Low</td><td>Medium</td></tr><tr><th>Wear resistance</th><td>Medium</td><td>High</td></tr><tr><th>Best for</th><td>Hands, tools, surfaces, polishing, paint (white)</td><td>Oil, grease, water, spills, heavy cleaning</td></tr></tbody></table><p class="illus">Typical cotton values, for reference only: they vary from lot to lot.</p></div>
+</div>
+</section>
 <!-- FORMATS -->
 <section class="band" id="formats">
 <div class="wrap">
@@ -92,3 +121,4 @@
 <p class="mono" data-i="sp_note" style="font-size:13px;color:var(--muted);margin-top:16px">Other formats and larger volumes on request — write to us with your needs.</p>
 </div>
 </section>
+<script>(function(){var el=document.getElementById('visits');if(!el||!window.fetch)return;fetch('https://www.ateliersurmesure.ca/api/track/stats').then(function(r){return r.ok?r.json():null}).then(function(j){if(!j||j.month<20)return;var fr=(document.documentElement.lang||'').indexOf('fr')===0;document.getElementById('visits-t').textContent=fr?(j.month+' visites ces 30 derniers jours'+(j.today?' \u00b7 '+j.today+' aujourd\u2019hui':'')):(j.month+' visits in the last 30 days'+(j.today?' \u00b7 '+j.today+' today':''));el.hidden=false}).catch(function(){})})();</script>
