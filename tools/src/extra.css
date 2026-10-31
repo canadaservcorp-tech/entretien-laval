@@ -291,3 +291,11 @@ footer{background:#0B2238}
 @keyframes m-flail{from{transform:rotate(60deg)}to{transform:rotate(150deg)}}
 @keyframes m-flail-fa{from{transform:rotate(-40deg)}to{transform:rotate(30deg)}}
 @keyframes m-flail-r{from{transform:rotate(-35deg)}to{transform:rotate(25deg)}}
+.mascot .m-fear{display:none}
+.mascot .m-body.held .m-front{display:none}
+.mascot .m-body.held .m-fear{display:inline;animation:m-tremble .07s linear infinite alternate}
+.mascot .m-body.held .m-belly{animation:m-tremble .07s linear -.035s infinite alternate}
+.mascot .m-body.held .m-sweat path{animation:m-sweat .6s ease-in infinite}
+.mascot .m-body.held .m-sweat path+path{animation-delay:-.3s}
+@keyframes m-tremble{from{transform:translateX(-.8px)}to{transform:translateX(.8px)}}
+@keyframes m-sweat{0%{opacity:0;transform:translateY(-2px)}30%{opacity:1}100%{opacity:0;transform:translateY(9px)}}
