@@ -38,6 +38,19 @@
       })(t0);
     });
   }
+  // rung by rung: one foot and one hand go up, short pause, then the other side
+  async function climb(ty, id) {
+    var step = H * 0.2;
+    body.classList.add('climb');
+    while (Math.abs(y - ty) > 0.5) {
+      body.classList.toggle('rung');
+      var ny = y > ty ? Math.max(ty, y - step) : Math.min(ty, y + step);
+      if (!(await tween(x, ny, 160, id))) { body.classList.remove('climb', 'rung'); return false; }
+      await wait(40);
+    }
+    body.classList.remove('climb', 'rung');
+    return true;
+  }
   function sparkle(r) {
     for (var i = 0; i < 4; i++) {
       var s = document.createElement('span'); s.className = 'm-spark'; s.textContent = '✦';
@@ -54,6 +67,7 @@
     });
   }
   var pending = null, justScrolled = false;
+  function dist(e) { var r = e.getBoundingClientRect(); return Math.abs(r.left - x) + (innerHeight - r.bottom) * 1.5; }
   async function cycle() {
     var id = ++run, b = null, r;
     if (pending) {
@@ -63,7 +77,7 @@
       var list = targets();
       if (list.length) {
         // right after a scroll he grabs the closest thing to clean; otherwise any visible one
-        if (justScrolled) list.sort(function (a, c) { return Math.abs(a.getBoundingClientRect().left - x) - Math.abs(c.getBoundingClientRect().left - x); });
+        if (justScrolled) list.sort(function (a, c) { return dist(a) - dist(c); });
         b = justScrolled ? list[0] : list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
       } else {
         var sx = 40 + Math.random() * (innerWidth - 80), sy = innerHeight * (0.3 + Math.random() * 0.3);
@@ -82,25 +96,19 @@
       lad.style.left = (tx + W * 0.2) + 'px'; lad.style.width = Math.round(W * 0.38) + 'px'; lad.style.top = (ty + H * 0.9) + 'px';
       lad.style.height = (fy - ty) + 'px'; lad.classList.add('on');
       await wait(350);
-      body.classList.add('walk');
-      if (!(await tween(tx, ty, (fy - ty) / 140 * 1000, id))) return;
-      body.classList.remove('walk');
+      if (!(await climb(ty, id))) return;
     }
     body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r);
     await wait(1500);
     body.classList.remove('wipe'); if (b) b.classList.remove('m-clean');
     if (id !== run) return;
-    if (y < fy - 1) {
-      body.classList.add('walk');
-      if (!(await tween(tx, fy, (fy - y) / 220 * 1000, id))) return;
-      body.classList.remove('walk');
-    }
+    if (y < fy - 1 && !(await climb(fy, id))) return;
     lad.classList.remove('on');
     await wait(150);
   }
   var scrolled = 0, lastY = scrollY;
   function reset() {
-    run++; lad.classList.remove('on'); body.classList.remove('wipe');
+    run++; lad.classList.remove('on'); body.classList.remove('wipe', 'climb', 'rung');
     document.querySelectorAll('.m-clean').forEach(function (e) { e.classList.remove('m-clean'); });
   }
   // the visitor scrolls: he runs along with them, ladder on his shoulder
