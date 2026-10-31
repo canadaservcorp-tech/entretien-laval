@@ -324,7 +324,6 @@ footer{background:#0B2238}
 @keyframes m-wake{0%{transform:translateY(0) scaleY(.9)}40%{transform:translateY(-16%) scaleY(1.05)}100%{transform:translateY(0)}}
 .mascot .m-name{position:absolute;left:50%;top:-16px;transform:translateX(-50%);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:800;color:#D62839;white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
 .mascot:hover .m-name,.mascot.named .m-name{opacity:1}
-.mascot .m-body.climb:not(.wipe):not(.held) .m-front,.mascot .m-body.climb:not(.wipe):not(.held) .m-side{display:none}
 .mascot .m-body.flip .m-shirt text{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
 
 @keyframes m-swing{from{transform:rotate(-7deg)}to{transform:rotate(6deg)}}
