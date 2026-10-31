@@ -1,4 +1,4 @@
-/* "Petit nettoyeur": a cartoon cleaner who walks to the buttons on screen, climbs a small ladder and wipes them with a rag. */
+/* "Saleem, le petit nettoyeur": a cartoon cleaner who walks to the buttons on screen, climbs a small ladder and wipes them with a rag. */
 (function () {
   if (!window.requestAnimationFrame || !document.querySelector) return;
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -13,14 +13,20 @@
     + '<g class="m-front"><circle cx="36" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27" r="1.6" fill="#0F2A44" stroke="none"/><path d="M33 22l5 2.5M47 22l-5 2.5" stroke-width="2.2"/><path class="m-mouth" d="M36 33q4-3 8 0" stroke-width="2"/><ellipse class="m-oh" cx="40" cy="33" rx="2.2" ry="2.8" stroke-width="1.6"/></g>'
     + '<g class="m-fear"><circle cx="35.5" cy="27" r="3.2" fill="#fff"/><circle cx="44.5" cy="27" r="3.2" fill="#fff"/><circle cx="35.8" cy="27.6" r="1.1" fill="#0F2A44" stroke="none"/><circle cx="44.2" cy="27.6" r="1.1" fill="#0F2A44" stroke="none"/><path d="M31.5 22l5-2.5M48.5 22l-5-2.5" stroke-width="2"/><ellipse cx="40" cy="34" rx="2.4" ry="3" stroke-width="1.6"/>'
     + '<g class="m-sweat" fill="#7CC4F0" stroke="#3E8FC9" stroke-width="1"><path d="M53 20q2 3 0 5q-2-2 0-5z"/><path d="M27 24q2 3 0 5q-2-2 0-5z"/></g></g>'
+    + '<g class="m-relax"><path d="M33.5 25.8h5M41.5 25.8h5" stroke-width="1.8"/><circle cx="36" cy="27.4" r="1.2" fill="#0F2A44" stroke="none"/><circle cx="44" cy="27.4" r="1.2" fill="#0F2A44" stroke="none"/><path d="M37 33.5q3.5 1.5 7-1.2" stroke-width="1.8"/></g>'
+    + '<g class="m-sleep"><path d="M33.5 27q2.5 2 5 0M41.5 27q2.5 2 5 0" stroke-width="1.8"/><ellipse cx="40.5" cy="33.5" rx="1.4" ry="1.1" stroke-width="1.4"/></g>'
+    + '<g class="m-zzz" fill="#1E7FC0" stroke="none" font-family="Arial,sans-serif" font-weight="700"><text x="51" y="18" font-size="11">Z</text><text x="60" y="10" font-size="8.5">z</text><text x="67" y="4" font-size="6.5">z</text></g>'
     + '<g class="m-side"><circle cx="46" cy="26" r="1.6" fill="#0F2A44" stroke="none"/><path d="M42 21.5l6 2.5" stroke-width="2.2"/><path d="M51 27l2 2.5l-2 .5" stroke-width="2"/><path d="M44 33q3-2 6-1" stroke-width="2"/></g>'
     + '<g class="m-hat"><path d="M29.5 18q0-11 10.5-11q10.5 0 10.5 11z"/><path d="M27 18h31"/><path d="M33 13.5q7-2.5 14 0" stroke-width="1.4"/></g>'
     + '<g class="m-steam" stroke="#9FB6CC" stroke-width="1.5"><circle cx="22" cy="12" r="3.5"/><circle cx="16" cy="6" r="2.5"/><circle cx="60" cy="9" r="3"/></g>'
     + '<g class="m-arm"><path d="M40 46L53 52L64 54"/>'
-    + '<path d="M58 42q16-6 19 9q3 15-12 18q-13 2-14-12z" fill="#E94F64" stroke="#B5283E" stroke-width="2"/><path d="M61 47l13 6M60 56l13 5M62 63l9 2" stroke="#F7C948" stroke-width="2.4"/></g>'
+    + '<g class="m-rag"><path d="M60.5 51q4.5-4 9.5 0q2 3 4 7q4 8 3.5 18l-2.6-1.6-1.6 3-2.6-1.8-1.8 3-2.6-2-1.8 3-2.4-2.2-2 2.6q-2.5-9-.6-17q1-4 1.8-9.6z" fill="#E94F64" stroke="#B5283E" stroke-width="1.6"/>'
+    + '<path d="M64 56q-1.5 9 .5 18M68 55q3 8 3 17M61.5 61q2 5 1 10" stroke="#B5283E" stroke-width="1.1"/><path d="M62 58l11 3M61.5 66l13 2" stroke="#F7C948" stroke-width="1.8"/>'
+    + '<path d="M60 50q5-4 11 0q-1 3-5.5 3q-4.5 0-5.5-3z" fill="#D63F55" stroke="#B5283E" stroke-width="1.4"/></g><circle cx="65" cy="52" r="3.2" fill="#fff"/></g>'
     + '</g></svg>';
   var m = document.createElement('div'); m.className = 'mascot'; m.style.width = W + 'px'; m.style.height = H + 'px';
-  m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher le petit nettoyeur' : 'Hide the little cleaner') + '">×</button>';
+  m.innerHTML = '<div class="m-body">' + svg + '<div class="m-carry"></div></div><button type="button" class="m-close" aria-label="' + (fr ? 'Cacher Saleem, le petit nettoyeur' : 'Hide Saleem, the little cleaner') + '">×</button><button type="button" class="m-snd" aria-label="' + (fr ? 'Son de Saleem' : 'Saleem sound') + '">♪</button><span class="m-name" aria-hidden="true">Saleem</span>';
+  m.firstChild.title = fr ? 'Saleem, le petit nettoyeur' : 'Saleem, the little cleaner';
   var lad = document.createElement('div'); lad.className = 'm-ladder';
   document.body.appendChild(lad); document.body.appendChild(m);
   var body = m.firstChild, x = 16, y = 0, run = 0, last = null;
@@ -32,6 +38,50 @@
   m.querySelector('.m-close').addEventListener('click', function () {
     run = -1; m.remove(); lad.remove(); try { localStorage.setItem('el-mascot-off', '1'); } catch (e) {}
   });
+  // glass-wiping squeak made with Web Audio (no file); browsers only allow sound after the visitor taps or clicks once
+  var ac = null, snd = true;
+  try { snd = localStorage.getItem('el-mascot-sound') !== '0'; } catch (e) {}
+  var sb = m.querySelector('.m-snd'); sb.classList.toggle('off', !snd); sb.setAttribute('aria-pressed', snd);
+  function unlock() {
+    var A = window.AudioContext || window.webkitAudioContext;
+    if (!A) return;
+    try { if (!ac) ac = new A(); if (ac.state === 'suspended') ac.resume(); } catch (e) {}
+  }
+  addEventListener('pointerdown', unlock, true); addEventListener('keydown', unlock, true);
+  sb.addEventListener('click', function () {
+    snd = !snd; sb.classList.toggle('off', !snd); sb.setAttribute('aria-pressed', snd);
+    try { localStorage.setItem('el-mascot-sound', snd ? '1' : '0'); } catch (e) {}
+  });
+  function squeak(ms) {
+    if (!snd || !ac || ac.state !== 'running') return;
+    var t = ac.currentTime + 0.02, n = Math.floor(ms / 280);
+    for (var i = 0; i < n; i++) {
+      var o = ac.createOscillator(), v = ac.createOscillator(), vg = ac.createGain(), g = ac.createGain(), s0 = t + i * 0.28 + Math.random() * 0.03, d = 0.11 + Math.random() * 0.05, f = 1500 + Math.random() * 500;
+      o.type = 'triangle'; o.frequency.setValueAtTime(f, s0); o.frequency.linearRampToValueAtTime(f * (i % 2 ? 0.8 : 1.35), s0 + d);
+      v.frequency.value = 38; vg.gain.value = 90; v.connect(vg); vg.connect(o.frequency);
+      g.gain.setValueAtTime(0, s0); g.gain.linearRampToValueAtTime(0.045, s0 + 0.02); g.gain.linearRampToValueAtTime(0.03, s0 + d - 0.03); g.gain.linearRampToValueAtTime(0, s0 + d);
+      o.connect(g); g.connect(ac.destination);
+      o.start(s0); v.start(s0); o.stop(s0 + d + 0.02); v.stop(s0 + d + 0.02);
+    }
+  }
+  // original sneaky-jazz walking tune (tiptoe bass + muted melody), only while he walks and sound is on
+  var BEAT = 0.45, BASS = [40, 43, 45, 46, 47, 45, 43, 40],
+    MEL = [[0, .5], [71, .5], [74, .5], [76, 1], [0, .5], [79, .5], [78, .5], [74, .5], [76, 1.5], [0, 1.5],
+      [0, .5], [69, .5], [71, .5], [72, .5], [71, .5], [70, .5], [69, .5], [67, .5], [64, 1.5], [0, .5], [63, .5], [64, 1.5]],
+    mt = 0, bt = 0, mi = 0, bi = 0;
+  function tone(n, t, d, type, g) {
+    var o = ac.createOscillator(), e = ac.createGain();
+    o.type = type; o.frequency.value = 440 * Math.pow(2, (n - 69) / 12);
+    e.gain.setValueAtTime(0, t); e.gain.linearRampToValueAtTime(g, t + 0.012); e.gain.exponentialRampToValueAtTime(0.0005, t + d);
+    o.connect(e); e.connect(ac.destination); o.start(t); o.stop(t + d + 0.02);
+  }
+  setInterval(function () {
+    if (!snd || !ac || ac.state !== 'running' || document.hidden || !body.classList.contains('walk') || body.classList.contains('climb')) { mt = 0; return; }
+    var now = ac.currentTime;
+    if (!mt) { mt = bt = now + 0.05; mi = bi = 0; }
+    while (bt < now + 0.3) { tone(BASS[bi % 8], bt, 0.3, 'sine', 0.07); bt += BEAT; bi++; }
+    while (mt < now + 0.3) { var q = MEL[mi % MEL.length]; if (q[0]) tone(q[0], mt, q[1] * BEAT * 0.85, 'triangle', 0.03); mt += q[1] * BEAT; mi++; }
+  }, 100);
   var wait = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
   function tween(tx, ty, ms, id) {
     return new Promise(function (res) {
@@ -75,7 +125,28 @@
       return r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
-  var pending = null, justScrolled = false, drag = null;
+  var pending = null, justScrolled = false, drag = null, active = Date.now(), IDLE = 20000;
+  // nobody scrolls or clicks for a while: he walks to the closest bottom corner, sits, swings his legs, then dozes off
+  async function rest() {
+    var id = ++run, cx = x + W / 2 < innerWidth / 2 ? 4 : innerWidth - W - 4;
+    if (Math.abs(cx - x) > 2) body.classList.toggle('flip', cx < x);
+    body.classList.add('walk', 'carry');
+    if (!(await tween(cx, floor(), Math.abs(cx - x) / SPEED * 1000, id))) return;
+    body.classList.remove('walk', 'carry');
+    body.classList.toggle('flip', cx > innerWidth / 2);
+    body.classList.add('rest');
+    var t0 = Date.now();
+    while (id === run) {
+      if (Date.now() - t0 > 7000) body.classList.add('sleep');
+      await wait(200);
+    }
+  }
+  function wake() {
+    active = Date.now();
+    if (!body.classList.contains('rest')) return;
+    body.classList.remove('rest', 'sleep'); body.classList.add('wake');
+    setTimeout(function () { body.classList.remove('wake'); }, 450);
+  }
   function dist(e) { var r = e.getBoundingClientRect(); return Math.abs(r.left - x) + (innerHeight - r.bottom) * 1.5; }
   async function cycle() {
     var id = ++run, b = null, r;
@@ -113,7 +184,7 @@
       await wait(350);
       if (!(await climb(ty, id))) return;
     }
-    body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r);
+    body.classList.add('wipe'); if (b) b.classList.add('m-clean'); sparkle(r); squeak(1500);
     await wait(1500);
     body.classList.remove('wipe'); if (b) b.classList.remove('m-clean');
     if (id !== run) return;
@@ -123,7 +194,7 @@
   }
   var scrolled = 0, lastY = scrollY;
   function reset() {
-    run++; lad.classList.remove('on'); body.classList.remove('wipe', 'climb', 'rung');
+    run++; wake(); lad.classList.remove('on'); body.classList.remove('wipe', 'climb', 'rung');
     document.querySelectorAll('.m-clean').forEach(function (e) { e.classList.remove('m-clean'); });
   }
   // the visitor scrolls: he runs along with them, ladder on his shoulder
@@ -141,11 +212,13 @@
     pending = { x: e.clientX, y: e.clientY, el: b && b.getBoundingClientRect().height < 260 ? b : null };
     reset(); scrolled = 0;
   }, true);
+  addEventListener('keydown', function () { active = Date.now(); }, true);
   addEventListener('resize', function () { y = floor(); place(); });
   // the visitor grabs him and moves him; when let go he drops down and cleans the closest thing
   body.addEventListener('pointerdown', function (e) {
     if (e.button > 0) return;
     e.preventDefault(); reset(); lad.classList.remove('on');
+    m.classList.add('named'); clearTimeout(m.nt); m.nt = setTimeout(function () { m.classList.remove('named'); }, 2500);
     drag = { dx: e.clientX - x, dy: e.clientY - y, id: e.pointerId, moved: false };
     try { body.setPointerCapture(e.pointerId); } catch (er) {}
     body.classList.remove('walk', 'carry', 'land'); body.classList.add('held');
@@ -181,6 +254,7 @@
         if (fall) { body.classList.add('land'); await wait(380); body.classList.remove('land'); }
       }
       body.classList.remove('walk', 'carry');
+      if (Date.now() - active > IDLE) { await rest(); continue; }
       await cycle(); await wait(50);
     }
   })();
