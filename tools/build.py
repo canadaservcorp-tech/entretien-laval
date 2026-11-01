@@ -446,7 +446,7 @@ def icons():
     logo.resize((48, 48), Image.LANCZOS).save(os.path.join(ROOT, "favicon-48.png"))
 
 # Only products with a REAL photo of that product go in the feed (Google rejects mismatched images).
-FEED_IMG = {"tshirt-couleur": C.IMG_BAG, "ratine-couleur": C.IMG_BAG}  # add the white rags once a white-bag photo exists
+FEED_IMG = {"tshirt-couleur": C.IMG_BAG, "ratine-couleur": C.IMG_BAG, "tshirt-blanc": C.IMG_WHITE, "ratine-blanc": C.IMG_WHITE}
 
 def merchant_feed(lang):
     ptype = "Chiffons d'essuyage recyclés" if lang == "fr" else "Recycled wiping rags"
