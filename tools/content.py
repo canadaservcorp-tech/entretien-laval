@@ -143,6 +143,9 @@ HOME = {
 
 IMG_BAG = "sac-chiffons-t-shirt-couleur-25-lb.webp"
 IMG_BAGS = "sacs-chiffons-couleur-25-lb.webp"
+IMG_WHITE = "sacs-chiffons-blancs-25-lb.webp"
+IMG_WAREHOUSE = "entrepot-sacs-chiffons-blancs-et-couleur.webp"
+IMG_COLOR_BALE = "sacs-chiffons-couleur-flanelle-coton.webp"
 IMG_BALE = "balle-compressee-de-chiffons-eco-en-textiles-recyc.webp"
 IMG_TEXT = "textiles-de-coton-recuperes.webp"
 IMG_SHOP = "sac-de-chiffons-d-atelier-conditionnes-prets-a-l-u.webp"
@@ -364,7 +367,7 @@ PAGES["restauration"] = {"kind": "sector", "img": IMG_TEXT, "rel": ["entretien",
           ("Do you deliver to Montreal restaurants?", "Yes, in Montréal, Laval and across Greater Montreal.")]},
 }
 
-PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs", "guide-huileux"],
+PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "blancs", "guide-huileux"],
  "fr": {"path": "/chiffons-industriels-imprimerie/", "short": "Industrie et imprimerie",
   "title": "Chiffons industriels et chiffons d'imprimerie – Québec",
   "desc": "Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Quantité illimitée, livraison partout au Québec.",
@@ -405,7 +408,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs
           ("Do you deliver outside Greater Montreal?", "Yes, elsewhere in Québec from 1,000 lb per delivery.")]},
 }
 
-PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "industrie", "entretien"],
+PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "industrie", "entretien"],
  "fr": {"path": "/guenilles-en-gros/", "short": "Guenilles en gros",
   "title": "Guenilles en gros et chiffons recyclés pour distributeurs",
   "desc": "Guenilles en gros et chiffons d'essuyage recyclés pour distributeurs sanitaires, quincailleries et fournisseurs. Quantité illimitée, livraison au Québec.",
@@ -456,7 +459,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "indust
           ("Do you deliver to the regions?", "Yes, anywhere in Québec from 1,000 lb, with a fee based on distance.")]},
 }
 
-PAGES["blancs"] = {"kind": "product", "img": IMG_SHOP, "products": ["tshirt-blanc", "ratine-blanc"], "rel": ["peinture", "couleur", "industrie"],
+PAGES["blancs"] = {"kind": "product", "img": IMG_WHITE, "products": ["tshirt-blanc", "ratine-blanc"], "rel": ["peinture", "couleur", "industrie"],
  "fr": {"path": "/chiffons-blancs-recycles/", "short": "Chiffons blancs",
   "title": "Chiffons blancs recyclés, t-shirt et ratine 25 lb | Chiffons ÉCO",
   "desc": "Chiffons d'essuyage blancs en coton recyclé, t-shirt ou ratine, sans transfert de couleur. 42 $ le sac de 25 lb avant taxes. Laval, Montréal, Québec.",
