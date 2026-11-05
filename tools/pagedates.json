@@ -200,9 +200,19 @@
   "published": "2026-10-10"
  },
  "/en/guides/": {
-  "hash": "0464f14ab9f3779f1257c0e7b81343912d7e5982",
+  "hash": "a7ecc6318456fe2c9f713140d5dcebfeb4045857",
   "modified": "2026-11-05",
   "published": "2026-10-10"
+ },
+ "/en/guides/best-rag-for-staining-wood/": {
+  "hash": "3c7c25c027fd3ea9689e14c09530f22a29ef292f",
+  "modified": "2026-11-05",
+  "published": "2026-11-05"
+ },
+ "/en/guides/industrial-shop-rags-buying-guide/": {
+  "hash": "a417b3995812989fcb0e5820929e0102caf6212c",
+  "modified": "2026-11-05",
+  "published": "2026-11-05"
  },
  "/en/guides/oily-rags-fire-risk/": {
   "hash": "2feeca0b1514e0562411dc59914446e9304a83e2",
@@ -270,8 +280,8 @@
   "published": "2026-10-10"
  },
  "/en/painting-finishing-rags/": {
-  "hash": "e298d38f2b49be370b0a098fe2c7931168948018",
-  "modified": "2026-10-31",
+  "hash": "d46cc64ddbf31a6013d56f7fd6a07487fb450803",
+  "modified": "2026-11-05",
   "published": "2026-10-10"
  },
  "/en/plumbing-hvac-rags/": {
@@ -360,8 +370,8 @@
   "published": "2026-10-10"
  },
  "/en/wholesale-rags/": {
-  "hash": "74bd5546e44e1c2a8af096a4804520f4cedbfa1b",
-  "modified": "2026-11-01",
+  "hash": "45fe6984928a7eeacf69767839e9cbe3845e5293",
+  "modified": "2026-11-05",
   "published": "2026-10-10"
  },
  "/en/woodworking-cabinetmaking-rags/": {
@@ -380,7 +390,7 @@
   "published": "2026-10-10"
  },
  "/guides/": {
-  "hash": "64f06544c094f41d460855b34ab8698002236e45",
+  "hash": "f8df24c4df6816cee578469bf8e211a6efd5b8c4",
   "modified": "2026-11-05",
   "published": "2026-10-10"
  },
@@ -388,6 +398,11 @@
   "hash": "e79991131c95ad21ff82771f0249b9489cb65570",
   "modified": "2026-10-31",
   "published": "2026-10-10"
+ },
+ "/guides/chiffons-industriels-guide-achat/": {
+  "hash": "2a4b3838a1a62aa2e5f35f7c8fab341ca0620ef3",
+  "modified": "2026-11-05",
+  "published": "2026-11-05"
  },
  "/guides/chiffons-recycles-ou-papier/": {
   "hash": "a55b9cde9fbfe3cd1c9a5e16e8b4a9b6a15c6c7d",
@@ -398,6 +413,11 @@
   "hash": "a4045425a400911d378dc7b77c9224451b60e462",
   "modified": "2026-10-31",
   "published": "2026-10-10"
+ },
+ "/guides/meilleur-chiffon-teinture-bois/": {
+  "hash": "337c0dabff157aa08330e273a1cff07eabd2790f",
+  "modified": "2026-11-05",
+  "published": "2026-11-05"
  },
  "/guides/prix-guenilles-laval-montreal/": {
   "hash": "51db6e5cb106a7a751cc9e1ad3fa19c0df690b5b",

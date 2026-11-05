@@ -200,4 +200,98 @@ P["guide-prix"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "gr
           ("Are taxes included?", "No. Prices are before GST (5%) and QST (9.975%)."),
           ("Where can I buy recycled rags in Montréal?", "Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.")]}}
 
+P["guide-teinture"] = {"kind": "guide", "img": BAG, "rel": ["blancs", "peinture", "guide-huileux"],
+ "fr": {"path": "/guides/meilleur-chiffon-teinture-bois/", "short": "Quel chiffon pour teindre le bois",
+  "title": "Quel chiffon pour teindre le bois? (teinture, vernis)",
+  "desc": "Le meilleur chiffon pour teindre le bois, appliquer un vernis ou une huile : coton blanc, t-shirt peu pelucheux, ratine pour essuyer. Et quoi faire après.",
+  "eyebrow": "Guide · peinture et finition", "h1": "Quel chiffon utiliser pour teindre le bois?",
+  "lede": "Pour la teinture, le vernis et l'huile, prenez un chiffon de coton blanc : il absorbe bien, ne laisse pas de couleur sur le bois et laisse peu de peluches.",
+  "card": "Coton blanc, t-shirt ou ratine : le bon chiffon pour la finition du bois.",
+  "alt": "Sacs de chiffons blancs recyclés",
+  "body": """<h2>Le chiffon idéal : coton blanc</h2>
+<p>Le coton absorbe la teinture et l'huile, contrairement aux tissus synthétiques qui les étalent. Le <a href="{{blancs}}">chiffon blanc</a> ne transfère aucune couleur sur le bois, même avec des solvants. C'est le choix sûr pour les teintures pâles, le vernis et les surfaces claires.</p>
+<h2>T-shirt ou ratine?</h2>
+<table><thead><tr><th>Étape</th><th>Chiffon conseillé</th><th>Pourquoi</th></tr></thead><tbody>
+<tr><td>Appliquer la teinture ou l'huile</td><td>T-shirt blanc</td><td>Mince, souple, peu pelucheux</td></tr>
+<tr><td>Essuyer l'excédent</td><td>Ratine blanche</td><td>Épaisse, retient beaucoup de liquide</td></tr>
+<tr><td>Polir entre les couches</td><td>T-shirt blanc</td><td>Doux, laisse une surface lisse</td></tr>
+<tr><td>Nettoyer les outils et les mains</td><td>Couleur</td><td>Moins cher, la couleur n'a pas d'importance</td></tr></tbody></table>
+<h2>Après usage : attention au feu</h2>
+<p>Les chiffons imbibés d'huile de lin, de teinture à l'huile ou de vernis peuvent s'enflammer seuls en séchant. Ne les laissez jamais en boule. Voir <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>
+<h2>Prix</h2>
+<p>Chiffons blancs : 42 $ le [pack] de 25 lb, avant taxes (38 $ à partir de 50 [packs]). Voir aussi les <a href="{{peinture}}">chiffons pour la peinture et la finition</a>.</p>""",
+  "faq": [("Quel est le meilleur chiffon pour teindre le bois?", "Un chiffon de coton blanc, propre et sans peluches. Le t-shirt blanc pour appliquer, la ratine blanche pour essuyer l'excédent."),
+          ("Peut-on utiliser des chiffons de couleur pour la teinture?", "Pour nettoyer les outils, oui. Pour appliquer la teinture ou le vernis, prenez du blanc : les solvants peuvent faire déteindre un tissu coloré sur le bois."),
+          ("Que faire des chiffons imbibés de teinture à l'huile?", "Étalez-les à plat dehors pour sécher, ou mettez-les dans un contenant de métal fermé rempli d'eau. Ne les jetez pas en boule.")]},
+ "en": {"path": "/en/guides/best-rag-for-staining-wood/", "short": "Best rag for staining wood",
+  "title": "Best rag for staining wood (stain, varnish, oil)",
+  "desc": "The best rag for staining wood, varnish and finishing oil: white cotton, low-lint T-shirt to apply, terry to wipe off. Plus what to do with used rags.",
+  "eyebrow": "Guide · painting and finishing", "h1": "What kind of rag should you use for staining wood?",
+  "lede": "For stain, varnish and oil, use a white cotton rag: it absorbs well, leaves no dye on the wood and is low-lint.",
+  "card": "White cotton, T-shirt or terry: the right rag for wood finishing.",
+  "alt": "Bags of white recycled rags",
+  "body": """<h2>The best rag: white cotton</h2>
+<p>Cotton soaks up stain and oil, while synthetic fabrics just spread them around. A <a href="{{blancs}}">white rag</a> transfers no color to the wood, even with solvents. It's the safe pick for light stains, varnish and pale surfaces.</p>
+<h2>T-shirt or terry?</h2>
+<table><thead><tr><th>Step</th><th>Recommended rag</th><th>Why</th></tr></thead><tbody>
+<tr><td>Applying stain or oil</td><td>White T-shirt</td><td>Thin, flexible, low-lint</td></tr>
+<tr><td>Wiping off the excess</td><td>White terry</td><td>Thick, holds a lot of liquid</td></tr>
+<tr><td>Buffing between coats</td><td>White T-shirt</td><td>Soft, leaves a smooth surface</td></tr>
+<tr><td>Cleaning tools and hands</td><td>Colored</td><td>Cheaper, color doesn't matter</td></tr></tbody></table>
+<h2>After use: fire risk</h2>
+<p>Rags soaked in linseed oil, oil-based stain or varnish can catch fire on their own as they dry. Never leave them balled up. See <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>
+<h2>Price</h2>
+<p>White rags: $42 per 25 lb [pack], before tax ($38 from 50 [packs]). See also <a href="{{peinture}}">rags for painting and finishing</a>.</p>""",
+  "faq": [("What is the best rag for staining wood?", "A clean, lint-free white cotton rag. White T-shirt to apply, white terry to wipe off the excess."),
+          ("Can I use colored rags for staining?", "For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a colored fabric bleed onto the wood."),
+          ("How do I dispose of oil-based stain rags?", "Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Never throw them out balled up.")]}}
+
+P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garage", "industrie"],
+ "fr": {"path": "/guides/chiffons-industriels-guide-achat/", "short": "Chiffons industriels : guide d'achat",
+  "title": "Chiffons industriels : guide d'achat pour ateliers",
+  "desc": "Chiffons industriels et d'atelier : ratine ou t-shirt, blanc ou couleur, quantité par mois et prix au Québec. Pour usines, garages et ateliers.",
+  "eyebrow": "Guide · industrie", "h1": "Chiffons industriels : comment bien choisir",
+  "lede": "Usinage, mécanique, imprimerie, entretien : le bon chiffon industriel dépend de ce que vous essuyez. Voici comment choisir et combien prévoir.",
+  "card": "Le bon chiffon d'atelier selon l'usage, la quantité et le prix.",
+  "alt": "Sac de chiffons d'atelier prêts à l'emploi",
+  "body": """<h2>Selon ce que vous essuyez</h2>
+<table><thead><tr><th>Usage</th><th>Chiffon conseillé</th></tr></thead><tbody>
+<tr><td>Huile de coupe, graisse, copeaux (<a href="{{usinage}}">usinage, CNC</a>)</td><td>Ratine couleur</td></tr>
+<tr><td>Mains, outils, pièces (<a href="{{garage}}">garages, mécanique</a>)</td><td>T-shirt couleur</td></tr>
+<tr><td>Encre, solvants (<a href="{{industrie}}">imprimeries, usines</a>)</td><td>T-shirt blanc</td></tr>
+<tr><td>Peinture, vernis, surfaces pâles</td><td>Blanc (t-shirt ou ratine)</td></tr>
+<tr><td>Déversements, eau</td><td>Ratine couleur</td></tr></tbody></table>
+<h2>Ce qu'un chiffon industriel doit être</h2>
+<p>Sans métal, boutons ni fermetures éclair, pour ne pas rayer les pièces ni les machines. Lavé, trié et coupé, prêt à l'emploi. Nos chiffons recyclés sont lavés à l'eau chaude et traités contre les punaises de lit, un seul type par [pack].</p>
+<h2>Combien en prévoir?</h2>
+<p>Utilisez le <a href="{{calculateur}}">calculateur de chiffons</a> pour estimer votre consommation par mois selon votre secteur et votre équipe.</p>
+<h2>Prix (avant taxes)</h2>
+<p>[pack] de 25 lb : 32 $ en couleur, 42 $ en blanc. À partir de 50 [packs] : 28 $ et 38 $. Voir <a href="{{gros}}">guenilles en gros</a>.</p>""",
+  "faq": [("Quelle est la différence entre chiffon industriel et chiffon d'atelier?", "Aucune en pratique : les deux désignent des chiffons de coton recyclé pour essuyer l'huile, la graisse et les solvants en usine, en garage ou en atelier."),
+          ("Quel chiffon pour un atelier d'usinage?", "La ratine couleur : épaisse et absorbante pour l'huile de coupe. Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces."),
+          ("Livrez-vous les chiffons industriels?", "Oui, à Laval (15 $, dès 1 [pack]), à Montréal (25 $, dès 2 [packs]) et ailleurs au Québec à partir de 1 000 lb.")]},
+ "en": {"path": "/en/guides/industrial-shop-rags-buying-guide/", "short": "Industrial shop rags: buying guide",
+  "title": "Industrial shop rags: a buying guide for shops",
+  "desc": "Industrial and shop rags: terry or T-shirt, white or colored, how many per month and prices in Québec. The guide for plants, garages and machine shops.",
+  "eyebrow": "Guide · industry", "h1": "Industrial shop rags: how to choose",
+  "lede": "Machining, mechanics, printing, maintenance: the right industrial rag depends on what you wipe. Here's how to choose and how many to plan for.",
+  "card": "The right shop rag by use, quantity and price.",
+  "alt": "Bag of ready-to-use shop rags",
+  "body": """<h2>By what you wipe</h2>
+<table><thead><tr><th>Use</th><th>Recommended rag</th></tr></thead><tbody>
+<tr><td>Cutting oil, grease, chips (<a href="{{usinage}}">machining, CNC</a>)</td><td>Colored terry</td></tr>
+<tr><td>Hands, tools, parts (<a href="{{garage}}">garages, mechanics</a>)</td><td>Colored T-shirt</td></tr>
+<tr><td>Ink, solvents (<a href="{{industrie}}">print shops, plants</a>)</td><td>White T-shirt</td></tr>
+<tr><td>Paint, varnish, light surfaces</td><td>White (T-shirt or terry)</td></tr>
+<tr><td>Spills, water</td><td>Colored terry</td></tr></tbody></table>
+<h2>What an industrial rag must be</h2>
+<p>No metal, buttons or zippers, so nothing scratches parts or machines. Washed, sorted and cut, ready to use. Our recycled rags are hot-water washed and treated against bed bugs, one type per [pack].</p>
+<h2>How many do you need?</h2>
+<p>Use the <a href="{{calculateur}}">rag calculator</a> to estimate your monthly use by sector and team size.</p>
+<h2>Prices (before tax)</h2>
+<p>25 lb [pack]: $32 colored, $42 white. From 50 [packs]: $28 and $38. See <a href="{{gros}}">bulk rags</a>.</p>""",
+  "faq": [("What's the difference between industrial rags and shop rags?", "None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops."),
+          ("Which rag is best for a machine shop?", "Colored terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts."),
+          ("Do you deliver industrial rags?", "Yes: Laval ($15, from 1 [pack]), Montréal ($25, from 2 [packs]) and elsewhere in Québec from 1,000 lb.")]}}
+
 GUIDE2_PAGES = P
