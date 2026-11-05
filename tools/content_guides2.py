@@ -267,7 +267,8 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
 <p>Utilisez le <a href="{{calculateur}}">calculateur de chiffons</a> pour estimer votre consommation par mois selon votre secteur et votre équipe.</p>
 <h2>Prix (avant taxes)</h2>
 <p>[pack] de 25 lb : 32 $ en couleur, 42 $ en blanc. À partir de 50 [packs] : 28 $ et 38 $. Voir <a href="{{gros}}">guenilles en gros</a>.</p>""",
-  "faq": [("Quelle est la différence entre chiffon industriel et chiffon d'atelier?", "Aucune en pratique : les deux désignent des chiffons de coton recyclé pour essuyer l'huile, la graisse et les solvants en usine, en garage ou en atelier."),
+  "faq": [("Où acheter des chiffons industriels pas chers à Laval?", "Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : chiffons recyclés – guenilles couleur à 32 $ le [pack] de 25 lb (1,28 $/lb), blancs à 42 $, ou 28 $ / 38 $ dès 50 [packs], avant taxes. Ramassage à Laval ou livraison à Laval (15 $) et Montréal (25 $, dès 2 [packs])."),
+  ("Quelle est la différence entre chiffon industriel et chiffon d'atelier?", "Aucune en pratique : les deux désignent des chiffons de coton recyclé pour essuyer l'huile, la graisse et les solvants en usine, en garage ou en atelier."),
           ("Quel chiffon pour un atelier d'usinage?", "La ratine couleur : épaisse et absorbante pour l'huile de coupe. Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces."),
           ("Livrez-vous les chiffons industriels?", "Oui, à Laval (15 $, dès 1 [pack]), à Montréal (25 $, dès 2 [packs]) et ailleurs au Québec à partir de 1 000 lb.")]},
  "en": {"path": "/en/guides/industrial-shop-rags-buying-guide/", "short": "Industrial shop rags: buying guide",
@@ -290,7 +291,8 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
 <p>Use the <a href="{{calculateur}}">rag calculator</a> to estimate your monthly use by sector and team size.</p>
 <h2>Prices (before tax)</h2>
 <p>25 lb [pack]: $32 colored, $42 white. From 50 [packs]: $28 and $38. See <a href="{{gros}}">bulk rags</a>.</p>""",
-  "faq": [("What's the difference between industrial rags and shop rags?", "None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops."),
+  "faq": [("Where can I buy cheap industrial rags in Laval?", "At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: colored recycled rags at $32 per 25 lb [pack] ($1.28/lb), white at $42, or $28 / $38 from 50 [packs], before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 [packs])."),
+  ("What's the difference between industrial rags and shop rags?", "None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops."),
           ("Which rag is best for a machine shop?", "Colored terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts."),
           ("Do you deliver industrial rags?", "Yes: Laval ($15, from 1 [pack]), Montréal ($25, from 2 [packs]) and elsewhere in Québec from 1,000 lb.")]}}
 
