@@ -27,11 +27,11 @@ CITIES = ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbr
 
 TERMS = {
  "fr": [("Prix avant taxes", "TPS et TVQ en sus, facture d'entreprise enregistrée."),
-        ("Livraison à votre adresse", "Frais selon votre emplacement, indiqués dans la soumission."),
+        ("Livraison à votre adresse", "Laval : 15 $, dès 1 sac. Montréal : 25 $, dès 2 sacs. Ailleurs : frais selon votre emplacement."),
         ("Hors Laval et Montréal", "Minimum de 1 000 lb (40 sacs) par livraison."),
         ("Quantité illimitée", "Commande confirmée et payée une semaine avant la livraison.")],
  "en": [("Prices before tax", "GST and QST extra, invoiced by a registered business."),
-        ("Delivered to your address", "Fee depends on your location and is stated in the quote."),
+        ("Delivered to your address", "Laval: $15, from 1 bag. Montréal: $25, from 2 bags. Elsewhere: fee based on your location."),
         ("Outside Laval and Montréal", "1,000 lb minimum (40 bags) per delivery."),
         ("Unlimited quantity", "Order confirmed and paid one week before delivery.")],
 }
@@ -73,7 +73,7 @@ FAQ = {
   ("Blanc ou couleur?", "Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers."),
   ("Livrez-vous? Où?", "Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir <a href=\"{{livraison}}\">la livraison</a>."),
   ("Comment commander?", "Remplissez le <a href=\"{{home#devis}}\">formulaire de soumission</a> ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison."),
-  ("Y a-t-il un minimum de commande?", "Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Pour le Grand Montréal, demandez-nous les conditions selon votre secteur."),
+  ("Y a-t-il un minimum de commande?", "Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $). Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum."),
   ("Les chiffons sont-ils propres?", "Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon."),
   ("Offrez-vous des échantillons?", "Oui, sur demande, pour vérifier la qualité et le format avant une première commande."),
   ("Pouvez-vous fournir de grandes quantités?", "Oui, la quantité est illimitée. Nous approvisionnons aussi les distributeurs sanitaires et les fournisseurs industriels. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
@@ -88,7 +88,7 @@ FAQ = {
   ("White or colored?", "White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites."),
   ("Do you deliver? Where?", "Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See <a href=\"{{livraison}}\">delivery</a>."),
   ("How do I order?", "Fill in the <a href=\"{{home#devis}}\">quote form</a> or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery."),
-  ("Is there a minimum order?", "Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. For Greater Montreal, ask us about the terms for your area."),
+  ("Is there a minimum order?", "Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25). Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum."),
   ("Are the rags clean?", "Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh."),
   ("Do you offer samples?", "Yes, on request, so you can check quality and size before a first order."),
   ("Can you supply large volumes?", "Yes, quantity is unlimited. We also supply janitorial distributors and industrial suppliers. See <a href=\"{{gros}}\">wholesale rags</a>."),
