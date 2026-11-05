@@ -154,4 +154,50 @@ P["calculateur"] = {"kind": "tool", "img": None, "rel": ["gros", "livraison", "g
            "bags": "25 lb bags per month", "pre": "Monthly budget before tax", "tax": "GST (5%) + QST (9.975%)", "tot": "Monthly total with tax",
            "min": "The 1,000 lb minimum equals about {m} months of usage.", "cur": "en"}}}
 
+P["guide-prix"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "gros"],
+ "fr": {"path": "/guides/prix-guenilles-laval-montreal/", "short": "Prix des guenilles à Laval et Montréal",
+  "title": "Prix des guenilles à Laval et Montréal (2026)",
+  "desc": "Prix des guenilles (chiffons recyclés) à Laval et Montréal : 32 $ le sac de 25 lb en couleur, 42 $ en blanc, soit 1,28 $ à 1,68 $ la livre avant taxes.",
+  "eyebrow": "Guide · prix", "h1": "Prix des guenilles et chiffons recyclés à Laval et Montréal",
+  "lede": "Chiffons ÉCO (Entretien Laval) vend des chiffons recyclés – guenilles en coton à partir de 1,28 $ la livre, en sacs de 25 lb, dans le Grand Montréal.",
+  "card": "Prix par sac et par livre, prix en gros, livraison.", "alt": "Sac de chiffons t-shirt couleur de 25 lb",
+  "body": """<h2>Nos prix (avant taxes)</h2>
+<table><thead><tr><th>Produit</th><th>Prix du [pack] de 25 lb</th><th>Prix par livre</th></tr></thead><tbody>
+<tr><td>T-shirt couleur</td><td>32 $</td><td>1,28 $</td></tr>
+<tr><td>Ratine couleur</td><td>32 $</td><td>1,28 $</td></tr>
+<tr><td>T-shirt blanc</td><td>42 $</td><td>1,68 $</td></tr>
+<tr><td>Ratine blanche</td><td>42 $</td><td>1,68 $</td></tr></tbody></table>
+<p>À partir de 50 [packs] : 28 $ en couleur et 38 $ en blanc. Voir <a href="{{gros}}">guenilles en gros</a>.</p>
+<h2>Le choix le plus économique</h2>
+<p>Le <a href="{{couleur}}">chiffon couleur</a> est le moins cher : 32 $ le [pack]. Il convient à l'huile, à la graisse, aux déversements et au nettoyage courant. Prenez le <a href="{{blancs}}">blanc</a> seulement pour la peinture, le vernis, les solvants et les surfaces pâles.</p>
+<h2>Ce qui est inclus</h2>
+<p>Des chiffons de coton recyclé lavés à l'eau chaude, triés, traités contre les punaises de lit, sans boutons ni fermetures éclair, coupés et prêts à l'emploi. Un seul type de chiffon par [pack].</p>
+<h2>Livraison</h2>
+<p>Nous livrons à Laval, à Montréal et dans le Grand Montréal. Ailleurs au Québec, à partir de 1 000 lb. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
+  "faq": [("Quelle est la guenille la moins chère à Laval?", "Chez Chiffons ÉCO, la guenille couleur (t-shirt ou ratine) : 32 $ le [pack] de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 [packs]."),
+          ("Les taxes sont-elles incluses?", "Non. Les prix sont avant TPS (5 %) et TVQ (9,975 %)."),
+          ("Où acheter des chiffons recyclés à Montréal?", "Chiffons ÉCO (Entretien Laval) livre ses chiffons recyclés à Montréal. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.")]},
+ "en": {"path": "/en/guides/rag-prices-laval-montreal/", "short": "Rag prices in Laval and Montréal",
+  "title": "Rag prices in Laval and Montréal (2026)",
+  "desc": "How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for colored, $42 for white: $1.28 to $1.68 per pound before tax.",
+  "eyebrow": "Guide · prices", "h1": "Recycled rag prices in Laval and Montréal",
+  "lede": "Chiffons ÉCO (Entretien Laval) sells recycled cotton wiping rags from $1.28 per pound, in 25 lb bags, across Greater Montreal.",
+  "card": "Price per bag and per pound, wholesale price, delivery.", "alt": "25 lb bag of colored T-shirt rags",
+  "body": """<h2>Our prices (before tax)</h2>
+<table><thead><tr><th>Product</th><th>Price per 25 lb [pack]</th><th>Price per pound</th></tr></thead><tbody>
+<tr><td>Colored T-shirt</td><td>$32</td><td>$1.28</td></tr>
+<tr><td>Colored terry</td><td>$32</td><td>$1.28</td></tr>
+<tr><td>White T-shirt</td><td>$42</td><td>$1.68</td></tr>
+<tr><td>White terry</td><td>$42</td><td>$1.68</td></tr></tbody></table>
+<p>From 50 [packs]: $28 colored and $38 white. See <a href="{{gros}}">wholesale rags</a>.</p>
+<h2>The cheapest choice</h2>
+<p><a href="{{couleur}}">Colored rags</a> cost the least: $32 per [pack]. They handle oil, grease, spills and everyday cleaning. Choose <a href="{{blancs}}">white</a> only for paint, varnish, solvents and light surfaces.</p>
+<h2>What's included</h2>
+<p>Recycled cotton rags washed in hot water, sorted, treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
+<h2>Delivery</h2>
+<p>We deliver in Laval, Montréal and Greater Montreal. Elsewhere in Québec, from 1,000 lb. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
+  "faq": [("What are the cheapest rags in Laval?", "At Chiffons ÉCO, colored rags (T-shirt or terry): $32 per 25 lb [pack], $1.28 per pound before tax, or $28 from 50 [packs]."),
+          ("Are taxes included?", "No. Prices are before GST (5%) and QST (9.975%)."),
+          ("Where can I buy recycled rags in Montréal?", "Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.")]}}
+
 GUIDE2_PAGES = P

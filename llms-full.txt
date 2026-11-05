@@ -34,6 +34,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Ranger, laver et jeter ses chiffons](https://entretienlaval.ca/guides/ranger-laver-reutiliser-chiffons/)
 - [Guenille, chiffon, linge : le lexique](https://entretienlaval.ca/guides/guenille-chiffon-torchon-lexique/)
 - [Calculateur de budget](https://entretienlaval.ca/calculateur-chiffons/)
+- [Prix des guenilles à Laval et Montréal](https://entretienlaval.ca/guides/prix-guenilles-laval-montreal/)
 - [Laval](https://entretienlaval.ca/chiffons-guenilles-laval/)
 - [Montréal](https://entretienlaval.ca/chiffons-guenilles-montreal/)
 - [Longueuil](https://entretienlaval.ca/chiffons-guenilles-longueuil/)
@@ -77,6 +78,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Storing, washing and disposing of rags](https://entretienlaval.ca/en/guides/store-wash-reuse-rags/)
 - [Rag glossary: guenille, chiffon, terry](https://entretienlaval.ca/en/guides/rag-glossary-quebec/)
 - [Budget calculator](https://entretienlaval.ca/en/rag-calculator/)
+- [Rag prices in Laval and Montréal](https://entretienlaval.ca/en/guides/rag-prices-laval-montreal/)
 - [Laval](https://entretienlaval.ca/en/rags-laval/)
 - [Montréal](https://entretienlaval.ca/en/rags-montreal/)
 - [Longueuil](https://entretienlaval.ca/en/rags-longueuil/)
@@ -249,6 +251,13 @@ Guenille, chiffon d'essuyage, linge, torchon, ratine, jersey : le vocabulaire qu
 ### Calculateur : combien de sacs de chiffons vous faut-il?
 URL: https://entretienlaval.ca/calculateur-chiffons/
 Estimez vos sacs de chiffons de 25 lb par mois et votre budget avant et après taxes (TPS et TVQ), selon votre consommation et le produit choisi.
+
+### Prix des guenilles et chiffons recyclés à Laval et Montréal
+URL: https://entretienlaval.ca/guides/prix-guenilles-laval-montreal/
+Prix des guenilles (chiffons recyclés) à Laval et Montréal : 32 $ le sac de 25 lb en couleur, 42 $ en blanc, soit 1,28 $ à 1,68 $ la livre avant taxes.
+- Q: Quelle est la guenille la moins chère à Laval? A: Chez Chiffons ÉCO, la guenille couleur (t-shirt ou ratine) : 32 $ le sac de 25 lb de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 sacs de 25 lb.
+- Q: Les taxes sont-elles incluses? A: Non. Les prix sont avant TPS (5 %) et TVQ (9,975 %).
+- Q: Où acheter des chiffons recyclés à Montréal? A: Chiffons ÉCO (Entretien Laval) livre ses chiffons recyclés à Montréal. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.
 
 ### Guenilles et chiffons à Laval
 URL: https://entretienlaval.ca/chiffons-guenilles-laval/
@@ -517,6 +526,13 @@ Guenille, chiffon, linge, ratine, wiper, shop rag: the Québec French and Englis
 ### Calculator: how many bags of rags do you need?
 URL: https://entretienlaval.ca/en/rag-calculator/
 Estimate your 25 lb bags of rags per month and your budget before and after tax (GST and QST), based on your usage and the product you choose.
+
+### Recycled rag prices in Laval and Montréal
+URL: https://entretienlaval.ca/en/guides/rag-prices-laval-montreal/
+How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for colored, $42 for white: $1.28 to $1.68 per pound before tax.
+- Q: What are the cheapest rags in Laval? A: At Chiffons ÉCO, colored rags (T-shirt or terry): $32 per 25 lb 25 lb bag, $1.28 per pound before tax, or $28 from 50 25 lb bags.
+- Q: Are taxes included? A: No. Prices are before GST (5%) and QST (9.975%).
+- Q: Where can I buy recycled rags in Montréal? A: Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.
 
 ### Rags and shop rags in Laval
 URL: https://entretienlaval.ca/en/rags-laval/

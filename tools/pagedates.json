@@ -200,8 +200,8 @@
   "published": "2026-10-10"
  },
  "/en/guides/": {
-  "hash": "edc3d5341a018483d15233ec5773d1a7ab0037f4",
-  "modified": "2026-10-31",
+  "hash": "0464f14ab9f3779f1257c0e7b81343912d7e5982",
+  "modified": "2026-11-05",
   "published": "2026-10-10"
  },
  "/en/guides/oily-rags-fire-risk/": {
@@ -213,6 +213,11 @@
   "hash": "b4cbbac9442b84726deac3511e72373aefaa07b4",
   "modified": "2026-10-31",
   "published": "2026-10-10"
+ },
+ "/en/guides/rag-prices-laval-montreal/": {
+  "hash": "4b7a8548584ea4aaa00b385cb8b5e926fb661d93",
+  "modified": "2026-11-05",
+  "published": "2026-11-05"
  },
  "/en/guides/recycled-rags-vs-paper-towels/": {
   "hash": "4288d7b63adc4b743e23adbc63d87f82a3ff9b08",
@@ -375,8 +380,8 @@
   "published": "2026-10-10"
  },
  "/guides/": {
-  "hash": "5a3b6987b99f2be92686067f9da88cce1a36a0fb",
-  "modified": "2026-10-31",
+  "hash": "64f06544c094f41d460855b34ab8698002236e45",
+  "modified": "2026-11-05",
   "published": "2026-10-10"
  },
  "/guides/chiffons-huileux-risque-incendie/": {
@@ -393,6 +398,11 @@
   "hash": "a4045425a400911d378dc7b77c9224451b60e462",
   "modified": "2026-10-31",
   "published": "2026-10-10"
+ },
+ "/guides/prix-guenilles-laval-montreal/": {
+  "hash": "51db6e5cb106a7a751cc9e1ad3fa19c0df690b5b",
+  "modified": "2026-11-05",
+  "published": "2026-11-05"
  },
  "/guides/ranger-laver-reutiliser-chiffons/": {
   "hash": "90aa0872cec9a3cf9d91d327fb2bfe256cce4fa4",
