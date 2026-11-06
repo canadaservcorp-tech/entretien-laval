@@ -71,7 +71,15 @@ CITY_LOCAL = {
  "ville-quebec": ("A-20, A-40 et A-73", "A-20, A-40 and A-73", "la Ville de Québec ou de Lévis"),
  "ville-sherbrooke": ("A-10, A-55 et A-410", "A-10, A-55 and A-410", "la Ville de Sherbrooke"),
  "ville-trois-rivieres": ("A-40 et A-55", "A-40 and A-55", "la Ville de Trois-Rivières"),
- "ville-gatineau": ("A-50 et A-5", "A-50 and A-5", "la Ville de Gatineau")}
+ "ville-gatineau": ("A-50 et A-5", "A-50 and A-5", "la Ville de Gatineau"),
+ "ville-saint-jean": ("A-35 et route 104", "A-35 and Route 104", "la Ville de Saint-Jean-sur-Richelieu"),
+ "ville-saint-hyacinthe": ("A-20 et route 137", "A-20 and Route 137", "la Ville de Saint-Hyacinthe"),
+ "ville-vaudreuil": ("A-20, A-30 et A-40", "A-20, A-30 and A-40", "votre municipalité ou votre MRC"),
+ "ville-joliette": ("A-31 et route 158", "A-31 and Route 158", "votre municipalité ou votre MRC"),
+ "ville-granby": ("A-10 et route 139", "A-10 and Route 139", "la Ville de Granby ou de Bromont"),
+ "ville-drummondville": ("A-20 et A-55", "A-20 and A-55", "la Ville de Drummondville"),
+ "ville-victoriaville": ("route 116 et route 122", "Route 116 and Route 122", "la Ville de Victoriaville"),
+ "ville-saguenay": ("route 175 et route 170", "Route 175 and Route 170", "la Ville de Saguenay")}
 
 def city_extra(key, page):
     fr_r, en_r, muni = CITY_LOCAL[key]
