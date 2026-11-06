@@ -214,9 +214,12 @@ def ctaband(lang):
     u = C.UI[lang]
     return f'<section class="ctaband"><div class="wrap"><div><h2>{u["cta_h"]}</h2><p>{u["cta_p"]}</p></div><div class="cta-row" style="margin-top:0"><a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div></div></section>'
 
+def product_id(p, lang):
+    return C.SITE + L(p["page"], lang) + "#product-" + p["id"]
+
 def product_ld(pid, lang):
     p = PROD[pid]; name, _, d = p[lang]
-    return {"@type": "Product", "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
+    return {"@type": "Product", "@id": product_id(p, lang), "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
             "image": C.SITE + "/img/" + C.IMG_BAG, "material": "coton recyclé" if lang == "fr" else "recycled cotton",
             "offers": {"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "availability": "https://schema.org/InStock", "priceValidUntil": "2026-12-31",
                        "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID}}}
@@ -227,7 +230,7 @@ def business(lang):
     b["logo"] = C.SITE + "/img/logo-chiffons-eco-512.png"
     b["priceRange"] = "32 $ – 42 $" if lang == "fr" else "$32 – $42"
     b["areaServed"] = [{"@type": "City", "name": c} for c in ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbriand", "Saint-Eustache", "Mirabel", "Saint-Jérôme", "Repentigny", "Brossard", "Boucherville", "Québec", "Lévis", "Sherbrooke", "Trois-Rivières", "Gatineau"]] + [{"@type": "AdministrativeArea", "name": "Québec"}]
-    b["makesOffer"] = [{"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@type": "Product", "name": f"{p[lang][0]} – {C.PACK[lang][0]}"}} for p in C.PRODUCTS]
+    b["makesOffer"] = [{"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@id": product_id(p, lang)}} for p in C.PRODUCTS]
     return b
 
 def crumbs(lang, items):
@@ -292,7 +295,7 @@ def subpage(key, lang):
         cname = pg["city"] if lang == "fr" else pg["city_en"]
         graph.append({"@type": "Service", "name": t["h1"], "serviceType": "Livraison de chiffons d'essuyage recyclés" if lang == "fr" else "Recycled wiping rag delivery",
                       "provider": {"@id": BIZ_ID}, "areaServed": {"@type": "Place", "name": cname.replace("la ", "").replace("the ", "")},
-                      "offers": [{"@type": "Offer", "price": f"{q['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@type": "Product", "name": f"{q[lang][0]} – {C.PACK[lang][0]}"}} for q in C.PRODUCTS]})
+                      "offers": [{"@type": "Offer", "price": f"{q['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@id": product_id(q, lang)}} for q in C.PRODUCTS]})
     if t.get("terms"):
         graph.append({"@type": "DefinedTermSet", "name": t["h1"], "inLanguage": f"{lang}-CA", "hasDefinedTerm": [{"@type": "DefinedTerm", "name": a, "description": b} for a, b in t["terms"]]})
     lst = {"guides": C.GUIDE_KEYS, "hub": [k for k in C.SECTOR_KEYS if k != "gros"]}.get(kind) or (C.CITY_KEYS if key == "livraison" else None)
