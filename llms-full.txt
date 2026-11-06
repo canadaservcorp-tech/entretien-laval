@@ -39,6 +39,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Quel chiffon pour teindre le bois](https://entretienlaval.ca/guides/meilleur-chiffon-teinture-bois/)
 - [Chiffons industriels : guide d'achat](https://entretienlaval.ca/guides/chiffons-industriels-guide-achat/)
 - [Chiffons pour ateliers de métal à Laval et Montréal](https://entretienlaval.ca/guides/chiffons-atelier-metal-laval-montreal/)
+- [Démarrer une entreprise de revente de chiffons](https://entretienlaval.ca/guides/demarrer-entreprise-revente-chiffons/)
 - [Laval](https://entretienlaval.ca/chiffons-guenilles-laval/)
 - [Montréal](https://entretienlaval.ca/chiffons-guenilles-montreal/)
 - [Longueuil](https://entretienlaval.ca/chiffons-guenilles-longueuil/)
@@ -95,6 +96,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Best rag for staining wood](https://entretienlaval.ca/en/guides/best-rag-for-staining-wood/)
 - [Industrial shop rags: buying guide](https://entretienlaval.ca/en/guides/industrial-shop-rags-buying-guide/)
 - [Rags for metal shops in Laval and Montréal](https://entretienlaval.ca/en/guides/metal-shop-rags-laval-montreal/)
+- [Start a rag resale business](https://entretienlaval.ca/en/guides/start-rag-resale-business/)
 - [Laval](https://entretienlaval.ca/en/rags-laval/)
 - [Montréal](https://entretienlaval.ca/en/rags-montreal/)
 - [Longueuil](https://entretienlaval.ca/en/rags-longueuil/)
@@ -311,6 +313,13 @@ Où acheter des chiffons pour un atelier d'usinage CNC, de soudure ou de fabrica
 - Q: Où acheter des chiffons pour un atelier d'usinage CNC à Montréal? A: Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : ratine ou t-shirt, couleur à 32 $ ou blanc à 42 $ le sac de 25 lb de 25 lb, avant taxes. Livraison à Montréal 25 $ dès 2 sacs de 25 lb, ou ramassage à Laval.
 - Q: Quel est le chiffon le moins cher pour un atelier de métal à Laval? A: Le sac de 25 lb de 25 lb en couleur à 32 $ avant taxes (1,28 $/lb), ou 28 $ dès 50 sacs de 25 lb. Livraison à Laval 15 $ dès 1 sac de 25 lb.
 - Q: Quel chiffon pour l'huile de coupe? A: La ratine : épaisse et très absorbante. Prenez la ratine blanche (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon la ratine couleur (32 $).
+
+### Idée d'entreprise : revendre des chiffons recyclés aux garages et aux usines
+URL: https://entretienlaval.ca/guides/demarrer-entreprise-revente-chiffons/
+Idée d'affaires au Québec : achetez des guenilles au prix distributeur à Laval, remplissez votre camion et vendez-les aux garages et aux usines.
+- Q: Quelle petite entreprise démarrer avec un camion au Québec? A: La revente de chiffons d'essuyage recyclés aux garages, ateliers et usines est une option simple : Entretien Laval, à Laval, vend aux revendeurs au prix distributeur dès 50 sacs de 25 lb (28 $ couleur, 38 $ blanc, avant taxes), en ramassage seulement au 1355 boul. Le Corbusier. Vous chargez votre camion à Laval et fixez votre prix de revente.
+- Q: Faut-il un local ou un entrepôt pour revendre des chiffons? A: Non, pas pour commencer. Vous pouvez acheter 50 sacs, les transporter dans votre camion et revenir à Laval quand votre stock baisse.
+- Q: Entretien Laval garantit-il un revenu aux revendeurs? A: Non. Nous fournissons les chiffons au prix distributeur; votre prix de revente, vos clients et vos résultats dépendent de vous.
 
 ### Guenilles et chiffons à Laval
 URL: https://entretienlaval.ca/chiffons-guenilles-laval/
@@ -671,6 +680,13 @@ Where to buy rags for a CNC machine shop, welding or metal fabrication shop in L
 - Q: Where can I buy rags for a CNC machine shop in Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 colored or $42 white per 25 lb 25 lb bag, before tax. Delivery in Montréal $25 from 2 25 lb bags, or pickup in Laval.
 - Q: What is the cheapest rag for a metal shop in Laval? A: The 25 lb colored 25 lb bag at $32 before tax ($1.28/lb), or $28 from 50 25 lb bags. Delivery in Laval $15 from 1 25 lb bag.
 - Q: Which rag is best for cutting oil? A: Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise colored terry ($32).
+
+### Business idea: resell recycled rags to garages and factories
+URL: https://entretienlaval.ca/en/guides/start-rag-resale-business/
+Small business idea in Québec: buy recycled rags at distributor price in Laval, fill your truck or van and sell them to garages and factories.
+- Q: What small business can I start with a truck in Québec? A: Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 colored, $38 white, before tax), pickup only at 1355 boul. Le Corbusier. You load your truck in Laval and set your own resale price.
+- Q: Do I need a warehouse to resell rags? A: No, not to start. You can buy 50 bags, carry them in your truck and come back to Laval when your stock runs low.
+- Q: Does Entretien Laval guarantee income to resellers? A: No. We supply the rags at distributor price; your resale price, customers and results are up to you.
 
 ### Rags and shop rags in Laval
 URL: https://entretienlaval.ca/en/rags-laval/
