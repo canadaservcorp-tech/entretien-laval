@@ -296,4 +296,58 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
           ("Which rag is best for a machine shop?", "Colored terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts."),
           ("Do you deliver industrial rags?", "Yes: Laval ($15, from 1 [pack]), Montréal ($25, from 2 [packs]) and elsewhere in Québec from 1,000 lb.")]}}
 
+P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", "guide-industriel"],
+ "fr": {"path": "/guides/chiffons-atelier-metal-laval-montreal/", "short": "Chiffons pour ateliers de métal à Laval et Montréal",
+  "title": "Chiffons pour ateliers d'usinage et de métal à Laval et Montréal",
+  "desc": "Où acheter des chiffons pour un atelier d'usinage CNC, de soudure ou de fabrication métallique à Laval et Montréal : produits, prix, ramassage et livraison.",
+  "eyebrow": "Guide · usinage · soudure · métal", "h1": "Chiffons pour ateliers d'usinage et de métal à Laval et Montréal",
+  "lede": "Ateliers CNC, soudure, fabrication métallique : quel chiffon prendre, combien il coûte et comment l'obtenir rapidement dans le Grand Montréal.",
+  "card": "Usinage CNC, soudure, fabrication : produits, prix et livraison à Laval et Montréal.",
+  "alt": "Sac de chiffons d'atelier pour usinage et fabrication métallique",
+  "body": """<h2>Le bon chiffon selon le travail</h2>
+<table><thead><tr><th>Travail</th><th>Chiffon conseillé</th><th>Prix (sac de 25 lb, avant taxes)</th></tr></thead><tbody>
+<tr><td>Huile de coupe, liquide de refroidissement, déversements</td><td>Ratine couleur ou ratine blanche</td><td>32 $ / 42 $</td></tr>
+<tr><td>Pièces finies, mesure, inspection</td><td>T-shirt blanc</td><td>42 $</td></tr>
+<tr><td>Dégraissage avant soudure ou peinture</td><td>T-shirt blanc</td><td>42 $</td></tr>
+<tr><td>Mains, outils, établis, entretien des machines</td><td>T-shirt couleur</td><td>32 $</td></tr></tbody></table>
+<p>La ratine blanche absorbe autant que la ratine couleur, sans transfert de teinture : un bon choix pour l'huile de coupe sur des pièces finies. Tous nos chiffons sont sans boutons, fermetures éclair ni métal.</p>
+<h2>Ramassage et livraison</h2>
+<ul><li><b>Ramassage à Laval</b> : 1355 boul. Le Corbusier.</li>
+<li><b>Livraison à Laval</b> : 15 $, dès 1 [pack].</li>
+<li><b>Livraison à Montréal</b> : 25 $, dès 2 [packs].</li>
+<li><b>Ailleurs au Québec</b> : à partir de 1 000 lb (40 [packs]).</li></ul>
+<h2>Prix de volume</h2>
+<p>À partir de 50 [packs] : 28 $ en couleur et 38 $ en blanc, avant taxes. Facture avec TPS et TVQ. Voir <a href="{{gros}}">guenilles en gros</a> et le <a href="{{calculateur}}">calculateur</a> pour estimer vos besoins par mois.</p>
+<h2>Pages par métier</h2>
+<p><a href="{{usinage}}">Ateliers d'usinage</a> · <a href="{{soudure}}">Soudure et fabrication métallique</a> · <a href="{{guide-industriel}}">Guide d'achat des chiffons industriels</a></p>""",
+  "faq": [("Où acheter des chiffons pour un atelier d'usinage CNC à Montréal?", "Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : ratine ou t-shirt, couleur à 32 $ ou blanc à 42 $ le [pack] de 25 lb, avant taxes. Livraison à Montréal 25 $ dès 2 [packs], ou ramassage à Laval."),
+          ("Quel est le chiffon le moins cher pour un atelier de métal à Laval?", "Le [pack] de 25 lb en couleur à 32 $ avant taxes (1,28 $/lb), ou 28 $ dès 50 [packs]. Livraison à Laval 15 $ dès 1 [pack]."),
+          ("Quel chiffon pour l'huile de coupe?", "La ratine : épaisse et très absorbante. Prenez la ratine blanche (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon la ratine couleur (32 $).")]},
+ "en": {"path": "/en/guides/metal-shop-rags-laval-montreal/", "short": "Rags for metal shops in Laval and Montréal",
+  "title": "Rags for machine and metal shops in Laval and Montréal",
+  "desc": "Where to buy rags for a CNC machine shop, welding or metal fabrication shop in Laval and Montréal: products, prices, pickup and delivery.",
+  "eyebrow": "Guide · machining · welding · metal", "h1": "Rags for machine and metal shops in Laval and Montréal",
+  "lede": "CNC shops, welding, metal fabrication: which rag to use, what it costs and how to get it fast in Greater Montréal.",
+  "card": "CNC machining, welding, fabrication: products, prices and delivery in Laval and Montréal.",
+  "alt": "Bag of shop rags for machining and metal fabrication",
+  "body": """<h2>The right rag for the job</h2>
+<table><thead><tr><th>Job</th><th>Recommended rag</th><th>Price (25 lb bag, before tax)</th></tr></thead><tbody>
+<tr><td>Cutting oil, coolant, spills</td><td>Colored terry or white terry</td><td>$32 / $42</td></tr>
+<tr><td>Finished parts, measuring, inspection</td><td>White T-shirt</td><td>$42</td></tr>
+<tr><td>Degreasing before welding or painting</td><td>White T-shirt</td><td>$42</td></tr>
+<tr><td>Hands, tools, benches, machine maintenance</td><td>Colored T-shirt</td><td>$32</td></tr></tbody></table>
+<p>White terry absorbs as much as colored terry, with no dye transfer: a good choice for cutting oil on finished parts. All our rags are free of buttons, zippers and metal.</p>
+<h2>Pickup and delivery</h2>
+<ul><li><b>Pickup in Laval</b>: 1355 boul. Le Corbusier.</li>
+<li><b>Delivery in Laval</b>: $15, from 1 [pack].</li>
+<li><b>Delivery in Montréal</b>: $25, from 2 [packs].</li>
+<li><b>Elsewhere in Québec</b>: from 1,000 lb (40 [packs]).</li></ul>
+<h2>Volume pricing</h2>
+<p>From 50 [packs]: $28 colored and $38 white, before tax. Invoice with GST and QST. See <a href="{{gros}}">wholesale rags</a> and the <a href="{{calculateur}}">calculator</a> to estimate your monthly needs.</p>
+<h2>Pages by trade</h2>
+<p><a href="{{usinage}}">Machine shops</a> · <a href="{{soudure}}">Welding and metal fabrication</a> · <a href="{{guide-industriel}}">Industrial shop rags buying guide</a></p>""",
+  "faq": [("Where can I buy rags for a CNC machine shop in Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 colored or $42 white per 25 lb [pack], before tax. Delivery in Montréal $25 from 2 [packs], or pickup in Laval."),
+          ("What is the cheapest rag for a metal shop in Laval?", "The 25 lb colored [pack] at $32 before tax ($1.28/lb), or $28 from 50 [packs]. Delivery in Laval $15 from 1 [pack]."),
+          ("Which rag is best for cutting oil?", "Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise colored terry ($32).")]}}
+
 GUIDE2_PAGES = P
