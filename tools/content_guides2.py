@@ -350,4 +350,64 @@ P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", 
           ("What is the cheapest rag for a metal shop in Laval?", "The 25 lb colored [pack] at $32 before tax ($1.28/lb), or $28 from 50 [packs]. Delivery in Laval $15 from 1 [pack]."),
           ("Which rag is best for cutting oil?", "Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise colored terry ($32).")]}}
 
+P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", "guide-prix"],
+ "fr": {"path": "/guides/demarrer-entreprise-revente-chiffons/", "short": "Démarrer une entreprise de revente de chiffons",
+  "title": "Idée d'entreprise : revendre des chiffons en camion",
+  "desc": "Idée d'affaires au Québec : achetez des guenilles au prix distributeur à Laval, remplissez votre camion et vendez-les aux garages et aux usines.",
+  "eyebrow": "Guide · idée d'affaires", "h1": "Idée d'entreprise : revendre des chiffons recyclés aux garages et aux usines",
+  "lede": "Une petite entreprise simple à démarrer : achetez vos sacs au prix distributeur chez Entretien Laval, chargez votre camion ou votre fourgonnette et vendez-les comptant à vos clients.",
+  "card": "Prix distributeur, camion, clients : comment démarrer.", "alt": "Sacs de chiffons d'atelier prêts à revendre",
+  "body": """<h2>Pourquoi les chiffons</h2>
+<p>Les garages, ateliers d'usinage et de soudure, usines, fermes et entreprises d'entretien utilisent des chiffons chaque semaine. C'est un produit qui se consomme et se rachète : un client satisfait recommande régulièrement. Dans beaucoup de régions, surtout au nord de Montréal (Laurentides, Lanaudière, Mauricie, Abitibi, Saguenay–Lac-Saint-Jean), peu de fournisseurs passent directement chez les petites entreprises.</p>
+<h2>Votre prix d'achat</h2>
+<p>Dès 50 sacs de 25 lb, vous payez le prix distributeur (avant taxes) :</p>
+<ul><li>T-shirt ou ratine de couleur : 28 $ le [pack] au lieu de 32 $</li>
+<li>T-shirt ou ratine blanc : 38 $ le [pack] au lieu de 42 $</li></ul>
+<p>Vous pouvez mélanger les produits. Vous chargez votre camion au 1355 boul. Le Corbusier, à Laval.</p>
+<h2>Comment ça fonctionne</h2>
+<ol><li>Écrivez à info@entretienlaval.ca avec les produits et le nombre de sacs (minimum 50).</li>
+<li>Payez la commande et convenez de l'heure de chargement.</li>
+<li>Chargez votre camion ou votre fourgonnette à Laval.</li>
+<li>Faites votre tournée : garages, concessionnaires, ateliers, usines, fermes, entreprises de ménage. Vous fixez votre prix de revente et vous encaissez directement.</li>
+<li>Revenez remplir le camion quand votre stock baisse.</li></ol>
+<h2>Exemple de calcul</h2>
+<p>Exemple seulement : 50 sacs de couleur coûtent 1 400 $ avant taxes. Si vous les revendez 40 $ le sac, vous encaissez 2 000 $, soit 600 $ de marge brute avant votre essence, votre temps et vos taxes. Le prix de revente, vos clients et votre région dépendent de vous; Entretien Laval ne garantit pas de revenu.</p>
+<h2>Conseils pour bien démarrer</h2>
+<ul><li>Commencez par les garages et les ateliers de votre région : ce sont les plus gros utilisateurs.</li>
+<li>Gardez des sacs blancs pour les peintres, les ébénistes et les ateliers de finition.</li>
+<li>Passez à intervalles réguliers : vos clients prennent l'habitude de racheter.</li>
+<li>Informez-vous sur les obligations d'un travailleur autonome ou d'une entreprise au Québec (inscription au Registraire des entreprises, taxes) auprès des services gouvernementaux.</li></ul>""",
+  "faq": [("Quelle petite entreprise démarrer avec un camion au Québec?", "La revente de chiffons d'essuyage recyclés aux garages, ateliers et usines est une option simple : Entretien Laval, à Laval, vend aux revendeurs au prix distributeur dès 50 sacs de 25 lb (28 $ couleur, 38 $ blanc, avant taxes). Vous chargez votre camion à Laval et fixez votre prix de revente."),
+          ("Faut-il un local ou un entrepôt pour revendre des chiffons?", "Non, pas pour commencer. Vous pouvez acheter 50 sacs, les transporter dans votre camion et revenir à Laval quand votre stock baisse."),
+          ("Entretien Laval garantit-il un revenu aux revendeurs?", "Non. Nous fournissons les chiffons au prix distributeur; votre prix de revente, vos clients et vos résultats dépendent de vous.")]},
+ "en": {"path": "/en/guides/start-rag-resale-business/", "short": "Start a rag resale business",
+  "title": "Business idea: sell shop rags from your truck",
+  "desc": "Small business idea in Québec: buy recycled rags at distributor price in Laval, fill your truck or van and sell them to garages and factories.",
+  "eyebrow": "Guide · business idea", "h1": "Business idea: resell recycled rags to garages and factories",
+  "lede": "A simple small business to start: buy your bags at distributor price from Entretien Laval, load your truck or van and sell them for cash to your customers.",
+  "card": "Distributor price, truck, customers: how to start.", "alt": "Bags of shop rags ready to resell",
+  "body": """<h2>Why rags</h2>
+<p>Garages, machine and welding shops, factories, farms and cleaning companies use rags every week. It's a consumable that gets bought again and again: a happy customer reorders regularly. In many regions, especially north of Montréal (Laurentides, Lanaudière, Mauricie, Abitibi, Saguenay–Lac-Saint-Jean), few suppliers visit small businesses in person.</p>
+<h2>Your buying price</h2>
+<p>From 50 bags of 25 lb, you pay the distributor price (before tax):</p>
+<ul><li>Colored T-shirt or terry: $28 per [pack] instead of $32</li>
+<li>White T-shirt or terry: $38 per [pack] instead of $42</li></ul>
+<p>Mixed products are fine. You load your truck at 1355 boul. Le Corbusier, Laval.</p>
+<h2>How it works</h2>
+<ol><li>Email info@entretienlaval.ca with the products and number of bags (minimum 50).</li>
+<li>Pay for the order and agree on a loading time.</li>
+<li>Load your truck or van in Laval.</li>
+<li>Do your route: garages, dealerships, shops, factories, farms, cleaning companies. You set your resale price and collect payment directly.</li>
+<li>Come back to refill when your stock runs low.</li></ol>
+<h2>Example</h2>
+<p>Example only: 50 colored bags cost $1,400 before tax. If you resell them at $40 a bag, you collect $2,000, a $600 gross margin before fuel, your time and taxes. Your resale price, customers and region are up to you; Entretien Laval does not guarantee any income.</p>
+<h2>Tips to get started</h2>
+<ul><li>Start with garages and shops in your area: they are the biggest users.</li>
+<li>Keep white bags for painters, cabinetmakers and finishing shops.</li>
+<li>Visit on a regular schedule: customers get used to reordering.</li>
+<li>Check the obligations for self-employed workers or businesses in Québec (business registration, sales taxes) with government services.</li></ul>""",
+  "faq": [("What small business can I start with a truck in Québec?", "Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 colored, $38 white, before tax). You load your truck in Laval and set your own resale price."),
+          ("Do I need a warehouse to resell rags?", "No, not to start. You can buy 50 bags, carry them in your truck and come back to Laval when your stock runs low."),
+          ("Does Entretien Laval guarantee income to resellers?", "No. We supply the rags at distributor price; your resale price, customers and results are up to you.")]}}
+
 GUIDE2_PAGES = P

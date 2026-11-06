@@ -245,7 +245,7 @@
   "published": "2026-10-10"
  },
  "/en/guides/": {
-  "hash": "0d9a55c0b90a0afc44443cb76d53b8abf411a341",
+  "hash": "0353f697dc07aa48c66358165890ea50e6a5445c",
   "modified": "2026-11-06",
   "published": "2026-10-10"
  },
@@ -283,6 +283,11 @@
   "hash": "6d1057122001b0349ef7eaf0ed7d36db87139af7",
   "modified": "2026-11-06",
   "published": "2026-10-10"
+ },
+ "/en/guides/start-rag-resale-business/": {
+  "hash": "ae904926fa8321912c41143a556d3c05c6e5def4",
+  "modified": "2026-11-06",
+  "published": "2026-11-06"
  },
  "/en/guides/store-wash-reuse-rags/": {
   "hash": "e7a12a3cae0a21b26675c3fdff06317cd34123cc",
@@ -485,7 +490,7 @@
   "published": "2026-10-10"
  },
  "/guides/": {
-  "hash": "82af8a4d985091c65f9d2f03ccd4105929539063",
+  "hash": "89923c3093f7f56b0e02aa956c133a9ca83ea496",
   "modified": "2026-11-06",
   "published": "2026-10-10"
  },
@@ -508,6 +513,11 @@
   "hash": "32e697dae3c423e4cfced56fd1b4561f63d63096",
   "modified": "2026-11-06",
   "published": "2026-10-10"
+ },
+ "/guides/demarrer-entreprise-revente-chiffons/": {
+  "hash": "65090818959b9ba5ba9c7444f6e2b3752d975fe0",
+  "modified": "2026-11-06",
+  "published": "2026-11-06"
  },
  "/guides/guenille-chiffon-torchon-lexique/": {
   "hash": "43fc6bf7d4b05ce27fa70a50f0ea4999cb31c769",
