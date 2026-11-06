@@ -220,7 +220,7 @@ S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
   "faq": [("Do you deliver to farms?", "Yes, from 1,000 lb per delivery outside Laval and Montréal. Fees depend on distance."),
           ("Can these rags be used for animals or food?", "No. Our rags are made for wiping machinery, tools and surfaces.")]})
 
-S("usinage", BAG, ["industrie", "gros", "guide-ratine"],
+S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
  {"path": "/chiffons-usinage-atelier-machinerie/", "short": "Usinage et ateliers",
   "title": "Chiffons pour ateliers d'usinage et de fabrication",
   "desc": "Chiffons recyclés pour ateliers d'usinage, soudure et fabrication métallique : huile de coupe, refroidissement, entretien des machines. Dès 32 $ le sac.",
@@ -234,7 +234,7 @@ S("usinage", BAG, ["industrie", "gros", "guide-ratine"],
 <li>Entretien des glissières, des étaux et des outils.</li>
 <li>Mains, établis et planchers.</li></ul>
 <h2>Quel chiffon choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> retient le plus de liquide. Le t-shirt couleur est plus souple pour les pièces. Les deux coûtent 32 $ le [pack]. Pour comparer, voir le guide <a href="{{guide-ratine}}">ratine ou t-shirt</a>.</p>
+<p>La <a href="{{couleur}}">ratine couleur</a> retient le plus de liquide. Le t-shirt couleur est plus souple pour les pièces. Les deux coûtent 32 $ le [pack]. Pour essuyer les pièces finies avant la mesure, le <a href="{{blancs}}">t-shirt blanc</a> (42 $) ne laisse pas de teinture. Pour comparer, voir le guide <a href="{{guide-ratine}}">ratine ou t-shirt</a>.</p>
 <h2>Attention aux copeaux</h2>
 <p>Un chiffon qui a servi près d'une machine peut contenir des copeaux de métal coupants. Ne l'utilisez pas ensuite sur les mains ou une surface délicate.</p>""",
   "faq": [("Combien de sacs par mois pour un atelier?", "Cela dépend du nombre de postes et du type de travail. Notre <a href=\"{{calculateur}}\">calculateur</a> vous aide à estimer votre budget à partir de votre consommation."),
@@ -252,11 +252,59 @@ S("usinage", BAG, ["industrie", "gros", "guide-ratine"],
 <li>Maintaining ways, vises and tools.</li>
 <li>Hands, benches and floors.</li></ul>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> holds the most fluid. Colored T-shirt rags are softer for parts. Both cost $32 per [pack]. To compare, see the guide <a href="{{guide-ratine}}">terry vs T-shirt</a>.</p>
+<p><a href="{{couleur}}">Colored terry</a> holds the most fluid. Colored T-shirt rags are softer for parts. Both cost $32 per [pack]. For wiping finished parts before measuring, <a href="{{blancs}}">white T-shirt</a> ($42) leaves no dye. To compare, see the guide <a href="{{guide-ratine}}">terry vs T-shirt</a>.</p>
 <h2>Watch out for chips</h2>
 <p>A rag used near a machine can hold sharp metal chips. Don't reuse it on hands or a delicate surface.</p>""",
   "faq": [("How many bags per month for a shop?", "It depends on the number of stations and the type of work. Our <a href=\"{{calculateur}}\">calculator</a> helps you estimate your budget from your usage."),
           ("Do you deliver to industrial parks?", "Yes, to your business address. Outside Laval and Montréal, the minimum is 1,000 lb per delivery.")]})
+
+S("soudure", SHOP, ["usinage", "blancs", "guide-metal"],
+ {"path": "/chiffons-soudure-fabrication-metallique/", "short": "Soudure et fabrication métallique",
+  "title": "Chiffons pour soudure et fabrication métallique – Laval",
+  "desc": "Chiffons recyclés pour la soudure et la fabrication métallique : dégraissage avant soudure, meulage, préparation avant peinture. Dès 32 $ le sac de 25 lb.",
+  "eyebrow": "Soudure · fabrication métallique · structures d'acier", "h1": "Chiffons pour la soudure et la fabrication métallique",
+  "lede": "Pour dégraisser l'acier avant la soudure, essuyer la poussière de meulage et préparer les pièces avant la peinture, en [packs].",
+  "card": "Dégraissage avant soudure, meulage, préparation avant peinture.",
+  "alt": "Sac de chiffons d'atelier pour soudure et fabrication métallique",
+  "body": """<h2>Où nos chiffons servent dans un atelier de métal</h2>
+<ul><li><b>Avant la soudure</b> : essuyer l'huile, la graisse et la saleté de l'acier, avec votre solvant habituel.</li>
+<li><b>Après le meulage et le perçage</b> : enlever la poussière et l'huile de coupe des pièces.</li>
+<li><b>Avant la peinture ou le revêtement</b> : dernier essuyage des surfaces.</li>
+<li><b>Entretien</b> : postes de soudure, scies, plieuses, perceuses, mains et établis.</li></ul>
+<h2>Quel chiffon choisir</h2>
+<table><thead><tr><th>Usage</th><th>Chiffon conseillé</th></tr></thead><tbody>
+<tr><td>Huile, graisse, nettoyage courant</td><td><a href="{{couleur}}">Couleur</a> (t-shirt ou ratine), 32 $</td></tr>
+<tr><td>Dégraissage avant soudure ou peinture, pièces finies</td><td><a href="{{blancs}}">T-shirt blanc</a>, 42 $ : pas de transfert de teinture</td></tr>
+<tr><td>Déversements d'huile ou de liquide de refroidissement</td><td>Ratine couleur, 32 $</td></tr></tbody></table>
+<p>Nos chiffons sont sans boutons, fermetures éclair ni pièces de métal, pour ne pas rayer les pièces.</p>
+<h2>Sécurité près des étincelles</h2>
+<p>Gardez les chiffons, propres ou souillés, loin de la zone de soudure et de meulage. Les chiffons imbibés de solvant ou d'huile vont dans un contenant métallique fermé. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
+  "faq": [("Où acheter des chiffons pour un atelier de soudure à Laval ou Montréal?", "Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : [pack] de 25 lb à 32 $ en couleur ou 42 $ en blanc, avant taxes. Ramassage à Laval, livraison à Laval (15 $, dès 1 [pack]) et à Montréal (25 $, dès 2 [packs])."),
+          ("Quel chiffon pour dégraisser l'acier avant la soudure?", "Le t-shirt blanc : mince, il laisse peu de peluches et ne transfère pas de teinture sur la pièce. Utilisez-le avec votre solvant habituel."),
+          ("Avez-vous un prix pour les gros ateliers?", "Oui : 28 $ en couleur et 38 $ en blanc à partir de 50 [packs], avant taxes. Voir <a href=\"{{gros}}\">guenilles en gros</a>.")]},
+ {"path": "/en/welding-metal-fabrication-rags/", "short": "Welding and metal fabrication",
+  "title": "Rags for welding and metal fabrication shops – Laval",
+  "desc": "Recycled rags for welding and metal fabrication shops: degreasing before welding, grinding, prep before painting. From $32 per 25 lb bag.",
+  "eyebrow": "Welding · metal fabrication · structural steel", "h1": "Rags for welding and metal fabrication",
+  "lede": "For degreasing steel before welding, wiping grinding dust and preparing parts before painting, in [packs].",
+  "card": "Degreasing before welding, grinding, prep before painting.",
+  "alt": "Bag of shop rags for welding and metal fabrication",
+  "body": """<h2>Where our rags are used in a metal shop</h2>
+<ul><li><b>Before welding</b>: wiping oil, grease and dirt off the steel, with your usual solvent.</li>
+<li><b>After grinding and drilling</b>: removing dust and cutting oil from parts.</li>
+<li><b>Before painting or coating</b>: the final wipe of the surfaces.</li>
+<li><b>Maintenance</b>: welding stations, saws, press brakes, drills, hands and benches.</li></ul>
+<h2>Which rag to choose</h2>
+<table><thead><tr><th>Use</th><th>Recommended rag</th></tr></thead><tbody>
+<tr><td>Oil, grease, everyday cleaning</td><td><a href="{{couleur}}">Colored</a> (T-shirt or terry), $32</td></tr>
+<tr><td>Degreasing before welding or painting, finished parts</td><td><a href="{{blancs}}">White T-shirt</a>, $42: no dye transfer</td></tr>
+<tr><td>Oil or coolant spills</td><td>Colored terry, $32</td></tr></tbody></table>
+<p>Our rags have no buttons, zippers or metal parts, so they don't scratch parts.</p>
+<h2>Safety near sparks</h2>
+<p>Keep rags, clean or dirty, away from the welding and grinding area. Rags soaked with solvent or oil go in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
+  "faq": [("Where can I buy rags for a welding shop in Laval or Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: 25 lb [pack] at $32 colored or $42 white, before tax. Pickup in Laval, delivery in Laval ($15, from 1 [pack]) and Montréal ($25, from 2 [packs])."),
+          ("Which rag should I use to degrease steel before welding?", "White T-shirt: it's thin, leaves little lint and doesn't transfer dye to the part. Use it with your usual solvent."),
+          ("Do you have pricing for large shops?", "Yes: $28 colored and $38 white from 50 [packs], before tax. See <a href=\"{{gros}}\">wholesale rags</a>.")]})
 
 S("municipal", BAGS, ["entretien", "garage", "gros"],
  {"path": "/chiffons-municipalites-ecoles/", "short": "Municipalités et écoles",

@@ -29,6 +29,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Marinas et bateaux](https://entretienlaval.ca/chiffons-marinas-bateaux/)
 - [Fermes et machinerie agricole](https://entretienlaval.ca/chiffons-fermes-machinerie-agricole/)
 - [Usinage et ateliers](https://entretienlaval.ca/chiffons-usinage-atelier-machinerie/)
+- [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
 - [Municipalités et écoles](https://entretienlaval.ca/chiffons-municipalites-ecoles/)
 - [Ratine ou t-shirt : quel chiffon choisir](https://entretienlaval.ca/guides/ratine-ou-t-shirt/)
 - [Ranger, laver et jeter ses chiffons](https://entretienlaval.ca/guides/ranger-laver-reutiliser-chiffons/)
@@ -37,6 +38,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Prix des guenilles à Laval et Montréal](https://entretienlaval.ca/guides/prix-guenilles-laval-montreal/)
 - [Quel chiffon pour teindre le bois](https://entretienlaval.ca/guides/meilleur-chiffon-teinture-bois/)
 - [Chiffons industriels : guide d'achat](https://entretienlaval.ca/guides/chiffons-industriels-guide-achat/)
+- [Chiffons pour ateliers de métal à Laval et Montréal](https://entretienlaval.ca/guides/chiffons-atelier-metal-laval-montreal/)
 - [Laval](https://entretienlaval.ca/chiffons-guenilles-laval/)
 - [Montréal](https://entretienlaval.ca/chiffons-guenilles-montreal/)
 - [Longueuil](https://entretienlaval.ca/chiffons-guenilles-longueuil/)
@@ -75,6 +77,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Marinas and boats](https://entretienlaval.ca/en/marina-boat-rags/)
 - [Farms and farm machinery](https://entretienlaval.ca/en/farm-machinery-rags/)
 - [Machine shops and fabrication](https://entretienlaval.ca/en/machine-shop-rags/)
+- [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
 - [Municipalities and schools](https://entretienlaval.ca/en/municipal-school-maintenance-rags/)
 - [Terry vs T-shirt: which rag to choose](https://entretienlaval.ca/en/guides/terry-vs-t-shirt-rags/)
 - [Storing, washing and disposing of rags](https://entretienlaval.ca/en/guides/store-wash-reuse-rags/)
@@ -83,6 +86,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Rag prices in Laval and Montréal](https://entretienlaval.ca/en/guides/rag-prices-laval-montreal/)
 - [Best rag for staining wood](https://entretienlaval.ca/en/guides/best-rag-for-staining-wood/)
 - [Industrial shop rags: buying guide](https://entretienlaval.ca/en/guides/industrial-shop-rags-buying-guide/)
+- [Rags for metal shops in Laval and Montréal](https://entretienlaval.ca/en/guides/metal-shop-rags-laval-montreal/)
 - [Laval](https://entretienlaval.ca/en/rags-laval/)
 - [Montréal](https://entretienlaval.ca/en/rags-montreal/)
 - [Longueuil](https://entretienlaval.ca/en/rags-longueuil/)
@@ -230,6 +234,13 @@ Chiffons recyclés pour ateliers d'usinage, soudure et fabrication métallique :
 - Q: Combien de sacs par mois pour un atelier? A: Cela dépend du nombre de postes et du type de travail. Notre calculateur vous aide à estimer votre budget à partir de votre consommation.
 - Q: Livrez-vous les zones industrielles? A: Oui, à l'adresse de votre entreprise. Hors Laval et Montréal, le minimum est de 1 000 lb par livraison.
 
+### Chiffons pour la soudure et la fabrication métallique
+URL: https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/
+Chiffons recyclés pour la soudure et la fabrication métallique : dégraissage avant soudure, meulage, préparation avant peinture. Dès 32 $ le sac de 25 lb.
+- Q: Où acheter des chiffons pour un atelier de soudure à Laval ou Montréal? A: Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : sac de 25 lb de 25 lb à 32 $ en couleur ou 42 $ en blanc, avant taxes. Ramassage à Laval, livraison à Laval (15 $, dès 1 sac de 25 lb) et à Montréal (25 $, dès 2 sacs de 25 lb).
+- Q: Quel chiffon pour dégraisser l'acier avant la soudure? A: Le t-shirt blanc : mince, il laisse peu de peluches et ne transfère pas de teinture sur la pièce. Utilisez-le avec votre solvant habituel.
+- Q: Avez-vous un prix pour les gros ateliers? A: Oui : 28 $ en couleur et 38 $ en blanc à partir de 50 sacs de 25 lb, avant taxes. Voir guenilles en gros.
+
 ### Chiffons pour municipalités, écoles et institutions
 URL: https://entretienlaval.ca/chiffons-municipalites-ecoles/
 Chiffons recyclés pour garages municipaux, travaux publics, arénas, écoles et institutions. Facture avec TPS et TVQ, dès 32 $ le sac de 25 lb.
@@ -277,6 +288,13 @@ Chiffons industriels et d'atelier : ratine ou t-shirt, blanc ou couleur, quantit
 - Q: Quelle est la différence entre chiffon industriel et chiffon d'atelier? A: Aucune en pratique : les deux désignent des chiffons de coton recyclé pour essuyer l'huile, la graisse et les solvants en usine, en garage ou en atelier.
 - Q: Quel chiffon pour un atelier d'usinage? A: La ratine couleur : épaisse et absorbante pour l'huile de coupe. Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces.
 - Q: Livrez-vous les chiffons industriels? A: Oui, à Laval (15 $, dès 1 sac de 25 lb), à Montréal (25 $, dès 2 sacs de 25 lb) et ailleurs au Québec à partir de 1 000 lb.
+
+### Chiffons pour ateliers d'usinage et de métal à Laval et Montréal
+URL: https://entretienlaval.ca/guides/chiffons-atelier-metal-laval-montreal/
+Où acheter des chiffons pour un atelier d'usinage CNC, de soudure ou de fabrication métallique à Laval et Montréal : produits, prix, ramassage et livraison.
+- Q: Où acheter des chiffons pour un atelier d'usinage CNC à Montréal? A: Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : ratine ou t-shirt, couleur à 32 $ ou blanc à 42 $ le sac de 25 lb de 25 lb, avant taxes. Livraison à Montréal 25 $ dès 2 sacs de 25 lb, ou ramassage à Laval.
+- Q: Quel est le chiffon le moins cher pour un atelier de métal à Laval? A: Le sac de 25 lb de 25 lb en couleur à 32 $ avant taxes (1,28 $/lb), ou 28 $ dès 50 sacs de 25 lb. Livraison à Laval 15 $ dès 1 sac de 25 lb.
+- Q: Quel chiffon pour l'huile de coupe? A: La ratine : épaisse et très absorbante. Prenez la ratine blanche (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon la ratine couleur (32 $).
 
 ### Guenilles et chiffons à Laval
 URL: https://entretienlaval.ca/chiffons-guenilles-laval/
@@ -363,7 +381,7 @@ Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs d
 
 ### Chiffons d'essuyage pour chaque secteur
 URL: https://entretienlaval.ca/secteurs/
-Guenilles et chiffons recyclés pour 14 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.
+Guenilles et chiffons recyclés pour 15 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.
 
 ### Commander des chiffons en ligne
 URL: https://entretienlaval.ca/commander/
@@ -520,6 +538,13 @@ Recycled rags for machine shops, welding and metal fabrication: cutting oil, coo
 - Q: How many bags per month for a shop? A: It depends on the number of stations and the type of work. Our calculator helps you estimate your budget from your usage.
 - Q: Do you deliver to industrial parks? A: Yes, to your business address. Outside Laval and Montréal, the minimum is 1,000 lb per delivery.
 
+### Rags for welding and metal fabrication
+URL: https://entretienlaval.ca/en/welding-metal-fabrication-rags/
+Recycled rags for welding and metal fabrication shops: degreasing before welding, grinding, prep before painting. From $32 per 25 lb bag.
+- Q: Where can I buy rags for a welding shop in Laval or Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: 25 lb 25 lb bag at $32 colored or $42 white, before tax. Pickup in Laval, delivery in Laval ($15, from 1 25 lb bag) and Montréal ($25, from 2 25 lb bags).
+- Q: Which rag should I use to degrease steel before welding? A: White T-shirt: it's thin, leaves little lint and doesn't transfer dye to the part. Use it with your usual solvent.
+- Q: Do you have pricing for large shops? A: Yes: $28 colored and $38 white from 50 25 lb bags, before tax. See wholesale rags.
+
 ### Rags for municipalities, schools and institutions
 URL: https://entretienlaval.ca/en/municipal-school-maintenance-rags/
 Recycled rags for municipal garages, public works, arenas, schools and institutions. Invoice with GST and QST, from $32 per 25 lb bag.
@@ -567,6 +592,13 @@ Industrial and shop rags: terry or T-shirt, white or colored, how many per month
 - Q: What's the difference between industrial rags and shop rags? A: None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops.
 - Q: Which rag is best for a machine shop? A: Colored terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts.
 - Q: Do you deliver industrial rags? A: Yes: Laval ($15, from 1 25 lb bag), Montréal ($25, from 2 25 lb bags) and elsewhere in Québec from 1,000 lb.
+
+### Rags for machine and metal shops in Laval and Montréal
+URL: https://entretienlaval.ca/en/guides/metal-shop-rags-laval-montreal/
+Where to buy rags for a CNC machine shop, welding or metal fabrication shop in Laval and Montréal: products, prices, pickup and delivery.
+- Q: Where can I buy rags for a CNC machine shop in Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 colored or $42 white per 25 lb 25 lb bag, before tax. Delivery in Montréal $25 from 2 25 lb bags, or pickup in Laval.
+- Q: What is the cheapest rag for a metal shop in Laval? A: The 25 lb colored 25 lb bag at $32 before tax ($1.28/lb), or $28 from 50 25 lb bags. Delivery in Laval $15 from 1 25 lb bag.
+- Q: Which rag is best for cutting oil? A: Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise colored terry ($32).
 
 ### Rags and shop rags in Laval
 URL: https://entretienlaval.ca/en/rags-laval/
@@ -653,7 +685,7 @@ Entretien Laval (ECO Rags) sells recycled wiping rags in 25 lb bags from $32, de
 
 ### Wiping rags for every industry
 URL: https://entretienlaval.ca/en/industries/
-Recycled rags for 14 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.
+Recycled rags for 15 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.
 
 ### Order rags online
 URL: https://entretienlaval.ca/en/order/

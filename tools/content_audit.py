@@ -1,14 +1,14 @@
 """Audit follow-ups: sectors hub, longer EN sector pages, wholesale/calculator/guides text, city local details."""
 HUB = {"kind": "hub", "img": None, "rel": [],
  "fr": {"path": "/secteurs/", "short": "Tous les secteurs", "title": "Chiffons d'essuyage par secteur : garages, ateliers, ménage",
-  "desc": "Guenilles et chiffons recyclés pour 14 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.",
+  "desc": "Guenilles et chiffons recyclés pour 15 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.",
   "eyebrow": "Secteurs", "h1": "Chiffons d'essuyage pour chaque secteur", "lede": "Le même chiffon ne sert pas partout. Trouvez les conseils et le produit adaptés à votre métier.",
-  "card": "Les 14 secteurs que nous servons, avec le bon chiffon pour chacun.",
+  "card": "Les 15 secteurs que nous servons, avec le bon chiffon pour chacun.",
   "body": """<p>Nos quatre produits (t-shirt ou ratine, couleur ou blanc) couvrent la plupart des besoins d'essuyage. La couleur à 32 $ le [pack] convient à l'huile, à la graisse et au nettoyage courant. Le blanc à 42 $ évite le transfert de couleur pour la peinture, la teinture et la finition. Chaque page ci-dessous explique les usages et le produit conseillé pour un secteur.</p>"""},
  "en": {"path": "/en/industries/", "short": "All industries", "title": "Wiping rags by industry: garages, shops, cleaning",
-  "desc": "Recycled rags for 14 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.",
+  "desc": "Recycled rags for 15 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.",
   "eyebrow": "Industries", "h1": "Wiping rags for every industry", "lede": "The same rag doesn't fit every job. Find the advice and product for your trade.",
-  "card": "The 14 industries we serve, with the right rag for each.",
+  "card": "The 15 industries we serve, with the right rag for each.",
   "body": """<p>Our four products (T-shirt or terry, colored or white) cover most wiping needs. Colored at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids color transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
 
 GUIDES_BODY = {
