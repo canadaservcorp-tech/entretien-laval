@@ -72,6 +72,7 @@ FAQ = {
   ("Quelle différence entre t-shirt et ratine?", "Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts."),
   ("Blanc ou couleur?", "Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers."),
   ("Livrez-vous? Où?", "Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir <a href=\"{{livraison}}\">la livraison</a>."),
+  ("Livrez-vous ailleurs au Canada?", "Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir <a href=\"{{canada}}\">fournisseur de chiffons au Canada</a>."),
   ("Comment commander?", "Remplissez le <a href=\"{{home#devis}}\">formulaire de soumission</a> ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison."),
   ("Y a-t-il un minimum de commande?", "Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $). Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum."),
   ("Les chiffons sont-ils propres?", "Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon."),
@@ -87,6 +88,7 @@ FAQ = {
   ("What's the difference between T-shirt and terry?", "T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills."),
   ("White or colored?", "White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites."),
   ("Do you deliver? Where?", "Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See <a href=\"{{livraison}}\">delivery</a>."),
+  ("Do you ship elsewhere in Canada?", "Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See <a href=\"{{canada}}\">rag supplier in Canada</a>."),
   ("How do I order?", "Fill in the <a href=\"{{home#devis}}\">quote form</a> or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery."),
   ("Is there a minimum order?", "Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25). Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum."),
   ("Are the rags clean?", "Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh."),
@@ -716,7 +718,8 @@ from content_sectors2 import SECTOR2_PAGES, SECTOR2_KEYS
 from content_guides2 import GUIDE2_PAGES
 from content_cities import CITY_PAGES, CITY_KEYS
 _merci = PAGES.pop("merci")
-PAGES.update(SECTOR2_PAGES); PAGES.update(GUIDE2_PAGES); PAGES.update(CITY_PAGES)
+from content_canada import CANADA_PAGES
+PAGES.update(SECTOR2_PAGES); PAGES.update(GUIDE2_PAGES); PAGES.update(CITY_PAGES); PAGES.update(CANADA_PAGES)
 PAGES["merci"] = _merci
 SECTOR_KEYS = SECTOR_KEYS + SECTOR2_KEYS
 GUIDE_KEYS = [k for k, p in PAGES.items() if p["kind"] in ("guide", "tool")]
@@ -765,7 +768,7 @@ import content_audit as A
 PAGES["secteurs"] = A.HUB
 for _l in ("fr", "en"):
     PAGES["guides"][_l]["body"] = A.GUIDES_BODY[_l]
-    PAGES["gros"][_l]["body"] += A.GROS_EXTRA[_l]
+    PAGES["gros"][_l]["body"] += A.GROS_EXTRA[_l] + {"fr": '<h2>Distributeurs ailleurs au Canada</h2>\n<p>Hors Québec, nous fournissons les distributeurs à partir de 50 sacs (28 $ couleur, 38 $ blanc), transport sur soumission : voir <a href="{{canada}}">fournisseur de chiffons recyclés au Canada</a>.</p>', "en": '<h2>Distributors elsewhere in Canada</h2>\n<p>Outside Québec we supply distributors from 50 bags ($28 colored, $38 white), freight quoted per order: see <a href="{{canada}}">recycled rag supplier in Canada</a>.</p>'}[_l]
     PAGES["calculateur"][_l]["body"] += A.CALC_EXTRA[_l]
 for _k, _x in A.EN_SECTOR_EXTRA.items():
     PAGES[_k]["en"]["body"] += _x
