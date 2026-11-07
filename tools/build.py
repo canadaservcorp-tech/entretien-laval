@@ -229,7 +229,7 @@ def business(lang):
     b["image"] = [C.SITE + "/img/og-chiffons-eco.jpg", C.SITE + "/img/" + C.IMG_BAG]
     b["logo"] = C.SITE + "/img/logo-chiffons-eco-512.png"
     b["priceRange"] = "32 $ – 42 $" if lang == "fr" else "$32 – $42"
-    b["areaServed"] = [{"@type": "City", "name": c} for c in ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbriand", "Saint-Eustache", "Mirabel", "Saint-Jérôme", "Repentigny", "Brossard", "Boucherville", "Québec", "Lévis", "Sherbrooke", "Trois-Rivières", "Gatineau"]] + [{"@type": "AdministrativeArea", "name": "Québec"}]
+    b["areaServed"] = [{"@type": "City", "name": c} for c in ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbriand", "Saint-Eustache", "Mirabel", "Saint-Jérôme", "Repentigny", "Brossard", "Boucherville", "Québec", "Lévis", "Sherbrooke", "Trois-Rivières", "Gatineau"]] + [{"@type": "AdministrativeArea", "name": "Québec"}, {"@type": "Country", "name": "Canada"}]
     b["makesOffer"] = [{"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@id": product_id(p, lang)}} for p in C.PRODUCTS]
     return b
 
@@ -422,7 +422,7 @@ def sitemap():
 
 def llms():
     lines = ["# Chiffons ÉCO — Entretien Laval", "",
-             "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec.", "",
+             "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.", "",
              "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.", "",
              f"Contact: {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", "", "## Français"]
     lines += [f"- [{C.PAGES[k]['fr']['short'] if k != 'home' else 'Accueil'}]({C.SITE}{L(k, 'fr')})" for k in indexable()]

@@ -1,6 +1,6 @@
 # Chiffons ÉCO — Entretien Laval
 
-> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec.
+> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.
 
 Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.
 
@@ -59,6 +59,8 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Drummondville](https://entretienlaval.ca/chiffons-guenilles-drummondville/)
 - [Victoriaville](https://entretienlaval.ca/chiffons-guenilles-victoriaville/)
 - [Saguenay](https://entretienlaval.ca/chiffons-guenilles-saguenay/)
+- [Fournisseur de chiffons au Canada](https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/)
+- [Chiffons réutilisables ou lingettes jetables](https://entretienlaval.ca/guides/chiffons-reutilisables-ou-lingettes-jetables/)
 - [À propos](https://entretienlaval.ca/a-propos/)
 - [Tous les secteurs](https://entretienlaval.ca/secteurs/)
 - [Commander en ligne](https://entretienlaval.ca/commander/)
@@ -116,6 +118,8 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Drummondville](https://entretienlaval.ca/en/rags-drummondville/)
 - [Victoriaville](https://entretienlaval.ca/en/rags-victoriaville/)
 - [Saguenay](https://entretienlaval.ca/en/rags-saguenay/)
+- [Rag supplier in Canada](https://entretienlaval.ca/en/recycled-rag-supplier-canada/)
+- [Reusable rags vs cleaning wipes](https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/)
 - [About](https://entretienlaval.ca/en/about/)
 - [All industries](https://entretienlaval.ca/en/industries/)
 - [Order online](https://entretienlaval.ca/en/order/)
@@ -454,6 +458,20 @@ Guenilles et chiffons d'essuyage recyclés livrés à Saguenay : t-shirt ou rati
 - Q: Combien coûte la livraison à Saguenay? A: Les frais de livraison à Saguenay dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
 - Q: Quel chiffon choisir pour une entreprise à Saguenay? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
 
+### Fournisseur de chiffons recyclés en gros pour les distributeurs du Canada
+URL: https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/
+Chiffons recyclés en gros pour distributeurs partout au Canada : sacs de 25 lb à 28 $ couleur, 38 $ blanc dès 50 sacs, transport sur soumission.
+- Q: Où trouver un fournisseur de chiffons recyclés au Canada? A: Entretien Laval (Chiffons ÉCO), à Laval (Québec), vend des chiffons d'essuyage en coton recyclé aux distributeurs de partout au Canada : sacs de 25 lb à 28 $ couleur et 38 $ blanc, dès 50 sacs, transport sur soumission.
+- Q: Livrez-vous en Ontario, en Alberta ou en Colombie-Britannique? A: Oui, aux distributeurs, à partir de 50 sacs par commande. Les frais de transport sont calculés dans la soumission selon l'adresse.
+- Q: Vendez-vous aux entreprises hors Québec qui ne sont pas des distributeurs? A: Non. Hors Québec, nous vendons seulement aux distributeurs et revendeurs, à partir de 50 sacs.
+- Q: Vendez-vous des lingettes jetables? A: Non. Nous vendons des chiffons en coton recyclé réutilisables, une solution de rechange aux lingettes et au papier pour l'atelier et l'entretien.
+
+### Chiffons en coton recyclé ou lingettes de nettoyage jetables?
+URL: https://entretienlaval.ca/guides/chiffons-reutilisables-ou-lingettes-jetables/
+Lingettes jetables ou chiffons en coton recyclé réutilisables : usages, coût au poids, déchets et sécurité, pour bien choisir en atelier.
+- Q: Les chiffons recyclés remplacent-ils les lingettes de nettoyage? A: Pour l'essuyage d'huile, de graisse, de liquides et le nettoyage courant en atelier, oui. Pour une désinfection avec un produit et un temps de contact précis, suivez les directives du fabricant.
+- Q: Combien coûtent les chiffons recyclés au poids? A: Chez Entretien Laval, 32 $ le sac de 25 lb en couleur (environ 1,28 $ la livre) et 42 $ en blanc, avant taxes. Distributeurs : 28 $ / 38 $ dès 50 sacs.
+
 ### Entretien Laval – Chiffons ÉCO
 URL: https://entretienlaval.ca/a-propos/
 Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et partout au Québec.
@@ -478,6 +496,7 @@ Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, 
 - Q: Quelle différence entre t-shirt et ratine? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts.
 - Q: Blanc ou couleur? A: Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers.
 - Q: Livrez-vous? Où? A: Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir la livraison.
+- Q: Livrez-vous ailleurs au Canada? A: Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir fournisseur de chiffons au Canada.
 - Q: Comment commander? A: Remplissez le formulaire de soumission ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison.
 - Q: Y a-t-il un minimum de commande? A: Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $). Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum.
 - Q: Les chiffons sont-ils propres? A: Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon.
@@ -821,6 +840,20 @@ Recycled wiping rags and shop rags delivered in Saguenay: T-shirt or terry, colo
 - Q: How much is delivery in Saguenay? A: Delivery fees in Saguenay depend on the exact address and quantity. They're shown in the quote, before you order.
 - Q: Which rag should a business in Saguenay choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
 
+### Wholesale recycled rag supplier for distributors across Canada
+URL: https://entretienlaval.ca/en/recycled-rag-supplier-canada/
+Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb bags at $28 colored and $38 white from 50 bags, freight quoted per order.
+- Q: Where can I find a recycled rag supplier in Canada? A: Entretien Laval (ECO Rags) in Laval, Québec sells recycled cotton wiping rags to distributors across Canada: 25 lb bags at $28 colored and $38 white, from 50 bags, freight quoted per order.
+- Q: Do you ship to Ontario, Alberta or British Columbia? A: Yes, to distributors, from 50 bags per order. Freight is calculated in the quote based on the address.
+- Q: Do you sell to businesses outside Québec that are not distributors? A: No. Outside Québec we sell only to distributors and resellers, from 50 bags.
+- Q: Do you sell disposable cleaning wipes? A: No. We sell reusable recycled cotton rags, an alternative to wipes and paper for shop and cleaning work.
+
+### Recycled cotton rags or disposable cleaning wipes?
+URL: https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/
+Disposable cleaning wipes or reusable recycled cotton rags: uses, cost per pound, waste and safety, to choose for shop and cleaning work.
+- Q: Can recycled rags replace cleaning wipes? A: For wiping oil, grease, liquids and everyday shop cleaning, yes. For disinfection that needs a specific product and contact time, follow the manufacturer's directions.
+- Q: How much do recycled rags cost per pound? A: At Entretien Laval, $32 per 25 lb bag colored (about $1.28 per lb) and $42 white, before tax. Distributors: $28 / $38 from 50 bags.
+
 ### Entretien Laval – ECO Rags
 URL: https://entretienlaval.ca/en/about/
 Entretien Laval (ECO Rags) sells recycled wiping rags in 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec.
@@ -845,6 +878,7 @@ Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at che
 - Q: What's the difference between T-shirt and terry? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills.
 - Q: White or colored? A: White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites.
 - Q: Do you deliver? Where? A: Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See delivery.
+- Q: Do you ship elsewhere in Canada? A: Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See rag supplier in Canada.
 - Q: How do I order? A: Fill in the quote form or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery.
 - Q: Is there a minimum order? A: Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25). Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum.
 - Q: Are the rags clean? A: Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh.

@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "d1c4926f57d6dc298ce913e895a95bdc65fa8420",
-  "modified": "2026-11-06",
+  "hash": "1fd0277528c61450413e6415fad051631f6390f0",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/a-propos/": {
@@ -200,8 +200,8 @@
   "published": "2026-10-10"
  },
  "/en/": {
-  "hash": "05f3187124379b5a12aa558a54ff49ce18dffb63",
-  "modified": "2026-11-06",
+  "hash": "bb522dddddd1e6ab6650d8239d06e24ae1ab58a3",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/en/about/": {
@@ -235,8 +235,8 @@
   "published": "2026-10-10"
  },
  "/en/faq/": {
-  "hash": "d5791368a17e8ae290d7cd22d5686dbd49f1c187",
-  "modified": "2026-11-06",
+  "hash": "fd7c790c3d8728f655ab4dab1fadd11480bf2677",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/en/farm-machinery-rags/": {
@@ -245,8 +245,8 @@
   "published": "2026-10-10"
  },
  "/en/guides/": {
-  "hash": "0353f697dc07aa48c66358165890ea50e6a5445c",
-  "modified": "2026-11-06",
+  "hash": "6c65dd956e792d468e0fa772ed2f9b08097dabc4",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/en/guides/best-rag-for-staining-wood/": {
@@ -283,6 +283,11 @@
   "hash": "6d1057122001b0349ef7eaf0ed7d36db87139af7",
   "modified": "2026-11-06",
   "published": "2026-10-10"
+ },
+ "/en/guides/reusable-rags-vs-cleaning-wipes/": {
+  "hash": "8cd62da68fe55fd017dc7ae8b486d75e4db61d41",
+  "modified": "2026-11-07",
+  "published": "2026-11-07"
  },
  "/en/guides/start-rag-resale-business/": {
   "hash": "b20fb32d2d9517fb58be733cc78793ab35921d47",
@@ -444,6 +449,11 @@
   "modified": "2026-11-06",
   "published": "2026-11-06"
  },
+ "/en/recycled-rag-supplier-canada/": {
+  "hash": "00da30b529ea6ce10b1f02dfd02d3bd9ab5b648d",
+  "modified": "2026-11-07",
+  "published": "2026-11-07"
+ },
  "/en/restaurant-kitchen-rags/": {
   "hash": "686d276ade00fbcae0029910c9fbad01e85f6664",
   "modified": "2026-11-06",
@@ -470,8 +480,8 @@
   "published": "2026-10-10"
  },
  "/en/wholesale-rags/": {
-  "hash": "385ca6dc78bd18e4beb28e4c5b65a603718e6dab",
-  "modified": "2026-11-06",
+  "hash": "f2aa6d35391cd478373cd27d4286ce6194f1a7be",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/en/woodworking-cabinetmaking-rags/": {
@@ -480,18 +490,23 @@
   "published": "2026-10-10"
  },
  "/faq/": {
-  "hash": "307c1300bf16f586a096494caa7a22645537041e",
-  "modified": "2026-11-06",
+  "hash": "77c81ec490d47d8989e4fd82c52d57ba89f7459c",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
+ "/fournisseur-chiffons-recycles-canada/": {
+  "hash": "8869f4e8ef27c7844162481387730373ff51ec2b",
+  "modified": "2026-11-07",
+  "published": "2026-11-07"
+ },
  "/guenilles-en-gros/": {
-  "hash": "43714dcaf67671ce2d98c2ea69219936dc8a39db",
-  "modified": "2026-11-06",
+  "hash": "079273b9609e7d089fb583c3adf3b0daca05df20",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/guides/": {
-  "hash": "89923c3093f7f56b0e02aa956c133a9ca83ea496",
-  "modified": "2026-11-06",
+  "hash": "f52f63a16cb59851f6e18fce8b1c56a9cb29aafd",
+  "modified": "2026-11-07",
   "published": "2026-10-10"
  },
  "/guides/chiffons-atelier-metal-laval-montreal/": {
@@ -513,6 +528,11 @@
   "hash": "32e697dae3c423e4cfced56fd1b4561f63d63096",
   "modified": "2026-11-06",
   "published": "2026-10-10"
+ },
+ "/guides/chiffons-reutilisables-ou-lingettes-jetables/": {
+  "hash": "f8969dbad09efc8a79b265ad2d7937a6a0689ad9",
+  "modified": "2026-11-07",
+  "published": "2026-11-07"
  },
  "/guides/demarrer-entreprise-revente-chiffons/": {
   "hash": "34bc4151d6d5b28922760e06e50b4d3e301031fc",
