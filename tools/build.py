@@ -222,7 +222,8 @@ def product_ld(pid, lang):
     return {"@type": "Product", "@id": product_id(p, lang), "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
             "image": C.SITE + "/img/" + C.IMG_BAG, "material": "coton recyclé" if lang == "fr" else "recycled cotton",
             "offers": {"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "availability": "https://schema.org/InStock", "priceValidUntil": "2026-12-31",
-                       "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID}}}
+                       "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID},
+                       "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "CA", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}
 
 def business(lang):
     b = json.load(open(os.path.join(SRC, f"ld-{lang}.json"), encoding="utf-8"))["@graph"][0]

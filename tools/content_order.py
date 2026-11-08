@@ -38,12 +38,15 @@ PAGE = {"kind": "order", "img": None, "rel": ["couleur", "blancs", "gros"],
 <p>[delivery]</p>
 <h2>Prix et taxes</h2>
 <p>Les prix sont affichés avant taxes. La TPS (5 %) et la TVQ (9,975 %) sont calculées sur les produits et la livraison, et affichées avant le paiement. Le prix est le même quel que soit le mode de paiement. Vous recevez une facture d'entreprise enregistrée.</p>
+<h2>Retours</h2>
+<p>Toutes les ventes sont finales : nous n'acceptons pas les retours. Si vous recevez un mauvais produit ou un [pack] endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.</p>
 <h2>Autres régions, grosses commandes, virement Interac</h2>
 <p>Hors Laval et Montréal, pour plus de [max] [packs], ou pour payer par virement Interac, <a href="{{home#devis}}">demandez une soumission</a> ou écrivez à info@entretienlaval.ca.</p>""",
   "faq": [("Dois-je avoir un compte PayPal?", "Non. Le bouton carte permet de payer par carte de crédit ou de débit sans compte PayPal."),
           ("Quand suis-je livré?", "Nous vous contactons après le paiement pour fixer la date de livraison à votre adresse à Laval ou Montréal."),
           ("Combien coûte la livraison?", "[delivery]"),
-          ("Y a-t-il des frais pour payer en ligne?", "Non. Vous payez le prix des produits, la livraison et les taxes, comme pour une commande par soumission.")]},
+          ("Y a-t-il des frais pour payer en ligne?", "Non. Vous payez le prix des produits, la livraison et les taxes, comme pour une commande par soumission."),
+          ("Puis-je retourner ma commande?", "Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un [pack] endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.")]},
  "en": {"path": "/en/order/", "short": "Order online",
   "title": "Order wiping rags online – Laval, Montreal | ECO Rags",
   "desc": "Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at checkout, delivered in Laval and Montreal. Pay with PayPal or card.",
@@ -56,12 +59,15 @@ PAGE = {"kind": "order", "img": None, "rel": ["couleur", "blancs", "gros"],
 <p>[delivery]</p>
 <h2>Prices and taxes</h2>
 <p>Prices are shown before tax. GST (5%) and QST (9.975%) are calculated on the products and delivery and shown before you pay. The price is the same whatever the payment method. You get a registered business invoice.</p>
+<h2>Returns</h2>
+<p>All sales are final: we do not accept returns. If you receive the wrong product or a damaged [pack], email info@entretienlaval.ca and we will replace it.</p>
 <h2>Other regions, large orders, Interac e-Transfer</h2>
 <p>Outside Laval and Montréal, for more than [max] [packs], or to pay by Interac e-Transfer, <a href="{{home#devis}}">request a quote</a> or email info@entretienlaval.ca.</p>""",
   "faq": [("Do I need a PayPal account?", "No. The card button lets you pay with a credit or debit card without a PayPal account."),
           ("When is it delivered?", "We contact you after payment to set the delivery date at your Laval or Montréal address."),
           ("How much is delivery?", "[delivery]"),
-          ("Is there a fee for paying online?", "No. You pay the product price, delivery and taxes, the same as an order by quote.")]}}
+          ("Is there a fee for paying online?", "No. You pay the product price, delivery and taxes, the same as an order by quote."),
+          ("Can I return my order?", "No, all sales are final. If you receive the wrong product or a damaged [pack], email info@entretienlaval.ca and we will replace it.")]}}
 
 def _delivery(lang):
     out = []
