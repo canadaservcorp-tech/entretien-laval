@@ -55,8 +55,8 @@
   "published": "2026-10-10"
  },
  "/chiffons-garage-mecanique/": {
-  "hash": "57eb7dfe9b56fc1dfc21c4b247a704f3651f1efd",
-  "modified": "2026-11-06",
+  "hash": "f7e26b92653705c391b28d99b2f7f123267d55d5",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-blainville-boisbriand/": {
@@ -245,8 +245,8 @@
   "published": "2026-10-10"
  },
  "/en/guides/": {
-  "hash": "6c65dd956e792d468e0fa772ed2f9b08097dabc4",
-  "modified": "2026-11-07",
+  "hash": "530b90aa0de39df87086d9b3203810ff14dd96ba",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/guides/best-rag-for-staining-wood/": {
@@ -258,6 +258,11 @@
   "hash": "3d2c17f80ad29170a09dd3c4eb17897f2eb3cfe5",
   "modified": "2026-11-06",
   "published": "2026-11-05"
+ },
+ "/en/guides/lint-free-rags/": {
+  "hash": "acaf34229a45d9ad197040f4a7e6225548944325",
+  "modified": "2026-11-08",
+  "published": "2026-11-08"
  },
  "/en/guides/metal-shop-rags-laval-montreal/": {
   "hash": "62d1e405d10463a00d39c16a554083c4f7656f61",
@@ -303,6 +308,11 @@
   "hash": "bc9144b54db7e6bc7bbfc983c6cfad3f783f10dd",
   "modified": "2026-11-06",
   "published": "2026-10-10"
+ },
+ "/en/guides/where-to-buy-rags/": {
+  "hash": "8fdc3a22d4f8d4d6eaf92099580b3db720aff606",
+  "modified": "2026-11-08",
+  "published": "2026-11-08"
  },
  "/en/industrial-printing-rags/": {
   "hash": "596e1ff7e803c1879faecd5d951f213fe3b4e799",
@@ -460,8 +470,8 @@
   "published": "2026-10-10"
  },
  "/en/shop-rags-garage-mechanics/": {
-  "hash": "fbab9578888ce25167c88045c225330bce4e7b4d",
-  "modified": "2026-11-06",
+  "hash": "b293758d92f74a6c492c285bcf7d4366d14b016d",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/thanks/": {
@@ -480,8 +490,8 @@
   "published": "2026-10-10"
  },
  "/en/wholesale-rags/": {
-  "hash": "f2aa6d35391cd478373cd27d4286ce6194f1a7be",
-  "modified": "2026-11-07",
+  "hash": "50117dd46885267214811b1ea0070736d68d6a18",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/woodworking-cabinetmaking-rags/": {
@@ -505,9 +515,14 @@
   "published": "2026-10-10"
  },
  "/guides/": {
-  "hash": "f52f63a16cb59851f6e18fce8b1c56a9cb29aafd",
-  "modified": "2026-11-07",
+  "hash": "0c890a02cb666b2c50a3b0f110c40dac8ab0c06e",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
+ },
+ "/guides/chiffon-non-pelucheux/": {
+  "hash": "7a6f4075f7f4c17f4d6e2903b995ce7f4bb0595e",
+  "modified": "2026-11-08",
+  "published": "2026-11-08"
  },
  "/guides/chiffons-atelier-metal-laval-montreal/": {
   "hash": "88c64b4578e807b22fc6c2949b87892dfbbea17b",
@@ -548,6 +563,11 @@
   "hash": "5dd37b3cc1b5c0e2acf3aa23eab36d4cd2981195",
   "modified": "2026-11-06",
   "published": "2026-11-05"
+ },
+ "/guides/ou-acheter-des-guenilles/": {
+  "hash": "93623790167f5a425b3388eb2d42feba27e1a45d",
+  "modified": "2026-11-08",
+  "published": "2026-11-08"
  },
  "/guides/prix-guenilles-laval-montreal/": {
   "hash": "75e1ea18c61f832a273788594fd45fe686961a79",
