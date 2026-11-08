@@ -507,6 +507,7 @@ Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, 
 - Q: Quand suis-je livré? A: Nous vous contactons après le paiement pour fixer la date de livraison à votre adresse à Laval ou Montréal.
 - Q: Combien coûte la livraison? A: Laval (code postal H7) : 15 $ par commande, dès 1 sac. Montréal (autres codes postaux en H) : 25 $ par commande, minimum 2 sacs. Taxes en sus.
 - Q: Y a-t-il des frais pour payer en ligne? A: Non. Vous payez le prix des produits, la livraison et les taxes, comme pour une commande par soumission.
+- Q: Puis-je retourner ma commande? A: Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un sac de 25 lb endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.
 
 ## FAQ
 - Q: Combien coûtent vos chiffons? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
@@ -523,6 +524,7 @@ Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, 
 - Q: Recevrai-je une facture avec taxes? A: Oui. Entretien Laval est une entreprise enregistrée au Québec (NEQ 2280629637, TPS et TVQ). Les prix affichés sont avant taxes.
 - Q: Peut-on utiliser les chiffons avec de l'huile ou des solvants? A: Oui, le coton absorbe l'huile, la graisse et les solvants. Après usage, rangez les chiffons imbibés dans un contenant métallique fermé : voir notre guide chiffons huileux et risque d'incendie.
 - Q: D'où viennent les textiles? A: De vêtements et textiles de coton récupérés qui seraient autrement envoyés à l'enfouissement. Ils sont triés par type et par couleur, coupés et emballés à Laval.
+- Q: Acceptez-vous les retours? A: Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un sac de 25 lb endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.
 
 ## Pages (English)
 
@@ -904,6 +906,7 @@ Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at che
 - Q: When is it delivered? A: We contact you after payment to set the delivery date at your Laval or Montréal address.
 - Q: How much is delivery? A: Laval (postal code H7): $15 per order, from 1 bag. Montréal (other H postal codes): $25 per order, minimum 2 bags. Plus tax.
 - Q: Is there a fee for paying online? A: No. You pay the product price, delivery and taxes, the same as an order by quote.
+- Q: Can I return my order? A: No, all sales are final. If you receive the wrong product or a damaged 25 lb bag, email info@entretienlaval.ca and we will replace it.
 
 ## FAQ
 - Q: How much do your rags cost? A: $32 per 25 lb bag for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
@@ -920,3 +923,4 @@ Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at che
 - Q: Will I get an invoice with taxes? A: Yes. Entretien Laval is a registered Québec business (NEQ 2280629637, GST and QST). Listed prices are before tax.
 - Q: Can the rags be used with oil or solvents? A: Yes, cotton absorbs oil, grease and solvents. After use, store soaked rags in a closed metal container: see our guide oily rags and fire risk.
 - Q: Where do the textiles come from? A: From recovered cotton clothing and textiles that would otherwise go to landfill. They are sorted by type and color, cut and packed in Laval.
+- Q: Do you accept returns? A: No, all sales are final. If you receive the wrong product or a damaged 25 lb bag, email info@entretienlaval.ca and we will replace it.

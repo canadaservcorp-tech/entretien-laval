@@ -81,6 +81,7 @@ FAQ = {
   ("Recevrai-je une facture avec taxes?", "Oui. Entretien Laval est une entreprise enregistrée au Québec (NEQ 2280629637, TPS et TVQ). Les prix affichés sont avant taxes."),
   ("Peut-on utiliser les chiffons avec de l'huile ou des solvants?", "Oui, le coton absorbe l'huile, la graisse et les solvants. Après usage, rangez les chiffons imbibés dans un contenant métallique fermé : voir notre guide <a href=\"{{guide-huileux}}\">chiffons huileux et risque d'incendie</a>."),
   ("D'où viennent les textiles?", "De vêtements et textiles de coton récupérés qui seraient autrement envoyés à l'enfouissement. Ils sont triés par type et par couleur, coupés et emballés à Laval."),
+  ("Acceptez-vous les retours?", "Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un [pack] endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons."),
  ],
  "en": [
   ("How much do your rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
@@ -97,6 +98,7 @@ FAQ = {
   ("Will I get an invoice with taxes?", "Yes. Entretien Laval is a registered Québec business (NEQ 2280629637, GST and QST). Listed prices are before tax."),
   ("Can the rags be used with oil or solvents?", "Yes, cotton absorbs oil, grease and solvents. After use, store soaked rags in a closed metal container: see our guide <a href=\"{{guide-huileux}}\">oily rags and fire risk</a>."),
   ("Where do the textiles come from?", "From recovered cotton clothing and textiles that would otherwise go to landfill. They are sorted by type and color, cut and packed in Laval."),
+  ("Do you accept returns?", "No, all sales are final. If you receive the wrong product or a damaged [pack], email info@entretienlaval.ca and we will replace it."),
  ],
 }
 

@@ -1,7 +1,7 @@
 {
  "/": {
-  "hash": "1fd0277528c61450413e6415fad051631f6390f0",
-  "modified": "2026-11-07",
+  "hash": "025784f05ccac37007fd910f2cbb6029b5c0ea52",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/a-propos/": {
@@ -15,8 +15,8 @@
   "published": "2026-10-10"
  },
  "/chiffons-blancs-recycles/": {
-  "hash": "4b8c870aa44d4b01d2d2a9790df8b4440740ef04",
-  "modified": "2026-11-06",
+  "hash": "dbfdc7f37f9a987ea85f7df1301de48c05b88ca2",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/chiffons-carrosserie-debosselage/": {
@@ -30,8 +30,8 @@
   "published": "2026-10-10"
  },
  "/chiffons-couleur-recycles/": {
-  "hash": "35ca3f4f43209c70f525bdb5f7f8e45c97692a75",
-  "modified": "2026-11-06",
+  "hash": "a689a7dc0bbfa3d8ff624383366777ec2101b889",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/chiffons-ebenisterie-menuiserie/": {
@@ -195,13 +195,13 @@
   "published": "2026-10-10"
  },
  "/commander/": {
-  "hash": "25ed9df699e5802aa917f479adde2606f2d0868e",
-  "modified": "2026-11-06",
+  "hash": "9953c4b6e594efe3720d7b5982cfcbd2ea525e2b",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/": {
-  "hash": "bb522dddddd1e6ab6650d8239d06e24ae1ab58a3",
-  "modified": "2026-11-07",
+  "hash": "a16d139e62326d0eeaee60c88607137f5b8e98b0",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/about/": {
@@ -220,8 +220,8 @@
   "published": "2026-10-10"
  },
  "/en/colored-recycled-rags/": {
-  "hash": "da148204535b0eb4ccf29fa62ed74e2903d8027b",
-  "modified": "2026-11-06",
+  "hash": "3f19fbb94fee2b80aef86ea85e978c9ad7c0bf45",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/construction-site-rags/": {
@@ -235,8 +235,8 @@
   "published": "2026-10-10"
  },
  "/en/faq/": {
-  "hash": "fd7c790c3d8728f655ab4dab1fadd11480bf2677",
-  "modified": "2026-11-07",
+  "hash": "1cbe1a675348754b5b2cb06741ce96dc1370528c",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/farm-machinery-rags/": {
@@ -345,8 +345,8 @@
   "published": "2026-10-10"
  },
  "/en/order/": {
-  "hash": "c654812b0d082b37f56115c206b0011a2575e1bc",
-  "modified": "2026-11-06",
+  "hash": "eef91fb8cb845d219c1975dce283c0f2f7606580",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/painting-finishing-rags/": {
@@ -485,8 +485,8 @@
   "published": "2026-11-06"
  },
  "/en/white-recycled-rags/": {
-  "hash": "193e939c704593adf314701fe60ef4f1c29ffc45",
-  "modified": "2026-11-06",
+  "hash": "ff92f35ebcf1e105d61d50b8040f6c547068a17b",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/en/wholesale-rags/": {
@@ -500,8 +500,8 @@
   "published": "2026-10-10"
  },
  "/faq/": {
-  "hash": "77c81ec490d47d8989e4fd82c52d57ba89f7459c",
-  "modified": "2026-11-07",
+  "hash": "d65d9573c49a36c21e99f7c9a378b7fd82f9fb40",
+  "modified": "2026-11-08",
   "published": "2026-10-10"
  },
  "/fournisseur-chiffons-recycles-canada/": {

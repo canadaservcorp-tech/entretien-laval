@@ -222,7 +222,8 @@ def product_ld(pid, lang):
     return {"@type": "Product", "@id": product_id(p, lang), "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
             "image": C.SITE + "/img/" + C.IMG_BAG, "material": "coton recyclé" if lang == "fr" else "recycled cotton",
             "offers": {"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "availability": "https://schema.org/InStock", "priceValidUntil": "2026-12-31",
-                       "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID}}}
+                       "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID},
+                       "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "CA", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}
 
 def business(lang):
     b = json.load(open(os.path.join(SRC, f"ld-{lang}.json"), encoding="utf-8"))["@graph"][0]
@@ -451,6 +452,16 @@ def icons():
 # Only products with a REAL photo of that product go in the feed (Google rejects mismatched images).
 FEED_IMG = {"tshirt-couleur": C.IMG_BAG, "ratine-couleur": C.IMG_BAG, "tshirt-blanc": C.IMG_WHITE, "ratine-blanc": C.IMG_WHITE}
 
+def feed_shipping():
+    """One <g:shipping> per delivery zone, by postal-code prefix (FSAs H0-H9), first matching zone wins like the checkout."""
+    groups = {}
+    for d in "0123456789":
+        z = next((z for z in O.CHECKOUT["zones"] if ("H" + d).startswith(z["prefix"])), None)
+        if z:
+            groups.setdefault(z["fee"], []).append("H" + d + "*")
+    return "".join(f"<g:shipping><g:country>CA</g:country><g:postal_code>{pc}</g:postal_code><g:price>{fee}.00 CAD</g:price></g:shipping>"
+                   for fee, pcs in groups.items() for pc in pcs)
+
 def merchant_feed(lang):
     ptype = "Chiffons d'essuyage recyclés" if lang == "fr" else "Recycled wiping rags"
     items = []
@@ -467,7 +478,7 @@ def merchant_feed(lang):
             f"<description>{esc(d)}</description><link>{C.SITE}{L(p['page'], lang)}</link>"
             f"<g:image_link>{C.SITE}/img/{jpg}</g:image_link><g:price>{p['price']}.00 CAD</g:price>"
             f"<g:availability>in_stock</g:availability><g:condition>new</g:condition><g:brand>Chiffons ÉCO</g:brand>"
-            f"<g:identifier_exists>no</g:identifier_exists><g:shipping_weight>25 lb</g:shipping_weight>"
+            f"<g:identifier_exists>no</g:identifier_exists><g:shipping_weight>25 lb</g:shipping_weight>{feed_shipping()}"
             f"<g:product_type>{esc(ptype)}</g:product_type></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0"><channel>'
            f"<title>Chiffons ÉCO ({lang})</title><link>{C.SITE}{L('home', lang)}</link><description>Chiffons ÉCO</description>"
