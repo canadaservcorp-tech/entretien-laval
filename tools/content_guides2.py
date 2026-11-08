@@ -86,12 +86,12 @@ P["guide-ranger"] = {"kind": "guide", "img": SHOP, "rel": ["guide-huileux", "gar
 
 P["glossaire"] = {"kind": "guide", "img": TEXT, "rel": ["guide-ratine", "couleur", "faq"],
  "fr": {"path": "/guides/guenille-chiffon-torchon-lexique/", "short": "Guenille, chiffon, linge : le lexique",
-  "title": "Guenille, chiffon, linge, ratine : le lexique québécois",
-  "desc": "Guenille, chiffon d'essuyage, linge, torchon, ratine, jersey : le vocabulaire québécois et anglais des chiffons, pour bien chercher et bien commander.",
+  "title": "Guenille : définition, et guenilles à vendre dès 32 $",
+  "desc": "Une guenille, c'est un chiffon de coton récupéré. Le lexique québécois (chiffon, linge, ratine) et des guenilles à vendre : sac de 25 lb dès 32 $.",
   "eyebrow": "Guide · lexique", "h1": "Guenille, chiffon, linge, ratine : le lexique des chiffons",
   "lede": "Au Québec, on dit guenille, chiffon ou linge. En anglais, rag, wiper ou shop rag. Voici ce que chaque mot veut dire.",
   "card": "Le vocabulaire québécois et anglais des chiffons, mot par mot.", "alt": "Textiles de coton récupérés",
-  "body": "<p>Les mots changent d'une région et d'un métier à l'autre. Ce lexique vous aide à comparer les offres et à commander le bon produit.</p>",
+  "body": "<p>Les mots changent d'une région et d'un métier à l'autre. Ce lexique vous aide à comparer les offres et à commander le bon produit.</p><p><b>Vous cherchez des guenilles à acheter?</b> Chiffons ÉCO vend des guenilles de coton recyclé, lavées et traitées anti-punaises, en sacs de 25 lb : 32 $ en couleur, 42 $ en blanc, avant taxes. Livraison à Laval (15 $) et à Montréal (25 $, minimum 2 sacs).</p>",
   "terms": [("Guenille", "Mot québécois pour un chiffon fait d'un vieux tissu, utilisé pour nettoyer ou essuyer. « Des guenilles » se vendent souvent au poids, en sac."),
             ("Chiffon d'essuyage", "Terme général pour un morceau de tissu servant à essuyer : huile, graisse, liquides, poussière. En anglais : wiping rag ou wiper."),
             ("Chiffon d'atelier", "Chiffon utilisé dans les garages et ateliers. En anglais : shop rag."),
@@ -105,12 +105,12 @@ P["glossaire"] = {"kind": "guide", "img": TEXT, "rel": ["guide-ratine", "couleur
             ("Vendu au poids", "Les chiffons se vendent en livres (lb) plutôt qu'à la pièce, car la taille des morceaux varie."),
             ("Traitement anti-punaises", "Traitement des textiles contre les punaises de lit avant l'emballage.")]},
  "en": {"path": "/en/guides/rag-glossary-quebec/", "short": "Rag glossary: guenille, chiffon, terry",
-  "title": "Rag glossary: guenille, chiffon, terry, shop rag",
-  "desc": "Guenille, chiffon, linge, ratine, wiper, shop rag: the Québec French and English vocabulary of rags, to search and order with confidence.",
+  "title": "Guenille in English: rag or shop rag – Québec glossary",
+  "desc": "Guenille in English means rag, wiping rag or shop rag. The Québec French and English rag words, plus recycled rags from $32 per 25 lb bag.",
   "eyebrow": "Guide · glossary", "h1": "Rag glossary: Québec French and English terms",
   "lede": "In Québec, people say guenille, chiffon or linge. In English, rag, wiper or shop rag. Here's what each word means.",
   "card": "The Québec French and English rag vocabulary, word by word.", "alt": "Reclaimed cotton textiles",
-  "body": "<p>Words change from one region and trade to the next. This glossary helps you compare offers and order the right product.</p>",
+  "body": "<p>Words change from one region and trade to the next. This glossary helps you compare offers and order the right product.</p><p><b>Looking to buy guenilles (rags)?</b> ECO Rags sells recycled cotton rags, washed and bedbug-treated, in 25 lb bags: $32 colored, $42 white, before tax. Delivery in Laval ($15) and Montréal ($25, minimum 2 bags).</p>",
   "terms": [("Guenille", "Québec French for a rag made from old fabric, used for cleaning or wiping. Guenilles are often sold by weight, in bags."),
             ("Chiffon d'essuyage (wiping rag)", "General term for a piece of fabric used to wipe oil, grease, liquids or dust. Also called a wiper."),
             ("Shop rag (chiffon d'atelier)", "A rag used in garages and workshops."),
@@ -409,5 +409,85 @@ P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", 
   "faq": [("What small business can I start with a truck in Québec?", "Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 colored, $38 white, before tax), pickup only at 1355 boul. Le Corbusier. You load your truck in Laval and set your own resale price."),
           ("Do I need a warehouse to resell rags?", "No, not to start. You can buy 50 bags, carry them in your truck and come back to Laval when your stock runs low."),
           ("Does Entretien Laval guarantee income to resellers?", "No. We supply the rags at distributor price; your resale price, customers and results are up to you.")]}}
+
+P["guide-acheter"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "guide-prix"],
+ "fr": {"path": "/guides/ou-acheter-des-guenilles/", "short": "Où acheter des guenilles",
+  "title": "Où acheter des guenilles à Laval et Montréal? Sacs de 25 lb",
+  "desc": "Acheter des guenilles (chiffons recyclés) à Laval et Montréal : sac de guenilles de 25 lb à 32 $ en couleur ou 42 $ en blanc, livré dès 1 sac à Laval.",
+  "eyebrow": "Guide · acheter", "h1": "Où acheter des guenilles à Laval et Montréal",
+  "lede": "Chiffons ÉCO (Entretien Laval) vend des chiffons recyclés – guenilles en coton, en sacs de 25 lb, livrés à Laval, à Montréal et dans le Grand Montréal.",
+  "card": "Sac de guenilles, prix à la livre, comment commander.", "alt": "Sac de guenilles de coton de 25 lb",
+  "body": """<h2>La réponse courte</h2>
+<p>Pour acheter des guenilles à Laval ou à Montréal, commandez un sac de 25 lb chez Chiffons ÉCO (Entretien Laval) : 32 $ en couleur, 42 $ en blanc, avant taxes. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.</p>
+<h2>Ce que contient un sac de guenilles</h2>
+<p>Des guenilles faites de vêtements de coton récupérés : t-shirts (jersey) ou serviettes (ratine). Elles sont lavées à l'eau chaude, triées, traitées contre les punaises de lit, sans boutons ni fermetures éclair, coupées et prêtes à l'emploi. Un seul type de guenille par [pack].</p>
+<h2>Couleur ou blanc?</h2>
+<p>La <a href="{{couleur}}">guenille couleur</a> est la moins chère et convient à l'huile, à la graisse et au nettoyage courant. La <a href="{{blancs}}">guenille blanche</a> ne transfère pas de couleur : prenez-la pour la peinture, la teinture, le vernis et les surfaces pâles.</p>
+<h2>Prix au sac et à la livre</h2>
+<p>Les guenilles se vendent au poids : 1,28 $ la livre en couleur, 1,68 $ en blanc. À partir de 50 [packs] : 28 $ et 38 $ le [pack]. Voir le <a href="{{guide-prix}}">détail des prix</a> et les <a href="{{gros}}">guenilles en gros</a>.</p>
+<h2>Livraison</h2>
+<p>Laval : 15 $, dès 1 [pack]. Montréal : 25 $, dès 2 [packs]. Ailleurs au Québec : voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
+  "faq": [("Où acheter des guenilles près de chez moi?", "À Laval et à Montréal, Chiffons ÉCO (Entretien Laval) livre des sacs de guenilles de coton de 25 lb : 32 $ en couleur, 42 $ en blanc, avant taxes."),
+          ("Vend-on les guenilles à la livre?", "Oui, au poids, en sacs de 25 lb : 1,28 $ la livre en couleur et 1,68 $ en blanc, avant taxes."),
+          ("Peut-on acheter un seul sac de guenilles?", "Oui à Laval, livraison 15 $ dès 1 [pack]. À Montréal, la livraison est de 25 $ dès 2 [packs].")]},
+ "en": {"path": "/en/guides/where-to-buy-rags/", "short": "Where to buy rags",
+  "title": "Where to buy rags in Laval and Montréal: 25 lb bags",
+  "desc": "Buy recycled cotton rags in Laval and Montréal: 25 lb bags at $32 colored or $42 white, $1.28 per pound, delivered from 1 bag in Laval.",
+  "eyebrow": "Guide · buying", "h1": "Where to buy rags in Laval and Montréal",
+  "lede": "Chiffons ÉCO (Entretien Laval) sells recycled cotton rags by the pound, in 25 lb bags, delivered in Laval, Montréal and Greater Montreal.",
+  "card": "Rags for sale by the bag and by the pound, how to order.", "alt": "25 lb bag of cotton rags",
+  "body": """<h2>The short answer</h2>
+<p>To buy rags in Laval or Montréal, order a 25 lb bag from Chiffons ÉCO (Entretien Laval): $32 colored, $42 white, before tax. Email info@entretienlaval.ca or fill in the quote form.</p>
+<h2>What's in a bag of rags</h2>
+<p>Cotton rags made from recovered clothing: T-shirts (jersey) or towels (terry). They are washed in hot water, sorted, treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
+<h2>Colored or white?</h2>
+<p><a href="{{couleur}}">Colored rags</a> cost the least and handle oil, grease and everyday cleaning. <a href="{{blancs}}">White rags</a> have no color transfer: use them for paint, stain, varnish and light surfaces.</p>
+<h2>Price per bag and per pound</h2>
+<p>Rags are sold by weight: $1.28 per pound colored, $1.68 white. From 50 [packs]: $28 and $38 per [pack]. See the <a href="{{guide-prix}}">price details</a> and <a href="{{gros}}">bulk rags</a>.</p>
+<h2>Delivery</h2>
+<p>Laval: $15, from 1 [pack]. Montréal: $25, from 2 [packs]. Elsewhere in Québec: see the <a href="{{livraison}}">delivery terms</a>.</p>""",
+  "faq": [("Where can I buy rags near me?", "In Laval and Montréal, Chiffons ÉCO (Entretien Laval) delivers 25 lb bags of recycled cotton rags: $32 colored, $42 white, before tax."),
+          ("Can I buy cotton rags by the pound?", "Yes, by weight, in 25 lb bags: $1.28 per pound colored and $1.68 white, before tax."),
+          ("Can I buy a single bag of rags?", "Yes in Laval, with $15 delivery from 1 [pack]. In Montréal, delivery is $25 from 2 [packs].")]}}
+
+P["guide-peluches"] = {"kind": "guide", "img": TEXT, "rel": ["blancs", "peinture", "guide-ratine"],
+ "fr": {"path": "/guides/chiffon-non-pelucheux/", "short": "Chiffon non pelucheux",
+  "title": "Chiffon non pelucheux : lequel laisse le moins de peluches?",
+  "desc": "Quel chiffon laisse le moins de peluches? Le t-shirt de coton blanc est peu pelucheux, la ratine un peu plus. Quoi choisir pour la peinture, les vitres, l'auto.",
+  "eyebrow": "Guide · peluches", "h1": "Chiffon non pelucheux : quel chiffon choisir",
+  "lede": "Aucun chiffon de coton recyclé n'est totalement sans peluches, mais le t-shirt blanc en laisse très peu. Voici quoi choisir selon le travail.",
+  "card": "T-shirt ou ratine, peinture, vitres, auto : ce qui laisse le moins de fibres.", "alt": "Textiles de coton récupérés",
+  "body": """<h2>Le chiffon qui laisse le moins de peluches</h2>
+<p>Parmi nos produits, le <a href="{{blancs}}">t-shirt blanc</a> (jersey) est le plus mince et le moins pelucheux. La ratine laisse un peu plus de fibres à cause de ses boucles : gardez-la pour absorber.</p>
+<h2>Selon le travail</h2>
+<ul><li><b>Peinture, teinture, vernis</b> : t-shirt blanc. Voir les <a href="{{peinture}}">chiffons pour peintres</a>.</li>
+<li><b>Vitres et inox</b> : t-shirt blanc, mince et peu pelucheux.</li>
+<li><b>Polissage et esthétique auto</b> : t-shirt blanc.</li>
+<li><b>Huile, graisse, déversements</b> : ratine ou t-shirt couleur, les peluches comptent peu.</li></ul>
+<h2>Quand il faut un vrai « sans peluches »</h2>
+<p>Pour l'électronique, les salles blanches ou les optiques, il faut des lingettes spécialisées non tissées. Nous ne vendons pas ce type de produit : nos chiffons sont du coton recyclé, pour l'atelier, la finition et le nettoyage.</p>
+<p>Voir aussi : <a href="{{guide-ratine}}">ratine ou t-shirt</a>.</p>""",
+  "faq": [("Quel chiffon ne laisse pas de peluches?", "Aucun chiffon de coton recyclé n'est 100 % sans peluches. Le t-shirt de coton blanc est le moins pelucheux de nos produits."),
+          ("La ratine laisse-t-elle des peluches?", "Un peu plus que le t-shirt, à cause de ses boucles. Elle reste le meilleur choix pour absorber."),
+          ("Quel chiffon pour teindre le bois sans peluches?", "Le t-shirt de coton blanc : mince, peu pelucheux et sans transfert de couleur. 42 $ le [pack] de 25 lb.")]},
+ "en": {"path": "/en/guides/lint-free-rags/", "short": "Lint-free rags",
+  "title": "Lint-free rags: which cotton rag leaves the least lint?",
+  "desc": "Which rag leaves the least lint? White cotton T-shirt rags are low-lint, terry a bit more. What works for paint, stain, glass and car detailing.",
+  "eyebrow": "Guide · lint", "h1": "Lint-free rags: which cotton rag to choose",
+  "lede": "No recycled cotton rag is completely lint-free, but white T-shirt rags leave very little. Here is what to choose for each job.",
+  "card": "T-shirt or terry, paint, glass, cars: what leaves the fewest fibers.", "alt": "Recovered cotton textiles",
+  "body": """<h2>The rag that leaves the least lint</h2>
+<p>Among our products, <a href="{{blancs}}">white T-shirt rags</a> (jersey) are the thinnest and lowest-lint. Terry leaves a few more fibers because of its loops: keep it for absorbing.</p>
+<h2>By job</h2>
+<ul><li><b>Paint, stain, varnish</b>: white T-shirt. See <a href="{{peinture}}">painters rags</a>.</li>
+<li><b>Glass and stainless steel</b>: white T-shirt, thin and low-lint.</li>
+<li><b>Polishing and car detailing</b>: white T-shirt.</li>
+<li><b>Oil, grease, spills</b>: colored terry or T-shirt, lint matters little.</li></ul>
+<h2>When you need truly lint-free</h2>
+<p>Electronics, cleanrooms and optics need specialized nonwoven wipes. We don't sell those: our rags are recycled cotton, for shops, finishing and cleaning.</p>
+<p>See also: <a href="{{guide-ratine}}">terry vs T-shirt rags</a>.</p>""",
+  "faq": [("Which rag doesn't leave lint?", "No recycled cotton rag is 100% lint-free. White cotton T-shirt rags are the lowest-lint of our products."),
+          ("Does terry leave lint?", "A little more than T-shirt, because of its loops. It is still the best choice for absorbing."),
+          ("What rag for staining wood without lint?", "White cotton T-shirt rags: thin, low-lint and no color transfer. $42 per 25 lb [pack].")]}}
 
 GUIDE2_PAGES = P

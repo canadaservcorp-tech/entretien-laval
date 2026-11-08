@@ -158,7 +158,7 @@ PAGES = {}
 
 PAGES["garage"] = {"kind": "sector", "img": IMG_BAG, "rel": ["couleur", "guide-huileux", "industrie"],
  "fr": {"path": "/chiffons-garage-mecanique/", "short": "Garages et mécanique",
-  "title": "Chiffons de garage et guenilles d'atelier – Laval, Montréal",
+  "title": "Chiffons de mécanicien et de garage – Laval, Montréal",
   "desc": "Guenilles recyclées pour garages et mécanique : huile, graisse, liquides. Dès 32 $ le sac de 25 lb, livrées à Laval, Montréal et partout au Québec.",
   "eyebrow": "Garages · mécanique · carrosserie", "h1": "Chiffons de garage et guenilles pour la mécanique",
   "lede": "Des chiffons de coton recyclé qui absorbent l'huile, la graisse et les liquides, en [packs]. Pour garages, ateliers mécaniques, carrosseries et concessionnaires.",
@@ -179,7 +179,7 @@ PAGES["garage"] = {"kind": "sector", "img": IMG_BAG, "rel": ["couleur", "guide-h
           ("Les chiffons laissent-ils des peluches?", "Le coton recyclé trié est peu pelucheux. Pour les surfaces peintes ou vernies, choisissez le t-shirt blanc."),
           ("Peut-on laver et réutiliser les chiffons?", "Les chiffons légèrement sales peuvent être lavés. Ceux imbibés d'huile ou de solvant ne doivent pas aller dans une sécheuse domestique, à cause du risque d'incendie : faites-les traiter par un service spécialisé ou jetez-les de façon sécuritaire.")]},
  "en": {"path": "/en/shop-rags-garage-mechanics/", "short": "Garages and mechanics",
-  "title": "Shop rags for garages and mechanics – Laval, Montreal",
+  "title": "Mechanic shop rags for garages – Laval, Montréal",
   "desc": "Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 per 25 lb bag, delivered in Laval, Montreal and across Québec.",
   "eyebrow": "Garages · auto repair · body shops", "h1": "Shop rags for garages and mechanics",
   "lede": "Recycled cotton rags that soak up oil, grease and fluids, in [packs]. For garages, repair shops, body shops and dealerships.",
@@ -224,10 +224,10 @@ PAGES["peinture"] = {"kind": "sector", "img": IMG_SHOP, "rel": ["blancs", "guide
           ("Les chiffons couleur peuvent-ils tacher le bois?", "Avec des solvants, un tissu teint peut déteindre. Pour la finition, prenez du blanc."),
           ("Comment jeter un chiffon de teinture à l'huile?", "Faites-le sécher à plat à l'extérieur ou mettez-le dans un contenant métallique fermé avec de l'eau, puis apportez-le à l'écocentre comme résidu domestique dangereux (RDD).")]},
  "en": {"path": "/en/painting-finishing-rags/", "short": "Painting and finishing",
-  "title": "Painters rags and rags for staining wood – Québec",
-  "desc": "Recycled white cotton rags with no color transfer for painters, woodworkers and finishing: stain, varnish, oil. 25 lb bags at $42, delivered across Québec.",
-  "eyebrow": "Painters · woodworkers · finishing", "h1": "Rags for painting, staining and finishing",
-  "lede": "Sorted white cotton with no color transfer, to apply and wipe stain, oil and varnish without marking your surfaces.",
+  "title": "Painters rags: white cotton, $42 per 25 lb bag – Québec",
+  "desc": "Painters rags in recycled white cotton with no color transfer, for paint, stain, varnish and oil. $42 per 25 lb bag, delivered in Laval and Montréal.",
+  "eyebrow": "Painters · woodworkers · finishing", "h1": "Painters rags for painting, staining and finishing",
+  "lede": "Painters rags in sorted white cotton with no color transfer, to apply and wipe paint, stain, oil and varnish without marking your surfaces.",
   "card": "Stain, varnish and touch-ups: white cotton doesn't transfer color.",
   "alt": "Packed shop rags for finishing work",
   "body": """<h2>White for finishing</h2>
@@ -241,7 +241,8 @@ PAGES["peinture"] = {"kind": "sector", "img": IMG_SHOP, "rel": ["blancs", "guide
 <div class="note"><p>Rags soaked with linseed oil, tung oil or oil-based stain can <b>catch fire on their own</b> as they dry. Never leave them balled up or in a pile. Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Details in the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p></div>
 <h2>Price and delivery</h2>
 <p>White: $42 per [pack], before tax. Delivered to your shop or any address you choose, under our <a href="{{livraison}}">delivery terms</a>.</p>""",
-  "faq": [("T-shirt or terry for staining?", "White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup."),
+  "faq": [("What are painters rags?", "Painters rags are clean, lint-low cotton rags, usually white, used to wipe brushes, apply stain or oil and clean up drips. White cotton is preferred because it leaves no dye on the surface."),
+          ("T-shirt or terry for staining?", "White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup."),
           ("Can colored rags stain wood?", "With solvents, dyed fabric can bleed. For finishing, choose white."),
           ("How do I dispose of an oil-stain rag?", "Dry it flat outdoors or put it in a closed metal container with water, then take it to your local eco-centre as household hazardous waste.")]},
 }
@@ -436,7 +437,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
           ("Puis-je mélanger les produits dans une livraison?", "Oui, le minimum de 1 000 lb s'applique au total de la livraison."),
           ("Livrez-vous en région?", "Oui, partout au Québec à partir de 1 000 lb, avec des frais selon la distance.")]},
  "en": {"path": "/en/wholesale-rags/", "short": "Wholesale rags",
-  "title": "Bulk rags and wholesale wiping cloths – Québec",
+  "title": "Bulk rags and industrial shop rags, wholesale – Québec",
   "desc": "Recycled wiping rags in bulk for janitorial distributors, hardware stores and industrial suppliers. Unlimited quantity, delivery across Québec.",
   "eyebrow": "Distributors · resellers · bulk", "h1": "Wholesale rags and recycled wiping cloths for distributors",
   "lede": "A Québec supplier of recycled wiping rags: 4 products, unlimited quantity, clear prices and delivery across Québec.",
