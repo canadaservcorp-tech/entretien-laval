@@ -149,7 +149,8 @@ def _page(d):
     else:
         terms_fr = f"Livraison {a_fr} à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission."
         terms_en = f"Delivery {a_en} from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote."
-    hoods_fr, hoods_en = _lst(d["hoods"], "et"), _lst(d["hoods"], "and")
+    towns = [h for h in d["hoods"] if h[0].isupper()]
+    hoods_fr, hoods_en = _lst(d["hoods"], "et"), _lst(towns, "and")
     body = lambda lang: (f"""<h2>Livraison {a_fr}</h2>
 <p>{d['intro_fr']}</p>
 <p>{terms_fr}</p>
@@ -160,7 +161,7 @@ def _page(d):
 <h2>Nos chiffons et nos prix</h2>
 <ul><li><a href="{{{{couleur}}}}">T-shirt ou ratine couleur</a> : 32 $ le [pack], pour l'huile, la graisse et l'usage général.</li>
 <li><a href="{{{{blancs}}}}">T-shirt ou ratine blanc</a> : 42 $ le [pack], sans transfert de couleur, pour la finition et la peinture.</li></ul>
-<p>Prix avant taxes (TPS et TVQ en sus), quantité illimitée. Commande confirmée et payée une semaine avant la livraison.</p>
+<p>Prix avant taxes (TPS et TVQ en sus), aucune quantité maximale. Commande confirmée et payée une semaine avant la livraison.</p>
 <h2>Commander</h2>
 <p>Demandez une <a href="{{{{home#devis}}}}">soumission en ligne</a> ou écrivez à info@entretienlaval.ca. Indiquez votre adresse {a_fr} et la quantité souhaitée.</p>""" if lang == "fr" else f"""<h2>Delivery {a_en}</h2>
 <p>{d['intro_en']}</p>
@@ -172,7 +173,7 @@ def _page(d):
 <h2>Our rags and prices</h2>
 <ul><li><a href="{{{{couleur}}}}">Colored T-shirt or terry</a>: $32 per [pack], for oil, grease and general use.</li>
 <li><a href="{{{{blancs}}}}">White T-shirt or terry</a>: $42 per [pack], no color transfer, for finishing and painting.</li></ul>
-<p>Prices before tax (GST and QST extra), no quantity limit. Orders are confirmed and paid one week before delivery.</p>
+<p>Prices before tax (GST and QST extra), no maximum quantity. Orders are confirmed and paid one week before delivery.</p>
 <h2>How to order</h2>
 <p>Request a <a href="{{{{home#devis}}}}">quote online</a> or email info@entretienlaval.ca. Include your address {a_en} and the quantity you need.</p>""")
     lab_fr = "Guenilles et chiffons " + ("à " + n if not n.startswith("la ") else "sur " + n)
@@ -184,7 +185,7 @@ def _page(d):
       "lede": f"Chiffons de coton recyclé, lavés, triés et traités contre les punaises, livrés {a_fr} en [packs].",
       "card": ("Livraison selon votre adresse." if core else "Livraison à partir de 1 000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"Sac de chiffons recyclés de 25 lb livré {a_fr}", "body": body("fr"),
-      "faq": [(f"Livrez-vous {a_fr}?", f"Oui. Nous livrons {a_fr}, notamment à {_lst(d['hoods'][:3], 'et')}. {terms_fr}"),
+      "faq": [(f"Livrez-vous {a_fr}?", f"Oui. Nous livrons {a_fr}, notamment à {_lst(towns[:6], 'et')}. {terms_fr}"),
               (f"Combien coûte la livraison {a_fr}?", f"Les frais de livraison {a_fr} dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande."),
               (f"Quel chiffon choisir pour une entreprise {a_fr}?", "Le t-shirt couleur (32 $ le [pack]) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.")]},
      "en": {"path": d["en"], "short": ne[0].upper() + ne[1:],
@@ -194,7 +195,7 @@ def _page(d):
       "lede": f"Recycled cotton rags, washed, sorted and bedbug-treated, delivered {a_en} in [packs].",
       "card": ("Delivery based on your address." if core else "Delivery from 1,000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"25 lb bag of recycled rags delivered {a_en}", "body": body("en"),
-      "faq": [(f"Do you deliver {a_en}?", f"Yes. We deliver {a_en}, including {_lst(d['hoods'][:3], 'and')}. {terms_en}"),
+      "faq": [(f"Do you deliver {a_en}?", f"Yes. We deliver {a_en}, including {_lst(towns[:6], 'and')}. {terms_en}"),
               (f"How much is delivery {a_en}?", f"Delivery fees {a_en} depend on the exact address and quantity. They're shown in the quote, before you order."),
               (f"Which rag should a business {a_en} choose?", "Colored T-shirt rags ($32 per [pack]) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.")]}}
 
