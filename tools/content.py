@@ -106,7 +106,7 @@ FAQ = {
 
 HOME = {
  "fr": {"path": "/", "title": "Guenilles et chiffons d'essuyage recyclés à Laval | Chiffons ÉCO",
-        "desc": "Guenilles et chiffons d'essuyage recyclés, lavés et traités anti-punaises, dès 32 $ le sac de 25 lb. Livrés à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
+        "desc": "Guenilles et chiffons recyclés, lavés et traités anti-punaises, dès 32 $ le sac de 25 lb. Livrés à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
         "prod_eyebrow": "Nos chiffons · 4 produits", "prod_h2": "T-shirt ou ratine, blanc ou couleur.",
         "prod_p": "Sans métal ni boutons, lavés à l'eau chaude, traités contre les punaises de lit et coupés prêts à utiliser, en [packs]. Échantillons sur demande.",
         "photo_alt": ["Sacs de 25 lb de chiffons recyclés couleur, scellés", "Sac de chiffons t-shirt couleur de 25 lb"],
