@@ -67,9 +67,10 @@ SECTOR_KEYS = ["garage", "peinture", "entretien", "construction", "restauration"
 # ---------------- FAQ (shared: /faq/ page, first 6 on homepage) ----------------
 FAQ = {
  "fr": [
-  ("Combien coûtent vos chiffons?", "32 $ le [pack] pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir <a href=\"{{home#produits}}\">les produits</a>."),
+  ("Où acheter des guenilles en gros à Laval?", "Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en [packs]. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
+  ("Combien coûte une boîte de chiffons de 25 lb?", "32 $ le [pack] pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir <a href=\"{{home#produits}}\">les produits</a>."),
   ("Qu'y a-t-il dans un [pack]?", "25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités contre les punaises de lit."),
-  ("Quelle différence entre t-shirt et ratine?", "Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts."),
+  ("Quelle est la différence entre ratine et t-shirt?", "Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts."),
   ("Blanc ou couleur?", "Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers."),
   ("Livrez-vous? Où?", "Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir <a href=\"{{livraison}}\">la livraison</a>."),
   ("Livrez-vous ailleurs au Canada?", "Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir <a href=\"{{canada}}\">fournisseur de chiffons au Canada</a>."),
@@ -84,9 +85,10 @@ FAQ = {
   ("Acceptez-vous les retours?", "Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un [pack] endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons."),
  ],
  "en": [
-  ("How much do your rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
+  ("Where can I buy rags in bulk in Laval?", "From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and bedbug-treated, in [packs]. $32 colored, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See <a href=\"{{gros}}\">wholesale rags</a>."),
+  ("How much does a 25 lb box of rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
   ("What's in a [pack]?", "25 lb of recycled cotton rags of a single type: T-shirt or terry, white or colored. The rags are washed, sorted and treated against bedbugs."),
-  ("What's the difference between T-shirt and terry?", "T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills."),
+  ("What's the difference between terry and T-shirt rags?", "T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills."),
   ("White or colored?", "White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites."),
   ("Do you deliver? Where?", "Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See <a href=\"{{livraison}}\">delivery</a>."),
   ("Do you ship elsewhere in Canada?", "Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See <a href=\"{{canada}}\">rag supplier in Canada</a>."),
@@ -464,7 +466,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
           ("Do you deliver to the regions?", "Yes, anywhere in Québec from 1,000 lb, with a fee based on distance.")]},
 }
 
-PAGES["blancs"] = {"kind": "product", "img": IMG_WHITE, "products": ["tshirt-blanc", "ratine-blanc"], "rel": ["peinture", "couleur", "industrie"],
+PAGES["blancs"] = {"kind": "product", "img": IMG_WHITE, "products": ["tshirt-blanc", "ratine-blanc"], "rel": ["p-tshirt-blanc", "p-ratine-blanc", "peinture"],
  "fr": {"path": "/chiffons-blancs-recycles/", "short": "Chiffons blancs",
   "title": "Chiffons blancs recyclés, t-shirt et ratine 25 lb | Chiffons ÉCO",
   "desc": "Chiffons d'essuyage blancs en coton recyclé, t-shirt ou ratine, sans transfert de couleur. 42 $ le sac de 25 lb avant taxes. Laval, Montréal, Québec.",
@@ -503,7 +505,7 @@ PAGES["blancs"] = {"kind": "product", "img": IMG_WHITE, "products": ["tshirt-bla
           ("Can I get a sample?", "Yes, on request.")]},
 }
 
-PAGES["couleur"] = {"kind": "product", "img": IMG_BAG, "products": ["tshirt-couleur", "ratine-couleur"], "rel": ["garage", "construction", "blancs"],
+PAGES["couleur"] = {"kind": "product", "img": IMG_BAG, "products": ["tshirt-couleur", "ratine-couleur"], "rel": ["p-tshirt-couleur", "p-ratine-couleur", "garage"],
  "fr": {"path": "/chiffons-couleur-recycles/", "short": "Chiffons couleur",
   "title": "Chiffons couleur recyclés, t-shirt et ratine 25 lb | Chiffons ÉCO",
   "desc": "Chiffons d'essuyage couleur en coton recyclé, t-shirt ou ratine, pour garages, ateliers et chantiers. 32 $ le sac de 25 lb avant taxes. Livraison au Québec.",
@@ -722,6 +724,9 @@ from content_guides2 import GUIDE2_PAGES
 from content_cities import CITY_PAGES, CITY_KEYS
 _merci = PAGES.pop("merci")
 from content_canada import CANADA_PAGES
+from content_products import PRODUCT_PAGES, PRODUCT_PAGE_OF
+PAGES.update(PRODUCT_PAGES)
+for _p in PRODUCTS: _p["page"] = PRODUCT_PAGE_OF[_p["id"]]
 PAGES.update(SECTOR2_PAGES); PAGES.update(GUIDE2_PAGES); PAGES.update(CITY_PAGES); PAGES.update(CANADA_PAGES)
 PAGES["merci"] = _merci
 SECTOR_KEYS = SECTOR_KEYS + SECTOR2_KEYS

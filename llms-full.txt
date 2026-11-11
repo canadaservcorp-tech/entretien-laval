@@ -22,6 +22,10 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Guides](https://entretienlaval.ca/guides/)
 - [Chiffons huileux et risque d'incendie](https://entretienlaval.ca/guides/chiffons-huileux-risque-incendie/)
 - [Chiffons recyclés ou essuie-tout](https://entretienlaval.ca/guides/chiffons-recycles-ou-papier/)
+- [T-shirt couleur](https://entretienlaval.ca/chiffons-t-shirt-couleur/)
+- [Ratine couleur](https://entretienlaval.ca/chiffons-ratine-couleur/)
+- [T-shirt blanc](https://entretienlaval.ca/chiffons-t-shirt-blanc/)
+- [Ratine blanche](https://entretienlaval.ca/chiffons-ratine-blanc/)
 - [Carrosserie](https://entretienlaval.ca/chiffons-carrosserie-debosselage/)
 - [Esthétique auto et lave-auto](https://entretienlaval.ca/chiffons-esthetique-automobile-lave-auto/)
 - [Ébénisterie et menuiserie](https://entretienlaval.ca/chiffons-ebenisterie-menuiserie/)
@@ -83,6 +87,10 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Guides](https://entretienlaval.ca/en/guides/)
 - [Oily rags and fire risk](https://entretienlaval.ca/en/guides/oily-rags-fire-risk/)
 - [Recycled rags vs paper towels](https://entretienlaval.ca/en/guides/recycled-rags-vs-paper-towels/)
+- [Colored T-shirt](https://entretienlaval.ca/en/colored-t-shirt-rags/)
+- [Colored terry](https://entretienlaval.ca/en/colored-terry-rags/)
+- [White T-shirt](https://entretienlaval.ca/en/white-t-shirt-rags/)
+- [White terry](https://entretienlaval.ca/en/white-terry-rags/)
 - [Auto body](https://entretienlaval.ca/en/auto-body-shop-rags/)
 - [Car detailing and car wash](https://entretienlaval.ca/en/car-detailing-car-wash-rags/)
 - [Woodworking and cabinetmaking](https://entretienlaval.ca/en/woodworking-cabinetmaking-rags/)
@@ -217,6 +225,30 @@ URL: https://entretienlaval.ca/guides/chiffons-recycles-ou-papier/
 Chiffons d'essuyage en coton recyclé ou essuie-tout en papier : absorption, coût, déchets et quand le papier reste préférable. Comparaison honnête.
 - Q: Peut-on laver les chiffons recyclés? A: Oui, s'ils ne sont pas imbibés d'huile ou de solvant. Ceux-là ne doivent pas aller dans une sécheuse domestique.
 - Q: Les chiffons recyclés sont-ils hygiéniques? A: Les nôtres sont lavés et traités contre les punaises de lit. Pour le contact alimentaire, suivez les règles du MAPAQ.
+
+### Chiffons t-shirt couleur : 32 $ le sac de 25 lb
+URL: https://entretienlaval.ca/chiffons-t-shirt-couleur/
+Chiffons t-shirt couleur en coton recyclé, lavés et traités anti-punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+- Q: Le t-shirt couleur peut-il déteindre? A: Avec des solvants, de la teinture ou du vernis, un tissu teint peut déteindre. Pour ces usages, choisissez le t-shirt blanc.
+- Q: Quelle taille ont les morceaux? A: Ils sont coupés en morceaux prêts à utiliser, faciles à tenir en main. La taille varie selon le vêtement d'origine.
+
+### Chiffons ratine couleur : 32 $ le sac de 25 lb
+URL: https://entretienlaval.ca/chiffons-ratine-couleur/
+Chiffons ratine couleur en coton recyclé, lavés et traités anti-punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+- Q: La ratine laisse-t-elle des peluches? A: Un peu plus que le t-shirt. Pour les surfaces qui doivent rester sans peluches, prenez le t-shirt.
+- Q: Que faire des chiffons pleins d'huile? A: Rangez-les dans un contenant métallique fermé : voir notre guide chiffons huileux et risque d'incendie.
+
+### Chiffons t-shirt blanc : 42 $ le sac de 25 lb
+URL: https://entretienlaval.ca/chiffons-t-shirt-blanc/
+Chiffons t-shirt blanc en coton recyclé, lavés et traités anti-punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+- Q: Les chiffons t-shirt blancs sont-ils 100 % blancs? A: Ils sont triés pour ne garder que des textiles blancs ou très pâles, sans transfert de couleur.
+- Q: Conviennent-ils au vernis et à la laque? A: Oui. Le jersey blanc mince laisse peu de peluches et ne transfère pas de couleur.
+
+### Chiffons ratine blanc : 42 $ le sac de 25 lb
+URL: https://entretienlaval.ca/chiffons-ratine-blanc/
+Chiffons ratine blanc en coton recyclé, lavés et traités anti-punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+- Q: Pourquoi la ratine blanche coûte-t-elle plus cher? A: Le tri des textiles blancs est plus long et le blanc est plus rare. Elle coûte 42 $ le sac, contre 32 $ pour la couleur.
+- Q: Puis-je avoir un échantillon? A: Oui, sur demande.
 
 ### Chiffons pour ateliers de carrosserie
 URL: https://entretienlaval.ca/chiffons-carrosserie-debosselage/
@@ -510,9 +542,10 @@ Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, 
 - Q: Puis-je retourner ma commande? A: Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un sac de 25 lb endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.
 
 ## FAQ
-- Q: Combien coûtent vos chiffons? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
+- Q: Où acheter des guenilles en gros à Laval? A: Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en sacs de 25 lb. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir guenilles en gros.
+- Q: Combien coûte une boîte de chiffons de 25 lb? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
 - Q: Qu'y a-t-il dans un sac de 25 lb? A: 25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités contre les punaises de lit.
-- Q: Quelle différence entre t-shirt et ratine? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts.
+- Q: Quelle est la différence entre ratine et t-shirt? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts.
 - Q: Blanc ou couleur? A: Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers.
 - Q: Livrez-vous? Où? A: Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir la livraison.
 - Q: Livrez-vous ailleurs au Canada? A: Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir fournisseur de chiffons au Canada.
@@ -616,6 +649,30 @@ URL: https://entretienlaval.ca/en/guides/recycled-rags-vs-paper-towels/
 Recycled cotton wiping rags or paper towels: absorbency, cost, waste and when paper is still the better choice. An honest comparison.
 - Q: Can recycled rags be washed? A: Yes, if they aren't soaked with oil or solvent. Those must not go in a home dryer.
 - Q: Are recycled rags hygienic? A: Ours are washed and treated against bedbugs. For food contact, follow MAPAQ rules.
+
+### Colored T-shirt rags: $32 per 25 lb bag
+URL: https://entretienlaval.ca/en/colored-t-shirt-rags/
+Colored T-shirt rags in recycled cotton, washed and bedbug-treated. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Can colored T-shirt rags bleed? A: With solvents, stain or varnish, dyed fabric can bleed. For those jobs, choose white T-shirt rags.
+- Q: How big are the pieces? A: They are cut into ready-to-use, hand-sized pieces. Size varies with the original garment.
+
+### Colored terry rags: $32 per 25 lb bag
+URL: https://entretienlaval.ca/en/colored-terry-rags/
+Colored terry rags in recycled cotton, washed and bedbug-treated. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Does terry leave lint? A: A little more than T-shirt. For surfaces that must stay lint-free, choose T-shirt.
+- Q: What do I do with oily rags? A: Store them in a closed metal container: see our guide oily rags and fire risk.
+
+### White T-shirt rags: $42 per 25 lb bag
+URL: https://entretienlaval.ca/en/white-t-shirt-rags/
+White T-shirt rags in recycled cotton, washed and bedbug-treated. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Are white T-shirt rags 100% white? A: They are sorted to keep only white or very pale textiles, with no color transfer.
+- Q: Are they good for varnish and lacquer? A: Yes. Thin white jersey leaves little lint and transfers no color.
+
+### White terry rags: $42 per 25 lb bag
+URL: https://entretienlaval.ca/en/white-terry-rags/
+White terry rags in recycled cotton, washed and bedbug-treated. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Why does white terry cost more? A: Sorting white textiles takes longer and white is rarer. It is $42 per bag, against $32 for colored.
+- Q: Can I get a sample? A: Yes, on request.
 
 ### Rags for auto body shops
 URL: https://entretienlaval.ca/en/auto-body-shop-rags/
@@ -909,9 +966,10 @@ Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at che
 - Q: Can I return my order? A: No, all sales are final. If you receive the wrong product or a damaged 25 lb bag, email info@entretienlaval.ca and we will replace it.
 
 ## FAQ
-- Q: How much do your rags cost? A: $32 per 25 lb bag for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
+- Q: Where can I buy rags in bulk in Laval? A: From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and bedbug-treated, in 25 lb bags. $32 colored, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See wholesale rags.
+- Q: How much does a 25 lb box of rags cost? A: $32 per 25 lb bag for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
 - Q: What's in a 25 lb bag? A: 25 lb of recycled cotton rags of a single type: T-shirt or terry, white or colored. The rags are washed, sorted and treated against bedbugs.
-- Q: What's the difference between T-shirt and terry? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills.
+- Q: What's the difference between terry and T-shirt rags? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills.
 - Q: White or colored? A: White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites.
 - Q: Do you deliver? Where? A: Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See delivery.
 - Q: Do you ship elsewhere in Canada? A: Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See rag supplier in Canada.
