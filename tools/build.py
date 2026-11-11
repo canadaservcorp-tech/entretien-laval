@@ -131,7 +131,7 @@ def footer(lang):
 <div><div class="fbrand"><svg aria-hidden="true"><use href="#mark"></use></svg> Chiffons ÉCO — Entretien Laval</div>
 <p class="legal" style="margin-top:14px">{u['foot_tag']}</p>
 <p class="legal" style="margin-top:10px"><a href="mailto:{C.EMAIL}">{C.EMAIL}</a><br><a href="https://www.instagram.com/entretienlaval/" rel="noopener">Instagram @entretienlaval</a></p></div>
-{col(u['products'], (['commander'] if 'commander' in C.PAGES else []) + ['couleur', 'blancs', 'gros', 'livraison', 'apropos'])}
+{col(u['products'], (['commander'] if 'commander' in C.PAGES else []) + ['couleur', 'blancs', 'gros', 'livraison', 'apropos', 'clients'])}
 {col(u['sectors'], [k for k in C.SECTOR_KEYS if k != 'gros'] + ['secteurs'])}
 {col(u['guides'], ['guide-huileux', 'guide-papier', 'guide-ratine', 'guide-ranger', 'glossaire', 'calculateur', 'faq'])}
 </div>

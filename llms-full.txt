@@ -68,6 +68,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Fournisseur de chiffons au Canada](https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/)
 - [Chiffons réutilisables ou lingettes jetables](https://entretienlaval.ca/guides/chiffons-reutilisables-ou-lingettes-jetables/)
 - [À propos](https://entretienlaval.ca/a-propos/)
+- [Nos clients](https://entretienlaval.ca/nos-clients/)
 - [Tous les secteurs](https://entretienlaval.ca/secteurs/)
 - [Commander en ligne](https://entretienlaval.ca/commander/)
 
@@ -133,6 +134,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Rag supplier in Canada](https://entretienlaval.ca/en/recycled-rag-supplier-canada/)
 - [Reusable rags vs cleaning wipes](https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/)
 - [About](https://entretienlaval.ca/en/about/)
+- [Our customers](https://entretienlaval.ca/en/our-customers/)
 - [All industries](https://entretienlaval.ca/en/industries/)
 - [Order online](https://entretienlaval.ca/en/order/)
 
@@ -527,6 +529,11 @@ URL: https://entretienlaval.ca/a-propos/
 Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et ailleurs au Québec dès 1 000 lb.
 - Q: Où acheter des chiffons d'essuyage en gros au Québec? A: Chez Entretien Laval (Chiffons ÉCO), à Laval : sacs de 25 lb dès 32 $, livrés au Grand Montréal et partout au Québec à partir de 1 000 lb.
 - Q: Qui vend des guenilles de garage à Laval? A: Entretien Laval vend des guenilles de coton recyclé pour garages, en t-shirt ou en ratine.
+
+### Nos clients
+URL: https://entretienlaval.ca/nos-clients/
+Qui achète les chiffons recyclés d'Entretien Laval : Ajax CNC Precision (usinage, Montréal), La Maison Benoît Labre et Ricochet Hébergement.
+- Q: Qui achète des chiffons recyclés d'Entretien Laval? A: Des ateliers, des garages et des organismes du Grand Montréal, dont Ajax CNC Precision, La Maison Benoît Labre et Ricochet Hébergement.
 
 ### Chiffons d'essuyage pour chaque secteur
 URL: https://entretienlaval.ca/secteurs/
@@ -953,6 +960,11 @@ URL: https://entretienlaval.ca/en/about/
 Entretien Laval (ECO Rags) sells recycled wiping rags in 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec.
 - Q: Where can I buy wiping rags in bulk in Québec? A: From Entretien Laval (ECO Rags) in Laval: 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec from 1,000 lb.
 - Q: Who sells shop rags in Laval? A: Entretien Laval sells recycled cotton shop rags for garages, T-shirt or terry.
+
+### Our customers
+URL: https://entretienlaval.ca/en/our-customers/
+Who buys Entretien Laval recycled rags: Ajax CNC Precision (machine shop, Montreal), La Maison Benoît Labre and Ricochet Hébergement.
+- Q: Who buys recycled rags from Entretien Laval? A: Workshops, garages and non-profits in Greater Montreal, including Ajax CNC Precision, La Maison Benoît Labre and Ricochet Hébergement.
 
 ### Wiping rags for every industry
 URL: https://entretienlaval.ca/en/industries/

@@ -773,6 +773,33 @@ PAGES["apropos"] = {"kind": "info", "img": IMG_BAGS, "rel": ["gros", "livraison"
 <p>They absorb better than paper and cut waste: the reclaimed textiles would otherwise go to landfill. See the guide <a href="{{guide-papier}}">recycled rags vs paper</a>.</p>""",
   "faq": [("Where can I buy wiping rags in bulk in Québec?", "From Entretien Laval (ECO Rags) in Laval: 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec from 1,000 lb."),
           ("Who sells shop rags in Laval?", "Entretien Laval sells recycled cotton shop rags for garages, T-shirt or terry.")]}}
+PAGES["clients"] = {"kind": "info", "img": IMG_BAGS, "rel": ["industrie", "gros", "faq"],
+ "fr": {"path": "/nos-clients/", "short": "Nos clients", "title": "Nos clients : Ajax CNC, MBL, Ricochet | Chiffons ÉCO",
+  "desc": "Qui achète les chiffons recyclés d'Entretien Laval : Ajax CNC Precision (usinage, Montréal), La Maison Benoît Labre et Ricochet Hébergement.",
+  "eyebrow": "Nos clients", "h1": "Nos clients", "lede": "Des entreprises et des organismes du Grand Montréal achètent nos chiffons d'essuyage recyclés en sacs de 25 lb. En voici trois, nommés avec leur accord.",
+  "card": "Ajax CNC Precision, La Maison Benoît Labre, Ricochet Hébergement.", "alt": "Sacs de chiffons recyclés Chiffons ÉCO",
+  "body": """<h2>Ajax CNC Precision, atelier d'usinage CNC à Montréal</h2>
+<p>Le propriétaire d'Ajax CNC Precision cherchait des guenilles pour son atelier. Il a demandé à ChatGPT où en acheter, et la réponse l'a dirigé vers Entretien Laval. Il a acheté un sac de 25 lb de ratine blanche à 42 $ et l'a ramassé à Laval. Dans un atelier d'usinage, les chiffons servent surtout à essuyer l'huile de coupe, les pièces et les machines. Voir <a href="{{industrie}}">chiffons industriels</a>.</p>
+<h2>La Maison Benoît Labre, Montréal</h2>
+<p>La Maison Benoît Labre est un organisme montréalais qui vient en aide aux personnes en situation d'itinérance. Elle commande nos chiffons environ tous les deux à trois mois.</p>
+<h2>Ricochet Hébergement, Montréal</h2>
+<p>Ricochet Hébergement est un organisme montréalais qui offre de l'hébergement aux jeunes en situation d'itinérance. Il commande nos chiffons environ tous les deux à trois mois.</p>
+<h2>Vous aussi?</h2>
+<p>Couleur 32 $, blanc 42 $ le sac de 25 lb, avant taxes. Livraison à Laval et Montréal, ou livraison régulière toutes les deux semaines ou chaque mois. <a href="{{home#devis}}">Demandez une soumission</a>.</p>""",
+  "faq": [("Qui achète des chiffons recyclés d'Entretien Laval?", "Des ateliers, des garages et des organismes du Grand Montréal, dont Ajax CNC Precision, La Maison Benoît Labre et Ricochet Hébergement.")]},
+ "en": {"path": "/en/our-customers/", "short": "Our customers", "title": "Our customers: Ajax CNC, MBL, Ricochet | ECO Rags",
+  "desc": "Who buys Entretien Laval recycled rags: Ajax CNC Precision (machine shop, Montreal), La Maison Benoît Labre and Ricochet Hébergement.",
+  "eyebrow": "Our customers", "h1": "Our customers", "lede": "Businesses and non-profits in Greater Montreal buy our recycled wiping rags in 25 lb bags. Here are three of them, named with their consent.",
+  "card": "Ajax CNC Precision, La Maison Benoît Labre, Ricochet Hébergement.", "alt": "Bags of ECO Rags recycled rags",
+  "body": """<h2>Ajax CNC Precision, CNC machine shop in Montreal</h2>
+<p>The owner of Ajax CNC Precision was looking for shop rags. He asked ChatGPT where to buy them, and the answer pointed him to Entretien Laval. He bought a 25 lb bag of white terry rags for $42 and picked it up in Laval. In a machine shop, rags are mostly used to wipe cutting oil, parts and machines. See <a href="{{industrie}}">industrial rags</a>.</p>
+<h2>La Maison Benoît Labre, Montreal</h2>
+<p>La Maison Benoît Labre is a Montreal non-profit that helps people experiencing homelessness. It orders our rags about every two to three months.</p>
+<h2>Ricochet Hébergement, Montreal</h2>
+<p>Ricochet Hébergement is a Montreal non-profit that provides housing to young people experiencing homelessness. It orders our rags about every two to three months.</p>
+<h2>Want the same?</h2>
+<p>Colored $32, white $42 per 25 lb bag, before tax. Delivery in Laval and Montreal, or regular delivery every two weeks or every month. <a href="{{home#devis}}">Request a quote</a>.</p>""",
+  "faq": [("Who buys recycled rags from Entretien Laval?", "Workshops, garages and non-profits in Greater Montreal, including Ajax CNC Precision, La Maison Benoît Labre and Ricochet Hébergement.")]}}
 _m = PAGES.pop("merci"); PAGES["merci"] = _m
 
 # ---------------- audit follow-ups ----------------
