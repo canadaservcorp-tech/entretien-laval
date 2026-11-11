@@ -21,13 +21,13 @@ GUIDES_BODY = {
 
 GROS_EXTRA = {
  "fr": """<h2>Commandes en volume</h2>
-<p>La quantité est illimitée. Une livraison hors Laval et Montréal commence à 1 000 lb, soit 40 [packs], et vous pouvez mélanger les quatre produits dans une même commande. Pour des commandes régulières ou de grands volumes, demandez une soumission : nous calculons le prix et la livraison selon votre adresse et votre fréquence.</p>
+<p>Il n'y a pas de quantité maximale. Une livraison hors Laval et Montréal commence à 1 000 lb, soit 40 [packs], et vous pouvez mélanger les quatre produits dans une même commande. Pour des commandes régulières ou de grands volumes, demandez une soumission : nous calculons le prix et la livraison selon votre adresse et votre fréquence.</p>
 <h2>Pour distributeurs et revendeurs</h2>
 <p>Distributeurs de produits sanitaires, quincailleries, fournisseurs de garages et d'ateliers : nos chiffons sont emballés en [packs] scellés, faciles à entreposer et à revendre. Indiquez dans votre demande les volumes prévus et les adresses de livraison.</p>
 <h2>Comment se passe une commande</h2>
 <ol><li>Vous demandez une soumission avec la quantité et l'adresse.</li><li>Nous confirmons le prix, les frais de livraison et la date.</li><li>La commande est confirmée et payée une semaine avant la livraison.</li><li>Nous livrons à votre adresse, avec une facture incluant TPS et TVQ.</li></ol>""",
  "en": """<h2>Volume orders</h2>
-<p>Quantity is unlimited. A delivery outside Laval and Montréal starts at 1,000 lb, or 40 [packs], and you can mix all four products in one order. For recurring or large-volume orders, request a quote: we price the order and delivery based on your address and frequency.</p>
+<p>There is no maximum quantity. A delivery outside Laval and Montréal starts at 1,000 lb, or 40 [packs], and you can mix all four products in one order. For recurring or large-volume orders, request a quote: we price the order and delivery based on your address and frequency.</p>
 <h2>For distributors and resellers</h2>
 <p>Janitorial distributors, hardware stores, garage and shop suppliers: our rags come in sealed [packs], easy to store and resell. Include your expected volumes and delivery addresses in your request.</p>
 <h2>How an order works</h2>
