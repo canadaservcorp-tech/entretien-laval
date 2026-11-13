@@ -104,14 +104,13 @@ def head(lang, title, desc, key, ldobj, image="/img/og-chiffons-eco.jpg", noinde
 def header(lang, key):
     u = C.UI[lang]; other = "en" if lang == "fr" else "fr"
     links = "".join(f'<a href="{L(k, lang)}"{CUR if k == key else ""}>{t}</a>' for t, k in C.NAV[lang])
-    devis = f'<a class="ndevis" href="{L("home#devis", lang)}">{u["quote"]}</a>'
     return f"""<body>
 {SPRITE}
 <a class="skip" href="#main">{u['skip']}</a>
 <header>
 <div class="wrap bar">
 <a class="brand" href="{L('home', lang)}"><svg aria-hidden="true"><use href="#mark"></use></svg><span>Chiffons ÉCO<small>ECO RAGS · ENTRETIEN LAVAL</small></span></a>
-<nav class="main" aria-label="{u['nav_label']}">{links}{devis}</nav>
+<nav class="main" aria-label="{u['nav_label']}">{links}</nav>
 <div class="tools">
 <a class="langsw" href="{L(key, other)}" hreflang="{other}-CA" lang="{other}-CA" title="{u['lang_name']}">{other.upper()}</a>
 <a class="call" href="{L("home#devis", lang)}">{ICON['arrow'].replace('<svg', HID, 1)}<span>{u["quote"]}</span></a>

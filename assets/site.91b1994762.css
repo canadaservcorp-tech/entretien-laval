@@ -204,8 +204,6 @@ img{max-width:100%;height:auto}
 .langsw{font-family:'IBM Plex Mono';font-size:12px;font-weight:600;letter-spacing:.05em;border:1px solid var(--line-2);border-radius:999px;padding:6px 11px;color:var(--ink-soft)}
 .langsw:hover{border-color:var(--olive);color:var(--olive)}
 nav.main a[aria-current]{color:var(--olive)}
-nav.main .ndevis{background:var(--olive);color:var(--paper-2);padding:8px 14px;border-radius:8px}
-nav.main .ndevis:hover{background:var(--olive-deep);color:var(--paper-2)}
 .mnav{display:none;position:relative}
 .mnav summary{list-style:none;cursor:pointer;width:42px;height:38px;border:1px solid var(--line-2);border-radius:8px;display:flex;align-items:center;justify-content:center}
 .mnav summary::-webkit-details-marker{display:none}
@@ -326,7 +324,6 @@ nav.main .ndevis:hover{background:var(--olive-deep);color:var(--paper-2)}
 nav.main{gap:20px}
 nav.main a{white-space:nowrap}
 .call{white-space:nowrap}
-@media(max-width:1180px){nav.main .ndevis{display:none}.call span{display:none}}
 @media(max-width:1000px){nav.main{gap:14px}nav.main a{font-size:14px}}
 .wafab{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;align-items:center;gap:9px;background:#25D366;color:#06301a;font-weight:700;font-size:15px;text-decoration:none;padding:12px 18px 12px 14px;border-radius:999px;box-shadow:0 10px 24px -8px rgba(0,0,0,.45)}
 .wafab svg{width:26px;height:26px;flex:none}
