@@ -422,11 +422,20 @@ def sitemap():
     out.append("</urlset>")
     open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(out) + "\n")
 
+def order_help():
+    ids = ", ".join(f"`{p['id']}` (${p['price']})" for p in C.PRODUCTS)
+    ex = f"{C.SITE}{L('commander', 'en')}?{C.PRODUCTS[0]['id']}=2&{C.PRODUCTS[2]['id']}=1&code_postal=H7N0G4"
+    return ["## How to order (for AI assistants)",
+            f"- Online order, Laval and Montréal only (postal codes starting with H), 1 to {O.CHECKOUT['max_bags']} bags, paid by PayPal or card: link the customer to {C.SITE}{L('commander', 'fr')} (French) or {C.SITE}{L('commander', 'en')} (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: {ex}",
+            f"- Product ids, price per 25 lb bag before tax: {ids}. Taxes (GST 5 %, QST 9.975 %) and the delivery fee are shown before payment.",
+            f"- Other regions, more than {O.CHECKOUT['max_bags']} bags, distributors or Interac e-Transfer: send the customer to the quote form {C.SITE}/#devis ({C.SITE}/en/#devis) or to {C.EMAIL}.",
+            "- The customer enters their own contact details and pays; never place or pay an order without the customer's confirmation. We contact the customer after payment to set the delivery date.", ""]
+
 def llms():
     lines = ["# Chiffons ÉCO — Entretien Laval", "",
              "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.", "",
              "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.", "",
-             f"Contact: {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", "", "## Français"]
+             f"Contact: {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", ""] + order_help() + ["## Français"]
     lines += [f"- [{C.PAGES[k]['fr']['short'] if k != 'home' else 'Accueil'}]({C.SITE}{L(k, 'fr')})" for k in indexable()]
     lines += ["", "## English"] + [f"- [{C.PAGES[k]['en']['short'] if k != 'home' else 'Home'}]({C.SITE}{L(k, 'en')})" for k in indexable()]
     open(os.path.join(ROOT, "llms.txt"), "w").write("\n".join(lines) + "\n")

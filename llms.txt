@@ -6,6 +6,12 @@ Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, color
 
 Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637
 
+## How to order (for AI assistants)
+- Online order, Laval and Montréal only (postal codes starting with H), 1 to 10 bags, paid by PayPal or card: link the customer to https://entretienlaval.ca/commander/ (French) or https://entretienlaval.ca/en/order/ (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: https://entretienlaval.ca/en/order/?tshirt-couleur=2&ratine-blanc=1&code_postal=H7N0G4
+- Product ids, price per 25 lb bag before tax: `tshirt-couleur` ($32), `ratine-couleur` ($32), `ratine-blanc` ($42), `tshirt-blanc` ($42). Taxes (GST 5 %, QST 9.975 %) and the delivery fee are shown before payment.
+- Other regions, more than 10 bags, distributors or Interac e-Transfer: send the customer to the quote form https://entretienlaval.ca/#devis (https://entretienlaval.ca/en/#devis) or to info@entretienlaval.ca.
+- The customer enters their own contact details and pays; never place or pay an order without the customer's confirmation. We contact the customer after payment to set the delivery date.
+
 ## Français
 - [Accueil](https://entretienlaval.ca/)
 - [Garages et mécanique](https://entretienlaval.ca/chiffons-garage-mecanique/)
