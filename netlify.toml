@@ -54,3 +54,23 @@
   to = "/404.html"
   status = 404
   force = true
+
+[[redirects]]
+  from = "/chiffons-guenilles-repentigny-joliette/"
+  to = "/chiffons-guenilles-joliette/"
+  status = 301
+
+[[redirects]]
+  from = "/en/rags-repentigny-joliette/"
+  to = "/en/rags-joliette/"
+  status = 301
+
+[[redirects]]
+  from = "/chiffons-guenilles-saint-hyacinthe-drummondville/"
+  to = "/chiffons-guenilles-saint-hyacinthe/"
+  status = 301
+
+[[redirects]]
+  from = "/en/rags-saint-hyacinthe-drummondville/"
+  to = "/en/rags-saint-hyacinthe/"
+  status = 301
