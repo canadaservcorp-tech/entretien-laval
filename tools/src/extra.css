@@ -175,3 +175,156 @@ footer{padding-bottom:90px}
 .oerr{margin:16px 0 0;padding:12px 14px;border-left:3px solid var(--rust);background:var(--paper-2);border-radius:0 9px 9px 0;font-size:14.5px}
 #paypal-buttons{margin-top:20px;max-width:420px}
 .pbox .btn+.btn{margin-top:8px}
+
+/* water-blue "clean" palette */
+:root{--paper:#F3F8FC;--paper-2:#FFFFFF;--ink:#0F2A44;--ink-soft:#3D5770;--olive:#1565A8;--olive-deep:#0E4C82;--rust:#1E7FC0;--muted:#6A8299;--line:#DBE7F1;--line-2:#C3D6E6}
+.eyebrow{color:#1E7FC0}
+header{background:rgba(243,248,252,.9)}
+.btn-primary{box-shadow:0 8px 22px -10px rgba(21,101,168,.75)}
+.imgband .veil{background:linear-gradient(90deg,rgba(11,34,56,.88),rgba(11,34,56,.5) 58%,rgba(11,34,56,.1))}
+footer{background:#0B2238}
+.hero{background:radial-gradient(1100px 520px at 85% 0,#D9ECFA 0,transparent 62%);overflow:hidden;padding-bottom:120px}
+.hero>.wrap{position:relative;z-index:1}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:100px;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath fill='%23BFDDF3' d='M0 52C240 104 480 4 720 46s480 38 720-6v80H0z'/%3E%3Cpath fill='%2390C4EA' fill-opacity='.45' d='M0 74c260 40 520-34 760-4s460 40 680 0v54H0z'/%3E%3Cpath fill='%23F3F8FC' d='M0 92c260 28 520-28 760 0s460 24 680 0v28H0z'/%3E%3C/svg%3E") bottom/100% 100% no-repeat}
+#parcours{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='40' viewBox='0 0 160 40'%3E%3Cpath d='M0 20c20-12 60-12 80 0s60 12 80 0' fill='none' stroke='%231E7FC0' stroke-opacity='.08' stroke-width='2'/%3E%3C/svg%3E") repeat}
+.local{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 8px;margin-bottom:16px}
+.local img{height:18px;width:auto;border-radius:2px;box-shadow:0 0 0 1px rgba(15,42,68,.12)}
+.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}
+.jstep{background:var(--paper-2);border:1px solid var(--line);border-radius:14px;padding:20px}
+.jstep .num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--rust);letter-spacing:.14em}
+.jstep h3{font-size:19px;margin:8px 0 6px}
+.jstep p{font-size:15px;color:var(--ink-soft)}
+.action{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.action .frame img{width:100%;height:auto;display:block}
+.action figcaption{font-size:14.5px;color:var(--ink-soft);margin-top:10px}
+.illus{font-size:12.5px;color:var(--muted);margin-top:12px}
+.specs{overflow-x:auto;margin-top:34px}
+.specs table{width:100%;min-width:560px;border-collapse:collapse;background:var(--paper-2);border:1px solid var(--line)}
+.specs th,.specs td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;font-size:15px;vertical-align:top}
+.specs thead th{background:#E4F0FA;font-family:'Archivo',sans-serif;font-size:16px}
+.specs tbody th{font-weight:600;color:var(--ink);width:26%}
+.visits{display:inline-flex;align-items:center;gap:9px;margin-top:20px;font-size:14px;color:var(--ink-soft);background:var(--paper-2);border:1px solid var(--line);border-radius:999px;padding:7px 15px}
+.visits[hidden]{display:none}
+.visits .dot{width:8px;height:8px;border-radius:50%;background:#2BB673;box-shadow:0 0 0 4px rgba(43,182,115,.18)}
+@media(max-width:860px){.journey{grid-template-columns:1fr 1fr}.action{grid-template-columns:1fr}}
+@media(max-width:520px){.journey{grid-template-columns:1fr}}
+.mascot{position:fixed;left:0;top:0;z-index:55;pointer-events:none;will-change:transform}
+.mascot .m-body{width:100%;height:100%}
+.mascot svg{width:100%;height:100%;display:block;overflow:visible}
+.mascot .m-body.flip{transform:scaleX(-1)}
+.mascot .m-body.walk:not(.climb) svg{animation:m-bob .9s ease-in-out infinite}
+.mascot .m-leg.l .m-th{transform-origin:39px 72px}.mascot .m-leg.l .m-sh{transform-origin:37px 90px}.mascot .m-leg.l .m-ft{transform-origin:37px 108px}
+.mascot .m-leg.r .m-th{transform-origin:41px 72px}.mascot .m-leg.r .m-sh{transform-origin:43px 90px}.mascot .m-leg.r .m-ft{transform-origin:43px 108px}
+.mascot .m-arm2{transform-origin:40px 46px}.mascot .m-fa{transform-origin:29px 57px}
+.mascot .m-body.walk:not(.climb) .m-th{animation:m-hip .9s linear infinite}
+.mascot .m-body.walk:not(.climb) .m-sh{animation:m-knee .9s linear infinite}
+.mascot .m-body.walk:not(.climb) .m-ft{animation:m-ankle .9s linear infinite}
+.mascot .m-body.walk:not(.climb) .m-leg.r .m-th,.mascot .m-body.walk:not(.climb) .m-leg.r .m-sh,.mascot .m-body.walk:not(.climb) .m-leg.r .m-ft{animation-delay:-.45s}
+.mascot .m-body.walk:not(.climb) .m-arm2{animation:m-swing .9s ease-in-out infinite}
+.mascot .m-body.walk:not(.climb) .m-fa{animation:m-elbow .9s ease-in-out infinite}
+@keyframes m-bob{0%,50%,100%{transform:translateY(0)}25%,75%{transform:translateY(-3px)}}
+@keyframes m-hip{0%{transform:rotate(-24deg)}15%{transform:rotate(-16deg)}50%{transform:rotate(18deg)}62%{transform:rotate(10deg)}85%{transform:rotate(-28deg)}100%{transform:rotate(-24deg)}}
+@keyframes m-knee{0%{transform:rotate(0)}12%{transform:rotate(12deg)}35%{transform:rotate(2deg)}50%{transform:rotate(18deg)}65%{transform:rotate(58deg)}82%{transform:rotate(14deg)}92%,100%{transform:rotate(0)}}
+@keyframes m-ankle{0%{transform:rotate(-14deg)}12%{transform:rotate(0)}40%{transform:rotate(4deg)}55%{transform:rotate(28deg)}70%{transform:rotate(6deg)}90%,100%{transform:rotate(-14deg)}}
+@keyframes m-swing{0%,100%{transform:rotate(-22deg)}50%{transform:rotate(26deg)}}
+@keyframes m-elbow{0%,100%{transform:rotate(14deg)}50%{transform:rotate(-30deg)}}
+.mascot .m-body.wipe .m-arm{animation:m-wipe .28s ease-in-out infinite alternate;transform-origin:40px 46px}
+.mascot .m-close{pointer-events:auto;position:absolute;top:-6px;left:-6px;width:20px;height:20px;border-radius:50%;border:1px solid var(--line-2);background:#fff;color:var(--ink-soft);font-size:13px;line-height:1;cursor:pointer;opacity:.85;padding:0}
+.m-ladder{position:fixed;z-index:54;width:22px;height:0;pointer-events:none;opacity:0;transition:opacity .25s;border-left:3px solid #B0703A;border-right:3px solid #B0703A;background:repeating-linear-gradient(to bottom,transparent 0 9px,#C98A4B 9px 12px)}
+.m-ladder.on{opacity:1}
+.m-clean{box-shadow:inset 0 0 0 999px rgba(124,196,240,.32),0 0 0 3px rgba(30,127,192,.35),0 0 22px rgba(144,196,234,.9)!important;transition:box-shadow .3s;animation:m-press .28s ease-in-out infinite alternate}
+@keyframes m-press{from{transform:translateY(0) scale(1)}to{transform:translateY(2px) scale(.965)}}
+@media (prefers-reduced-motion:reduce){.m-clean{animation:none}}
+.m-spark{position:fixed;z-index:56;color:#7FC3F0;font-size:16px;pointer-events:none;animation:m-spark 1.2s ease-out forwards;opacity:0}
+@keyframes m-wipe{from{transform:rotate(-38deg) translate(-3px,-6px)}to{transform:rotate(26deg) translate(5px,6px)}}
+@keyframes m-spark{0%{opacity:0;transform:scale(.4)}30%{opacity:1}100%{opacity:0;transform:translateY(-18px) scale(1.2)}}
+.mascot .m-carry{display:none;position:absolute;left:-30%;top:46%;width:160%;height:12px;border-top:3px solid #B0703A;border-bottom:3px solid #B0703A;background:repeating-linear-gradient(to right,transparent 0 8px,#C98A4B 8px 11px);transform:rotate(-8deg)}
+.mascot .m-body.carry .m-carry,.mascot .m-body.walk:not(.climb) .m-carry{display:block}
+.mascot .m-body.carry .m-arm,.mascot .m-body.walk:not(.climb) .m-arm{transform:rotate(-12deg);transform-origin:40px 46px}
+.mascot .m-steam{opacity:0}
+.mascot .m-leg,.mascot .m-arm{transition:transform .17s ease-out}
+.mascot .m-body.climb .m-leg{transition:transform .24s linear}
+.mascot .m-body.climb .m-leg.l,.mascot .m-body.climb.rung .m-leg.r{transform:translateY(calc(var(--ru) * var(--dir) * 1px))}
+.mascot .m-body.climb.rung .m-leg.l{transform:none}
+.mascot .m-body.climb .m-arm{transform:rotate(-75deg);transform-origin:40px 46px}
+.mascot .m-body.climb.rung .m-arm{transform:rotate(-45deg)}
+.mascot .m-body.wipe svg{animation:m-wiggle .2s ease-in-out infinite alternate;transform-origin:40px 108px}
+.mascot .m-body.wipe .m-steam{animation:m-steam .9s ease-out infinite}
+@keyframes m-wiggle{from{transform:rotate(-4deg) translateY(0)}to{transform:rotate(4deg) translateY(-3px)}}
+@keyframes m-steam{0%{opacity:0;transform:translateY(4px)}40%{opacity:1}100%{opacity:0;transform:translateY(-8px)}}
+.mascot svg{overflow:visible}
+.mascot .m-side{display:none}
+.mascot .m-body.walk:not(.climb) .m-side{display:inline}
+.mascot .m-body.walk:not(.climb) .m-front{display:none}
+.mascot .m-body.climb .m-shadow,.mascot .m-body.wipe .m-shadow{display:none}
+.mascot .m-body{pointer-events:auto;cursor:grab;touch-action:none;-webkit-user-select:none;user-select:none}
+.mascot .m-body.held{cursor:grabbing}
+.mascot .m-body.held svg{animation:m-dangle .5s ease-in-out infinite alternate;transform-origin:40px 16px}
+.mascot .m-body.held .m-leg.l .m-th{animation:m-kick .25s ease-in-out infinite alternate}
+.mascot .m-body.held .m-leg.r .m-th{animation:m-kick .25s ease-in-out -.12s infinite alternate}
+.mascot .m-body.held .m-arm2{transform:rotate(150deg)}
+.mascot .m-body.held .m-front{display:inline}.mascot .m-body.held .m-side{display:none}
+.mascot .m-body.held .m-steam{animation:m-steam .9s ease-out infinite}
+.mascot .m-body.land svg{animation:m-land .38s ease-out;transform-origin:40px 108px}
+@keyframes m-dangle{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+@keyframes m-kick{from{transform:rotate(-30deg)}to{transform:rotate(28deg)}}
+@keyframes m-land{0%{transform:scale(1.08,.82)}55%{transform:scale(.96,1.06)}100%{transform:none}}
+.mascot .m-belly{transform-origin:41px 74px}
+.mascot .m-body.walk:not(.climb) .m-belly{animation:m-jiggle .45s ease-in-out infinite;will-change:transform}
+.mascot .m-body.wipe .m-belly,.mascot .m-body.held .m-belly{animation:m-jiggle .2s ease-in-out infinite}
+.mascot .m-hat{transform-origin:40px 18px}
+.mascot .m-body.held .m-hat{animation:m-hat .25s ease-in-out infinite alternate}
+@keyframes m-jiggle{0%,100%{transform:none}25%{transform:translateY(1.5px) scale(1.13,.88)}55%{transform:translateY(-2px) scale(.93,1.09)}80%{transform:scale(1.05,.96)}}
+@keyframes m-hat{from{transform:translateY(-1px) rotate(-6deg)}to{transform:translateY(-3px) rotate(6deg)}}
+.mascot .m-oh{display:none}
+.mascot .m-body.held .m-oh{display:inline}.mascot .m-body.held .m-mouth{display:none}
+.mascot .m-body.held svg{animation:m-dangle .35s ease-in-out infinite alternate}
+.mascot .m-body.held .m-leg.l .m-th{animation:m-pedal-hip .42s linear infinite}
+.mascot .m-body.held .m-leg.r .m-th{animation:m-pedal-hip .42s linear -.21s infinite}
+.mascot .m-body.held .m-leg.l .m-sh{animation:m-pedal-knee .42s linear infinite}
+.mascot .m-body.held .m-leg.r .m-sh{animation:m-pedal-knee .42s linear -.21s infinite}
+.mascot .m-body.held .m-ft{animation:m-pedal-ankle .21s ease-in-out infinite alternate}
+.mascot .m-body.held .m-arm2{transform:none;animation:m-flail .3s ease-in-out infinite alternate}
+.mascot .m-body.held .m-fa{animation:m-flail-fa .3s ease-in-out -.15s infinite alternate}
+.mascot .m-body.held .m-arm{transform-origin:40px 46px;animation:m-flail-r .34s ease-in-out infinite alternate}
+@keyframes m-pedal-hip{0%{transform:rotate(-45deg)}25%{transform:rotate(-10deg)}50%{transform:rotate(30deg)}75%{transform:rotate(-5deg)}100%{transform:rotate(-45deg)}}
+@keyframes m-pedal-knee{0%{transform:rotate(10deg)}25%{transform:rotate(70deg)}50%{transform:rotate(20deg)}75%{transform:rotate(0)}100%{transform:rotate(10deg)}}
+@keyframes m-pedal-ankle{from{transform:rotate(-25deg)}to{transform:rotate(25deg)}}
+@keyframes m-flail{from{transform:rotate(60deg)}to{transform:rotate(150deg)}}
+@keyframes m-flail-fa{from{transform:rotate(-40deg)}to{transform:rotate(30deg)}}
+@keyframes m-flail-r{from{transform:rotate(-35deg)}to{transform:rotate(25deg)}}
+.mascot .m-fear{display:none}
+.mascot .m-body.held .m-front{display:none}
+.mascot .m-body.held .m-fear{display:inline;animation:m-tremble .07s linear infinite alternate}
+.mascot .m-body.held .m-belly{animation:m-tremble .07s linear -.035s infinite alternate}
+.mascot .m-body.held .m-sweat path{animation:m-sweat .6s ease-in infinite}
+.mascot .m-body.held .m-sweat path+path{animation-delay:-.3s}
+@keyframes m-tremble{from{transform:translateX(-.8px)}to{transform:translateX(.8px)}}
+@keyframes m-sweat{0%{opacity:0;transform:translateY(-2px)}30%{opacity:1}100%{opacity:0;transform:translateY(9px)}}
+.mascot .m-rag{transform-origin:65px 51px;animation:m-rag 1.1s ease-in-out infinite alternate}
+.mascot .m-body.wipe .m-rag,.mascot .m-body.held .m-rag{animation-duration:.22s}
+@keyframes m-rag{from{transform:skewX(-7deg) rotate(-4deg)}to{transform:skewX(7deg) rotate(5deg)}}
+.mascot .m-snd{pointer-events:auto;position:absolute;top:-6px;left:18px;width:20px;height:20px;border-radius:50%;border:1px solid var(--line-2);background:#fff;color:var(--ink-soft);font-size:12px;line-height:1;cursor:pointer;opacity:.85;padding:0}
+.mascot .m-snd.off{text-decoration:line-through;opacity:.5}
+.mascot .m-lie,.mascot .m-lie .z-sleep{display:none}
+.mascot .m-body.rest svg{overflow:visible}
+.mascot .m-body.rest svg>g>:not(.m-lie){display:none}
+.mascot .m-body.rest .m-lie{display:inline}
+.mascot .m-body.sleep .m-lie .z-relax{display:none}.mascot .m-body.sleep .m-lie .z-sleep{display:inline}
+.mascot .m-lie .m-lsh,.mascot .m-lie .m-lft{transform-origin:75px 85px;animation:m-swing .8s ease-in-out infinite alternate}
+.mascot .m-lie .m-lft{animation-name:m-tap}
+.mascot .m-body.sleep .m-lie .m-lsh,.mascot .m-body.sleep .m-lie .m-lft{animation-duration:2.6s}
+.mascot .m-lie .m-lbelly{animation:m-breathe 2.6s ease-in-out infinite;transform-origin:50px 107px}
+.mascot .m-body.flip .m-lie .zw{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
+.mascot .m-lie text{animation:m-zzz 2.4s ease-out infinite;opacity:0}
+.mascot .m-lie .zw+.zw text{animation-delay:.8s}.mascot .m-lie .zw+.zw+.zw text{animation-delay:1.6s}
+.mascot .m-body.wake:not(.held) svg{animation:m-wake .45s ease-out;transform-origin:40px 108px}
+@keyframes m-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+@keyframes m-zzz{0%{opacity:0;transform:translate(0,4px)}25%{opacity:1}100%{opacity:0;transform:translate(3px,-6px)}}
+@keyframes m-wake{0%{transform:translateY(0) scaleY(.9)}40%{transform:translateY(-16%) scaleY(1.05)}100%{transform:translateY(0)}}
+.mascot .m-name{position:absolute;left:50%;top:-16px;transform:translateX(-50%);background:#fff;border:1px solid var(--line-2);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:800;color:#D62839;white-space:nowrap;opacity:0;transition:opacity .25s;pointer-events:none}
+.mascot:hover .m-name,.mascot.named .m-name{opacity:1}
+.mascot .m-body.flip .m-shirt text{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
+
+@keyframes m-swing{from{transform:rotate(-7deg)}to{transform:rotate(6deg)}}
+@keyframes m-tap{from{transform:rotate(-7deg)}to{transform:rotate(14deg)}}

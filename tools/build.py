@@ -131,16 +131,17 @@ def footer(lang):
 <div><div class="fbrand"><svg aria-hidden="true"><use href="#mark"></use></svg> Chiffons ÉCO — Entretien Laval</div>
 <p class="legal" style="margin-top:14px">{u['foot_tag']}</p>
 <p class="legal" style="margin-top:10px"><a href="mailto:{C.EMAIL}">{C.EMAIL}</a><br><a href="https://www.instagram.com/entretienlaval/" rel="noopener">Instagram @entretienlaval</a></p></div>
-{col(u['products'], (['commander'] if 'commander' in C.PAGES else []) + ['couleur', 'blancs', 'gros', 'livraison', 'apropos'])}
+{col(u['products'], (['commander'] if 'commander' in C.PAGES else []) + ['couleur', 'blancs', 'gros', 'livraison', 'apropos', 'clients'])}
 {col(u['sectors'], [k for k in C.SECTOR_KEYS if k != 'gros'] + ['secteurs'])}
 {col(u['guides'], ['guide-huileux', 'guide-papier', 'guide-ratine', 'guide-ranger', 'glossaire', 'calculateur', 'faq'])}
 </div>
 <div class="ftop"><div class="legal">Entretien Laval · NEQ 2280629637 · TPS 783132566 RT0001 · TVQ 4054025241 TQ0001<br>309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4</div><div class="legal cityline">{u['delivery_to']} {" · ".join(f'<a href="{L(k, lang)}">{C.PAGES[k][lang]["short"]}</a>' for k in C.CITY_KEYS)}</div></div>
-<div class="fbot"><span>© {YEAR} Entretien Laval — Chiffons ÉCO / ECO Rags</span><span>{'Website by' if lang == 'en' else 'Site conçu par'} <a href="https://www.ateliersurmesure.ca">Atelier Sur Mesure</a></span><span><a href="{L('home', 'fr')}" lang="fr-CA">Français</a> · <a href="{L('home', 'en')}" lang="en-CA">English</a></span></div>
+<div class="fbot"><span>© {YEAR} Entretien Laval — Chiffons ÉCO / ECO Rags</span><span><a class="asm-credit" href="https://www.ateliersurmesure.ca" target="_blank" rel="noopener" style="display:inline-block;padding:6px 14px;border:1px solid currentColor;border-radius:999px;font-size:12px;font-weight:600;line-height:1.2;text-decoration:none;color:inherit;white-space:nowrap">{'Website by' if lang == 'en' else 'Site conçu par'} Atelier Sur Mesure</a></span><span><a href="{L('home', 'fr')}" lang="fr-CA">Français</a> · <a href="{L('home', 'en')}" lang="en-CA">English</a></span></div>
 </div>
 </footer>
 <script>document.querySelectorAll('.mnav a').forEach(function(a){{a.addEventListener('click',function(){{a.closest('details').removeAttribute('open')}})}});</script>
 <script async src="https://www.ateliersurmesure.ca/t.js"></script>
+<script defer src="/js/mascot.js"></script>
 </body>
 </html>
 """
@@ -213,20 +214,25 @@ def ctaband(lang):
     u = C.UI[lang]
     return f'<section class="ctaband"><div class="wrap"><div><h2>{u["cta_h"]}</h2><p>{u["cta_p"]}</p></div><div class="cta-row" style="margin-top:0"><a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div></div></section>'
 
+def product_id(p, lang):
+    return C.SITE + L(p["page"], lang) + "#product-" + p["id"]
+
 def product_ld(pid, lang):
     p = PROD[pid]; name, _, d = p[lang]
-    return {"@type": "Product", "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
+    return {"@type": "Product", "@id": product_id(p, lang), "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
             "image": C.SITE + "/img/" + C.IMG_BAG, "material": "coton recyclé" if lang == "fr" else "recycled cotton",
             "offers": {"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "availability": "https://schema.org/InStock", "priceValidUntil": "2026-12-31",
-                       "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID}}}
+                       "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID},
+                       "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "CA", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}
 
 def business(lang):
     b = json.load(open(os.path.join(SRC, f"ld-{lang}.json"), encoding="utf-8"))["@graph"][0]
     b["image"] = [C.SITE + "/img/og-chiffons-eco.jpg", C.SITE + "/img/" + C.IMG_BAG]
     b["logo"] = C.SITE + "/img/logo-chiffons-eco-512.png"
     b["priceRange"] = "32 $ – 42 $" if lang == "fr" else "$32 – $42"
-    b["areaServed"] = [{"@type": "City", "name": c} for c in ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbriand", "Saint-Eustache", "Mirabel", "Saint-Jérôme", "Repentigny", "Brossard", "Boucherville", "Québec", "Lévis", "Sherbrooke", "Trois-Rivières", "Gatineau"]] + [{"@type": "AdministrativeArea", "name": "Québec"}]
-    b["makesOffer"] = [{"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@type": "Product", "name": f"{p[lang][0]} – {C.PACK[lang][0]}"}} for p in C.PRODUCTS]
+    b["areaServed"] = [{"@type": "City", "name": c} for c in ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbriand", "Saint-Eustache", "Mirabel", "Saint-Jérôme", "Repentigny", "Brossard", "Boucherville", "Québec", "Lévis", "Sherbrooke", "Trois-Rivières", "Gatineau"]] + [{"@type": "AdministrativeArea", "name": "Québec"}, {"@type": "Country", "name": "Canada"}]
+    b["makesOffer"] = [{"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@id": product_id(p, lang)}} for p in C.PRODUCTS]
+    b["parentOrganization"] = {'@type': 'Organization', '@id': 'https://entretienlaval.ca/#organization', 'name': 'Entretien Laval', 'url': 'https://entretienlaval.ca/', 'email': 'info@entretienlaval.ca', 'identifier': {'@type': 'PropertyValue', 'propertyID': 'NEQ', 'value': '2280629637'}, 'address': {'@type': 'PostalAddress', 'addressLocality': 'Laval', 'addressRegion': 'QC', 'addressCountry': 'CA'}, 'brand': [{'@type': 'Brand', 'name': 'Chiffons ÉCO', 'url': 'https://entretienlaval.ca/'}, {'@type': 'Brand', 'name': 'Bouclier Radon', 'url': 'https://bouclier-radon.com/'}, {'@type': 'Brand', 'name': 'TrouvePro', 'url': 'https://www.mytrouvepro.net/'}, {'@type': 'Brand', 'name': 'Yalla Nsafer', 'url': 'https://www.yallansafir.com/'}, {'@type': 'Brand', 'name': 'Atelier Sur Mesure', 'url': 'https://www.ateliersurmesure.ca/'}, {'@type': 'Brand', 'name': 'VisionCore AI', 'url': 'https://www.vision-core.ca/'}, {'@type': 'Brand', 'name': 'Agrivision', 'url': 'https://theagrivision.com/'}]}
     return b
 
 def crumbs(lang, items):
@@ -291,7 +297,7 @@ def subpage(key, lang):
         cname = pg["city"] if lang == "fr" else pg["city_en"]
         graph.append({"@type": "Service", "name": t["h1"], "serviceType": "Livraison de chiffons d'essuyage recyclés" if lang == "fr" else "Recycled wiping rag delivery",
                       "provider": {"@id": BIZ_ID}, "areaServed": {"@type": "Place", "name": cname.replace("la ", "").replace("the ", "")},
-                      "offers": [{"@type": "Offer", "price": f"{q['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@type": "Product", "name": f"{q[lang][0]} – {C.PACK[lang][0]}"}} for q in C.PRODUCTS]})
+                      "offers": [{"@type": "Offer", "price": f"{q['price']}.00", "priceCurrency": "CAD", "itemOffered": {"@id": product_id(q, lang)}} for q in C.PRODUCTS]})
     if t.get("terms"):
         graph.append({"@type": "DefinedTermSet", "name": t["h1"], "inLanguage": f"{lang}-CA", "hasDefinedTerm": [{"@type": "DefinedTerm", "name": a, "description": b} for a, b in t["terms"]]})
     lst = {"guides": C.GUIDE_KEYS, "hub": [k for k in C.SECTOR_KEYS if k != "gros"]}.get(kind) or (C.CITY_KEYS if key == "livraison" else None)
@@ -418,8 +424,8 @@ def sitemap():
 
 def llms():
     lines = ["# Chiffons ÉCO — Entretien Laval", "",
-             "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec.", "",
-             "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Delivery fee depends on location. Orders confirmed and paid one week before delivery.", "",
+             "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.", "",
+             "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.", "",
              f"Contact: {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", "", "## Français"]
     lines += [f"- [{C.PAGES[k]['fr']['short'] if k != 'home' else 'Accueil'}]({C.SITE}{L(k, 'fr')})" for k in indexable()]
     lines += ["", "## English"] + [f"- [{C.PAGES[k]['en']['short'] if k != 'home' else 'Home'}]({C.SITE}{L(k, 'en')})" for k in indexable()]
@@ -445,7 +451,17 @@ def icons():
     logo.resize((48, 48), Image.LANCZOS).save(os.path.join(ROOT, "favicon-48.png"))
 
 # Only products with a REAL photo of that product go in the feed (Google rejects mismatched images).
-FEED_IMG = {"tshirt-couleur": C.IMG_BAG, "ratine-couleur": C.IMG_BAG}  # add the white rags once a white-bag photo exists
+FEED_IMG = {"tshirt-couleur": C.IMG_BAG, "ratine-couleur": C.IMG_BAG, "tshirt-blanc": C.IMG_WHITE, "ratine-blanc": C.IMG_WHITE}
+
+def feed_shipping():
+    """One <g:shipping> per delivery zone, by postal-code prefix (FSAs H0-H9), first matching zone wins like the checkout."""
+    groups = {}
+    for d in "0123456789":
+        z = next((z for z in O.CHECKOUT["zones"] if ("H" + d).startswith(z["prefix"])), None)
+        if z:
+            groups.setdefault(z["fee"], []).append("H" + d + "*")
+    return "".join(f"<g:shipping><g:country>CA</g:country><g:postal_code>{pc}</g:postal_code><g:price>{fee}.00 CAD</g:price></g:shipping>"
+                   for fee, pcs in groups.items() for pc in pcs)
 
 def merchant_feed(lang):
     ptype = "Chiffons d'essuyage recyclés" if lang == "fr" else "Recycled wiping rags"
@@ -463,7 +479,7 @@ def merchant_feed(lang):
             f"<description>{esc(d)}</description><link>{C.SITE}{L(p['page'], lang)}</link>"
             f"<g:image_link>{C.SITE}/img/{jpg}</g:image_link><g:price>{p['price']}.00 CAD</g:price>"
             f"<g:availability>in_stock</g:availability><g:condition>new</g:condition><g:brand>Chiffons ÉCO</g:brand>"
-            f"<g:identifier_exists>no</g:identifier_exists><g:shipping_weight>25 lb</g:shipping_weight>"
+            f"<g:identifier_exists>no</g:identifier_exists><g:shipping_weight>25 lb</g:shipping_weight>{feed_shipping()}"
             f"<g:product_type>{esc(ptype)}</g:product_type></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0"><channel>'
            f"<title>Chiffons ÉCO ({lang})</title><link>{C.SITE}{L('home', lang)}</link><description>Chiffons ÉCO</description>"

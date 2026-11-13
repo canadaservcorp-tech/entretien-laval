@@ -1,8 +1,8 @@
 # Chiffons ÉCO — Entretien Laval
 
-> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec.
+> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.
 
-Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Delivery fee depends on location. Orders confirmed and paid one week before delivery.
+Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.
 
 Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637
 
@@ -22,6 +22,10 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Guides](https://entretienlaval.ca/guides/)
 - [Chiffons huileux et risque d'incendie](https://entretienlaval.ca/guides/chiffons-huileux-risque-incendie/)
 - [Chiffons recyclés ou essuie-tout](https://entretienlaval.ca/guides/chiffons-recycles-ou-papier/)
+- [T-shirt couleur](https://entretienlaval.ca/chiffons-t-shirt-couleur/)
+- [Ratine couleur](https://entretienlaval.ca/chiffons-ratine-couleur/)
+- [T-shirt blanc](https://entretienlaval.ca/chiffons-t-shirt-blanc/)
+- [Ratine blanche](https://entretienlaval.ca/chiffons-ratine-blanc/)
 - [Carrosserie](https://entretienlaval.ca/chiffons-carrosserie-debosselage/)
 - [Esthétique auto et lave-auto](https://entretienlaval.ca/chiffons-esthetique-automobile-lave-auto/)
 - [Ébénisterie et menuiserie](https://entretienlaval.ca/chiffons-ebenisterie-menuiserie/)
@@ -29,6 +33,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Marinas et bateaux](https://entretienlaval.ca/chiffons-marinas-bateaux/)
 - [Fermes et machinerie agricole](https://entretienlaval.ca/chiffons-fermes-machinerie-agricole/)
 - [Usinage et ateliers](https://entretienlaval.ca/chiffons-usinage-atelier-machinerie/)
+- [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
 - [Municipalités et écoles](https://entretienlaval.ca/chiffons-municipalites-ecoles/)
 - [Camions lourds et transport](https://entretienlaval.ca/chiffons-camions-lourds-transport/)
 - [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
@@ -38,6 +43,13 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Ranger, laver et jeter ses chiffons](https://entretienlaval.ca/guides/ranger-laver-reutiliser-chiffons/)
 - [Guenille, chiffon, linge : le lexique](https://entretienlaval.ca/guides/guenille-chiffon-torchon-lexique/)
 - [Calculateur de budget](https://entretienlaval.ca/calculateur-chiffons/)
+- [Prix des guenilles à Laval et Montréal](https://entretienlaval.ca/guides/prix-guenilles-laval-montreal/)
+- [Quel chiffon pour teindre le bois](https://entretienlaval.ca/guides/meilleur-chiffon-teinture-bois/)
+- [Chiffons industriels : guide d'achat](https://entretienlaval.ca/guides/chiffons-industriels-guide-achat/)
+- [Chiffons pour ateliers de métal à Laval et Montréal](https://entretienlaval.ca/guides/chiffons-atelier-metal-laval-montreal/)
+- [Démarrer une entreprise de revente de chiffons](https://entretienlaval.ca/guides/demarrer-entreprise-revente-chiffons/)
+- [Où acheter des guenilles](https://entretienlaval.ca/guides/ou-acheter-des-guenilles/)
+- [Chiffon non pelucheux](https://entretienlaval.ca/guides/chiffon-non-pelucheux/)
 - [Laval](https://entretienlaval.ca/chiffons-guenilles-laval/)
 - [Montréal](https://entretienlaval.ca/chiffons-guenilles-montreal/)
 - [Longueuil](https://entretienlaval.ca/chiffons-guenilles-longueuil/)
@@ -49,13 +61,28 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Sherbrooke](https://entretienlaval.ca/chiffons-guenilles-sherbrooke/)
 - [Trois-Rivières](https://entretienlaval.ca/chiffons-guenilles-trois-rivieres/)
 - [Gatineau](https://entretienlaval.ca/chiffons-guenilles-gatineau/)
+<<<<<<< HEAD
 - [Sorel-Tracy](https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/)
 - [Saint-Jérôme et Mirabel](https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/)
 - [Repentigny et Joliette](https://entretienlaval.ca/chiffons-guenilles-repentigny-joliette/)
 - [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/)
 - [Saint-Hyacinthe et Drummondville](https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe-drummondville/)
 - [Beloeil et Chambly](https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/)
+||||||| 5f782e5
+=======
+- [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/)
+- [Saint-Hyacinthe](https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe/)
+- [Vaudreuil-Dorion](https://entretienlaval.ca/chiffons-guenilles-vaudreuil-dorion/)
+- [Joliette](https://entretienlaval.ca/chiffons-guenilles-joliette/)
+- [Granby](https://entretienlaval.ca/chiffons-guenilles-granby/)
+- [Drummondville](https://entretienlaval.ca/chiffons-guenilles-drummondville/)
+- [Victoriaville](https://entretienlaval.ca/chiffons-guenilles-victoriaville/)
+- [Saguenay](https://entretienlaval.ca/chiffons-guenilles-saguenay/)
+- [Fournisseur de chiffons au Canada](https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/)
+- [Chiffons réutilisables ou lingettes jetables](https://entretienlaval.ca/guides/chiffons-reutilisables-ou-lingettes-jetables/)
+>>>>>>> origin/main
 - [À propos](https://entretienlaval.ca/a-propos/)
+- [Nos clients](https://entretienlaval.ca/nos-clients/)
 - [Tous les secteurs](https://entretienlaval.ca/secteurs/)
 - [Commander en ligne](https://entretienlaval.ca/commander/)
 
@@ -75,6 +102,10 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Guides](https://entretienlaval.ca/en/guides/)
 - [Oily rags and fire risk](https://entretienlaval.ca/en/guides/oily-rags-fire-risk/)
 - [Recycled rags vs paper towels](https://entretienlaval.ca/en/guides/recycled-rags-vs-paper-towels/)
+- [Colored T-shirt](https://entretienlaval.ca/en/colored-t-shirt-rags/)
+- [Colored terry](https://entretienlaval.ca/en/colored-terry-rags/)
+- [White T-shirt](https://entretienlaval.ca/en/white-t-shirt-rags/)
+- [White terry](https://entretienlaval.ca/en/white-terry-rags/)
 - [Auto body](https://entretienlaval.ca/en/auto-body-shop-rags/)
 - [Car detailing and car wash](https://entretienlaval.ca/en/car-detailing-car-wash-rags/)
 - [Woodworking and cabinetmaking](https://entretienlaval.ca/en/woodworking-cabinetmaking-rags/)
@@ -82,6 +113,7 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Marinas and boats](https://entretienlaval.ca/en/marina-boat-rags/)
 - [Farms and farm machinery](https://entretienlaval.ca/en/farm-machinery-rags/)
 - [Machine shops and fabrication](https://entretienlaval.ca/en/machine-shop-rags/)
+- [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
 - [Municipalities and schools](https://entretienlaval.ca/en/municipal-school-maintenance-rags/)
 - [Heavy trucks and fleets](https://entretienlaval.ca/en/truck-fleet-rags/)
 - [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
@@ -91,6 +123,13 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Storing, washing and disposing of rags](https://entretienlaval.ca/en/guides/store-wash-reuse-rags/)
 - [Rag glossary: guenille, chiffon, terry](https://entretienlaval.ca/en/guides/rag-glossary-quebec/)
 - [Budget calculator](https://entretienlaval.ca/en/rag-calculator/)
+- [Rag prices in Laval and Montréal](https://entretienlaval.ca/en/guides/rag-prices-laval-montreal/)
+- [Best rag for staining wood](https://entretienlaval.ca/en/guides/best-rag-for-staining-wood/)
+- [Industrial shop rags: buying guide](https://entretienlaval.ca/en/guides/industrial-shop-rags-buying-guide/)
+- [Rags for metal shops in Laval and Montréal](https://entretienlaval.ca/en/guides/metal-shop-rags-laval-montreal/)
+- [Start a rag resale business](https://entretienlaval.ca/en/guides/start-rag-resale-business/)
+- [Where to buy rags](https://entretienlaval.ca/en/guides/where-to-buy-rags/)
+- [Lint-free rags](https://entretienlaval.ca/en/guides/lint-free-rags/)
 - [Laval](https://entretienlaval.ca/en/rags-laval/)
 - [Montréal](https://entretienlaval.ca/en/rags-montreal/)
 - [Longueuil](https://entretienlaval.ca/en/rags-longueuil/)
@@ -102,12 +141,27 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Sherbrooke](https://entretienlaval.ca/en/rags-sherbrooke/)
 - [Trois-Rivières](https://entretienlaval.ca/en/rags-trois-rivieres/)
 - [Gatineau](https://entretienlaval.ca/en/rags-gatineau/)
+<<<<<<< HEAD
 - [Sorel-Tracy](https://entretienlaval.ca/en/rags-sorel-tracy/)
 - [Saint-Jérôme et Mirabel](https://entretienlaval.ca/en/rags-saint-jerome-mirabel/)
 - [Repentigny et Joliette](https://entretienlaval.ca/en/rags-repentigny-joliette/)
 - [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/)
 - [Saint-Hyacinthe et Drummondville](https://entretienlaval.ca/en/rags-saint-hyacinthe-drummondville/)
 - [Beloeil et Chambly](https://entretienlaval.ca/en/rags-beloeil-chambly/)
+||||||| 5f782e5
+=======
+- [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/)
+- [Saint-Hyacinthe](https://entretienlaval.ca/en/rags-saint-hyacinthe/)
+- [Vaudreuil-Dorion](https://entretienlaval.ca/en/rags-vaudreuil-dorion/)
+- [Joliette](https://entretienlaval.ca/en/rags-joliette/)
+- [Granby](https://entretienlaval.ca/en/rags-granby/)
+- [Drummondville](https://entretienlaval.ca/en/rags-drummondville/)
+- [Victoriaville](https://entretienlaval.ca/en/rags-victoriaville/)
+- [Saguenay](https://entretienlaval.ca/en/rags-saguenay/)
+- [Rag supplier in Canada](https://entretienlaval.ca/en/recycled-rag-supplier-canada/)
+- [Reusable rags vs cleaning wipes](https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/)
+>>>>>>> origin/main
 - [About](https://entretienlaval.ca/en/about/)
+- [Our customers](https://entretienlaval.ca/en/our-customers/)
 - [All industries](https://entretienlaval.ca/en/industries/)
 - [Order online](https://entretienlaval.ca/en/order/)

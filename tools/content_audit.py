@@ -1,12 +1,12 @@
 """Audit follow-ups: sectors hub, longer EN sector pages, wholesale/calculator/guides text, city local details."""
 HUB = {"kind": "hub", "img": None, "rel": [],
  "fr": {"path": "/secteurs/", "short": "Tous les secteurs", "title": "Chiffons d'essuyage par secteur : garages, ateliers, ménage",
-  "desc": "Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.",
+  "desc": "Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.",
   "eyebrow": "Secteurs", "h1": "Chiffons d'essuyage pour chaque secteur", "lede": "Le même chiffon ne sert pas partout. Trouvez les conseils et le produit adaptés à votre métier.",
   "card": "Les 18 secteurs que nous servons, avec le bon chiffon pour chacun.",
   "body": """<p>Nos quatre produits (t-shirt ou ratine, couleur ou blanc) couvrent la plupart des besoins d'essuyage. La couleur à 32 $ le [pack] convient à l'huile, à la graisse et au nettoyage courant. Le blanc à 42 $ évite le transfert de couleur pour la peinture, la teinture et la finition. Chaque page ci-dessous explique les usages et le produit conseillé pour un secteur.</p>"""},
  "en": {"path": "/en/industries/", "short": "All industries", "title": "Wiping rags by industry: garages, shops, cleaning",
-  "desc": "Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.",
+  "desc": "Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.",
   "eyebrow": "Industries", "h1": "Wiping rags for every industry", "lede": "The same rag doesn't fit every job. Find the advice and product for your trade.",
   "card": "The 18 industries we serve, with the right rag for each.",
   "body": """<p>Our four products (T-shirt or terry, colored or white) cover most wiping needs. Colored at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids color transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
@@ -21,13 +21,13 @@ GUIDES_BODY = {
 
 GROS_EXTRA = {
  "fr": """<h2>Commandes en volume</h2>
-<p>La quantité est illimitée. Une livraison hors Laval et Montréal commence à 1 000 lb, soit 40 [packs], et vous pouvez mélanger les quatre produits dans une même commande. Pour des commandes régulières ou de grands volumes, demandez une soumission : nous calculons le prix et la livraison selon votre adresse et votre fréquence.</p>
+<p>Il n'y a pas de quantité maximale. Une livraison hors Laval et Montréal commence à 1 000 lb, soit 40 [packs], et vous pouvez mélanger les quatre produits dans une même commande. Pour des commandes régulières ou de grands volumes, demandez une soumission : nous calculons le prix et la livraison selon votre adresse et votre fréquence.</p>
 <h2>Pour distributeurs et revendeurs</h2>
 <p>Distributeurs de produits sanitaires, quincailleries, fournisseurs de garages et d'ateliers : nos chiffons sont emballés en [packs] scellés, faciles à entreposer et à revendre. Indiquez dans votre demande les volumes prévus et les adresses de livraison.</p>
 <h2>Comment se passe une commande</h2>
 <ol><li>Vous demandez une soumission avec la quantité et l'adresse.</li><li>Nous confirmons le prix, les frais de livraison et la date.</li><li>La commande est confirmée et payée une semaine avant la livraison.</li><li>Nous livrons à votre adresse, avec une facture incluant TPS et TVQ.</li></ol>""",
  "en": """<h2>Volume orders</h2>
-<p>Quantity is unlimited. A delivery outside Laval and Montréal starts at 1,000 lb, or 40 [packs], and you can mix all four products in one order. For recurring or large-volume orders, request a quote: we price the order and delivery based on your address and frequency.</p>
+<p>There is no maximum quantity. A delivery outside Laval and Montréal starts at 1,000 lb, or 40 [packs], and you can mix all four products in one order. For recurring or large-volume orders, request a quote: we price the order and delivery based on your address and frequency.</p>
 <h2>For distributors and resellers</h2>
 <p>Janitorial distributors, hardware stores, garage and shop suppliers: our rags come in sealed [packs], easy to store and resell. Include your expected volumes and delivery addresses in your request.</p>
 <h2>How an order works</h2>
@@ -72,12 +72,17 @@ CITY_LOCAL = {
  "ville-sherbrooke": ("A-10, A-55 et A-410", "A-10, A-55 and A-410", "la Ville de Sherbrooke"),
  "ville-trois-rivieres": ("A-40 et A-55", "A-40 and A-55", "la Ville de Trois-Rivières"),
  "ville-gatineau": ("A-50 et A-5", "A-50 and A-5", "la Ville de Gatineau"),
+ "ville-saint-jean": ("A-35 et route 104", "A-35 and Route 104", "la Ville de Saint-Jean-sur-Richelieu"),
+ "ville-saint-hyacinthe": ("A-20 et route 137", "A-20 and Route 137", "la Ville de Saint-Hyacinthe"),
+ "ville-vaudreuil": ("A-20, A-30 et A-40", "A-20, A-30 and A-40", "votre municipalité ou votre MRC"),
+ "ville-joliette": ("A-31 et route 158", "A-31 and Route 158", "votre municipalité ou votre MRC"),
+ "ville-granby": ("A-10 et route 139", "A-10 and Route 139", "la Ville de Granby ou de Bromont"),
+ "ville-drummondville": ("A-20 et A-55", "A-20 and A-55", "la Ville de Drummondville"),
+ "ville-victoriaville": ("route 116 et route 122", "Route 116 and Route 122", "la Ville de Victoriaville"),
+ "ville-saguenay": ("route 175 et route 170", "Route 175 and Route 170", "la Ville de Saguenay"),
  "ville-sorel-tracy": ("A-30 et route 132", "A-30 and Route 132", "la Ville de Sorel-Tracy ou de votre municipalité"),
  "ville-saint-jerome": ("A-15 et route 117", "A-15 and Route 117", "la Ville de Saint-Jérôme ou de Mirabel"),
- "ville-lanaudiere": ("A-40, A-31 et route 138", "A-40, A-31 and Route 138", "votre municipalité ou votre MRC"),
- "ville-saint-jean": ("A-35, A-10 et route 104", "A-35, A-10 and Route 104", "la Ville de Saint-Jean-sur-Richelieu"),
- "ville-saint-hyacinthe": ("A-20 et A-55", "A-20 and A-55", "la Ville de Saint-Hyacinthe ou de Drummondville"),
- "ville-beloeil": ("A-20, route 112 et route 116", "A-20, Route 112 and Route 116", "votre municipalité ou votre MRC")}
+ "ville-beloeil": ("A-20, route 112 et route 116", "A-20, Route 112 and Route 116", "votre municipalité ou votre MRC")}}
 
 def city_extra(key, page):
     fr_r, en_r, muni = CITY_LOCAL[key]

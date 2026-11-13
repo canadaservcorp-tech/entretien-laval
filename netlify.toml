@@ -18,6 +18,9 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy = "frame-ancestors 'self'; base-uri 'self'; object-src 'none'"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(self \"https://www.paypal.com\")"
 
 # www -> apex (Netlify's primary-domain setting already does this; kept explicit)
 [[redirects]]

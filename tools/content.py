@@ -27,13 +27,13 @@ CITIES = ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbr
 
 TERMS = {
  "fr": [("Prix avant taxes", "TPS et TVQ en sus, facture d'entreprise enregistrée."),
-        ("Livraison à votre adresse", "Frais selon votre emplacement, indiqués dans la soumission."),
+        ("Livraison à votre adresse", "Laval : 15 $, dès 1 sac. Montréal : 25 $, dès 2 sacs. Ailleurs : frais selon votre emplacement."),
         ("Hors Laval et Montréal", "Minimum de 1 000 lb (40 sacs) par livraison."),
-        ("Quantité illimitée", "Commande confirmée et payée une semaine avant la livraison.")],
+        ("Aucune quantité maximale", "Commande confirmée et payée une semaine avant la livraison.")],
  "en": [("Prices before tax", "GST and QST extra, invoiced by a registered business."),
-        ("Delivered to your address", "Fee depends on your location and is stated in the quote."),
+        ("Delivered to your address", "Laval: $15, from 1 bag. Montréal: $25, from 2 bags. Elsewhere: fee based on your location."),
         ("Outside Laval and Montréal", "1,000 lb minimum (40 bags) per delivery."),
-        ("Unlimited quantity", "Order confirmed and paid one week before delivery.")],
+        ("No maximum quantity", "Order confirmed and paid one week before delivery.")],
 }
 
 UI = {
@@ -67,42 +67,52 @@ SECTOR_KEYS = ["garage", "peinture", "entretien", "construction", "restauration"
 # ---------------- FAQ (shared: /faq/ page, first 6 on homepage) ----------------
 FAQ = {
  "fr": [
-  ("Combien coûtent vos chiffons?", "32 $ le [pack] pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir <a href=\"{{home#produits}}\">les produits</a>."),
+  ("Où acheter des guenilles en gros à Laval?", "Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en [packs]. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
+  ("Combien coûte une boîte de chiffons de 25 lb?", "32 $ le [pack] pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir <a href=\"{{home#produits}}\">les produits</a>."),
   ("Qu'y a-t-il dans un [pack]?", "25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités contre les punaises de lit."),
-  ("Quelle différence entre t-shirt et ratine?", "Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts."),
+  ("Quelle est la différence entre ratine et t-shirt?", "Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts."),
   ("Blanc ou couleur?", "Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers."),
   ("Livrez-vous? Où?", "Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir <a href=\"{{livraison}}\">la livraison</a>."),
+  ("Livrez-vous ailleurs au Canada?", "Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir <a href=\"{{canada}}\">fournisseur de chiffons au Canada</a>."),
   ("Comment commander?", "Remplissez le <a href=\"{{home#devis}}\">formulaire de soumission</a> ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison."),
-  ("Y a-t-il un minimum de commande?", "Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Pour le Grand Montréal, demandez-nous les conditions selon votre secteur."),
-  ("Les chiffons sont-ils propres?", "Oui. Chaque lot est lavé et traité contre les punaises de lit avant d'être trié et emballé à Laval."),
+  ("Y a-t-il un minimum de commande?", "Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $). Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum."),
+  ("Les chiffons sont-ils propres?", "Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon."),
   ("Offrez-vous des échantillons?", "Oui, sur demande, pour vérifier la qualité et le format avant une première commande."),
-  ("Pouvez-vous fournir de grandes quantités?", "Oui, la quantité est illimitée. Nous approvisionnons aussi les distributeurs sanitaires et les fournisseurs industriels. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
+  ("Pouvez-vous livrer automatiquement chaque mois?", "Oui. Choisissez la quantité et le rythme (toutes les 2 semaines ou chaque mois) et nous livrons sans que vous ayez à appeler, au même prix, payé à la livraison avec facture. Vous changez ou arrêtez quand vous voulez, par courriel."),
+  ("Avez-vous un programme de parrainage?", "Oui. Quand une entreprise que vous nous recommandez paie sa première commande, vous recevez 1 sac de 25 lb couleur gratuit à votre prochaine livraison."),
+  ("Pouvez-vous fournir de grandes quantités?", "Oui, il n'y a pas de quantité maximale. Nous approvisionnons aussi les distributeurs sanitaires et les fournisseurs industriels. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
   ("Recevrai-je une facture avec taxes?", "Oui. Entretien Laval est une entreprise enregistrée au Québec (NEQ 2280629637, TPS et TVQ). Les prix affichés sont avant taxes."),
   ("Peut-on utiliser les chiffons avec de l'huile ou des solvants?", "Oui, le coton absorbe l'huile, la graisse et les solvants. Après usage, rangez les chiffons imbibés dans un contenant métallique fermé : voir notre guide <a href=\"{{guide-huileux}}\">chiffons huileux et risque d'incendie</a>."),
   ("D'où viennent les textiles?", "De vêtements et textiles de coton récupérés qui seraient autrement envoyés à l'enfouissement. Ils sont triés par type et par couleur, coupés et emballés à Laval."),
+  ("Acceptez-vous les retours?", "Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un [pack] endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons."),
  ],
  "en": [
-  ("How much do your rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
+  ("Where can I buy rags in bulk in Laval?", "From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and bedbug-treated, in [packs]. $32 colored, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See <a href=\"{{gros}}\">wholesale rags</a>."),
+  ("How much does a 25 lb box of rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
   ("What's in a [pack]?", "25 lb of recycled cotton rags of a single type: T-shirt or terry, white or colored. The rags are washed, sorted and treated against bedbugs."),
-  ("What's the difference between T-shirt and terry?", "T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills."),
+  ("What's the difference between terry and T-shirt rags?", "T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills."),
   ("White or colored?", "White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites."),
   ("Do you deliver? Where?", "Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See <a href=\"{{livraison}}\">delivery</a>."),
+  ("Do you ship elsewhere in Canada?", "Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See <a href=\"{{canada}}\">rag supplier in Canada</a>."),
   ("How do I order?", "Fill in the <a href=\"{{home#devis}}\">quote form</a> or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery."),
-  ("Is there a minimum order?", "Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. For Greater Montreal, ask us about the terms for your area."),
-  ("Are the rags clean?", "Yes. Every lot is washed and treated against bedbugs before being sorted and packed in Laval."),
+  ("Is there a minimum order?", "Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25). Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum."),
+  ("Are the rags clean?", "Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh."),
   ("Do you offer samples?", "Yes, on request, so you can check quality and size before a first order."),
-  ("Can you supply large volumes?", "Yes, quantity is unlimited. We also supply janitorial distributors and industrial suppliers. See <a href=\"{{gros}}\">wholesale rags</a>."),
+  ("Can you deliver automatically every month?", "Yes. Choose the quantity and the schedule (every 2 weeks or every month) and we deliver without you having to call, at the same price, paid on delivery with an invoice. Change or stop anytime by email."),
+  ("Do you have a referral program?", "Yes. When a business you refer pays its first order, you get 1 free 25 lb bag of colored rags with your next delivery."),
+  ("Can you supply large volumes?", "Yes, there is no maximum quantity. We also supply janitorial distributors and industrial suppliers. See <a href=\"{{gros}}\">wholesale rags</a>."),
   ("Will I get an invoice with taxes?", "Yes. Entretien Laval is a registered Québec business (NEQ 2280629637, GST and QST). Listed prices are before tax."),
   ("Can the rags be used with oil or solvents?", "Yes, cotton absorbs oil, grease and solvents. After use, store soaked rags in a closed metal container: see our guide <a href=\"{{guide-huileux}}\">oily rags and fire risk</a>."),
   ("Where do the textiles come from?", "From recovered cotton clothing and textiles that would otherwise go to landfill. They are sorted by type and color, cut and packed in Laval."),
+  ("Do you accept returns?", "No, all sales are final. If you receive the wrong product or a damaged [pack], email info@entretienlaval.ca and we will replace it."),
  ],
 }
 
 HOME = {
  "fr": {"path": "/", "title": "Guenilles et chiffons d'essuyage recyclés à Laval | Chiffons ÉCO",
-        "desc": "Guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, dès 32 $ le sac de 25 lb. Triés à Laval, livrés partout au Québec.",
+        "desc": "Guenilles et chiffons recyclés, lavés et traités anti-punaises, dès 32 $ le sac de 25 lb. Livrés à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
         "prod_eyebrow": "Nos chiffons · 4 produits", "prod_h2": "T-shirt ou ratine, blanc ou couleur.",
-        "prod_p": "Tous lavés, triés et traités contre les punaises de lit, en [packs]. Échantillons sur demande.",
+        "prod_p": "Sans métal ni boutons, lavés à l'eau chaude, traités contre les punaises de lit et coupés prêts à utiliser, en [packs]. Échantillons sur demande.",
         "photo_alt": ["Sacs de 25 lb de chiffons recyclés couleur, scellés", "Sac de chiffons t-shirt couleur de 25 lb"],
         "sec_eyebrow": "Secteurs", "sec_h2": "Fait pour ceux qui salissent leurs mains.",
         "sec_p": "Choisissez votre secteur : quel chiffon prendre, comment l'utiliser et quoi faire après.",
@@ -115,14 +125,14 @@ HOME = {
         "f_name": "Nom", "f_company": "Entreprise", "f_email": "Courriel", "f_phone": "Téléphone", "f_city": "Ville de livraison",
         "f_product": "Produit", "f_any": "Je ne sais pas encore", "f_qty": "Quantité (nombre de sacs)", "f_msg": "Message",
         "f_send": "Envoyer la demande", "f_fine": "Vos coordonnées servent uniquement à répondre à votre demande.",
-        "ready_h": "Vous préférez parler à quelqu'un?", "ready_p": "Appelez-nous ou écrivez-nous. Livraison dans le Grand Montréal et au Québec.",
+        "ready_h": "Vous préférez parler à quelqu'un?", "ready_p": "Écrivez-nous. Livraison à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
         "c_email_btn": "Écrire un courriel", "c_wa_btn": "Écrire sur WhatsApp", "c_call_btn": "Nous écrire",
         "lbl": {"phone": "Téléphone", "mail": "Courriel", "wa": "WhatsApp", "ig": "Instagram", "pin": "Adresse", "biz": "Entreprise"},
         "hero_cta1": "Demander une soumission", "hero_cta2": "Voir les prix"},
  "en": {"path": "/en/", "title": "Recycled wiping rags in Laval – 25 lb bags | ECO Rags",
         "desc": "Recycled cotton wiping rags and shop rags, washed and bedbug-treated, from $32 per 25 lb bag. Sorted in Laval, delivered across Greater Montreal and Québec.",
         "prod_eyebrow": "Our rags · 4 products", "prod_h2": "T-shirt or terry, white or colored.",
-        "prod_p": "All washed, sorted and treated against bedbugs, in [packs]. Samples on request.",
+        "prod_p": "No metal or buttons, washed in hot water, bedbug-treated and cut ready to use, in [packs]. Samples on request.",
         "photo_alt": ["Sealed 25 lb bags of colored recycled rags", "25 lb bag of colored T-shirt rags"],
         "sec_eyebrow": "Industries", "sec_h2": "Made for people who get their hands dirty.",
         "sec_p": "Pick your industry: which rag to use, how to use it and what to do after.",
@@ -135,7 +145,7 @@ HOME = {
         "f_name": "Name", "f_company": "Company", "f_email": "Email", "f_phone": "Phone", "f_city": "Delivery city",
         "f_product": "Product", "f_any": "Not sure yet", "f_qty": "Quantity (number of bags)", "f_msg": "Message",
         "f_send": "Send request", "f_fine": "Your details are only used to answer your request.",
-        "ready_h": "Prefer to talk to someone?", "ready_p": "Call or email us. Delivery across Greater Montreal and Québec.",
+        "ready_h": "Prefer to talk to someone?", "ready_p": "Email us. Delivery in Laval and Montreal; elsewhere in Québec from 1,000 lb.",
         "c_email_btn": "Send an email", "c_wa_btn": "Message on WhatsApp", "c_call_btn": "Email us",
         "lbl": {"phone": "Phone", "mail": "Email", "wa": "WhatsApp", "ig": "Instagram", "pin": "Address", "biz": "Business"},
         "hero_cta1": "Request a quote", "hero_cta2": "See prices"},
@@ -143,6 +153,9 @@ HOME = {
 
 IMG_BAG = "sac-chiffons-t-shirt-couleur-25-lb.webp"
 IMG_BAGS = "sacs-chiffons-couleur-25-lb.webp"
+IMG_WHITE = "sacs-chiffons-blancs-25-lb.webp"
+IMG_WAREHOUSE = "entrepot-sacs-chiffons-blancs-et-couleur.webp"
+IMG_COLOR_BALE = "sacs-chiffons-couleur-flanelle-coton.webp"
 IMG_BALE = "balle-compressee-de-chiffons-eco-en-textiles-recyc.webp"
 IMG_TEXT = "textiles-de-coton-recuperes.webp"
 IMG_SHOP = "sac-de-chiffons-d-atelier-conditionnes-prets-a-l-u.webp"
@@ -153,8 +166,8 @@ PAGES = {}
 
 PAGES["garage"] = {"kind": "sector", "img": IMG_BAG, "rel": ["couleur", "guide-huileux", "industrie"],
  "fr": {"path": "/chiffons-garage-mecanique/", "short": "Garages et mécanique",
-  "title": "Chiffons de garage et guenilles d'atelier – Laval, Montréal",
-  "desc": "Guenilles recyclées pour garages et mécanique : huile, graisse, liquides. Dès 32 $ le sac de 25 lb, livrées à Laval, Montréal et partout au Québec.",
+  "title": "Chiffons de mécanicien et de garage – Laval, Montréal",
+  "desc": "Guenilles recyclées pour garages et mécanique : huile, graisse. Dès 32 $ le sac de 25 lb, à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
   "eyebrow": "Garages · mécanique · carrosserie", "h1": "Chiffons de garage et guenilles pour la mécanique",
   "lede": "Des chiffons de coton recyclé qui absorbent l'huile, la graisse et les liquides, en [packs]. Pour garages, ateliers mécaniques, carrosseries et concessionnaires.",
   "card": "Huile, graisse, liquides, mains et outils : la ratine et le t-shirt couleur font le travail.",
@@ -174,8 +187,8 @@ PAGES["garage"] = {"kind": "sector", "img": IMG_BAG, "rel": ["couleur", "guide-h
           ("Les chiffons laissent-ils des peluches?", "Le coton recyclé trié est peu pelucheux. Pour les surfaces peintes ou vernies, choisissez le t-shirt blanc."),
           ("Peut-on laver et réutiliser les chiffons?", "Les chiffons légèrement sales peuvent être lavés. Ceux imbibés d'huile ou de solvant ne doivent pas aller dans une sécheuse domestique, à cause du risque d'incendie : faites-les traiter par un service spécialisé ou jetez-les de façon sécuritaire.")]},
  "en": {"path": "/en/shop-rags-garage-mechanics/", "short": "Garages and mechanics",
-  "title": "Shop rags for garages and mechanics – Laval, Montreal",
-  "desc": "Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 per 25 lb bag, delivered in Laval, Montreal and across Québec.",
+  "title": "Mechanic shop rags for garages – Laval, Montréal",
+  "desc": "Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 per 25 lb bag, delivered in Laval and Montreal; elsewhere in Québec from 1,000 lb.",
   "eyebrow": "Garages · auto repair · body shops", "h1": "Shop rags for garages and mechanics",
   "lede": "Recycled cotton rags that soak up oil, grease and fluids, in [packs]. For garages, repair shops, body shops and dealerships.",
   "card": "Oil, grease, fluids, hands and tools: colored terry and T-shirt rags do the job.",
@@ -219,10 +232,10 @@ PAGES["peinture"] = {"kind": "sector", "img": IMG_SHOP, "rel": ["blancs", "guide
           ("Les chiffons couleur peuvent-ils tacher le bois?", "Avec des solvants, un tissu teint peut déteindre. Pour la finition, prenez du blanc."),
           ("Comment jeter un chiffon de teinture à l'huile?", "Faites-le sécher à plat à l'extérieur ou mettez-le dans un contenant métallique fermé avec de l'eau, puis apportez-le à l'écocentre comme résidu domestique dangereux (RDD).")]},
  "en": {"path": "/en/painting-finishing-rags/", "short": "Painting and finishing",
-  "title": "White rags for painters, stain and varnish – Québec",
-  "desc": "Recycled white cotton rags with no color transfer for painters, woodworkers and finishing: stain, varnish, oil. 25 lb bags at $42, delivered across Québec.",
-  "eyebrow": "Painters · woodworkers · finishing", "h1": "Rags for painting, staining and finishing",
-  "lede": "Sorted white cotton with no color transfer, to apply and wipe stain, oil and varnish without marking your surfaces.",
+  "title": "Painters rags: white cotton, $42 per 25 lb bag – Québec",
+  "desc": "Painters rags in recycled white cotton with no color transfer, for paint, stain, varnish and oil. $42 per 25 lb bag, delivered in Laval and Montréal.",
+  "eyebrow": "Painters · woodworkers · finishing", "h1": "Painters rags for painting, staining and finishing",
+  "lede": "Painters rags in sorted white cotton with no color transfer, to apply and wipe paint, stain, oil and varnish without marking your surfaces.",
   "card": "Stain, varnish and touch-ups: white cotton doesn't transfer color.",
   "alt": "Packed shop rags for finishing work",
   "body": """<h2>White for finishing</h2>
@@ -236,7 +249,8 @@ PAGES["peinture"] = {"kind": "sector", "img": IMG_SHOP, "rel": ["blancs", "guide
 <div class="note"><p>Rags soaked with linseed oil, tung oil or oil-based stain can <b>catch fire on their own</b> as they dry. Never leave them balled up or in a pile. Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Details in the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p></div>
 <h2>Price and delivery</h2>
 <p>White: $42 per [pack], before tax. Delivered to your shop or any address you choose, under our <a href="{{livraison}}">delivery terms</a>.</p>""",
-  "faq": [("T-shirt or terry for staining?", "White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup."),
+  "faq": [("What are painters rags?", "Painters rags are clean, lint-low cotton rags, usually white, used to wipe brushes, apply stain or oil and clean up drips. White cotton is preferred because it leaves no dye on the surface."),
+          ("T-shirt or terry for staining?", "White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup."),
           ("Can colored rags stain wood?", "With solvents, dyed fabric can bleed. For finishing, choose white."),
           ("How do I dispose of an oil-stain rag?", "Dry it flat outdoors or put it in a closed metal container with water, then take it to your local eco-centre as household hazardous waste.")]},
 }
@@ -364,13 +378,13 @@ PAGES["restauration"] = {"kind": "sector", "img": IMG_TEXT, "rel": ["entretien",
           ("Do you deliver to Montreal restaurants?", "Yes, in Montréal, Laval and across Greater Montreal.")]},
 }
 
-PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs", "guide-huileux"],
+PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "blancs", "guide-huileux"],
  "fr": {"path": "/chiffons-industriels-imprimerie/", "short": "Industrie et imprimerie",
   "title": "Chiffons industriels et chiffons d'imprimerie – Québec",
-  "desc": "Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Quantité illimitée, livraison partout au Québec.",
+  "desc": "Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Hors Laval et Montréal dès 1 000 lb.",
   "eyebrow": "Usines · imprimeries · maintenance", "h1": "Chiffons industriels et chiffons d'imprimerie",
-  "lede": "Pour l'encre, l'huile de coupe, les solvants et l'entretien des machines : du coton recyclé en [packs], en quantité illimitée.",
-  "card": "Encre, huile de coupe, solvants et entretien des machines, en quantité illimitée.",
+  "lede": "Pour l'encre, l'huile de coupe, les solvants et l'entretien des machines : du coton recyclé en [packs], sans quantité maximale.",
+  "card": "Encre, huile de coupe, solvants et entretien des machines, sans quantité maximale.",
   "alt": "Balle de chiffons industriels en textiles recyclés",
   "body": """<h2>Pour l'usine et l'atelier</h2>
 <p>Ateliers d'usinage, usines, imprimeries, entrepôts et équipes de maintenance utilisent des chiffons pour l'huile de coupe, l'encre, les solvants, la graisse des machines et les déversements.</p>
@@ -378,7 +392,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs
 <li><b>Usinage et maintenance</b> : ratine couleur pour l'huile et la graisse.</li>
 <li><b>Usage général</b> : t-shirt couleur, le plus économique.</li></ul>
 <h2>Volumes et approvisionnement</h2>
-<p>La quantité est illimitée. Hors Laval et Montréal, nous livrons à partir de 1 000 lb par livraison, avec un prix livré indiqué dans la soumission. Voir <a href="{{gros}}">guenilles en gros</a>.</p>
+<p>Il n'y a pas de quantité maximale. Hors Laval et Montréal, nous livrons à partir de 1 000 lb par livraison, avec un prix livré indiqué dans la soumission. Voir <a href="{{gros}}">guenilles en gros</a>.</p>
 <h2>Solvants et chiffons usagés</h2>
 <p>Les chiffons imbibés de solvants ou d'huile doivent être gardés dans des contenants métalliques fermés et éliminés selon vos règles de gestion des matières dangereuses. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
   "faq": [("Quel chiffon pour nettoyer une presse d'imprimerie?", "Le t-shirt blanc : il ne déteint pas avec les solvants de nettoyage."),
@@ -386,10 +400,10 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs
           ("Livrez-vous hors du Grand Montréal?", "Oui, ailleurs au Québec à partir de 1 000 lb par livraison.")]},
  "en": {"path": "/en/industrial-printing-rags/", "short": "Industry and printing",
   "title": "Industrial wiping rags and print shop rags – Québec",
-  "desc": "Recycled cotton industrial rags for plants, print shops, machining and maintenance: ink, oil, solvents. Unlimited quantity, delivery across Québec.",
+  "desc": "Recycled cotton industrial rags for plants, print shops and maintenance: ink, oil, solvents. Outside Laval and Montreal from 1,000 lb.",
   "eyebrow": "Plants · print shops · maintenance", "h1": "Industrial wiping rags and print shop rags",
-  "lede": "For ink, cutting oil, solvents and machine maintenance: recycled cotton in [packs], in unlimited quantity.",
-  "card": "Ink, cutting oil, solvents and machine maintenance, in unlimited quantity.",
+  "lede": "For ink, cutting oil, solvents and machine maintenance: recycled cotton in [packs], with no maximum quantity.",
+  "card": "Ink, cutting oil, solvents and machine maintenance, with no maximum quantity.",
   "alt": "Bale of industrial rags made from recycled textiles",
   "body": """<h2>For the plant and the shop floor</h2>
 <p>Machine shops, plants, print shops, warehouses and maintenance teams use rags for cutting oil, ink, solvents, machine grease and spills.</p>
@@ -397,7 +411,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs
 <li><b>Machining and maintenance</b>: colored terry for oil and grease.</li>
 <li><b>General use</b>: colored T-shirt, the most economical.</li></ul>
 <h2>Volumes and supply</h2>
-<p>Quantity is unlimited. Outside Laval and Montréal we deliver from 1,000 lb per delivery, with a delivered price stated in the quote. See <a href="{{gros}}">wholesale rags</a>.</p>
+<p>There is no maximum quantity. Outside Laval and Montréal we deliver from 1,000 lb per delivery, with a delivered price stated in the quote. See <a href="{{gros}}">wholesale rags</a>.</p>
 <h2>Solvents and used rags</h2>
 <p>Rags soaked with solvent or oil should be kept in closed metal containers and disposed of under your hazardous materials rules. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
   "faq": [("Which rag for cleaning a printing press?", "White T-shirt: it won't bleed with cleaning solvents."),
@@ -405,40 +419,50 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_BALE, "rel": ["gros", "blancs
           ("Do you deliver outside Greater Montreal?", "Yes, elsewhere in Québec from 1,000 lb per delivery.")]},
 }
 
-PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "industrie", "entretien"],
+PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "industrie", "entretien"],
  "fr": {"path": "/guenilles-en-gros/", "short": "Guenilles en gros",
   "title": "Guenilles en gros et chiffons recyclés pour distributeurs",
-  "desc": "Guenilles en gros et chiffons d'essuyage recyclés pour distributeurs sanitaires, quincailleries et fournisseurs. Quantité illimitée, livraison au Québec.",
+  "desc": "Guenilles en gros recyclées pour distributeurs sanitaires, quincailleries et fournisseurs. Aucune quantité maximale; au Québec dès 1 000 lb.",
   "eyebrow": "Distributeurs · revendeurs · gros volumes", "h1": "Guenilles en gros et chiffons recyclés pour distributeurs",
-  "lede": "Un fournisseur québécois de chiffons d'essuyage recyclés : 4 produits, quantité illimitée, prix clairs et livraison partout au Québec.",
-  "card": "Distributeurs sanitaires, quincailleries, fournisseurs : quantité illimitée.",
+  "lede": "Un fournisseur québécois de chiffons d'essuyage recyclés : 4 produits, aucune quantité maximale, prix clairs et livraison partout au Québec dès 1 000 lb.",
+  "card": "Distributeurs sanitaires, quincailleries, fournisseurs : aucune quantité maximale.",
   "alt": "Sacs de guenilles recyclées prêts pour la livraison en gros",
   "body": """<h2>Un approvisionnement fiable</h2>
 <p>Distributeurs de produits sanitaires, quincailleries, fournisseurs industriels, centres de location et grandes entreprises : nous fournissons des chiffons d'essuyage recyclés triés, emballés en [packs] et prêts à revendre ou à utiliser.</p>
 <ul><li><b>4 produits</b> : t-shirt ou ratine, blanc ou couleur.</li>
-<li><b>Quantité illimitée</b>, livraisons planifiées selon vos besoins.</li>
-<li><b>Lavés, triés et traités</b> contre les punaises de lit, emballés à Laval.</li></ul>
+<li><b>Aucune quantité maximale</b>, livraisons planifiées selon vos besoins.</li>
+<li><b>Sans métal, boutons ni fermetures éclair</b> : rien qui raye l'inox, la peinture ou les machines.</li>
+<li><b>Lavés à l'eau chaude</b>, triés et traités contre les punaises de lit, emballés à Laval.</li>
+<li><b>Coupés en morceaux prêts à utiliser</b> : aucune perte de temps.</li>
+<li><b>Propres, avec une bonne odeur.</b></li></ul>
 <h2>Conditions</h2>
 <p>Prix par [pack] : 32 $ couleur, 42 $ blanc, avant taxes. Hors Laval et Montréal, minimum de 1 000 lb (40 sacs) par livraison, frais de livraison selon votre emplacement. Commande confirmée et payée une semaine avant la livraison.</p>
+<h2>Fiche d'approvisionnement responsable</h2>
+<p>Pour vos dossiers d'achat : entreprise québécoise, textile réutilisé (environ 11 kg détournés de l'enfouissement par sac), prix et inscriptions fournisseur sur une page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Télécharger la fiche (PDF)</a></p>
 <h2>Demander une soumission</h2>
 <p>Indiquez le produit, la quantité et la ville de livraison dans le <a href="{{home#devis}}">formulaire</a> : nous vous répondons avec un prix livré.</p>""",
   "faq": [("Offrez-vous des prix de volume?", "Demandez une soumission avec vos quantités prévues : nous vous répondons avec un prix livré."),
           ("Puis-je mélanger les produits dans une livraison?", "Oui, le minimum de 1 000 lb s'applique au total de la livraison."),
           ("Livrez-vous en région?", "Oui, partout au Québec à partir de 1 000 lb, avec des frais selon la distance.")]},
  "en": {"path": "/en/wholesale-rags/", "short": "Wholesale rags",
-  "title": "Wholesale rags and recycled wiping cloths for distributors",
-  "desc": "Recycled wiping rags in bulk for janitorial distributors, hardware stores and industrial suppliers. Unlimited quantity, delivery across Québec.",
+  "title": "Bulk rags and industrial shop rags, wholesale – Québec",
+  "desc": "Recycled rags in bulk for janitorial distributors, hardware stores and suppliers. No maximum quantity; outside Laval and Montreal from 1,000 lb.",
   "eyebrow": "Distributors · resellers · bulk", "h1": "Wholesale rags and recycled wiping cloths for distributors",
-  "lede": "A Québec supplier of recycled wiping rags: 4 products, unlimited quantity, clear prices and delivery across Québec.",
-  "card": "Janitorial distributors, hardware stores, suppliers: unlimited quantity.",
+  "lede": "A Québec supplier of recycled wiping rags: 4 products, no maximum quantity, clear prices and delivery across Québec from 1,000 lb.",
+  "card": "Janitorial distributors, hardware stores, suppliers: no maximum quantity.",
   "alt": "Bags of recycled rags ready for bulk delivery",
   "body": """<h2>Reliable supply</h2>
 <p>Janitorial supply distributors, hardware stores, industrial suppliers, rental centres and large companies: we supply sorted recycled wiping rags, packed in [packs] and ready to resell or use.</p>
 <ul><li><b>4 products</b>: T-shirt or terry, white or colored.</li>
-<li><b>Unlimited quantity</b>, deliveries scheduled to your needs.</li>
-<li><b>Washed, sorted and treated</b> against bedbugs, packed in Laval.</li></ul>
+<li><b>No maximum quantity</b>, deliveries scheduled to your needs.</li>
+<li><b>No metal, buttons or zippers</b>: nothing to scratch stainless steel, paint or machines.</li>
+<li><b>Washed in hot water</b>, sorted and treated against bedbugs, packed in Laval.</li>
+<li><b>Cut into ready-to-use pieces</b>: no time lost.</li>
+<li><b>Clean, with a fresh smell.</b></li></ul>
 <h2>Terms</h2>
 <p>Price per [pack]: $32 colored, $42 white, before tax. Outside Laval and Montréal, 1,000 lb minimum (40 bags) per delivery, delivery fee based on your location. Orders confirmed and paid one week before delivery.</p>
+<h2>Responsible purchasing sheet</h2>
+<p>For your purchasing file: Québec company, reused textile (about 11 kg kept out of landfill per bag), prices and supplier registrations on one page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Download the sheet (PDF, French)</a></p>
 <h2>Request a quote</h2>
 <p>Tell us the product, quantity and delivery city in the <a href="{{home#devis}}">form</a> and we'll reply with a delivered price.</p>""",
   "faq": [("Do you offer volume pricing?", "Request a quote with your expected quantities and we'll reply with a delivered price."),
@@ -446,7 +470,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_BAGS, "rel": ["livraison", "indust
           ("Do you deliver to the regions?", "Yes, anywhere in Québec from 1,000 lb, with a fee based on distance.")]},
 }
 
-PAGES["blancs"] = {"kind": "product", "img": IMG_SHOP, "products": ["tshirt-blanc", "ratine-blanc"], "rel": ["peinture", "couleur", "industrie"],
+PAGES["blancs"] = {"kind": "product", "img": IMG_WHITE, "products": ["tshirt-blanc", "ratine-blanc"], "rel": ["p-tshirt-blanc", "p-ratine-blanc", "peinture"],
  "fr": {"path": "/chiffons-blancs-recycles/", "short": "Chiffons blancs",
   "title": "Chiffons blancs recyclés, t-shirt et ratine 25 lb | Chiffons ÉCO",
   "desc": "Chiffons d'essuyage blancs en coton recyclé, t-shirt ou ratine, sans transfert de couleur. 42 $ le sac de 25 lb avant taxes. Laval, Montréal, Québec.",
@@ -485,7 +509,7 @@ PAGES["blancs"] = {"kind": "product", "img": IMG_SHOP, "products": ["tshirt-blan
           ("Can I get a sample?", "Yes, on request.")]},
 }
 
-PAGES["couleur"] = {"kind": "product", "img": IMG_BAG, "products": ["tshirt-couleur", "ratine-couleur"], "rel": ["garage", "construction", "blancs"],
+PAGES["couleur"] = {"kind": "product", "img": IMG_BAG, "products": ["tshirt-couleur", "ratine-couleur"], "rel": ["p-tshirt-couleur", "p-ratine-couleur", "garage"],
  "fr": {"path": "/chiffons-couleur-recycles/", "short": "Chiffons couleur",
   "title": "Chiffons couleur recyclés, t-shirt et ratine 25 lb | Chiffons ÉCO",
   "desc": "Chiffons d'essuyage couleur en coton recyclé, t-shirt ou ratine, pour garages, ateliers et chantiers. 32 $ le sac de 25 lb avant taxes. Livraison au Québec.",
@@ -506,7 +530,7 @@ PAGES["couleur"] = {"kind": "product", "img": IMG_BAG, "products": ["tshirt-coul
           ("T-shirt ou ratine?", "T-shirt pour l'usage général, ratine pour l'huile, la graisse et les gros dégâts.")]},
  "en": {"path": "/en/colored-recycled-rags/", "short": "Colored rags",
   "title": "Colored recycled rags – T-shirt and terry, 25 lb | ECO Rags",
-  "desc": "Colored recycled cotton wiping rags, T-shirt or terry, for garages, shops and job sites. $32 per 25 lb bag before tax. Delivery across Québec.",
+  "desc": "Colored recycled cotton rags, T-shirt or terry, for garages and job sites. $32 per 25 lb bag. Laval and Montreal; elsewhere in Québec from 1,000 lb.",
   "eyebrow": "Product · colored", "h1": "Colored recycled rags: T-shirt and terry",
   "lede": "The budget choice for everyday wiping: garages, shops, job sites, cleaning. $32 per [pack].",
   "card": "Colored T-shirt or terry, for everyday wiping. $32 per [pack].",
@@ -703,21 +727,25 @@ from content_sectors2 import SECTOR2_PAGES, SECTOR2_KEYS
 from content_guides2 import GUIDE2_PAGES
 from content_cities import CITY_PAGES, CITY_KEYS
 _merci = PAGES.pop("merci")
-PAGES.update(SECTOR2_PAGES); PAGES.update(GUIDE2_PAGES); PAGES.update(CITY_PAGES)
+from content_canada import CANADA_PAGES
+from content_products import PRODUCT_PAGES, PRODUCT_PAGE_OF
+PAGES.update(PRODUCT_PAGES)
+for _p in PRODUCTS: _p["page"] = PRODUCT_PAGE_OF[_p["id"]]
+PAGES.update(SECTOR2_PAGES); PAGES.update(GUIDE2_PAGES); PAGES.update(CITY_PAGES); PAGES.update(CANADA_PAGES)
 PAGES["merci"] = _merci
 SECTOR_KEYS = SECTOR_KEYS + SECTOR2_KEYS
 GUIDE_KEYS = [k for k, p in PAGES.items() if p["kind"] in ("guide", "tool")]
 
 PAGES["apropos"] = {"kind": "info", "img": IMG_BAGS, "rel": ["gros", "livraison", "faq"],
  "fr": {"path": "/a-propos/", "short": "À propos", "title": "À propos d'Entretien Laval – Chiffons ÉCO, guenilles en gros",
-  "desc": "Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et partout au Québec.",
+  "desc": "Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et ailleurs au Québec dès 1 000 lb.",
   "eyebrow": "À propos", "h1": "Entretien Laval – Chiffons ÉCO", "lede": "Une entreprise de Laval qui transforme des textiles récupérés en chiffons d'essuyage pour les entreprises du Québec.",
   "card": "Qui nous sommes, ce que nous vendons, où nous livrons.", "alt": "Sacs de chiffons recyclés Chiffons ÉCO",
   "body": """<h2>En bref</h2>
 <ul><li><b>Entreprise</b> : Entretien Laval, marque Chiffons ÉCO (ECO Rags). NEQ 2280629637.</li>
 <li><b>Adresse</b> : 309-1355 boul. Le Corbusier, Laval (Québec) H7N 0G4.</li>
 <li><b>Produits</b> : chiffons d'essuyage (guenilles) en coton recyclé, lavés, triés et traités contre les punaises de lit, en sacs de 25 lb.</li>
-<li><b>Prix</b> : t-shirt ou ratine couleur 32 $ le sac; t-shirt ou ratine blanc 42 $ le sac. Avant taxes, quantité illimitée.</li>
+<li><b>Prix</b> : t-shirt ou ratine couleur 32 $ le sac; t-shirt ou ratine blanc 42 $ le sac. Avant taxes, aucune quantité maximale.</li>
 <li><b>Livraison</b> : Laval, Montréal et le Grand Montréal; partout au Québec à partir de 1 000 lb. Frais selon l'emplacement.</li>
 <li><b>Clients</b> : garages, ateliers, entreprises de ménage, chantiers, restaurants, industries, distributeurs.</li>
 <li><b>Contact</b> : info@entretienlaval.ca.</li></ul>
@@ -745,6 +773,33 @@ PAGES["apropos"] = {"kind": "info", "img": IMG_BAGS, "rel": ["gros", "livraison"
 <p>They absorb better than paper and cut waste: the reclaimed textiles would otherwise go to landfill. See the guide <a href="{{guide-papier}}">recycled rags vs paper</a>.</p>""",
   "faq": [("Where can I buy wiping rags in bulk in Québec?", "From Entretien Laval (ECO Rags) in Laval: 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec from 1,000 lb."),
           ("Who sells shop rags in Laval?", "Entretien Laval sells recycled cotton shop rags for garages, T-shirt or terry.")]}}
+PAGES["clients"] = {"kind": "info", "img": IMG_BAGS, "rel": ["industrie", "gros", "faq"],
+ "fr": {"path": "/nos-clients/", "short": "Nos clients", "title": "Nos clients : Ajax CNC, MBL, Ricochet | Chiffons ÉCO",
+  "desc": "Qui achète les chiffons recyclés d'Entretien Laval : Ajax CNC Precision (usinage, Montréal), La Maison Benoît Labre et Ricochet Hébergement.",
+  "eyebrow": "Nos clients", "h1": "Nos clients", "lede": "Des entreprises et des organismes du Grand Montréal achètent nos chiffons d'essuyage recyclés en sacs de 25 lb. En voici trois, nommés avec leur accord.",
+  "card": "Ajax CNC Precision, La Maison Benoît Labre, Ricochet Hébergement.", "alt": "Sacs de chiffons recyclés Chiffons ÉCO",
+  "body": """<h2>Ajax CNC Precision, atelier d'usinage CNC à Montréal</h2>
+<p>Le propriétaire d'Ajax CNC Precision cherchait des guenilles pour son atelier. Il a demandé à ChatGPT où en acheter, et la réponse l'a dirigé vers Entretien Laval. Il a acheté un sac de 25 lb de ratine blanche à 42 $ et l'a ramassé à Laval. Dans un atelier d'usinage, les chiffons servent surtout à essuyer l'huile de coupe, les pièces et les machines. Voir <a href="{{industrie}}">chiffons industriels</a>.</p>
+<h2>La Maison Benoît Labre, Montréal</h2>
+<p>La Maison Benoît Labre est un organisme montréalais qui vient en aide aux personnes en situation d'itinérance. Elle commande nos chiffons environ tous les deux à trois mois.</p>
+<h2>Ricochet Hébergement, Montréal</h2>
+<p>Ricochet Hébergement est un organisme montréalais qui offre de l'hébergement aux jeunes en situation d'itinérance. Il commande nos chiffons environ tous les deux à trois mois.</p>
+<h2>Vous aussi?</h2>
+<p>Couleur 32 $, blanc 42 $ le sac de 25 lb, avant taxes. Livraison à Laval et Montréal, ou livraison régulière toutes les deux semaines ou chaque mois. <a href="{{home#devis}}">Demandez une soumission</a>.</p>""",
+  "faq": [("Qui achète des chiffons recyclés d'Entretien Laval?", "Des ateliers, des garages et des organismes du Grand Montréal, dont Ajax CNC Precision, La Maison Benoît Labre et Ricochet Hébergement.")]},
+ "en": {"path": "/en/our-customers/", "short": "Our customers", "title": "Our customers: Ajax CNC, MBL, Ricochet | ECO Rags",
+  "desc": "Who buys Entretien Laval recycled rags: Ajax CNC Precision (machine shop, Montreal), La Maison Benoît Labre and Ricochet Hébergement.",
+  "eyebrow": "Our customers", "h1": "Our customers", "lede": "Businesses and non-profits in Greater Montreal buy our recycled wiping rags in 25 lb bags. Here are three of them, named with their consent.",
+  "card": "Ajax CNC Precision, La Maison Benoît Labre, Ricochet Hébergement.", "alt": "Bags of ECO Rags recycled rags",
+  "body": """<h2>Ajax CNC Precision, CNC machine shop in Montreal</h2>
+<p>The owner of Ajax CNC Precision was looking for shop rags. He asked ChatGPT where to buy them, and the answer pointed him to Entretien Laval. He bought a 25 lb bag of white terry rags for $42 and picked it up in Laval. In a machine shop, rags are mostly used to wipe cutting oil, parts and machines. See <a href="{{industrie}}">industrial rags</a>.</p>
+<h2>La Maison Benoît Labre, Montreal</h2>
+<p>La Maison Benoît Labre is a Montreal non-profit that helps people experiencing homelessness. It orders our rags about every two to three months.</p>
+<h2>Ricochet Hébergement, Montreal</h2>
+<p>Ricochet Hébergement is a Montreal non-profit that provides housing to young people experiencing homelessness. It orders our rags about every two to three months.</p>
+<h2>Want the same?</h2>
+<p>Colored $32, white $42 per 25 lb bag, before tax. Delivery in Laval and Montreal, or regular delivery every two weeks or every month. <a href="{{home#devis}}">Request a quote</a>.</p>""",
+  "faq": [("Who buys recycled rags from Entretien Laval?", "Workshops, garages and non-profits in Greater Montreal, including Ajax CNC Precision, La Maison Benoît Labre and Ricochet Hébergement.")]}}
 _m = PAGES.pop("merci"); PAGES["merci"] = _m
 
 # ---------------- audit follow-ups ----------------
@@ -752,7 +807,7 @@ import content_audit as A
 PAGES["secteurs"] = A.HUB
 for _l in ("fr", "en"):
     PAGES["guides"][_l]["body"] = A.GUIDES_BODY[_l]
-    PAGES["gros"][_l]["body"] += A.GROS_EXTRA[_l]
+    PAGES["gros"][_l]["body"] += A.GROS_EXTRA[_l] + {"fr": '<h2>Distributeurs ailleurs au Canada</h2>\n<p>Hors Québec, nous fournissons les distributeurs à partir de 50 sacs (28 $ couleur, 38 $ blanc), transport sur soumission : voir <a href="{{canada}}">fournisseur de chiffons recyclés au Canada</a>.</p>', "en": '<h2>Distributors elsewhere in Canada</h2>\n<p>Outside Québec we supply distributors from 50 bags ($28 colored, $38 white), freight quoted per order: see <a href="{{canada}}">recycled rag supplier in Canada</a>.</p>'}[_l]
     PAGES["calculateur"][_l]["body"] += A.CALC_EXTRA[_l]
 for _k, _x in A.EN_SECTOR_EXTRA.items():
     PAGES[_k]["en"]["body"] += _x

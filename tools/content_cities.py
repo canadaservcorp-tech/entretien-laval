@@ -79,6 +79,62 @@ C = [
   ind_fr="garages, entreprises d'entretien, entrepreneurs et distributeurs",
   ind_en="garages, cleaning companies, contractors and distributors",
   rel=["gros", "entretien", "livraison"]),
+ dict(key="ville-saint-jean", name="Saint-Jean-sur-Richelieu", fr="/chiffons-guenilles-saint-jean-sur-richelieu/", en="/en/rags-saint-jean-sur-richelieu/", core=False, img=BAG, far=True, dist=55,
+  hoods=["Saint-Jean", "Iberville", "Saint-Luc", "L'Acadie", "Chambly", "le Haut-Richelieu"],
+  intro_fr="Saint-Jean-sur-Richelieu est à environ 55 km de Laval. Son parc industriel et ceux du Haut-Richelieu regroupent des usines, des ateliers et des entreprises de transport : nous y livrons à partir de 1 000 lb.",
+  intro_en="Saint-Jean-sur-Richelieu is about 55 km from Laval. Its industrial park and those of the Haut-Richelieu have plants, workshops and trucking companies: we deliver from 1,000 lb.",
+  ind_fr="usines, ateliers d'usinage et de soudure, garages, entreprises de transport et distributeurs",
+  ind_en="plants, machine and welding shops, garages, trucking companies and distributors",
+  rel=["usinage", "soudure", "ville-rive-sud"]),
+ dict(key="ville-saint-hyacinthe", name="Saint-Hyacinthe", fr="/chiffons-guenilles-saint-hyacinthe/", en="/en/rags-saint-hyacinthe/", core=False, img=BAGS, far=True, dist=70,
+  hoods=["Saint-Hyacinthe", "Sainte-Rosalie", "Saint-Thomas-d'Aquin", "la MRC des Maskoutains"],
+  intro_fr="Saint-Hyacinthe est à environ 70 km de Laval. Ses usines, ses entreprises agricoles et ses concessionnaires de machinerie utilisent beaucoup de chiffons : nous y livrons à partir de 1 000 lb.",
+  intro_en="Saint-Hyacinthe is about 70 km from Laval. Its plants, farm businesses and equipment dealers use a lot of rags: we deliver from 1,000 lb.",
+  ind_fr="usines, fermes et concessionnaires de machinerie agricole, garages et entreprises d'entretien",
+  ind_en="plants, farms and farm equipment dealers, garages and cleaning companies",
+  rel=["agriculture", "industrie", "gros"]),
+ dict(key="ville-vaudreuil", name="Vaudreuil-Dorion", fr="/chiffons-guenilles-vaudreuil-dorion/", en="/en/rags-vaudreuil-dorion/", core=False, img=BALE, far=True, dist=45,
+  hoods=["Vaudreuil-Dorion", "L'Île-Perrot", "Pincourt", "Saint-Lazare", "Les Cèdres", "Coteau-du-Lac"],
+  intro_fr="Vaudreuil-Dorion est à environ 45 km de Laval, à la jonction des autoroutes 20, 30 et 40. Ses entrepôts et ses parcs industriels utilisent beaucoup de chiffons d'atelier : nous y livrons à partir de 1 000 lb.",
+  intro_en="Vaudreuil-Dorion is about 45 km from Laval, where Highways 20, 30 and 40 meet. Its warehouses and industrial parks use a lot of shop rags: we deliver from 1,000 lb.",
+  ind_fr="entrepôts et centres de distribution, usines, garages et entreprises de transport",
+  ind_en="warehouses and distribution centres, plants, garages and trucking companies",
+  rel=["industrie", "garage", "gros"]),
+ dict(key="ville-joliette", name="Joliette", fr="/chiffons-guenilles-joliette/", en="/en/rags-joliette/", core=False, img=BAG, far=True, dist=65,
+  hoods=["Joliette", "Saint-Charles-Borromée", "Notre-Dame-des-Prairies", "Saint-Paul", "le reste de Lanaudière"],
+  intro_fr="Joliette et Lanaudière sont à environ 65 km de Laval. Nous y livrons les usines, garages et fermes de la région à partir de 1 000 lb, produits mélangés acceptés.",
+  intro_en="Joliette and Lanaudière are about 65 km from Laval. We deliver to the region's plants, garages and farms from 1,000 lb, mixed products welcome.",
+  ind_fr="usines, garages, fermes et entreprises de machinerie, et entrepreneurs",
+  ind_en="plants, garages, farms and equipment dealers, and contractors",
+  rel=["agriculture", "garage", "ville-rive-nord"]),
+ dict(key="ville-granby", name="Granby", fr="/chiffons-guenilles-granby/", en="/en/rags-granby/", core=False, img=BAGS, far=True, dist=95,
+  hoods=["Granby", "Bromont", "Cowansville", "Waterloo", "la Haute-Yamaska"],
+  intro_fr="Granby et Bromont sont à environ 95 km de Laval. Leurs parcs industriels comptent beaucoup d'usines et d'ateliers de fabrication : nous y livrons à partir de 1 000 lb.",
+  intro_en="Granby and Bromont are about 95 km from Laval. Their industrial parks have many plants and fabrication shops: we deliver from 1,000 lb.",
+  ind_fr="usines, ateliers d'usinage et de fabrication, garages et distributeurs régionaux",
+  ind_en="plants, machine and fabrication shops, garages and regional distributors",
+  rel=["usinage", "industrie", "ville-sherbrooke"]),
+ dict(key="ville-drummondville", name="Drummondville", fr="/chiffons-guenilles-drummondville/", en="/en/rags-drummondville/", core=False, img=BALE, far=True, dist=115,
+  hoods=["Drummondville", "Saint-Nicéphore", "Saint-Cyrille-de-Wendover", "le Centre-du-Québec"],
+  intro_fr="Drummondville est à environ 115 km de Laval, sur l'autoroute 20. C'est l'un des grands pôles manufacturiers du Québec : nous y livrons les usines et les distributeurs à partir de 1 000 lb.",
+  intro_en="Drummondville is about 115 km from Laval, on Highway 20. It's one of Québec's main manufacturing hubs: we deliver to plants and distributors from 1,000 lb.",
+  ind_fr="usines, ateliers de soudure et de fabrication métallique, garages, entreprises de transport et distributeurs",
+  ind_en="plants, welding and metal fabrication shops, garages, trucking companies and distributors",
+  rel=["soudure", "industrie", "gros"]),
+ dict(key="ville-victoriaville", name="Victoriaville", fr="/chiffons-guenilles-victoriaville/", en="/en/rags-victoriaville/", core=False, img=BAG, far=True, dist=160,
+  hoods=["Victoriaville", "Princeville", "Plessisville", "Warwick", "les Bois-Francs"],
+  intro_fr="Victoriaville et les Bois-Francs sont à environ 160 km de Laval. Les fabricants de meubles, les ateliers et les fermes de la région utilisent des chiffons tous les jours : nous y livrons à partir de 1 000 lb.",
+  intro_en="Victoriaville and the Bois-Francs are about 160 km from Laval. The region's furniture makers, workshops and farms use rags every day: we deliver from 1,000 lb.",
+  ind_fr="fabricants de meubles et ébénistes, ateliers, fermes et garages",
+  ind_en="furniture makers and cabinetmakers, workshops, farms and garages",
+  rel=["ebenisterie", "agriculture", "ville-drummondville"]),
+ dict(key="ville-saguenay", name="Saguenay", fr="/chiffons-guenilles-saguenay/", en="/en/rags-saguenay/", core=False, img=BAGS, far=True, dist=460,
+  hoods=["Chicoutimi", "Jonquière", "La Baie", "Alma", "le reste du Saguenay–Lac-Saint-Jean"],
+  intro_fr="Saguenay est à environ 460 km de Laval. Pour les usines, les entrepreneurs industriels et les distributeurs de la région, nous livrons par commandes de 1 000 lb ou plus.",
+  intro_en="Saguenay is about 460 km from Laval. For the region's plants, industrial contractors and distributors, we deliver orders of 1,000 lb or more.",
+  ind_fr="usines et entrepreneurs industriels, ateliers de soudure et d'usinage, garages et distributeurs",
+  ind_en="plants and industrial contractors, welding and machine shops, garages and distributors",
+  rel=["industrie", "soudure", "gros"]),
  dict(key="ville-sorel-tracy", name="Sorel-Tracy", fr="/chiffons-guenilles-sorel-tracy/", en="/en/rags-sorel-tracy/", core=False, img=BAGS, far=True, dist=95,
   hoods=["Sorel-Tracy", "Saint-Joseph-de-Sorel", "Sainte-Anne-de-Sorel", "Contrecoeur", "Saint-Ours", "Yamaska"],
   intro_fr="Sorel-Tracy, à environ 95 km de Laval, est une ville industrielle : métallurgie, chantiers maritimes, ateliers d'usinage et de soudure. Nous y livrons nos chiffons à partir de 1 000 lb.",
@@ -93,34 +149,13 @@ C = [
   ind_fr="garages, entreprises de transport, ateliers d'usinage, usines et entrepreneurs",
   ind_en="garages, trucking companies, machine shops, plants and contractors",
   rel=["camions", "ville-rive-nord", "garage"]),
- dict(key="ville-lanaudiere", name="Repentigny et Joliette", fr="/chiffons-guenilles-repentigny-joliette/", en="/en/rags-repentigny-joliette/", core=False, img=BALE, far=False, dist=60,
-  hoods=["Repentigny", "L'Assomption", "Lavaltrie", "Joliette", "Saint-Charles-Borromée", "Berthierville"],
-  intro_fr="De Repentigny à Joliette et Berthierville, nous livrons Lanaudière par l'autoroute 40 et l'autoroute 31. Garages, fermes, ateliers et transporteurs y utilisent des chiffons tous les jours.",
-  intro_en="From Repentigny to Joliette and Berthierville, we deliver across Lanaudière along Highways 40 and 31. Garages, farms, shops and trucking companies there use rags every day.",
-  ind_fr="garages, entreprises de transport, fermes et concessionnaires de machinerie, ateliers de fabrication",
-  ind_en="garages, trucking companies, farms and equipment dealers, fabrication shops",
-  rel=["agriculture", "camions", "ville-terrebonne"]),
- dict(key="ville-saint-jean", name="Saint-Jean-sur-Richelieu", fr="/chiffons-guenilles-saint-jean-sur-richelieu/", en="/en/rags-saint-jean-sur-richelieu/", core=False, img=BAGS, far=False, dist=60,
-  hoods=["Saint-Jean-sur-Richelieu", "Iberville", "Saint-Luc", "L'Acadie", "Saint-Blaise-sur-Richelieu"],
-  intro_fr="Saint-Jean-sur-Richelieu est à environ 60 km de Laval, par l'autoroute 10 et l'autoroute 35. Son parc industriel compte des usines, des ateliers d'usinage, des carrossiers et des garages de camions.",
-  intro_en="Saint-Jean-sur-Richelieu is about 60 km from Laval, via Highways 10 and 35. Its industrial park has plants, machine shops, body shops and truck garages.",
-  ind_fr="usines, ateliers d'usinage, carrossiers, garages et entreprises de transport",
-  ind_en="plants, machine shops, body shops, garages and trucking companies",
-  rel=["carrosserie", "usinage", "ville-rive-sud"]),
- dict(key="ville-saint-hyacinthe", name="Saint-Hyacinthe et Drummondville", fr="/chiffons-guenilles-saint-hyacinthe-drummondville/", en="/en/rags-saint-hyacinthe-drummondville/", core=False, img=BAG, far=True, dist=110,
-  hoods=["Saint-Hyacinthe", "Drummondville", "Acton Vale", "Saint-Pie", "Sainte-Rosalie"],
-  intro_fr="Saint-Hyacinthe et Drummondville sont sur l'autoroute 20, à environ 75 et 120 km de Laval. Ce sont deux grands centres manufacturiers et agroalimentaires. Nous y livrons à partir de 1 000 lb.",
-  intro_en="Saint-Hyacinthe and Drummondville are on Highway 20, about 75 and 120 km from Laval. Both are major manufacturing and food-processing centres. We deliver there from 1,000 lb.",
-  ind_fr="usines manufacturières et agroalimentaires, ateliers d'usinage, garages, transporteurs et fermes",
-  ind_en="manufacturing and food-processing plants, machine shops, garages, trucking companies and farms",
-  rel=["industrie", "agriculture", "gros"]),
  dict(key="ville-beloeil", name="Beloeil et Chambly", fr="/chiffons-guenilles-beloeil-chambly/", en="/en/rags-beloeil-chambly/", core=False, img=BALE, far=False, dist=45,
   hoods=["Beloeil", "McMasterville", "Mont-Saint-Hilaire", "Saint-Basile-le-Grand", "Chambly", "Carignan"],
   intro_fr="Beloeil, Mont-Saint-Hilaire et Chambly, dans la vallée du Richelieu, sont à environ 45 km de Laval par l'autoroute 20 et la route 112. Nous y livrons ateliers, garages et entrepreneurs.",
   intro_en="Beloeil, Mont-Saint-Hilaire and Chambly, in the Richelieu Valley, are about 45 km from Laval via Highway 20 and Route 112. We deliver to shops, garages and contractors there.",
   ind_fr="ateliers de fabrication et de soudure, garages, entrepreneurs et distributeurs",
   ind_en="fabrication and welding shops, garages, contractors and distributors",
-  rel=["soudure", "ville-rive-sud", "garage"])
+  rel=["soudure", "ville-rive-sud", "garage"]),
 ]
 
 def _lst(xs, last): return ", ".join(xs[:-1]) + f" {last} " + xs[-1] if len(xs) > 1 else xs[0]
@@ -135,7 +170,8 @@ def _page(d):
     else:
         terms_fr = f"Livraison {a_fr} à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission."
         terms_en = f"Delivery {a_en} from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote."
-    hoods_fr, hoods_en = _lst(d["hoods"], "et"), _lst(d["hoods"], "and")
+    towns = [h for h in d["hoods"] if h[0].isupper()]
+    hoods_fr, hoods_en = _lst(d["hoods"], "et"), _lst(towns, "and")
     body = lambda lang: (f"""<h2>Livraison {a_fr}</h2>
 <p>{d['intro_fr']}</p>
 <p>{terms_fr}</p>
@@ -146,7 +182,7 @@ def _page(d):
 <h2>Nos chiffons et nos prix</h2>
 <ul><li><a href="{{{{couleur}}}}">T-shirt ou ratine couleur</a> : 32 $ le [pack], pour l'huile, la graisse et l'usage général.</li>
 <li><a href="{{{{blancs}}}}">T-shirt ou ratine blanc</a> : 42 $ le [pack], sans transfert de couleur, pour la finition et la peinture.</li></ul>
-<p>Prix avant taxes (TPS et TVQ en sus), quantité illimitée. Commande confirmée et payée une semaine avant la livraison.</p>
+<p>Prix avant taxes (TPS et TVQ en sus), aucune quantité maximale. Commande confirmée et payée une semaine avant la livraison.</p>
 <h2>Commander</h2>
 <p>Demandez une <a href="{{{{home#devis}}}}">soumission en ligne</a> ou écrivez à info@entretienlaval.ca. Indiquez votre adresse {a_fr} et la quantité souhaitée.</p>""" if lang == "fr" else f"""<h2>Delivery {a_en}</h2>
 <p>{d['intro_en']}</p>
@@ -158,7 +194,7 @@ def _page(d):
 <h2>Our rags and prices</h2>
 <ul><li><a href="{{{{couleur}}}}">Colored T-shirt or terry</a>: $32 per [pack], for oil, grease and general use.</li>
 <li><a href="{{{{blancs}}}}">White T-shirt or terry</a>: $42 per [pack], no color transfer, for finishing and painting.</li></ul>
-<p>Prices before tax (GST and QST extra), no quantity limit. Orders are confirmed and paid one week before delivery.</p>
+<p>Prices before tax (GST and QST extra), no maximum quantity. Orders are confirmed and paid one week before delivery.</p>
 <h2>How to order</h2>
 <p>Request a <a href="{{{{home#devis}}}}">quote online</a> or email info@entretienlaval.ca. Include your address {a_en} and the quantity you need.</p>""")
     lab_fr = "Guenilles et chiffons " + ("à " + n if not n.startswith("la ") else "sur " + n)
@@ -170,7 +206,7 @@ def _page(d):
       "lede": f"Chiffons de coton recyclé, lavés, triés et traités contre les punaises, livrés {a_fr} en [packs].",
       "card": ("Livraison selon votre adresse." if core else "Livraison à partir de 1 000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"Sac de chiffons recyclés de 25 lb livré {a_fr}", "body": body("fr"),
-      "faq": [(f"Livrez-vous {a_fr}?", f"Oui. Nous livrons {a_fr}, notamment à {_lst(d['hoods'][:3], 'et')}. {terms_fr}"),
+      "faq": [(f"Livrez-vous {a_fr}?", f"Oui. Nous livrons {a_fr}, notamment à {_lst(towns[:6], 'et')}. {terms_fr}"),
               (f"Combien coûte la livraison {a_fr}?", f"Les frais de livraison {a_fr} dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande."),
               (f"Quel chiffon choisir pour une entreprise {a_fr}?", "Le t-shirt couleur (32 $ le [pack]) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.")]},
      "en": {"path": d["en"], "short": ne[0].upper() + ne[1:],
@@ -180,7 +216,7 @@ def _page(d):
       "lede": f"Recycled cotton rags, washed, sorted and bedbug-treated, delivered {a_en} in [packs].",
       "card": ("Delivery based on your address." if core else "Delivery from 1,000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"25 lb bag of recycled rags delivered {a_en}", "body": body("en"),
-      "faq": [(f"Do you deliver {a_en}?", f"Yes. We deliver {a_en}, including {_lst(d['hoods'][:3], 'and')}. {terms_en}"),
+      "faq": [(f"Do you deliver {a_en}?", f"Yes. We deliver {a_en}, including {_lst(towns[:6], 'and')}. {terms_en}"),
               (f"How much is delivery {a_en}?", f"Delivery fees {a_en} depend on the exact address and quantity. They're shown in the quote, before you order."),
               (f"Which rag should a business {a_en} choose?", "Colored T-shirt rags ($32 per [pack]) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.")]}}
 
