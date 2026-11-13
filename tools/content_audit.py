@@ -1,14 +1,14 @@
 """Audit follow-ups: sectors hub, longer EN sector pages, wholesale/calculator/guides text, city local details."""
 HUB = {"kind": "hub", "img": None, "rel": [],
  "fr": {"path": "/secteurs/", "short": "Tous les secteurs", "title": "Chiffons d'essuyage par secteur : garages, ateliers, ménage",
-  "desc": "Guenilles et chiffons recyclés pour 14 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.",
+  "desc": "Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.",
   "eyebrow": "Secteurs", "h1": "Chiffons d'essuyage pour chaque secteur", "lede": "Le même chiffon ne sert pas partout. Trouvez les conseils et le produit adaptés à votre métier.",
-  "card": "Les 14 secteurs que nous servons, avec le bon chiffon pour chacun.",
+  "card": "Les 18 secteurs que nous servons, avec le bon chiffon pour chacun.",
   "body": """<p>Nos quatre produits (t-shirt ou ratine, couleur ou blanc) couvrent la plupart des besoins d'essuyage. La couleur à 32 $ le [pack] convient à l'huile, à la graisse et au nettoyage courant. Le blanc à 42 $ évite le transfert de couleur pour la peinture, la teinture et la finition. Chaque page ci-dessous explique les usages et le produit conseillé pour un secteur.</p>"""},
  "en": {"path": "/en/industries/", "short": "All industries", "title": "Wiping rags by industry: garages, shops, cleaning",
-  "desc": "Recycled rags for 14 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.",
+  "desc": "Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.",
   "eyebrow": "Industries", "h1": "Wiping rags for every industry", "lede": "The same rag doesn't fit every job. Find the advice and product for your trade.",
-  "card": "The 14 industries we serve, with the right rag for each.",
+  "card": "The 18 industries we serve, with the right rag for each.",
   "body": """<p>Our four products (T-shirt or terry, colored or white) cover most wiping needs. Colored at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids color transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
 
 GUIDES_BODY = {
@@ -71,7 +71,13 @@ CITY_LOCAL = {
  "ville-quebec": ("A-20, A-40 et A-73", "A-20, A-40 and A-73", "la Ville de Québec ou de Lévis"),
  "ville-sherbrooke": ("A-10, A-55 et A-410", "A-10, A-55 and A-410", "la Ville de Sherbrooke"),
  "ville-trois-rivieres": ("A-40 et A-55", "A-40 and A-55", "la Ville de Trois-Rivières"),
- "ville-gatineau": ("A-50 et A-5", "A-50 and A-5", "la Ville de Gatineau")}
+ "ville-gatineau": ("A-50 et A-5", "A-50 and A-5", "la Ville de Gatineau"),
+ "ville-sorel-tracy": ("A-30 et route 132", "A-30 and Route 132", "la Ville de Sorel-Tracy ou de votre municipalité"),
+ "ville-saint-jerome": ("A-15 et route 117", "A-15 and Route 117", "la Ville de Saint-Jérôme ou de Mirabel"),
+ "ville-lanaudiere": ("A-40, A-31 et route 138", "A-40, A-31 and Route 138", "votre municipalité ou votre MRC"),
+ "ville-saint-jean": ("A-35, A-10 et route 104", "A-35, A-10 and Route 104", "la Ville de Saint-Jean-sur-Richelieu"),
+ "ville-saint-hyacinthe": ("A-20 et A-55", "A-20 and A-55", "la Ville de Saint-Hyacinthe ou de Drummondville"),
+ "ville-beloeil": ("A-20, route 112 et route 116", "A-20, Route 112 and Route 116", "votre municipalité ou votre MRC")}
 
 def city_extra(key, page):
     fr_r, en_r, muni = CITY_LOCAL[key]

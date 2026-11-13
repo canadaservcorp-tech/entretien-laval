@@ -294,5 +294,155 @@ S("municipal", BAGS, ["entretien", "garage", "gros"],
   "faq": [("Can you provide a quote for our purchasing department?", "Yes. Request it online or by email at info@entretienlaval.ca, with the quantity and delivery address."),
           ("Do you deliver to several buildings?", "We deliver to the address in the quote. For several addresses, list them in your request.")]})
 
+S("camions", BALE, ["garage", "gros", "guide-huileux"],
+ {"path": "/chiffons-camions-lourds-transport/", "short": "Camions lourds et transport",
+  "title": "Chiffons pour garages de camions lourds et transporteurs",
+  "desc": "Guenilles recyclées pour garages de poids lourds, transporteurs et ateliers de remorques : huile, graisse, diesel. Dès 32 $ le sac de 25 lb.",
+  "eyebrow": "Poids lourds · transport · remorques", "h1": "Chiffons pour camions lourds et entreprises de transport",
+  "lede": "Pour l'huile, la graisse, le diesel et l'entretien de la flotte, en [packs].",
+  "card": "Huile, graisse et diesel : la ratine couleur absorbe le plus.",
+  "alt": "Sacs de chiffons recyclés pour garage de camions",
+  "body": """<h2>À quoi servent nos chiffons dans un garage de camions</h2>
+<ul><li><b>Vidanges et graissage</b> : moteurs, différentiels, sellettes et points de graissage.</li>
+<li><b>Diesel et liquides</b> : petits déversements, bouchons et raccords.</li>
+<li><b>Inspection et entretien</b> : essuyer les pièces avant de les vérifier.</li>
+<li><b>Remorques et équipement</b> : freins, essieux et mécanismes.</li></ul>
+<h2>Quel produit choisir</h2>
+<p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) retient le plus d'huile et de graisse. Le t-shirt couleur convient au nettoyage courant. Une flotte use beaucoup de chiffons : voir nos prix pour les <a href="{{gros}}">commandes en gros</a>.</p>
+<h2>Sécurité</h2>
+<p>Les chiffons imbibés d'huile vont dans un contenant métallique fermé. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
+  "faq": [("Quel chiffon pour un garage de poids lourds?", "La ratine couleur à 32 $ le sac de 25 lb absorbe le plus d'huile et de graisse. Le t-shirt couleur suffit pour le nettoyage courant."),
+          ("Livrez-vous les transporteurs hors de Montréal?", "Oui. Nous livrons au Grand Montréal, et partout au Québec à partir de 1 000 lb (40 sacs).")]},
+ {"path": "/en/truck-fleet-rags/", "short": "Heavy trucks and fleets",
+  "title": "Rags for heavy truck garages and trucking fleets",
+  "desc": "Recycled shop rags for heavy truck garages, trucking fleets and trailer shops: oil, grease, diesel. From $32 per 25 lb bag.",
+  "eyebrow": "Heavy trucks · fleets · trailers", "h1": "Rags for heavy trucks and trucking companies",
+  "lede": "For oil, grease, diesel and fleet maintenance, in [packs].",
+  "card": "Oil, grease and diesel: colored terry absorbs the most.",
+  "alt": "Bags of recycled rags for a truck garage",
+  "body": """<h2>What truck garages use our rags for</h2>
+<ul><li><b>Oil changes and greasing</b>: engines, differentials, fifth wheels and grease points.</li>
+<li><b>Diesel and fluids</b>: small spills, caps and fittings.</li>
+<li><b>Inspection and maintenance</b>: wiping parts before checking them.</li>
+<li><b>Trailers and equipment</b>: brakes, axles and mechanisms.</li></ul>
+<h2>Which product to choose</h2>
+<p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) holds the most oil and grease. Colored T-shirt works for everyday cleanup. A fleet goes through many rags: see our <a href="{{gros}}">bulk order</a> terms.</p>
+<h2>Safety</h2>
+<p>Oil-soaked rags belong in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
+  "faq": [("Which rag for a heavy truck garage?", "Colored terry at $32 per 25 lb bag absorbs the most oil and grease. Colored T-shirt is enough for everyday cleanup."),
+          ("Do you deliver to fleets outside Montreal?", "Yes. We deliver across Greater Montreal, and anywhere in Québec from 1,000 lb (40 bags).")]})
+
+S("soudure", SHOP, ["usinage", "industrie", "guide-huileux"],
+ {"path": "/chiffons-soudure-fabrication-metallique/", "short": "Soudure et fabrication métallique",
+  "title": "Chiffons pour ateliers de soudure et fabrication métallique",
+  "desc": "Chiffons recyclés pour soudeurs et ateliers de fabrication métallique : dégraissage avant soudure, huile de coupe, nettoyage. Dès 32 $ le sac de 25 lb.",
+  "eyebrow": "Soudure · fabrication · métal", "h1": "Chiffons pour la soudure et la fabrication métallique",
+  "lede": "Pour dégraisser le métal avant la soudure, essuyer l'huile de coupe et nettoyer l'atelier, en [packs].",
+  "card": "Dégraissage avant soudure, huile de coupe, outils et machines.",
+  "alt": "Chiffons d'atelier pour la soudure",
+  "body": """<h2>À quoi servent nos chiffons en fabrication métallique</h2>
+<ul><li><b>Dégraissage avant soudure</b> : retirer l'huile et la saleté avec votre solvant habituel.</li>
+<li><b>Huile de coupe</b> : scies, perceuses, cisailles et plieuses.</li>
+<li><b>Peinture et finition</b> des pièces : le blanc évite le transfert de couleur.</li>
+<li><b>Machines, établis et planchers</b> de l'atelier.</li></ul>
+<h2>Quel produit choisir</h2>
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) suffit pour l'huile et le nettoyage. Pour essuyer une pièce avant la peinture, prenez le <a href="{{blancs}}">blanc</a> (42 $).</p>
+<h2>Sécurité</h2>
+<p>Gardez les chiffons huileux loin des étincelles et de la zone de soudure, dans un contenant métallique fermé. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
+  "faq": [("Peut-on utiliser des chiffons de coton près de la soudure?", "Oui pour le nettoyage, mais gardez les chiffons huileux loin des étincelles, dans un contenant métallique fermé."),
+          ("Quel chiffon pour dégraisser le métal?", "Le t-shirt couleur à 32 $ le sac de 25 lb, avec votre solvant habituel. Le blanc pour les pièces à peindre.")]},
+ {"path": "/en/welding-metal-fabrication-rags/", "short": "Welding and metal fabrication",
+  "title": "Rags for welding and metal fabrication shops",
+  "desc": "Recycled rags for welders and metal fabrication shops: degreasing before welding, cutting oil, cleanup. From $32 per 25 lb bag.",
+  "eyebrow": "Welding · fabrication · metal", "h1": "Rags for welding and metal fabrication",
+  "lede": "For degreasing metal before welding, wiping cutting oil and cleaning the shop, in [packs].",
+  "card": "Degreasing before welding, cutting oil, tools and machines.",
+  "alt": "Shop rags for welding",
+  "body": """<h2>What fabrication shops use our rags for</h2>
+<ul><li><b>Degreasing before welding</b>: removing oil and dirt with your usual solvent.</li>
+<li><b>Cutting oil</b>: saws, drills, shears and press brakes.</li>
+<li><b>Painting and finishing</b> parts: white avoids color transfer.</li>
+<li><b>Machines, benches and floors</b> in the shop.</li></ul>
+<h2>Which product to choose</h2>
+<p><a href="{{couleur}}">Colored T-shirt</a> ($32 per [pack]) handles oil and cleanup. To wipe a part before painting, use <a href="{{blancs}}">white</a> ($42).</p>
+<h2>Safety</h2>
+<p>Keep oily rags away from sparks and the welding area, in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
+  "faq": [("Can cotton rags be used near welding?", "Yes for cleanup, but keep oily rags away from sparks, in a closed metal container."),
+          ("Which rag to degrease metal?", "Colored T-shirt at $32 per 25 lb bag, with your usual solvent. White for parts to be painted.")]})
+
+S("pneus", BAG, ["garage", "couleur", "carrosserie"],
+ {"path": "/chiffons-centres-de-pneus/", "short": "Centres de pneus",
+  "title": "Chiffons pour centres de pneus et changement de pneus",
+  "desc": "Guenilles recyclées pour centres de pneus : jantes, pâte de montage, mains, freins et nettoyage. Dès 32 $ le sac de 25 lb, livrées au Québec.",
+  "eyebrow": "Pneus · jantes · alignement", "h1": "Chiffons pour centres de pneus",
+  "lede": "Pour les jantes, la pâte de montage, les mains et le nettoyage pendant la saison des pneus, en [packs].",
+  "card": "Jantes, pâte de montage, mains : prévoyez la saison des pneus.",
+  "alt": "Sac de chiffons recyclés pour centre de pneus",
+  "body": """<h2>À quoi servent nos chiffons dans un centre de pneus</h2>
+<ul><li><b>Jantes et moyeux</b> : essuyer la saleté et la rouille avant le montage.</li>
+<li><b>Pâte de montage</b> et lubrifiant de talon.</li>
+<li><b>Freins et suspensions</b> pendant l'inspection.</li>
+<li><b>Mains, machines et planchers</b> de l'atelier.</li></ul>
+<h2>Prévoir la saison</h2>
+<p>Au printemps et à l'automne, le volume de changements de pneus monte d'un coup. Commandez vos sacs avant la saison. Notre <a href="{{calculateur}}">calculateur</a> aide à estimer la quantité.</p>
+<h2>Quel produit choisir</h2>
+<p>Le <a href="{{couleur}}">t-shirt ou la ratine couleur</a> (32 $ le [pack]) convient à presque tout. Le blanc (42 $) sert pour les jantes de couleur claire ou chromées.</p>""",
+  "faq": [("Combien de chiffons pour la saison des pneus?", "Cela dépend du nombre de voitures. Notre calculateur estime la quantité selon votre usage par jour."),
+          ("Quel chiffon pour un centre de pneus?", "Le t-shirt ou la ratine couleur à 32 $ le sac de 25 lb convient à la plupart des tâches.")]},
+ {"path": "/en/tire-shop-rags/", "short": "Tire shops",
+  "title": "Rags for tire shops and tire changes – 25 lb bags",
+  "desc": "Recycled shop rags for tire shops: rims, mounting paste, hands, brakes and cleanup. From $32 per 25 lb bag, delivered in Québec.",
+  "eyebrow": "Tires · rims · alignment", "h1": "Rags for tire shops",
+  "lede": "For rims, mounting paste, hands and cleanup during tire season, in [packs].",
+  "card": "Rims, mounting paste, hands: plan ahead for tire season.",
+  "alt": "Bag of recycled rags for a tire shop",
+  "body": """<h2>What tire shops use our rags for</h2>
+<ul><li><b>Rims and hubs</b>: wiping dirt and rust before mounting.</li>
+<li><b>Mounting paste</b> and bead lubricant.</li>
+<li><b>Brakes and suspension</b> during inspection.</li>
+<li><b>Hands, machines and floors</b> in the shop.</li></ul>
+<h2>Plan for the season</h2>
+<p>In spring and fall, tire changes jump all at once. Order your bags before the season. Our <a href="{{calculateur}}">calculator</a> helps estimate the quantity.</p>
+<h2>Which product to choose</h2>
+<p><a href="{{couleur}}">Colored T-shirt or terry</a> ($32 per [pack]) fits almost everything. White ($42) is for light-colored or chrome rims.</p>""",
+  "faq": [("How many rags for tire season?", "It depends on the number of cars. Our calculator estimates the quantity based on your daily use."),
+          ("Which rag for a tire shop?", "Colored T-shirt or terry at $32 per 25 lb bag fits most tasks.")]})
+
+S("pieces-auto", BAGS, ["gros", "garage", "couleur"],
+ {"path": "/chiffons-magasins-pieces-auto-revente/", "short": "Magasins de pièces d'auto",
+  "title": "Chiffons à revendre pour magasins de pièces d'auto",
+  "desc": "Chiffons recyclés en sacs de 25 lb pour magasins de pièces d'auto : à revendre aux garages. Prix distributeur dès 50 sacs.",
+  "eyebrow": "Pièces d'auto · distributeurs · revente", "h1": "Chiffons pour magasins de pièces d'auto",
+  "lede": "Des sacs de 25 lb scellés, faciles à entreposer et à revendre à vos clients garagistes.",
+  "card": "Sacs scellés à revendre aux garages, prix distributeur dès 50 sacs.",
+  "alt": "Sacs de chiffons recyclés pour revente",
+  "body": """<h2>Un produit que vos clients garagistes achètent chaque semaine</h2>
+<p>Les garages et les carrossiers qui viennent chercher leurs pièces utilisent aussi des chiffons tous les jours. Nos sacs de 25 lb scellés se placent au comptoir ou en entrepôt.</p>
+<h2>Prix distributeur</h2>
+<ul><li>Au détail : 32 $ couleur, 42 $ blanc le [pack].</li>
+<li>Dès 50 [packs] : 28 $ couleur, 38 $ blanc, ramassage à Laval.</li></ul>
+<p>Prix avant taxes. Voir les conditions des <a href="{{gros}}">commandes en gros</a>.</p>
+<h2>Pour votre propre atelier</h2>
+<p>Si votre magasin a un atelier ou un service de livraison de pièces, le <a href="{{couleur}}">chiffon couleur</a> sert aussi à l'interne.</p>""",
+  "faq": [("Offrez-vous un prix pour la revente?", "Oui : dès 50 sacs de 25 lb, 28 $ couleur et 38 $ blanc, avec ramassage à Laval."),
+          ("Les sacs sont-ils prêts à vendre?", "Oui. Ce sont des sacs de 25 lb scellés, faciles à entreposer.")]},
+ {"path": "/en/auto-parts-store-rags-resale/", "short": "Auto parts stores",
+  "title": "Rags for resale at auto parts stores – 25 lb bags",
+  "desc": "Recycled rags in 25 lb bags for auto parts stores and distributors: resell to garages or use in your shop. Distributor price from 50 bags.",
+  "eyebrow": "Auto parts · distributors · resale", "h1": "Rags for auto parts stores",
+  "lede": "Sealed 25 lb bags, easy to store and resell to your garage customers.",
+  "card": "Sealed bags to resell to garages, distributor price from 50 bags.",
+  "alt": "Bags of recycled rags for resale",
+  "body": """<h2>A product your garage customers buy every week</h2>
+<p>Garages and body shops that pick up parts also use rags every day. Our sealed 25 lb bags fit at the counter or in the warehouse.</p>
+<h2>Distributor price</h2>
+<ul><li>Retail: $32 colored, $42 white per [pack].</li>
+<li>From 50 [packs]: $28 colored, $38 white, pickup in Laval.</li></ul>
+<p>Prices before tax. See our <a href="{{gros}}">bulk order</a> terms.</p>
+<h2>For your own shop</h2>
+<p>If your store has a shop or a parts delivery service, <a href="{{couleur}}">colored rags</a> work in-house too.</p>""",
+  "faq": [("Do you offer a resale price?", "Yes: from 50 bags of 25 lb, $28 colored and $38 white, with pickup in Laval."),
+          ("Are the bags ready to sell?", "Yes. They are sealed 25 lb bags, easy to store.")]})
+
 SECTOR2_PAGES = P
 SECTOR2_KEYS = list(P)
