@@ -68,6 +68,13 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(function (r) { if (!r.ok) throw new Error('form'); });
   }
 
+  var qs = new URLSearchParams(location.search);
+  [].forEach.call(document.querySelectorAll('.oqty'), function (i) {
+    var n = Math.floor(Number(qs.get(i.getAttribute('data-id'))) || 0);
+    if (n > 0) i.value = Math.min(n, C.max);
+  });
+  ['ville', 'code_postal'].forEach(function (k) { var v = qs.get(k), e = form.elements[k]; if (v && e) e.value = v.slice(0, 60); });
+  render();
   form.addEventListener('input', function () { render(); if (!err.hidden && !problem()) show(''); });
   form.addEventListener('submit', function (e) { e.preventDefault(); });
   render();
