@@ -36,7 +36,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
 - [Municipalités et écoles](https://entretienlaval.ca/chiffons-municipalites-ecoles/)
 - [Camions lourds et transport](https://entretienlaval.ca/chiffons-camions-lourds-transport/)
-- [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
 - [Centres de pneus](https://entretienlaval.ca/chiffons-centres-de-pneus/)
 - [Magasins de pièces d'auto](https://entretienlaval.ca/chiffons-magasins-pieces-auto-revente/)
 - [Ratine ou t-shirt : quel chiffon choisir](https://entretienlaval.ca/guides/ratine-ou-t-shirt/)
@@ -61,15 +60,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Sherbrooke](https://entretienlaval.ca/chiffons-guenilles-sherbrooke/)
 - [Trois-Rivières](https://entretienlaval.ca/chiffons-guenilles-trois-rivieres/)
 - [Gatineau](https://entretienlaval.ca/chiffons-guenilles-gatineau/)
-<<<<<<< HEAD
-- [Sorel-Tracy](https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/)
-- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/)
-- [Repentigny et Joliette](https://entretienlaval.ca/chiffons-guenilles-repentigny-joliette/)
-- [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/)
-- [Saint-Hyacinthe et Drummondville](https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe-drummondville/)
-- [Beloeil et Chambly](https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/)
-||||||| 5f782e5
-=======
 - [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/)
 - [Saint-Hyacinthe](https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe/)
 - [Vaudreuil-Dorion](https://entretienlaval.ca/chiffons-guenilles-vaudreuil-dorion/)
@@ -78,9 +68,11 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Drummondville](https://entretienlaval.ca/chiffons-guenilles-drummondville/)
 - [Victoriaville](https://entretienlaval.ca/chiffons-guenilles-victoriaville/)
 - [Saguenay](https://entretienlaval.ca/chiffons-guenilles-saguenay/)
+- [Sorel-Tracy](https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/)
+- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/)
+- [Beloeil et Chambly](https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/)
 - [Fournisseur de chiffons au Canada](https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/)
 - [Chiffons réutilisables ou lingettes jetables](https://entretienlaval.ca/guides/chiffons-reutilisables-ou-lingettes-jetables/)
->>>>>>> origin/main
 - [À propos](https://entretienlaval.ca/a-propos/)
 - [Nos clients](https://entretienlaval.ca/nos-clients/)
 - [Tous les secteurs](https://entretienlaval.ca/secteurs/)
@@ -116,7 +108,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
 - [Municipalities and schools](https://entretienlaval.ca/en/municipal-school-maintenance-rags/)
 - [Heavy trucks and fleets](https://entretienlaval.ca/en/truck-fleet-rags/)
-- [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
 - [Tire shops](https://entretienlaval.ca/en/tire-shop-rags/)
 - [Auto parts stores](https://entretienlaval.ca/en/auto-parts-store-rags-resale/)
 - [Terry vs T-shirt: which rag to choose](https://entretienlaval.ca/en/guides/terry-vs-t-shirt-rags/)
@@ -141,15 +132,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Sherbrooke](https://entretienlaval.ca/en/rags-sherbrooke/)
 - [Trois-Rivières](https://entretienlaval.ca/en/rags-trois-rivieres/)
 - [Gatineau](https://entretienlaval.ca/en/rags-gatineau/)
-<<<<<<< HEAD
-- [Sorel-Tracy](https://entretienlaval.ca/en/rags-sorel-tracy/)
-- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/en/rags-saint-jerome-mirabel/)
-- [Repentigny et Joliette](https://entretienlaval.ca/en/rags-repentigny-joliette/)
-- [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/)
-- [Saint-Hyacinthe et Drummondville](https://entretienlaval.ca/en/rags-saint-hyacinthe-drummondville/)
-- [Beloeil et Chambly](https://entretienlaval.ca/en/rags-beloeil-chambly/)
-||||||| 5f782e5
-=======
 - [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/)
 - [Saint-Hyacinthe](https://entretienlaval.ca/en/rags-saint-hyacinthe/)
 - [Vaudreuil-Dorion](https://entretienlaval.ca/en/rags-vaudreuil-dorion/)
@@ -158,9 +140,11 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Drummondville](https://entretienlaval.ca/en/rags-drummondville/)
 - [Victoriaville](https://entretienlaval.ca/en/rags-victoriaville/)
 - [Saguenay](https://entretienlaval.ca/en/rags-saguenay/)
+- [Sorel-Tracy](https://entretienlaval.ca/en/rags-sorel-tracy/)
+- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/en/rags-saint-jerome-mirabel/)
+- [Beloeil et Chambly](https://entretienlaval.ca/en/rags-beloeil-chambly/)
 - [Rag supplier in Canada](https://entretienlaval.ca/en/recycled-rag-supplier-canada/)
 - [Reusable rags vs cleaning wipes](https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/)
->>>>>>> origin/main
 - [About](https://entretienlaval.ca/en/about/)
 - [Our customers](https://entretienlaval.ca/en/our-customers/)
 - [All industries](https://entretienlaval.ca/en/industries/)

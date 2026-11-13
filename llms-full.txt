@@ -36,7 +36,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
 - [Municipalités et écoles](https://entretienlaval.ca/chiffons-municipalites-ecoles/)
 - [Camions lourds et transport](https://entretienlaval.ca/chiffons-camions-lourds-transport/)
-- [Soudure et fabrication métallique](https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/)
 - [Centres de pneus](https://entretienlaval.ca/chiffons-centres-de-pneus/)
 - [Magasins de pièces d'auto](https://entretienlaval.ca/chiffons-magasins-pieces-auto-revente/)
 - [Ratine ou t-shirt : quel chiffon choisir](https://entretienlaval.ca/guides/ratine-ou-t-shirt/)
@@ -61,15 +60,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Sherbrooke](https://entretienlaval.ca/chiffons-guenilles-sherbrooke/)
 - [Trois-Rivières](https://entretienlaval.ca/chiffons-guenilles-trois-rivieres/)
 - [Gatineau](https://entretienlaval.ca/chiffons-guenilles-gatineau/)
-<<<<<<< HEAD
-- [Sorel-Tracy](https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/)
-- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/)
-- [Repentigny et Joliette](https://entretienlaval.ca/chiffons-guenilles-repentigny-joliette/)
-- [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/)
-- [Saint-Hyacinthe et Drummondville](https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe-drummondville/)
-- [Beloeil et Chambly](https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/)
-||||||| 5f782e5
-=======
 - [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/)
 - [Saint-Hyacinthe](https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe/)
 - [Vaudreuil-Dorion](https://entretienlaval.ca/chiffons-guenilles-vaudreuil-dorion/)
@@ -78,9 +68,11 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Drummondville](https://entretienlaval.ca/chiffons-guenilles-drummondville/)
 - [Victoriaville](https://entretienlaval.ca/chiffons-guenilles-victoriaville/)
 - [Saguenay](https://entretienlaval.ca/chiffons-guenilles-saguenay/)
+- [Sorel-Tracy](https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/)
+- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/)
+- [Beloeil et Chambly](https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/)
 - [Fournisseur de chiffons au Canada](https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/)
 - [Chiffons réutilisables ou lingettes jetables](https://entretienlaval.ca/guides/chiffons-reutilisables-ou-lingettes-jetables/)
->>>>>>> origin/main
 - [À propos](https://entretienlaval.ca/a-propos/)
 - [Nos clients](https://entretienlaval.ca/nos-clients/)
 - [Tous les secteurs](https://entretienlaval.ca/secteurs/)
@@ -116,7 +108,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
 - [Municipalities and schools](https://entretienlaval.ca/en/municipal-school-maintenance-rags/)
 - [Heavy trucks and fleets](https://entretienlaval.ca/en/truck-fleet-rags/)
-- [Welding and metal fabrication](https://entretienlaval.ca/en/welding-metal-fabrication-rags/)
 - [Tire shops](https://entretienlaval.ca/en/tire-shop-rags/)
 - [Auto parts stores](https://entretienlaval.ca/en/auto-parts-store-rags-resale/)
 - [Terry vs T-shirt: which rag to choose](https://entretienlaval.ca/en/guides/terry-vs-t-shirt-rags/)
@@ -141,15 +132,6 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Sherbrooke](https://entretienlaval.ca/en/rags-sherbrooke/)
 - [Trois-Rivières](https://entretienlaval.ca/en/rags-trois-rivieres/)
 - [Gatineau](https://entretienlaval.ca/en/rags-gatineau/)
-<<<<<<< HEAD
-- [Sorel-Tracy](https://entretienlaval.ca/en/rags-sorel-tracy/)
-- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/en/rags-saint-jerome-mirabel/)
-- [Repentigny et Joliette](https://entretienlaval.ca/en/rags-repentigny-joliette/)
-- [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/)
-- [Saint-Hyacinthe et Drummondville](https://entretienlaval.ca/en/rags-saint-hyacinthe-drummondville/)
-- [Beloeil et Chambly](https://entretienlaval.ca/en/rags-beloeil-chambly/)
-||||||| 5f782e5
-=======
 - [Saint-Jean-sur-Richelieu](https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/)
 - [Saint-Hyacinthe](https://entretienlaval.ca/en/rags-saint-hyacinthe/)
 - [Vaudreuil-Dorion](https://entretienlaval.ca/en/rags-vaudreuil-dorion/)
@@ -158,9 +140,11 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Drummondville](https://entretienlaval.ca/en/rags-drummondville/)
 - [Victoriaville](https://entretienlaval.ca/en/rags-victoriaville/)
 - [Saguenay](https://entretienlaval.ca/en/rags-saguenay/)
+- [Sorel-Tracy](https://entretienlaval.ca/en/rags-sorel-tracy/)
+- [Saint-Jérôme et Mirabel](https://entretienlaval.ca/en/rags-saint-jerome-mirabel/)
+- [Beloeil et Chambly](https://entretienlaval.ca/en/rags-beloeil-chambly/)
 - [Rag supplier in Canada](https://entretienlaval.ca/en/recycled-rag-supplier-canada/)
 - [Reusable rags vs cleaning wipes](https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/)
->>>>>>> origin/main
 - [About](https://entretienlaval.ca/en/about/)
 - [Our customers](https://entretienlaval.ca/en/our-customers/)
 - [All industries](https://entretienlaval.ca/en/industries/)
@@ -341,12 +325,6 @@ Guenilles recyclées pour garages de poids lourds, transporteurs et ateliers de 
 - Q: Quel chiffon pour un garage de poids lourds? A: La ratine couleur à 32 $ le sac de 25 lb absorbe le plus d'huile et de graisse. Le t-shirt couleur suffit pour le nettoyage courant.
 - Q: Livrez-vous les transporteurs hors de Montréal? A: Oui. Nous livrons au Grand Montréal, et partout au Québec à partir de 1 000 lb (40 sacs).
 
-### Chiffons pour la soudure et la fabrication métallique
-URL: https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/
-Chiffons recyclés pour soudeurs et ateliers de fabrication métallique : dégraissage avant soudure, huile de coupe, nettoyage. Dès 32 $ le sac de 25 lb.
-- Q: Peut-on utiliser des chiffons de coton près de la soudure? A: Oui pour le nettoyage, mais gardez les chiffons huileux loin des étincelles, dans un contenant métallique fermé.
-- Q: Quel chiffon pour dégraisser le métal? A: Le t-shirt couleur à 32 $ le sac de 25 lb, avec votre solvant habituel. Le blanc pour les pièces à peindre.
-
 ### Chiffons pour centres de pneus
 URL: https://entretienlaval.ca/chiffons-centres-de-pneus/
 Guenilles recyclées pour centres de pneus : jantes, pâte de montage, mains, freins et nettoyage. Dès 32 $ le sac de 25 lb, livrées au Québec.
@@ -506,51 +484,6 @@ Guenilles et chiffons d'essuyage recyclés livrés à Gatineau : t-shirt ou rati
 - Q: Combien coûte la livraison à Gatineau? A: Les frais de livraison à Gatineau dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
 - Q: Quel chiffon choisir pour une entreprise à Gatineau? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
 
-<<<<<<< HEAD
-### Guenilles et chiffons à Sorel-Tracy
-URL: https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/
-Guenilles et chiffons d'essuyage recyclés livrés à Sorel-Tracy : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Sorel-Tracy? A: Oui. Nous livrons à Sorel-Tracy, notamment à Sorel-Tracy, Saint-Joseph-de-Sorel et Sainte-Anne-de-Sorel. Livraison à Sorel-Tracy à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Sorel-Tracy? A: Les frais de livraison à Sorel-Tracy dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Sorel-Tracy? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
-
-### Guenilles et chiffons à Saint-Jérôme et Mirabel
-URL: https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/
-Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jérôme et Mirabel : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Saint-Jérôme et Mirabel? A: Oui. Nous livrons à Saint-Jérôme et Mirabel, notamment à Saint-Jérôme, Mirabel et Saint-Janvier. Livraison à Saint-Jérôme et Mirabel à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Saint-Jérôme et Mirabel? A: Les frais de livraison à Saint-Jérôme et Mirabel dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saint-Jérôme et Mirabel? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
-
-### Guenilles et chiffons à Repentigny et Joliette
-URL: https://entretienlaval.ca/chiffons-guenilles-repentigny-joliette/
-Guenilles et chiffons d'essuyage recyclés livrés à Repentigny et Joliette : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Repentigny et Joliette? A: Oui. Nous livrons à Repentigny et Joliette, notamment à Repentigny, L'Assomption et Lavaltrie. Livraison à Repentigny et Joliette à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Repentigny et Joliette? A: Les frais de livraison à Repentigny et Joliette dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Repentigny et Joliette? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
-
-### Guenilles et chiffons à Saint-Jean-sur-Richelieu
-URL: https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/
-Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jean-sur-Richelieu : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Saint-Jean-sur-Richelieu? A: Oui. Nous livrons à Saint-Jean-sur-Richelieu, notamment à Saint-Jean-sur-Richelieu, Iberville et Saint-Luc. Livraison à Saint-Jean-sur-Richelieu à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Saint-Jean-sur-Richelieu? A: Les frais de livraison à Saint-Jean-sur-Richelieu dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saint-Jean-sur-Richelieu? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
-
-### Guenilles et chiffons à Saint-Hyacinthe et Drummondville
-URL: https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe-drummondville/
-Guenilles et chiffons d'essuyage recyclés livrés à Saint-Hyacinthe et Drummondville : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Saint-Hyacinthe et Drummondville? A: Oui. Nous livrons à Saint-Hyacinthe et Drummondville, notamment à Saint-Hyacinthe, Drummondville et Acton Vale. Livraison à Saint-Hyacinthe et Drummondville à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Saint-Hyacinthe et Drummondville? A: Les frais de livraison à Saint-Hyacinthe et Drummondville dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saint-Hyacinthe et Drummondville? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
-
-### Guenilles et chiffons à Beloeil et Chambly
-URL: https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/
-Guenilles et chiffons d'essuyage recyclés livrés à Beloeil et Chambly : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Beloeil et Chambly? A: Oui. Nous livrons à Beloeil et Chambly, notamment à Beloeil, McMasterville et Mont-Saint-Hilaire. Livraison à Beloeil et Chambly à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Beloeil et Chambly? A: Les frais de livraison à Beloeil et Chambly dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Beloeil et Chambly? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
-
-||||||| 5f782e5
-=======
 ### Guenilles et chiffons à Saint-Jean-sur-Richelieu
 URL: https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/
 Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jean-sur-Richelieu : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
@@ -607,6 +540,27 @@ Guenilles et chiffons d'essuyage recyclés livrés à Saguenay : t-shirt ou rati
 - Q: Combien coûte la livraison à Saguenay? A: Les frais de livraison à Saguenay dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
 - Q: Quel chiffon choisir pour une entreprise à Saguenay? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
 
+### Guenilles et chiffons à Sorel-Tracy
+URL: https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/
+Guenilles et chiffons d'essuyage recyclés livrés à Sorel-Tracy : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+- Q: Livrez-vous à Sorel-Tracy? A: Oui. Nous livrons à Sorel-Tracy, notamment à Sorel-Tracy, Saint-Joseph-de-Sorel, Sainte-Anne-de-Sorel, Contrecoeur, Saint-Ours et Yamaska. Livraison à Sorel-Tracy à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
+- Q: Combien coûte la livraison à Sorel-Tracy? A: Les frais de livraison à Sorel-Tracy dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
+- Q: Quel chiffon choisir pour une entreprise à Sorel-Tracy? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+
+### Guenilles et chiffons à Saint-Jérôme et Mirabel
+URL: https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/
+Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jérôme et Mirabel : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+- Q: Livrez-vous à Saint-Jérôme et Mirabel? A: Oui. Nous livrons à Saint-Jérôme et Mirabel, notamment à Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost et Sainte-Sophie. Livraison à Saint-Jérôme et Mirabel à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
+- Q: Combien coûte la livraison à Saint-Jérôme et Mirabel? A: Les frais de livraison à Saint-Jérôme et Mirabel dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
+- Q: Quel chiffon choisir pour une entreprise à Saint-Jérôme et Mirabel? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+
+### Guenilles et chiffons à Beloeil et Chambly
+URL: https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/
+Guenilles et chiffons d'essuyage recyclés livrés à Beloeil et Chambly : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+- Q: Livrez-vous à Beloeil et Chambly? A: Oui. Nous livrons à Beloeil et Chambly, notamment à Beloeil, McMasterville, Mont-Saint-Hilaire, Saint-Basile-le-Grand, Chambly et Carignan. Livraison à Beloeil et Chambly à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
+- Q: Combien coûte la livraison à Beloeil et Chambly? A: Les frais de livraison à Beloeil et Chambly dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
+- Q: Quel chiffon choisir pour une entreprise à Beloeil et Chambly? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+
 ### Fournisseur de chiffons recyclés en gros pour les distributeurs du Canada
 URL: https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/
 Chiffons recyclés en gros pour distributeurs partout au Canada : sacs de 25 lb à 28 $ couleur, 38 $ blanc dès 50 sacs, transport sur soumission.
@@ -621,7 +575,6 @@ Lingettes jetables ou chiffons en coton recyclé réutilisables : usages, coût 
 - Q: Les chiffons recyclés remplacent-ils les lingettes de nettoyage? A: Pour l'essuyage d'huile, de graisse, de liquides et le nettoyage courant en atelier, oui. Pour une désinfection avec un produit et un temps de contact précis, suivez les directives du fabricant.
 - Q: Combien coûtent les chiffons recyclés au poids? A: Chez Entretien Laval, 32 $ le sac de 25 lb en couleur (environ 1,28 $ la livre) et 42 $ en blanc, avant taxes. Distributeurs : 28 $ / 38 $ dès 50 sacs.
 
->>>>>>> origin/main
 ### Entretien Laval – Chiffons ÉCO
 URL: https://entretienlaval.ca/a-propos/
 Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et ailleurs au Québec dès 1 000 lb.
@@ -635,13 +588,7 @@ Qui achète les chiffons recyclés d'Entretien Laval : Ajax CNC Precision (usina
 
 ### Chiffons d'essuyage pour chaque secteur
 URL: https://entretienlaval.ca/secteurs/
-<<<<<<< HEAD
-Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.
-||||||| 5f782e5
-Guenilles et chiffons recyclés pour 14 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, fermes, marinas, municipalités.
-=======
-Guenilles et chiffons recyclés pour 15 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.
->>>>>>> origin/main
+Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.
 
 ### Commander des chiffons en ligne
 URL: https://entretienlaval.ca/commander/
@@ -848,12 +795,6 @@ Recycled shop rags for heavy truck garages, trucking fleets and trailer shops: o
 - Q: Which rag for a heavy truck garage? A: Colored terry at $32 per 25 lb bag absorbs the most oil and grease. Colored T-shirt is enough for everyday cleanup.
 - Q: Do you deliver to fleets outside Montreal? A: Yes. We deliver across Greater Montreal, and anywhere in Québec from 1,000 lb (40 bags).
 
-### Rags for welding and metal fabrication
-URL: https://entretienlaval.ca/en/welding-metal-fabrication-rags/
-Recycled rags for welders and metal fabrication shops: degreasing before welding, cutting oil, cleanup. From $32 per 25 lb bag.
-- Q: Can cotton rags be used near welding? A: Yes for cleanup, but keep oily rags away from sparks, in a closed metal container.
-- Q: Which rag to degrease metal? A: Colored T-shirt at $32 per 25 lb bag, with your usual solvent. White for parts to be painted.
-
 ### Rags for tire shops
 URL: https://entretienlaval.ca/en/tire-shop-rags/
 Recycled shop rags for tire shops: rims, mounting paste, hands, brakes and cleanup. From $32 per 25 lb bag, delivered in Québec.
@@ -1013,51 +954,6 @@ Recycled wiping rags and shop rags delivered in Gatineau: T-shirt or terry, colo
 - Q: How much is delivery in Gatineau? A: Delivery fees in Gatineau depend on the exact address and quantity. They're shown in the quote, before you order.
 - Q: Which rag should a business in Gatineau choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
 
-<<<<<<< HEAD
-### Rags and shop rags in Sorel-Tracy
-URL: https://entretienlaval.ca/en/rags-sorel-tracy/
-Recycled wiping rags and shop rags delivered in Sorel-Tracy: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Sorel-Tracy? A: Yes. We deliver in Sorel-Tracy, including Sorel-Tracy, Saint-Joseph-de-Sorel and Sainte-Anne-de-Sorel. Delivery in Sorel-Tracy from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Sorel-Tracy? A: Delivery fees in Sorel-Tracy depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Sorel-Tracy choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
-
-### Rags and shop rags in Saint-Jérôme et Mirabel
-URL: https://entretienlaval.ca/en/rags-saint-jerome-mirabel/
-Recycled wiping rags and shop rags delivered in Saint-Jérôme et Mirabel: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Saint-Jérôme et Mirabel? A: Yes. We deliver in Saint-Jérôme et Mirabel, including Saint-Jérôme, Mirabel and Saint-Janvier. Delivery in Saint-Jérôme et Mirabel from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Saint-Jérôme et Mirabel? A: Delivery fees in Saint-Jérôme et Mirabel depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Jérôme et Mirabel choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
-
-### Rags and shop rags in Repentigny et Joliette
-URL: https://entretienlaval.ca/en/rags-repentigny-joliette/
-Recycled wiping rags and shop rags delivered in Repentigny et Joliette: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Repentigny et Joliette? A: Yes. We deliver in Repentigny et Joliette, including Repentigny, L'Assomption and Lavaltrie. Delivery in Repentigny et Joliette from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Repentigny et Joliette? A: Delivery fees in Repentigny et Joliette depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Repentigny et Joliette choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
-
-### Rags and shop rags in Saint-Jean-sur-Richelieu
-URL: https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/
-Recycled wiping rags and shop rags delivered in Saint-Jean-sur-Richelieu: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Saint-Jean-sur-Richelieu? A: Yes. We deliver in Saint-Jean-sur-Richelieu, including Saint-Jean-sur-Richelieu, Iberville and Saint-Luc. Delivery in Saint-Jean-sur-Richelieu from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Saint-Jean-sur-Richelieu? A: Delivery fees in Saint-Jean-sur-Richelieu depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Jean-sur-Richelieu choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
-
-### Rags and shop rags in Saint-Hyacinthe et Drummondville
-URL: https://entretienlaval.ca/en/rags-saint-hyacinthe-drummondville/
-Recycled wiping rags and shop rags delivered in Saint-Hyacinthe et Drummondville: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Saint-Hyacinthe et Drummondville? A: Yes. We deliver in Saint-Hyacinthe et Drummondville, including Saint-Hyacinthe, Drummondville and Acton Vale. Delivery in Saint-Hyacinthe et Drummondville from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Saint-Hyacinthe et Drummondville? A: Delivery fees in Saint-Hyacinthe et Drummondville depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Hyacinthe et Drummondville choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
-
-### Rags and shop rags in Beloeil et Chambly
-URL: https://entretienlaval.ca/en/rags-beloeil-chambly/
-Recycled wiping rags and shop rags delivered in Beloeil et Chambly: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Beloeil et Chambly? A: Yes. We deliver in Beloeil et Chambly, including Beloeil, McMasterville and Mont-Saint-Hilaire. Delivery in Beloeil et Chambly from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Beloeil et Chambly? A: Delivery fees in Beloeil et Chambly depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Beloeil et Chambly choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
-
-||||||| 5f782e5
-=======
 ### Rags and shop rags in Saint-Jean-sur-Richelieu
 URL: https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/
 Recycled wiping rags and shop rags delivered in Saint-Jean-sur-Richelieu: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
@@ -1114,6 +1010,27 @@ Recycled wiping rags and shop rags delivered in Saguenay: T-shirt or terry, colo
 - Q: How much is delivery in Saguenay? A: Delivery fees in Saguenay depend on the exact address and quantity. They're shown in the quote, before you order.
 - Q: Which rag should a business in Saguenay choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
 
+### Rags and shop rags in Sorel-Tracy
+URL: https://entretienlaval.ca/en/rags-sorel-tracy/
+Recycled wiping rags and shop rags delivered in Sorel-Tracy: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+- Q: Do you deliver in Sorel-Tracy? A: Yes. We deliver in Sorel-Tracy, including Sorel-Tracy, Saint-Joseph-de-Sorel, Sainte-Anne-de-Sorel, Contrecoeur, Saint-Ours and Yamaska. Delivery in Sorel-Tracy from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
+- Q: How much is delivery in Sorel-Tracy? A: Delivery fees in Sorel-Tracy depend on the exact address and quantity. They're shown in the quote, before you order.
+- Q: Which rag should a business in Sorel-Tracy choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+
+### Rags and shop rags in Saint-Jérôme et Mirabel
+URL: https://entretienlaval.ca/en/rags-saint-jerome-mirabel/
+Recycled wiping rags and shop rags delivered in Saint-Jérôme et Mirabel: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+- Q: Do you deliver in Saint-Jérôme et Mirabel? A: Yes. We deliver in Saint-Jérôme et Mirabel, including Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost and Sainte-Sophie. Delivery in Saint-Jérôme et Mirabel from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
+- Q: How much is delivery in Saint-Jérôme et Mirabel? A: Delivery fees in Saint-Jérôme et Mirabel depend on the exact address and quantity. They're shown in the quote, before you order.
+- Q: Which rag should a business in Saint-Jérôme et Mirabel choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+
+### Rags and shop rags in Beloeil et Chambly
+URL: https://entretienlaval.ca/en/rags-beloeil-chambly/
+Recycled wiping rags and shop rags delivered in Beloeil et Chambly: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+- Q: Do you deliver in Beloeil et Chambly? A: Yes. We deliver in Beloeil et Chambly, including Beloeil, McMasterville, Mont-Saint-Hilaire, Saint-Basile-le-Grand, Chambly and Carignan. Delivery in Beloeil et Chambly from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
+- Q: How much is delivery in Beloeil et Chambly? A: Delivery fees in Beloeil et Chambly depend on the exact address and quantity. They're shown in the quote, before you order.
+- Q: Which rag should a business in Beloeil et Chambly choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+
 ### Wholesale recycled rag supplier for distributors across Canada
 URL: https://entretienlaval.ca/en/recycled-rag-supplier-canada/
 Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb bags at $28 colored and $38 white from 50 bags, freight quoted per order.
@@ -1128,7 +1045,6 @@ Disposable cleaning wipes or reusable recycled cotton rags: uses, cost per pound
 - Q: Can recycled rags replace cleaning wipes? A: For wiping oil, grease, liquids and everyday shop cleaning, yes. For disinfection that needs a specific product and contact time, follow the manufacturer's directions.
 - Q: How much do recycled rags cost per pound? A: At Entretien Laval, $32 per 25 lb bag colored (about $1.28 per lb) and $42 white, before tax. Distributors: $28 / $38 from 50 bags.
 
->>>>>>> origin/main
 ### Entretien Laval – ECO Rags
 URL: https://entretienlaval.ca/en/about/
 Entretien Laval (ECO Rags) sells recycled wiping rags in 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec.
@@ -1142,13 +1058,7 @@ Who buys Entretien Laval recycled rags: Ajax CNC Precision (machine shop, Montre
 
 ### Wiping rags for every industry
 URL: https://entretienlaval.ca/en/industries/
-<<<<<<< HEAD
-Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.
-||||||| 5f782e5
-Recycled rags for 14 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, farms, marinas, municipalities.
-=======
-Recycled rags for 15 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.
->>>>>>> origin/main
+Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.
 
 ### Order rags online
 URL: https://entretienlaval.ca/en/order/

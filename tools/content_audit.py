@@ -82,7 +82,7 @@ CITY_LOCAL = {
  "ville-saguenay": ("route 175 et route 170", "Route 175 and Route 170", "la Ville de Saguenay"),
  "ville-sorel-tracy": ("A-30 et route 132", "A-30 and Route 132", "la Ville de Sorel-Tracy ou de votre municipalité"),
  "ville-saint-jerome": ("A-15 et route 117", "A-15 and Route 117", "la Ville de Saint-Jérôme ou de Mirabel"),
- "ville-beloeil": ("A-20, route 112 et route 116", "A-20, Route 112 and Route 116", "votre municipalité ou votre MRC")}}
+ "ville-beloeil": ("A-20, route 112 et route 116", "A-20, Route 112 and Route 116", "votre municipalité ou votre MRC")}
 
 def city_extra(key, page):
     fr_r, en_r, muni = CITY_LOCAL[key]
