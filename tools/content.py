@@ -109,7 +109,7 @@ FAQ = {
 }
 
 HOME = {
- "fr": {"path": "/", "title": "Guenilles et chiffons d'essuyage recyclés à Laval | Chiffons ÉCO",
+ "fr": {"path": "/", "title": "Guenilles à vendre : sac de 25 lb dès 32 $, Laval | Chiffons ÉCO",
         "desc": "Guenilles et chiffons recyclés, lavés et traités anti-punaises, dès 32 $ le sac de 25 lb. Livrés à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
         "prod_eyebrow": "Nos chiffons · 4 produits", "prod_h2": "T-shirt ou ratine, blanc ou couleur.",
         "prod_p": "Sans métal ni boutons, lavés à l'eau chaude, traités contre les punaises de lit et coupés prêts à utiliser, en [packs]. Échantillons sur demande.",
@@ -129,7 +129,7 @@ HOME = {
         "c_email_btn": "Écrire un courriel", "c_wa_btn": "Écrire sur WhatsApp", "c_call_btn": "Nous écrire",
         "lbl": {"phone": "Téléphone", "mail": "Courriel", "wa": "WhatsApp", "ig": "Instagram", "pin": "Adresse", "biz": "Entreprise"},
         "hero_cta1": "Commander en ligne", "hero_cta2": "Demander une soumission"},
- "en": {"path": "/en/", "title": "Recycled wiping rags in Laval – 25 lb bags | ECO Rags",
+ "en": {"path": "/en/", "title": "Shop rags for sale: 25 lb bags from $32, Laval | ECO Rags",
         "desc": "Recycled cotton wiping rags and shop rags, washed and bedbug-treated, from $32 per 25 lb bag. Sorted in Laval, delivered across Greater Montreal and Québec.",
         "prod_eyebrow": "Our rags · 4 products", "prod_h2": "T-shirt or terry, white or colored.",
         "prod_p": "No metal or buttons, washed in hot water, bedbug-treated and cut ready to use, in [packs]. Samples on request.",
@@ -227,12 +227,14 @@ PAGES["peinture"] = {"kind": "sector", "img": IMG_SHOP, "rel": ["blancs", "guide
 <h2>Attention aux chiffons de teinture et d'huile</h2>
 <div class="note"><p>Les chiffons imbibés d'huile de lin, d'huile de tung ou de teinture à l'huile peuvent <b>s'enflammer d'eux-mêmes</b> en séchant. Ne les laissez jamais en boule ou en tas. Étendez-les à plat à l'extérieur pour sécher, ou mettez-les dans un contenant métallique fermé rempli d'eau. Détails dans le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p></div>
 <h2>Prix et livraison</h2>
-<p>Blanc : 42 $ le [pack], avant taxes. Livraison à votre atelier ou à l'adresse de votre choix, selon les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
+<p>Blanc : 42 $ le [pack], avant taxes. Livraison à votre atelier ou à l'adresse de votre choix, selon les <a href="{{livraison}}">conditions de livraison</a>.</p>
+<h2>Teindre le bois</h2>
+<p>Pour appliquer et essuyer une teinture, prenez le t-shirt blanc, mince et peu pelucheux. Voir le guide <a href="{{guide-teinture}}">quel chiffon pour teindre le bois</a>.</p>""",
   "faq": [("T-shirt ou ratine pour la teinture?", "Le t-shirt blanc pour appliquer et essuyer la teinture (fin et régulier), la ratine blanche pour les gros surplus et le nettoyage."),
           ("Les chiffons couleur peuvent-ils tacher le bois?", "Avec des solvants, un tissu teint peut déteindre. Pour la finition, prenez du blanc."),
           ("Comment jeter un chiffon de teinture à l'huile?", "Faites-le sécher à plat à l'extérieur ou mettez-le dans un contenant métallique fermé avec de l'eau, puis apportez-le à l'écocentre comme résidu domestique dangereux (RDD).")]},
  "en": {"path": "/en/painting-finishing-rags/", "short": "Painting and finishing",
-  "title": "Painters rags: white cotton, $42 per 25 lb bag – Québec",
+  "title": "Painters rags and wood staining rags: white cotton, $42 / 25 lb",
   "desc": "Painters rags in recycled white cotton with no color transfer, for paint, stain, varnish and oil. $42 per 25 lb bag, delivered in Laval and Montréal.",
   "eyebrow": "Painters · woodworkers · finishing", "h1": "Painters rags for painting, staining and finishing",
   "lede": "Painters rags in sorted white cotton with no color transfer, to apply and wipe paint, stain, oil and varnish without marking your surfaces.",
@@ -248,7 +250,9 @@ PAGES["peinture"] = {"kind": "sector", "img": IMG_SHOP, "rel": ["blancs", "guide
 <h2>Careful with stain and oil rags</h2>
 <div class="note"><p>Rags soaked with linseed oil, tung oil or oil-based stain can <b>catch fire on their own</b> as they dry. Never leave them balled up or in a pile. Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Details in the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p></div>
 <h2>Price and delivery</h2>
-<p>White: $42 per [pack], before tax. Delivered to your shop or any address you choose, under our <a href="{{livraison}}">delivery terms</a>.</p>""",
+<p>White: $42 per [pack], before tax. Delivered to your shop or any address you choose, under our <a href="{{livraison}}">delivery terms</a>.</p>
+<h2>Staining wood</h2>
+<p>To apply and wipe off stain, use thin, low-lint white T-shirt rags. See the guide <a href="{{guide-teinture}}">best rag for staining wood</a>.</p>""",
   "faq": [("What are painters rags?", "Painters rags are clean, lint-low cotton rags, usually white, used to wipe brushes, apply stain or oil and clean up drips. White cotton is preferred because it leaves no dye on the surface."),
           ("T-shirt or terry for staining?", "White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup."),
           ("Can colored rags stain wood?", "With solvents, dyed fabric can bleed. For finishing, choose white."),
@@ -380,7 +384,7 @@ PAGES["restauration"] = {"kind": "sector", "img": IMG_TEXT, "rel": ["entretien",
 
 PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "blancs", "guide-huileux"],
  "fr": {"path": "/chiffons-industriels-imprimerie/", "short": "Industrie et imprimerie",
-  "title": "Chiffons industriels et chiffons d'imprimerie – Québec",
+  "title": "Chiffons industriels en coton recyclé : sac de 25 lb dès 32 $",
   "desc": "Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Hors Laval et Montréal dès 1 000 lb.",
   "eyebrow": "Usines · imprimeries · maintenance", "h1": "Chiffons industriels et chiffons d'imprimerie",
   "lede": "Pour l'encre, l'huile de coupe, les solvants et l'entretien des machines : du coton recyclé en [packs], sans quantité maximale.",
@@ -399,7 +403,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "
           ("Pouvez-vous livrer chaque semaine?", "Oui, nous planifions les livraisons régulières selon votre consommation."),
           ("Livrez-vous hors du Grand Montréal?", "Oui, ailleurs au Québec à partir de 1 000 lb par livraison.")]},
  "en": {"path": "/en/industrial-printing-rags/", "short": "Industry and printing",
-  "title": "Industrial wiping rags and print shop rags – Québec",
+  "title": "Industrial shop rags, recycled cotton: 25 lb bag from $32",
   "desc": "Recycled cotton industrial rags for plants, print shops and maintenance: ink, oil, solvents. Outside Laval and Montreal from 1,000 lb.",
   "eyebrow": "Plants · print shops · maintenance", "h1": "Industrial wiping rags and print shop rags",
   "lede": "For ink, cutting oil, solvents and machine maintenance: recycled cotton in [packs], with no maximum quantity.",
@@ -441,7 +445,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
 <p>Pour vos dossiers d'achat : entreprise québécoise, textile réutilisé (environ 11 kg détournés de l'enfouissement par sac), prix et inscriptions fournisseur sur une page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Télécharger la fiche (PDF)</a></p>
 <h2>Demander une soumission</h2>
 <p>Indiquez le produit, la quantité et la ville de livraison dans le <a href="{{home#devis}}">formulaire</a> : nous vous répondons avec un prix livré.</p>""",
-  "faq": [("Offrez-vous des prix de volume?", "Demandez une soumission avec vos quantités prévues : nous vous répondons avec un prix livré."),
+  "faq": [("Offrez-vous des prix de volume?", "Oui : à partir de 50 sacs de 25 lb, 28 $ en couleur et 38 $ en blanc, avant taxes, ramassage à Laval. Une palette compte 45 sacs (environ 1 125 lb, 510 kg). Pour une livraison, demandez une soumission."),
           ("Puis-je mélanger les produits dans une livraison?", "Oui, le minimum de 1 000 lb s'applique au total de la livraison."),
           ("Livrez-vous en région?", "Oui, partout au Québec à partir de 1 000 lb, avec des frais selon la distance.")]},
  "en": {"path": "/en/wholesale-rags/", "short": "Wholesale rags",
@@ -465,7 +469,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
 <p>For your purchasing file: Québec company, reused textile (about 11 kg kept out of landfill per bag), prices and supplier registrations on one page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Download the sheet (PDF, French)</a></p>
 <h2>Request a quote</h2>
 <p>Tell us the product, quantity and delivery city in the <a href="{{home#devis}}">form</a> and we'll reply with a delivered price.</p>""",
-  "faq": [("Do you offer volume pricing?", "Request a quote with your expected quantities and we'll reply with a delivered price."),
+  "faq": [("Do you offer volume pricing?", "Yes: from 50 bags of 25 lb, $28 colored and $38 white, before tax, pickup in Laval. A pallet holds 45 bags (about 1,125 lb, 510 kg). For delivery, request a quote."),
           ("Can I mix products in one delivery?", "Yes, the 1,000 lb minimum applies to the delivery total."),
           ("Do you deliver to the regions?", "Yes, anywhere in Québec from 1,000 lb, with a fee based on distance.")]},
 }
@@ -623,8 +627,8 @@ PAGES["guides"] = {"kind": "guides", "img": None, "rel": [],
 
 PAGES["guide-huileux"] = {"kind": "guide", "img": IMG_SHOP, "rel": ["garage", "peinture", "industrie"],
  "fr": {"path": "/guides/chiffons-huileux-risque-incendie/", "short": "Chiffons huileux et risque d'incendie",
-  "title": "Chiffons huileux : risque d'incendie et comment les jeter",
-  "desc": "Pourquoi les chiffons imbibés d'huile, de teinture ou de solvant peuvent prendre feu seuls, et comment les ranger et les jeter de façon sécuritaire au Québec.",
+  "title": "Chiffon imbibé d'huile de lin : peut-il prendre feu seul?",
+  "desc": "Oui : un tas de chiffons imbibés d'huile de lin ou de teinture peut s'enflammer seul en quelques heures. Pourquoi, les 5 bons gestes et où les jeter au Québec.",
   "eyebrow": "Guide · sécurité", "h1": "Chiffons huileux : le risque d'incendie et comment les jeter",
   "lede": "Un tas de chiffons imbibés d'huile de lin ou de teinture peut s'enflammer tout seul. Voici comment l'éviter.",
   "card": "Pourquoi un tas de chiffons imbibés peut prendre feu seul, et quoi faire.",
@@ -646,8 +650,8 @@ PAGES["guide-huileux"] = {"kind": "guide", "img": IMG_SHOP, "rel": ["garage", "p
   "faq": [("Combien de temps avant qu'un chiffon prenne feu?", "Cela peut prendre de quelques heures à plus d'une journée, selon l'huile, la quantité et la température. C'est pourquoi il ne faut jamais laisser un tas sans surveillance."),
           ("Un chiffon à l'essence peut-il s'enflammer seul?", "Pas de la même façon que l'huile de lin, mais ses vapeurs s'enflamment facilement. Faites-le sécher à l'extérieur, loin de toute source d'ignition.")]},
  "en": {"path": "/en/guides/oily-rags-fire-risk/", "short": "Oily rags and fire risk",
-  "title": "Oily rags: fire risk and how to dispose of them safely",
-  "desc": "Why rags soaked with oil, stain or solvent can catch fire on their own, and how to store and dispose of them safely in Québec.",
+  "title": "Can oily rags catch fire on their own? How long, what to do",
+  "desc": "Yes: a pile of rags with linseed oil or oil-based stain can self-ignite within hours. Why it happens, how long it takes, 5 safe steps and disposal in Québec.",
   "eyebrow": "Guide · safety", "h1": "Oily rags: the fire risk and how to dispose of them",
   "lede": "A pile of rags soaked with linseed oil or stain can catch fire on its own. Here's how to prevent it.",
   "card": "Why a pile of soaked rags can catch fire on its own, and what to do.",

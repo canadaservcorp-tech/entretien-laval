@@ -28,20 +28,31 @@
   m.firstChild.title = fr ? 'Saleem, le petit nettoyeur' : 'Saleem, the little cleaner';
   var lad = document.createElement('div'); lad.className = 'm-ladder';
   document.body.appendChild(lad); document.body.appendChild(m);
-  var body = m.firstChild, x = 16, y = 0, run = 0, last = null;
+  var body = m.firstChild, x = PHONE ? 16 : Math.max(16, innerWidth - W - 40), y = 0, run = 0, last = null;
   var RUNG = Math.round(H * 0.2), FOOT = H * 110 / 114;
   m.style.setProperty('--ru', (RUNG * 114 / H).toFixed(2));
   var floor = function () { return innerHeight - H - 6; };
-  var place = function () { m.style.transform = 'translate(' + x + 'px,' + y + 'px)'; };
+  // never in front of a form
+  var boxOnForm = function (tx, ty) {
+    return [].some.call(document.querySelectorAll('#commande, .oform, .qform, form, .osum'), function (f) {
+      var q = f.getBoundingClientRect();
+      return q.width > 0 && tx < q.right && tx + W > q.left && ty < q.bottom && ty + H > q.top;
+    });
+  };
+  var place = function () {
+    m.style.transform = 'translate(' + x + 'px,' + y + 'px)';
+    if (!PHONE) m.style.visibility = lad.style.visibility = boxOnForm(x, y) ? 'hidden' : '';
+  };
   // on phones he stays out of the first screen and away from the order and quote forms
   var away = function () {
-    if (!PHONE) return false;
+    if (!PHONE) return boxOnForm(x, y);
     if (scrollY < innerHeight * 0.85) return true;
     return [].some.call(document.querySelectorAll('#commande, .qform'), function (f) {
       var r = f.getBoundingClientRect(); return r.top < innerHeight - 40 && r.bottom > 40;
     });
   };
   var hide = function () { var a = away(); m.style.visibility = lad.style.visibility = a ? 'hidden' : ''; return a; };
+  hide();
   y = floor(); place();
   m.querySelector('.m-close').addEventListener('click', function () {
     run = -1; m.remove(); lad.remove(); try { localStorage.setItem('el-mascot-off', '1'); } catch (e) {}
@@ -126,11 +137,20 @@
       setTimeout(function (el) { el.remove(); }.bind(null, s), 1400);
     }
   }
+  // on a computer he keeps to the right of the hero buttons while they are on screen
+  function minX() {
+    var c = !PHONE && document.querySelector('.hero .cta-row, .phero .cta-row'), r = c && c.getBoundingClientRect();
+    return r && r.bottom > 0 && r.top < innerHeight ? r.right + W + 24 : 0;
+  }
+  // where he would stand to clean r; never over a form
+  function onForm(r) {
+    return boxOnForm(r.left > W + 10 ? r.left - W + 6 : Math.min(r.right - 6, innerWidth - W - 4), r.top + r.height / 2 - H * 0.5);
+  }
   function targets() {
-    var top = 80, bot = innerHeight - 10;
+    var top = 80, bot = innerHeight - 10, mx = minX();
     return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn, .chip, .prod, .card, .jstep, main h2, main h3, main img, main th'), function (b) {
       var r = b.getBoundingClientRect();
-      return !b.closest('#commande, .oform, .qform') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
+      return !b.closest('#commande, .oform, .qform, .hero .cta-row, .phero .cta-row') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && r.left > mx && b !== last && !onForm(r);
     });
   }
   var pending = null, justScrolled = false, drag = null, active = Date.now(), IDLE = 20000;
@@ -168,8 +188,12 @@
         if (justScrolled) list.sort(function (a, c) { return dist(a) - dist(c); });
         b = justScrolled ? list[0] : list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
       } else {
-        var sx = 40 + Math.random() * (innerWidth - 80), sy = innerHeight * (0.3 + Math.random() * 0.3);
-        r = { left: sx - 30, right: sx + 30, top: sy - 14, height: 28, width: 60 };
+        for (var t = 0, mx = minX(); t < 12; t++) {
+          var sx = Math.max(40, mx + 30) + Math.random() * Math.max(0, innerWidth - 80 - mx), sy = innerHeight * (0.3 + Math.random() * 0.3);
+          r = { left: sx - 30, right: sx + 30, top: sy - 14, height: 28, width: 60 };
+          if (!onForm(r)) break;
+        }
+        if (onForm(r)) { justScrolled = false; await wait(1500); return; }
       }
       justScrolled = false;
     }
@@ -216,7 +240,7 @@
   }, { passive: true });
   // the visitor clicks: he goes there and cleans that spot
   document.addEventListener('click', function (e) {
-    if (m.contains(e.target)) return;
+    if (m.contains(e.target) || (e.target.closest && e.target.closest('form, #commande, .oform, .qform, .hero .cta-row, .phero .cta-row'))) return;
     var b = e.target.closest && e.target.closest('.btn, button, .chip, .prod, .card, .jstep');
     pending = { x: e.clientX, y: e.clientY, el: b && b.getBoundingClientRect().height < 260 ? b : null };
     reset(); scrolled = 0;

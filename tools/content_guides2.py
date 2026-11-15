@@ -86,8 +86,8 @@ P["guide-ranger"] = {"kind": "guide", "img": SHOP, "rel": ["guide-huileux", "gar
 
 P["glossaire"] = {"kind": "guide", "img": TEXT, "rel": ["guide-ratine", "couleur", "faq"],
  "fr": {"path": "/guides/guenille-chiffon-torchon-lexique/", "short": "Guenille, chiffon, linge : le lexique",
-  "title": "Guenille : définition, et guenilles à vendre dès 32 $",
-  "desc": "Une guenille, c'est un chiffon de coton récupéré. Le lexique québécois (chiffon, linge, ratine) et des guenilles à vendre : sac de 25 lb dès 32 $.",
+  "title": "Guenille : définition et guenille en anglais (rag) – lexique",
+  "desc": "Guenille : chiffon de coton récupéré; en anglais, rag ou shop rag. Le lexique québécois (chiffon, linge, ratine) et des guenilles dès 32 $ le sac de 25 lb.",
   "eyebrow": "Guide · lexique", "h1": "Guenille, chiffon, linge, ratine : le lexique des chiffons",
   "lede": "Au Québec, on dit guenille, chiffon ou linge. En anglais, rag, wiper ou shop rag. Voici ce que chaque mot veut dire.",
   "card": "Le vocabulaire québécois et anglais des chiffons, mot par mot.", "alt": "Textiles de coton récupérés",

@@ -1,6 +1,6 @@
 {
  "/": {
-  "hash": "12e64f887d064e9d9b94508c7cd0740f91653f14",
+  "hash": "3f445ae41a6ae0ef2027047d888e4c458c38cd67",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -180,7 +180,7 @@
   "published": "2026-11-06"
  },
  "/chiffons-industriels-imprimerie/": {
-  "hash": "99447c96884823c933a87b5fbde064f99f31ad0d",
+  "hash": "85120fdca435edbf9982aa49d75297b91e4ade59",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -200,7 +200,7 @@
   "published": "2026-10-10"
  },
  "/chiffons-peinture-finition/": {
-  "hash": "717ea37a3318e9f3425347c365f5d34f97205df0",
+  "hash": "29bd3efb084f213a53a91074bc8047fe8015c527",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -250,7 +250,7 @@
   "published": "2026-10-10"
  },
  "/en/": {
-  "hash": "d444c609c9d264ea5c715072228df383486fc41e",
+  "hash": "f8202030551bd31ff15ad6da5707c2a1519f3fb7",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -315,72 +315,72 @@
   "published": "2026-10-10"
  },
  "/en/guides/best-rag-for-staining-wood/": {
-  "hash": "e4647e0515b128011128816e1038d3bd259abde3",
+  "hash": "ede21b5ed2a8047215a4f43de4439e5dd42d723b",
   "modified": "2026-11-15",
   "published": "2026-11-05"
  },
  "/en/guides/industrial-shop-rags-buying-guide/": {
-  "hash": "34fade3f5255fb7d9f1620385bef39a822868e5e",
+  "hash": "6f41a6a6a3a87fe27b15f0d323e01f1ab0802b63",
   "modified": "2026-11-15",
   "published": "2026-11-05"
  },
  "/en/guides/lint-free-rags/": {
-  "hash": "b415acdf043e2a29230573a8681045156852721c",
+  "hash": "42672554f2ec15c47945febbd8b1ea88b1fc2d03",
   "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "/en/guides/metal-shop-rags-laval-montreal/": {
-  "hash": "67c5968d16ad0345025a19b7716c61905b22e639",
+  "hash": "bfcd2fad58170691cb7d0683e955a78ea8283ece",
   "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "/en/guides/oily-rags-fire-risk/": {
-  "hash": "5cbedf10aac3fe8cbb987880b4e06bcfb047e726",
+  "hash": "86f29ccab2a3026e23b41aad042127604ffd7378",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/guides/rag-glossary-quebec/": {
-  "hash": "2add25364bd87f1a2008eac347973299f5a77590",
+  "hash": "9f5715e3053a5c01dc23b69c126a55a8aa248182",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/guides/rag-prices-laval-montreal/": {
-  "hash": "fb950acf2c9ee5d9615c9542f1b498ee2bcaa5e6",
+  "hash": "00e3f78ddc8996ffab247b62ff46d6319eb284f5",
   "modified": "2026-11-15",
   "published": "2026-11-05"
  },
  "/en/guides/recycled-rags-vs-paper-towels/": {
-  "hash": "24bc49b647a53eaaeb931e6441be5a7ff683d3eb",
+  "hash": "0e740e2d4407f98bca794bec81349735cb1b9013",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/guides/reusable-rags-vs-cleaning-wipes/": {
-  "hash": "642ab0bf404d4b4c15a105b12298c96286cadc93",
+  "hash": "c01cd1a493519760529778b76512555a6beb7d31",
   "modified": "2026-11-15",
   "published": "2026-11-07"
  },
  "/en/guides/start-rag-resale-business/": {
-  "hash": "4dd62fdee19afb434e0b9c78b946df253c172091",
+  "hash": "d4d293c5bff8334e9cb759d89faf31d194f1ec38",
   "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "/en/guides/store-wash-reuse-rags/": {
-  "hash": "262e262f251bef9059816205e87e6bf8a9602280",
+  "hash": "bc640c43035d5de059e4007f92594b324bb533df",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/guides/terry-vs-t-shirt-rags/": {
-  "hash": "afc2d3212729e5c75f36eab2678a1e7ff4f02291",
+  "hash": "f1ad725b5542f6c9a1de7d5c6a08f3c94241a6cc",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/guides/where-to-buy-rags/": {
-  "hash": "cf08fd5e4037fbcd97fae08c9cf5a75af4c18643",
+  "hash": "94f6287819291ab42919bdc48e883dbb78b25e2b",
   "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "/en/industrial-printing-rags/": {
-  "hash": "f7b7b87c60287f95b2a47eda40b0b46e38114af0",
+  "hash": "1489187433c6e64d3054b1b21f223d139af230a6",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -420,7 +420,7 @@
   "published": "2026-11-11"
  },
  "/en/painting-finishing-rags/": {
-  "hash": "2348c0d4118da24cebc3e869ca14994882571a1e",
+  "hash": "9b551dcd80f45989a87f545fa8b13ba83ba5ead9",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -595,7 +595,7 @@
   "published": "2026-11-11"
  },
  "/en/wholesale-rags/": {
-  "hash": "d94f469b08daf287dc076a83f1e9007be24467e3",
+  "hash": "9d8bb54d54b0f246adb69b2efc6e61a063687dee",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -615,7 +615,7 @@
   "published": "2026-11-07"
  },
  "/guenilles-en-gros/": {
-  "hash": "91bde25147e9ed273df6d4400802558a9ebf7ea8",
+  "hash": "1d1c51256b01cd46a5fdc4e29cd45b8b40670fde",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
@@ -625,67 +625,67 @@
   "published": "2026-10-10"
  },
  "/guides/chiffon-non-pelucheux/": {
-  "hash": "3e78ba63c642b90562e1ace5b2d3be9d4f7645a8",
+  "hash": "898898cba345547674a5bed99cb91bc24e69559c",
   "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "/guides/chiffons-atelier-metal-laval-montreal/": {
-  "hash": "86c581c33d61ae2e9e6e192ee1e0c728233f90b8",
+  "hash": "572175a0cb87d3746bbfcd88981b294254eea9c1",
   "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "/guides/chiffons-huileux-risque-incendie/": {
-  "hash": "2b1d2ed3fe3c69b6e84d933cb6e7804049ae9fe9",
+  "hash": "134f9ba4f81bba6db5031f69b9621106edea681d",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/guides/chiffons-industriels-guide-achat/": {
-  "hash": "fbbce9d0c2cd8982a2acd3caab2ea3fcd0c28348",
+  "hash": "fbef7fdeae22a6838458127b925bbc839b714b03",
   "modified": "2026-11-15",
   "published": "2026-11-05"
  },
  "/guides/chiffons-recycles-ou-papier/": {
-  "hash": "b54e7cfdeada128eb312773e71e20cbff74bd0d8",
+  "hash": "5c66d4ae511710949bca03a4ec39cde4fba1f339",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/guides/chiffons-reutilisables-ou-lingettes-jetables/": {
-  "hash": "5efa3727b303480ed6b5d714f337b3dd1784fd4e",
+  "hash": "fecbfb2060f9a3868bfcc1aa422dc35cb04b96d9",
   "modified": "2026-11-15",
   "published": "2026-11-07"
  },
  "/guides/demarrer-entreprise-revente-chiffons/": {
-  "hash": "17cfcdcf772bda39af66f7a71793458a8bc1cc95",
+  "hash": "06fa2011c007864144dcf91f0c1ab693545d4122",
   "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "/guides/guenille-chiffon-torchon-lexique/": {
-  "hash": "42074abdc34901266cf9124c9bf1037e6252b275",
+  "hash": "c8c6618955dba1c26d1f11becf5310fa85cc30b2",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/guides/meilleur-chiffon-teinture-bois/": {
-  "hash": "04058dcf1046d4ac1f0c816790308c89621b5a03",
+  "hash": "c265e33bacdba90e30aef99de80fec1a5ec0e4dc",
   "modified": "2026-11-15",
   "published": "2026-11-05"
  },
  "/guides/ou-acheter-des-guenilles/": {
-  "hash": "c8a74c2022f82825285225bede73fba6e3d4476d",
+  "hash": "684c302c8f622d203416b21d538c9df1eec2b46f",
   "modified": "2026-11-15",
   "published": "2026-11-08"
  },
  "/guides/prix-guenilles-laval-montreal/": {
-  "hash": "365ad47ac719b4df6bb84d3ff9550dbf1bb5dd0b",
+  "hash": "40a1f7e39994ba37d2c4e102fb55b3c8ece14f73",
   "modified": "2026-11-15",
   "published": "2026-11-05"
  },
  "/guides/ranger-laver-reutiliser-chiffons/": {
-  "hash": "7cc3b7988246c9f79993137b0f7a2d5e859fe8f8",
+  "hash": "5bec2a61ac3619643b4883e21b1db1ebcff032e9",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/guides/ratine-ou-t-shirt/": {
-  "hash": "68f87c06c326dec2b7429976b131afb8a245ad56",
+  "hash": "b38238b750bdea42418b93d6976062d8edecb637",
   "modified": "2026-11-15",
   "published": "2026-10-10"
  },
