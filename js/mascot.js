@@ -217,7 +217,7 @@
   }, { passive: true });
   // the visitor clicks: he goes there and cleans that spot
   document.addEventListener('click', function (e) {
-    if (m.contains(e.target)) return;
+    if (m.contains(e.target) || (e.target.closest && e.target.closest('form, #commande, .oform, .qform, .hero .cta-row, .phero .cta-row'))) return;
     var b = e.target.closest && e.target.closest('.btn, button, .chip, .prod, .card, .jstep');
     pending = { x: e.clientX, y: e.clientY, el: b && b.getBoundingClientRect().height < 260 ? b : null };
     reset(); scrolled = 0;
