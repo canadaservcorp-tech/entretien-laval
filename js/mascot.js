@@ -127,11 +127,16 @@
       setTimeout(function (el) { el.remove(); }.bind(null, s), 1400);
     }
   }
+  // on a computer he keeps to the right of the hero buttons while they are on screen
+  function minX() {
+    var c = !PHONE && document.querySelector('.hero .cta-row, .phero .cta-row'), r = c && c.getBoundingClientRect();
+    return r && r.bottom > 0 && r.top < innerHeight ? r.right + W + 24 : 0;
+  }
   function targets() {
-    var top = 80, bot = innerHeight - 10;
+    var top = 80, bot = innerHeight - 10, mx = minX();
     return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn, .chip, .prod, .card, .jstep, main h2, main h3, main img, main th'), function (b) {
       var r = b.getBoundingClientRect();
-      return !b.closest('#commande, .oform, .qform, .hero .cta-row, .phero .cta-row') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
+      return !b.closest('#commande, .oform, .qform, .hero .cta-row, .phero .cta-row') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && r.left > mx && b !== last;
     });
   }
   var pending = null, justScrolled = false, drag = null, active = Date.now(), IDLE = 20000;
@@ -169,7 +174,7 @@
         if (justScrolled) list.sort(function (a, c) { return dist(a) - dist(c); });
         b = justScrolled ? list[0] : list[Math.floor(Math.random() * list.length)]; last = b; r = b.getBoundingClientRect();
       } else {
-        var sx = 40 + Math.random() * (innerWidth - 80), sy = innerHeight * (0.3 + Math.random() * 0.3);
+        var mx = minX(), sx = Math.max(40, mx + 30) + Math.random() * Math.max(0, innerWidth - 80 - mx), sy = innerHeight * (0.3 + Math.random() * 0.3);
         r = { left: sx - 30, right: sx + 30, top: sy - 14, height: 28, width: 60 };
       }
       justScrolled = false;
