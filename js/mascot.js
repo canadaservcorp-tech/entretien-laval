@@ -28,7 +28,7 @@
   m.firstChild.title = fr ? 'Saleem, le petit nettoyeur' : 'Saleem, the little cleaner';
   var lad = document.createElement('div'); lad.className = 'm-ladder';
   document.body.appendChild(lad); document.body.appendChild(m);
-  var body = m.firstChild, x = 16, y = 0, run = 0, last = null;
+  var body = m.firstChild, x = PHONE ? 16 : Math.max(16, innerWidth - W - 40), y = 0, run = 0, last = null;
   var RUNG = Math.round(H * 0.2), FOOT = H * 110 / 114;
   m.style.setProperty('--ru', (RUNG * 114 / H).toFixed(2));
   var floor = function () { return innerHeight - H - 6; };
@@ -131,7 +131,7 @@
     var top = 80, bot = innerHeight - 10;
     return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn, .chip, .prod, .card, .jstep, main h2, main h3, main img, main th'), function (b) {
       var r = b.getBoundingClientRect();
-      return !b.closest('#commande, .oform, .qform') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
+      return !b.closest('#commande, .oform, .qform, .hero .cta-row, .phero .cta-row') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
   var pending = null, justScrolled = false, drag = null, active = Date.now(), IDLE = 20000;
