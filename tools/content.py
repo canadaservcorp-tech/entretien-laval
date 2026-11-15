@@ -38,7 +38,7 @@ TERMS = {
 
 UI = {
  "fr": {"home": "Accueil", "wa_fab": "Courriel", "skip": "Aller au contenu", "menu": "Menu", "call": "Nous écrire",
-        "quote": "Demander une soumission", "call_btn": "Appeler", "sectors": "Secteurs", "products": "Produits",
+        "quote": "Demander une soumission", "order": "Commander", "order_go": "Choisir mes sacs", "call_btn": "Appeler", "sectors": "Secteurs", "products": "Produits",
         "guides": "Guides", "info": "Infos", "more": "En savoir plus →", "read": "Lire le guide →",
         "faq_h": "Questions fréquentes", "related": "À voir aussi", "prices_h": "Prix par [pack]",
         "prices_note": "Prix avant taxes. Livraison selon l'emplacement.", "see_all_faq": "Toutes les questions →",
@@ -47,7 +47,7 @@ UI = {
         "nav_label": "Navigation principale", "lang_name": "English", "crumbs": "Fil d'Ariane",
         "updated": "Mis à jour", "unit": "/ [pack]", "delivery_to": "Livraison :"},
  "en": {"home": "Home", "wa_fab": "Email", "skip": "Skip to content", "menu": "Menu", "call": "Email us",
-        "quote": "Request a quote", "call_btn": "Call", "sectors": "Industries", "products": "Products",
+        "quote": "Request a quote", "order": "Order", "order_go": "Choose my bags", "call_btn": "Call", "sectors": "Industries", "products": "Products",
         "guides": "Guides", "info": "Info", "more": "Learn more →", "read": "Read the guide →",
         "faq_h": "Frequently asked questions", "related": "See also", "prices_h": "Price per [pack]",
         "prices_note": "Prices before tax. Delivery depends on location.", "see_all_faq": "All questions →",
@@ -68,7 +68,7 @@ SECTOR_KEYS = ["garage", "peinture", "entretien", "construction", "restauration"
 FAQ = {
  "fr": [
   ("Où acheter des guenilles en gros à Laval?", "Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en [packs]. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir <a href=\"{{gros}}\">guenilles en gros</a>."),
-  ("Combien coûte une boîte de chiffons de 25 lb?", "32 $ le [pack] pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir <a href=\"{{home#produits}}\">les produits</a>."),
+  ("Combien coûte un sac de chiffons de 25 lb?", "32 $ le [pack] pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir <a href=\"{{home#produits}}\">les produits</a>."),
   ("Qu'y a-t-il dans un [pack]?", "25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités contre les punaises de lit."),
   ("Quelle est la différence entre ratine et t-shirt?", "Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts."),
   ("Blanc ou couleur?", "Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers."),
@@ -88,7 +88,7 @@ FAQ = {
  ],
  "en": [
   ("Where can I buy rags in bulk in Laval?", "From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and bedbug-treated, in [packs]. $32 colored, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See <a href=\"{{gros}}\">wholesale rags</a>."),
-  ("How much does a 25 lb box of rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
+  ("How much does a 25 lb bag of rags cost?", "$32 per [pack] for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See <a href=\"{{home#produits}}\">products</a>."),
   ("What's in a [pack]?", "25 lb of recycled cotton rags of a single type: T-shirt or terry, white or colored. The rags are washed, sorted and treated against bedbugs."),
   ("What's the difference between terry and T-shirt rags?", "T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills."),
   ("White or colored?", "White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites."),
@@ -128,7 +128,7 @@ HOME = {
         "ready_h": "Vous préférez parler à quelqu'un?", "ready_p": "Écrivez-nous. Livraison à Laval et Montréal; ailleurs au Québec dès 1 000 lb.",
         "c_email_btn": "Écrire un courriel", "c_wa_btn": "Écrire sur WhatsApp", "c_call_btn": "Nous écrire",
         "lbl": {"phone": "Téléphone", "mail": "Courriel", "wa": "WhatsApp", "ig": "Instagram", "pin": "Adresse", "biz": "Entreprise"},
-        "hero_cta1": "Demander une soumission", "hero_cta2": "Voir les prix"},
+        "hero_cta1": "Commander en ligne", "hero_cta2": "Demander une soumission"},
  "en": {"path": "/en/", "title": "Recycled wiping rags in Laval – 25 lb bags | ECO Rags",
         "desc": "Recycled cotton wiping rags and shop rags, washed and bedbug-treated, from $32 per 25 lb bag. Sorted in Laval, delivered across Greater Montreal and Québec.",
         "prod_eyebrow": "Our rags · 4 products", "prod_h2": "T-shirt or terry, white or colored.",
@@ -148,7 +148,7 @@ HOME = {
         "ready_h": "Prefer to talk to someone?", "ready_p": "Email us. Delivery in Laval and Montreal; elsewhere in Québec from 1,000 lb.",
         "c_email_btn": "Send an email", "c_wa_btn": "Message on WhatsApp", "c_call_btn": "Email us",
         "lbl": {"phone": "Phone", "mail": "Email", "wa": "WhatsApp", "ig": "Instagram", "pin": "Address", "biz": "Business"},
-        "hero_cta1": "Request a quote", "hero_cta2": "See prices"},
+        "hero_cta1": "Order online", "hero_cta2": "Request a quote"},
 }
 
 IMG_BAG = "sac-chiffons-t-shirt-couleur-25-lb.webp"

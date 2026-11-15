@@ -113,8 +113,8 @@ def header(lang, key):
 <nav class="main" aria-label="{u['nav_label']}">{links}</nav>
 <div class="tools">
 <a class="langsw" href="{L(key, other)}" hreflang="{other}-CA" lang="{other}-CA" title="{u['lang_name']}">{other.upper()}</a>
-<a class="call" href="{L("home#devis", lang)}">{ICON['arrow'].replace('<svg', HID, 1)}<span>{u["quote"]}</span></a>
-<details class="mnav"><summary aria-label="{u['menu']}"><span></span></summary><nav aria-label="{u['menu']}">{links}<a class="btn btn-primary" href="{L('home#devis', lang)}">{u['quote']}</a></nav></details>
+<a class="call" href="{L("commander" if "commander" in C.PAGES else "home#devis", lang)}">{ICON['arrow'].replace('<svg', HID, 1)}<span>{u["order"] if "commander" in C.PAGES else u["quote"]}</span></a>
+<details class="mnav"><summary aria-label="{u['menu']}"><span></span></summary><nav aria-label="{u['menu']}">{links}{order_btn(lang)}<a class="btn btn-ghost" href="{L('home#devis', lang)}">{u['quote']}</a></nav></details>
 </div>
 </div>
 </header>
@@ -154,11 +154,22 @@ def faq_ld(items, lang):
 def price_box(lang, ids=None):
     u = C.UI[lang]
     rows = "".join(f'<div class="pline"><span>{PROD[i][lang][0]}</span><b>{price(PROD[i]["price"], lang)}</b></div>' for i in (ids or [p["id"] for p in C.PRODUCTS]))
-    return f'<div class="pbox"><h2>{fill(u["prices_h"], lang)}</h2>{rows}<p class="small">{u["prices_note"]}</p>{order_btn(lang)}<a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div>'
+    return f'<div class="pbox"><h2>{fill(u["prices_h"], lang)}</h2>{rows}<p class="small">{u["prices_note"]}</p>{order_btn(lang)}<a class="btn btn-ghost" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div>'
 
 def order_btn(lang):
     if "commander" not in C.PAGES: return ""
     return f'<a class="btn btn-primary" href="{L("commander", lang)}">{C.PAGES["commander"][lang]["short"]}</a>'
+
+def price_line(lang):
+    col = min(p["price"] for p in C.PRODUCTS if "couleur" in p["id"]); wht = min(p["price"] for p in C.PRODUCTS if "blanc" in p["id"])
+    fee = next((z["fee"] for z in O.CHECKOUT["zones"] if z["id"] == "laval"), None)
+    if lang == "fr": t = f'Sac de 25 lb : <b>couleur {col} $</b> · <b>blanc {wht} $</b>' + (f' · livraison à Laval {fee} $' if fee else '') + ' <small>(avant taxes)</small>'
+    else: t = f'25 lb bag: <b>colour ${col}</b> · <b>white ${wht}</b>' + (f' · Laval delivery ${fee}' if fee else '') + ' <small>(before tax)</small>'
+    return f'<p class="hprice">{t}</p>'
+
+def dist_line(lang):
+    if lang == "fr": return '<p class="hprice">Distributeurs, dès 50 sacs de 25 lb : <b>couleur 28 $</b> · <b>blanc 38 $</b> <small>(avant taxes, ramassage à Laval)</small></p>'
+    return '<p class="hprice">Distributors, from 50 bags of 25 lb: <b>colour $28</b> · <b>white $38</b> <small>(before tax, pickup in Laval)</small></p>'
 
 def order_html(lang):
     ck, ou = O.CHECKOUT, O.UI[lang]
@@ -211,7 +222,7 @@ def cards(keys, lang, more=None):
 
 def ctaband(lang):
     u = C.UI[lang]
-    return f'<section class="ctaband"><div class="wrap"><div><h2>{u["cta_h"]}</h2><p>{u["cta_p"]}</p></div><div class="cta-row" style="margin-top:0"><a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div></div></section>'
+    return f'<section class="ctaband"><div class="wrap"><div><h2>{u["cta_h"]}</h2><p>{u["cta_p"]}</p></div><div class="cta-row" style="margin-top:0">{order_btn(lang)}<a class="btn btn-ghost" href="{L("home#devis", lang)}">{u["quote"]}</a></div></div></section>'
 
 def product_id(p, lang):
     return C.SITE + L(p["page"], lang) + "#product-" + p["id"]
@@ -305,7 +316,13 @@ def subpage(key, lang):
             {"@type": "ListItem", "position": i + 1, "url": C.SITE + L(k, lang), "name": C.PAGES[k][lang]["short"]} for i, k in enumerate(lst)]})
     noindex = kind == "thanks"
     media = f'<div class="frame">{img_tag(pg["img"], t["alt"], lazy=False, hi=True)}</div>' if pg.get("img") else ""
-    hero_cta = "" if noindex else f'<div class="cta-row"><a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div>'
+    first = f'<a class="btn btn-primary" href="#commande">{u["order_go"]}</a>' if kind == "order" else (order_btn(lang) or f'<a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a>')
+    if key in ("gros", "canada"):
+        first = f'<a class="btn btn-primary" href="{L("home#devis", lang)}">{u["quote"]}</a>'
+        second = order_btn(lang).replace("btn-primary", "btn-ghost") if key == "gros" else ""
+        hero_cta = dist_line(lang) + f'<div class="cta-row">{first}{second}</div>'
+    elif noindex: hero_cta = ""
+    else: hero_cta = price_line(lang) + f'<div class="cta-row">{first}' + (f'<a class="btn btn-ghost" href="{L("home#devis", lang)}">{u["quote"]}</a>' if "home#devis" not in first else "") + '</div>'
     if noindex: hero_cta = f'<div class="cta-row"><a class="btn btn-primary" href="{L("home", lang)}">{u["home"]}</a></div>'
     hero = f'<section class="phero"><div class="wrap {"phero-grid" if media else ""}"><div><div class="eyebrow">{t["eyebrow"]}</div><h1>{t["h1"]}</h1><p class="lede">{fill(t["lede"], lang)}</p>{hero_cta}</div>{media}</div></section>'
     body = ""
@@ -348,8 +365,9 @@ def homepage(lang):
     part = rd(f"home-{lang}.html")
     part = re.sub(r' data-i="[^"]*"', "", part)
     part = re.sub(r"<!-- GRADES -->.*?</section>\n", "<!--PRODUCTS-->", part, flags=re.S)
-    part = re.sub(r'(<a class="btn btn-primary") href="#contact">[^<]*</a>', rf'\1 href="#devis">{h["hero_cta1"]}</a>', part, count=1)
-    part = re.sub(r'(<a class="btn btn-ghost") href="#grades">[^<]*</a>', rf'\1 href="#produits">{h["hero_cta2"]}</a>', part, count=1)
+    part = re.sub(r'(<a class="btn btn-primary") href="#contact">[^<]*</a>', rf'\1 href="{L("commander", lang) if "commander" in C.PAGES else "#devis"}">{h["hero_cta1"]}</a>', part, count=1)
+    part = re.sub(r'(<a class="btn btn-ghost") href="#grades">[^<]*</a>', rf'\1 href="#devis">{h["hero_cta2"]}</a>', part, count=1)
+    part = part.replace('<div class="cta-row">', price_line(lang) + '<div class="cta-row">', 1)
     part = part.replace('href="#contact"', 'href="#devis"').replace('href="#grades"', 'href="#produits"')
     part = re.sub(r'(<div class="hero-media">\s*<div class="frame"><img)', r'\1 fetchpriority="high"', part, count=1)
     prods = "".join(f'<div class="prod"><span class="code">{p[lang][1]}</span><h3>{p[lang][0]}</h3><div class="price">{price(p["price"], lang)}<small>{fill(u["unit"], lang)}</small></div><p>{p[lang][2]}</p><a href="{L(p["page"], lang)}">{u["more"]}</a></div>' for p in C.PRODUCTS)

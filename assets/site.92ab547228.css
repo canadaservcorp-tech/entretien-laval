@@ -508,3 +508,10 @@ footer{background:#0B2238}
 .mascot .m-body.flip .m-shirt text{transform:scaleX(-1);transform-box:fill-box;transform-origin:center}
 @keyframes m-swing{from{transform:rotate(-7deg)}to{transform:rotate(6deg)}}
 @keyframes m-tap{from{transform:rotate(-7deg)}to{transform:rotate(14deg)}}
+.hprice{margin-top:22px;font-size:17px;color:var(--ink-soft)}
+.hprice b{color:var(--ink);font-weight:700}
+.hprice small{font-size:13px;color:#5f5d53}
+.hero .hprice + .cta-row,.phero .hprice + .cta-row{margin-top:16px}
+@media(max-width:860px){.call span{display:inline}}
+@media(max-width:520px){.call{padding:9px 12px}.call svg{display:none}.hprice{font-size:16px}}
+@media(max-width:420px){.brand small{display:none}}

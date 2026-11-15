@@ -4,7 +4,7 @@
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   try { if (localStorage.getItem('el-mascot-off') === '1') return; } catch (e) {}
   var fr = (document.documentElement.lang || 'fr').indexOf('en') !== 0;
-  var H = innerWidth < 600 ? 164 : 200, W = Math.round(H * 0.7), SPEED = 150;
+  var PHONE = innerWidth < 600, H = PHONE ? 116 : 200, W = Math.round(H * 0.7), SPEED = 150;
   var svg = '<svg viewBox="0 0 80 114" aria-hidden="true"><g fill="none" stroke="#0F2A44" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'
     + '<g class="m-leg l"><g class="m-th"><path d="M39 72L37 90"/><g class="m-sh"><path d="M37 90L37 108"/><g class="m-ft"><path d="M37 108h7"/></g></g></g></g>'
     + '<g class="m-leg r"><g class="m-th"><path d="M41 72L43 90"/><g class="m-sh"><path d="M43 90L43 108"/><g class="m-ft"><path d="M43 108h7"/></g></g></g></g>'
@@ -33,6 +33,15 @@
   m.style.setProperty('--ru', (RUNG * 114 / H).toFixed(2));
   var floor = function () { return innerHeight - H - 6; };
   var place = function () { m.style.transform = 'translate(' + x + 'px,' + y + 'px)'; };
+  // on phones he stays out of the first screen and away from the order and quote forms
+  var away = function () {
+    if (!PHONE) return false;
+    if (scrollY < innerHeight * 0.85) return true;
+    return [].some.call(document.querySelectorAll('#commande, .qform'), function (f) {
+      var r = f.getBoundingClientRect(); return r.top < innerHeight - 40 && r.bottom > 40;
+    });
+  };
+  var hide = function () { var a = away(); m.style.visibility = lad.style.visibility = a ? 'hidden' : ''; return a; };
   y = floor(); place();
   m.querySelector('.m-close').addEventListener('click', function () {
     run = -1; m.remove(); lad.remove(); try { localStorage.setItem('el-mascot-off', '1'); } catch (e) {}
@@ -121,7 +130,7 @@
     var top = 80, bot = innerHeight - 10;
     return [].filter.call(document.querySelectorAll('main .btn, section .btn, .qform .btn, .chip, .prod, .card, .jstep, main h2, main h3, main img, main th'), function (b) {
       var r = b.getBoundingClientRect();
-      return r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
+      return !b.closest('#commande, .oform, .qform') && r.width > 0 && r.height < 260 && r.top > top && r.bottom < bot && b !== last;
     });
   }
   var pending = null, justScrolled = false, drag = null, active = Date.now(), IDLE = 20000;
@@ -199,6 +208,7 @@
   // the visitor scrolls: he runs along with them, ladder on his shoulder
   addEventListener('scroll', function () {
     var d = scrollY - lastY; lastY = scrollY; scrolled = Date.now(); justScrolled = true;
+    if (hide()) return;
     reset(); body.classList.add('walk', 'carry');
     if (Math.abs(d) > 2) body.classList.toggle('flip', d < 0);
     x = Math.max(4, Math.min(x + (d > 0 ? 0.75 : -0.75), innerWidth - W - 4));
@@ -245,7 +255,7 @@
   (async function loop() {
     await wait(500);
     while (run >= 0) {
-      if (drag || Date.now() - scrolled < 600 || document.hidden) { await wait(150); continue; }
+      if (drag || Date.now() - scrolled < 600 || document.hidden || hide()) { await wait(150); continue; }
       if (y < floor() - 1 && !lad.classList.contains('on')) {
         var fall = floor() - y > 40;
         if (!fall) body.classList.add('walk', 'carry');
