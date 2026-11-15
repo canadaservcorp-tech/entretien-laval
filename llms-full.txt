@@ -607,7 +607,7 @@ Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, 
 
 ## FAQ
 - Q: Où acheter des guenilles en gros à Laval? A: Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en sacs de 25 lb. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir guenilles en gros.
-- Q: Combien coûte une boîte de chiffons de 25 lb? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
+- Q: Combien coûte un sac de chiffons de 25 lb? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
 - Q: Qu'y a-t-il dans un sac de 25 lb? A: 25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités contre les punaises de lit.
 - Q: Quelle est la différence entre ratine et t-shirt? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts.
 - Q: Blanc ou couleur? A: Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers.
@@ -1077,7 +1077,7 @@ Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at che
 
 ## FAQ
 - Q: Where can I buy rags in bulk in Laval? A: From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and bedbug-treated, in 25 lb bags. $32 colored, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See wholesale rags.
-- Q: How much does a 25 lb box of rags cost? A: $32 per 25 lb bag for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
+- Q: How much does a 25 lb bag of rags cost? A: $32 per 25 lb bag for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
 - Q: What's in a 25 lb bag? A: 25 lb of recycled cotton rags of a single type: T-shirt or terry, white or colored. The rags are washed, sorted and treated against bedbugs.
 - Q: What's the difference between terry and T-shirt rags? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills.
 - Q: White or colored? A: White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites.
