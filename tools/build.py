@@ -167,6 +167,14 @@ def price_line(lang):
     else: t = f'25 lb bag: <b>colour ${col}</b> · <b>white ${wht}</b>' + (f' · Laval delivery ${fee}' if fee else '') + ' <small>(before tax)</small>'
     return f'<p class="hprice">{t}</p>'
 
+def buy_note(prose, lang):
+    colour, white = (min(p["price"] for p in C.PRODUCTS if ("blanc" in p["id"]) == w) for w in (False, True))
+    if lang == "fr": t = f'<b>Chiffons ÉCO :</b> chiffons recyclés – guenilles en sac de 25 lb, couleur {colour} $ · blanc {white} $ avant taxes, livrés à Laval et Montréal. <a href="{L("commander", lang)}">Commander en ligne</a> · <a href="{L("gros", lang)}">En gros (50 sacs et plus)</a>'
+    else: t = f'<b>ECO Rags:</b> recycled cotton rags in 25 lb bags, colored ${colour} · white ${white} before tax, delivered in Laval and Montréal. <a href="{L("commander", lang)}">Order online</a> · <a href="{L("gros", lang)}">Wholesale (50 bags +)</a>'
+    i = prose.find("<h2>", 1)
+    note = f'<div class="note buy"><p>{t}</p></div>\n'
+    return prose[:i] + note + prose[i:] if i > 0 else prose + note
+
 def dist_line(lang):
     if lang == "fr": return '<p class="hprice">Distributeurs, dès 50 sacs de 25 lb : <b>couleur 28 $</b> · <b>blanc 38 $</b> <small>(avant taxes, ramassage à Laval)</small></p>'
     return '<p class="hprice">Distributors, from 50 bags of 25 lb: <b>colour $28</b> · <b>white $38</b> <small>(before tax, pickup in Laval)</small></p>'
@@ -336,7 +344,9 @@ def subpage(key, lang):
             body += f'<section class="section band"><div class="wrap"><div class="terms" style="margin-top:0">' + "".join(f"<div><b>{a}</b>{b}</div>" for a, b in C.TERMS[lang]) + "</div></div></section>"
         if kind == "tool": body += calc_html(t, lang)
         if kind == "order": body += order_html(lang)
-        body += f'<section class="section"><div class="wrap cgrid"><article class="prose">{fill(t["body"], lang)}{gloss(t)}</article><aside class="side">{side}</aside></div></section>'
+        prose = fill(t["body"], lang)
+        if kind == "guide": prose = buy_note(prose, lang)
+        body += f'<section class="section"><div class="wrap cgrid"><article class="prose">{prose}{gloss(t)}</article><aside class="side">{side}</aside></div></section>'
         if faq: body += f'<section class="section band"><div class="wrap"><div class="sec-head"><h2>{u["faq_h"]}</h2></div>{faq_html(faq, lang)}</div></section>'
     elif kind == "faq":
         body += f'<section class="section"><div class="wrap cgrid"><div>{faq_html(faq, lang)}</div><aside class="side">{price_box(lang)}</aside></div></section>'

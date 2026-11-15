@@ -42,6 +42,7 @@
     });
   };
   var hide = function () { var a = away(); m.style.visibility = lad.style.visibility = a ? 'hidden' : ''; return a; };
+  hide();
   y = floor(); place();
   m.querySelector('.m-close').addEventListener('click', function () {
     run = -1; m.remove(); lad.remove(); try { localStorage.setItem('el-mascot-off', '1'); } catch (e) {}
