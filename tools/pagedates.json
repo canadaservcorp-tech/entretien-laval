@@ -21,17 +21,17 @@
  },
  "/chiffons-camions-lourds-transport/": {
   "hash": "0d2249290709bb7486c57c00a0289c44f955d94f",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-13"
  },
  "/chiffons-carrosserie-debosselage/": {
   "hash": "6d468af93120d8476bb6ba8488b1793cadbd7eb1",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-centres-de-pneus/": {
   "hash": "0e38d9bf614f2efa4df17cbc9deb748b59b4eb63",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-13"
  },
  "/chiffons-construction-chantier/": {
@@ -46,17 +46,17 @@
  },
  "/chiffons-ebenisterie-menuiserie/": {
   "hash": "c9f095b05dcea10a28eb870c8caabc773936f40c",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-entretien-menager-conciergerie/": {
   "hash": "ea56fb02c93652ff7a751d878d49c1aa1adaacba",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-esthetique-automobile-lave-auto/": {
   "hash": "fc5a7cdd7db197debd1f2986215ba988d8f32c98",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-fermes-machinerie-agricole/": {
@@ -66,7 +66,7 @@
  },
  "/chiffons-garage-mecanique/": {
   "hash": "c76bbd0be99963b2dfe43ead53d6e0e5d236065c",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-beloeil-chambly/": {
@@ -186,27 +186,27 @@
  },
  "/chiffons-magasins-pieces-auto-revente/": {
   "hash": "338d06a8decef601c149c796a583ed07b37026a0",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-13"
  },
  "/chiffons-marinas-bateaux/": {
   "hash": "d4b46acc5544c9a45adcc0f466f27718c24b64aa",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-municipalites-ecoles/": {
   "hash": "2f6cb6c1e51678a2985e655bc7bbc862e121b64f",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-peinture-finition/": {
   "hash": "294f258f3fa45d7efccee68d27d8bd5d6380e90d",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-plomberie-cvac/": {
   "hash": "8446f6fd0911b54c3f3a7b6d140f46d6e93e6a41",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-ratine-blanc/": {
@@ -221,12 +221,12 @@
  },
  "/chiffons-restauration-cuisine/": {
   "hash": "b8f6387aef7e12f41296c5f86e5b9d4d56c5a6ff",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/chiffons-soudure-fabrication-metallique/": {
   "hash": "e75250d0d1e50b34a0e48cceed42ca02c6522b23",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "/chiffons-t-shirt-blanc/": {
@@ -261,17 +261,17 @@
  },
  "/en/auto-body-shop-rags/": {
   "hash": "1984616c0b4d2e9d0875bdba59220aa5b87de294",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/auto-parts-store-rags-resale/": {
   "hash": "05075df02b0ec3010d83e082dad4b62a1d31805e",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-13"
  },
  "/en/car-detailing-car-wash-rags/": {
   "hash": "dcc58f9422d632d91bd0ad2dfcdd4c98b035ac98",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/colored-recycled-rags/": {
@@ -311,7 +311,7 @@
  },
  "/en/guides/": {
   "hash": "9b29e79d9f4215dff640bcf2106b7982a011a4a1",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/guides/best-rag-for-staining-wood/": {
@@ -386,12 +386,12 @@
  },
  "/en/industries/": {
   "hash": "2a81e770593b6d5dbf729dc283e970e6f54f34bf",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/janitorial-cleaning-rags/": {
   "hash": "94a73cc8709ff35424b317e671e446f79a436f67",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/machine-shop-rags/": {
@@ -401,12 +401,12 @@
  },
  "/en/marina-boat-rags/": {
   "hash": "b647d8e5b1bad7d6939f28a77f7a1a91d1fa3b3d",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/municipal-school-maintenance-rags/": {
   "hash": "2f118bd48cc823056ceeaf4d5abbed75429f8213",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/order/": {
@@ -421,12 +421,12 @@
  },
  "/en/painting-finishing-rags/": {
   "hash": "a8faa827601e1a8e045c9a8872de836f31b67beb",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/plumbing-hvac-rags/": {
   "hash": "20b54855357046a1b73c76f5dc88dc1fc667e67e",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/rag-calculator/": {
@@ -546,37 +546,37 @@
  },
  "/en/recycled-rag-supplier-canada/": {
   "hash": "80a6743adf7c2d60171f4b213be830176911b5fe",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-07"
  },
  "/en/restaurant-kitchen-rags/": {
   "hash": "6f435ac7c9c10e5eaf1e11f355f2e3fc19710155",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/shop-rags-garage-mechanics/": {
   "hash": "e124cae756aec4a0e2a66a155d5431eb3879fe48",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/thanks/": {
   "hash": "c0430c1e86ce6744f4336868cdae3259dbce6026",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/en/tire-shop-rags/": {
   "hash": "3d4228724f4b1f9dd3b5c670afaf6296d0234b29",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-13"
  },
  "/en/truck-fleet-rags/": {
   "hash": "7c3b1c1b64d1431772504a80308fd3d4edad470c",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-13"
  },
  "/en/welding-metal-fabrication-rags/": {
   "hash": "bca82fa2171c3f01d0f522cdecfebb16d3dd3f05",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-06"
  },
  "/en/white-recycled-rags/": {
@@ -601,7 +601,7 @@
  },
  "/en/woodworking-cabinetmaking-rags/": {
   "hash": "6b2e421a447d12c24a720fcc854affe06e8b06e1",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/faq/": {
@@ -611,7 +611,7 @@
  },
  "/fournisseur-chiffons-recycles-canada/": {
   "hash": "ea1fdaf9d5e5bc3289f4b664b7040e23c0c85895",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-11-07"
  },
  "/guenilles-en-gros/": {
@@ -621,7 +621,7 @@
  },
  "/guides/": {
   "hash": "33b92eb4920a63cf419d2b9326aa89ebcdec26e6",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/guides/chiffon-non-pelucheux/": {
@@ -696,7 +696,7 @@
  },
  "/merci/": {
   "hash": "a43b0e219dff082cacfe7d6a87f8326e184730f0",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  },
  "/nos-clients/": {
@@ -706,7 +706,7 @@
  },
  "/secteurs/": {
   "hash": "d9b9787796fb2e57c71b7a91ea5b579da3b0f8d5",
-  "modified": "2026-11-16",
+  "modified": "2026-11-15",
   "published": "2026-10-10"
  }
 }
