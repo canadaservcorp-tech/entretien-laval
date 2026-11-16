@@ -528,3 +528,4 @@ footer{background:#0B2238}
 .svy-f label{display:block;margin-bottom:10px}
 .svy-f input,.svy-f textarea{margin-top:4px}
 .svy-f textarea{min-height:70px}
+.svy .qform{border:0;padding:0;margin:0;background:none;box-shadow:none}
