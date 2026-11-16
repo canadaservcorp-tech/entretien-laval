@@ -28,23 +28,23 @@ S("carrosserie", SHOP, ["peinture", "blancs", "garage"],
           ("Quel format pour un atelier de carrosserie?", "Beaucoup d'ateliers gardent un mélange : quelques [packs] de blanc pour les surfaces et de la couleur pour les outils et le nettoyage.")]},
  {"path": "/en/auto-body-shop-rags/", "short": "Auto body",
   "title": "Rags for auto body and collision shops – 25 lb bags",
-  "desc": "Recycled rags for auto body shops: degreasing, sanding dust, spray gun and tool cleaning. White or colored, from $32 per 25 lb bag.",
+  "desc": "Recycled rags for auto body shops: degreasing, sanding dust, spray gun and tool cleaning. White or coloured, from $32 per 25 lb bag.",
   "eyebrow": "Auto body · collision · refinishing", "h1": "Rags for auto body shops",
   "lede": "For degreasing panels, wiping sanding dust and cleaning spray guns and tools, in [packs].",
-  "card": "Degreasing, sanding, spray guns: white for surfaces, colored for everything else.",
+  "card": "Degreasing, sanding, spray guns: white for surfaces, coloured for everything else.",
   "alt": "Shop rags for auto body work",
   "body": """<h2>What body shops use our rags for</h2>
 <ul><li><b>Degreasing</b> panels before primer, with your usual solvent.</li>
 <li><b>Sanding dust</b> and surface cleanup between steps.</li>
-<li><b>Spray guns, cups and tools</b>: cleanup after each color.</li>
+<li><b>Spray guns, cups and tools</b>: cleanup after each colour.</li>
 <li><b>Hands, benches and floors</b> in the shop.</li></ul>
-<h2>White or colored?</h2>
-<p>On a surface that's ready for paint, use <a href="{{blancs}}">white T-shirt rags</a> ($42 per [pack]): they leave no dye on the panel. For tools, guns and floors, <a href="{{couleur}}">colored rags</a> at $32 are enough.</p>
+<h2>White or coloured?</h2>
+<p>On a surface that's ready for paint, use <a href="{{blancs}}">white T-shirt rags</a> ($42 per [pack]): they leave no dye on the panel. For tools, guns and floors, <a href="{{couleur}}">coloured rags</a> at $32 are enough.</p>
 <p>Right before the paint coat, most painters use a dedicated tack cloth. Our rags cover every other step.</p>
 <h2>Solvents and safety</h2>
 <p>Rags soaked with thinner or solvent belong in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
   "faq": [("Do your rags leave lint on paint?", "Sorted white T-shirt rags are low-lint and work well for degreasing. For the last wipe before paint, a dedicated tack cloth is still best."),
-          ("What should a body shop order?", "Many shops keep a mix: a few [packs] of white for surfaces and colored rags for tools and cleanup.")]})
+          ("What should a body shop order?", "Many shops keep a mix: a few [packs] of white for surfaces and coloured rags for tools and cleanup.")]})
 
 S("esthetique-auto", BAG, ["carrosserie", "blancs", "garage"],
  {"path": "/chiffons-esthetique-automobile-lave-auto/", "short": "Esthétique auto et lave-auto",
@@ -80,9 +80,9 @@ S("esthetique-auto", BAG, ["carrosserie", "blancs", "garage"],
 <li>Door jambs, sills and trunks.</li>
 <li>Cleaning buckets, tools and the wash bay.</li></ul>
 <h2>What about the paint?</h2>
-<p>For drying and polishing paint, most detailers prefer microfiber. If you use cotton, choose <a href="{{blancs}}">white T-shirt rags</a>, with no color transfer.</p>
+<p>For drying and polishing paint, most detailers prefer microfiber. If you use cotton, choose <a href="{{blancs}}">white T-shirt rags</a>, with no colour transfer.</p>
 <h2>Which product to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) absorbs lots of water and grime for wheels and engines. Colored T-shirt rags suit interiors and plastics.</p>""",
+<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) absorbs lots of water and grime for wheels and engines. Coloured T-shirt rags suit interiors and plastics.</p>""",
   "faq": [("Can recycled rags scratch paint?", "Any cloth can scratch if it drags dirt. On paint, use a clean, soft rag like white T-shirt, or a microfiber."),
           ("Can car wash rags be laundered?", "Yes, if they aren't soaked with solvent. Wash them separately and skip fabric softener, which reduces absorbency.")]})
 
@@ -104,18 +104,18 @@ S("ebenisterie", SHOP, ["guide-huileux", "peinture", "blancs"],
           ("Peut-on jeter un chiffon taché d'huile de lin à la poubelle?", "Pas tel quel : il peut s'enflammer. Faites-le sécher à plat à l'extérieur ou mettez-le dans un contenant métallique fermé avec de l'eau, puis suivez les consignes de votre municipalité.")]},
  {"path": "/en/woodworking-cabinetmaking-rags/", "short": "Woodworking and cabinetmaking",
   "title": "Rags for woodworking, staining and oil finishes",
-  "desc": "Recycled cotton rags for woodworkers and cabinetmakers: stain, linseed oil, varnish, wiping. White T-shirt with no color transfer, from $32 per 25 lb bag.",
+  "desc": "Recycled cotton rags for woodworkers and cabinetmakers: stain, linseed oil, varnish, wiping. White T-shirt with no colour transfer, from $32 per 25 lb bag.",
   "eyebrow": "Woodworking · cabinetmaking · wood finishing", "h1": "Rags for woodworking and wood finishing",
-  "lede": "For applying and wiping stains, oils and varnishes, in [packs]. White T-shirt rags leave no color on the wood.",
-  "card": "Stain, linseed oil, varnish: white T-shirt rags with no color transfer.",
+  "lede": "For applying and wiping stains, oils and varnishes, in [packs]. White T-shirt rags leave no colour on the wood.",
+  "card": "Stain, linseed oil, varnish: white T-shirt rags with no colour transfer.",
   "alt": "Shop rags for wood finishing",
   "body": """<h2>The right rag for finishing</h2>
-<p>To apply stain or oil and wipe off the excess, you need soft cotton that won't bleed. <a href="{{blancs}}">White T-shirt rags</a> ($42 per [pack]) are made for it. For shop and tool cleanup, <a href="{{couleur}}">colored rags</a> at $32 are enough.</p>
+<p>To apply stain or oil and wipe off the excess, you need soft cotton that won't bleed. <a href="{{blancs}}">White T-shirt rags</a> ($42 per [pack]) are made for it. For shop and tool cleanup, <a href="{{couleur}}">coloured rags</a> at $32 are enough.</p>
 <h2>Warning: linseed oil and spontaneous combustion</h2>
 <p>Rags soaked with linseed oil, tung oil or oil-based stain can <b>catch fire on their own</b> when they dry in a pile. Lay them flat to dry outdoors, or put them in a closed metal container filled with water. The full explanation is in the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>
 <h2>Which shops</h2>
 <p>Cabinetmakers, furniture and kitchen cabinet makers, carpenters, furniture restorers and hardwood floor contractors.</p>""",
-  "faq": [("Which rag should I use to apply stain?", "White T-shirt rags: soft, absorbent and no color transfer onto the wood."),
+  "faq": [("Which rag should I use to apply stain?", "White T-shirt rags: soft, absorbent and no colour transfer onto the wood."),
           ("Can I throw a linseed-oil rag in the trash?", "Not as is: it can ignite. Dry it flat outdoors or put it in a closed metal container with water, then follow your municipality's rules.")]})
 
 S("plomberie-cvac", BALE, ["construction", "couleur", "usinage"],
@@ -150,7 +150,7 @@ S("plomberie-cvac", BALE, ["construction", "couleur", "usinage"],
 <li>Bleeding radiators, water heaters and heating systems.</li>
 <li>Small leaks, condensate and protecting customers' floors.</li></ul>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) is thick and soaks up lots of water: ideal for bleeding and leaks. Softer colored T-shirt rags work for hands and fittings.</p>
+<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) is thick and soaks up lots of water: ideal for bleeding and leaks. Softer coloured T-shirt rags work for hands and fittings.</p>
 <h2>For truck fleets</h2>
 <p>A company with several trucks can order in volume and split the bags. See <a href="{{gros}}">wholesale pricing</a> and <a href="{{livraison}}">delivery</a>.</p>""",
   "faq": [("Which rag soaks up water from bleeding a system?", "Terry (towel cloth): it's our most absorbent option."),
@@ -182,11 +182,11 @@ S("marine", BAGS, ["garage", "couleur", "guide-ranger"],
   "body": """<h2>From launch to winterizing</h2>
 <p>A marina goes through a lot of rags in spring and fall: oil changes, outboard and inboard motor maintenance, fuel spills, and cleaning hulls, decks and bilges.</p>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) for oil, fuel and water. <a href="{{blancs}}">White T-shirt rags</a> ($42) for gelcoat, varnish and finish surfaces.</p>
+<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) for oil, fuel and water. <a href="{{blancs}}">White T-shirt rags</a> ($42) for gelcoat, varnish and finish surfaces.</p>
 <h2>Protect the water</h2>
 <p>Never throw a dirty rag in the water or in an open bin on the dock. Keep fuel- or oil-soaked rags in a closed metal container, then take them to a proper collection point. See the guide <a href="{{guide-ranger}}">storing, washing and disposing of rags</a>.</p>""",
   "faq": [("Can you deliver before the season starts?", "Yes. Order at least a week ahead: orders are confirmed and paid one week before delivery."),
-          ("Which rag for gelcoat?", "White T-shirt rags: soft, with no color transfer.")]})
+          ("Which rag for gelcoat?", "White T-shirt rags: soft, with no colour transfer.")]})
 
 S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
  {"path": "/chiffons-fermes-machinerie-agricole/", "short": "Fermes et machinerie agricole",
@@ -214,7 +214,7 @@ S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
   "body": """<h2>Equipment maintenance</h2>
 <p>Greasing pivot points, oil changes, hydraulic oil, cleaning filters and engines: farm machinery uses a lot of rags, especially before planting and harvest.</p>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) is the most economical for oil and grease. Order in volume before the season: see <a href="{{gros}}">wholesale pricing</a>.</p>
+<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) is the most economical for oil and grease. Order in volume before the season: see <a href="{{gros}}">wholesale pricing</a>.</p>
 <h2>Delivery to rural areas</h2>
 <p>We deliver anywhere in Québec from 1,000 lb (40 bags). Neighbouring farms can combine an order to a single address. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
   "faq": [("Do you deliver to farms?", "Yes, from 1,000 lb per delivery outside Laval, Montréal, the South Shore and the North Shore. Fees depend on distance."),
@@ -252,7 +252,7 @@ S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
 <li>Maintaining ways, vises and tools.</li>
 <li>Hands, benches and floors.</li></ul>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> holds the most fluid. Colored T-shirt rags are softer for parts. Both cost $32 per [pack]. For wiping finished parts before measuring, <a href="{{blancs}}">white T-shirt</a> ($42) leaves no dye. To compare, see the guide <a href="{{guide-ratine}}">terry vs T-shirt</a>.</p>
+<p><a href="{{couleur}}">Coloured terry</a> holds the most fluid. Coloured T-shirt rags are softer for parts. Both cost $32 per [pack]. For wiping finished parts before measuring, <a href="{{blancs}}">white T-shirt</a> ($42) leaves no dye. To compare, see the guide <a href="{{guide-ratine}}">terry vs T-shirt</a>.</p>
 <h2>Watch out for chips</h2>
 <p>A rag used near a machine can hold sharp metal chips. Don't reuse it on hands or a delicate surface.</p>""",
   "faq": [("How many bags per month for a shop?", "It depends on the number of stations and the type of work. Our <a href=\"{{calculateur}}\">calculator</a> helps you estimate your budget from your usage."),
@@ -296,15 +296,15 @@ S("soudure", SHOP, ["usinage", "blancs", "guide-metal"],
 <li><b>Maintenance</b>: welding stations, saws, press brakes, drills, hands and benches.</li></ul>
 <h2>Which rag to choose</h2>
 <table><thead><tr><th>Use</th><th>Recommended rag</th></tr></thead><tbody>
-<tr><td>Oil, grease, everyday cleaning</td><td><a href="{{couleur}}">Colored</a> (T-shirt or terry), $32</td></tr>
+<tr><td>Oil, grease, everyday cleaning</td><td><a href="{{couleur}}">Coloured</a> (T-shirt or terry), $32</td></tr>
 <tr><td>Degreasing before welding or painting, finished parts</td><td><a href="{{blancs}}">White T-shirt</a>, $42: no dye transfer</td></tr>
-<tr><td>Oil or coolant spills</td><td>Colored terry, $32</td></tr></tbody></table>
+<tr><td>Oil or coolant spills</td><td>Coloured terry, $32</td></tr></tbody></table>
 <p>Our rags have no buttons, zippers or metal parts, so they don't scratch parts.</p>
 <h2>Safety near sparks</h2>
 <p>Keep rags, clean or dirty, away from the welding and grinding area. Rags soaked with solvent or oil go in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
-  "faq": [("Where can I buy rags for a welding shop in Laval or Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: 25 lb [pack] at $32 colored or $42 white, before tax. Pickup in Laval, delivery in Laval ($15, from 1 [pack]) and Montréal ($25, from 2 [packs])."),
+  "faq": [("Where can I buy rags for a welding shop in Laval or Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: 25 lb [pack] at $32 coloured or $42 white, before tax. Pickup in Laval, delivery in Laval ($15, from 1 [pack]) and Montréal ($25, from 2 [packs])."),
           ("Which rag should I use to degrease steel before welding?", "White T-shirt: it's thin, leaves little lint and doesn't transfer dye to the part. Use it with your usual solvent."),
-          ("Do you have pricing for large shops?", "Yes: $28 colored and $38 white from 50 [packs], before tax. See <a href=\"{{gros}}\">wholesale rags</a>.")]})
+          ("Do you have pricing for large shops?", "Yes: $28 coloured and $38 white from 50 [packs], before tax. See <a href=\"{{gros}}\">wholesale rags</a>.")]})
 
 S("municipal", BAGS, ["entretien", "garage", "gros"],
  {"path": "/chiffons-municipalites-ecoles/", "short": "Municipalités et écoles",
@@ -366,7 +366,7 @@ S("camions", BALE, ["garage", "gros", "guide-huileux"],
   "desc": "Recycled shop rags for heavy truck garages, trucking fleets and trailer shops: oil, grease, diesel. From $32 per 25 lb bag.",
   "eyebrow": "Heavy trucks · fleets · trailers", "h1": "Rags for heavy trucks and trucking companies",
   "lede": "For oil, grease, diesel and fleet maintenance, in [packs].",
-  "card": "Oil, grease and diesel: colored terry absorbs the most.",
+  "card": "Oil, grease and diesel: coloured terry absorbs the most.",
   "alt": "Bags of recycled rags for a truck garage",
   "body": """<h2>What truck garages use our rags for</h2>
 <ul><li><b>Oil changes and greasing</b>: engines, differentials, fifth wheels and grease points.</li>
@@ -374,10 +374,10 @@ S("camions", BALE, ["garage", "gros", "guide-huileux"],
 <li><b>Inspection and maintenance</b>: wiping parts before checking them.</li>
 <li><b>Trailers and equipment</b>: brakes, axles and mechanisms.</li></ul>
 <h2>Which product to choose</h2>
-<p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) holds the most oil and grease. Colored T-shirt works for everyday cleanup. A fleet goes through many rags: see our <a href="{{gros}}">bulk order</a> terms.</p>
+<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) holds the most oil and grease. Coloured T-shirt works for everyday cleanup. A fleet goes through many rags: see our <a href="{{gros}}">bulk order</a> terms.</p>
 <h2>Safety</h2>
 <p>Oil-soaked rags belong in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
-  "faq": [("Which rag for a heavy truck garage?", "Colored terry at $32 per 25 lb bag absorbs the most oil and grease. Colored T-shirt is enough for everyday cleanup."),
+  "faq": [("Which rag for a heavy truck garage?", "Coloured terry at $32 per 25 lb bag absorbs the most oil and grease. Coloured T-shirt is enough for everyday cleanup."),
           ("Do you deliver to fleets outside Montreal?", "Yes. We deliver across Greater Montreal, and anywhere in Québec from 1,000 lb (40 bags).")]})
 
 S("pneus", BAG, ["garage", "couleur", "carrosserie"],
@@ -414,9 +414,9 @@ S("pneus", BAG, ["garage", "couleur", "carrosserie"],
 <h2>Plan for the season</h2>
 <p>In spring and fall, tire changes jump all at once. Order your bags before the season. Our <a href="{{calculateur}}">calculator</a> helps estimate the quantity.</p>
 <h2>Which product to choose</h2>
-<p><a href="{{couleur}}">Colored T-shirt or terry</a> ($32 per [pack]) fits almost everything. White ($42) is for light-colored or chrome rims.</p>""",
+<p><a href="{{couleur}}">Coloured T-shirt or terry</a> ($32 per [pack]) fits almost everything. White ($42) is for light-colored or chrome rims.</p>""",
   "faq": [("How many rags for tire season?", "It depends on the number of cars. Our calculator estimates the quantity based on your daily use."),
-          ("Which rag for a tire shop?", "Colored T-shirt or terry at $32 per 25 lb bag fits most tasks.")]})
+          ("Which rag for a tire shop?", "Coloured T-shirt or terry at $32 per 25 lb bag fits most tasks.")]})
 
 S("pieces-auto", BAGS, ["gros", "garage", "couleur"],
  {"path": "/chiffons-magasins-pieces-auto-revente/", "short": "Magasins de pièces d'auto",
@@ -446,12 +446,12 @@ S("pieces-auto", BAGS, ["gros", "garage", "couleur"],
   "body": """<h2>A product your garage customers buy every week</h2>
 <p>Garages and body shops that pick up parts also use rags every day. Our sealed 25 lb bags fit at the counter or in the warehouse.</p>
 <h2>Distributor price</h2>
-<ul><li>Retail: $32 colored, $42 white per [pack].</li>
-<li>From 50 [packs]: $28 colored, $38 white, pickup in Laval.</li></ul>
+<ul><li>Retail: $32 coloured, $42 white per [pack].</li>
+<li>From 50 [packs]: $28 coloured, $38 white, pickup in Laval.</li></ul>
 <p>Prices before tax. See our <a href="{{gros}}">bulk order</a> terms.</p>
 <h2>For your own shop</h2>
-<p>If your store has a shop or a parts delivery service, <a href="{{couleur}}">colored rags</a> work in-house too.</p>""",
-  "faq": [("Do you offer a resale price?", "Yes: from 50 bags of 25 lb, $28 colored and $38 white, with pickup in Laval."),
+<p>If your store has a shop or a parts delivery service, <a href="{{couleur}}">coloured rags</a> work in-house too.</p>""",
+  "faq": [("Do you offer a resale price?", "Yes: from 50 bags of 25 lb, $28 coloured and $38 white, with pickup in Laval."),
           ("Are the bags ready to sell?", "Yes. They are sealed 25 lb bags, easy to store.")]})
 
 SECTOR2_PAGES = P

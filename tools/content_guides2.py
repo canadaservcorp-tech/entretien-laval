@@ -25,10 +25,10 @@ P["guide-ratine"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "
           ("Peut-on mélanger ratine et t-shirt dans une commande?", "Oui. Chaque [pack] contient un seul produit, mais vous pouvez commander plusieurs produits ensemble.")]},
  "en": {"path": "/en/guides/terry-vs-t-shirt-rags/", "short": "Terry vs T-shirt: which rag to choose",
   "title": "Terry vs T-shirt rags: which should you choose?",
-  "desc": "Terry (towel cloth) or T-shirt jersey, white or colored: absorbency, softness and best uses compared, to choose the right wiping rag.",
+  "desc": "Terry (towel cloth) or T-shirt jersey, white or coloured: absorbency, softness and best uses compared, to choose the right wiping rag.",
   "eyebrow": "Guide · choosing", "h1": "Terry vs T-shirt: which wiping rag should you choose?",
-  "lede": "Both are recycled cotton and cost the same in colored. The difference is thickness and use.",
-  "card": "Absorbency, softness, uses: the comparison to choose well.", "alt": "Bag of colored T-shirt rags",
+  "lede": "Both are recycled cotton and cost the same in coloured. The difference is thickness and use.",
+  "card": "Absorbency, softness, uses: the comparison to choose well.", "alt": "Bag of coloured T-shirt rags",
   "body": """<h2>Terry (towel cloth)</h2>
 <p>Terry comes from bath towels and sheets. It's thick, looped and holds a lot of liquid. It's the pick for oil, grease, water and big spills.</p>
 <h2>T-shirt (jersey)</h2>
@@ -39,8 +39,8 @@ P["guide-ratine"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "
 <tr><td>Absorbency</td><td>Very high</td><td>Good</td></tr>
 <tr><td>Softness</td><td>Medium</td><td>High</td></tr>
 <tr><td>Best for</td><td>Oil, grease, water, spills</td><td>Hands, tools, surfaces, polishing</td></tr></tbody></table>
-<h2>White or colored?</h2>
-<p><a href="{{couleur}}">Colored</a> ($32 per [pack]) handles almost everything. <a href="{{blancs}}">White</a> ($42) leaves no dye: use it for paint, wood stain, varnish and light-colored surfaces.</p>""",
+<h2>White or coloured?</h2>
+<p><a href="{{couleur}}">Coloured</a> ($32 per [pack]) handles almost everything. <a href="{{blancs}}">White</a> ($42) leaves no dye: use it for paint, wood stain, varnish and light-colored surfaces.</p>""",
   "faq": [("Does terry leave more lint?", "A little more than T-shirt, because of its loops. For delicate surfaces, choose white T-shirt rags."),
           ("Can I mix terry and T-shirt in one order?", "Yes. Each [pack] holds one product, but you can order several products together.")]}}
 
@@ -110,7 +110,7 @@ P["glossaire"] = {"kind": "guide", "img": TEXT, "rel": ["guide-ratine", "couleur
   "eyebrow": "Guide · glossary", "h1": "Rag glossary: Québec French and English terms",
   "lede": "In Québec, people say guenille, chiffon or linge. In English, rag, wiper or shop rag. Here's what each word means.",
   "card": "The Québec French and English rag vocabulary, word by word.", "alt": "Reclaimed cotton textiles",
-  "body": "<p>Words change from one region and trade to the next. This glossary helps you compare offers and order the right product.</p><p><b>Looking to buy guenilles (rags)?</b> ECO Rags sells recycled cotton rags, washed and bedbug-treated, in 25 lb bags: $32 colored, $42 white, before tax. Delivery in Laval ($15) and Montréal ($25, minimum 2 bags).</p>",
+  "body": "<p>Words change from one region and trade to the next. This glossary helps you compare offers and order the right product.</p><p><b>Looking to buy guenilles (rags)?</b> ECO Rags sells recycled cotton rags, washed and heat-treated against bedbugs, in 25 lb bags: $32 coloured, $42 white, before tax. Delivery in Laval ($15) and Montréal ($25, minimum 2 bags).</p>",
   "terms": [("Guenille", "Québec French for a rag made from old fabric, used for cleaning or wiping. Guenilles are often sold by weight, in bags."),
             ("Chiffon d'essuyage (wiping rag)", "General term for a piece of fabric used to wipe oil, grease, liquids or dust. Also called a wiper."),
             ("Shop rag (chiffon d'atelier)", "A rag used in garages and workshops."),
@@ -119,7 +119,7 @@ P["glossaire"] = {"kind": "guide", "img": TEXT, "rel": ["guide-ratine", "couleur
             ("Terry (ratine)", "Looped towel fabric. Thick and highly absorbent. Québec French calls it ratine."),
             ("Jersey (T-shirt)", "Knitted cotton fabric from T-shirts. Thin, soft and low-lint."),
             ("Low-lint (peu pelucheux)", "Leaves few fibers on the surface."),
-            ("No color transfer (sans transfert de couleur)", "White rag that leaves no dye on the wiped surface."),
+            ("No colour transfer (sans transfert de couleur)", "White rag that leaves no dye on the wiped surface."),
             ("Post-consumer textile", "Used clothing and fabric collected after use, then sorted and turned into rags."),
             ("Sold by weight", "Rags are sold by the pound (lb) rather than by the piece, because piece sizes vary."),
             ("Bedbug treatment (traitement anti-punaises)", "Treating textiles against bedbugs before packing.")]}}
@@ -171,7 +171,7 @@ P["guide-prix"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "gr
 <h2>Le choix le plus économique</h2>
 <p>Le <a href="{{couleur}}">chiffon couleur</a> est le moins cher : 32 $ le [pack]. Il convient à l'huile, à la graisse, aux déversements et au nettoyage courant. Prenez le <a href="{{blancs}}">blanc</a> seulement pour la peinture, le vernis, les solvants et les surfaces pâles.</p>
 <h2>Ce qui est inclus</h2>
-<p>Des chiffons de coton recyclé lavés à l'eau chaude, triés, traités contre les punaises de lit, sans boutons ni fermetures éclair, coupés et prêts à l'emploi. Un seul type de chiffon par [pack].</p>
+<p>Des chiffons de coton recyclé lavés à l'eau chaude, triés, traités à la chaleur contre les punaises de lit, sans boutons ni fermetures éclair, coupés et prêts à l'emploi. Un seul type de chiffon par [pack].</p>
 <h2>Livraison</h2>
 <p>Nous livrons à Laval, à Montréal et dans le Grand Montréal. Ailleurs au Québec, à partir de 1 000 lb. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
   "faq": [("Quelle est la guenille la moins chère à Laval?", "Chez Chiffons ÉCO, la guenille couleur (t-shirt ou ratine) : 32 $ le [pack] de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 [packs]."),
@@ -179,24 +179,24 @@ P["guide-prix"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "gr
           ("Où acheter des chiffons recyclés à Montréal?", "Chiffons ÉCO (Entretien Laval) livre ses chiffons recyclés à Montréal. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.")]},
  "en": {"path": "/en/guides/rag-prices-laval-montreal/", "short": "Rag prices in Laval and Montréal",
   "title": "Rag prices in Laval and Montréal (2026)",
-  "desc": "How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for colored, $42 for white: $1.28 to $1.68 per pound before tax.",
+  "desc": "How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for coloured, $42 for white: $1.28 to $1.68 per pound before tax.",
   "eyebrow": "Guide · prices", "h1": "Recycled rag prices in Laval and Montréal",
   "lede": "Chiffons ÉCO (Entretien Laval) sells recycled cotton wiping rags from $1.28 per pound, in 25 lb bags, across Greater Montreal.",
-  "card": "Price per bag and per pound, wholesale price, delivery.", "alt": "25 lb bag of colored T-shirt rags",
+  "card": "Price per bag and per pound, wholesale price, delivery.", "alt": "25 lb bag of coloured T-shirt rags",
   "body": """<h2>Our prices (before tax)</h2>
 <table><thead><tr><th>Product</th><th>Price per 25 lb [pack]</th><th>Price per pound</th></tr></thead><tbody>
-<tr><td>Colored T-shirt</td><td>$32</td><td>$1.28</td></tr>
-<tr><td>Colored terry</td><td>$32</td><td>$1.28</td></tr>
+<tr><td>Coloured T-shirt</td><td>$32</td><td>$1.28</td></tr>
+<tr><td>Coloured terry</td><td>$32</td><td>$1.28</td></tr>
 <tr><td>White T-shirt</td><td>$42</td><td>$1.68</td></tr>
 <tr><td>White terry</td><td>$42</td><td>$1.68</td></tr></tbody></table>
-<p>From 50 [packs]: $28 colored and $38 white. See <a href="{{gros}}">wholesale rags</a>.</p>
+<p>From 50 [packs]: $28 coloured and $38 white. See <a href="{{gros}}">wholesale rags</a>.</p>
 <h2>The cheapest choice</h2>
-<p><a href="{{couleur}}">Colored rags</a> cost the least: $32 per [pack]. They handle oil, grease, spills and everyday cleaning. Choose <a href="{{blancs}}">white</a> only for paint, varnish, solvents and light surfaces.</p>
+<p><a href="{{couleur}}">Coloured rags</a> cost the least: $32 per [pack]. They handle oil, grease, spills and everyday cleaning. Choose <a href="{{blancs}}">white</a> only for paint, varnish, solvents and light surfaces.</p>
 <h2>What's included</h2>
-<p>Recycled cotton rags washed in hot water, sorted, treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
+<p>Recycled cotton rags washed in hot water, sorted, heat-treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
 <h2>Delivery</h2>
 <p>We deliver in Laval, Montréal and Greater Montreal. Elsewhere in Québec, from 1,000 lb. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
-  "faq": [("What are the cheapest rags in Laval?", "At Chiffons ÉCO, colored rags (T-shirt or terry): $32 per 25 lb [pack], $1.28 per pound before tax, or $28 from 50 [packs]."),
+  "faq": [("What are the cheapest rags in Laval?", "At Chiffons ÉCO, coloured rags (T-shirt or terry): $32 per 25 lb [pack], $1.28 per pound before tax, or $28 from 50 [packs]."),
           ("Are taxes included?", "No. Prices are before GST (5%) and QST (9.975%)."),
           ("Where can I buy recycled rags in Montréal?", "Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.")]}}
 
@@ -231,19 +231,19 @@ P["guide-teinture"] = {"kind": "guide", "img": BAG, "rel": ["blancs", "peinture"
   "card": "White cotton, T-shirt or terry: the right rag for wood finishing.",
   "alt": "Bags of white recycled rags",
   "body": """<h2>The best rag: white cotton</h2>
-<p>Cotton soaks up stain and oil, while synthetic fabrics just spread them around. A <a href="{{blancs}}">white rag</a> transfers no color to the wood, even with solvents. It's the safe pick for light stains, varnish and pale surfaces.</p>
+<p>Cotton soaks up stain and oil, while synthetic fabrics just spread them around. A <a href="{{blancs}}">white rag</a> transfers no colour to the wood, even with solvents. It's the safe pick for light stains, varnish and pale surfaces.</p>
 <h2>T-shirt or terry?</h2>
 <table><thead><tr><th>Step</th><th>Recommended rag</th><th>Why</th></tr></thead><tbody>
 <tr><td>Applying stain or oil</td><td>White T-shirt</td><td>Thin, flexible, low-lint</td></tr>
 <tr><td>Wiping off the excess</td><td>White terry</td><td>Thick, holds a lot of liquid</td></tr>
 <tr><td>Buffing between coats</td><td>White T-shirt</td><td>Soft, leaves a smooth surface</td></tr>
-<tr><td>Cleaning tools and hands</td><td>Colored</td><td>Cheaper, color doesn't matter</td></tr></tbody></table>
+<tr><td>Cleaning tools and hands</td><td>Coloured</td><td>Cheaper, colour doesn't matter</td></tr></tbody></table>
 <h2>After use: fire risk</h2>
 <p>Rags soaked in linseed oil, oil-based stain or varnish can catch fire on their own as they dry. Never leave them balled up. See <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>
 <h2>Price</h2>
 <p>White rags: $42 per 25 lb [pack], before tax ($38 from 50 [packs]). See also <a href="{{peinture}}">rags for painting and finishing</a>.</p>""",
   "faq": [("What is the best rag for staining wood?", "A clean, lint-free white cotton rag. White T-shirt to apply, white terry to wipe off the excess."),
-          ("Can I use colored rags for staining?", "For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a colored fabric bleed onto the wood."),
+          ("Can I use coloured rags for staining?", "For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a coloured fabric bleed onto the wood."),
           ("How do I dispose of oil-based stain rags?", "Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Never throw them out balled up.")]}}
 
 P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garage", "industrie"],
@@ -262,7 +262,7 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
 <tr><td>Peinture, vernis, surfaces pâles</td><td>Blanc (t-shirt ou ratine)</td></tr>
 <tr><td>Déversements, eau</td><td>Ratine couleur</td></tr></tbody></table>
 <h2>Ce qu'un chiffon industriel doit être</h2>
-<p>Sans métal, boutons ni fermetures éclair, pour ne pas rayer les pièces ni les machines. Lavé, trié et coupé, prêt à l'emploi. Nos chiffons recyclés sont lavés à l'eau chaude et traités contre les punaises de lit, un seul type par [pack].</p>
+<p>Sans métal, boutons ni fermetures éclair, pour ne pas rayer les pièces ni les machines. Lavé, trié et coupé, prêt à l'emploi. Nos chiffons recyclés sont lavés à l'eau chaude et traités à la chaleur contre les punaises de lit, un seul type par [pack].</p>
 <h2>Combien en prévoir?</h2>
 <p>Utilisez le <a href="{{calculateur}}">calculateur de chiffons</a> pour estimer votre consommation par mois selon votre secteur et votre équipe.</p>
 <h2>Prix (avant taxes)</h2>
@@ -273,27 +273,27 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
           ("Livrez-vous les chiffons industriels?", "Oui, à Laval (15 $, dès 1 [pack]), à Montréal (25 $, dès 2 [packs]) et ailleurs au Québec à partir de 1 000 lb.")]},
  "en": {"path": "/en/guides/industrial-shop-rags-buying-guide/", "short": "Industrial shop rags: buying guide",
   "title": "Industrial shop rags: a buying guide for shops",
-  "desc": "Industrial and shop rags: terry or T-shirt, white or colored, how many per month and prices in Québec. The guide for plants, garages and machine shops.",
+  "desc": "Industrial and shop rags: terry or T-shirt, white or coloured, how many per month and prices in Québec. The guide for plants, garages and machine shops.",
   "eyebrow": "Guide · industry", "h1": "Industrial shop rags: how to choose",
   "lede": "Machining, mechanics, printing, maintenance: the right industrial rag depends on what you wipe. Here's how to choose and how many to plan for.",
   "card": "The right shop rag by use, quantity and price.",
   "alt": "Bag of ready-to-use shop rags",
   "body": """<h2>By what you wipe</h2>
 <table><thead><tr><th>Use</th><th>Recommended rag</th></tr></thead><tbody>
-<tr><td>Cutting oil, grease, chips (<a href="{{usinage}}">machining, CNC</a>)</td><td>Colored terry</td></tr>
-<tr><td>Hands, tools, parts (<a href="{{garage}}">garages, mechanics</a>)</td><td>Colored T-shirt</td></tr>
+<tr><td>Cutting oil, grease, chips (<a href="{{usinage}}">machining, CNC</a>)</td><td>Coloured terry</td></tr>
+<tr><td>Hands, tools, parts (<a href="{{garage}}">garages, mechanics</a>)</td><td>Coloured T-shirt</td></tr>
 <tr><td>Ink, solvents (<a href="{{industrie}}">print shops, plants</a>)</td><td>White T-shirt</td></tr>
 <tr><td>Paint, varnish, light surfaces</td><td>White (T-shirt or terry)</td></tr>
-<tr><td>Spills, water</td><td>Colored terry</td></tr></tbody></table>
+<tr><td>Spills, water</td><td>Coloured terry</td></tr></tbody></table>
 <h2>What an industrial rag must be</h2>
 <p>No metal, buttons or zippers, so nothing scratches parts or machines. Washed, sorted and cut, ready to use. Our recycled rags are hot-water washed and treated against bed bugs, one type per [pack].</p>
 <h2>How many do you need?</h2>
 <p>Use the <a href="{{calculateur}}">rag calculator</a> to estimate your monthly use by sector and team size.</p>
 <h2>Prices (before tax)</h2>
-<p>25 lb [pack]: $32 colored, $42 white. From 50 [packs]: $28 and $38. See <a href="{{gros}}">bulk rags</a>.</p>""",
-  "faq": [("Where can I buy cheap industrial rags in Laval?", "At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: colored recycled rags at $32 per 25 lb [pack] ($1.28/lb), white at $42, or $28 / $38 from 50 [packs], before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 [packs])."),
+<p>25 lb [pack]: $32 coloured, $42 white. From 50 [packs]: $28 and $38. See <a href="{{gros}}">bulk rags</a>.</p>""",
+  "faq": [("Where can I buy cheap industrial rags in Laval?", "At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: coloured recycled rags at $32 per 25 lb [pack] ($1.28/lb), white at $42, or $28 / $38 from 50 [packs], before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 [packs])."),
   ("What's the difference between industrial rags and shop rags?", "None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops."),
-          ("Which rag is best for a machine shop?", "Colored terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts."),
+          ("Which rag is best for a machine shop?", "Coloured terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts."),
           ("Do you deliver industrial rags?", "Yes: Laval ($15, from 1 [pack]), Montréal ($25, from 2 [packs]) and elsewhere in Québec from 1,000 lb.")]}}
 
 P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", "guide-industriel"],
@@ -332,23 +332,23 @@ P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", 
   "alt": "Bag of shop rags for machining and metal fabrication",
   "body": """<h2>The right rag for the job</h2>
 <table><thead><tr><th>Job</th><th>Recommended rag</th><th>Price (25 lb bag, before tax)</th></tr></thead><tbody>
-<tr><td>Cutting oil, coolant, spills</td><td>Colored terry or white terry</td><td>$32 / $42</td></tr>
+<tr><td>Cutting oil, coolant, spills</td><td>Coloured terry or white terry</td><td>$32 / $42</td></tr>
 <tr><td>Finished parts, measuring, inspection</td><td>White T-shirt</td><td>$42</td></tr>
 <tr><td>Degreasing before welding or painting</td><td>White T-shirt</td><td>$42</td></tr>
-<tr><td>Hands, tools, benches, machine maintenance</td><td>Colored T-shirt</td><td>$32</td></tr></tbody></table>
-<p>White terry absorbs as much as colored terry, with no dye transfer: a good choice for cutting oil on finished parts. All our rags are free of buttons, zippers and metal.</p>
+<tr><td>Hands, tools, benches, machine maintenance</td><td>Coloured T-shirt</td><td>$32</td></tr></tbody></table>
+<p>White terry absorbs as much as coloured terry, with no dye transfer: a good choice for cutting oil on finished parts. All our rags are free of buttons, zippers and metal.</p>
 <h2>Pickup and delivery</h2>
 <ul><li><b>Pickup in Laval</b>: 1355 boul. Le Corbusier.</li>
 <li><b>Delivery in Laval</b>: $15, from 1 [pack].</li>
 <li><b>Delivery in Montréal</b>: $25, from 2 [packs].</li>
 <li><b>Elsewhere in Québec</b>: from 1,000 lb (40 [packs]).</li></ul>
 <h2>Volume pricing</h2>
-<p>From 50 [packs]: $28 colored and $38 white, before tax. Invoice with GST and QST. See <a href="{{gros}}">wholesale rags</a> and the <a href="{{calculateur}}">calculator</a> to estimate your monthly needs.</p>
+<p>From 50 [packs]: $28 coloured and $38 white, before tax. Invoice with GST and QST. See <a href="{{gros}}">wholesale rags</a> and the <a href="{{calculateur}}">calculator</a> to estimate your monthly needs.</p>
 <h2>Pages by trade</h2>
 <p><a href="{{usinage}}">Machine shops</a> · <a href="{{soudure}}">Welding and metal fabrication</a> · <a href="{{guide-industriel}}">Industrial shop rags buying guide</a></p>""",
-  "faq": [("Where can I buy rags for a CNC machine shop in Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 colored or $42 white per 25 lb [pack], before tax. Delivery in Montréal $25 from 2 [packs], or pickup in Laval."),
-          ("What is the cheapest rag for a metal shop in Laval?", "The 25 lb colored [pack] at $32 before tax ($1.28/lb), or $28 from 50 [packs]. Delivery in Laval $15 from 1 [pack]."),
-          ("Which rag is best for cutting oil?", "Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise colored terry ($32).")]}}
+  "faq": [("Where can I buy rags for a CNC machine shop in Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 coloured or $42 white per 25 lb [pack], before tax. Delivery in Montréal $25 from 2 [packs], or pickup in Laval."),
+          ("What is the cheapest rag for a metal shop in Laval?", "The 25 lb coloured [pack] at $32 before tax ($1.28/lb), or $28 from 50 [packs]. Delivery in Laval $15 from 1 [pack]."),
+          ("Which rag is best for cutting oil?", "Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise coloured terry ($32).")]}}
 
 P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", "guide-prix"],
  "fr": {"path": "/guides/demarrer-entreprise-revente-chiffons/", "short": "Démarrer une entreprise de revente de chiffons",
@@ -390,7 +390,7 @@ P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", 
 <p>Garages, machine and welding shops, factories, farms and cleaning companies use rags every week. It's a consumable that gets bought again and again: a happy customer reorders regularly. In many regions, especially north of Montréal (Laurentides, Lanaudière, Mauricie, Abitibi, Saguenay–Lac-Saint-Jean), few suppliers visit small businesses in person.</p>
 <h2>Your buying price</h2>
 <p>From 50 bags of 25 lb, you pay the distributor price (before tax):</p>
-<ul><li>Colored T-shirt or terry: $28 per [pack] instead of $32</li>
+<ul><li>Coloured T-shirt or terry: $28 per [pack] instead of $32</li>
 <li>White T-shirt or terry: $38 per [pack] instead of $42</li></ul>
 <p>Special reseller price: pickup only, no delivery. You collect your bags at 1355 boul. Le Corbusier, Laval, and mixed products are fine.</p>
 <h2>How it works</h2>
@@ -400,13 +400,13 @@ P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", 
 <li>Do your route: garages, dealerships, shops, factories, farms, cleaning companies. You set your resale price and collect payment directly.</li>
 <li>Come back to refill when your stock runs low.</li></ol>
 <h2>Example</h2>
-<p>Example only: 50 colored bags cost $1,400 before tax. If you resell them at $40 a bag, you collect $2,000, a $600 gross margin before fuel, your time and taxes. Your resale price, customers and region are up to you; Entretien Laval does not guarantee any income.</p>
+<p>Example only: 50 coloured bags cost $1,400 before tax. If you resell them at $40 a bag, you collect $2,000, a $600 gross margin before fuel, your time and taxes. Your resale price, customers and region are up to you; Entretien Laval does not guarantee any income.</p>
 <h2>Tips to get started</h2>
 <ul><li>Start with garages and shops in your area: they are the biggest users.</li>
 <li>Keep white bags for painters, cabinetmakers and finishing shops.</li>
 <li>Visit on a regular schedule: customers get used to reordering.</li>
 <li>Check the obligations for self-employed workers or businesses in Québec (business registration, sales taxes) with government services.</li></ul>""",
-  "faq": [("What small business can I start with a truck in Québec?", "Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 colored, $38 white, before tax), pickup only at 1355 boul. Le Corbusier. You load your truck in Laval and set your own resale price."),
+  "faq": [("What small business can I start with a truck in Québec?", "Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 coloured, $38 white, before tax), pickup only at 1355 boul. Le Corbusier. You load your truck in Laval and set your own resale price."),
           ("Do I need a warehouse to resell rags?", "No, not to start. You can buy 50 bags, carry them in your truck and come back to Laval when your stock runs low."),
           ("Does Entretien Laval guarantee income to resellers?", "No. We supply the rags at distributor price; your resale price, customers and results are up to you.")]}}
 
@@ -420,7 +420,7 @@ P["guide-acheter"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", 
   "body": """<h2>La réponse courte</h2>
 <p>Pour acheter des guenilles à Laval ou à Montréal, commandez un sac de 25 lb chez Chiffons ÉCO (Entretien Laval) : 32 $ en couleur, 42 $ en blanc, avant taxes. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.</p>
 <h2>Ce que contient un sac de guenilles</h2>
-<p>Des guenilles faites de vêtements de coton récupérés : t-shirts (jersey) ou serviettes (ratine). Elles sont lavées à l'eau chaude, triées, traitées contre les punaises de lit, sans boutons ni fermetures éclair, coupées et prêtes à l'emploi. Un seul type de guenille par [pack].</p>
+<p>Des guenilles faites de vêtements de coton récupérés : t-shirts (jersey) ou serviettes (ratine). Elles sont lavées à l'eau chaude, triées, traitées à la chaleur contre les punaises de lit, sans boutons ni fermetures éclair, coupées et prêtes à l'emploi. Un seul type de guenille par [pack].</p>
 <h2>Couleur ou blanc?</h2>
 <p>La <a href="{{couleur}}">guenille couleur</a> est la moins chère et convient à l'huile, à la graisse et au nettoyage courant. La <a href="{{blancs}}">guenille blanche</a> ne transfère pas de couleur : prenez-la pour la peinture, la teinture, le vernis et les surfaces pâles.</p>
 <h2>Prix au sac et à la livre</h2>
@@ -432,22 +432,22 @@ P["guide-acheter"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", 
           ("Peut-on acheter un seul sac de guenilles?", "Oui à Laval, livraison 15 $ dès 1 [pack]. À Montréal, la livraison est de 25 $ dès 2 [packs].")]},
  "en": {"path": "/en/guides/where-to-buy-rags/", "short": "Where to buy rags",
   "title": "Where to buy rags in Laval and Montréal: 25 lb bags",
-  "desc": "Buy recycled cotton rags in Laval and Montréal: 25 lb bags at $32 colored or $42 white, $1.28 per pound, delivered from 1 bag in Laval.",
+  "desc": "Buy recycled cotton rags in Laval and Montréal: 25 lb bags at $32 coloured or $42 white, $1.28 per pound, delivered from 1 bag in Laval.",
   "eyebrow": "Guide · buying", "h1": "Where to buy rags in Laval and Montréal",
   "lede": "Chiffons ÉCO (Entretien Laval) sells recycled cotton rags by the pound, in 25 lb bags, delivered in Laval, Montréal and Greater Montreal.",
   "card": "Rags for sale by the bag and by the pound, how to order.", "alt": "25 lb bag of cotton rags",
   "body": """<h2>The short answer</h2>
-<p>To buy rags in Laval or Montréal, order a 25 lb bag from Chiffons ÉCO (Entretien Laval): $32 colored, $42 white, before tax. Email info@entretienlaval.ca or fill in the quote form.</p>
+<p>To buy rags in Laval or Montréal, order a 25 lb bag from Chiffons ÉCO (Entretien Laval): $32 coloured, $42 white, before tax. Email info@entretienlaval.ca or fill in the quote form.</p>
 <h2>What's in a bag of rags</h2>
-<p>Cotton rags made from recovered clothing: T-shirts (jersey) or towels (terry). They are washed in hot water, sorted, treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
-<h2>Colored or white?</h2>
-<p><a href="{{couleur}}">Colored rags</a> cost the least and handle oil, grease and everyday cleaning. <a href="{{blancs}}">White rags</a> have no color transfer: use them for paint, stain, varnish and light surfaces.</p>
+<p>Cotton rags made from recovered clothing: T-shirts (jersey) or towels (terry). They are washed in hot water, sorted, heat-treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
+<h2>Coloured or white?</h2>
+<p><a href="{{couleur}}">Coloured rags</a> cost the least and handle oil, grease and everyday cleaning. <a href="{{blancs}}">White rags</a> have no colour transfer: use them for paint, stain, varnish and light surfaces.</p>
 <h2>Price per bag and per pound</h2>
-<p>Rags are sold by weight: $1.28 per pound colored, $1.68 white. From 50 [packs]: $28 and $38 per [pack]. See the <a href="{{guide-prix}}">price details</a> and <a href="{{gros}}">bulk rags</a>.</p>
+<p>Rags are sold by weight: $1.28 per pound coloured, $1.68 white. From 50 [packs]: $28 and $38 per [pack]. See the <a href="{{guide-prix}}">price details</a> and <a href="{{gros}}">bulk rags</a>.</p>
 <h2>Delivery</h2>
 <p>Laval: $15, from 1 [pack]. Montréal: $25, from 2 [packs]. Elsewhere in Québec: see the <a href="{{livraison}}">delivery terms</a>.</p>""",
-  "faq": [("Where can I buy rags near me?", "In Laval and Montréal, Chiffons ÉCO (Entretien Laval) delivers 25 lb bags of recycled cotton rags: $32 colored, $42 white, before tax."),
-          ("Can I buy cotton rags by the pound?", "Yes, by weight, in 25 lb bags: $1.28 per pound colored and $1.68 white, before tax."),
+  "faq": [("Where can I buy rags near me?", "In Laval and Montréal, Chiffons ÉCO (Entretien Laval) delivers 25 lb bags of recycled cotton rags: $32 coloured, $42 white, before tax."),
+          ("Can I buy cotton rags by the pound?", "Yes, by weight, in 25 lb bags: $1.28 per pound coloured and $1.68 white, before tax."),
           ("Can I buy a single bag of rags?", "Yes in Laval, with $15 delivery from 1 [pack]. In Montréal, delivery is $25 from 2 [packs].")]}}
 
 P["guide-peluches"] = {"kind": "guide", "img": TEXT, "rel": ["blancs", "peinture", "guide-ratine"],
@@ -482,12 +482,12 @@ P["guide-peluches"] = {"kind": "guide", "img": TEXT, "rel": ["blancs", "peinture
 <ul><li><b>Paint, stain, varnish</b>: white T-shirt. See <a href="{{peinture}}">painters rags</a>.</li>
 <li><b>Glass and stainless steel</b>: white T-shirt, thin and low-lint.</li>
 <li><b>Polishing and car detailing</b>: white T-shirt.</li>
-<li><b>Oil, grease, spills</b>: colored terry or T-shirt, lint matters little.</li></ul>
+<li><b>Oil, grease, spills</b>: coloured terry or T-shirt, lint matters little.</li></ul>
 <h2>When you need truly lint-free</h2>
 <p>Electronics, cleanrooms and optics need specialized nonwoven wipes. We don't sell those: our rags are recycled cotton, for shops, finishing and cleaning.</p>
 <p>See also: <a href="{{guide-ratine}}">terry vs T-shirt rags</a>.</p>""",
   "faq": [("Which rag doesn't leave lint?", "No recycled cotton rag is 100% lint-free. White cotton T-shirt rags are the lowest-lint of our products."),
           ("Does terry leave lint?", "A little more than T-shirt, because of its loops. It is still the best choice for absorbing."),
-          ("What rag for staining wood without lint?", "White cotton T-shirt rags: thin, low-lint and no color transfer. $42 per 25 lb [pack].")]}}
+          ("What rag for staining wood without lint?", "White cotton T-shirt rags: thin, low-lint and no colour transfer. $42 per 25 lb [pack].")]}}
 
 GUIDE2_PAGES = P

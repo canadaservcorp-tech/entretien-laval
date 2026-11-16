@@ -38,6 +38,8 @@ def git_date(relpath, first=False):
 ROUTES = {"home": {l: C.HOME[l]["path"] for l in LANGS}}
 ROUTES.update({k: {l: p[l]["path"] for l in LANGS} for k, p in C.PAGES.items()})
 PROD = {p["id"]: p for p in C.PRODUCTS}
+OOS = set(O.CHECKOUT["unavailable"])
+def oos(pid, lang): return (' <small class="oos">' + O.UI[lang]["oos"] + '</small>') if pid in OOS else ""
 
 def L(key, lang):
     key, _, anchor = key.partition("#")
@@ -112,6 +114,7 @@ def header(lang, key):
 <a class="brand" href="{L('home', lang)}"><svg aria-hidden="true"><use href="#mark"></use></svg><span>Chiffons ÉCO<small>ECO RAGS · ENTRETIEN LAVAL</small></span></a>
 <nav class="main" aria-label="{u['nav_label']}">{links}</nav>
 <div class="tools">
+<a class="tel" href="{C.TEL}" aria-label="{u['call']}">{ICON['phone'].replace('<svg', HID, 1)}<span>{C.PHONE}</span></a>
 <a class="langsw" href="{L(key, other)}" hreflang="{other}-CA" lang="{other}-CA" title="{u['lang_name']}">{other.upper()}</a>
 <a class="call" href="{L("commander" if "commander" in C.PAGES else "home#devis", lang)}">{ICON['arrow'].replace('<svg', HID, 1)}<span>{u["order"] if "commander" in C.PAGES else u["quote"]}</span></a>
 <details class="mnav"><summary aria-label="{u['menu']}"><span></span></summary><nav aria-label="{u['menu']}">{links}{order_btn(lang)}<a class="btn btn-ghost" href="{L('home#devis', lang)}">{u['quote']}</a></nav></details>
@@ -129,7 +132,7 @@ def footer(lang):
 <div class="fcols">
 <div><div class="fbrand"><svg aria-hidden="true"><use href="#mark"></use></svg> Chiffons ÉCO — Entretien Laval</div>
 <p class="legal" style="margin-top:14px">{u['foot_tag']}</p>
-<p class="legal" style="margin-top:10px"><a href="mailto:{C.EMAIL}">{C.EMAIL}</a><br><a href="https://www.instagram.com/entretienlaval/" rel="noopener">Instagram @entretienlaval</a></p></div>
+<p class="legal" style="margin-top:10px"><a href="{C.TEL}">{C.PHONE}</a><br><a href="mailto:{C.EMAIL}">{C.EMAIL}</a><br><a href="https://www.instagram.com/entretienlaval/" rel="noopener">Instagram @entretienlaval</a></p></div>
 {col(u['products'], (['commander'] if 'commander' in C.PAGES else []) + ['couleur', 'blancs', 'gros', 'livraison', 'apropos', 'clients'])}
 {col(u['sectors'], [k for k in C.SECTOR_KEYS if k != 'gros'] + ['secteurs'])}
 {col(u['guides'], ['guide-huileux', 'guide-papier', 'guide-ratine', 'guide-ranger', 'glossaire', 'calculateur', 'faq'])}
@@ -155,7 +158,7 @@ def faq_ld(items, lang):
 
 def price_box(lang, ids=None):
     u = C.UI[lang]
-    rows = "".join(f'<div class="pline"><span>{PROD[i][lang][0]}</span><b>{price(PROD[i]["price"], lang)}</b></div>' for i in (ids or [p["id"] for p in C.PRODUCTS]))
+    rows = "".join(f'<div class="pline"><span>{PROD[i][lang][0]}{oos(i, lang)}</span><b>{price(PROD[i]["price"], lang)}</b></div>' for i in (ids or [p["id"] for p in C.PRODUCTS]))
     return f'<div class="pbox"><h2>{fill(u["prices_h"], lang)}</h2>{rows}<p class="small">{u["prices_note"]}</p>{order_btn(lang)}<a class="btn btn-ghost" href="{L("home#devis", lang)}">{u["quote"]}</a><a class="btn btn-ghost" href="mailto:{C.EMAIL}">{C.EMAIL}</a></div>'
 
 def order_btn(lang):
@@ -172,7 +175,7 @@ def price_line(lang):
 def buy_note(prose, lang):
     colour, white = (min(p["price"] for p in C.PRODUCTS if ("blanc" in p["id"]) == w) for w in (False, True))
     if lang == "fr": t = f'<b>Chiffons ÉCO :</b> chiffons recyclés – guenilles en sac de 25 lb, couleur {colour} $ · blanc {white} $ avant taxes, livrés à Laval, Montréal, Rive-Sud et Rive-Nord. <a href="{L("commander", lang)}">Commander en ligne</a> · <a href="{L("gros", lang)}">En gros (50 sacs et plus)</a>'
-    else: t = f'<b>ECO Rags:</b> recycled cotton rags in 25 lb bags, colored ${colour} · white ${white} before tax, delivered in Laval, Montréal and both Shores. <a href="{L("commander", lang)}">Order online</a> · <a href="{L("gros", lang)}">Wholesale (50 bags +)</a>'
+    else: t = f'<b>ECO Rags:</b> recycled cotton rags in 25 lb bags, coloured ${colour} · white ${white} before tax, delivered in Laval, Montréal and both Shores. <a href="{L("commander", lang)}">Order online</a> · <a href="{L("gros", lang)}">Wholesale (50 bags +)</a>'
     i = prose.find("<h2>", 1)
     note = f'<div class="note buy"><p>{t}</p></div>\n'
     return prose[:i] + note + prose[i:] if i > 0 else prose + note
@@ -274,12 +277,14 @@ def write(path, s):
     out = os.path.join(ROOT, path.lstrip("/"), "index.html") if path.endswith("/") else os.path.join(ROOT, path.lstrip("/"))
     os.makedirs(os.path.dirname(out), exist_ok=True)
     s = re.sub(r"\n{2,}", "\n", s)
-    h = hashlib.sha1(re.sub(r"/assets/site\.[0-9a-f]+\.css", "", s).encode()).hexdigest()
     rel = os.path.relpath(out, ROOT)
+    # Only the page's own content counts as a change, not the shared header/footer.
+    core = "".join(re.findall(r"<title>.*?</title>|<meta name=\"description\"[^>]*>|<main id=\"main\">[\s\S]*</main>", s))
+    h = hashlib.sha1(re.sub(r"/assets/site\.[0-9a-f]+\.css", "", core).encode()).hexdigest()
     rec = DATES.get(path)
     if not rec:
         rec = {"published": git_date(rel, first=True), "modified": git_date(rel), "hash": h}
-    elif rec["hash"] != h:
+    elif rec.get("hash") != h:
         rec = {**rec, "modified": TODAY, "hash": h}
     DATES[path] = rec
     s = s.replace(D_MOD, rec["modified"]).replace(D_PUB, rec["published"])
@@ -317,7 +322,7 @@ def subpage(key, lang):
     graph = [{"@type": "Article" if kind == "guide" else "WebPage", "@id": C.SITE + L(key, lang) + "#page", "url": C.SITE + L(key, lang),
               "name": t["title"], "headline": t["h1"], "description": t["desc"], "inLanguage": f"{lang}-CA",
               "isPartOf": {"@id": C.SITE + "/#website"}, "about": {"@id": BIZ_ID}, "publisher": {"@id": BIZ_ID}, "dateModified": D_MOD}, cj,
-             {"@type": "LocalBusiness", "@id": BIZ_ID, "name": "Entretien Laval — Chiffons ÉCO", "url": C.SITE + "/"}]
+             {"@type": "LocalBusiness", "@id": BIZ_ID, "name": "Entretien Laval — Chiffons ÉCO", "url": C.SITE + "/", "telephone": "+1-438-831-3611"}]
     if kind == "guide": graph[0].update({"author": {"@id": BIZ_ID}, "image": C.SITE + "/img/" + pg["img"], "datePublished": D_PUB})
     if faq and kind != "thanks": graph.append(faq_ld(faq, lang))
     for pid in pg.get("products", []): graph.append(product_ld(pid, lang))
@@ -348,9 +353,9 @@ def subpage(key, lang):
         ids = pg.get("products")
         side = price_box(lang, ids)
         if kind == "product":
-            prods = "".join(f'<div class="prod"><span class="code">{PROD[i][lang][1]}</span><h3>{PROD[i][lang][0]}</h3><div class="price">{price(PROD[i]["price"], lang)}<small>{fill(u["unit"], lang)}</small></div><p>{PROD[i][lang][2]}</p></div>' for i in ids)
+            prods = "".join(f'<div class="prod"><span class="code">{PROD[i][lang][1]}</span><h3>{PROD[i][lang][0]}{oos(i, lang)}</h3><div class="price">{price(PROD[i]["price"], lang)}<small>{fill(u["unit"], lang)}</small></div><p>{PROD[i][lang][2]}</p></div>' for i in ids)
             body += f'<section class="section band"><div class="wrap"><div class="prods" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">{prods}</div><div class="terms">' + "".join(f"<div><b>{a}</b>{b}</div>" for a, b in C.TERMS[lang]) + "</div></div></section>"
-        if kind in ("info", "city"):
+        if kind == "info":
             body += f'<section class="section band"><div class="wrap"><div class="terms" style="margin-top:0">' + "".join(f"<div><b>{a}</b>{b}</div>" for a, b in C.TERMS[lang]) + "</div></div></section>"
         if kind == "tool": body += calc_html(t, lang)
         if kind == "order": body += order_html(lang)
@@ -369,8 +374,8 @@ def subpage(key, lang):
         body += f'<section class="section"><div class="wrap"><div class="sec-head"><h2>{u["related"]}</h2></div>{cards(pg["rel"], lang)}</div></section>'
     if not noindex: body += ctaband(lang)
     if kind == "thanks":
-        msg = {"fr": ("Merci! Votre paiement est reçu.", "Commande no {id}. Nous vous contactons rapidement pour fixer la date de livraison. Questions : info@entretienlaval.ca."),
-               "en": ("Thank you! Your payment was received.", "Order no. {id}. We'll contact you shortly to set the delivery date. Questions: info@entretienlaval.ca.")}[lang]
+        msg = {"fr": ("Merci! Votre paiement est reçu.", "Commande no {id}. Nous vous contactons rapidement pour fixer la date de livraison. Questions : 438-831-3611 ou info@entretienlaval.ca."),
+               "en": ("Thank you! Your payment was received.", "Order no. {id}. We'll contact you shortly to set the delivery date. Questions: 438-831-3611 or info@entretienlaval.ca.")}[lang]
         body += ("<script>(function(){var id=new URLSearchParams(location.search).get('commande');if(!id)return;"
                  f"document.querySelector('h1').textContent={json.dumps(msg[0], ensure_ascii=False)};"
                  f"var l=document.querySelector('.lede');if(l)l.textContent={json.dumps(msg[1], ensure_ascii=False)}.replace('{{id}}',id.slice(0,40));}})();</script>")
@@ -390,19 +395,19 @@ def homepage(lang):
     part = part.replace('<div class="cta-row">', price_line(lang) + '<div class="cta-row">', 1)
     part = part.replace('href="#contact"', 'href="#devis"').replace('href="#grades"', 'href="#produits"')
     part = re.sub(r'(<div class="hero-media">\s*<div class="frame"><img)', r'\1 fetchpriority="high"', part, count=1)
-    prods = "".join(f'<div class="prod"><span class="code">{p[lang][1]}</span><h3>{p[lang][0]}</h3><div class="price">{price(p["price"], lang)}<small>{fill(u["unit"], lang)}</small></div><p>{p[lang][2]}</p><a href="{L(p["page"], lang)}">{u["more"]}</a></div>' for p in C.PRODUCTS)
+    prods = "".join(f'<div class="prod"><span class="code">{p[lang][1]}</span><h3>{p[lang][0]}{oos(p["id"], lang)}</h3><div class="price">{price(p["price"], lang)}<small>{fill(u["unit"], lang)}</small></div><p>{p[lang][2]}</p><a href="{L(p["page"], lang)}">{u["more"]}</a></div>' for p in C.PRODUCTS)
     terms = "".join(f"<div><b>{a}</b>{b}</div>" for a, b in C.TERMS[lang])
     photos = f'<div class="prodphoto"><div class="frame">{img_tag(C.IMG_BAG, h["photo_alt"][1])}</div><div class="frame">{img_tag(C.IMG_BAGS, h["photo_alt"][0])}</div></div>'
     products = f'<section class="section" id="produits"><span id="grades"></span><div class="wrap"><div class="sec-head"><div class="eyebrow">{h["prod_eyebrow"]}</div><h2>{h["prod_h2"]}</h2><p>{fill(h["prod_p"], lang)}</p></div><div class="prods">{prods}</div><div class="terms">{terms}</div>{photos}</div></section>'
     part = part.replace("<!--PRODUCTS-->", products)
     sectors = f'<section class="section" id="secteurs"><span id="uses"></span><div class="wrap"><div class="sec-head"><div class="eyebrow">{h["sec_eyebrow"]}</div><h2>{h["sec_h2"]}</h2><p>{h["sec_p"]}</p></div>{cards(C.SECTOR_KEYS, lang)}</div></section>'
-    cities = "".join(f'<a href="{L(k, lang)}">{C.PAGES[k][lang]["short"]}</a>' for k in C.CITY_KEYS) + f'<span>{"Partout au Québec (1 000 lb +)" if lang == "fr" else "Anywhere in Québec (1,000 lb +)"}</span>'
+    cities = "".join(f'<a href="{L(k, lang)}">{C.PAGES[k][lang]["short"]}</a>' for k in C.CITY_KEYS) + f'<span>{"Partout au Québec (1 000 lb +)" if lang == "fr" else "Anywhere in Québec (1,000 lb +)"}</span>' + f'<span>{"Ramassage gratuit à Laval" if lang == "fr" else "Free pickup in Laval"}</span>'
     delivery = f'<section class="section band" id="livraison"><div class="wrap"><div class="sec-head" style="margin-bottom:10px"><div class="eyebrow">{h["del_eyebrow"]}</div><h2>{h["del_h2"]}</h2><p>{h["del_p"]}</p></div><div class="cities">{cities}</div><p style="margin-top:22px"><a class="btn btn-ghost" href="{L("livraison", lang)}">{h["del_link"]}</a></p></div></section>'
     faq = f'<section class="section" id="faq"><div class="wrap"><div class="sec-head"><div class="eyebrow">{h["faq_eyebrow"]}</div><h2>{h["faq_h2"]}</h2></div>{faq_html(C.FAQ[lang][:6], lang)}<p style="margin-top:22px"><a class="btn btn-ghost" href="{L("faq", lang)}">{u["see_all_faq"]}</a></p></div></section>'
     opts = "".join(f"<option>{p[lang][0]}</option>" for p in C.PRODUCTS) + f'<option>{h["f_any"]}</option>'
     form = f"""<form class="qform" name="soumission" method="POST" action="{L('merci', lang)}" data-netlify="true" netlify-honeypot="bot-field">
 <input type="hidden" name="form-name" value="soumission"><input type="hidden" name="langue" value="{lang}">
-<p class="hp"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+<p class="hp" aria-hidden="true"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
 <h3>{h['form_h']}</h3><p class="sub">{h['form_sub']}</p>
 <div class="fgrid">
 <div><label for="f-name-{lang}">{h['f_name']} *</label><input id="f-name-{lang}" name="nom" required autocomplete="name"></div>
@@ -419,7 +424,7 @@ def homepage(lang):
 </form>"""
     lbl = h["lbl"]
     line = lambda ic, label, val: f'<div class="cline">{ICON[ic].replace("<svg", HID, 1)}<div><div class="lbl">{label}</div>{val}</div></div>'
-    info = (line("mail", lbl["mail"], f'<a class="val" href="mailto:{C.EMAIL}">{C.EMAIL}</a>')
+    info = (line("phone", lbl["phone"], f'<a class="val" href="{C.TEL}">{C.PHONE}</a>') + line("mail", lbl["mail"], f'<a class="val" href="mailto:{C.EMAIL}">{C.EMAIL}</a>')
             + line("ig", lbl["ig"], '<a class="val" href="https://www.instagram.com/entretienlaval/" rel="noopener" target="_blank">@entretienlaval</a>')
             + line("pin", lbl["pin"], '<span class="val">309-1355 Boul. Le Corbusier<br>Laval, QC H7N 0G4</span>')
             + line("biz", lbl["biz"], '<span class="val">Entretien Laval</span><div class="mono" style="font-size:12px;color:#5f5d53;margin-top:4px">NEQ 2280629637</div>'))
@@ -471,9 +476,9 @@ def order_help():
 
 def llms():
     lines = ["# Chiffons ÉCO — Entretien Laval", "",
-             "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.", "",
-             "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42 (terry: out of stock for now). Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), South Shore and North Shore $35 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.", "",
-             f"Contact: {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", ""] + order_help() + ["## Français"]
+             "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and heat-treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 coloured / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.", "",
+             "Products and prices (per 25 lb bag, before tax): coloured T-shirt rags $32, coloured terry rags $32, white terry rags $42, white T-shirt rags $42 (terry: out of stock for now). Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), South Shore and North Shore $35 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 coloured / $38 white. Orders confirmed and paid one week before delivery.", "",
+             f"Contact: {C.PHONE} · {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", ""] + order_help() + ["## Français"]
     lines += [f"- [{C.PAGES[k]['fr']['short'] if k != 'home' else 'Accueil'}]({C.SITE}{L(k, 'fr')})" for k in indexable()]
     lines += ["", "## English"] + [f"- [{C.PAGES[k]['en']['short'] if k != 'home' else 'Home'}]({C.SITE}{L(k, 'en')})" for k in indexable()]
     open(os.path.join(ROOT, "llms.txt"), "w").write("\n".join(lines) + "\n")

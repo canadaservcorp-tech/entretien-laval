@@ -15,7 +15,7 @@ P["canada"] = {"kind": "sector", "img": WARE, "rel": ["gros", "guide-lingettes",
   "body": f"""<h2>Pour qui</h2>
 <p>Distributeurs de produits sanitaires et d'entretien, fournisseurs industriels, de sécurité, de peinture et de soudage, quincailleries et centres de location situés ailleurs au Canada : {PROV_FR}. Hors Québec, nous vendons <b>aux distributeurs seulement</b>, pas aux utilisateurs finaux.</p>
 <h2>Produits</h2>
-<p>Chiffons d'essuyage (guenilles) en tissu de coton recyclé, lavés à l'eau chaude, triés, coupés et traités contre les punaises de lit, sans boutons ni fermetures éclair, emballés à Laval en sacs de 25 lb :</p>
+<p>Chiffons d'essuyage (guenilles) en tissu de coton recyclé, lavés à l'eau chaude, triés, coupés et traités à la chaleur contre les punaises de lit, sans boutons ni fermetures éclair, emballés à Laval en sacs de 25 lb :</p>
 <ul><li>T-shirt ou ratine de couleur : <b>28 $ le sac</b> (environ 1,12 $ la livre)</li>
 <li>T-shirt ou ratine blanc : <b>38 $ le sac</b> (environ 1,52 $ la livre)</li></ul>
 <h2>Conditions hors Québec</h2>
@@ -32,26 +32,26 @@ P["canada"] = {"kind": "sector", "img": WARE, "rel": ["gros", "guide-lingettes",
           ("Vendez-vous des lingettes jetables?", "Non. Nous vendons des chiffons en coton recyclé réutilisables, une solution de rechange aux lingettes et au papier pour l'atelier et l'entretien.")]},
  "en": {"path": "/en/recycled-rag-supplier-canada/", "short": "Rag supplier in Canada",
   "title": "Recycled rag supplier in Canada, wholesale",
-  "desc": "Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb bags at $28 colored and $38 white from 50 bags, freight quoted per order.",
+  "desc": "Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb bags at $28 coloured and $38 white from 50 bags, freight quoted per order.",
   "eyebrow": "Distributors · across Canada", "h1": "Wholesale recycled rag supplier for distributors across Canada",
   "lede": "Entretien Laval (ECO Rags) supplies recycled cotton wiping rags to distributors in every province: published distributor price, 50-bag minimum, freight quoted per order.",
   "card": "Distributors outside Québec: 50 bags minimum, $28 / $38, freight quoted.",
-  "alt": "Warehouse of white and colored recycled rag bags in Laval",
+  "alt": "Warehouse of white and coloured recycled rag bags in Laval",
   "body": f"""<h2>Who it's for</h2>
 <p>Janitorial and sanitation distributors, industrial, safety, paint and welding suppliers, hardware stores and rental centres elsewhere in Canada: {PROV_EN}. Outside Québec we sell <b>to distributors only</b>, not to end users.</p>
 <h2>Products</h2>
-<p>Recycled cotton cloth wiping rags (shop rags), hot-water washed, sorted, cut and treated against bedbugs, with no buttons or zippers, packed in Laval in 25 lb bags:</p>
-<ul><li>Colored T-shirt or terry: <b>$28 per bag</b> (about $1.12 per lb)</li>
+<p>Recycled cotton cloth wiping rags (shop rags), hot-water washed, sorted, cut and heat-treated against bedbugs, with no buttons or zippers, packed in Laval in 25 lb bags:</p>
+<ul><li>Coloured T-shirt or terry: <b>$28 per bag</b> (about $1.12 per lb)</li>
 <li>White T-shirt or terry: <b>$38 per bag</b> (about $1.52 per lb)</li></ul>
 <h2>Terms outside Québec</h2>
 <ul><li><b>Minimum</b>: 50 bags of 25 lb (1,250 lb) per order; mixed products accepted.</li>
-<li><b>Price</b>: $28 colored, $38 white per bag, before tax.</li>
+<li><b>Price</b>: $28 coloured, $38 white per bag, before tax.</li>
 <li><b>Freight</b>: quoted per order, based on the province and delivery address.</li>
 <li><b>Payment</b>: order confirmed and paid before shipping.</li></ul>
 <h2>Request a quote</h2>
 <p>Email info@entretienlaval.ca or use the <a href="{{{{home#devis}}}}">form</a> with the products, number of bags and delivery address: we reply with the freight price. The <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>supplier sheet (PDF)</a> sums up the company and its supplier registrations.</p>
 <p>In Québec the usual terms apply: see <a href="{{{{gros}}}}">wholesale rags</a> and <a href="{{{{livraison}}}}">delivery</a>.</p>""",
-  "faq": [("Where can I find a recycled rag supplier in Canada?", "Entretien Laval (ECO Rags) in Laval, Québec sells recycled cotton wiping rags to distributors across Canada: 25 lb bags at $28 colored and $38 white, from 50 bags, freight quoted per order."),
+  "faq": [("Where can I find a recycled rag supplier in Canada?", "Entretien Laval (ECO Rags) in Laval, Québec sells recycled cotton wiping rags to distributors across Canada: 25 lb bags at $28 coloured and $38 white, from 50 bags, freight quoted per order."),
           ("Do you ship to Ontario, Alberta or British Columbia?", "Yes, to distributors, from 50 bags per order. Freight is calculated in the quote based on the address."),
           ("Do you sell to businesses outside Québec that are not distributors?", "No. Outside Québec we sell only to distributors and resellers, from 50 bags."),
           ("Do you sell disposable cleaning wipes?", "No. We sell reusable recycled cotton rags, an alternative to wipes and paper for shop and cleaning work.")]}}
@@ -84,12 +84,12 @@ P["guide-lingettes"] = {"kind": "guide", "img": BAGS, "rel": ["guide-papier", "c
   "desc": "Disposable cleaning wipes or reusable recycled cotton rags: uses, cost per pound, waste and safety, to choose for shop and cleaning work.",
   "eyebrow": "Guide · comparing", "h1": "Recycled cotton rags or disposable cleaning wipes?",
   "lede": "Disposable wipes are used once. A recycled cotton rag absorbs more and can be washed if it isn't soaked with oil or solvent.",
-  "card": "Uses, cost, waste: when to pick a rag over a wipe.", "alt": "Bags of colored recycled rags",
+  "card": "Uses, cost, waste: when to pick a rag over a wipe.", "alt": "Bags of coloured recycled rags",
   "body": """<h2>The difference</h2>
 <p>A cleaning wipe is a disposable nonwoven sheet, often pre-moistened with a product. A recycled wiping rag is a piece of real cotton cloth (T-shirt or terry), reclaimed, washed and cut.</p>
 <h2>When a rag is the better choice</h2>
 <ul><li><b>Oil, grease, liquids</b>: cotton, especially terry, holds a lot.</li>
-<li><b>High volume</b>: in 25 lb bags you pay by weight, about $1.28 per lb for colored ($32 per bag before tax).</li>
+<li><b>High volume</b>: in 25 lb bags you pay by weight, about $1.28 per lb for coloured ($32 per bag before tax).</li>
 <li><b>Less waste</b>: reclaimed textiles stay out of landfill, and a lightly soiled rag can be washed again. See <a href="{{guide-ranger}}">store, wash and reuse</a>.</li>
 <li><b>Surfaces and tools</b>: white T-shirt leaves no dye and little lint.</li></ul>
 <h2>When to keep wipes</h2>
@@ -98,8 +98,8 @@ P["guide-lingettes"] = {"kind": "guide", "img": BAGS, "rel": ["guide-papier", "c
 <h2>Safety</h2>
 <p>A rag soaked with oil, stain or solvent can ignite on its own: never put it in a dryer, and keep it in a closed metal container. See <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>
 <h2>Where to buy</h2>
-<p>In Québec, order our <a href="{{couleur}}">colored</a> or <a href="{{blancs}}">white</a> rags. Elsewhere in Canada we supply distributors: see <a href="{{canada}}">rag supplier in Canada</a>.</p>""",
+<p>In Québec, order our <a href="{{couleur}}">coloured</a> or <a href="{{blancs}}">white</a> rags. Elsewhere in Canada we supply distributors: see <a href="{{canada}}">rag supplier in Canada</a>.</p>""",
   "faq": [("Can recycled rags replace cleaning wipes?", "For wiping oil, grease, liquids and everyday shop cleaning, yes. For disinfection that needs a specific product and contact time, follow the manufacturer's directions."),
-          ("How much do recycled rags cost per pound?", "At Entretien Laval, $32 per 25 lb bag colored (about $1.28 per lb) and $42 white, before tax. Distributors: $28 / $38 from 50 bags.")]}}
+          ("How much do recycled rags cost per pound?", "At Entretien Laval, $32 per 25 lb bag coloured (about $1.28 per lb) and $42 white, before tax. Distributors: $28 / $38 from 50 bags.")]}}
 
 CANADA_PAGES = P
