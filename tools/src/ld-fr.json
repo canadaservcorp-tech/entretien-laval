@@ -11,9 +11,10 @@
     "Entretien Laval"
    ],
    "url": "https://entretienlaval.ca/",
+   "telephone": "+1-438-831-3611",
    "logo": "https://entretienlaval.ca/favicon.svg",
    "image": "https://entretienlaval.ca/img/og-chiffons-eco.jpg",
-   "description": "Chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en sac de 25 lb. Tri et emballage à Laval.",
+   "description": "Chiffons d'essuyage en coton recyclé, lavés et traités à la chaleur contre les punaises, en sac de 25 lb. Tri et emballage à Laval.",
    "email": "info@entretienlaval.ca",
    "address": {
     "@type": "PostalAddress",

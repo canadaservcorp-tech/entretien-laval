@@ -20,7 +20,7 @@
   },
   "ratine-couleur": {
    "available": false,
-   "name_en": "Colored terry rags",
+   "name_en": "Coloured terry rags",
    "name_fr": "Chiffons ratine couleur",
    "price": 32
   },
@@ -32,7 +32,7 @@
   },
   "tshirt-couleur": {
    "available": true,
-   "name_en": "Colored T-shirt rags",
+   "name_en": "Coloured T-shirt rags",
    "name_fr": "Chiffons t-shirt couleur",
    "price": 32
   }

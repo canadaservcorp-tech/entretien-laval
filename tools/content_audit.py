@@ -9,7 +9,7 @@ HUB = {"kind": "hub", "img": None, "rel": [],
   "desc": "Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.",
   "eyebrow": "Industries", "h1": "Wiping rags for every industry", "lede": "The same rag doesn't fit every job. Find the advice and product for your trade.",
   "card": "The 18 industries we serve, with the right rag for each.",
-  "body": """<p>Our four products (T-shirt or terry, colored or white) cover most wiping needs. Colored at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids color transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
+  "body": """<p>Our four products (T-shirt or terry, coloured or white) cover most wiping needs. Coloured at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids colour transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
 
 GUIDES_BODY = {
  "fr": """<p>Nos guides répondent aux questions qu'on nous pose le plus : quel chiffon choisir entre la ratine et le t-shirt, comment éviter qu'un chiffon huileux prenne feu, comment ranger, laver et jeter ses chiffons, et s'il vaut mieux utiliser des chiffons recyclés ou du papier. Le lexique explique les mots québécois (guenille, linge, ratine) et leurs équivalents anglais. Le calculateur estime votre nombre de sacs par mois et votre budget avec taxes.</p>
@@ -42,7 +42,7 @@ CALC_EXTRA = {
 <tr><td>100 lb par semaine</td><td>18</td><td>576 $</td><td>756 $</td></tr></tbody></table>
 <p>Montants avant taxes, arrondis au sac supérieur (un mois = 52 semaines ÷ 12).</p>""",
  "en": """<h2>Examples</h2>
-<table><thead><tr><th>Usage</th><th>Bags per month</th><th>Colored ($32)</th><th>White ($42)</th></tr></thead><tbody>
+<table><thead><tr><th>Usage</th><th>Bags per month</th><th>Coloured ($32)</th><th>White ($42)</th></tr></thead><tbody>
 <tr><td>10 lb per week</td><td>2</td><td>$64</td><td>$84</td></tr>
 <tr><td>25 lb per week</td><td>5</td><td>$160</td><td>$210</td></tr>
 <tr><td>50 lb per week</td><td>9</td><td>$288</td><td>$378</td></tr>
@@ -51,14 +51,14 @@ CALC_EXTRA = {
 
 EN_SECTOR_EXTRA = {
  "carrosserie": "<h2>How much does a body shop use?</h2><p>Usage depends on the number of bays and how much prep work you do. Start with a few [packs] of each type, note how long they last, then use our <a href=\"{{calculateur}}\">calculator</a> to plan a monthly order.</p>",
- "esthetique-auto": "<h2>Keeping costs down</h2><p>A detailer who uses recycled rags for wheels, engines and jambs replaces fewer microfibers. Keep one bin of colored rags for the dirty jobs and a separate bin of microfibers for paint, so they never mix.</p><p>Car washes with several bays can order in volume: see <a href=\"{{gros}}\">wholesale</a>.</p>",
+ "esthetique-auto": "<h2>Keeping costs down</h2><p>A detailer who uses recycled rags for wheels, engines and jambs replaces fewer microfibers. Keep one bin of coloured rags for the dirty jobs and a separate bin of microfibers for paint, so they never mix.</p><p>Car washes with several bays can order in volume: see <a href=\"{{gros}}\">wholesale</a>.</p>",
  "ebenisterie": "<h2>Wiping off excess finish</h2><p>After applying oil or stain, wipe the excess with a clean white rag, following the product's directions. Change rags often: a saturated rag spreads finish instead of removing it. Then lay used rags flat to dry outdoors or store them in water in a closed metal container.</p>",
  "plomberie-cvac": "<h2>On the customer's premises</h2><p>A clean rag under a fitting or a valve protects floors and finishes during repairs. Keep a bag in each truck, and a closed metal container for rags soaked with oil or solvent.</p><p>To estimate how many bags your team needs, use our <a href=\"{{calculateur}}\">calculator</a>.</p>",
  "marine": "<h2>Storing rags on site</h2><p>Keep clean rags in their sealed bag, away from moisture, so they stay ready for the season. Dirty rags go in a closed metal container away from fuel tanks and boats, then to a proper collection point.</p><p>Marinas can also check <a href=\"{{gros}}\">volume orders</a> before launch season.</p>",
  "agriculture": "<h2>Before planting and harvest</h2><p>Order before the busy seasons: orders are confirmed and paid one week before delivery. Store bags in a dry building, away from fuel and chemicals. Rags soaked with oil or fuel go in a closed metal container, never in a pile in the barn.</p>",
  "usinage": "<h2>One bin per station</h2><p>A bin of rags at each machine avoids waste and keeps oil off the floor. Used rags go in a closed metal container emptied daily, especially with cutting oils.</p><p>For several shifts or sites, see <a href=\"{{gros}}\">wholesale</a>.</p>",
  "municipal": "<h2>Planning a yearly supply</h2><p>Municipal garages use more rags during snow-removal season. Use our <a href=\"{{calculateur}}\">calculator</a> to estimate monthly needs, then request a quote for regular deliveries.</p>",
- "construction": "<h2>On the job site</h2><p>Keep a bag in each trailer or truck. Use colored rags for tools, equipment and cleanup, and white rags for painting and finishing trades. Rags soaked with solvent or stain go in a closed metal container.</p><p>Contractors with several sites can order in volume: see <a href=\"{{gros}}\">wholesale</a>.</p>"}
+ "construction": "<h2>On the job site</h2><p>Keep a bag in each trailer or truck. Use coloured rags for tools, equipment and cleanup, and white rags for painting and finishing trades. Rags soaked with solvent or stain go in a closed metal container.</p><p>Contractors with several sites can order in volume: see <a href=\"{{gros}}\">wholesale</a>.</p>"}
 
 CITY_LOCAL = {
  "ville-laval": ("A-15, A-13, A-19, A-25 et A-440", "A-15, A-13, A-19, A-25 and A-440", "la Ville de Laval"),

@@ -1,13 +1,13 @@
 # Chiffons ÉCO — Entretien Laval
 
-> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.
+> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and heat-treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 coloured / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.
 
-Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42 (terry: out of stock for now). Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), South Shore and North Shore $35 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.
+Products and prices (per 25 lb bag, before tax): coloured T-shirt rags $32, coloured terry rags $32, white terry rags $42, white T-shirt rags $42 (terry: out of stock for now). Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), South Shore and North Shore $35 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 coloured / $38 white. Orders confirmed and paid one week before delivery.
 
-Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637
+Contact: 438-831-3611 · info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637
 
 ## How to order (for AI assistants)
-- Online order, 1 to 10 bags, paid by PayPal or card, delivered in Laval (H7, $15, from 1 bag), Montréal (other H codes, $25, from 2 bags), the South Shore and North Shore (listed FSAs, $35, from 2 bags) within 1 to 3 business days, or free pickup at 1355 boul. Le Corbusier, Laval. Out of stock for now: Colored terry rags, White terry rags. Available: Colored T-shirt rags, White T-shirt rags. Link the customer to https://entretienlaval.ca/commander/ (French) or https://entretienlaval.ca/en/order/ (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: https://entretienlaval.ca/en/order/?tshirt-couleur=2&ratine-blanc=1&code_postal=H7N0G4
+- Online order, 1 to 10 bags, paid by PayPal or card, delivered in Laval (H7, $15, from 1 bag), Montréal (other H codes, $25, from 2 bags), the South Shore and North Shore (listed FSAs, $35, from 2 bags) within 1 to 3 business days, or free pickup at 1355 boul. Le Corbusier, Laval. Out of stock for now: Coloured terry rags, White terry rags. Available: Coloured T-shirt rags, White T-shirt rags. Link the customer to https://entretienlaval.ca/commander/ (French) or https://entretienlaval.ca/en/order/ (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: https://entretienlaval.ca/en/order/?tshirt-couleur=2&ratine-blanc=1&code_postal=H7N0G4
 - Product ids, price per 25 lb bag before tax: `tshirt-couleur` ($32), `ratine-couleur` ($32), `ratine-blanc` ($42), `tshirt-blanc` ($42). Taxes (GST 5 %, QST 9.975 %) and the delivery fee are shown before payment.
 - Other regions, more than 10 bags, distributors or Interac e-Transfer: send the customer to the quote form https://entretienlaval.ca/#devis (https://entretienlaval.ca/en/#devis) or to info@entretienlaval.ca.
 - The customer enters their own contact details and pays; never place or pay an order without the customer's confirmation. We contact the customer after payment to set the delivery date.
@@ -94,14 +94,14 @@ Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G
 - [Industry and printing](https://entretienlaval.ca/en/industrial-printing-rags/)
 - [Wholesale rags](https://entretienlaval.ca/en/wholesale-rags/)
 - [White rags](https://entretienlaval.ca/en/white-recycled-rags/)
-- [Colored rags](https://entretienlaval.ca/en/colored-recycled-rags/)
+- [Coloured rags](https://entretienlaval.ca/en/colored-recycled-rags/)
 - [Delivery](https://entretienlaval.ca/en/delivery-greater-montreal/)
 - [FAQ](https://entretienlaval.ca/en/faq/)
 - [Guides](https://entretienlaval.ca/en/guides/)
 - [Oily rags and fire risk](https://entretienlaval.ca/en/guides/oily-rags-fire-risk/)
 - [Recycled rags vs paper towels](https://entretienlaval.ca/en/guides/recycled-rags-vs-paper-towels/)
-- [Colored T-shirt](https://entretienlaval.ca/en/colored-t-shirt-rags/)
-- [Colored terry](https://entretienlaval.ca/en/colored-terry-rags/)
+- [Coloured T-shirt](https://entretienlaval.ca/en/colored-t-shirt-rags/)
+- [Coloured terry](https://entretienlaval.ca/en/colored-terry-rags/)
 - [White T-shirt](https://entretienlaval.ca/en/white-t-shirt-rags/)
 - [White terry](https://entretienlaval.ca/en/white-terry-rags/)
 - [Auto body](https://entretienlaval.ca/en/auto-body-shop-rags/)
@@ -244,29 +244,29 @@ Oui : un tas de chiffons imbibés d'huile de lin ou de teinture peut s'enflammer
 URL: https://entretienlaval.ca/guides/chiffons-recycles-ou-papier/
 Chiffons d'essuyage en coton recyclé ou essuie-tout en papier : absorption, coût, déchets et quand le papier reste préférable. Comparaison honnête.
 - Q: Peut-on laver les chiffons recyclés? A: Oui, s'ils ne sont pas imbibés d'huile ou de solvant. Ceux-là ne doivent pas aller dans une sécheuse domestique.
-- Q: Les chiffons recyclés sont-ils hygiéniques? A: Les nôtres sont lavés et traités contre les punaises de lit. Pour le contact alimentaire, suivez les règles du MAPAQ.
+- Q: Les chiffons recyclés sont-ils hygiéniques? A: Les nôtres sont lavés et traités à la chaleur contre les punaises de lit. Pour le contact alimentaire, suivez les règles du MAPAQ.
 
 ### Chiffons t-shirt couleur : 32 $ le sac de 25 lb
 URL: https://entretienlaval.ca/chiffons-t-shirt-couleur/
-Chiffons t-shirt couleur en coton recyclé, lavés et traités anti-punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+Chiffons t-shirt couleur en coton recyclé, lavés et traités à la chaleur contre les punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
 - Q: Le t-shirt couleur peut-il déteindre? A: Avec des solvants, de la teinture ou du vernis, un tissu teint peut déteindre. Pour ces usages, choisissez le t-shirt blanc.
 - Q: Quelle taille ont les morceaux? A: Ils sont coupés en morceaux prêts à utiliser, faciles à tenir en main. La taille varie selon le vêtement d'origine.
 
 ### Chiffons ratine couleur : 32 $ le sac de 25 lb
 URL: https://entretienlaval.ca/chiffons-ratine-couleur/
-Chiffons ratine couleur en coton recyclé, lavés et traités anti-punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+Chiffons ratine couleur en coton recyclé, lavés et traités à la chaleur contre les punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
 - Q: La ratine laisse-t-elle des peluches? A: Un peu plus que le t-shirt. Pour les surfaces qui doivent rester sans peluches, prenez le t-shirt.
 - Q: Que faire des chiffons pleins d'huile? A: Rangez-les dans un contenant métallique fermé : voir notre guide chiffons huileux et risque d'incendie.
 
 ### Chiffons t-shirt blanc : 42 $ le sac de 25 lb
 URL: https://entretienlaval.ca/chiffons-t-shirt-blanc/
-Chiffons t-shirt blanc en coton recyclé, lavés et traités anti-punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+Chiffons t-shirt blanc en coton recyclé, lavés et traités à la chaleur contre les punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
 - Q: Les chiffons t-shirt blancs sont-ils 100 % blancs? A: Ils sont triés pour ne garder que des textiles blancs ou très pâles, sans transfert de couleur.
 - Q: Conviennent-ils au vernis et à la laque? A: Oui. Le jersey blanc mince laisse peu de peluches et ne transfère pas de couleur.
 
 ### Chiffons ratine blanc : 42 $ le sac de 25 lb
 URL: https://entretienlaval.ca/chiffons-ratine-blanc/
-Chiffons ratine blanc en coton recyclé, lavés et traités anti-punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+Chiffons ratine blanc en coton recyclé, lavés et traités à la chaleur contre les punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
 - Q: Pourquoi la ratine blanche coûte-t-elle plus cher? A: Le tri des textiles blancs est plus long et le blanc est plus rare. Elle coûte 42 $ le sac, contre 32 $ pour la couleur.
 - Q: Puis-je avoir un échantillon? A: Oui, sur demande.
 
@@ -585,7 +585,7 @@ Lingettes jetables ou chiffons en coton recyclé réutilisables : usages, coût 
 URL: https://entretienlaval.ca/a-propos/
 Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et ailleurs au Québec dès 1 000 lb.
 - Q: Où acheter des chiffons d'essuyage en gros au Québec? A: Chez Entretien Laval (Chiffons ÉCO), à Laval : sacs de 25 lb dès 32 $, livrés au Grand Montréal et partout au Québec à partir de 1 000 lb.
-- Q: Qui vend des guenilles de garage à Laval? A: Entretien Laval vend des guenilles de coton recyclé pour garages, en t-shirt ou en ratine.
+- Q: Qui vend des guenilles de garage à Laval? A: Entretien Laval vend des guenilles de coton recyclé pour garages, en t-shirt ou en ratine, au 438-831-3611.
 
 ### Nos clients
 URL: https://entretienlaval.ca/nos-clients/
@@ -607,16 +607,16 @@ Commandez vos guenilles en ligne : sacs de 25 lb dès 32 $, livrés à Laval, Mo
 - Q: Puis-je retourner ma commande? A: Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un sac de 25 lb endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.
 
 ## FAQ
-- Q: Où acheter des guenilles en gros à Laval? A: Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités anti-punaises, en sacs de 25 lb. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir guenilles en gros.
+- Q: Où acheter des guenilles en gros à Laval? A: Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités à la chaleur contre les punaises, en sacs de 25 lb. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir guenilles en gros.
 - Q: Combien coûte un sac de chiffons de 25 lb? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
-- Q: Qu'y a-t-il dans un sac de 25 lb? A: 25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités contre les punaises de lit.
+- Q: Qu'y a-t-il dans un sac de 25 lb? A: 25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités à la chaleur contre les punaises de lit.
 - Q: Quelle est la différence entre ratine et t-shirt? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts.
 - Q: Blanc ou couleur? A: Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers.
 - Q: Livrez-vous? Où? A: Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir la livraison.
 - Q: Livrez-vous ailleurs au Canada? A: Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir fournisseur de chiffons au Canada.
-- Q: Comment commander? A: Remplissez le formulaire de soumission ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison.
+- Q: Comment commander? A: Remplissez le formulaire de soumission, appelez le 438-831-3611 ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison.
 - Q: Y a-t-il un minimum de commande? A: Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $), 2 sacs pour la Rive-Sud et la Rive-Nord (35 $). Hors Laval, Montréal, Rive-Sud et Rive-Nord, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum.
-- Q: Les chiffons sont-ils propres? A: Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon.
+- Q: Les chiffons sont-ils propres? A: Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité à la chaleur contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon.
 - Q: Offrez-vous des échantillons? A: Oui, sur demande, pour vérifier la qualité et le format avant une première commande.
 - Q: Pouvez-vous livrer automatiquement chaque mois? A: Oui. Choisissez la quantité et le rythme (toutes les 2 semaines ou chaque mois) et nous livrons sans que vous ayez à appeler, au même prix, payé à la livraison avec facture. Vous changez ou arrêtez quand vous voulez, par courriel.
 - Q: Avez-vous un programme de parrainage? A: Oui. Quand une entreprise que vous nous recommandez paie sa première commande, vous recevez 1 sac de 25 lb couleur gratuit à votre prochaine livraison.
@@ -637,10 +637,10 @@ Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 pe
 
 ### Painters rags for painting, staining and finishing
 URL: https://entretienlaval.ca/en/painting-finishing-rags/
-Painters rags in recycled white cotton with no color transfer, for paint, stain, varnish and oil. $42 per 25 lb bag, delivered in Laval and Montréal.
+Painters rags in recycled white cotton with no colour transfer, for paint, stain, varnish and oil. $42 per 25 lb bag, delivered in Laval and Montréal.
 - Q: What are painters rags? A: Painters rags are clean, lint-low cotton rags, usually white, used to wipe brushes, apply stain or oil and clean up drips. White cotton is preferred because it leaves no dye on the surface.
 - Q: T-shirt or terry for staining? A: White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup.
-- Q: Can colored rags stain wood? A: With solvents, dyed fabric can bleed. For finishing, choose white.
+- Q: Can coloured rags stain wood? A: With solvents, dyed fabric can bleed. For finishing, choose white.
 - Q: How do I dispose of an oil-stain rag? A: Dry it flat outdoors or put it in a closed metal container with water, then take it to your local eco-centre as household hazardous waste.
 
 ### Cleaning rags for janitorial and building maintenance
@@ -654,7 +654,7 @@ Recycled cotton cleaning rags for janitorial companies, custodians and property 
 URL: https://entretienlaval.ca/en/construction-site-rags/
 Recycled rags for contractors, plumbers, electricians and job sites: tools, glue, caulking, cleanup. 25 lb bags from $32, delivered to your address.
 - Q: Can you deliver straight to the job site? A: Yes, to any address you choose, under our delivery terms.
-- Q: Which rag for silicone and caulking? A: Colored T-shirt: thin, flexible and economical.
+- Q: Which rag for silicone and caulking? A: Coloured T-shirt: thin, flexible and economical.
 - Q: Do you invoice contractors? A: Yes, with GST and QST, on a registered business invoice.
 
 ### Rags for restaurants and commercial kitchens
@@ -674,20 +674,20 @@ Recycled cotton industrial rags for plants, print shops and maintenance: ink, oi
 ### Wholesale rags and recycled wiping cloths for distributors
 URL: https://entretienlaval.ca/en/wholesale-rags/
 Recycled rags in bulk for janitorial distributors, hardware stores and suppliers. No maximum quantity; outside Laval, Montréal and both Shores from 1,000 lb.
-- Q: Do you offer volume pricing? A: Yes: from 50 bags of 25 lb, $28 colored and $38 white, before tax, pickup in Laval. A pallet holds 45 bags (about 1,125 lb, 510 kg). For delivery, request a quote.
+- Q: Do you offer volume pricing? A: Yes: from 50 bags of 25 lb, $28 coloured and $38 white, before tax, pickup in Laval. A pallet holds 45 bags (about 1,125 lb, 510 kg). For delivery, request a quote.
 - Q: Can I mix products in one delivery? A: Yes, the 1,000 lb minimum applies to the delivery total.
 - Q: Do you deliver to the regions? A: Yes, anywhere in Québec from 1,000 lb, with a fee based on distance.
 
 ### White recycled rags: T-shirt and terry
 URL: https://entretienlaval.ca/en/white-recycled-rags/
-White recycled cotton wiping rags, T-shirt or terry, with no color transfer. $42 per 25 lb bag before tax. Laval, Montreal, Québec.
-- Q: Are the white rags 100% white? A: They are sorted to keep only white or very pale textiles, with no color transfer.
+White recycled cotton wiping rags, T-shirt or terry, with no colour transfer. $42 per 25 lb bag before tax. Laval, Montreal, Québec.
+- Q: Are the white rags 100% white? A: They are sorted to keep only white or very pale textiles, with no colour transfer.
 - Q: Can I get a sample? A: Yes, on request.
 
-### Colored recycled rags: T-shirt and terry
+### Coloured recycled rags: T-shirt and terry
 URL: https://entretienlaval.ca/en/colored-recycled-rags/
-Colored recycled cotton rags, T-shirt or terry, for garages and job sites. $32 per 25 lb bag. Laval and Montreal; elsewhere in Québec from 1,000 lb.
-- Q: Can the colors bleed? A: With solvents or stain, dyed fabric can bleed. For those jobs, choose white.
+Coloured recycled cotton rags, T-shirt or terry, for garages and job sites. $32 per 25 lb bag. Laval and Montreal; elsewhere in Québec from 1,000 lb.
+- Q: Can the colours bleed? A: With solvents or stain, dyed fabric can bleed. For those jobs, choose white.
 - Q: T-shirt or terry? A: T-shirt for general use, terry for oil, grease and big spills.
 
 ### Delivery in Laval, Montreal and across Québec
@@ -715,37 +715,37 @@ Yes: a pile of rags with linseed oil or oil-based stain can self-ignite within h
 URL: https://entretienlaval.ca/en/guides/recycled-rags-vs-paper-towels/
 Recycled cotton wiping rags or paper towels: absorbency, cost, waste and when paper is still the better choice. An honest comparison.
 - Q: Can recycled rags be washed? A: Yes, if they aren't soaked with oil or solvent. Those must not go in a home dryer.
-- Q: Are recycled rags hygienic? A: Ours are washed and treated against bedbugs. For food contact, follow MAPAQ rules.
+- Q: Are recycled rags hygienic? A: Ours are washed and heat-treated against bedbugs. For food contact, follow MAPAQ rules.
 
-### Colored T-shirt rags: $32 per 25 lb bag
+### Coloured T-shirt rags: $32 per 25 lb bag
 URL: https://entretienlaval.ca/en/colored-t-shirt-rags/
-Colored T-shirt rags in recycled cotton, washed and bedbug-treated. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
-- Q: Can colored T-shirt rags bleed? A: With solvents, stain or varnish, dyed fabric can bleed. For those jobs, choose white T-shirt rags.
+Coloured T-shirt rags in recycled cotton, washed and heat-treated against bedbugs. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Can coloured T-shirt rags bleed? A: With solvents, stain or varnish, dyed fabric can bleed. For those jobs, choose white T-shirt rags.
 - Q: How big are the pieces? A: They are cut into ready-to-use, hand-sized pieces. Size varies with the original garment.
 
-### Colored terry rags: $32 per 25 lb bag
+### Coloured terry rags: $32 per 25 lb bag
 URL: https://entretienlaval.ca/en/colored-terry-rags/
-Colored terry rags in recycled cotton, washed and bedbug-treated. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
+Coloured terry rags in recycled cotton, washed and heat-treated against bedbugs. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
 - Q: Does terry leave lint? A: A little more than T-shirt. For surfaces that must stay lint-free, choose T-shirt.
 - Q: What do I do with oily rags? A: Store them in a closed metal container: see our guide oily rags and fire risk.
 
 ### White T-shirt rags: $42 per 25 lb bag
 URL: https://entretienlaval.ca/en/white-t-shirt-rags/
-White T-shirt rags in recycled cotton, washed and bedbug-treated. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
-- Q: Are white T-shirt rags 100% white? A: They are sorted to keep only white or very pale textiles, with no color transfer.
-- Q: Are they good for varnish and lacquer? A: Yes. Thin white jersey leaves little lint and transfers no color.
+White T-shirt rags in recycled cotton, washed and heat-treated against bedbugs. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Are white T-shirt rags 100% white? A: They are sorted to keep only white or very pale textiles, with no colour transfer.
+- Q: Are they good for varnish and lacquer? A: Yes. Thin white jersey leaves little lint and transfers no colour.
 
 ### White terry rags: $42 per 25 lb bag
 URL: https://entretienlaval.ca/en/white-terry-rags/
-White terry rags in recycled cotton, washed and bedbug-treated. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
-- Q: Why does white terry cost more? A: Sorting white textiles takes longer and white is rarer. It is $42 per bag, against $32 for colored.
+White terry rags in recycled cotton, washed and heat-treated against bedbugs. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
+- Q: Why does white terry cost more? A: Sorting white textiles takes longer and white is rarer. It is $42 per bag, against $32 for coloured.
 - Q: Can I get a sample? A: Yes, on request.
 
 ### Rags for auto body shops
 URL: https://entretienlaval.ca/en/auto-body-shop-rags/
-Recycled rags for auto body shops: degreasing, sanding dust, spray gun and tool cleaning. White or colored, from $32 per 25 lb bag.
+Recycled rags for auto body shops: degreasing, sanding dust, spray gun and tool cleaning. White or coloured, from $32 per 25 lb bag.
 - Q: Do your rags leave lint on paint? A: Sorted white T-shirt rags are low-lint and work well for degreasing. For the last wipe before paint, a dedicated tack cloth is still best.
-- Q: What should a body shop order? A: Many shops keep a mix: a few 25 lb bags of white for surfaces and colored rags for tools and cleanup.
+- Q: What should a body shop order? A: Many shops keep a mix: a few 25 lb bags of white for surfaces and coloured rags for tools and cleanup.
 
 ### Rags for car detailing and car washes
 URL: https://entretienlaval.ca/en/car-detailing-car-wash-rags/
@@ -755,8 +755,8 @@ Recycled rags for detailers and car washes: wheels, tires, engine bays, door jam
 
 ### Rags for woodworking and wood finishing
 URL: https://entretienlaval.ca/en/woodworking-cabinetmaking-rags/
-Recycled cotton rags for woodworkers and cabinetmakers: stain, linseed oil, varnish, wiping. White T-shirt with no color transfer, from $32 per 25 lb bag.
-- Q: Which rag should I use to apply stain? A: White T-shirt rags: soft, absorbent and no color transfer onto the wood.
+Recycled cotton rags for woodworkers and cabinetmakers: stain, linseed oil, varnish, wiping. White T-shirt with no colour transfer, from $32 per 25 lb bag.
+- Q: Which rag should I use to apply stain? A: White T-shirt rags: soft, absorbent and no colour transfer onto the wood.
 - Q: Can I throw a linseed-oil rag in the trash? A: Not as is: it can ignite. Dry it flat outdoors or put it in a closed metal container with water, then follow your municipality's rules.
 
 ### Rags for plumbing and HVAC
@@ -769,7 +769,7 @@ Recycled rags for plumbing, heating, ventilation and air conditioning: joints, t
 URL: https://entretienlaval.ca/en/marina-boat-rags/
 Recycled rags for marinas and marine mechanics: outboard motors, oil, fuel, hull and deck cleaning. From $32 per 25 lb bag.
 - Q: Can you deliver before the season starts? A: Yes. Order at least a week ahead: orders are confirmed and paid one week before delivery.
-- Q: Which rag for gelcoat? A: White T-shirt rags: soft, with no color transfer.
+- Q: Which rag for gelcoat? A: White T-shirt rags: soft, with no colour transfer.
 
 ### Rags for farms and farm machinery
 URL: https://entretienlaval.ca/en/farm-machinery-rags/
@@ -786,9 +786,9 @@ Recycled rags for machine shops, welding and metal fabrication: cutting oil, coo
 ### Rags for welding and metal fabrication
 URL: https://entretienlaval.ca/en/welding-metal-fabrication-rags/
 Recycled rags for welding and metal fabrication shops: degreasing before welding, grinding, prep before painting. From $32 per 25 lb bag.
-- Q: Where can I buy rags for a welding shop in Laval or Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: 25 lb 25 lb bag at $32 colored or $42 white, before tax. Pickup in Laval, delivery in Laval ($15, from 1 25 lb bag) and Montréal ($25, from 2 25 lb bags).
+- Q: Where can I buy rags for a welding shop in Laval or Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: 25 lb 25 lb bag at $32 coloured or $42 white, before tax. Pickup in Laval, delivery in Laval ($15, from 1 25 lb bag) and Montréal ($25, from 2 25 lb bags).
 - Q: Which rag should I use to degrease steel before welding? A: White T-shirt: it's thin, leaves little lint and doesn't transfer dye to the part. Use it with your usual solvent.
-- Q: Do you have pricing for large shops? A: Yes: $28 colored and $38 white from 50 25 lb bags, before tax. See wholesale rags.
+- Q: Do you have pricing for large shops? A: Yes: $28 coloured and $38 white from 50 25 lb bags, before tax. See wholesale rags.
 
 ### Rags for municipalities, schools and institutions
 URL: https://entretienlaval.ca/en/municipal-school-maintenance-rags/
@@ -799,24 +799,24 @@ Recycled rags for municipal garages, public works, arenas, schools and instituti
 ### Rags for heavy trucks and trucking companies
 URL: https://entretienlaval.ca/en/truck-fleet-rags/
 Recycled shop rags for heavy truck garages, trucking fleets and trailer shops: oil, grease, diesel. From $32 per 25 lb bag.
-- Q: Which rag for a heavy truck garage? A: Colored terry at $32 per 25 lb bag absorbs the most oil and grease. Colored T-shirt is enough for everyday cleanup.
+- Q: Which rag for a heavy truck garage? A: Coloured terry at $32 per 25 lb bag absorbs the most oil and grease. Coloured T-shirt is enough for everyday cleanup.
 - Q: Do you deliver to fleets outside Montreal? A: Yes. We deliver across Greater Montreal, and anywhere in Québec from 1,000 lb (40 bags).
 
 ### Rags for tire shops
 URL: https://entretienlaval.ca/en/tire-shop-rags/
 Recycled shop rags for tire shops: rims, mounting paste, hands, brakes and cleanup. From $32 per 25 lb bag, delivered in Québec.
 - Q: How many rags for tire season? A: It depends on the number of cars. Our calculator estimates the quantity based on your daily use.
-- Q: Which rag for a tire shop? A: Colored T-shirt or terry at $32 per 25 lb bag fits most tasks.
+- Q: Which rag for a tire shop? A: Coloured T-shirt or terry at $32 per 25 lb bag fits most tasks.
 
 ### Rags for auto parts stores
 URL: https://entretienlaval.ca/en/auto-parts-store-rags-resale/
 Recycled rags in 25 lb bags for auto parts stores and distributors: resell to garages or use in your shop. Distributor price from 50 bags.
-- Q: Do you offer a resale price? A: Yes: from 50 bags of 25 lb, $28 colored and $38 white, with pickup in Laval.
+- Q: Do you offer a resale price? A: Yes: from 50 bags of 25 lb, $28 coloured and $38 white, with pickup in Laval.
 - Q: Are the bags ready to sell? A: Yes. They are sealed 25 lb bags, easy to store.
 
 ### Terry vs T-shirt: which wiping rag should you choose?
 URL: https://entretienlaval.ca/en/guides/terry-vs-t-shirt-rags/
-Terry (towel cloth) or T-shirt jersey, white or colored: absorbency, softness and best uses compared, to choose the right wiping rag.
+Terry (towel cloth) or T-shirt jersey, white or coloured: absorbency, softness and best uses compared, to choose the right wiping rag.
 - Q: Does terry leave more lint? A: A little more than T-shirt, because of its loops. For delicate surfaces, choose white T-shirt rags.
 - Q: Can I mix terry and T-shirt in one order? A: Yes. Each 25 lb bag holds one product, but you can order several products together.
 
@@ -836,8 +836,8 @@ Estimate your 25 lb bags of rags per month and your budget before and after tax 
 
 ### Recycled rag prices in Laval and Montréal
 URL: https://entretienlaval.ca/en/guides/rag-prices-laval-montreal/
-How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for colored, $42 for white: $1.28 to $1.68 per pound before tax.
-- Q: What are the cheapest rags in Laval? A: At Chiffons ÉCO, colored rags (T-shirt or terry): $32 per 25 lb 25 lb bag, $1.28 per pound before tax, or $28 from 50 25 lb bags.
+How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for coloured, $42 for white: $1.28 to $1.68 per pound before tax.
+- Q: What are the cheapest rags in Laval? A: At Chiffons ÉCO, coloured rags (T-shirt or terry): $32 per 25 lb 25 lb bag, $1.28 per pound before tax, or $28 from 50 25 lb bags.
 - Q: Are taxes included? A: No. Prices are before GST (5%) and QST (9.975%).
 - Q: Where can I buy recycled rags in Montréal? A: Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.
 
@@ -845,36 +845,36 @@ How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag 
 URL: https://entretienlaval.ca/en/guides/best-rag-for-staining-wood/
 The best rag for staining wood, varnish and finishing oil: white cotton, low-lint T-shirt to apply, terry to wipe off. Plus what to do with used rags.
 - Q: What is the best rag for staining wood? A: A clean, lint-free white cotton rag. White T-shirt to apply, white terry to wipe off the excess.
-- Q: Can I use colored rags for staining? A: For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a colored fabric bleed onto the wood.
+- Q: Can I use coloured rags for staining? A: For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a coloured fabric bleed onto the wood.
 - Q: How do I dispose of oil-based stain rags? A: Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Never throw them out balled up.
 
 ### Industrial shop rags: how to choose
 URL: https://entretienlaval.ca/en/guides/industrial-shop-rags-buying-guide/
-Industrial and shop rags: terry or T-shirt, white or colored, how many per month and prices in Québec. The guide for plants, garages and machine shops.
-- Q: Where can I buy cheap industrial rags in Laval? A: At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: colored recycled rags at $32 per 25 lb 25 lb bag ($1.28/lb), white at $42, or $28 / $38 from 50 25 lb bags, before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 25 lb bags).
+Industrial and shop rags: terry or T-shirt, white or coloured, how many per month and prices in Québec. The guide for plants, garages and machine shops.
+- Q: Where can I buy cheap industrial rags in Laval? A: At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: coloured recycled rags at $32 per 25 lb 25 lb bag ($1.28/lb), white at $42, or $28 / $38 from 50 25 lb bags, before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 25 lb bags).
 - Q: What's the difference between industrial rags and shop rags? A: None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops.
-- Q: Which rag is best for a machine shop? A: Colored terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts.
+- Q: Which rag is best for a machine shop? A: Coloured terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts.
 - Q: Do you deliver industrial rags? A: Yes: Laval ($15, from 1 25 lb bag), Montréal ($25, from 2 25 lb bags) and elsewhere in Québec from 1,000 lb.
 
 ### Rags for machine and metal shops in Laval and Montréal
 URL: https://entretienlaval.ca/en/guides/metal-shop-rags-laval-montreal/
 Where to buy rags for a CNC machine shop, welding or metal fabrication shop in Laval and Montréal: products, prices, pickup and delivery.
-- Q: Where can I buy rags for a CNC machine shop in Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 colored or $42 white per 25 lb 25 lb bag, before tax. Delivery in Montréal $25 from 2 25 lb bags, or pickup in Laval.
-- Q: What is the cheapest rag for a metal shop in Laval? A: The 25 lb colored 25 lb bag at $32 before tax ($1.28/lb), or $28 from 50 25 lb bags. Delivery in Laval $15 from 1 25 lb bag.
-- Q: Which rag is best for cutting oil? A: Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise colored terry ($32).
+- Q: Where can I buy rags for a CNC machine shop in Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 coloured or $42 white per 25 lb 25 lb bag, before tax. Delivery in Montréal $25 from 2 25 lb bags, or pickup in Laval.
+- Q: What is the cheapest rag for a metal shop in Laval? A: The 25 lb coloured 25 lb bag at $32 before tax ($1.28/lb), or $28 from 50 25 lb bags. Delivery in Laval $15 from 1 25 lb bag.
+- Q: Which rag is best for cutting oil? A: Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise coloured terry ($32).
 
 ### Business idea: resell recycled rags to garages and factories
 URL: https://entretienlaval.ca/en/guides/start-rag-resale-business/
 Small business idea in Québec: buy recycled rags at distributor price in Laval, fill your truck or van and sell them to garages and factories.
-- Q: What small business can I start with a truck in Québec? A: Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 colored, $38 white, before tax), pickup only at 1355 boul. Le Corbusier. You load your truck in Laval and set your own resale price.
+- Q: What small business can I start with a truck in Québec? A: Reselling recycled wiping rags to garages, shops and factories is a simple option: Entretien Laval, in Laval, sells to resellers at distributor price from 50 bags of 25 lb ($28 coloured, $38 white, before tax), pickup only at 1355 boul. Le Corbusier. You load your truck in Laval and set your own resale price.
 - Q: Do I need a warehouse to resell rags? A: No, not to start. You can buy 50 bags, carry them in your truck and come back to Laval when your stock runs low.
 - Q: Does Entretien Laval guarantee income to resellers? A: No. We supply the rags at distributor price; your resale price, customers and results are up to you.
 
 ### Where to buy rags in Laval and Montréal
 URL: https://entretienlaval.ca/en/guides/where-to-buy-rags/
-Buy recycled cotton rags in Laval and Montréal: 25 lb bags at $32 colored or $42 white, $1.28 per pound, delivered from 1 bag in Laval.
-- Q: Where can I buy rags near me? A: In Laval and Montréal, Chiffons ÉCO (Entretien Laval) delivers 25 lb bags of recycled cotton rags: $32 colored, $42 white, before tax.
-- Q: Can I buy cotton rags by the pound? A: Yes, by weight, in 25 lb bags: $1.28 per pound colored and $1.68 white, before tax.
+Buy recycled cotton rags in Laval and Montréal: 25 lb bags at $32 coloured or $42 white, $1.28 per pound, delivered from 1 bag in Laval.
+- Q: Where can I buy rags near me? A: In Laval and Montréal, Chiffons ÉCO (Entretien Laval) delivers 25 lb bags of recycled cotton rags: $32 coloured, $42 white, before tax.
+- Q: Can I buy cotton rags by the pound? A: Yes, by weight, in 25 lb bags: $1.28 per pound coloured and $1.68 white, before tax.
 - Q: Can I buy a single bag of rags? A: Yes in Laval, with $15 delivery from 1 25 lb bag. In Montréal, delivery is $25 from 2 25 lb bags.
 
 ### Lint-free rags: which cotton rag to choose
@@ -882,166 +882,166 @@ URL: https://entretienlaval.ca/en/guides/lint-free-rags/
 Which rag leaves the least lint? White cotton T-shirt rags are low-lint, terry a bit more. What works for paint, stain, glass and car detailing.
 - Q: Which rag doesn't leave lint? A: No recycled cotton rag is 100% lint-free. White cotton T-shirt rags are the lowest-lint of our products.
 - Q: Does terry leave lint? A: A little more than T-shirt, because of its loops. It is still the best choice for absorbing.
-- Q: What rag for staining wood without lint? A: White cotton T-shirt rags: thin, low-lint and no color transfer. $42 per 25 lb 25 lb bag.
+- Q: What rag for staining wood without lint? A: White cotton T-shirt rags: thin, low-lint and no colour transfer. $42 per 25 lb 25 lb bag.
 
 ### Rags and shop rags in Laval
 URL: https://entretienlaval.ca/en/rags-laval/
-Recycled wiping rags and shop rags delivered in Laval: T-shirt or terry, colored or white, from $32 per 25 lb bag.
+Recycled wiping rags and shop rags delivered in Laval: T-shirt or terry, coloured or white, from $32 per 25 lb bag.
 - Q: Do you deliver in Laval? A: Yes. We deliver in Laval, including Chomedey, Laval-des-Rapides, Pont-Viau, Vimont, Auteuil and Sainte-Rose. Delivery fees and terms in Laval depend on your address and quantity. They're shown in your quote.
 - Q: How much is delivery in Laval? A: Delivery fees in Laval depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Laval choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Laval choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Montréal
 URL: https://entretienlaval.ca/en/rags-montreal/
-Recycled wiping rags and shop rags delivered in Montréal: T-shirt or terry, colored or white, from $32 per 25 lb bag.
+Recycled wiping rags and shop rags delivered in Montréal: T-shirt or terry, coloured or white, from $32 per 25 lb bag.
 - Q: Do you deliver in Montréal? A: Yes. We deliver in Montréal, including Saint-Laurent, Ahuntsic-Cartierville, Montréal-Nord, Rivière-des-Prairies–Pointe-aux-Trembles, Anjou and Saint-Léonard. Delivery fees and terms in Montréal depend on your address and quantity. They're shown in your quote.
 - Q: How much is delivery in Montréal? A: Delivery fees in Montréal depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Montréal choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Montréal choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Longueuil
 URL: https://entretienlaval.ca/en/rags-longueuil/
-Recycled wiping rags and shop rags delivered in Longueuil: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Longueuil: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Longueuil? A: Yes. We deliver in Longueuil, including Le Vieux-Longueuil, Saint-Hubert, Greenfield Park and LeMoyne. Delivery in Longueuil from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Longueuil? A: Delivery fees in Longueuil depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Longueuil choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Longueuil choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Terrebonne
 URL: https://entretienlaval.ca/en/rags-terrebonne/
-Recycled wiping rags and shop rags delivered in Terrebonne: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Terrebonne: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Terrebonne? A: Yes. We deliver in Terrebonne, including Terrebonne, Lachenaie, La Plaine and Mascouche. Delivery in Terrebonne from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Terrebonne? A: Delivery fees in Terrebonne depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Terrebonne choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Terrebonne choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Blainville et Boisbriand
 URL: https://entretienlaval.ca/en/rags-blainville-boisbriand/
-Recycled wiping rags and shop rags delivered in Blainville et Boisbriand: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Blainville et Boisbriand: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Blainville et Boisbriand? A: Yes. We deliver in Blainville et Boisbriand, including Blainville, Boisbriand, Sainte-Thérèse, Rosemère, Lorraine and Bois-des-Filion. Delivery in Blainville et Boisbriand from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Blainville et Boisbriand? A: Delivery fees in Blainville et Boisbriand depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Blainville et Boisbriand choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Blainville et Boisbriand choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in the North Shore
 URL: https://entretienlaval.ca/en/rags-north-shore/
-Recycled wiping rags and shop rags delivered in the North Shore: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in the North Shore: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in the North Shore? A: Yes. We deliver in the North Shore, including Saint-Eustache, Deux-Montagnes, Mirabel, Saint-Jérôme, Repentigny and L'Assomption. Delivery in the North Shore from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in the North Shore? A: Delivery fees in the North Shore depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in the North Shore choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in the North Shore choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in the South Shore
 URL: https://entretienlaval.ca/en/rags-south-shore/
-Recycled wiping rags and shop rags delivered in the South Shore: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in the South Shore: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in the South Shore? A: Yes. We deliver in the South Shore, including Brossard, Boucherville, Saint-Lambert, La Prairie, Candiac and Châteauguay. Delivery in the South Shore from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in the South Shore? A: Delivery fees in the South Shore depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in the South Shore choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in the South Shore choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Québec City
 URL: https://entretienlaval.ca/en/rags-quebec-city/
-Recycled wiping rags and shop rags delivered in Québec City: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Québec City: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Québec City? A: Yes. We deliver in Québec City, including Sainte-Foy, Charlesbourg, Beauport, Limoilou, Les Rivières and L'Ancienne-Lorette. Delivery in Québec City from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Québec City? A: Delivery fees in Québec City depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Québec City choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Québec City choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Sherbrooke
 URL: https://entretienlaval.ca/en/rags-sherbrooke/
-Recycled wiping rags and shop rags delivered in Sherbrooke: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Sherbrooke: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Sherbrooke? A: Yes. We deliver in Sherbrooke, including Sherbrooke and Magog. Delivery in Sherbrooke from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Sherbrooke? A: Delivery fees in Sherbrooke depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Sherbrooke choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Sherbrooke choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Trois-Rivières
 URL: https://entretienlaval.ca/en/rags-trois-rivieres/
-Recycled wiping rags and shop rags delivered in Trois-Rivières: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Trois-Rivières: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Trois-Rivières? A: Yes. We deliver in Trois-Rivières, including Trois-Rivières, Cap-de-la-Madeleine, Bécancour and Shawinigan. Delivery in Trois-Rivières from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Trois-Rivières? A: Delivery fees in Trois-Rivières depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Trois-Rivières choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Trois-Rivières choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Gatineau
 URL: https://entretienlaval.ca/en/rags-gatineau/
-Recycled wiping rags and shop rags delivered in Gatineau: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Gatineau: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Gatineau? A: Yes. We deliver in Gatineau, including Hull, Aylmer, Gatineau, Buckingham and Masson-Angers. Delivery in Gatineau from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Gatineau? A: Delivery fees in Gatineau depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Gatineau choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Gatineau choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Saint-Jean-sur-Richelieu
 URL: https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/
-Recycled wiping rags and shop rags delivered in Saint-Jean-sur-Richelieu: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saint-Jean-sur-Richelieu: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saint-Jean-sur-Richelieu? A: Yes. We deliver in Saint-Jean-sur-Richelieu, including Saint-Jean, Iberville, Saint-Luc, L'Acadie and Chambly. Delivery in Saint-Jean-sur-Richelieu from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saint-Jean-sur-Richelieu? A: Delivery fees in Saint-Jean-sur-Richelieu depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Jean-sur-Richelieu choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Saint-Jean-sur-Richelieu choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Saint-Hyacinthe
 URL: https://entretienlaval.ca/en/rags-saint-hyacinthe/
-Recycled wiping rags and shop rags delivered in Saint-Hyacinthe: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saint-Hyacinthe: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saint-Hyacinthe? A: Yes. We deliver in Saint-Hyacinthe, including Saint-Hyacinthe, Sainte-Rosalie and Saint-Thomas-d'Aquin. Delivery in Saint-Hyacinthe from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saint-Hyacinthe? A: Delivery fees in Saint-Hyacinthe depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Hyacinthe choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Saint-Hyacinthe choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Vaudreuil-Dorion
 URL: https://entretienlaval.ca/en/rags-vaudreuil-dorion/
-Recycled wiping rags and shop rags delivered in Vaudreuil-Dorion: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Vaudreuil-Dorion: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Vaudreuil-Dorion? A: Yes. We deliver in Vaudreuil-Dorion, including Vaudreuil-Dorion, L'Île-Perrot, Pincourt, Saint-Lazare, Les Cèdres and Coteau-du-Lac. Delivery in Vaudreuil-Dorion from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Vaudreuil-Dorion? A: Delivery fees in Vaudreuil-Dorion depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Vaudreuil-Dorion choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Vaudreuil-Dorion choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Joliette
 URL: https://entretienlaval.ca/en/rags-joliette/
-Recycled wiping rags and shop rags delivered in Joliette: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Joliette: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Joliette? A: Yes. We deliver in Joliette, including Joliette, Saint-Charles-Borromée, Notre-Dame-des-Prairies and Saint-Paul. Delivery in Joliette from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Joliette? A: Delivery fees in Joliette depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Joliette choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Joliette choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Granby
 URL: https://entretienlaval.ca/en/rags-granby/
-Recycled wiping rags and shop rags delivered in Granby: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Granby: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Granby? A: Yes. We deliver in Granby, including Granby, Bromont, Cowansville and Waterloo. Delivery in Granby from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Granby? A: Delivery fees in Granby depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Granby choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Granby choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Drummondville
 URL: https://entretienlaval.ca/en/rags-drummondville/
-Recycled wiping rags and shop rags delivered in Drummondville: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Drummondville: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Drummondville? A: Yes. We deliver in Drummondville, including Drummondville, Saint-Nicéphore and Saint-Cyrille-de-Wendover. Delivery in Drummondville from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Drummondville? A: Delivery fees in Drummondville depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Drummondville choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Drummondville choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Victoriaville
 URL: https://entretienlaval.ca/en/rags-victoriaville/
-Recycled wiping rags and shop rags delivered in Victoriaville: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Victoriaville: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Victoriaville? A: Yes. We deliver in Victoriaville, including Victoriaville, Princeville, Plessisville and Warwick. Delivery in Victoriaville from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Victoriaville? A: Delivery fees in Victoriaville depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Victoriaville choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Victoriaville choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Saguenay
 URL: https://entretienlaval.ca/en/rags-saguenay/
-Recycled wiping rags and shop rags delivered in Saguenay: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saguenay: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saguenay? A: Yes. We deliver in Saguenay, including Chicoutimi, Jonquière, La Baie and Alma. Delivery in Saguenay from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saguenay? A: Delivery fees in Saguenay depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saguenay choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Saguenay choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Sorel-Tracy
 URL: https://entretienlaval.ca/en/rags-sorel-tracy/
-Recycled wiping rags and shop rags delivered in Sorel-Tracy: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Sorel-Tracy: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Sorel-Tracy? A: Yes. We deliver in Sorel-Tracy, including Sorel-Tracy, Saint-Joseph-de-Sorel, Sainte-Anne-de-Sorel, Contrecoeur, Saint-Ours and Yamaska. Delivery in Sorel-Tracy from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Sorel-Tracy? A: Delivery fees in Sorel-Tracy depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Sorel-Tracy choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Sorel-Tracy choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Saint-Jérôme et Mirabel
 URL: https://entretienlaval.ca/en/rags-saint-jerome-mirabel/
-Recycled wiping rags and shop rags delivered in Saint-Jérôme et Mirabel: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saint-Jérôme et Mirabel: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saint-Jérôme et Mirabel? A: Yes. We deliver in Saint-Jérôme et Mirabel, including Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost and Sainte-Sophie. Delivery in Saint-Jérôme et Mirabel from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saint-Jérôme et Mirabel? A: Delivery fees in Saint-Jérôme et Mirabel depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Jérôme et Mirabel choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Saint-Jérôme et Mirabel choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Rags and shop rags in Beloeil et Chambly
 URL: https://entretienlaval.ca/en/rags-beloeil-chambly/
-Recycled wiping rags and shop rags delivered in Beloeil et Chambly: T-shirt or terry, colored or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Beloeil et Chambly: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Beloeil et Chambly? A: Yes. We deliver in Beloeil et Chambly, including Beloeil, McMasterville, Mont-Saint-Hilaire, Saint-Basile-le-Grand, Chambly and Carignan. Delivery in Beloeil et Chambly from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Beloeil et Chambly? A: Delivery fees in Beloeil et Chambly depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Beloeil et Chambly choose? A: Colored T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.
+- Q: Which rag should a business in Beloeil et Chambly choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
 
 ### Wholesale recycled rag supplier for distributors across Canada
 URL: https://entretienlaval.ca/en/recycled-rag-supplier-canada/
-Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb bags at $28 colored and $38 white from 50 bags, freight quoted per order.
-- Q: Where can I find a recycled rag supplier in Canada? A: Entretien Laval (ECO Rags) in Laval, Québec sells recycled cotton wiping rags to distributors across Canada: 25 lb bags at $28 colored and $38 white, from 50 bags, freight quoted per order.
+Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb bags at $28 coloured and $38 white from 50 bags, freight quoted per order.
+- Q: Where can I find a recycled rag supplier in Canada? A: Entretien Laval (ECO Rags) in Laval, Québec sells recycled cotton wiping rags to distributors across Canada: 25 lb bags at $28 coloured and $38 white, from 50 bags, freight quoted per order.
 - Q: Do you ship to Ontario, Alberta or British Columbia? A: Yes, to distributors, from 50 bags per order. Freight is calculated in the quote based on the address.
 - Q: Do you sell to businesses outside Québec that are not distributors? A: No. Outside Québec we sell only to distributors and resellers, from 50 bags.
 - Q: Do you sell disposable cleaning wipes? A: No. We sell reusable recycled cotton rags, an alternative to wipes and paper for shop and cleaning work.
@@ -1050,13 +1050,13 @@ Canadian supplier of recycled wiping rags for distributors across Canada: 25 lb 
 URL: https://entretienlaval.ca/en/guides/reusable-rags-vs-cleaning-wipes/
 Disposable cleaning wipes or reusable recycled cotton rags: uses, cost per pound, waste and safety, to choose for shop and cleaning work.
 - Q: Can recycled rags replace cleaning wipes? A: For wiping oil, grease, liquids and everyday shop cleaning, yes. For disinfection that needs a specific product and contact time, follow the manufacturer's directions.
-- Q: How much do recycled rags cost per pound? A: At Entretien Laval, $32 per 25 lb bag colored (about $1.28 per lb) and $42 white, before tax. Distributors: $28 / $38 from 50 bags.
+- Q: How much do recycled rags cost per pound? A: At Entretien Laval, $32 per 25 lb bag coloured (about $1.28 per lb) and $42 white, before tax. Distributors: $28 / $38 from 50 bags.
 
 ### Entretien Laval – ECO Rags
 URL: https://entretienlaval.ca/en/about/
 Entretien Laval (ECO Rags) sells recycled wiping rags in 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec.
 - Q: Where can I buy wiping rags in bulk in Québec? A: From Entretien Laval (ECO Rags) in Laval: 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec from 1,000 lb.
-- Q: Who sells shop rags in Laval? A: Entretien Laval sells recycled cotton shop rags for garages, T-shirt or terry.
+- Q: Who sells shop rags in Laval? A: Entretien Laval sells recycled cotton shop rags for garages, T-shirt or terry, at 438-831-3611.
 
 ### Our customers
 URL: https://entretienlaval.ca/en/our-customers/
@@ -1078,21 +1078,21 @@ Order recycled rags online: 25 lb bags from $32, delivered in Laval, Montréal a
 - Q: Can I return my order? A: No, all sales are final. If you receive the wrong product or a damaged 25 lb bag, email info@entretienlaval.ca and we will replace it.
 
 ## FAQ
-- Q: Where can I buy rags in bulk in Laval? A: From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and bedbug-treated, in 25 lb bags. $32 colored, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See wholesale rags.
-- Q: How much does a 25 lb bag of rags cost? A: $32 per 25 lb bag for colored rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
-- Q: What's in a 25 lb bag? A: 25 lb of recycled cotton rags of a single type: T-shirt or terry, white or colored. The rags are washed, sorted and treated against bedbugs.
+- Q: Where can I buy rags in bulk in Laval? A: From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and heat-treated against bedbugs, in 25 lb bags. $32 coloured, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See wholesale rags.
+- Q: How much does a 25 lb bag of rags cost? A: $32 per 25 lb bag for coloured rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
+- Q: What's in a 25 lb bag? A: 25 lb of recycled cotton rags of a single type: T-shirt or terry, white or coloured. The rags are washed, sorted and heat-treated against bedbugs.
 - Q: What's the difference between terry and T-shirt rags? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills.
-- Q: White or colored? A: White doesn't transfer color: for painting, finishing, varnish and light surfaces. Colored costs less and suits everyday wiping in garages, shops and job sites.
+- Q: White or coloured? A: White doesn't transfer color: for painting, finishing, varnish and light surfaces. Coloured costs less and suits everyday wiping in garages, shops and job sites.
 - Q: Do you deliver? Where? A: Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See delivery.
-- Q: Do you ship elsewhere in Canada? A: Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See rag supplier in Canada.
-- Q: How do I order? A: Fill in the quote form or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery.
+- Q: Do you ship elsewhere in Canada? A: Yes, to distributors only: 50-bag minimum at $28 coloured and $38 white, freight quoted per order. See rag supplier in Canada.
+- Q: How do I order? A: Fill in the quote form, call 438-831-3611 or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery.
 - Q: Is there a minimum order? A: Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25), 2 bags for the South Shore and North Shore ($35). Outside Laval, Montréal, the South Shore and the North Shore, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum.
-- Q: Are the rags clean? A: Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh.
+- Q: Are the rags clean? A: Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, heat-treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh.
 - Q: Do you offer samples? A: Yes, on request, so you can check quality and size before a first order.
 - Q: Can you deliver automatically every month? A: Yes. Choose the quantity and the schedule (every 2 weeks or every month) and we deliver without you having to call, at the same price, paid on delivery with an invoice. Change or stop anytime by email.
-- Q: Do you have a referral program? A: Yes. When a business you refer pays its first order, you get 1 free 25 lb bag of colored rags with your next delivery.
+- Q: Do you have a referral program? A: Yes. When a business you refer pays its first order, you get 1 free 25 lb bag of coloured rags with your next delivery.
 - Q: Can you supply large volumes? A: Yes, there is no maximum quantity. We also supply janitorial distributors and industrial suppliers. See wholesale rags.
 - Q: Will I get an invoice with taxes? A: Yes. Entretien Laval is a registered Québec business (NEQ 2280629637, GST and QST). Listed prices are before tax.
 - Q: Can the rags be used with oil or solvents? A: Yes, cotton absorbs oil, grease and solvents. After use, store soaked rags in a closed metal container: see our guide oily rags and fire risk.
-- Q: Where do the textiles come from? A: From recovered cotton clothing and textiles that would otherwise go to landfill. They are sorted by type and color, cut and packed in Laval.
+- Q: Where do the textiles come from? A: From recovered cotton clothing and textiles that would otherwise go to landfill. They are sorted by type and colour, cut and packed in Laval.
 - Q: Do you accept returns? A: No, all sales are final. If you receive the wrong product or a damaged 25 lb bag, email info@entretienlaval.ca and we will replace it.

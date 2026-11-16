@@ -144,8 +144,8 @@ C = [
   rel=["soudure", "usinage", "gros"]),
  dict(key="ville-saint-jerome", name="Saint-Jérôme et Mirabel", fr="/chiffons-guenilles-saint-jerome-mirabel/", en="/en/rags-saint-jerome-mirabel/", core=False, img=BAG, far=False, dist=45,
   hoods=["Saint-Jérôme", "Mirabel", "Saint-Janvier", "Saint-Colomban", "Prévost", "Sainte-Sophie"],
-  intro_fr="Saint-Jérôme et Mirabel sont à environ 45 km au nord de Laval par l'autoroute 15. Leurs parcs industriels, autour de l'aéroport de Mirabel et le long de l'autoroute, comptent beaucoup d'ateliers et de garages.",
-  intro_en="Saint-Jérôme and Mirabel are about 45 km north of Laval on Highway 15. Their industrial parks, around Mirabel airport and along the highway, have many shops and garages.",
+  intro_fr="Saint-Jérôme et Mirabel sont à environ 45 km au nord de Laval par l'autoroute 15. Leurs parcs industriels, autour de l'aéroport de Mirabel et le long de l'autoroute, comptent beaucoup d'ateliers et de garages. Mirabel (codes postaux J7J) fait partie de notre zone Rive-Nord : commande en ligne dès 2 sacs, livraison 35 $. Saint-Jérôme et les autres villes : à partir de 1 000 lb.",
+  intro_en="Saint-Jérôme and Mirabel are about 45 km north of Laval on Highway 15. Their industrial parks, around Mirabel airport and along the highway, have many shops and garages. Mirabel (J7J postal codes) is in our North Shore zone: order online from 2 bags, $35 delivery. Saint-Jérôme and the other towns: from 1,000 lb.",
   ind_fr="garages, entreprises de transport, ateliers d'usinage, usines et entrepreneurs",
   ind_en="garages, trucking companies, machine shops, plants and contractors",
   rel=["camions", "ville-rive-nord", "garage"]),
@@ -176,34 +176,32 @@ def _page(d):
 <p>{d['intro_fr']}</p>
 <p>{terms_fr}</p>
 <h2>Secteurs desservis</h2>
-<p>Nous livrons {a_fr}, notamment à {hoods_fr}.</p>
+<p>{hoods_fr}.</p>
 <h2>Pour quelles entreprises</h2>
 <p>Nos chiffons servent aux {d['ind_fr']}. Voir nos pages <a href="{{{{garage}}}}">garages</a>, <a href="{{{{entretien}}}}">entretien ménager</a>, <a href="{{{{construction}}}}">chantiers</a> et <a href="{{{{industrie}}}}">industrie</a>.</p>
 <h2>Nos chiffons et nos prix</h2>
 <ul><li><a href="{{{{couleur}}}}">T-shirt ou ratine couleur</a> : 32 $ le [pack], pour l'huile, la graisse et l'usage général.</li>
 <li><a href="{{{{blancs}}}}">T-shirt ou ratine blanc</a> : 42 $ le [pack], sans transfert de couleur, pour la finition et la peinture.</li></ul>
-<p>Prix avant taxes (TPS et TVQ en sus), aucune quantité maximale. Commande confirmée et payée une semaine avant la livraison.</p>
 <h2>Commander</h2>
-<p>Demandez une <a href="{{{{home#devis}}}}">soumission en ligne</a> ou écrivez à info@entretienlaval.ca. Indiquez votre adresse {a_fr} et la quantité souhaitée.</p>""" if lang == "fr" else f"""<h2>Delivery {a_en}</h2>
+<p>Demandez une <a href="{{{{home#devis}}}}">soumission en ligne</a>, appelez le 438-831-3611 ou écrivez à info@entretienlaval.ca. Indiquez votre adresse {a_fr} et la quantité souhaitée.</p>""" if lang == "fr" else f"""<h2>Delivery {a_en}</h2>
 <p>{d['intro_en']}</p>
 <p>{terms_en}</p>
 <h2>Areas we serve</h2>
-<p>We deliver {a_en}, including {hoods_en}.</p>
+<p>{hoods_en}.</p>
 <h2>Who uses our rags</h2>
 <p>Our rags are used by {d['ind_en']}. See our pages for <a href="{{{{garage}}}}">garages</a>, <a href="{{{{entretien}}}}">janitorial</a>, <a href="{{{{construction}}}}">job sites</a> and <a href="{{{{industrie}}}}">industry</a>.</p>
 <h2>Our rags and prices</h2>
-<ul><li><a href="{{{{couleur}}}}">Colored T-shirt or terry</a>: $32 per [pack], for oil, grease and general use.</li>
-<li><a href="{{{{blancs}}}}">White T-shirt or terry</a>: $42 per [pack], no color transfer, for finishing and painting.</li></ul>
-<p>Prices before tax (GST and QST extra), no maximum quantity. Orders are confirmed and paid one week before delivery.</p>
+<ul><li><a href="{{{{couleur}}}}">Coloured T-shirt or terry</a>: $32 per [pack], for oil, grease and general use.</li>
+<li><a href="{{{{blancs}}}}">White T-shirt or terry</a>: $42 per [pack], no colour transfer, for finishing and painting.</li></ul>
 <h2>How to order</h2>
-<p>Request a <a href="{{{{home#devis}}}}">quote online</a> or email info@entretienlaval.ca. Include your address {a_en} and the quantity you need.</p>""")
+<p>Request a <a href="{{{{home#devis}}}}">quote online</a>, call 438-831-3611 or email info@entretienlaval.ca. Include your address {a_en} and the quantity you need.</p>""")
     lab_fr = "Guenilles et chiffons " + ("à " + n if not n.startswith("la ") else "sur " + n)
     return {"kind": "city", "img": d["img"], "rel": d["rel"], "city": n, "city_en": ne, "core": core,
      "fr": {"path": d["fr"], "short": n[0].upper() + n[1:],
       "title": (f"Chiffons d'essuyage et guenilles {a_fr} – livraison" if len(n) < 20 else f"Chiffons d'essuyage et guenilles {a_fr}"),
       "desc": f"Guenilles et chiffons d'essuyage recyclés livrés {a_fr} : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb." + ("" if core else " Minimum 1 000 lb."),
       "eyebrow": "Livraison · " + n, "h1": lab_fr,
-      "lede": f"Chiffons de coton recyclé, lavés, triés et traités contre les punaises, livrés {a_fr} en [packs].",
+      "lede": f"Chiffons de coton recyclé, lavés, triés et traités à la chaleur contre les punaises, livrés {a_fr} en [packs].",
       "card": ("Livraison selon votre adresse." if core else "Livraison à partir de 1 000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"Sac de chiffons recyclés de 25 lb livré {a_fr}", "body": body("fr"),
       "faq": [(f"Livrez-vous {a_fr}?", f"Oui. Nous livrons {a_fr}, notamment à {_lst(towns[:6], 'et')}. {terms_fr}"),
@@ -211,14 +209,14 @@ def _page(d):
               (f"Quel chiffon choisir pour une entreprise {a_fr}?", "Le t-shirt couleur (32 $ le [pack]) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.")]},
      "en": {"path": d["en"], "short": ne[0].upper() + ne[1:],
       "title": f"Wiping rags and shop rags {a_en} – delivery",
-      "desc": f"Recycled wiping rags and shop rags delivered {a_en}: T-shirt or terry, colored or white, from $32 per 25 lb bag." + ("" if core else " 1,000 lb minimum."),
+      "desc": f"Recycled wiping rags and shop rags delivered {a_en}: T-shirt or terry, coloured or white, from $32 per 25 lb bag." + ("" if core else " 1,000 lb minimum."),
       "eyebrow": "Delivery · " + ne.replace("the ", "").title() if ne.startswith("the ") else "Delivery · " + ne, "h1": f"Rags and shop rags {a_en}",
-      "lede": f"Recycled cotton rags, washed, sorted and bedbug-treated, delivered {a_en} in [packs].",
+      "lede": f"Recycled cotton rags, washed, sorted and heat-treated against bedbugs, delivered {a_en} in [packs].",
       "card": ("Delivery based on your address." if core else "Delivery from 1,000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"25 lb bag of recycled rags delivered {a_en}", "body": body("en"),
       "faq": [(f"Do you deliver {a_en}?", f"Yes. We deliver {a_en}, including {_lst(towns[:6], 'and')}. {terms_en}"),
               (f"How much is delivery {a_en}?", f"Delivery fees {a_en} depend on the exact address and quantity. They're shown in the quote, before you order."),
-              (f"Which rag should a business {a_en} choose?", "Colored T-shirt rags ($32 per [pack]) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid color transfer for painting and finishing.")]}}
+              (f"Which rag should a business {a_en} choose?", "Coloured T-shirt rags ($32 per [pack]) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.")]}}
 
 CITY_PAGES = {d["key"]: _page(d) for d in C}
 CITY_KEYS = list(CITY_PAGES)
