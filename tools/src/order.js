@@ -76,6 +76,19 @@ document.addEventListener('DOMContentLoaded', function () {
       .then(function (r) { if (!r.ok) throw new Error('form'); });
   }
 
+  var started = '';
+  function recordStart() {
+    var c = contact();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(c.courriel) || started === c.courriel) return;
+    started = c.courriel;
+    var t = totals(lines(), zone());
+    var data = { 'form-name': 'commande-debut', langue: C.lang, mode: mode() === 'pickup' ? 'Ramassage' : 'Livraison', nom: c.nom, entreprise: c.entreprise,
+                 courriel: c.courriel, telephone: c.telephone, ville: c.ville, montant: String(t.total),
+                 details: lines().map(function (l) { return l.qty + ' x ' + PRICE[l.id].name; }).join(' | ') };
+    fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(data).toString() }).catch(function () {});
+  }
+  form.elements.courriel.addEventListener('change', recordStart);
+
   var qs = new URLSearchParams(location.search);
   [].forEach.call(document.querySelectorAll('.oqty'), function (i) {
     var n = Math.floor(Number(qs.get(i.getAttribute('data-id'))) || 0);
