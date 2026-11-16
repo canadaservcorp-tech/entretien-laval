@@ -3,24 +3,35 @@
  "free": null,
  "gst": 0.05,
  "max": 10,
- "postal": "^H\\d[A-Z] ?\\d[A-Z]\\d$",
+ "pickup": {
+  "address": "1355 boul. Le Corbusier, Laval",
+  "fee": 0,
+  "id": "pickup",
+  "min_bags": 1,
+  "name": "Ramassage à Laval"
+ },
+ "postal": "^[HJ]\\d[A-Z] ?\\d[A-Z]\\d$",
  "products": {
   "ratine-blanc": {
+   "available": false,
    "name_en": "White terry rags",
    "name_fr": "Chiffons ratine blanc",
    "price": 42
   },
   "ratine-couleur": {
+   "available": false,
    "name_en": "Colored terry rags",
    "name_fr": "Chiffons ratine couleur",
    "price": 32
   },
   "tshirt-blanc": {
+   "available": true,
    "name_en": "White T-shirt rags",
    "name_fr": "Chiffons t-shirt blanc",
    "price": 42
   },
   "tshirt-couleur": {
+   "available": true,
    "name_en": "Colored T-shirt rags",
    "name_fr": "Chiffons t-shirt couleur",
    "price": 32
@@ -33,14 +44,59 @@
    "id": "laval",
    "min_bags": 1,
    "name": "Laval",
-   "prefix": "H7"
+   "prefixes": [
+    "H7"
+   ]
   },
   {
    "fee": 25,
    "id": "montreal",
    "min_bags": 2,
    "name": "Montréal",
-   "prefix": "H"
+   "prefixes": [
+    "H"
+   ]
+  },
+  {
+   "fee": 35,
+   "id": "rive-sud",
+   "min_bags": 2,
+   "name": "Rive-Sud",
+   "prefixes": [
+    "J4",
+    "J3Y",
+    "J3V",
+    "J5R",
+    "J6J",
+    "J6K"
+   ]
+  },
+  {
+   "fee": 35,
+   "id": "rive-nord",
+   "min_bags": 2,
+   "name": "Rive-Nord",
+   "prefixes": [
+    "J6W",
+    "J6X",
+    "J6Y",
+    "J7M",
+    "J7K",
+    "J7L",
+    "J5Y",
+    "J5Z",
+    "J6A",
+    "J6Z",
+    "J7A",
+    "J7B",
+    "J7C",
+    "J7E",
+    "J7G",
+    "J7H",
+    "J7P",
+    "J7R",
+    "J7J"
+   ]
   }
  ]
 }

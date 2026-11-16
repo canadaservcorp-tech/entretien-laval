@@ -202,7 +202,7 @@ S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
 <p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) est la plus économique pour l'huile et la graisse. Commandez en volume avant la saison : voir les <a href="{{gros}}">prix en gros</a>.</p>
 <h2>Livraison en région</h2>
 <p>Nous livrons partout au Québec à partir de 1 000 lb (40 sacs). Les fermes voisines peuvent regrouper une commande à une même adresse. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
-  "faq": [("Livrez-vous à la ferme?", "Oui, à partir de 1 000 lb par livraison hors Laval et Montréal. Les frais dépendent de la distance."),
+  "faq": [("Livrez-vous à la ferme?", "Oui, à partir de 1 000 lb par livraison hors Laval, Montréal, Rive-Sud et Rive-Nord. Les frais dépendent de la distance."),
           ("Peut-on utiliser ces chiffons pour les animaux ou les aliments?", "Non. Nos chiffons sont faits pour l'essuyage de la machinerie, des outils et des surfaces.")]},
  {"path": "/en/farm-machinery-rags/", "short": "Farms and farm machinery",
   "title": "Rags for farms and farm machinery – bulk 25 lb bags",
@@ -217,7 +217,7 @@ S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
 <p><a href="{{couleur}}">Colored terry</a> ($32 per [pack]) is the most economical for oil and grease. Order in volume before the season: see <a href="{{gros}}">wholesale pricing</a>.</p>
 <h2>Delivery to rural areas</h2>
 <p>We deliver anywhere in Québec from 1,000 lb (40 bags). Neighbouring farms can combine an order to a single address. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
-  "faq": [("Do you deliver to farms?", "Yes, from 1,000 lb per delivery outside Laval and Montréal. Fees depend on distance."),
+  "faq": [("Do you deliver to farms?", "Yes, from 1,000 lb per delivery outside Laval, Montréal, the South Shore and the North Shore. Fees depend on distance."),
           ("Can these rags be used for animals or food?", "No. Our rags are made for wiping machinery, tools and surfaces.")]})
 
 S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
@@ -238,7 +238,7 @@ S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
 <h2>Attention aux copeaux</h2>
 <p>Un chiffon qui a servi près d'une machine peut contenir des copeaux de métal coupants. Ne l'utilisez pas ensuite sur les mains ou une surface délicate.</p>""",
   "faq": [("Combien de sacs par mois pour un atelier?", "Cela dépend du nombre de postes et du type de travail. Notre <a href=\"{{calculateur}}\">calculateur</a> vous aide à estimer votre budget à partir de votre consommation."),
-          ("Livrez-vous les zones industrielles?", "Oui, à l'adresse de votre entreprise. Hors Laval et Montréal, le minimum est de 1 000 lb par livraison.")]},
+          ("Livrez-vous les zones industrielles?", "Oui, à l'adresse de votre entreprise. Hors Laval, Montréal, Rive-Sud et Rive-Nord, le minimum est de 1 000 lb par livraison.")]},
  {"path": "/en/machine-shop-rags/", "short": "Machine shops and fabrication",
   "title": "Rags for machine shops and metal fabrication",
   "desc": "Recycled rags for machine shops, welding and metal fabrication: cutting oil, coolant, machine maintenance. From $32 per 25 lb bag.",
@@ -256,7 +256,7 @@ S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
 <h2>Watch out for chips</h2>
 <p>A rag used near a machine can hold sharp metal chips. Don't reuse it on hands or a delicate surface.</p>""",
   "faq": [("How many bags per month for a shop?", "It depends on the number of stations and the type of work. Our <a href=\"{{calculateur}}\">calculator</a> helps you estimate your budget from your usage."),
-          ("Do you deliver to industrial parks?", "Yes, to your business address. Outside Laval and Montréal, the minimum is 1,000 lb per delivery.")]})
+          ("Do you deliver to industrial parks?", "Yes, to your business address. Outside Laval, Montréal, the South Shore and the North Shore, the minimum is 1,000 lb per delivery.")]})
 
 S("soudure", SHOP, ["usinage", "blancs", "guide-metal"],
  {"path": "/chiffons-soudure-fabrication-metallique/", "short": "Soudure et fabrication métallique",

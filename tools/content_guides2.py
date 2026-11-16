@@ -133,7 +133,7 @@ P["calculateur"] = {"kind": "tool", "img": None, "rel": ["gros", "livraison", "g
   "card": "Nombre de sacs par mois et budget avec TPS et TVQ.",
   "body": """<h2>Comment estimer votre consommation</h2>
 <p>Le plus simple : commandez quelques [packs] et notez combien de temps ils durent. Divisez ensuite 25 lb par le nombre de semaines pour obtenir vos livres par semaine.</p>
-<h2>Hors Laval et Montréal</h2>
+<h2>Hors Laval, Montréal, Rive-Sud et Rive-Nord</h2>
 <p>Le minimum est de 1 000 lb par livraison (40 sacs, produits mélangés acceptés). Le calculateur indique combien de mois de consommation cela représente. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>
 <p>Ce calcul est une estimation. Les frais de livraison ne sont pas inclus : ils dépendent de votre adresse et sont indiqués dans la soumission.</p>""",
   "tool": {"lbw": "Consommation (lb par semaine)", "prod": "Produit", "zone": "Livraison", "z1": "Laval ou Montréal", "z2": "Ailleurs au Québec",
@@ -147,7 +147,7 @@ P["calculateur"] = {"kind": "tool", "img": None, "rel": ["gros", "livraison", "g
   "card": "Bags per month and budget with GST and QST.",
   "body": """<h2>How to estimate your usage</h2>
 <p>The simplest way: order a few [packs] and note how long they last. Then divide 25 lb by the number of weeks to get your pounds per week.</p>
-<h2>Outside Laval and Montréal</h2>
+<h2>Outside Laval, Montréal, the South Shore and the North Shore</h2>
 <p>The minimum is 1,000 lb per delivery (40 bags, mixed products welcome). The calculator shows how many months of usage that represents. See the <a href="{{livraison}}">delivery terms</a>.</p>
 <p>This is an estimate. Delivery fees aren't included: they depend on your address and are shown in the quote.</p>""",
   "tool": {"lbw": "Usage (lb per week)", "prod": "Product", "zone": "Delivery", "z1": "Laval or Montréal", "z2": "Elsewhere in Québec",

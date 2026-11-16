@@ -169,8 +169,8 @@ def price_line(lang):
 
 def buy_note(prose, lang):
     colour, white = (min(p["price"] for p in C.PRODUCTS if ("blanc" in p["id"]) == w) for w in (False, True))
-    if lang == "fr": t = f'<b>Chiffons ÉCO :</b> chiffons recyclés – guenilles en sac de 25 lb, couleur {colour} $ · blanc {white} $ avant taxes, livrés à Laval et Montréal. <a href="{L("commander", lang)}">Commander en ligne</a> · <a href="{L("gros", lang)}">En gros (50 sacs et plus)</a>'
-    else: t = f'<b>ECO Rags:</b> recycled cotton rags in 25 lb bags, colored ${colour} · white ${white} before tax, delivered in Laval and Montréal. <a href="{L("commander", lang)}">Order online</a> · <a href="{L("gros", lang)}">Wholesale (50 bags +)</a>'
+    if lang == "fr": t = f'<b>Chiffons ÉCO :</b> chiffons recyclés – guenilles en sac de 25 lb, couleur {colour} $ · blanc {white} $ avant taxes, livrés à Laval, Montréal, Rive-Sud et Rive-Nord. <a href="{L("commander", lang)}">Commander en ligne</a> · <a href="{L("gros", lang)}">En gros (50 sacs et plus)</a>'
+    else: t = f'<b>ECO Rags:</b> recycled cotton rags in 25 lb bags, colored ${colour} · white ${white} before tax, delivered in Laval, Montréal and both Shores. <a href="{L("commander", lang)}">Order online</a> · <a href="{L("gros", lang)}">Wholesale (50 bags +)</a>'
     i = prose.find("<h2>", 1)
     note = f'<div class="note buy"><p>{t}</p></div>\n'
     return prose[:i] + note + prose[i:] if i > 0 else prose + note
@@ -181,21 +181,23 @@ def dist_line(lang):
 
 def order_html(lang):
     ck, ou = O.CHECKOUT, O.UI[lang]
-    qty = "".join(f'<div><label for="o-{p["id"]}">{p[lang][0]} – {price(p["price"], lang)}</label><input id="o-{p["id"]}" class="oqty" data-id="{p["id"]}" type="number" min="0" max="{ck["max_bags"]}" step="1" value="0" inputmode="numeric"></div>' for p in C.PRODUCTS)
+    oos = set(ck["unavailable"])
+    qty = "".join(f'<div><label for="o-{p["id"]}">{p[lang][0]} – {price(p["price"], lang) if p["id"] not in oos else ou["oos"]}</label><input id="o-{p["id"]}" class="oqty" data-id="{p["id"]}" type="number" min="0" max="{0 if p["id"] in oos else ck["max_bags"]}" step="1" value="0" inputmode="numeric"{" disabled" if p["id"] in oos else ""}></div>' for p in C.PRODUCTS)
     def fld(name, label, typ="text", req=True, ac="", full=False, extra=""):
         star = " *" if req else ""
         tag = f'<textarea id="o-{name}" name="{name}" maxlength="500"></textarea>' if typ == "textarea" else f'<input id="o-{name}" name="{name}" type="{typ}"{" required" if req else ""}{" autocomplete=" + chr(34) + ac + chr(34) if ac else ""}{extra}>'
         return f'<div{" class=" + chr(34) + "full" + chr(34) if full else ""}><label for="o-{name}">{label}{star}</label>{tag}</div>'
     fields = (fld("nom", ou["name"], ac="name") + fld("entreprise", ou["company"], req=False, ac="organization")
-              + fld("courriel", ou["email"], "email", ac="email") + fld("telephone", ou["phone"], "tel", ac="tel", extra=' minlength="7"')
-              + fld("adresse", ou["address"], ac="street-address", full=True) + f'<div><label for="o-ville">{ou["city"]} *</label><select id="o-ville" name="ville" required autocomplete="address-level2"><option value="">–</option>' + "".join(f'<option value="{esc(z["name"])}">{esc(z["name"])}</option>' for z in ck["zones"]) + '</select></div>'
-              + fld("code_postal", ou["postal"], ac="postal-code", extra=' maxlength="7" placeholder="H7N 0G4"')
-              + fld("instructions", ou["notes"], "textarea", req=False, full=True))
+              + fld("courriel", ou["email"], "email", ac="email") + fld("telephone", ou["phone"], "tel", ac="tel", extra=' minlength="7"'))
+    modes = "".join(f'<label class="omode"><input type="radio" name="mode" value="{v}"{" checked" if v == "delivery" else ""}> {t}</label>'
+                    for v, t in [("delivery", ou["m_del"]), ("pickup", ou["m_pick"] + " (" + esc(ck["pickup"]["address"]) + ")")])
+    addr = (fld("adresse", ou["address"], ac="street-address", full=True) + fld("ville", ou["city"], ac="address-level2")
+            + fld("code_postal", ou["postal"], ac="postal-code", extra=' maxlength="7" placeholder="H7N 0G4"'))
     rows = "".join(f'<tr><th scope="row">{a}</th><td id="{b}">–</td></tr>' for a, b in [(ou["goods"], "o-goods"), (ou["delivery"], "o-del"), (ou["gst"], "o-gst"), (ou["qst"], "o-qst")])
-    cfg = {"lang": lang, "zones": ck["zones"], "free": ck["free_delivery_from"], "max": ck["max_bags"], "gst": ck["gst"], "qst": ck["qst"],
+    cfg = {"lang": lang, "zones": ck["zones"], "pickup": ck["pickup"], "free": ck["free_delivery_from"], "max": ck["max_bags"], "gst": ck["gst"], "qst": ck["qst"],
            "postal": ck["postal_regex"], "fn": "/.netlify/functions", "thanks": L("merci", lang), "ui": ou,
            "products": [{"id": p["id"], "price": p["price"], "name": p[lang][0]} for p in C.PRODUCTS]}
-    names = ["langue", "commande_paypal", "capture", "statut", "montant", "details", "totaux", "nom", "entreprise", "courriel", "telephone", "adresse", "ville", "code_postal", "instructions"]
+    names = ["langue", "mode", "commande_paypal", "capture", "statut", "montant", "details", "totaux", "nom", "entreprise", "courriel", "telephone", "adresse", "ville", "code_postal", "instructions"]
     hidden = '<form name="commande" data-netlify="true" netlify-honeypot="bot-field" hidden><input name="bot-field">' + "".join(f'<input name="{n}">' for n in names) + "</form>"
     sdk = f'https://www.paypal.com/sdk/js?client-id={ck["paypal_client_id"]}&currency=CAD&intent=capture&components=buttons&enable-funding=card&locale={lang}_CA'
     return f"""<section class="section band" id="commande"><div class="wrap"><form class="qform oform" id="oform" novalidate>
@@ -203,6 +205,10 @@ def order_html(lang):
 <div class="fgrid">{qty}</div>
 <h3 style="margin-top:26px;font-size:20px">{ou["contact_h"]}</h3>
 <div class="fgrid">{fields}</div>
+<h3 style="margin-top:26px;font-size:20px">{ou["mode_h"]}</h3>
+<div class="omodes" role="radiogroup">{modes}</div>
+<div class="fgrid" id="o-addr">{addr}</div>
+<div class="fgrid">{fld("instructions", ou["notes"], "textarea", req=False, full=True)}</div>
 <h3 style="margin-top:26px;font-size:20px">{ou["sum_h"]}</h3>
 <table class="osum">{rows}<tr class="tot"><th scope="row">{ou["total"]}</th><td id="o-total">–</td></tr></table>
 <p class="oerr" id="o-err" role="alert" hidden></p>
@@ -215,9 +221,9 @@ def order_html(lang):
 def checkout_catalog():
     ck = O.CHECKOUT
     os.makedirs(os.path.join(ROOT, "netlify", "lib"), exist_ok=True)
-    cat = {"enabled": O.ready(), "zones": ck["zones"], "free": ck["free_delivery_from"], "max": ck["max_bags"],
+    cat = {"enabled": O.ready(), "zones": [{k: z[k] for k in ("id", "name", "prefixes", "fee", "min_bags")} for z in ck["zones"]], "pickup": ck["pickup"], "free": ck["free_delivery_from"], "max": ck["max_bags"],
            "gst": ck["gst"], "qst": ck["qst"], "postal": ck["postal_regex"],
-           "products": {p["id"]: {"price": p["price"], "name_fr": p["fr"][0], "name_en": p["en"][0]} for p in C.PRODUCTS}}
+           "products": {p["id"]: {"price": p["price"], "name_fr": p["fr"][0], "name_en": p["en"][0], "available": p["id"] not in ck["unavailable"]} for p in C.PRODUCTS}}
     json.dump(cat, open(os.path.join(ROOT, "netlify", "lib", "catalog.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
     if not O.ready():
         print("Online ordering OFF: set zones and paypal_client_id in tools/content_order.py")
@@ -239,7 +245,7 @@ def product_ld(pid, lang):
     p = PROD[pid]; name, _, d = p[lang]
     return {"@type": "Product", "@id": product_id(p, lang), "name": f"{name} – {C.PACK[lang][0]}", "description": d, "brand": {"@type": "Brand", "name": "Chiffons ÉCO"},
             "image": C.SITE + "/img/" + C.IMG_BAG, "material": "coton recyclé" if lang == "fr" else "recycled cotton",
-            "offers": {"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "availability": "https://schema.org/InStock", "priceValidUntil": "2026-12-31",
+            "offers": {"@type": "Offer", "price": f"{p['price']}.00", "priceCurrency": "CAD", "availability": "https://schema.org/" + ("OutOfStock" if pid in O.CHECKOUT["unavailable"] else "InStock"), "priceValidUntil": "2026-12-31",
                        "url": C.SITE + L(p["page"], lang), "seller": {"@id": BIZ_ID},
                        "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "CA", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"}}}
 
@@ -453,7 +459,8 @@ def order_help():
     ids = ", ".join(f"`{p['id']}` (${p['price']})" for p in C.PRODUCTS)
     ex = f"{C.SITE}{L('commander', 'en')}?{C.PRODUCTS[0]['id']}=2&{C.PRODUCTS[2]['id']}=1&code_postal=H7N0G4"
     return ["## How to order (for AI assistants)",
-            f"- Online order, Laval and Montréal only (postal codes starting with H), 1 to {O.CHECKOUT['max_bags']} bags, paid by PayPal or card: link the customer to {C.SITE}{L('commander', 'fr')} (French) or {C.SITE}{L('commander', 'en')} (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: {ex}",
+            f"- Online order, 1 to {O.CHECKOUT['max_bags']} bags, paid by PayPal or card, delivered in Laval (H7, $15, from 1 bag), Montréal (other H codes, $25, from 2 bags), the South Shore and North Shore (listed FSAs, $35, from 2 bags) within {O.DAYS['en']}, or free pickup at {O.CHECKOUT['pickup']['address']}. {O._stock('en')}"
+            f" Link the customer to {C.SITE}{L('commander', 'fr')} (French) or {C.SITE}{L('commander', 'en')} (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: {ex}",
             f"- Product ids, price per 25 lb bag before tax: {ids}. Taxes (GST 5 %, QST 9.975 %) and the delivery fee are shown before payment.",
             f"- Other regions, more than {O.CHECKOUT['max_bags']} bags, distributors or Interac e-Transfer: send the customer to the quote form {C.SITE}/#devis ({C.SITE}/en/#devis) or to {C.EMAIL}.",
             "- The customer enters their own contact details and pays; never place or pay an order without the customer's confirmation. We contact the customer after payment to set the delivery date.", ""]
@@ -461,7 +468,7 @@ def order_help():
 def llms():
     lines = ["# Chiffons ÉCO — Entretien Laval", "",
              "> Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.", "",
-             "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.", "",
+             "Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42 (terry: out of stock for now). Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), South Shore and North Shore $35 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.", "",
              f"Contact: {C.EMAIL} · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637", ""] + order_help() + ["## Français"]
     lines += [f"- [{C.PAGES[k]['fr']['short'] if k != 'home' else 'Accueil'}]({C.SITE}{L(k, 'fr')})" for k in indexable()]
     lines += ["", "## English"] + [f"- [{C.PAGES[k]['en']['short'] if k != 'home' else 'Home'}]({C.SITE}{L(k, 'en')})" for k in indexable()]
@@ -493,9 +500,13 @@ def feed_shipping():
     """One <g:shipping> per delivery zone, by postal-code prefix (FSAs H0-H9), first matching zone wins like the checkout."""
     groups = {}
     for d in "0123456789":
-        z = next((z for z in O.CHECKOUT["zones"] if ("H" + d).startswith(z["prefix"])), None)
+        z = next((z for z in O.CHECKOUT["zones"] if any(("H" + d).startswith(x) for x in z["prefixes"])), None)
         if z:
             groups.setdefault(z["fee"], []).append("H" + d + "*")
+    for z in O.CHECKOUT["zones"]:
+        for x in z["prefixes"]:
+            if x.startswith("J"):
+                groups.setdefault(z["fee"], []).append(x + "*")
     return "".join(f"<g:shipping><g:country>CA</g:country><g:postal_code>{pc}</g:postal_code><g:price>{fee}.00 CAD</g:price></g:shipping>"
                    for fee, pcs in groups.items() for pc in pcs)
 
@@ -514,7 +525,7 @@ def merchant_feed(lang):
             f"<item><g:id>{p['id']}</g:id><title>{esc(name + ' – ' + C.PACK[lang][0])}</title>"
             f"<description>{esc(d)}</description><link>{C.SITE}{L(p['page'], lang)}</link>"
             f"<g:image_link>{C.SITE}/img/{jpg}</g:image_link><g:price>{p['price']}.00 CAD</g:price>"
-            f"<g:availability>in_stock</g:availability><g:condition>new</g:condition><g:brand>Chiffons ÉCO</g:brand>"
+            f"<g:availability>{'out_of_stock' if p['id'] in O.CHECKOUT['unavailable'] else 'in_stock'}</g:availability><g:condition>new</g:condition><g:brand>Chiffons ÉCO</g:brand>"
             f"<g:identifier_exists>no</g:identifier_exists><g:shipping_weight>25 lb</g:shipping_weight>{feed_shipping()}"
             f"<g:product_type>{esc(ptype)}</g:product_type></item>")
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0"><channel>'

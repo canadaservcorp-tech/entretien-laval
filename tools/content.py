@@ -27,12 +27,12 @@ CITIES = ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbr
 
 TERMS = {
  "fr": [("Prix avant taxes", "TPS et TVQ en sus, facture d'entreprise enregistrée."),
-        ("Livraison à votre adresse", "Laval : 15 $, dès 1 sac. Montréal : 25 $, dès 2 sacs. Ailleurs : frais selon votre emplacement."),
-        ("Hors Laval et Montréal", "Minimum de 1 000 lb (40 sacs) par livraison."),
+        ("Livraison à votre adresse", "Laval : 15 $, dès 1 sac. Montréal : 25 $, dès 2 sacs. Rive-Sud et Rive-Nord : 35 $, dès 2 sacs. Ailleurs : frais selon votre emplacement."),
+        ("Hors Laval, Montréal, Rive-Sud et Rive-Nord", "Minimum de 1 000 lb (40 sacs) par livraison."),
         ("Aucune quantité maximale", "Commande confirmée et payée une semaine avant la livraison.")],
  "en": [("Prices before tax", "GST and QST extra, invoiced by a registered business."),
-        ("Delivered to your address", "Laval: $15, from 1 bag. Montréal: $25, from 2 bags. Elsewhere: fee based on your location."),
-        ("Outside Laval and Montréal", "1,000 lb minimum (40 bags) per delivery."),
+        ("Delivered to your address", "Laval: $15, from 1 bag. Montréal: $25, from 2 bags. South Shore and North Shore: $35, from 2 bags. Elsewhere: fee based on your location."),
+        ("Outside Laval, Montréal, the South Shore and the North Shore", "1,000 lb minimum (40 bags) per delivery."),
         ("No maximum quantity", "Order confirmed and paid one week before delivery.")],
 }
 
@@ -75,7 +75,7 @@ FAQ = {
   ("Livrez-vous? Où?", "Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir <a href=\"{{livraison}}\">la livraison</a>."),
   ("Livrez-vous ailleurs au Canada?", "Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir <a href=\"{{canada}}\">fournisseur de chiffons au Canada</a>."),
   ("Comment commander?", "Remplissez le <a href=\"{{home#devis}}\">formulaire de soumission</a> ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison."),
-  ("Y a-t-il un minimum de commande?", "Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $). Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum."),
+  ("Y a-t-il un minimum de commande?", "Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $), 2 sacs pour la Rive-Sud et la Rive-Nord (35 $). Hors Laval, Montréal, Rive-Sud et Rive-Nord, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum."),
   ("Les chiffons sont-ils propres?", "Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon."),
   ("Offrez-vous des échantillons?", "Oui, sur demande, pour vérifier la qualité et le format avant une première commande."),
   ("Pouvez-vous livrer automatiquement chaque mois?", "Oui. Choisissez la quantité et le rythme (toutes les 2 semaines ou chaque mois) et nous livrons sans que vous ayez à appeler, au même prix, payé à la livraison avec facture. Vous changez ou arrêtez quand vous voulez, par courriel."),
@@ -95,7 +95,7 @@ FAQ = {
   ("Do you deliver? Where?", "Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See <a href=\"{{livraison}}\">delivery</a>."),
   ("Do you ship elsewhere in Canada?", "Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See <a href=\"{{canada}}\">rag supplier in Canada</a>."),
   ("How do I order?", "Fill in the <a href=\"{{home#devis}}\">quote form</a> or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery."),
-  ("Is there a minimum order?", "Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25). Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum."),
+  ("Is there a minimum order?", "Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25), 2 bags for the South Shore and North Shore ($35). Outside Laval, Montréal, the South Shore and the North Shore, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum."),
   ("Are the rags clean?", "Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh."),
   ("Do you offer samples?", "Yes, on request, so you can check quality and size before a first order."),
   ("Can you deliver automatically every month?", "Yes. Choose the quantity and the schedule (every 2 weeks or every month) and we deliver without you having to call, at the same price, paid on delivery with an invoice. Change or stop anytime by email."),
@@ -316,7 +316,7 @@ PAGES["construction"] = {"kind": "sector", "img": IMG_BALE, "rel": ["couleur", "
 <h2>Pour qui</h2>
 <p>Entrepreneurs généraux et spécialisés, plombiers, électriciens, frigoristes, couvreurs, poseurs de plancher et équipes de ménage après construction.</p>
 <h2>Livraison au chantier</h2>
-<p>Nous livrons à l'adresse de votre choix, au bureau, à l'entrepôt ou au chantier. Hors Laval et Montréal, minimum de 1 000 lb par livraison. Voir les <a href="{{livraison}}">conditions</a> ou demandez une <a href="{{home#devis}}">soumission</a>.</p>""",
+<p>Nous livrons à l'adresse de votre choix, au bureau, à l'entrepôt ou au chantier. Hors Laval, Montréal, Rive-Sud et Rive-Nord, minimum de 1 000 lb par livraison. Voir les <a href="{{livraison}}">conditions</a> ou demandez une <a href="{{home#devis}}">soumission</a>.</p>""",
   "faq": [("Pouvez-vous livrer directement au chantier?", "Oui, à l'adresse de votre choix, selon nos conditions de livraison."),
           ("Quel chiffon pour le silicone et le calfeutrage?", "Le t-shirt couleur : mince, souple et économique."),
           ("Facturez-vous les entrepreneurs?", "Oui, avec TPS et TVQ, sur facture d'entreprise enregistrée.")]},
@@ -335,7 +335,7 @@ PAGES["construction"] = {"kind": "sector", "img": IMG_BALE, "rel": ["couleur", "
 <h2>Who it's for</h2>
 <p>General and specialty contractors, plumbers, electricians, HVAC technicians, roofers, flooring installers and post-construction cleaning crews.</p>
 <h2>Delivery to the site</h2>
-<p>We deliver to any address you choose: office, warehouse or job site. Outside Laval and Montréal, 1,000 lb minimum per delivery. See the <a href="{{livraison}}">terms</a> or request a <a href="{{home#devis}}">quote</a>.</p>""",
+<p>We deliver to any address you choose: office, warehouse or job site. Outside Laval, Montréal, the South Shore and the North Shore, 1,000 lb minimum per delivery. See the <a href="{{livraison}}">terms</a> or request a <a href="{{home#devis}}">quote</a>.</p>""",
   "faq": [("Can you deliver straight to the job site?", "Yes, to any address you choose, under our delivery terms."),
           ("Which rag for silicone and caulking?", "Colored T-shirt: thin, flexible and economical."),
           ("Do you invoice contractors?", "Yes, with GST and QST, on a registered business invoice.")]},
@@ -385,7 +385,7 @@ PAGES["restauration"] = {"kind": "sector", "img": IMG_TEXT, "rel": ["entretien",
 PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "blancs", "guide-huileux"],
  "fr": {"path": "/chiffons-industriels-imprimerie/", "short": "Industrie et imprimerie",
   "title": "Chiffons industriels en coton recyclé : sac de 25 lb dès 32 $",
-  "desc": "Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Hors Laval et Montréal dès 1 000 lb.",
+  "desc": "Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Hors Laval, Montréal et les Rives dès 1 000 lb.",
   "eyebrow": "Usines · imprimeries · maintenance", "h1": "Chiffons industriels et chiffons d'imprimerie",
   "lede": "Pour l'encre, l'huile de coupe, les solvants et l'entretien des machines : du coton recyclé en [packs], sans quantité maximale.",
   "card": "Encre, huile de coupe, solvants et entretien des machines, sans quantité maximale.",
@@ -396,7 +396,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "
 <li><b>Usinage et maintenance</b> : ratine couleur pour l'huile et la graisse.</li>
 <li><b>Usage général</b> : t-shirt couleur, le plus économique.</li></ul>
 <h2>Volumes et approvisionnement</h2>
-<p>Il n'y a pas de quantité maximale. Hors Laval et Montréal, nous livrons à partir de 1 000 lb par livraison, avec un prix livré indiqué dans la soumission. Voir <a href="{{gros}}">guenilles en gros</a>.</p>
+<p>Il n'y a pas de quantité maximale. Hors Laval, Montréal, Rive-Sud et Rive-Nord, nous livrons à partir de 1 000 lb par livraison, avec un prix livré indiqué dans la soumission. Voir <a href="{{gros}}">guenilles en gros</a>.</p>
 <h2>Solvants et chiffons usagés</h2>
 <p>Les chiffons imbibés de solvants ou d'huile doivent être gardés dans des contenants métalliques fermés et éliminés selon vos règles de gestion des matières dangereuses. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
   "faq": [("Quel chiffon pour nettoyer une presse d'imprimerie?", "Le t-shirt blanc : il ne déteint pas avec les solvants de nettoyage."),
@@ -404,7 +404,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "
           ("Livrez-vous hors du Grand Montréal?", "Oui, ailleurs au Québec à partir de 1 000 lb par livraison.")]},
  "en": {"path": "/en/industrial-printing-rags/", "short": "Industry and printing",
   "title": "Industrial shop rags, recycled cotton: 25 lb bag from $32",
-  "desc": "Recycled cotton industrial rags for plants, print shops and maintenance: ink, oil, solvents. Outside Laval and Montreal from 1,000 lb.",
+  "desc": "Recycled cotton industrial rags for plants, print shops and maintenance: ink, oil, solvents. Outside Laval, Montréal and both Shores from 1,000 lb.",
   "eyebrow": "Plants · print shops · maintenance", "h1": "Industrial wiping rags and print shop rags",
   "lede": "For ink, cutting oil, solvents and machine maintenance: recycled cotton in [packs], with no maximum quantity.",
   "card": "Ink, cutting oil, solvents and machine maintenance, with no maximum quantity.",
@@ -415,7 +415,7 @@ PAGES["industrie"] = {"kind": "sector", "img": IMG_COLOR_BALE, "rel": ["gros", "
 <li><b>Machining and maintenance</b>: colored terry for oil and grease.</li>
 <li><b>General use</b>: colored T-shirt, the most economical.</li></ul>
 <h2>Volumes and supply</h2>
-<p>There is no maximum quantity. Outside Laval and Montréal we deliver from 1,000 lb per delivery, with a delivered price stated in the quote. See <a href="{{gros}}">wholesale rags</a>.</p>
+<p>There is no maximum quantity. Outside Laval, Montréal, the South Shore and the North Shore we deliver from 1,000 lb per delivery, with a delivered price stated in the quote. See <a href="{{gros}}">wholesale rags</a>.</p>
 <h2>Solvents and used rags</h2>
 <p>Rags soaked with solvent or oil should be kept in closed metal containers and disposed of under your hazardous materials rules. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
   "faq": [("Which rag for cleaning a printing press?", "White T-shirt: it won't bleed with cleaning solvents."),
@@ -440,7 +440,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
 <li><b>Coupés en morceaux prêts à utiliser</b> : aucune perte de temps.</li>
 <li><b>Propres, avec une bonne odeur.</b></li></ul>
 <h2>Conditions</h2>
-<p>Prix par [pack] : 32 $ couleur, 42 $ blanc, avant taxes. Hors Laval et Montréal, minimum de 1 000 lb (40 sacs) par livraison, frais de livraison selon votre emplacement. Commande confirmée et payée une semaine avant la livraison.</p>
+<p>Prix par [pack] : 32 $ couleur, 42 $ blanc, avant taxes. Hors Laval, Montréal, Rive-Sud et Rive-Nord, minimum de 1 000 lb (40 sacs) par livraison, frais de livraison selon votre emplacement. Commande confirmée et payée une semaine avant la livraison.</p>
 <h2>Fiche d'approvisionnement responsable</h2>
 <p>Pour vos dossiers d'achat : entreprise québécoise, textile réutilisé (environ 11 kg détournés de l'enfouissement par sac), prix et inscriptions fournisseur sur une page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Télécharger la fiche (PDF)</a></p>
 <h2>Demander une soumission</h2>
@@ -450,7 +450,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
           ("Livrez-vous en région?", "Oui, partout au Québec à partir de 1 000 lb, avec des frais selon la distance.")]},
  "en": {"path": "/en/wholesale-rags/", "short": "Wholesale rags",
   "title": "Bulk rags and industrial shop rags, wholesale – Québec",
-  "desc": "Recycled rags in bulk for janitorial distributors, hardware stores and suppliers. No maximum quantity; outside Laval and Montreal from 1,000 lb.",
+  "desc": "Recycled rags in bulk for janitorial distributors, hardware stores and suppliers. No maximum quantity; outside Laval, Montréal and both Shores from 1,000 lb.",
   "eyebrow": "Distributors · resellers · bulk", "h1": "Wholesale rags and recycled wiping cloths for distributors",
   "lede": "A Québec supplier of recycled wiping rags: 4 products, no maximum quantity, clear prices and delivery across Québec from 1,000 lb.",
   "card": "Janitorial distributors, hardware stores, suppliers: no maximum quantity.",
@@ -464,7 +464,7 @@ PAGES["gros"] = {"kind": "sector", "img": IMG_WAREHOUSE, "rel": ["livraison", "i
 <li><b>Cut into ready-to-use pieces</b>: no time lost.</li>
 <li><b>Clean, with a fresh smell.</b></li></ul>
 <h2>Terms</h2>
-<p>Price per [pack]: $32 colored, $42 white, before tax. Outside Laval and Montréal, 1,000 lb minimum (40 bags) per delivery, delivery fee based on your location. Orders confirmed and paid one week before delivery.</p>
+<p>Price per [pack]: $32 colored, $42 white, before tax. Outside Laval, Montréal, the South Shore and the North Shore, 1,000 lb minimum (40 bags) per delivery, delivery fee based on your location. Orders confirmed and paid one week before delivery.</p>
 <h2>Responsible purchasing sheet</h2>
 <p>For your purchasing file: Québec company, reused textile (about 11 kg kept out of landfill per bag), prices and supplier registrations on one page. <a href="/docs/fiche-approvisionnement-responsable-chiffons-eco.pdf" download>Download the sheet (PDF, French)</a></p>
 <h2>Request a quote</h2>
