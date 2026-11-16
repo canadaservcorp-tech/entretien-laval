@@ -1,711 +1,711 @@
 {
  "/": {
-  "hash": "2b6737a8346c2c5b9af9ceac477468048585d9e4",
+  "hash": "12ebe2a15bcafaf43167a2ee2bd66856ca595e7b",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/a-propos/": {
-  "hash": "aec210ad023ecbd7d8184674ff9ba661cd4da7e0",
+  "hash": "6fae92c6306f6d6bb6cef628931395c78b9b3c30",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/calculateur-chiffons/": {
-  "hash": "27d2899f2cec5ce3c0328d7352a8fa3ce19effb5",
+  "hash": "11d5563ca00aaf38918890789ca0054473593ec7",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-blancs-recycles/": {
-  "hash": "9a45ba9b4bdf116f7935d068c9692bde3a6c5c8c",
+  "hash": "8efeb621b1d1d70bcace4ce2f893e4e45c8bf435",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-camions-lourds-transport/": {
-  "hash": "43bfc23515a908b08848490c562950126982e72b",
+  "hash": "0d2249290709bb7486c57c00a0289c44f955d94f",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/chiffons-carrosserie-debosselage/": {
-  "hash": "2936752c67fbba1c2dbf1b06626b50e5dbe7eeab",
+  "hash": "6d468af93120d8476bb6ba8488b1793cadbd7eb1",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-centres-de-pneus/": {
-  "hash": "0ad07a1c35f206cddb208fcd58982c0c5754f61a",
+  "hash": "0e38d9bf614f2efa4df17cbc9deb748b59b4eb63",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/chiffons-construction-chantier/": {
-  "hash": "5ca2e214f8922ab9b2bc87a73407c3f4bcc3e935",
+  "hash": "0e187d43b15a14faac306fe7e8acfcdbf0c13329",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-couleur-recycles/": {
-  "hash": "280297af4391838c596774c32e5f8a2d30b80685",
+  "hash": "f6a5d6b9f8a90319751131173211b1d035309382",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-ebenisterie-menuiserie/": {
-  "hash": "7e37fb56e46151de10b51b19f44d1acc3de02ddc",
+  "hash": "c9f095b05dcea10a28eb870c8caabc773936f40c",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-entretien-menager-conciergerie/": {
-  "hash": "c7c8c0730dc142721481972fb8a2c2bae8ed7be7",
+  "hash": "ea56fb02c93652ff7a751d878d49c1aa1adaacba",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-esthetique-automobile-lave-auto/": {
-  "hash": "750eee5bcb2b7a76becf904a01bfd7e7d773e166",
+  "hash": "fc5a7cdd7db197debd1f2986215ba988d8f32c98",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-fermes-machinerie-agricole/": {
-  "hash": "56e4bc9aa3ce0c964d3afa8a3cdcf72bd781862c",
+  "hash": "42485366c7248d53aab00a64dc5b18eb2df2cc2f",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-garage-mecanique/": {
-  "hash": "81e825056236c67bbf69f7a810958a281eac13ea",
+  "hash": "c76bbd0be99963b2dfe43ead53d6e0e5d236065c",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-beloeil-chambly/": {
-  "hash": "6ce27a1f25ff30e44147c8bb032e5448f79dcb0e",
+  "hash": "e39b350235e884eb727597dc10e60a444279963b",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/chiffons-guenilles-blainville-boisbriand/": {
-  "hash": "66a88c4ff64486ee69bf57f401ca0860ec8f7df2",
+  "hash": "b422583a4db86bcb98df2bca66d7bdc6a62c3cf9",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-drummondville/": {
-  "hash": "bc778e4cd89b65753776e63f5062f6f48fbd3702",
+  "hash": "e0ecae2297ea76ee7fbab120eb47848940912ea9",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-gatineau/": {
-  "hash": "fbe6aa6b745fb4a0047778bda86cda2048210b96",
+  "hash": "7a5756d32d8b365bbc48ebc8e766f449e4d2ab00",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-granby/": {
-  "hash": "b20e770c25c870cf694b8d4f1786440641442f3f",
+  "hash": "7b001cb290eb4a2ec93095d0de486824aa486789",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-joliette/": {
-  "hash": "04414f2e2ee7d144afd3abccb10c691685a2dd65",
+  "hash": "320dc887989f70b07cfc87addd506e466be9ff28",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-laval/": {
-  "hash": "4bb052fd02b47bf254f9780f2c9e7a925e9ef6ab",
+  "hash": "b03bd046b4ea99d85aaa99ad069257923b909579",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-longueuil/": {
-  "hash": "65d468dc7d143e8a30253a359af6e74408210647",
+  "hash": "8e50cc4a7fbb87a393764c034a61ac8801d24801",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-montreal/": {
-  "hash": "92035c9a42026f6a816ed7fc456a9dd74f44614c",
+  "hash": "4fb1df7d1b36e7f5c2976ec49f8e5bbcf9a94182",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-quebec/": {
-  "hash": "442663280481862f5da60463fbf1dfba71f905e1",
+  "hash": "6f4957ab969d3f5828b39bc14d32e870b01bd501",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-rive-nord/": {
-  "hash": "3aa3a83fe9352a99c0e19678429e5d6028019775",
+  "hash": "03d52287ca5f0b49bc5d692d5ffcf80cd09dd493",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-rive-sud/": {
-  "hash": "20b8a0aaae6365e0b5bb61ad538cf6ccb95bb0c6",
+  "hash": "ccf985720b65d0e1ee67be1bf6f07fe895351cfb",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-saguenay/": {
-  "hash": "7f3562f1ec5963b6d1740c4fe708e6e4db9bb7e9",
+  "hash": "4fb8a9af52bac87e1c8b836913f768bed370a981",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-saint-hyacinthe/": {
-  "hash": "c10adf8930d30b0c95c7f96c2140aa105c6afe0f",
+  "hash": "4dabb6d9673e09c878c13e417e72df63fe245840",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-saint-jean-sur-richelieu/": {
-  "hash": "eac168ac13f6ffe7a2e5b7e256c8539ce5b53ef7",
+  "hash": "2ea3bb4a8690a4fd0fa930b8f94adb8ca0677edf",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-saint-jerome-mirabel/": {
-  "hash": "a81ba43c3164ff918f5d6093ecfa788c22eb78cc",
+  "hash": "014a9c949f588cad3ac2998ca24eca26493bc889",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/chiffons-guenilles-sherbrooke/": {
-  "hash": "6428fce0dc3887c538bd897ceca1abdaa829defc",
+  "hash": "dfad69afcc9c37b5bd428c3b6c27147217dd05a3",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-sorel-tracy/": {
-  "hash": "b6ce4b744d034cb65024aca589e348c132c37974",
+  "hash": "93e4cff7abb39e6e2a90984d0d6fcc43274ca194",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/chiffons-guenilles-terrebonne/": {
-  "hash": "fd2744649b4a4107f54dd3b0b60d4e59c8779cbf",
+  "hash": "6c5fcd04ee33cf306b6425dd20ab0b180e8d8936",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-trois-rivieres/": {
-  "hash": "ec5c46f9249821198651730be61f9dabac3ae1c0",
+  "hash": "408c09ac22ddbb34f6e0c162c9c775012f10ecb8",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-guenilles-vaudreuil-dorion/": {
-  "hash": "cd4137d72bb50887c43da6e8f5f222e9d5eb4251",
+  "hash": "7b2aeaaabf4aedc2050c47049e2d433c33fa21ae",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-guenilles-victoriaville/": {
-  "hash": "296a54167a9802ec365caf0db9226c80a927498b",
+  "hash": "5541dfa81fe66e8cf738ac2a9f0b16aa8d276c65",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-industriels-imprimerie/": {
-  "hash": "4f8bac7d09bba6cbf31aaa89c04308214edd12f8",
+  "hash": "7d7b51459a93a97cfece4072642b14e08be72e93",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-magasins-pieces-auto-revente/": {
-  "hash": "ea23a38bba1675747a055f02b908e8eae0712c8e",
+  "hash": "338d06a8decef601c149c796a583ed07b37026a0",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/chiffons-marinas-bateaux/": {
-  "hash": "121848498a10da40f90d9b6ce76a725aafbb0262",
+  "hash": "d4b46acc5544c9a45adcc0f466f27718c24b64aa",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-municipalites-ecoles/": {
-  "hash": "71321487862f187990e6f955d0aeb5da253af9da",
+  "hash": "2f6cb6c1e51678a2985e655bc7bbc862e121b64f",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-peinture-finition/": {
-  "hash": "6afad1a617ed705f859a3e1b135978d498fbe3df",
+  "hash": "294f258f3fa45d7efccee68d27d8bd5d6380e90d",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-plomberie-cvac/": {
-  "hash": "e01a660c45603a67276506840bfc092f4e831c95",
+  "hash": "8446f6fd0911b54c3f3a7b6d140f46d6e93e6a41",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-ratine-blanc/": {
-  "hash": "da07e9c21e6f5422545dcb036f37fd8f526de77f",
+  "hash": "4e156135981ba2ffd7b5c8a274f322ace39a88ce",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/chiffons-ratine-couleur/": {
-  "hash": "2ede7a747b53f2518757187851e0d165793fb9d1",
+  "hash": "ad7e40e813f94251066000ce6e941b870d931b09",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/chiffons-restauration-cuisine/": {
-  "hash": "5e4c737d19a8c075be3c95a740fa99ec43f7180d",
+  "hash": "b8f6387aef7e12f41296c5f86e5b9d4d56c5a6ff",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/chiffons-soudure-fabrication-metallique/": {
-  "hash": "9e71f592158b488e869b8f472fd24815ddd05bba",
+  "hash": "e75250d0d1e50b34a0e48cceed42ca02c6522b23",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/chiffons-t-shirt-blanc/": {
-  "hash": "c88c0c28ee115366d444b93e56fb8466f1e46fbe",
+  "hash": "8ce5cbe66735e420b96610cda2c86f8458f09eac",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/chiffons-t-shirt-couleur/": {
-  "hash": "bead1e8f51ecd96f7b30772d96c59a8c06fe380f",
+  "hash": "066ce06ef805a1bf36afc293bf93996597612c73",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/chiffons-usinage-atelier-machinerie/": {
-  "hash": "34f8c16adb3cbced38f588502c730af2bf722b37",
+  "hash": "d915946afac323739dcafd09e737773f68fd19df",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/commander/": {
-  "hash": "ad757174b8f40830a0fb9331605074ef3c3083aa",
+  "hash": "f2e90dd2b60cf4262fd7a768df929a766b58d160",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/": {
-  "hash": "48a78f8992227dc2c585db914c049fc55993a2f0",
+  "hash": "bbeee366212ab32e495c87e5f4a8bbeeb3798c6d",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/about/": {
-  "hash": "94383a949c04dc023e92096c9639a4cf02fb8427",
+  "hash": "c3a454b0b14558f60b5a1a8a27958c8e64815bf4",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/auto-body-shop-rags/": {
-  "hash": "c0a7480194ba4ed5ac956b351aa07c0e05aa202b",
+  "hash": "1984616c0b4d2e9d0875bdba59220aa5b87de294",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/auto-parts-store-rags-resale/": {
-  "hash": "31c1551e90f1660101fe883e9ac614583e357576",
+  "hash": "05075df02b0ec3010d83e082dad4b62a1d31805e",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/en/car-detailing-car-wash-rags/": {
-  "hash": "dd524a724fb402b7e6485b7d73caa755161a4993",
+  "hash": "dcc58f9422d632d91bd0ad2dfcdd4c98b035ac98",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/colored-recycled-rags/": {
-  "hash": "f381603e14bfc866674ec3790f3f09920cb23207",
+  "hash": "e6dc0e2fc936a43674b4d9f3ff82c9e2acb56f89",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/colored-t-shirt-rags/": {
-  "hash": "df202bf0fcba3077f03b8afd015d7bbbc91c65b0",
+  "hash": "753845405c9c787d176a3b011965271734f579d2",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/colored-terry-rags/": {
-  "hash": "f19773ef9fe491a7e6c102fb9c38fa9b979a72db",
+  "hash": "1ce6df0981ca4f1922bc30f7181c5a6c20319f36",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/construction-site-rags/": {
-  "hash": "a7301cba01628e35a56065621a171743c04b14da",
+  "hash": "079e072820f17f789a4f810858aeff1216a13e0a",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/delivery-greater-montreal/": {
-  "hash": "16d19512ae08d902ab0f6c461019d411c677abf4",
+  "hash": "3fc93642371e89d33c9cce40944f19d8742c4845",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/faq/": {
-  "hash": "51c7a68b939f70b7290555d14a716c9ba5905f36",
+  "hash": "11ea3fd40ba3eabbc45bedf84b97061a35bc5186",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/farm-machinery-rags/": {
-  "hash": "b3b1108e24bcabe237e0780c5d6cb1872b6f6e35",
+  "hash": "93d714324fb3c9d7e1b817185da99b2e1f1249ef",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/": {
-  "hash": "c7739c4c0ab736c862817d12f2f12398cc84370c",
+  "hash": "9b29e79d9f4215dff640bcf2106b7982a011a4a1",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/best-rag-for-staining-wood/": {
-  "hash": "128459ad0c0f2bbf433c76f2752871607e20b872",
+  "hash": "dbcf345b64948aa42596cd708a5212e435e56ead",
   "modified": "2026-11-16",
   "published": "2026-11-05"
  },
  "/en/guides/industrial-shop-rags-buying-guide/": {
-  "hash": "8447d90a949f1f972544fae1034f221a5da00fc4",
+  "hash": "199c8de924f0876930f8c0fa644a57109ac74d12",
   "modified": "2026-11-16",
   "published": "2026-11-05"
  },
  "/en/guides/lint-free-rags/": {
-  "hash": "0a609f71b23624c4d3bf3b0b47b6d988fb7a72a5",
+  "hash": "f5669aedfe4d77d78cbc10f127d424102086fe5f",
   "modified": "2026-11-16",
   "published": "2026-11-08"
  },
  "/en/guides/metal-shop-rags-laval-montreal/": {
-  "hash": "d1a3893713e80d8036b32c31833ff1367ecf5731",
+  "hash": "d63a4e4984ab3a60d11c417a17948b5ab43e9360",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/guides/oily-rags-fire-risk/": {
-  "hash": "55f4f619acf4f47b357c7882a8575ef816ca05ec",
+  "hash": "26037daf0fe806551cac9bdcd18086a3ecfef37d",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/rag-glossary-quebec/": {
-  "hash": "db3c866e9c4237ca96f7a7bee09871a23f88f145",
+  "hash": "14d93085c371e3fdba9031dc5a812d04a27e0c05",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/rag-prices-laval-montreal/": {
-  "hash": "12c4087e793675ce6503c3644982219ddb1cebcf",
+  "hash": "e37a75dcb26f8aa670b40f89e6713e5ff09f1ba4",
   "modified": "2026-11-16",
   "published": "2026-11-05"
  },
  "/en/guides/recycled-rags-vs-paper-towels/": {
-  "hash": "1784cadc8b9feff2811e2e174f24837722e5f621",
+  "hash": "3b897d637798c8f230debd6ec23aa8a06baa0d37",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/reusable-rags-vs-cleaning-wipes/": {
-  "hash": "92a704efd624a821e0d197f9c95104d34178f816",
+  "hash": "907805bade8a3f1b1177ca7be0f311a08fe585bb",
   "modified": "2026-11-16",
   "published": "2026-11-07"
  },
  "/en/guides/start-rag-resale-business/": {
-  "hash": "d3a79a9e413e17a947aeb88a5fcaa97a2f830d7d",
+  "hash": "96aa526b5e46a4bc3debaaacdbf02e2609009941",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/guides/store-wash-reuse-rags/": {
-  "hash": "4d7a3f05679b7ed08eedb80a3bf70082f5ead13f",
+  "hash": "3c34ce8cb7ce7c58e91a576917a4757e6b6a4c20",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/terry-vs-t-shirt-rags/": {
-  "hash": "3ab5dd3ab43c70b13679ddfebd5b1e183374c7dc",
+  "hash": "2fd7f2c766eff91962f440c71487f4793338cc68",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/guides/where-to-buy-rags/": {
-  "hash": "ac3f68f1831229223dc604952f52e87c599578e5",
+  "hash": "a6da969731915eede6636137b202c9a7e6448560",
   "modified": "2026-11-16",
   "published": "2026-11-08"
  },
  "/en/industrial-printing-rags/": {
-  "hash": "98abc6fd989f7368799a0166d53fd582dbae2c55",
+  "hash": "0c8080a0db3b7c95c6c5203ccf90c4d68f63acd2",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/industries/": {
-  "hash": "a10d587de1d1312cc2be5ee937cc7b043b951b02",
+  "hash": "2a81e770593b6d5dbf729dc283e970e6f54f34bf",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/janitorial-cleaning-rags/": {
-  "hash": "32951248b1e1d6649a5e1dacb2f92f24294c53ee",
+  "hash": "94a73cc8709ff35424b317e671e446f79a436f67",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/machine-shop-rags/": {
-  "hash": "15d3cad5a6106957bf8b503aab33953d3d4ec235",
+  "hash": "7f0d0c58ab0b7922d7cdd8de7f9b5dd03d39315b",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/marina-boat-rags/": {
-  "hash": "c25527bebeaf1f5cd696054bcfdb9fcba1f1a73e",
+  "hash": "b647d8e5b1bad7d6939f28a77f7a1a91d1fa3b3d",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/municipal-school-maintenance-rags/": {
-  "hash": "760beed91dfa9c586b72148687e5f6e02678b24e",
+  "hash": "2f118bd48cc823056ceeaf4d5abbed75429f8213",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/order/": {
-  "hash": "b03cb2338f41c34747ebe02ea9818bba84e3b0ca",
+  "hash": "aaf4d59e03d5f9dc13e7627682b1d8066f758ed0",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/our-customers/": {
-  "hash": "a14acfb9e4409e733870a32f812e29e5803055b9",
+  "hash": "cb7112a6acef2c9e231010af1aa44acbfaae4bbc",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/painting-finishing-rags/": {
-  "hash": "706202bbdc6e40b84d682fe61b7f90a929893b3d",
+  "hash": "a8faa827601e1a8e045c9a8872de836f31b67beb",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/plumbing-hvac-rags/": {
-  "hash": "412b11b36d7fbe89c3046a3fb7dedf8fcb1c13e5",
+  "hash": "20b54855357046a1b73c76f5dc88dc1fc667e67e",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rag-calculator/": {
-  "hash": "2cb69d58d255359312691f997d492a08c91a33d1",
+  "hash": "a5b7e0f3e7709f4fb675181f1737d468ae2aaee2",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-beloeil-chambly/": {
-  "hash": "238cc0292fe26b30231d0a3f4709fd10d644cc3b",
+  "hash": "ad0bb05664f19624d73917670f39a44b1e061270",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/en/rags-blainville-boisbriand/": {
-  "hash": "104e7568f7348da7acaf72aa089c32f33228971a",
+  "hash": "2ec54f17402b739fd700b28f7521c4304452b415",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-drummondville/": {
-  "hash": "11b9f57493c74f87bb9f1727b530d0885af0bb81",
+  "hash": "1ea09e2f35fb5e9ec760d7af16567b2cf0034f9e",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-gatineau/": {
-  "hash": "93e162b95d701bc296566d81844456da7a991f96",
+  "hash": "bb491b9e034bbc9a051586449f432cf29641b266",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-granby/": {
-  "hash": "fc2022fafa243824b6de671150c11c39a9753c5f",
+  "hash": "16117d4ab25b6aeefc3ed980bf22d9fb67a9fdbb",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-joliette/": {
-  "hash": "6850fe62e768d6af234804537008bab40605ecd4",
+  "hash": "66020bcb61595384ce300c7ee3a19a5d2d3a6c41",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-laval/": {
-  "hash": "6f3659e83a6db0d59205a89009aff2ac67d48433",
+  "hash": "6e6e4a6d115b723e00d0421a0f8d4e1d130f9a13",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-longueuil/": {
-  "hash": "dc98656cf87a03d5c6dcf5f10331be5395aec626",
+  "hash": "af75c5a6b436c41936feb5e995b9dd34d7dbcfb2",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-montreal/": {
-  "hash": "ad5fe94ca5b99b5bd7924fe00304c4225c4ff618",
+  "hash": "9a223e23a7c25090885ee41d3fd3e41658319873",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-north-shore/": {
-  "hash": "daea0cbce7ca4ac72c98972fb44c0098e7669d3d",
+  "hash": "6bb5cd1106fefb7494b49aa72018a60861a78f9f",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-quebec-city/": {
-  "hash": "ea03360f375c04e42cce2bab273e562288f4d527",
+  "hash": "a741e2893349a6c56db3001838244d30b0574de0",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-saguenay/": {
-  "hash": "9502f72d6fe24ea3ff08977435986d93a7243b49",
+  "hash": "5d3b7083a2e6c1dfa78c5ce5b1f97505674b111e",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-saint-hyacinthe/": {
-  "hash": "404d6b32652f74aa41af4625daa23b6b20fd4f19",
+  "hash": "023ada75f929eecb0ae8cf9640ce1a1b322324dd",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-saint-jean-sur-richelieu/": {
-  "hash": "d027d50f33401085a15699acdc66f8a47010f7bd",
+  "hash": "6511d1aa610ea47ba10f558e2d6a432a7fb5a0a7",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-saint-jerome-mirabel/": {
-  "hash": "4f7b674e2725b8e54519f0805c149e641f81c2a5",
+  "hash": "5cd0a8eeab7e88c0e4e7a14a5c21a9d3e36ace3b",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/en/rags-sherbrooke/": {
-  "hash": "af82436a1f8eea59d5467b33644859945fb92cd5",
+  "hash": "423c1d8c1a0a81537492452853e237b877e2de95",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-sorel-tracy/": {
-  "hash": "9a6050de6b5a5e8377a220287b4d9185e6565331",
+  "hash": "9ee7b5fcefa0686620c9fdcd750b04f20d02034b",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/en/rags-south-shore/": {
-  "hash": "4c107e59424b91bb829c2fdfcb66aaac0bc3a80d",
+  "hash": "e3f75c7fabc561c023b497062f1fb41bce82036e",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-terrebonne/": {
-  "hash": "478509cef547a158d79b1013e303726a450f435b",
+  "hash": "10f2d289a131f34a36670057a9dbba3f05da0147",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-trois-rivieres/": {
-  "hash": "32c84c204df058de9ef9edd1061f8cba38a089bd",
+  "hash": "4b692be96e1268d9dff3a01789b3cbf8b6e223f6",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/rags-vaudreuil-dorion/": {
-  "hash": "c29fa30bf3583163888fc1afafbb8458233eb4ba",
+  "hash": "6335fee33afbcec1c80b4f6ea8542ea7733847b0",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/rags-victoriaville/": {
-  "hash": "b163918c71d8a559f6036faa994a4d041d9c9222",
+  "hash": "c14ad72f22cac42e2436b07ff19b9d70f8430ca4",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/recycled-rag-supplier-canada/": {
-  "hash": "4d9e69e808a7eaf1c37094758395675b41a8578f",
+  "hash": "80a6743adf7c2d60171f4b213be830176911b5fe",
   "modified": "2026-11-16",
   "published": "2026-11-07"
  },
  "/en/restaurant-kitchen-rags/": {
-  "hash": "b7cb5d1f466e27842b2bac85dc2ac32c538e09cc",
+  "hash": "6f435ac7c9c10e5eaf1e11f355f2e3fc19710155",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/shop-rags-garage-mechanics/": {
-  "hash": "dfc3d93cfc6ba5466d8f8a6738befaf62b74b535",
+  "hash": "e124cae756aec4a0e2a66a155d5431eb3879fe48",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/thanks/": {
-  "hash": "70f2cad281c38dbc03935c69aea5b70855cfed1f",
+  "hash": "c0430c1e86ce6744f4336868cdae3259dbce6026",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/tire-shop-rags/": {
-  "hash": "577cf6dca6b261a4b237aafb1d1a8518df6ce827",
+  "hash": "3d4228724f4b1f9dd3b5c670afaf6296d0234b29",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/en/truck-fleet-rags/": {
-  "hash": "198ecfdd12fb0f4cce2f4d520f3d192871699b17",
+  "hash": "7c3b1c1b64d1431772504a80308fd3d4edad470c",
   "modified": "2026-11-16",
   "published": "2026-11-13"
  },
  "/en/welding-metal-fabrication-rags/": {
-  "hash": "e89210a6d4ee38a3dec7bba5eb2937ae27feb559",
+  "hash": "bca82fa2171c3f01d0f522cdecfebb16d3dd3f05",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/en/white-recycled-rags/": {
-  "hash": "a6f836d89f113a678f69721acdac11f3b34a24da",
+  "hash": "8490bd1f0be987b8cac569c853100792d4f84916",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/white-t-shirt-rags/": {
-  "hash": "59bd7b6401ca04766fabd11494cc503c34f0280b",
+  "hash": "6cd4bf71c29396768e07de0fcfab22d1db10c2c1",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/white-terry-rags/": {
-  "hash": "56a8954693a63cc68a67d2b8280788179f566a03",
+  "hash": "fa61e66bafc2067d7111ca9d48a755cf8fc50ebd",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/wholesale-rags/": {
-  "hash": "aec79938d9f6df47eaccb3cc1d31564f10461fe4",
+  "hash": "507793cb79b24f7f6baf2a9a1eabd58a153ef48b",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/woodworking-cabinetmaking-rags/": {
-  "hash": "dc84a4b737af84e6094a699826171896223d4d99",
+  "hash": "6b2e421a447d12c24a720fcc854affe06e8b06e1",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/faq/": {
-  "hash": "9da827cb9e36f087f2b25e305655ae9eb59d4962",
+  "hash": "922b62ad0e1765fa694d3aef51de5c57bcae70b0",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/fournisseur-chiffons-recycles-canada/": {
-  "hash": "1ad0df2c5d289813cc5221b87cc4303aa470f65d",
+  "hash": "ea1fdaf9d5e5bc3289f4b664b7040e23c0c85895",
   "modified": "2026-11-16",
   "published": "2026-11-07"
  },
  "/guenilles-en-gros/": {
-  "hash": "744d3967d959da1056d2e299af6035638cd1c942",
+  "hash": "9226b2e03717302e9f30568b6f2faac9697c1f23",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/guides/": {
-  "hash": "028b846318bc2c48578ded8b902ee68aeae864d3",
+  "hash": "33b92eb4920a63cf419d2b9326aa89ebcdec26e6",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/guides/chiffon-non-pelucheux/": {
-  "hash": "07794b937ef1b815f64ee61c25207156232ef98c",
+  "hash": "ac6197e23e5a43b8a47f3824e61ede07e2c12958",
   "modified": "2026-11-16",
   "published": "2026-11-08"
  },
  "/guides/chiffons-atelier-metal-laval-montreal/": {
-  "hash": "2fd29d886f88e548d41c72f33c29c96b935bed0d",
+  "hash": "0be0a2e5dae5f02faec0bab1313e7bf5a77331ac",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/guides/chiffons-huileux-risque-incendie/": {
-  "hash": "01bbcbab1b335b5a1a1971b89dcd94e1539dc4de",
+  "hash": "4a726e3aa7866ae93c22bf7b94df2e2f65921063",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/guides/chiffons-industriels-guide-achat/": {
-  "hash": "8287b0160708aa4f4217bed3f95d57ee63259960",
+  "hash": "d564ebc003ea37e7ecb92cbc1f95f0c7fe222bf2",
   "modified": "2026-11-16",
   "published": "2026-11-05"
  },
  "/guides/chiffons-recycles-ou-papier/": {
-  "hash": "bada9a58a83c3df24e19e983469102ffaf620b67",
+  "hash": "b28febeeb42c918dde364c8db473b97083e93fab",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/guides/chiffons-reutilisables-ou-lingettes-jetables/": {
-  "hash": "72402344eccd381ada1c3485b60fc4226b6700e4",
+  "hash": "958457c1d5f84277d35416b071dfbef1a0141d97",
   "modified": "2026-11-16",
   "published": "2026-11-07"
  },
  "/guides/demarrer-entreprise-revente-chiffons/": {
-  "hash": "65f72f5ec331e0fe8bb53ccfd568a1cfc245e503",
+  "hash": "67632350faf6c01e558d8ca5242445ea8c8dba57",
   "modified": "2026-11-16",
   "published": "2026-11-06"
  },
  "/guides/guenille-chiffon-torchon-lexique/": {
-  "hash": "8d51f7289a62490e70a0a9ccdf8b7c279eafb77d",
+  "hash": "0244f410f1f08375904d90e00f001b7180deb544",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/guides/meilleur-chiffon-teinture-bois/": {
-  "hash": "1df4cf8cf914cf26917f0318240ed541d2002dc9",
+  "hash": "8c7b5e61f9d92b2f316b3932ea3303b8fc182ec0",
   "modified": "2026-11-16",
   "published": "2026-11-05"
  },
  "/guides/ou-acheter-des-guenilles/": {
-  "hash": "376ffaec1c0ca9273ae4757fa74d7682e90ff970",
+  "hash": "fe5d4b93350fc2abcc89b0758b79ed63f225647a",
   "modified": "2026-11-16",
   "published": "2026-11-08"
  },
  "/guides/prix-guenilles-laval-montreal/": {
-  "hash": "86ad437f10cfdecb26a427292f5107ace89d3f24",
+  "hash": "f15fc7540016d50a95f494569afcf37f93a033d8",
   "modified": "2026-11-16",
   "published": "2026-11-05"
  },
  "/guides/ranger-laver-reutiliser-chiffons/": {
-  "hash": "87f4d4f91186d448939be7be3adcf3f520b51853",
+  "hash": "c3bfa5c327edb9ec05a430cd1f272aa93d6dc4fe",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/guides/ratine-ou-t-shirt/": {
-  "hash": "638ed07b6be78206aaa001ecbcecbd9f10816fa9",
+  "hash": "bfc44fa22fae7cf0bfc3e22a1807aa9f0e7c76af",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/livraison-grand-montreal/": {
-  "hash": "58d7ded1e05be5148917351e290024f6dbeca5a4",
+  "hash": "b02e5a2512cd8f1ce2ff9e470108a95f2afa5c58",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/merci/": {
-  "hash": "5482fa739a4a20e084aecde74fc7f4bb1719a77a",
+  "hash": "a43b0e219dff082cacfe7d6a87f8326e184730f0",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/nos-clients/": {
-  "hash": "36e77995bd5683636eadba4ab2234d4ef79414af",
+  "hash": "ec709e74cd959e0f2f8a0265fa17899dea92a357",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/secteurs/": {
-  "hash": "b609075265c179b9eca0da987270675254a83082",
+  "hash": "d9b9787796fb2e57c71b7a91ea5b579da3b0f8d5",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  }

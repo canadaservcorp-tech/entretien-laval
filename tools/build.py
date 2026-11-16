@@ -274,12 +274,14 @@ def write(path, s):
     out = os.path.join(ROOT, path.lstrip("/"), "index.html") if path.endswith("/") else os.path.join(ROOT, path.lstrip("/"))
     os.makedirs(os.path.dirname(out), exist_ok=True)
     s = re.sub(r"\n{2,}", "\n", s)
-    h = hashlib.sha1(re.sub(r"/assets/site\.[0-9a-f]+\.css", "", s).encode()).hexdigest()
     rel = os.path.relpath(out, ROOT)
+    # Only the page's own content counts as a change, not the shared header/footer.
+    core = "".join(re.findall(r"<title>.*?</title>|<meta name=\"description\"[^>]*>|<main id=\"main\">[\s\S]*</main>", s))
+    h = hashlib.sha1(re.sub(r"/assets/site\.[0-9a-f]+\.css", "", core).encode()).hexdigest()
     rec = DATES.get(path)
     if not rec:
         rec = {"published": git_date(rel, first=True), "modified": git_date(rel), "hash": h}
-    elif rec["hash"] != h:
+    elif rec.get("hash") != h:
         rec = {**rec, "modified": TODAY, "hash": h}
     DATES[path] = rec
     s = s.replace(D_MOD, rec["modified"]).replace(D_PUB, rec["published"])
