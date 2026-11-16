@@ -15,7 +15,7 @@ const json = (statusCode, obj) => ({
 
 function zoneFor(pc) {
   const p = String(pc || '').toUpperCase().replace(/\s+/g, '');
-  return (CAT.zones || []).find((z) => p.startsWith(z.prefix)) || null;
+  return (CAT.zones || []).find((z) => (z.prefixes || []).some((x) => p.startsWith(x))) || null;
 }
 
 function totals(lines, zone) {
@@ -38,11 +38,13 @@ function validate(b) {
     if (!l || !CAT.products[l.id] || seen.has(l.id)) return { error: 'product' };
     const qty = Number(l.qty);
     if (!Number.isInteger(qty) || qty < 0 || qty > CAT.max) return { error: 'qty' };
+    if (qty > 0 && CAT.products[l.id].available === false) return { error: 'stock' };
     seen.add(l.id);
     if (qty > 0) lines.push({ id: l.id, qty });
   }
   const bags = lines.reduce((s, l) => s + l.qty, 0);
   if (bags < 1 || bags > CAT.max) return { error: 'qty' };
+  const mode = b.mode === 'pickup' && CAT.pickup ? 'pickup' : 'delivery';
   const c = b.contact || {};
   const contact = {
     nom: str(c.nom, 100), entreprise: str(c.entreprise, 100), courriel: str(c.courriel, 254),
@@ -51,14 +53,18 @@ function validate(b) {
   };
   const pc = contact.code_postal.replace(/\s+/g, '');
   contact.code_postal = pc.length === 6 ? pc.slice(0, 3) + ' ' + pc.slice(3) : pc;
-  if (!contact.nom || !contact.adresse || !contact.ville || contact.telephone.length < 7) return { error: 'fields' };
+  if (!contact.nom || contact.telephone.length < 7) return { error: 'fields' };
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact.courriel)) return { error: 'email' };
+  if (mode === 'pickup') {
+    contact.adresse = ''; contact.ville = ''; contact.code_postal = '';
+    return { lang, lines, contact, zone: CAT.pickup, mode };
+  }
+  if (!contact.adresse || !contact.ville) return { error: 'fields' };
   if (!new RegExp(CAT.postal).test(contact.code_postal)) return { error: 'postal' };
   const zone = zoneFor(contact.code_postal);
   if (!zone) return { error: 'postal' };
-  if (contact.ville !== zone.name) return { error: 'city' };
   if (bags < zone.min_bags) return { error: 'min' };
-  return { lang, lines, contact, zone };
+  return { lang, lines, contact, zone, mode };
 }
 
 function apiBase() {
@@ -99,14 +105,14 @@ function orderBody(v) {
           tax_total: { currency_code: 'CAD', value: fx(t.gst + t.qst) },
         },
       },
-      shipping: {
+      ...(v.mode === 'pickup' ? {} : { shipping: {
         name: { full_name: v.contact.nom },
         address: { address_line_1: v.contact.adresse, admin_area_2: v.contact.ville, admin_area_1: 'QC', postal_code: v.contact.code_postal, country_code: 'CA' },
-      },
+      } }),
     }],
     application_context: {
       brand_name: 'Chiffons ÉCO – Entretien Laval', locale: v.lang === 'fr' ? 'fr-CA' : 'en-CA',
-      shipping_preference: 'SET_PROVIDED_ADDRESS', user_action: 'PAY_NOW',
+      shipping_preference: v.mode === 'pickup' ? 'NO_SHIPPING' : 'SET_PROVIDED_ADDRESS', user_action: 'PAY_NOW',
     },
   };
 }

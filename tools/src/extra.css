@@ -113,6 +113,11 @@ nav.main a[aria-current]{color:var(--olive)}
 .qform .sub{font-size:14.5px;color:var(--ink-soft);margin-top:6px}
 .fgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
 .fgrid .full{grid-column:1/-1}
+.fgrid[hidden]{display:none}
+.omodes{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:12px}
+.omode{display:flex;align-items:center;gap:8px;font-weight:600;cursor:pointer}
+.omode input{width:18px;height:18px;margin:0}
+.oqty:disabled{opacity:.5;cursor:not-allowed}
 @media(max-width:560px){.fgrid{grid-template-columns:1fr}}
 .qform label{display:block;font-size:13.5px;font-weight:600;margin-bottom:5px}
 .qform input,.qform select,.qform textarea{width:100%;font:inherit;font-size:16px;padding:11px 12px;border:1px solid var(--line-2);border-radius:9px;background:#fff;color:var(--ink)}

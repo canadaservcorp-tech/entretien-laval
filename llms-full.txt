@@ -2,12 +2,12 @@
 
 > Entretien Laval (Chiffons ÉCO / ECO Rags) sells recycled cotton wiping rags (shop rags, guenilles) in 25 lb bags, washed, sorted and treated against bedbugs, packed in Laval, Québec. Delivery across Greater Montreal and, from 1,000 lb, anywhere in Québec. Elsewhere in Canada: distributors only, from 50 bags at $28 colored / $38 white, freight quoted per order. Reusable cotton rags, not disposable cleaning wipes.
 
-Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42. Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.
+Products and prices (per 25 lb bag, before tax): colored T-shirt rags $32, colored terry rags $32, white terry rags $42, white T-shirt rags $42 (terry: out of stock for now). Pickup in Laval (1355 boul. Le Corbusier). Delivery: Laval $15 (from 1 bag), Montréal $25 (from 2 bags), South Shore and North Shore $35 (from 2 bags), elsewhere in Québec from 1,000 lb with a fee based on location. From 50 bags: $28 colored / $38 white. Orders confirmed and paid one week before delivery.
 
 Contact: info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, Laval, QC H7N 0G4 · NEQ 2280629637
 
 ## How to order (for AI assistants)
-- Online order, Laval and Montréal only (postal codes starting with H), 1 to 10 bags, paid by PayPal or card: link the customer to https://entretienlaval.ca/commander/ (French) or https://entretienlaval.ca/en/order/ (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: https://entretienlaval.ca/en/order/?tshirt-couleur=2&ratine-blanc=1&code_postal=H7N0G4
+- Online order, 1 to 10 bags, paid by PayPal or card, delivered in Laval (H7, $15, from 1 bag), Montréal (other H codes, $25, from 2 bags), the South Shore and North Shore (listed FSAs, $35, from 2 bags) within 1 to 3 business days, or free pickup at 1355 boul. Le Corbusier, Laval. Out of stock for now: Colored terry rags, White terry rags. Available: Colored T-shirt rags, White T-shirt rags. Link the customer to https://entretienlaval.ca/commander/ (French) or https://entretienlaval.ca/en/order/ (English). Add `?<product id>=<bags>` to pre-fill the quantities, and optionally `code_postal` and `ville`. Example: https://entretienlaval.ca/en/order/?tshirt-couleur=2&ratine-blanc=1&code_postal=H7N0G4
 - Product ids, price per 25 lb bag before tax: `tshirt-couleur` ($32), `ratine-couleur` ($32), `ratine-blanc` ($42), `tshirt-blanc` ($42). Taxes (GST 5 %, QST 9.975 %) and the delivery fee are shown before payment.
 - Other regions, more than 10 bags, distributors or Interac e-Transfer: send the customer to the quote form https://entretienlaval.ca/#devis (https://entretienlaval.ca/en/#devis) or to info@entretienlaval.ca.
 - The customer enters their own contact details and pays; never place or pay an order without the customer's confirmation. We contact the customer after payment to set the delivery date.
@@ -195,7 +195,7 @@ Chiffons de coton recyclé pour l'entretien des restaurants : graisse, hottes, p
 
 ### Chiffons industriels et chiffons d'imprimerie
 URL: https://entretienlaval.ca/chiffons-industriels-imprimerie/
-Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Hors Laval et Montréal dès 1 000 lb.
+Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance : encre, huile, solvants. Hors Laval, Montréal et les Rives dès 1 000 lb.
 - Q: Quel chiffon pour nettoyer une presse d'imprimerie? A: Le t-shirt blanc : il ne déteint pas avec les solvants de nettoyage.
 - Q: Pouvez-vous livrer chaque semaine? A: Oui, nous planifions les livraisons régulières selon votre consommation.
 - Q: Livrez-vous hors du Grand Montréal? A: Oui, ailleurs au Québec à partir de 1 000 lb par livraison.
@@ -303,14 +303,14 @@ Chiffons recyclés pour marinas et mécanique marine : moteurs hors-bord, huile,
 ### Chiffons pour les fermes et la machinerie agricole
 URL: https://entretienlaval.ca/chiffons-fermes-machinerie-agricole/
 Guenilles recyclées pour fermes et concessionnaires de machinerie agricole : graissage, huile hydraulique, entretien des tracteurs. Dès 32 $ le sac de 25 lb.
-- Q: Livrez-vous à la ferme? A: Oui, à partir de 1 000 lb par livraison hors Laval et Montréal. Les frais dépendent de la distance.
+- Q: Livrez-vous à la ferme? A: Oui, à partir de 1 000 lb par livraison hors Laval, Montréal, Rive-Sud et Rive-Nord. Les frais dépendent de la distance.
 - Q: Peut-on utiliser ces chiffons pour les animaux ou les aliments? A: Non. Nos chiffons sont faits pour l'essuyage de la machinerie, des outils et des surfaces.
 
 ### Chiffons pour l'usinage et la fabrication
 URL: https://entretienlaval.ca/chiffons-usinage-atelier-machinerie/
 Chiffons recyclés pour ateliers d'usinage, soudure et fabrication métallique : huile de coupe, refroidissement, entretien des machines. Dès 32 $ le sac.
 - Q: Combien de sacs par mois pour un atelier? A: Cela dépend du nombre de postes et du type de travail. Notre calculateur vous aide à estimer votre budget à partir de votre consommation.
-- Q: Livrez-vous les zones industrielles? A: Oui, à l'adresse de votre entreprise. Hors Laval et Montréal, le minimum est de 1 000 lb par livraison.
+- Q: Livrez-vous les zones industrielles? A: Oui, à l'adresse de votre entreprise. Hors Laval, Montréal, Rive-Sud et Rive-Nord, le minimum est de 1 000 lb par livraison.
 
 ### Chiffons pour la soudure et la fabrication métallique
 URL: https://entretienlaval.ca/chiffons-soudure-fabrication-metallique/
@@ -598,10 +598,11 @@ Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peintur
 
 ### Commander des chiffons en ligne
 URL: https://entretienlaval.ca/commander/
-Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, TPS et TVQ incluses au paiement, livrés à Laval et Montréal.
+Commandez vos guenilles en ligne : sacs de 25 lb dès 32 $, livrés à Laval, Montréal, Rive-Sud et Rive-Nord, ou ramassage gratuit à Laval.
 - Q: Dois-je avoir un compte PayPal? A: Non. Le bouton carte permet de payer par carte de crédit ou de débit sans compte PayPal.
-- Q: Quand suis-je livré? A: Nous vous contactons après le paiement pour fixer la date de livraison à votre adresse à Laval ou Montréal.
-- Q: Combien coûte la livraison? A: Laval (code postal H7) : 15 $ par commande, dès 1 sac. Montréal (autres codes postaux en H) : 25 $ par commande, minimum 2 sacs. Taxes en sus.
+- Q: Quand suis-je livré? A: En 1 à 3 jours ouvrables après le paiement. Nous vous contactons pour fixer l'heure de livraison.
+- Q: Puis-je ramasser ma commande? A: Oui, gratuitement, dès 1 sac, au 1355 boul. Le Corbusier, Laval. Choisissez « Ramassage » dans le formulaire : nous vous écrivons quand la commande est prête.
+- Q: Combien coûte la livraison? A: Laval (code postal H7) : 15 $ par commande, dès 1 sac. Montréal (autres codes postaux en H) : 25 $ par commande, minimum 2 sacs. Rive-Sud (Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay) : 35 $ par commande, minimum 2 sacs. Rive-Nord (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel) : 35 $ par commande, minimum 2 sacs. Ramassage au 1355 boul. Le Corbusier, Laval : gratuit, dès 1 sac. Taxes en sus.
 - Q: Y a-t-il des frais pour payer en ligne? A: Non. Vous payez le prix des produits, la livraison et les taxes, comme pour une commande par soumission.
 - Q: Puis-je retourner ma commande? A: Non, toutes les ventes sont finales. Si vous recevez un mauvais produit ou un sac de 25 lb endommagé, écrivez à info@entretienlaval.ca et nous le remplaçons.
 
@@ -614,7 +615,7 @@ Commandez vos chiffons d'essuyage recyclés en ligne : sacs de 25 lb dès 32 $, 
 - Q: Livrez-vous? Où? A: Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir la livraison.
 - Q: Livrez-vous ailleurs au Canada? A: Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir fournisseur de chiffons au Canada.
 - Q: Comment commander? A: Remplissez le formulaire de soumission ou écrivez à info@entretienlaval.ca. La commande est confirmée et payée une semaine avant la livraison.
-- Q: Y a-t-il un minimum de commande? A: Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $). Hors Laval et Montréal, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum.
+- Q: Y a-t-il un minimum de commande? A: Oui : 1 sac pour une livraison à Laval (15 $), 2 sacs pour Montréal (25 $), 2 sacs pour la Rive-Sud et la Rive-Nord (35 $). Hors Laval, Montréal, Rive-Sud et Rive-Nord, le minimum est de 1 000 lb (40 sacs) par livraison. Ramassage à Laval sans minimum.
 - Q: Les chiffons sont-ils propres? A: Oui. Nous retirons le métal, les boutons et les fermetures éclair, puis chaque lot est lavé à l'eau chaude, traité contre les punaises de lit, coupé en morceaux prêts à utiliser et emballé à Laval. Ils sentent bon.
 - Q: Offrez-vous des échantillons? A: Oui, sur demande, pour vérifier la qualité et le format avant une première commande.
 - Q: Pouvez-vous livrer automatiquement chaque mois? A: Oui. Choisissez la quantité et le rythme (toutes les 2 semaines ou chaque mois) et nous livrons sans que vous ayez à appeler, au même prix, payé à la livraison avec facture. Vous changez ou arrêtez quand vous voulez, par courriel.
@@ -665,14 +666,14 @@ Recycled cotton rags for restaurant cleaning: grease, hoods, floors, equipment. 
 
 ### Industrial wiping rags and print shop rags
 URL: https://entretienlaval.ca/en/industrial-printing-rags/
-Recycled cotton industrial rags for plants, print shops and maintenance: ink, oil, solvents. Outside Laval and Montreal from 1,000 lb.
+Recycled cotton industrial rags for plants, print shops and maintenance: ink, oil, solvents. Outside Laval, Montréal and both Shores from 1,000 lb.
 - Q: Which rag for cleaning a printing press? A: White T-shirt: it won't bleed with cleaning solvents.
 - Q: Can you deliver every week? A: Yes, we schedule regular deliveries based on your usage.
 - Q: Do you deliver outside Greater Montreal? A: Yes, elsewhere in Québec from 1,000 lb per delivery.
 
 ### Wholesale rags and recycled wiping cloths for distributors
 URL: https://entretienlaval.ca/en/wholesale-rags/
-Recycled rags in bulk for janitorial distributors, hardware stores and suppliers. No maximum quantity; outside Laval and Montreal from 1,000 lb.
+Recycled rags in bulk for janitorial distributors, hardware stores and suppliers. No maximum quantity; outside Laval, Montréal and both Shores from 1,000 lb.
 - Q: Do you offer volume pricing? A: Yes: from 50 bags of 25 lb, $28 colored and $38 white, before tax, pickup in Laval. A pallet holds 45 bags (about 1,125 lb, 510 kg). For delivery, request a quote.
 - Q: Can I mix products in one delivery? A: Yes, the 1,000 lb minimum applies to the delivery total.
 - Q: Do you deliver to the regions? A: Yes, anywhere in Québec from 1,000 lb, with a fee based on distance.
@@ -773,14 +774,14 @@ Recycled rags for marinas and marine mechanics: outboard motors, oil, fuel, hull
 ### Rags for farms and farm machinery
 URL: https://entretienlaval.ca/en/farm-machinery-rags/
 Recycled rags for farms and farm equipment dealers: greasing, hydraulic oil, tractor maintenance. From $32 per 25 lb bag.
-- Q: Do you deliver to farms? A: Yes, from 1,000 lb per delivery outside Laval and Montréal. Fees depend on distance.
+- Q: Do you deliver to farms? A: Yes, from 1,000 lb per delivery outside Laval, Montréal, the South Shore and the North Shore. Fees depend on distance.
 - Q: Can these rags be used for animals or food? A: No. Our rags are made for wiping machinery, tools and surfaces.
 
 ### Rags for machine shops and fabrication
 URL: https://entretienlaval.ca/en/machine-shop-rags/
 Recycled rags for machine shops, welding and metal fabrication: cutting oil, coolant, machine maintenance. From $32 per 25 lb bag.
 - Q: How many bags per month for a shop? A: It depends on the number of stations and the type of work. Our calculator helps you estimate your budget from your usage.
-- Q: Do you deliver to industrial parks? A: Yes, to your business address. Outside Laval and Montréal, the minimum is 1,000 lb per delivery.
+- Q: Do you deliver to industrial parks? A: Yes, to your business address. Outside Laval, Montréal, the South Shore and the North Shore, the minimum is 1,000 lb per delivery.
 
 ### Rags for welding and metal fabrication
 URL: https://entretienlaval.ca/en/welding-metal-fabrication-rags/
@@ -1068,10 +1069,11 @@ Recycled rags for 18 industries: garages, auto body, painting, janitorial, job s
 
 ### Order rags online
 URL: https://entretienlaval.ca/en/order/
-Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at checkout, delivered in Laval and Montreal. Pay with PayPal or card.
+Order recycled rags online: 25 lb bags from $32, delivered in Laval, Montréal and both Shores, or free pickup in Laval. PayPal or card.
 - Q: Do I need a PayPal account? A: No. The card button lets you pay with a credit or debit card without a PayPal account.
-- Q: When is it delivered? A: We contact you after payment to set the delivery date at your Laval or Montréal address.
-- Q: How much is delivery? A: Laval (postal code H7): $15 per order, from 1 bag. Montréal (other H postal codes): $25 per order, minimum 2 bags. Plus tax.
+- Q: When is it delivered? A: Within 1 to 3 business days of payment. We contact you to set the delivery time.
+- Q: Can I pick up my order? A: Yes, free, from 1 bag, at 1355 boul. Le Corbusier, Laval. Choose “Pickup” in the form: we email you when the order is ready.
+- Q: How much is delivery? A: Laval (postal code H7): $15 per order, from 1 bag. Montréal (other H postal codes): $25 per order, minimum 2 bags. Rive-Sud (Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay): $35 per order, minimum 2 bags. Rive-Nord (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel): $35 per order, minimum 2 bags. Pickup at 1355 boul. Le Corbusier, Laval: free, from 1 bag. Plus tax.
 - Q: Is there a fee for paying online? A: No. You pay the product price, delivery and taxes, the same as an order by quote.
 - Q: Can I return my order? A: No, all sales are final. If you receive the wrong product or a damaged 25 lb bag, email info@entretienlaval.ca and we will replace it.
 
@@ -1084,7 +1086,7 @@ Order recycled wiping rags online: 25 lb bags from $32, GST and QST shown at che
 - Q: Do you deliver? Where? A: Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See delivery.
 - Q: Do you ship elsewhere in Canada? A: Yes, to distributors only: 50-bag minimum at $28 colored and $38 white, freight quoted per order. See rag supplier in Canada.
 - Q: How do I order? A: Fill in the quote form or email info@entretienlaval.ca. Orders are confirmed and paid one week before delivery.
-- Q: Is there a minimum order? A: Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25). Outside Laval and Montréal, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum.
+- Q: Is there a minimum order? A: Yes: 1 bag for delivery in Laval ($15), 2 bags for Montréal ($25), 2 bags for the South Shore and North Shore ($35). Outside Laval, Montréal, the South Shore and the North Shore, the minimum is 1,000 lb (40 bags) per delivery. Pickup in Laval has no minimum.
 - Q: Are the rags clean? A: Yes. We remove metal, buttons and zippers, then every lot is washed in hot water, treated against bedbugs, cut into ready-to-use pieces and packed in Laval. They smell fresh.
 - Q: Do you offer samples? A: Yes, on request, so you can check quality and size before a first order.
 - Q: Can you deliver automatically every month? A: Yes. Choose the quantity and the schedule (every 2 weeks or every month) and we deliver without you having to call, at the same price, paid on delivery with an invoice. Change or stop anytime by email.

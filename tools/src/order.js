@@ -26,10 +26,18 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   function val(name) { var e = form.elements[name]; return e ? String(e.value).trim() : ''; }
   function postal() { var p = val('code_postal').toUpperCase().replace(/\s+/g, ''); return p.length === 6 ? p.slice(0, 3) + ' ' + p.slice(3) : p; }
+  function mode() { var m = form.querySelector('input[name=mode]:checked'); return m && m.value === 'pickup' ? 'pickup' : 'delivery'; }
   function zone() {
+    if (mode() === 'pickup') return C.pickup;
     var p = postal().replace(/\s+/g, '');
-    for (var i = 0; i < C.zones.length; i++) if (p.indexOf(C.zones[i].prefix) === 0) return C.zones[i];
+    for (var i = 0; i < C.zones.length; i++)
+      for (var j = 0; j < C.zones[i].prefixes.length; j++) if (p.indexOf(C.zones[i].prefixes[j]) === 0) return C.zones[i];
     return null;
+  }
+  function syncMode() {
+    var pick = mode() === 'pickup';
+    $('o-addr').hidden = pick;
+    ['adresse', 'ville', 'code_postal'].forEach(function (k) { form.elements[k].required = !pick; });
   }
   function contact() {
     return { nom: val('nom'), entreprise: val('entreprise'), courriel: val('courriel'), telephone: val('telephone'),
@@ -38,9 +46,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function problem() {
     var z = zone(), t = totals(lines(), z), c = contact();
     if (t.bags < 1 || t.bags > C.max) return U.e_bags.replace('{max}', C.max);
-    if (!c.nom || !c.courriel || !c.telephone || !c.adresse || !c.ville || !c.code_postal || !form.checkValidity()) return U.e_fields;
-    if (!new RegExp(C.postal).test(c.code_postal) || !z) return U.e_postal;
-    if (c.ville !== z.name) return U.e_city;
+    var pick = mode() === 'pickup';
+    if (!c.nom || !c.courriel || !c.telephone || (!pick && (!c.adresse || !c.ville || !c.code_postal)) || !form.checkValidity()) return U.e_fields;
+    if (!pick && (!new RegExp(C.postal).test(c.code_postal) || !z)) return U.e_postal;
     if (t.bags < z.min_bags) return U.e_min.replace('{min}', z.min_bags).replace('{zone}', z.name);
     return '';
   }
@@ -48,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function render() {
     var z = zone(), t = totals(lines(), z);
     $('o-goods').textContent = money(t.goods);
-    $('o-del').textContent = !z ? '–' : (t.bags && t.del === 0 ? U.free : money(t.del));
+    $('o-del').textContent = !z ? '–' : (t.bags && t.del === 0 ? U.free : money(t.del)) + (t.bags ? ' · ' + (mode() === 'pickup' ? U.pickup : z.name) : '');
     $('o-gst').textContent = money(t.gst);
     $('o-qst').textContent = money(t.qst);
     $('o-total').textContent = money(t.total);
@@ -59,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   function record(d) {
     var z = zone(), t = totals(lines(), z), c = contact();
-    var data = { 'form-name': 'commande', langue: C.lang, commande_paypal: d.id, capture: d.capture_id || '', statut: d.capture_status || d.status,
+    var data = { 'form-name': 'commande', langue: C.lang, mode: mode() === 'pickup' ? 'Ramassage' : 'Livraison', commande_paypal: d.id, capture: d.capture_id || '', statut: d.capture_status || d.status,
                  montant: d.amount || String(t.total),
                  details: lines().map(function (l) { return l.qty + ' x ' + PRICE[l.id].name; }).join(' | '),
                  totaux: 'Produits ' + t.goods + ' / Livraison ' + t.del + ' / TPS ' + t.gst + ' / TVQ ' + t.qst + ' / Total ' + t.total };
@@ -71,10 +79,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var qs = new URLSearchParams(location.search);
   [].forEach.call(document.querySelectorAll('.oqty'), function (i) {
     var n = Math.floor(Number(qs.get(i.getAttribute('data-id'))) || 0);
-    if (n > 0) i.value = Math.min(n, C.max);
+    if (n > 0 && !i.disabled) i.value = Math.min(n, C.max);
   });
   ['ville', 'code_postal'].forEach(function (k) { var v = qs.get(k), e = form.elements[k]; if (v && e) e.value = v.slice(0, 60); });
+  if (qs.get('mode') === 'pickup') form.querySelector('input[name=mode][value=pickup]').checked = true;
+  syncMode();
   render();
+  form.addEventListener('change', syncMode);
   form.addEventListener('input', function () { render(); if (!err.hidden && !problem()) show(''); });
   form.addEventListener('submit', function (e) { e.preventDefault(); });
   render();
@@ -88,8 +99,8 @@ document.addEventListener('DOMContentLoaded', function () {
     },
     onClick: function () { show(problem()); },
     createOrder: function () {
-      return post('create-order', { lang: C.lang, lines: lines(), contact: contact() }).then(function (d) {
-        if (!d.id) { show(d.error === 'postal' ? U.e_postal : (d.error === 'min' || d.error === 'city') ? problem() : U.e_pay); throw new Error(d.error || 'create'); }
+      return post('create-order', { lang: C.lang, mode: mode(), lines: lines(), contact: contact() }).then(function (d) {
+        if (!d.id) { show(d.error === 'postal' ? U.e_postal : d.error === 'stock' ? U.e_stock : d.error === 'min' ? problem() : U.e_pay); throw new Error(d.error || 'create'); }
         return d.id;
       });
     },
