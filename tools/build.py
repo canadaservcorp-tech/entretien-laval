@@ -141,6 +141,8 @@ def footer(lang):
 <script>document.querySelectorAll('.mnav a').forEach(function(a){{a.addEventListener('click',function(){{a.closest('details').removeAttribute('open')}})}});</script>
 <script async src="https://www.ateliersurmesure.ca/t.js"></script>
 <script defer src="/js/mascot.js"></script>
+<form name="sondage" data-netlify="true" netlify-honeypot="bot-field" hidden><input name="bot-field"><input name="langue"><input name="page"><input name="trouve"><input name="produit"><input name="quantite"><input name="ville"><input name="commentaire"><input name="courriel"></form>
+<script defer src="/js/survey.js"></script>
 </body>
 </html>
 """
@@ -188,7 +190,7 @@ def order_html(lang):
         tag = f'<textarea id="o-{name}" name="{name}" maxlength="500"></textarea>' if typ == "textarea" else f'<input id="o-{name}" name="{name}" type="{typ}"{" required" if req else ""}{" autocomplete=" + chr(34) + ac + chr(34) if ac else ""}{extra}>'
         return f'<div{" class=" + chr(34) + "full" + chr(34) if full else ""}><label for="o-{name}">{label}{star}</label>{tag}</div>'
     fields = (fld("nom", ou["name"], ac="name") + fld("entreprise", ou["company"], req=False, ac="organization")
-              + fld("courriel", ou["email"], "email", ac="email") + fld("telephone", ou["phone"], "tel", ac="tel", extra=' minlength="7"'))
+              + fld("courriel", ou["email"], "email", ac="email", extra=' aria-describedby="o-mailnote"') + f'<p class="fine full" id="o-mailnote" style="margin:-8px 0 0">{ou["mail_note"]}</p>' + fld("telephone", ou["phone"], "tel", ac="tel", extra=' minlength="7"'))
     modes = "".join(f'<label class="omode"><input type="radio" name="mode" value="{v}"{" checked" if v == "delivery" else ""}> {t}</label>'
                     for v, t in [("delivery", ou["m_del"]), ("pickup", ou["m_pick"] + " (" + esc(ck["pickup"]["address"]) + ")")])
     addr = (fld("adresse", ou["address"], ac="street-address", full=True) + fld("ville", ou["city"], ac="address-level2")
@@ -199,6 +201,8 @@ def order_html(lang):
            "products": [{"id": p["id"], "price": p["price"], "name": p[lang][0]} for p in C.PRODUCTS]}
     names = ["langue", "mode", "commande_paypal", "capture", "statut", "montant", "details", "totaux", "nom", "entreprise", "courriel", "telephone", "adresse", "ville", "code_postal", "instructions"]
     hidden = '<form name="commande" data-netlify="true" netlify-honeypot="bot-field" hidden><input name="bot-field">' + "".join(f'<input name="{n}">' for n in names) + "</form>"
+    hidden += ('<form name="commande-debut" data-netlify="true" netlify-honeypot="bot-field" hidden><input name="bot-field">'
+               + "".join(f'<input name="{n}">' for n in ["langue", "mode", "nom", "entreprise", "courriel", "telephone", "ville", "details", "montant"]) + "</form>")
     sdk = f'https://www.paypal.com/sdk/js?client-id={ck["paypal_client_id"]}&currency=CAD&intent=capture&components=buttons&enable-funding=card&locale={lang}_CA'
     return f"""<section class="section band" id="commande"><div class="wrap"><form class="qform oform" id="oform" novalidate>
 <h3>{C.PAGES["commander"][lang]["h1"]}</h3><p class="sub">{ou["note"]}</p>
