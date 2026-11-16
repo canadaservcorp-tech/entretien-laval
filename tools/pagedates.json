@@ -1,11 +1,11 @@
 {
  "/": {
-  "hash": "355a2f3a7dcb922b61087d22bc0529a15fe85952",
+  "hash": "552a2feaaaae29736dbe7e331429c7902067953a",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/a-propos/": {
-  "hash": "e88644175fc2c5620a5e4d736c14a9156ad84c8c",
+  "hash": "e7ecab8c3cea6b6dda34e15eed3714b8a8703411",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
@@ -15,7 +15,7 @@
   "published": "2026-10-10"
  },
  "/chiffons-blancs-recycles/": {
-  "hash": "c12788f01d7c071ec9634480a5f5d68bad82a760",
+  "hash": "b02869cc657083d39ea26225d43b9362895bfd5d",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
@@ -40,7 +40,7 @@
   "published": "2026-10-10"
  },
  "/chiffons-couleur-recycles/": {
-  "hash": "b892f5ec7ff0c726c69dd1e00a870afb137c0fa1",
+  "hash": "acf13b1b727a70a662be9acb30df0c79b570b446",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
@@ -210,12 +210,12 @@
   "published": "2026-10-10"
  },
  "/chiffons-ratine-blanc/": {
-  "hash": "147befcf9448c8db3b4b7063cc7f8f4eb7f8a0cc",
+  "hash": "96c144f238123d39e79f502c53dfa91565dcc99e",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/chiffons-ratine-couleur/": {
-  "hash": "92807aae2148dc1866f67a19feb9b2866ace74b0",
+  "hash": "5e7865f4a7854df4625738a8bca4055263efb48a",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
@@ -230,12 +230,12 @@
   "published": "2026-11-06"
  },
  "/chiffons-t-shirt-blanc/": {
-  "hash": "2459174b11330165f45714fb18c54faf2f5c1630",
+  "hash": "407d7fe7980cb36d0667536d2a7b95b61036b1f4",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/chiffons-t-shirt-couleur/": {
-  "hash": "75f15c8a55b854ef3c8759bfb3376123f057ba02",
+  "hash": "3066574191d7c8059167b3e16f686c763a7a7d3b",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
@@ -250,12 +250,12 @@
   "published": "2026-10-10"
  },
  "/en/": {
-  "hash": "8b159fa9fd367ae96a3448c4445c650d759c6efe",
+  "hash": "7af1640a64c986e959a7864b44c06f7bfe82373b",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/about/": {
-  "hash": "88a44a555e27a47a674a2b154d9c97010c154813",
+  "hash": "e1b9e58ca7de63a96dc01d1747c945de988860a5",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
@@ -275,17 +275,17 @@
   "published": "2026-10-10"
  },
  "/en/colored-recycled-rags/": {
-  "hash": "4edacce72ddacf9cd557dee0d8ddec4234a7b81a",
+  "hash": "78422b5baf23dabd5cde462873ee3f10496a8055",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/colored-t-shirt-rags/": {
-  "hash": "9a438260474057b4cd75560d7a53c1270f283d09",
+  "hash": "24ed017055bb13462d0527842c89d393eb591911",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/colored-terry-rags/": {
-  "hash": "a2da62895fe3ee3c8ea671d8683e3c12abb38648",
+  "hash": "8522e3a45a33c51cb322967acd4f7b73a565092c",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
@@ -295,7 +295,7 @@
   "published": "2026-10-10"
  },
  "/en/delivery-greater-montreal/": {
-  "hash": "f79ee1be6d57f9e070d6eb15b755e8fefab85b56",
+  "hash": "83d516c84fa7b352bdcb12a39db1fef5fcac9f46",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
@@ -415,7 +415,7 @@
   "published": "2026-10-10"
  },
  "/en/our-customers/": {
-  "hash": "2568d2bca9451798bd9b1327c211ecd697f26cb8",
+  "hash": "9e84dd97716282e2750c76b004a892e94b0ac935",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
@@ -580,17 +580,17 @@
   "published": "2026-11-06"
  },
  "/en/white-recycled-rags/": {
-  "hash": "28809183e1e32d4580e16c85e8726da6d75414f8",
+  "hash": "1229401fdf1a7e8199ccc324f0defdcfb4c6d254",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
  "/en/white-t-shirt-rags/": {
-  "hash": "36296484be08bc23959ae782a26b8731cb6ec944",
+  "hash": "d5c35e4fb509cf72219870f21c7fbc333844d629",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
  "/en/white-terry-rags/": {
-  "hash": "a06e559cde2fa201ef213f4d3b77f8b9f8a9a03a",
+  "hash": "90323e08a262e82a0d538fad31502a8fe847011c",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },
@@ -690,7 +690,7 @@
   "published": "2026-10-10"
  },
  "/livraison-grand-montreal/": {
-  "hash": "d9245ef78b0cff76193ef31daf43d6884218b2a1",
+  "hash": "3d0073fe030a46c8021a3d068f15f18c9d80b1cc",
   "modified": "2026-11-16",
   "published": "2026-10-10"
  },
@@ -700,7 +700,7 @@
   "published": "2026-10-10"
  },
  "/nos-clients/": {
-  "hash": "787bae727516c9211f06113811f381d89202b961",
+  "hash": "11f0e2b97b3d287e8a7db6ceaf6f17e991bc9561",
   "modified": "2026-11-16",
   "published": "2026-11-11"
  },

@@ -27,14 +27,12 @@ CITIES = ["Laval", "Montréal", "Longueuil", "Terrebonne", "Blainville", "Boisbr
 
 TERMS = {
  "fr": [("Prix avant taxes", "TPS et TVQ en sus, facture d'entreprise enregistrée."),
-        ("Livraison à votre adresse", "Laval : 15 $, dès 1 sac. Montréal : 25 $, dès 2 sacs. Rive-Sud et Rive-Nord : 35 $, dès 2 sacs. Ailleurs : frais selon votre emplacement."),
+        ("Livraison à votre adresse", "Laval : 15 $, dès 1 sac. Montréal : 25 $, dès 2 sacs. Rive-Sud et Rive-Nord : 35 $, dès 2 sacs. Ramassage gratuit à Laval, dès 1 sac."),
         ("Hors Laval, Montréal, Rive-Sud et Rive-Nord", "Minimum de 1 000 lb (40 sacs) par livraison."),
-        ("Ramassage gratuit à Laval", "Dès 1 sac, au 1355 boul. Le Corbusier."),
         ("Aucune quantité maximale", "Commande confirmée et payée une semaine avant la livraison.")],
  "en": [("Prices before tax", "GST and QST extra, invoiced by a registered business."),
-        ("Delivered to your address", "Laval: $15, from 1 bag. Montréal: $25, from 2 bags. South Shore and North Shore: $35, from 2 bags. Elsewhere: fee based on your location."),
+        ("Delivered to your address", "Laval: $15, from 1 bag. Montréal: $25, from 2 bags. South Shore and North Shore: $35, from 2 bags. Free pickup in Laval, from 1 bag."),
         ("Outside Laval, Montréal, the South Shore and the North Shore", "1,000 lb minimum (40 bags) per delivery."),
-        ("Free pickup in Laval", "From 1 bag, at 1355 boul. Le Corbusier."),
         ("No maximum quantity", "Order confirmed and paid one week before delivery.")],
 }
 
