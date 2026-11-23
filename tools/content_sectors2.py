@@ -2,6 +2,10 @@
 BAG, BAGS, BALE, SHOP, TEXT = ("sac-chiffons-t-shirt-couleur-25-lb.webp", "sacs-chiffons-couleur-25-lb.webp",
     "balle-compressee-de-chiffons-eco-en-textiles-recyc.webp", "sac-de-chiffons-d-atelier-conditionnes-prets-a-l-u.webp", "textiles-de-coton-recuperes.webp")
 P = {}
+import content_order as _O
+_RS = next(z for z in _O.CHECKOUT["zones"] if z["id"] == "rive-sud")
+_RIVES_FR = f"la Rive-Nord et la Rive-Sud ({_RS['fee']} $ par commande, dès {_RS['min_bags']} sacs)"
+_RIVES_EN = f"the North Shore and South Shore (${_RS['fee']} per order, from {_RS['min_bags']} bags)"
 
 def S(key, img, rel, fr, en):
     P[key] = {"kind": "sector", "img": img, "rel": rel, "fr": fr, "en": en}
@@ -63,7 +67,7 @@ S("esthetique-auto", BAG, ["carrosserie", "blancs", "garage"],
 <h2>Et sur la peinture?</h2>
 <p>Pour le séchage et le polissage de la peinture, la plupart des esthéticiens préfèrent la microfibre. Si vous utilisez du coton, prenez le <a href="{{blancs}}">t-shirt blanc</a>, sans transfert de couleur.</p>
 <h2>Quel produit choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) absorbe beaucoup d'eau et de saleté pour les jantes et le moteur. Le t-shirt couleur convient aux intérieurs et aux plastiques.</p>""",
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) convient aux jantes, au moteur, aux intérieurs et aux plastiques. Ratine : en rupture de stock pour le moment.</p>""",
   "faq": [("Les chiffons recyclés peuvent-ils rayer la peinture?", "Tout chiffon peut rayer s'il traîne de la saleté. Sur la peinture, utilisez un chiffon propre et doux comme le t-shirt blanc, ou une microfibre."),
           ("Peut-on laver les chiffons d'un lave-auto?", "Oui, s'ils ne sont pas imbibés de solvant. Lavez-les à part, sans assouplissant, qui réduit l'absorption.")]},
  {"path": "/en/car-detailing-car-wash-rags/", "short": "Car detailing and car wash",
@@ -82,7 +86,7 @@ S("esthetique-auto", BAG, ["carrosserie", "blancs", "garage"],
 <h2>What about the paint?</h2>
 <p>For drying and polishing paint, most detailers prefer microfiber. If you use cotton, choose <a href="{{blancs}}">white T-shirt rags</a>, with no colour transfer.</p>
 <h2>Which product to choose</h2>
-<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) absorbs lots of water and grime for wheels and engines. Coloured T-shirt rags suit interiors and plastics.</p>""",
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) suit wheels, engines, interiors and plastics. Terry: out of stock for now.</p>""",
   "faq": [("Can recycled rags scratch paint?", "Any cloth can scratch if it drags dirt. On paint, use a clean, soft rag like white T-shirt, or a microfiber."),
           ("Can car wash rags be laundered?", "Yes, if they aren't soaked with solvent. Wash them separately and skip fabric softener, which reduces absorbency.")]})
 
@@ -132,10 +136,10 @@ S("plomberie-cvac", BALE, ["construction", "couleur", "usinage"],
 <li>Purges de radiateurs, de chauffe-eau et de systèmes de chauffage.</li>
 <li>Petites fuites, condensat et protection des planchers chez le client.</li></ul>
 <h2>Quel chiffon choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) est épaisse et absorbe beaucoup d'eau : idéale pour les purges et les fuites. Le t-shirt couleur, plus souple, sert pour les mains et les raccords.</p>
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) absorbe bien l'eau des purges et des fuites, et sert pour les mains et les raccords. Ratine : en rupture de stock pour le moment.</p>
 <h2>Pour les flottes de camions</h2>
 <p>Une entreprise avec plusieurs camions peut commander en volume et répartir les sacs. Voir les <a href="{{gros}}">prix en gros</a> et la <a href="{{livraison}}">livraison</a>.</p>""",
-  "faq": [("Quel chiffon pour absorber l'eau d'une purge?", "La ratine (tissu éponge) : c'est la plus absorbante de nos options."),
+  "faq": [("Quel chiffon pour absorber l'eau d'une purge?", "Le t-shirt couleur : prenez-en quelques morceaux de plus pour une grosse purge. Ratine : en rupture de stock pour le moment."),
           ("Livrez-vous à notre entrepôt pour toute la flotte?", "Oui, nous livrons à l'adresse de votre entreprise. Les frais dépendent de l'emplacement et de la quantité.")]},
  {"path": "/en/plumbing-hvac-rags/", "short": "Plumbing and HVAC",
   "title": "Rags for plumbers and HVAC technicians – 25 lb bags",
@@ -150,10 +154,10 @@ S("plomberie-cvac", BALE, ["construction", "couleur", "usinage"],
 <li>Bleeding radiators, water heaters and heating systems.</li>
 <li>Small leaks, condensate and protecting customers' floors.</li></ul>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) is thick and soaks up lots of water: ideal for bleeding and leaks. Softer coloured T-shirt rags work for hands and fittings.</p>
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) soak up water from bleeding and leaks, and work for hands and fittings. Terry: out of stock for now.</p>
 <h2>For truck fleets</h2>
 <p>A company with several trucks can order in volume and split the bags. See <a href="{{gros}}">wholesale pricing</a> and <a href="{{livraison}}">delivery</a>.</p>""",
-  "faq": [("Which rag soaks up water from bleeding a system?", "Terry (towel cloth): it's our most absorbent option."),
+  "faq": [("Which rag soaks up water from bleeding a system?", "Coloured T-shirt rags: use a few extra pieces for a big bleed. Terry: out of stock for now."),
           ("Do you deliver to our shop for the whole fleet?", "Yes, we deliver to your business address. Fees depend on location and quantity.")]})
 
 S("marine", BAGS, ["garage", "couleur", "guide-ranger"],
@@ -167,7 +171,7 @@ S("marine", BAGS, ["garage", "couleur", "guide-ranger"],
   "body": """<h2>De la mise à l'eau à l'hivernage</h2>
 <p>Une marina utilise beaucoup de chiffons au printemps et à l'automne : vidanges d'huile, entretien des moteurs hors-bord et intérieurs, carburant renversé, nettoyage des coques, des ponts et des cales.</p>
 <h2>Quel chiffon choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) pour l'huile, le carburant et l'eau. Le <a href="{{blancs}}">t-shirt blanc</a> (42 $) pour le gelcoat, le vernis et les surfaces de finition.</p>
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) pour l'huile, le carburant et l'eau (ratine : en rupture de stock pour le moment). Le <a href="{{blancs}}">t-shirt blanc</a> (42 $) pour le gelcoat, le vernis et les surfaces de finition.</p>
 <h2>Protéger l'eau</h2>
 <p>Ne jetez jamais un chiffon souillé à l'eau ni dans une poubelle ouverte au quai. Gardez les chiffons imbibés de carburant ou d'huile dans un contenant métallique fermé, puis apportez-les à un point de collecte approprié. Voir le guide <a href="{{guide-ranger}}">ranger, laver et jeter ses chiffons</a>.</p>""",
   "faq": [("Pouvez-vous livrer avant la saison?", "Oui. Commandez au moins une semaine d'avance : la commande est confirmée et payée une semaine avant la livraison."),
@@ -182,7 +186,7 @@ S("marine", BAGS, ["garage", "couleur", "guide-ranger"],
   "body": """<h2>From launch to winterizing</h2>
 <p>A marina goes through a lot of rags in spring and fall: oil changes, outboard and inboard motor maintenance, fuel spills, and cleaning hulls, decks and bilges.</p>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) for oil, fuel and water. <a href="{{blancs}}">White T-shirt rags</a> ($42) for gelcoat, varnish and finish surfaces.</p>
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) for oil, fuel and water (terry: out of stock for now). <a href="{{blancs}}">White T-shirt rags</a> ($42) for gelcoat, varnish and finish surfaces.</p>
 <h2>Protect the water</h2>
 <p>Never throw a dirty rag in the water or in an open bin on the dock. Keep fuel- or oil-soaked rags in a closed metal container, then take them to a proper collection point. See the guide <a href="{{guide-ranger}}">storing, washing and disposing of rags</a>.</p>""",
   "faq": [("Can you deliver before the season starts?", "Yes. Order at least a week ahead: orders are confirmed and paid one week before delivery."),
@@ -199,9 +203,9 @@ S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
   "body": """<h2>L'entretien de l'équipement</h2>
 <p>Graissage des points de pivot, vidanges, huile hydraulique, nettoyage des filtres et des moteurs : la machinerie agricole demande beaucoup de chiffons, surtout avant les semences et les récoltes.</p>
 <h2>Quel chiffon choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) est la plus économique pour l'huile et la graisse. Commandez en volume avant la saison : voir les <a href="{{gros}}">prix en gros</a>.</p>
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) est le plus économique pour l'huile et la graisse (ratine : en rupture de stock pour le moment). Commandez en volume avant la saison : voir les <a href="{{gros}}">prix en gros</a>.</p>
 <h2>Livraison en région</h2>
-<p>Nous livrons partout au Québec à partir de 1 000 lb (40 sacs). Les fermes voisines peuvent regrouper une commande à une même adresse. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
+<p>Nous livrons Laval, Montréal, """ + _RIVES_FR + """, et ailleurs au Québec à partir de 1 000 lb (40 sacs). Les fermes voisines peuvent regrouper une commande à une même adresse. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
   "faq": [("Livrez-vous à la ferme?", "Oui, à partir de 1 000 lb par livraison hors Laval, Montréal, Rive-Sud et Rive-Nord. Les frais dépendent de la distance."),
           ("Peut-on utiliser ces chiffons pour les animaux ou les aliments?", "Non. Nos chiffons sont faits pour l'essuyage de la machinerie, des outils et des surfaces.")]},
  {"path": "/en/farm-machinery-rags/", "short": "Farms and farm machinery",
@@ -214,9 +218,9 @@ S("agriculture", BALE, ["garage", "gros", "ville-rive-nord"],
   "body": """<h2>Equipment maintenance</h2>
 <p>Greasing pivot points, oil changes, hydraulic oil, cleaning filters and engines: farm machinery uses a lot of rags, especially before planting and harvest.</p>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) is the most economical for oil and grease. Order in volume before the season: see <a href="{{gros}}">wholesale pricing</a>.</p>
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) are the most economical for oil and grease (terry: out of stock for now). Order in volume before the season: see <a href="{{gros}}">wholesale pricing</a>.</p>
 <h2>Delivery to rural areas</h2>
-<p>We deliver anywhere in Québec from 1,000 lb (40 bags). Neighbouring farms can combine an order to a single address. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
+<p>We deliver to Laval, Montréal, """ + _RIVES_EN + """, and elsewhere in Québec from 1,000 lb (40 bags). Neighbouring farms can combine an order to a single address. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
   "faq": [("Do you deliver to farms?", "Yes, from 1,000 lb per delivery outside Laval, Montréal, the South Shore and the North Shore. Fees depend on distance."),
           ("Can these rags be used for animals or food?", "No. Our rags are made for wiping machinery, tools and surfaces.")]})
 
@@ -234,7 +238,7 @@ S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
 <li>Entretien des glissières, des étaux et des outils.</li>
 <li>Mains, établis et planchers.</li></ul>
 <h2>Quel chiffon choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> retient le plus de liquide. Le t-shirt couleur est plus souple pour les pièces. Les deux coûtent 32 $ le [pack]. Pour essuyer les pièces finies avant la mesure, le <a href="{{blancs}}">t-shirt blanc</a> (42 $) ne laisse pas de teinture. Pour comparer, voir le guide <a href="{{guide-ratine}}">ratine ou t-shirt</a>.</p>
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) absorbe l'huile et reste souple pour les pièces. Ratine : en rupture de stock pour le moment. Pour essuyer les pièces finies avant la mesure, le <a href="{{blancs}}">t-shirt blanc</a> (42 $) ne laisse pas de teinture. Pour comparer, voir le guide <a href="{{guide-ratine}}">ratine ou t-shirt</a>.</p>
 <h2>Attention aux copeaux</h2>
 <p>Un chiffon qui a servi près d'une machine peut contenir des copeaux de métal coupants. Ne l'utilisez pas ensuite sur les mains ou une surface délicate.</p>""",
   "faq": [("Combien de sacs par mois pour un atelier?", "Cela dépend du nombre de postes et du type de travail. Notre <a href=\"{{calculateur}}\">calculateur</a> vous aide à estimer votre budget à partir de votre consommation."),
@@ -252,7 +256,7 @@ S("usinage", BAG, ["soudure", "guide-metal", "industrie"],
 <li>Maintaining ways, vises and tools.</li>
 <li>Hands, benches and floors.</li></ul>
 <h2>Which rag to choose</h2>
-<p><a href="{{couleur}}">Coloured terry</a> holds the most fluid. Coloured T-shirt rags are softer for parts. Both cost $32 per [pack]. For wiping finished parts before measuring, <a href="{{blancs}}">white T-shirt</a> ($42) leaves no dye. To compare, see the guide <a href="{{guide-ratine}}">terry vs T-shirt</a>.</p>
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) absorb oil and stay soft for parts. Terry: out of stock for now. For wiping finished parts before measuring, <a href="{{blancs}}">white T-shirt</a> ($42) leaves no dye. To compare, see the guide <a href="{{guide-ratine}}">terry vs T-shirt</a>.</p>
 <h2>Watch out for chips</h2>
 <p>A rag used near a machine can hold sharp metal chips. Don't reuse it on hands or a delicate surface.</p>""",
   "faq": [("How many bags per month for a shop?", "It depends on the number of stations and the type of work. Our <a href=\"{{calculateur}}\">calculator</a> helps you estimate your budget from your usage."),
@@ -273,9 +277,9 @@ S("soudure", SHOP, ["usinage", "blancs", "guide-metal"],
 <li><b>Entretien</b> : postes de soudure, scies, plieuses, perceuses, mains et établis.</li></ul>
 <h2>Quel chiffon choisir</h2>
 <table><thead><tr><th>Usage</th><th>Chiffon conseillé</th></tr></thead><tbody>
-<tr><td>Huile, graisse, nettoyage courant</td><td><a href="{{couleur}}">Couleur</a> (t-shirt ou ratine), 32 $</td></tr>
+<tr><td>Huile, graisse, nettoyage courant</td><td><a href="{{couleur}}">T-shirt couleur</a>, 32 $</td></tr>
 <tr><td>Dégraissage avant soudure ou peinture, pièces finies</td><td><a href="{{blancs}}">T-shirt blanc</a>, 42 $ : pas de transfert de teinture</td></tr>
-<tr><td>Déversements d'huile ou de liquide de refroidissement</td><td>Ratine couleur, 32 $</td></tr></tbody></table>
+<tr><td>Déversements d'huile ou de liquide de refroidissement</td><td>T-shirt couleur, 32 $ (ratine : en rupture de stock pour le moment)</td></tr></tbody></table>
 <p>Nos chiffons sont sans boutons, fermetures éclair ni pièces de métal, pour ne pas rayer les pièces.</p>
 <h2>Sécurité près des étincelles</h2>
 <p>Gardez les chiffons, propres ou souillés, loin de la zone de soudure et de meulage. Les chiffons imbibés de solvant ou d'huile vont dans un contenant métallique fermé. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
@@ -296,9 +300,9 @@ S("soudure", SHOP, ["usinage", "blancs", "guide-metal"],
 <li><b>Maintenance</b>: welding stations, saws, press brakes, drills, hands and benches.</li></ul>
 <h2>Which rag to choose</h2>
 <table><thead><tr><th>Use</th><th>Recommended rag</th></tr></thead><tbody>
-<tr><td>Oil, grease, everyday cleaning</td><td><a href="{{couleur}}">Coloured</a> (T-shirt or terry), $32</td></tr>
+<tr><td>Oil, grease, everyday cleaning</td><td><a href="{{couleur}}">Coloured T-shirt</a>, $32</td></tr>
 <tr><td>Degreasing before welding or painting, finished parts</td><td><a href="{{blancs}}">White T-shirt</a>, $42: no dye transfer</td></tr>
-<tr><td>Oil or coolant spills</td><td>Coloured terry, $32</td></tr></tbody></table>
+<tr><td>Oil or coolant spills</td><td>Coloured T-shirt, $32 (terry: out of stock for now)</td></tr></tbody></table>
 <p>Our rags have no buttons, zippers or metal parts, so they don't scratch parts.</p>
 <h2>Safety near sparks</h2>
 <p>Keep rags, clean or dirty, away from the welding and grinding area. Rags soaked with solvent or oil go in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
@@ -348,7 +352,7 @@ S("camions", BALE, ["garage", "gros", "guide-huileux"],
   "desc": "Guenilles recyclées pour garages de poids lourds, transporteurs et ateliers de remorques : huile, graisse, diesel. Dès 32 $ le sac de 25 lb.",
   "eyebrow": "Poids lourds · transport · remorques", "h1": "Chiffons pour camions lourds et entreprises de transport",
   "lede": "Pour l'huile, la graisse, le diesel et l'entretien de la flotte, en [packs].",
-  "card": "Huile, graisse et diesel : la ratine couleur absorbe le plus.",
+  "card": "Huile, graisse et diesel : le t-shirt couleur fait le travail (ratine : en rupture de stock pour le moment).",
   "alt": "Sacs de chiffons recyclés pour garage de camions",
   "body": """<h2>À quoi servent nos chiffons dans un garage de camions</h2>
 <ul><li><b>Vidanges et graissage</b> : moteurs, différentiels, sellettes et points de graissage.</li>
@@ -356,17 +360,17 @@ S("camions", BALE, ["garage", "gros", "guide-huileux"],
 <li><b>Inspection et entretien</b> : essuyer les pièces avant de les vérifier.</li>
 <li><b>Remorques et équipement</b> : freins, essieux et mécanismes.</li></ul>
 <h2>Quel produit choisir</h2>
-<p>La <a href="{{couleur}}">ratine couleur</a> (32 $ le [pack]) retient le plus d'huile et de graisse. Le t-shirt couleur convient au nettoyage courant. Une flotte use beaucoup de chiffons : voir nos prix pour les <a href="{{gros}}">commandes en gros</a>.</p>
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) absorbe l'huile et la graisse et convient au nettoyage courant. Ratine : en rupture de stock pour le moment. Une flotte use beaucoup de chiffons : voir nos prix pour les <a href="{{gros}}">commandes en gros</a>.</p>
 <h2>Sécurité</h2>
 <p>Les chiffons imbibés d'huile vont dans un contenant métallique fermé. Voir le guide <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>""",
-  "faq": [("Quel chiffon pour un garage de poids lourds?", "La ratine couleur à 32 $ le sac de 25 lb absorbe le plus d'huile et de graisse. Le t-shirt couleur suffit pour le nettoyage courant."),
+  "faq": [("Quel chiffon pour un garage de poids lourds?", "Le t-shirt couleur à 32 $ le sac de 25 lb, pour l'huile, la graisse et le nettoyage courant. Ratine : en rupture de stock pour le moment."),
           ("Livrez-vous les transporteurs hors de Montréal?", "Oui. Nous livrons au Grand Montréal, et partout au Québec à partir de 1 000 lb (40 sacs).")]},
  {"path": "/en/truck-fleet-rags/", "short": "Heavy trucks and fleets",
   "title": "Rags for heavy truck garages and trucking fleets",
   "desc": "Recycled shop rags for heavy truck garages, trucking fleets and trailer shops: oil, grease, diesel. From $32 per 25 lb bag.",
   "eyebrow": "Heavy trucks · fleets · trailers", "h1": "Rags for heavy trucks and trucking companies",
   "lede": "For oil, grease, diesel and fleet maintenance, in [packs].",
-  "card": "Oil, grease and diesel: coloured terry absorbs the most.",
+  "card": "Oil, grease and diesel: coloured T-shirt rags do the job (terry: out of stock for now).",
   "alt": "Bags of recycled rags for a truck garage",
   "body": """<h2>What truck garages use our rags for</h2>
 <ul><li><b>Oil changes and greasing</b>: engines, differentials, fifth wheels and grease points.</li>
@@ -374,10 +378,10 @@ S("camions", BALE, ["garage", "gros", "guide-huileux"],
 <li><b>Inspection and maintenance</b>: wiping parts before checking them.</li>
 <li><b>Trailers and equipment</b>: brakes, axles and mechanisms.</li></ul>
 <h2>Which product to choose</h2>
-<p><a href="{{couleur}}">Coloured terry</a> ($32 per [pack]) holds the most oil and grease. Coloured T-shirt works for everyday cleanup. A fleet goes through many rags: see our <a href="{{gros}}">bulk order</a> terms.</p>
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) absorb oil and grease and work for everyday cleanup. Terry: out of stock for now. A fleet goes through many rags: see our <a href="{{gros}}">bulk order</a> terms.</p>
 <h2>Safety</h2>
 <p>Oil-soaked rags belong in a closed metal container. See the guide <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>""",
-  "faq": [("Which rag for a heavy truck garage?", "Coloured terry at $32 per 25 lb bag absorbs the most oil and grease. Coloured T-shirt is enough for everyday cleanup."),
+  "faq": [("Which rag for a heavy truck garage?", "Coloured T-shirt rags at $32 per 25 lb bag, for oil, grease and everyday cleanup. Terry: out of stock for now."),
           ("Do you deliver to fleets outside Montreal?", "Yes. We deliver across Greater Montreal, and anywhere in Québec from 1,000 lb (40 bags).")]})
 
 S("pneus", BAG, ["garage", "couleur", "carrosserie"],
@@ -396,9 +400,9 @@ S("pneus", BAG, ["garage", "couleur", "carrosserie"],
 <h2>Prévoir la saison</h2>
 <p>Au printemps et à l'automne, le volume de changements de pneus monte d'un coup. Commandez vos sacs avant la saison. Notre <a href="{{calculateur}}">calculateur</a> aide à estimer la quantité.</p>
 <h2>Quel produit choisir</h2>
-<p>Le <a href="{{couleur}}">t-shirt ou la ratine couleur</a> (32 $ le [pack]) convient à presque tout. Le blanc (42 $) sert pour les jantes de couleur claire ou chromées.</p>""",
+<p>Le <a href="{{couleur}}">t-shirt couleur</a> (32 $ le [pack]) convient à presque tout (ratine : en rupture de stock pour le moment). Le blanc (42 $) sert pour les jantes de couleur claire ou chromées.</p>""",
   "faq": [("Combien de chiffons pour la saison des pneus?", "Cela dépend du nombre de voitures. Notre calculateur estime la quantité selon votre usage par jour."),
-          ("Quel chiffon pour un centre de pneus?", "Le t-shirt ou la ratine couleur à 32 $ le sac de 25 lb convient à la plupart des tâches.")]},
+          ("Quel chiffon pour un centre de pneus?", "Le t-shirt couleur à 32 $ le sac de 25 lb convient à la plupart des tâches. Ratine : en rupture de stock pour le moment.")]},
  {"path": "/en/tire-shop-rags/", "short": "Tire shops",
   "title": "Rags for tire shops and tire changes – 25 lb bags",
   "desc": "Recycled shop rags for tire shops: rims, mounting paste, hands, brakes and cleanup. From $32 per 25 lb bag, delivered in Québec.",
@@ -414,9 +418,9 @@ S("pneus", BAG, ["garage", "couleur", "carrosserie"],
 <h2>Plan for the season</h2>
 <p>In spring and fall, tire changes jump all at once. Order your bags before the season. Our <a href="{{calculateur}}">calculator</a> helps estimate the quantity.</p>
 <h2>Which product to choose</h2>
-<p><a href="{{couleur}}">Coloured T-shirt or terry</a> ($32 per [pack]) fits almost everything. White ($42) is for light-colored or chrome rims.</p>""",
+<p><a href="{{couleur}}">Coloured T-shirt rags</a> ($32 per [pack]) fit almost everything (terry: out of stock for now). White ($42) is for light-colored or chrome rims.</p>""",
   "faq": [("How many rags for tire season?", "It depends on the number of cars. Our calculator estimates the quantity based on your daily use."),
-          ("Which rag for a tire shop?", "Coloured T-shirt or terry at $32 per 25 lb bag fits most tasks.")]})
+          ("Which rag for a tire shop?", "Coloured T-shirt rags at $32 per 25 lb bag fit most tasks. Terry: out of stock for now.")]})
 
 S("pieces-auto", BAGS, ["gros", "garage", "couleur"],
  {"path": "/chiffons-magasins-pieces-auto-revente/", "short": "Magasins de pièces d'auto",

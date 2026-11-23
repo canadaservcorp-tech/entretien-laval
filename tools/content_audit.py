@@ -4,12 +4,12 @@ HUB = {"kind": "hub", "img": None, "rel": [],
   "desc": "Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.",
   "eyebrow": "Secteurs", "h1": "Chiffons d'essuyage pour chaque secteur", "lede": "Le même chiffon ne sert pas partout. Trouvez les conseils et le produit adaptés à votre métier.",
   "card": "Les 18 secteurs que nous servons, avec le bon chiffon pour chacun.",
-  "body": """<p>Nos quatre produits (t-shirt ou ratine, couleur ou blanc) couvrent la plupart des besoins d'essuyage. La couleur à 32 $ le [pack] convient à l'huile, à la graisse et au nettoyage courant. Le blanc à 42 $ évite le transfert de couleur pour la peinture, la teinture et la finition. Chaque page ci-dessous explique les usages et le produit conseillé pour un secteur.</p>"""},
+  "body": """<p>Le t-shirt couleur et le t-shirt blanc couvrent la plupart des besoins d'essuyage (ratine : en rupture de stock pour le moment). La couleur à 32 $ le [pack] convient à l'huile, à la graisse et au nettoyage courant. Le blanc à 42 $ évite le transfert de couleur pour la peinture, la teinture et la finition. Chaque page ci-dessous explique les usages et le produit conseillé pour un secteur.</p>"""},
  "en": {"path": "/en/industries/", "short": "All industries", "title": "Wiping rags by industry: garages, shops, cleaning",
   "desc": "Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.",
   "eyebrow": "Industries", "h1": "Wiping rags for every industry", "lede": "The same rag doesn't fit every job. Find the advice and product for your trade.",
   "card": "The 18 industries we serve, with the right rag for each.",
-  "body": """<p>Our four products (T-shirt or terry, coloured or white) cover most wiping needs. Coloured at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids colour transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
+  "body": """<p>Coloured and white T-shirt rags cover most wiping needs (terry: out of stock for now). Coloured at $32 per [pack] handles oil, grease and everyday cleaning. White at $42 avoids colour transfer for painting, staining and finishing. Each page below explains the uses and the recommended product for one industry.</p>"""}}
 
 GUIDES_BODY = {
  "fr": """<p>Nos guides répondent aux questions qu'on nous pose le plus : quel chiffon choisir entre la ratine et le t-shirt, comment éviter qu'un chiffon huileux prenne feu, comment ranger, laver et jeter ses chiffons, et s'il vaut mieux utiliser des chiffons recyclés ou du papier. Le lexique explique les mots québécois (guenille, linge, ratine) et leurs équivalents anglais. Le calculateur estime votre nombre de sacs par mois et votre budget avec taxes.</p>
@@ -21,13 +21,13 @@ GUIDES_BODY = {
 
 GROS_EXTRA = {
  "fr": """<h2>Commandes en volume</h2>
-<p>Il n'y a pas de quantité maximale. Une livraison hors Laval, Montréal, Rive-Sud et Rive-Nord commence à 1 000 lb, soit 40 [packs], et vous pouvez mélanger les quatre produits dans une même commande. Pour des commandes régulières ou de grands volumes, demandez une soumission : nous calculons le prix et la livraison selon votre adresse et votre fréquence.</p>
+<p>Il n'y a pas de quantité maximale. Une livraison hors Laval, Montréal, Rive-Sud et Rive-Nord commence à 1 000 lb, soit 40 [packs], et vous pouvez mélanger les produits dans une même commande. Pour des commandes régulières ou de grands volumes, demandez une soumission : nous calculons le prix et la livraison selon votre adresse et votre fréquence.</p>
 <h2>Pour distributeurs et revendeurs</h2>
 <p>Distributeurs de produits sanitaires, quincailleries, fournisseurs de garages et d'ateliers : nos chiffons sont emballés en [packs] scellés, faciles à entreposer et à revendre. Indiquez dans votre demande les volumes prévus et les adresses de livraison.</p>
 <h2>Comment se passe une commande</h2>
 <ol><li>Vous demandez une soumission avec la quantité et l'adresse.</li><li>Nous confirmons le prix, les frais de livraison et la date.</li><li>La commande est confirmée et payée une semaine avant la livraison.</li><li>Nous livrons à votre adresse, avec une facture incluant TPS et TVQ.</li></ol>""",
  "en": """<h2>Volume orders</h2>
-<p>There is no maximum quantity. A delivery outside Laval, Montréal, the South Shore and the North Shore starts at 1,000 lb, or 40 [packs], and you can mix all four products in one order. For recurring or large-volume orders, request a quote: we price the order and delivery based on your address and frequency.</p>
+<p>There is no maximum quantity. A delivery outside Laval, Montréal, the South Shore and the North Shore starts at 1,000 lb, or 40 [packs], and you can mix products in one order. For recurring or large-volume orders, request a quote: we price the order and delivery based on your address and frequency.</p>
 <h2>For distributors and resellers</h2>
 <p>Janitorial distributors, hardware stores, garage and shop suppliers: our rags come in sealed [packs], easy to store and resell. Include your expected volumes and delivery addresses in your request.</p>
 <h2>How an order works</h2>
@@ -87,17 +87,17 @@ CITY_LOCAL = {
 def city_extra(key, page):
     fr_r, en_r, muni = CITY_LOCAL[key]
     muni_en = muni.replace("la Ville de ", "the City of ").replace(" ou de ", " or ").replace("votre municipalité ou votre MRC", "your municipality or MRC").replace("votre municipalité", "your municipality")
-    core = page["core"]
+    core = page["core"] or bool(page.get("zone"))  # online-zone pages have real fees: no 1,000 lb section
     fr = f"""<h2>Zones industrielles et commerciales</h2>
 <p>Nous livrons les garages, ateliers et entreprises des parcs industriels et commerciaux le long de l'{fr_r}. Indiquez l'adresse exacte et les heures de réception dans votre demande.</p>
 <h2>Jeter les chiffons souillés</h2>
 <p>Les chiffons imbibés d'huile, de solvant ou de peinture sont des résidus dangereux. Les particuliers les apportent aux écocentres ou aux collectes de résidus domestiques dangereux de {muni}; les entreprises font appel à une entreprise de collecte spécialisée. Vérifiez les règles locales. Voir aussi le guide <a href="{{{{guide-ranger}}}}">ranger, laver et jeter ses chiffons</a>.</p>""" + ("" if core else """
 <h2>Atteindre le minimum de 1 000 lb</h2>
-<p>Peu d'entreprises utilisent 40 sacs d'un coup. Vous pouvez mélanger les quatre produits, commander pour plusieurs mois, ou regrouper une commande avec une entreprise voisine livrée à la même adresse. Notre <a href="{{calculateur}}">calculateur</a> indique combien de mois de consommation représentent 1 000 lb.</p>""")
+<p>Peu d'entreprises utilisent 40 sacs d'un coup. Vous pouvez mélanger les produits, commander pour plusieurs mois, ou regrouper une commande avec une entreprise voisine livrée à la même adresse. Notre <a href="{{calculateur}}">calculateur</a> indique combien de mois de consommation représentent 1 000 lb.</p>""")
     en = f"""<h2>Industrial and commercial areas</h2>
 <p>We deliver to garages, shops and businesses in the industrial and commercial parks along the {en_r}. Include the exact address and receiving hours in your request.</p>
 <h2>Disposing of dirty rags</h2>
 <p>Rags soaked with oil, solvent or paint are hazardous waste. Households take them to the ecocentres or household hazardous waste collections run by {muni_en}; businesses use a specialized waste pickup company. Check local rules. See also the guide <a href="{{{{guide-ranger}}}}">storing, washing and disposing of rags</a>.</p>""" + ("" if core else """
 <h2>Reaching the 1,000 lb minimum</h2>
-<p>Few businesses use 40 bags at once. You can mix all four products, order for several months, or combine an order with a neighbouring business delivered to the same address. Our <a href="{{calculateur}}">calculator</a> shows how many months of usage 1,000 lb represents.</p>""")
+<p>Few businesses use 40 bags at once. You can mix products, order for several months, or combine an order with a neighbouring business delivered to the same address. Our <a href="{{calculateur}}">calculator</a> shows how many months of usage 1,000 lb represents.</p>""")
     return fr.replace("{{{{", "{{").replace("}}}}", "}}"), en.replace("{{{{", "{{").replace("}}}}", "}}")
