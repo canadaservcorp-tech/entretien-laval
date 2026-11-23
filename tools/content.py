@@ -819,6 +819,43 @@ for _k in CITY_KEYS:
     _fr, _en = A.city_extra(_k, PAGES[_k])
     PAGES[_k]["fr"]["body"] += _fr; PAGES[_k]["en"]["body"] += _en
 
+# ---------------- SEO expansion: local pages (Laval neighbourhoods, Shores) + guides batch 3 ----------------
+from content_guides3 import GUIDE3_PAGES
+import content_local2 as LOC
+_m = PAGES.pop("merci")
+PAGES.update(GUIDE3_PAGES)
+PAGES.update(LOC.pages(PAGES))  # after the guides: local pages reuse the guides' titles as link text
+PAGES["merci"] = _m
+GUIDE_KEYS = [k for k, p in PAGES.items() if p["kind"] in ("guide", "tool")]
+LOCAL_KEYS = LOC.LOCAL_KEYS
+
+def _links(keys, lang): return " · ".join(f'<a href="{{{{{k}}}}}">{PAGES[k][lang]["short"]}</a>' for k in keys)
+
+# Links from nearby existing pages to the new ones (appended, nothing removed).
+_ADD = {
+ "ville-laval": ({"fr": "Quartiers de Laval", "en": "Laval neighbourhoods"}, LOC.LAVAL_KEYS,
+                 {"fr": "Partout à Laval (codes postaux H7) : livraison 15 $ par commande dès 1 sac, ou ramassage gratuit au 1355 boul. Le Corbusier.",
+                  "en": "Anywhere in Laval (H7 postal codes): $15 delivery per order from 1 bag, or free pickup at 1355 boul. Le Corbusier."}),
+ "ville-rive-nord": ({"fr": "Pages par ville", "en": "Pages by town"}, ["ville-repentigny", "ville-mascouche", "ville-saint-eustache", "ville-rosemere", "ville-terrebonne", "ville-blainville"],
+                     {"fr": "Zone Rive-Nord : livraison 35 $ par commande, dès 2 sacs.", "en": "North Shore zone: $35 delivery per order, from 2 bags."}),
+ "ville-terrebonne": ({"fr": "Mascouche", "en": "Mascouche"}, ["ville-mascouche"], {"fr": "Mascouche a sa propre page, avec les mêmes conditions Rive-Nord.", "en": "Mascouche has its own page, with the same North Shore terms."}),
+ "ville-blainville": ({"fr": "Rosemère", "en": "Rosemère"}, ["ville-rosemere"], {"fr": "Rosemère a sa propre page, avec les mêmes conditions Rive-Nord.", "en": "Rosemère has its own page, with the same North Shore terms."}),
+ "ville-rive-sud": ({"fr": "Pages par ville", "en": "Pages by town"}, ["ville-brossard", "ville-longueuil"],
+                    {"fr": "Zone Rive-Sud : livraison 35 $ par commande, dès 2 sacs.", "en": "South Shore zone: $35 delivery per order, from 2 bags."}),
+ "ville-longueuil": ({"fr": "Brossard", "en": "Brossard"}, ["ville-brossard"], {"fr": "Brossard a sa propre page, avec les mêmes conditions Rive-Sud.", "en": "Brossard has its own page, with the same South Shore terms."}),
+ "livraison": ({"fr": "Quartiers de Laval et villes voisines", "en": "Laval neighbourhoods and nearby towns"}, LOCAL_KEYS,
+               {"fr": "Une page par secteur, avec les frais exacts : Laval 15 $ dès 1 sac, Rive-Nord et Rive-Sud 35 $ dès 2 sacs.",
+                "en": "One page per area, with the exact fees: Laval $15 from 1 bag, North Shore and South Shore $35 from 2 bags."}),
+}
+_READ = {"fr": "À lire aussi", "en": "Further reading"}
+for _k, _g in {"garage": ["guide-garage-mois", "guide-deversement"], "entretien": ["guide-vitres"], "industrie": ["guide-solvants", "guide-souilles"],
+               "gros": ["guide-entreprise"], "guide-huileux": ["guide-souilles", "guide-solvants"], "guide-ranger": ["guide-souilles"],
+               "guide-peluches": ["guide-vitres"], "calculateur": ["guide-garage-mois"], "peinture": ["guide-solvants"]}.items():
+    _ADD[_k] = (_READ, _g, None)
+for _k, (_h, _keys, _p) in _ADD.items():
+    for _l in ("fr", "en"):
+        PAGES[_k][_l]["body"] += f'\n<h2>{_h[_l]}</h2>\n' + (f"<p>{_p[_l]}</p>\n" if _p else "") + f"<p>{_links(_keys, _l)}</p>"
+
 # ---------------- online ordering (PayPal) ----------------
 import content_order as O
 if O.ready():
