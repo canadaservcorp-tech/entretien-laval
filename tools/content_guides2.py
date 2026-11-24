@@ -1,6 +1,13 @@
 """Extra guides: terry vs T-shirt, storing/washing rags, Québec rag glossary, budget calculator."""
 BAG, SHOP, TEXT = "sac-chiffons-t-shirt-couleur-25-lb.webp", "sac-de-chiffons-d-atelier-conditionnes-prets-a-l-u.webp", "textiles-de-coton-recuperes.webp"
 P = {}
+import content_order as _O
+_Z = {z["id"]: z for z in _O.CHECKOUT["zones"]}
+def _b(n, fr): return (f"dès {n} sac" + ("s" if n > 1 else "")) if fr else (f"from {n} bag" + ("s" if n > 1 else ""))
+ZFEES_FR = (f"Laval {_Z['laval']['fee']} $ {_b(_Z['laval']['min_bags'], 1)}, Montréal {_Z['montreal']['fee']} $ {_b(_Z['montreal']['min_bags'], 1)}, "
+            f"Rive-Sud et Rive-Nord {_Z['rive-sud']['fee']} $ {_b(_Z['rive-sud']['min_bags'], 1)}")
+ZFEES_EN = (f"Laval ${_Z['laval']['fee']} {_b(_Z['laval']['min_bags'], 0)}, Montréal ${_Z['montreal']['fee']} {_b(_Z['montreal']['min_bags'], 0)}, "
+            f"South Shore and North Shore ${_Z['rive-sud']['fee']} {_b(_Z['rive-sud']['min_bags'], 0)}")
 
 P["guide-ratine"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "garage"],
  "fr": {"path": "/guides/ratine-ou-t-shirt/", "short": "Ratine ou t-shirt : quel chiffon choisir",
@@ -9,8 +16,9 @@ P["guide-ratine"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "
   "eyebrow": "Guide · choisir", "h1": "Ratine ou t-shirt : quel chiffon d'essuyage choisir?",
   "lede": "Les deux sont en coton recyclé et coûtent le même prix en couleur. La différence : l'épaisseur et l'usage.",
   "card": "Absorption, douceur, usages : le comparatif pour bien choisir.", "alt": "Sac de chiffons t-shirt couleur",
-  "body": """<h2>La ratine (tissu éponge)</h2>
-<p>La ratine vient de serviettes et de draps de bain. Elle est épaisse, bouclée et retient beaucoup de liquide. C'est le choix pour l'huile, la graisse, l'eau et les gros dégâts.</p>
+  "body": """<div class="note"><p><b>Ratine : en rupture de stock pour le moment.</b> En attendant, prenez le <a href="{{couleur}}">t-shirt couleur</a> ou le <a href="{{blancs}}">t-shirt blanc</a>.</p></div>
+<h2>La ratine (tissu éponge)</h2>
+<p>La ratine vient de serviettes et de draps de bain. Elle est épaisse, bouclée et retient beaucoup de liquide. Ratine : en rupture de stock pour le moment; pour l'huile, la graisse, l'eau et les gros dégâts, prenez le <a href="{{couleur}}">t-shirt couleur</a> (quelques morceaux de plus).</p>
 <h2>Le t-shirt (jersey)</h2>
 <p>Le jersey vient de t-shirts et de vêtements en coton tricoté. Il est mince, doux et souple, et laisse peu de peluches. C'est le chiffon tout usage : mains, outils, surfaces, nettoyage courant.</p>
 <h2>Comparatif</h2>
@@ -22,15 +30,16 @@ P["guide-ratine"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "
 <h2>Blanc ou couleur?</h2>
 <p>La <a href="{{couleur}}">couleur</a> (32 $ le [pack]) convient à presque tout. Le <a href="{{blancs}}">blanc</a> (42 $) ne laisse pas de teinture : prenez-le pour la peinture, la teinture du bois, le vernis et les surfaces pâles.</p>""",
   "faq": [("La ratine laisse-t-elle plus de peluches?", "Un peu plus que le t-shirt, à cause de ses boucles. Pour les surfaces délicates, choisissez le t-shirt blanc."),
-          ("Peut-on mélanger ratine et t-shirt dans une commande?", "Oui. Chaque [pack] contient un seul produit, mais vous pouvez commander plusieurs produits ensemble.")]},
+          ("Peut-on mélanger ratine et t-shirt dans une commande?", "Pas pour le moment : ratine : en rupture de stock pour le moment. Chaque [pack] contient un seul produit, et vous pouvez commander t-shirt couleur et t-shirt blanc ensemble.")]},
  "en": {"path": "/en/guides/terry-vs-t-shirt-rags/", "short": "Terry vs T-shirt: which rag to choose",
   "title": "Terry vs T-shirt rags: which should you choose?",
   "desc": "Terry (towel cloth) or T-shirt jersey, white or coloured: absorbency, softness and best uses compared, to choose the right wiping rag.",
   "eyebrow": "Guide · choosing", "h1": "Terry vs T-shirt: which wiping rag should you choose?",
   "lede": "Both are recycled cotton and cost the same in coloured. The difference is thickness and use.",
   "card": "Absorbency, softness, uses: the comparison to choose well.", "alt": "Bag of coloured T-shirt rags",
-  "body": """<h2>Terry (towel cloth)</h2>
-<p>Terry comes from bath towels and sheets. It's thick, looped and holds a lot of liquid. It's the pick for oil, grease, water and big spills.</p>
+  "body": """<div class="note"><p><b>Terry: out of stock for now.</b> In the meantime, use <a href="{{couleur}}">coloured T-shirt</a> or <a href="{{blancs}}">white T-shirt</a> rags.</p></div>
+<h2>Terry (towel cloth)</h2>
+<p>Terry comes from bath towels and sheets. It's thick, looped and holds a lot of liquid. Terry: out of stock for now; for oil, grease, water and big spills, use <a href="{{couleur}}">coloured T-shirt</a> rags (a few extra pieces).</p>
 <h2>T-shirt (jersey)</h2>
 <p>Jersey comes from T-shirts and knitted cotton clothing. It's thin, soft and flexible, and low-lint. It's the all-purpose rag: hands, tools, surfaces, everyday cleaning.</p>
 <h2>Comparison</h2>
@@ -42,7 +51,7 @@ P["guide-ratine"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "
 <h2>White or coloured?</h2>
 <p><a href="{{couleur}}">Coloured</a> ($32 per [pack]) handles almost everything. <a href="{{blancs}}">White</a> ($42) leaves no dye: use it for paint, wood stain, varnish and light-colored surfaces.</p>""",
   "faq": [("Does terry leave more lint?", "A little more than T-shirt, because of its loops. For delicate surfaces, choose white T-shirt rags."),
-          ("Can I mix terry and T-shirt in one order?", "Yes. Each [pack] holds one product, but you can order several products together.")]}}
+          ("Can I mix terry and T-shirt in one order?", "Not for now: terry: out of stock for now. Each [pack] holds one product, and you can order coloured and white T-shirt rags together.")]}}
 
 P["guide-ranger"] = {"kind": "guide", "img": SHOP, "rel": ["guide-huileux", "garage", "marine"],
  "fr": {"path": "/guides/ranger-laver-reutiliser-chiffons/", "short": "Ranger, laver et jeter ses chiffons",
@@ -136,7 +145,7 @@ P["calculateur"] = {"kind": "tool", "img": None, "rel": ["gros", "livraison", "g
 <h2>Hors Laval, Montréal, Rive-Sud et Rive-Nord</h2>
 <p>Le minimum est de 1 000 lb par livraison (40 sacs, produits mélangés acceptés). Le calculateur indique combien de mois de consommation cela représente. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>
 <p>Ce calcul est une estimation. Les frais de livraison ne sont pas inclus : ils dépendent de votre adresse et sont indiqués dans la soumission.</p>""",
-  "tool": {"lbw": "Consommation (lb par semaine)", "prod": "Produit", "zone": "Livraison", "z1": "Laval ou Montréal", "z2": "Ailleurs au Québec",
+  "tool": {"lbw": "Consommation (lb par semaine)", "prod": "Produit", "zone": "Livraison", "z1": "Laval, Montréal, Rive-Sud ou Rive-Nord", "z2": "Ailleurs au Québec",
            "bags": "Sacs de 25 lb par mois", "pre": "Budget mensuel avant taxes", "tax": "TPS (5 %) + TVQ (9,975 %)", "tot": "Total mensuel avec taxes",
            "min": "Le minimum de 1 000 lb correspond à environ {m} mois de consommation.", "cur": "fr"}},
  "en": {"path": "/en/rag-calculator/", "short": "Budget calculator",
@@ -150,7 +159,7 @@ P["calculateur"] = {"kind": "tool", "img": None, "rel": ["gros", "livraison", "g
 <h2>Outside Laval, Montréal, the South Shore and the North Shore</h2>
 <p>The minimum is 1,000 lb per delivery (40 bags, mixed products welcome). The calculator shows how many months of usage that represents. See the <a href="{{livraison}}">delivery terms</a>.</p>
 <p>This is an estimate. Delivery fees aren't included: they depend on your address and are shown in the quote.</p>""",
-  "tool": {"lbw": "Usage (lb per week)", "prod": "Product", "zone": "Delivery", "z1": "Laval or Montréal", "z2": "Elsewhere in Québec",
+  "tool": {"lbw": "Usage (lb per week)", "prod": "Product", "zone": "Delivery", "z1": "Laval, Montréal, South Shore or North Shore", "z2": "Elsewhere in Québec",
            "bags": "25 lb bags per month", "pre": "Monthly budget before tax", "tax": "GST (5%) + QST (9.975%)", "tot": "Monthly total with tax",
            "min": "The 1,000 lb minimum equals about {m} months of usage.", "cur": "en"}}}
 
@@ -164,17 +173,17 @@ P["guide-prix"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "gr
   "body": """<h2>Nos prix (avant taxes)</h2>
 <table><thead><tr><th>Produit</th><th>Prix du [pack] de 25 lb</th><th>Prix par livre</th></tr></thead><tbody>
 <tr><td>T-shirt couleur</td><td>32 $</td><td>1,28 $</td></tr>
-<tr><td>Ratine couleur</td><td>32 $</td><td>1,28 $</td></tr>
+<tr><td>Ratine couleur</td><td colspan="2">Ratine : en rupture de stock pour le moment</td></tr>
 <tr><td>T-shirt blanc</td><td>42 $</td><td>1,68 $</td></tr>
-<tr><td>Ratine blanche</td><td>42 $</td><td>1,68 $</td></tr></tbody></table>
+<tr><td>Ratine blanche</td><td colspan="2">Ratine : en rupture de stock pour le moment</td></tr></tbody></table>
 <p>À partir de 50 [packs] : 28 $ en couleur et 38 $ en blanc. Voir <a href="{{gros}}">guenilles en gros</a>.</p>
 <h2>Le choix le plus économique</h2>
 <p>Le <a href="{{couleur}}">chiffon couleur</a> est le moins cher : 32 $ le [pack]. Il convient à l'huile, à la graisse, aux déversements et au nettoyage courant. Prenez le <a href="{{blancs}}">blanc</a> seulement pour la peinture, le vernis, les solvants et les surfaces pâles.</p>
 <h2>Ce qui est inclus</h2>
 <p>Des chiffons de coton recyclé lavés à l'eau chaude, triés, traités à la chaleur contre les punaises de lit, sans boutons ni fermetures éclair, coupés et prêts à l'emploi. Un seul type de chiffon par [pack].</p>
 <h2>Livraison</h2>
-<p>Nous livrons à Laval, à Montréal et dans le Grand Montréal. Ailleurs au Québec, à partir de 1 000 lb. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
-  "faq": [("Quelle est la guenille la moins chère à Laval?", "Chez Chiffons ÉCO, la guenille couleur (t-shirt ou ratine) : 32 $ le [pack] de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 [packs]."),
+<p>Livraison par commande, avant taxes : """ + ZFEES_FR + """. Ailleurs au Québec, à partir de 1 000 lb. Voir les <a href="{{livraison}}">conditions de livraison</a>.</p>""",
+  "faq": [("Quelle est la guenille la moins chère à Laval?", "Chez Chiffons ÉCO, le t-shirt couleur : 32 $ le [pack] de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 [packs]."),
           ("Les taxes sont-elles incluses?", "Non. Les prix sont avant TPS (5 %) et TVQ (9,975 %)."),
           ("Où acheter des chiffons recyclés à Montréal?", "Chiffons ÉCO (Entretien Laval) livre ses chiffons recyclés à Montréal. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.")]},
  "en": {"path": "/en/guides/rag-prices-laval-montreal/", "short": "Rag prices in Laval and Montréal",
@@ -186,81 +195,81 @@ P["guide-prix"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", "gr
   "body": """<h2>Our prices (before tax)</h2>
 <table><thead><tr><th>Product</th><th>Price per 25 lb [pack]</th><th>Price per pound</th></tr></thead><tbody>
 <tr><td>Coloured T-shirt</td><td>$32</td><td>$1.28</td></tr>
-<tr><td>Coloured terry</td><td>$32</td><td>$1.28</td></tr>
+<tr><td>Coloured terry</td><td colspan="2">Terry: out of stock for now</td></tr>
 <tr><td>White T-shirt</td><td>$42</td><td>$1.68</td></tr>
-<tr><td>White terry</td><td>$42</td><td>$1.68</td></tr></tbody></table>
+<tr><td>White terry</td><td colspan="2">Terry: out of stock for now</td></tr></tbody></table>
 <p>From 50 [packs]: $28 coloured and $38 white. See <a href="{{gros}}">wholesale rags</a>.</p>
 <h2>The cheapest choice</h2>
 <p><a href="{{couleur}}">Coloured rags</a> cost the least: $32 per [pack]. They handle oil, grease, spills and everyday cleaning. Choose <a href="{{blancs}}">white</a> only for paint, varnish, solvents and light surfaces.</p>
 <h2>What's included</h2>
 <p>Recycled cotton rags washed in hot water, sorted, heat-treated against bedbugs, free of buttons and zippers, cut and ready to use. One rag type per [pack].</p>
 <h2>Delivery</h2>
-<p>We deliver in Laval, Montréal and Greater Montreal. Elsewhere in Québec, from 1,000 lb. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
-  "faq": [("What are the cheapest rags in Laval?", "At Chiffons ÉCO, coloured rags (T-shirt or terry): $32 per 25 lb [pack], $1.28 per pound before tax, or $28 from 50 [packs]."),
+<p>Delivery per order, before tax: """ + ZFEES_EN + """. Elsewhere in Québec, from 1,000 lb. See the <a href="{{livraison}}">delivery terms</a>.</p>""",
+  "faq": [("What are the cheapest rags in Laval?", "At Chiffons ÉCO, coloured T-shirt rags: $32 per 25 lb [pack], $1.28 per pound before tax, or $28 from 50 [packs]."),
           ("Are taxes included?", "No. Prices are before GST (5%) and QST (9.975%)."),
           ("Where can I buy recycled rags in Montréal?", "Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.")]}}
 
 P["guide-teinture"] = {"kind": "guide", "img": BAG, "rel": ["blancs", "peinture", "guide-huileux"],
  "fr": {"path": "/guides/meilleur-chiffon-teinture-bois/", "short": "Quel chiffon pour teindre le bois",
   "title": "Quel chiffon pour teindre le bois? (teinture, vernis)",
-  "desc": "Le meilleur chiffon pour teindre le bois, appliquer un vernis ou une huile : coton blanc, t-shirt peu pelucheux, ratine pour essuyer. Et quoi faire après.",
+  "desc": "Le meilleur chiffon pour teindre le bois, appliquer un vernis ou une huile : coton blanc, t-shirt peu pelucheux pour appliquer et essuyer. Et quoi faire après.",
   "eyebrow": "Guide · peinture et finition", "h1": "Quel chiffon utiliser pour teindre le bois?",
   "lede": "Pour la teinture, le vernis et l'huile, prenez un chiffon de coton blanc : il absorbe bien, ne laisse pas de couleur sur le bois et laisse peu de peluches.",
-  "card": "Coton blanc, t-shirt ou ratine : le bon chiffon pour la finition du bois.",
+  "card": "Coton blanc, t-shirt peu pelucheux : le bon chiffon pour la finition du bois.",
   "alt": "Sacs de chiffons blancs recyclés",
   "body": """<h2>Le chiffon idéal : coton blanc</h2>
 <p>Le coton absorbe la teinture et l'huile, contrairement aux tissus synthétiques qui les étalent. Le <a href="{{blancs}}">chiffon blanc</a> ne transfère aucune couleur sur le bois, même avec des solvants. C'est le choix sûr pour les teintures pâles, le vernis et les surfaces claires.</p>
-<h2>T-shirt ou ratine?</h2>
+<h2>Quel chiffon à chaque étape?</h2>
 <table><thead><tr><th>Étape</th><th>Chiffon conseillé</th><th>Pourquoi</th></tr></thead><tbody>
 <tr><td>Appliquer la teinture ou l'huile</td><td>T-shirt blanc</td><td>Mince, souple, peu pelucheux</td></tr>
-<tr><td>Essuyer l'excédent</td><td>Ratine blanche</td><td>Épaisse, retient beaucoup de liquide</td></tr>
+<tr><td>Essuyer l'excédent</td><td>T-shirt blanc (ratine : en rupture de stock pour le moment)</td><td>Prenez quelques morceaux de plus pour les gros surplus</td></tr>
 <tr><td>Polir entre les couches</td><td>T-shirt blanc</td><td>Doux, laisse une surface lisse</td></tr>
 <tr><td>Nettoyer les outils et les mains</td><td>Couleur</td><td>Moins cher, la couleur n'a pas d'importance</td></tr></tbody></table>
 <h2>Après usage : attention au feu</h2>
 <p>Les chiffons imbibés d'huile de lin, de teinture à l'huile ou de vernis peuvent s'enflammer seuls en séchant. Ne les laissez jamais en boule. Voir <a href="{{guide-huileux}}">chiffons huileux et risque d'incendie</a>.</p>
 <h2>Prix</h2>
 <p>Chiffons blancs : 42 $ le [pack] de 25 lb, avant taxes (38 $ à partir de 50 [packs]). Voir aussi les <a href="{{peinture}}">chiffons pour la peinture et la finition</a>.</p>""",
-  "faq": [("Quel est le meilleur chiffon pour teindre le bois?", "Un chiffon de coton blanc, propre et sans peluches. Le t-shirt blanc pour appliquer, la ratine blanche pour essuyer l'excédent."),
+  "faq": [("Quel est le meilleur chiffon pour teindre le bois?", "Un chiffon de coton blanc, propre et sans peluches : le t-shirt blanc, pour appliquer et pour essuyer l'excédent. Ratine : en rupture de stock pour le moment."),
           ("Peut-on utiliser des chiffons de couleur pour la teinture?", "Pour nettoyer les outils, oui. Pour appliquer la teinture ou le vernis, prenez du blanc : les solvants peuvent faire déteindre un tissu coloré sur le bois."),
           ("Que faire des chiffons imbibés de teinture à l'huile?", "Étalez-les à plat dehors pour sécher, ou mettez-les dans un contenant de métal fermé rempli d'eau. Ne les jetez pas en boule.")]},
  "en": {"path": "/en/guides/best-rag-for-staining-wood/", "short": "Best rag for staining wood",
   "title": "Best rag for staining wood (stain, varnish, oil)",
-  "desc": "The best rag for staining wood, varnish and finishing oil: white cotton, low-lint T-shirt to apply, terry to wipe off. Plus what to do with used rags.",
+  "desc": "The best rag for staining wood, varnish and finishing oil: white cotton, low-lint T-shirt to apply and wipe off. Plus what to do with used rags.",
   "eyebrow": "Guide · painting and finishing", "h1": "What kind of rag should you use for staining wood?",
   "lede": "For stain, varnish and oil, use a white cotton rag: it absorbs well, leaves no dye on the wood and is low-lint.",
-  "card": "White cotton, T-shirt or terry: the right rag for wood finishing.",
+  "card": "White cotton, low-lint T-shirt: the right rag for wood finishing.",
   "alt": "Bags of white recycled rags",
   "body": """<h2>The best rag: white cotton</h2>
 <p>Cotton soaks up stain and oil, while synthetic fabrics just spread them around. A <a href="{{blancs}}">white rag</a> transfers no colour to the wood, even with solvents. It's the safe pick for light stains, varnish and pale surfaces.</p>
-<h2>T-shirt or terry?</h2>
+<h2>Which rag for each step?</h2>
 <table><thead><tr><th>Step</th><th>Recommended rag</th><th>Why</th></tr></thead><tbody>
 <tr><td>Applying stain or oil</td><td>White T-shirt</td><td>Thin, flexible, low-lint</td></tr>
-<tr><td>Wiping off the excess</td><td>White terry</td><td>Thick, holds a lot of liquid</td></tr>
+<tr><td>Wiping off the excess</td><td>White T-shirt (terry: out of stock for now)</td><td>Use a few extra pieces for heavy excess</td></tr>
 <tr><td>Buffing between coats</td><td>White T-shirt</td><td>Soft, leaves a smooth surface</td></tr>
 <tr><td>Cleaning tools and hands</td><td>Coloured</td><td>Cheaper, colour doesn't matter</td></tr></tbody></table>
 <h2>After use: fire risk</h2>
 <p>Rags soaked in linseed oil, oil-based stain or varnish can catch fire on their own as they dry. Never leave them balled up. See <a href="{{guide-huileux}}">oily rags and fire risk</a>.</p>
 <h2>Price</h2>
 <p>White rags: $42 per 25 lb [pack], before tax ($38 from 50 [packs]). See also <a href="{{peinture}}">rags for painting and finishing</a>.</p>""",
-  "faq": [("What is the best rag for staining wood?", "A clean, lint-free white cotton rag. White T-shirt to apply, white terry to wipe off the excess."),
+  "faq": [("What is the best rag for staining wood?", "A clean, lint-free white cotton rag: white T-shirt, to apply and to wipe off the excess. Terry: out of stock for now."),
           ("Can I use coloured rags for staining?", "For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a coloured fabric bleed onto the wood."),
           ("How do I dispose of oil-based stain rags?", "Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Never throw them out balled up.")]}}
 
 P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garage", "industrie"],
  "fr": {"path": "/guides/chiffons-industriels-guide-achat/", "short": "Chiffons industriels : guide d'achat",
   "title": "Chiffons industriels : guide d'achat pour ateliers",
-  "desc": "Chiffons industriels et d'atelier : ratine ou t-shirt, blanc ou couleur, quantité par mois et prix au Québec. Pour usines, garages et ateliers.",
+  "desc": "Chiffons industriels et d'atelier : t-shirt blanc ou couleur, quantité par mois et prix au Québec. Pour usines, garages et ateliers.",
   "eyebrow": "Guide · industrie", "h1": "Chiffons industriels : comment bien choisir",
   "lede": "Usinage, mécanique, imprimerie, entretien : le bon chiffon industriel dépend de ce que vous essuyez. Voici comment choisir et combien prévoir.",
   "card": "Le bon chiffon d'atelier selon l'usage, la quantité et le prix.",
   "alt": "Sac de chiffons d'atelier prêts à l'emploi",
   "body": """<h2>Selon ce que vous essuyez</h2>
 <table><thead><tr><th>Usage</th><th>Chiffon conseillé</th></tr></thead><tbody>
-<tr><td>Huile de coupe, graisse, copeaux (<a href="{{usinage}}">usinage, CNC</a>)</td><td>Ratine couleur</td></tr>
+<tr><td>Huile de coupe, graisse, copeaux (<a href="{{usinage}}">usinage, CNC</a>)</td><td>T-shirt couleur (ratine : en rupture de stock pour le moment)</td></tr>
 <tr><td>Mains, outils, pièces (<a href="{{garage}}">garages, mécanique</a>)</td><td>T-shirt couleur</td></tr>
 <tr><td>Encre, solvants (<a href="{{industrie}}">imprimeries, usines</a>)</td><td>T-shirt blanc</td></tr>
-<tr><td>Peinture, vernis, surfaces pâles</td><td>Blanc (t-shirt ou ratine)</td></tr>
-<tr><td>Déversements, eau</td><td>Ratine couleur</td></tr></tbody></table>
+<tr><td>Peinture, vernis, surfaces pâles</td><td>T-shirt blanc</td></tr>
+<tr><td>Déversements, eau</td><td>T-shirt couleur (ratine : en rupture de stock pour le moment)</td></tr></tbody></table>
 <h2>Ce qu'un chiffon industriel doit être</h2>
 <p>Sans métal, boutons ni fermetures éclair, pour ne pas rayer les pièces ni les machines. Lavé, trié et coupé, prêt à l'emploi. Nos chiffons recyclés sont lavés à l'eau chaude et traités à la chaleur contre les punaises de lit, un seul type par [pack].</p>
 <h2>Combien en prévoir?</h2>
@@ -269,22 +278,22 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
 <p>[pack] de 25 lb : 32 $ en couleur, 42 $ en blanc. À partir de 50 [packs] : 28 $ et 38 $. Voir <a href="{{gros}}">guenilles en gros</a>.</p>""",
   "faq": [("Où acheter des chiffons industriels pas chers à Laval?", "Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : chiffons recyclés – guenilles couleur à 32 $ le [pack] de 25 lb (1,28 $/lb), blancs à 42 $, ou 28 $ / 38 $ dès 50 [packs], avant taxes. Ramassage à Laval ou livraison à Laval (15 $) et Montréal (25 $, dès 2 [packs])."),
   ("Quelle est la différence entre chiffon industriel et chiffon d'atelier?", "Aucune en pratique : les deux désignent des chiffons de coton recyclé pour essuyer l'huile, la graisse et les solvants en usine, en garage ou en atelier."),
-          ("Quel chiffon pour un atelier d'usinage?", "La ratine couleur : épaisse et absorbante pour l'huile de coupe. Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces."),
-          ("Livrez-vous les chiffons industriels?", "Oui, à Laval (15 $, dès 1 [pack]), à Montréal (25 $, dès 2 [packs]) et ailleurs au Québec à partir de 1 000 lb.")]},
+          ("Quel chiffon pour un atelier d'usinage?", "Le t-shirt couleur pour l'huile de coupe, le t-shirt blanc pour les pièces finies (ratine : en rupture de stock pour le moment). Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces."),
+          ("Livrez-vous les chiffons industriels?", "Oui : " + ZFEES_FR + ". Ailleurs au Québec, à partir de 1 000 lb.")]},
  "en": {"path": "/en/guides/industrial-shop-rags-buying-guide/", "short": "Industrial shop rags: buying guide",
   "title": "Industrial shop rags: a buying guide for shops",
-  "desc": "Industrial and shop rags: terry or T-shirt, white or coloured, how many per month and prices in Québec. The guide for plants, garages and machine shops.",
+  "desc": "Industrial and shop rags: white or coloured T-shirt, how many per month and prices in Québec. The guide for plants, garages and machine shops.",
   "eyebrow": "Guide · industry", "h1": "Industrial shop rags: how to choose",
   "lede": "Machining, mechanics, printing, maintenance: the right industrial rag depends on what you wipe. Here's how to choose and how many to plan for.",
   "card": "The right shop rag by use, quantity and price.",
   "alt": "Bag of ready-to-use shop rags",
   "body": """<h2>By what you wipe</h2>
 <table><thead><tr><th>Use</th><th>Recommended rag</th></tr></thead><tbody>
-<tr><td>Cutting oil, grease, chips (<a href="{{usinage}}">machining, CNC</a>)</td><td>Coloured terry</td></tr>
+<tr><td>Cutting oil, grease, chips (<a href="{{usinage}}">machining, CNC</a>)</td><td>Coloured T-shirt (terry: out of stock for now)</td></tr>
 <tr><td>Hands, tools, parts (<a href="{{garage}}">garages, mechanics</a>)</td><td>Coloured T-shirt</td></tr>
 <tr><td>Ink, solvents (<a href="{{industrie}}">print shops, plants</a>)</td><td>White T-shirt</td></tr>
-<tr><td>Paint, varnish, light surfaces</td><td>White (T-shirt or terry)</td></tr>
-<tr><td>Spills, water</td><td>Coloured terry</td></tr></tbody></table>
+<tr><td>Paint, varnish, light surfaces</td><td>White T-shirt</td></tr>
+<tr><td>Spills, water</td><td>Coloured T-shirt (terry: out of stock for now)</td></tr></tbody></table>
 <h2>What an industrial rag must be</h2>
 <p>No metal, buttons or zippers, so nothing scratches parts or machines. Washed, sorted and cut, ready to use. Our recycled rags are hot-water washed and treated against bed bugs, one type per [pack].</p>
 <h2>How many do you need?</h2>
@@ -293,8 +302,8 @@ P["guide-industriel"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "garag
 <p>25 lb [pack]: $32 coloured, $42 white. From 50 [packs]: $28 and $38. See <a href="{{gros}}">bulk rags</a>.</p>""",
   "faq": [("Where can I buy cheap industrial rags in Laval?", "At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: coloured recycled rags at $32 per 25 lb [pack] ($1.28/lb), white at $42, or $28 / $38 from 50 [packs], before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 [packs])."),
   ("What's the difference between industrial rags and shop rags?", "None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops."),
-          ("Which rag is best for a machine shop?", "Coloured terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts."),
-          ("Do you deliver industrial rags?", "Yes: Laval ($15, from 1 [pack]), Montréal ($25, from 2 [packs]) and elsewhere in Québec from 1,000 lb.")]}}
+          ("Which rag is best for a machine shop?", "Coloured T-shirt for cutting oil, white T-shirt for finished parts (terry: out of stock for now). Our rags have no metal or buttons that could scratch parts."),
+          ("Do you deliver industrial rags?", "Yes: " + ZFEES_EN + ". Elsewhere in Québec, from 1,000 lb.")]}}
 
 P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", "guide-industriel"],
  "fr": {"path": "/guides/chiffons-atelier-metal-laval-montreal/", "short": "Chiffons pour ateliers de métal à Laval et Montréal",
@@ -306,23 +315,24 @@ P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", 
   "alt": "Sac de chiffons d'atelier pour usinage et fabrication métallique",
   "body": """<h2>Le bon chiffon selon le travail</h2>
 <table><thead><tr><th>Travail</th><th>Chiffon conseillé</th><th>Prix (sac de 25 lb, avant taxes)</th></tr></thead><tbody>
-<tr><td>Huile de coupe, liquide de refroidissement, déversements</td><td>Ratine couleur ou ratine blanche</td><td>32 $ / 42 $</td></tr>
+<tr><td>Huile de coupe, liquide de refroidissement, déversements</td><td>T-shirt couleur ou blanc (ratine : en rupture de stock pour le moment)</td><td>32 $ / 42 $</td></tr>
 <tr><td>Pièces finies, mesure, inspection</td><td>T-shirt blanc</td><td>42 $</td></tr>
 <tr><td>Dégraissage avant soudure ou peinture</td><td>T-shirt blanc</td><td>42 $</td></tr>
 <tr><td>Mains, outils, établis, entretien des machines</td><td>T-shirt couleur</td><td>32 $</td></tr></tbody></table>
-<p>La ratine blanche absorbe autant que la ratine couleur, sans transfert de teinture : un bon choix pour l'huile de coupe sur des pièces finies. Tous nos chiffons sont sans boutons, fermetures éclair ni métal.</p>
+<p>Ratine : en rupture de stock pour le moment. Pour l'huile de coupe sur des pièces finies, prenez le t-shirt blanc : aucun transfert de teinture. Tous nos chiffons sont sans boutons, fermetures éclair ni métal.</p>
 <h2>Ramassage et livraison</h2>
 <ul><li><b>Ramassage à Laval</b> : 1355 boul. Le Corbusier.</li>
 <li><b>Livraison à Laval</b> : 15 $, dès 1 [pack].</li>
 <li><b>Livraison à Montréal</b> : 25 $, dès 2 [packs].</li>
+<li><b>Livraison Rive-Sud et Rive-Nord</b> : """ + f"{_Z['rive-sud']['fee']} $, dès {_Z['rive-sud']['min_bags']} [packs]" + """.</li>
 <li><b>Ailleurs au Québec</b> : à partir de 1 000 lb (40 [packs]).</li></ul>
 <h2>Prix de volume</h2>
 <p>À partir de 50 [packs] : 28 $ en couleur et 38 $ en blanc, avant taxes. Facture avec TPS et TVQ. Voir <a href="{{gros}}">guenilles en gros</a> et le <a href="{{calculateur}}">calculateur</a> pour estimer vos besoins par mois.</p>
 <h2>Pages par métier</h2>
 <p><a href="{{usinage}}">Ateliers d'usinage</a> · <a href="{{soudure}}">Soudure et fabrication métallique</a> · <a href="{{guide-industriel}}">Guide d'achat des chiffons industriels</a></p>""",
-  "faq": [("Où acheter des chiffons pour un atelier d'usinage CNC à Montréal?", "Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : ratine ou t-shirt, couleur à 32 $ ou blanc à 42 $ le [pack] de 25 lb, avant taxes. Livraison à Montréal 25 $ dès 2 [packs], ou ramassage à Laval."),
+  "faq": [("Où acheter des chiffons pour un atelier d'usinage CNC à Montréal?", "Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : t-shirt couleur à 32 $ ou blanc à 42 $ le [pack] de 25 lb (ratine : en rupture de stock pour le moment), avant taxes. Livraison à Montréal 25 $ dès 2 [packs], ou ramassage à Laval."),
           ("Quel est le chiffon le moins cher pour un atelier de métal à Laval?", "Le [pack] de 25 lb en couleur à 32 $ avant taxes (1,28 $/lb), ou 28 $ dès 50 [packs]. Livraison à Laval 15 $ dès 1 [pack]."),
-          ("Quel chiffon pour l'huile de coupe?", "La ratine : épaisse et très absorbante. Prenez la ratine blanche (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon la ratine couleur (32 $).")]},
+          ("Quel chiffon pour l'huile de coupe?", "Le t-shirt blanc (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon le t-shirt couleur (32 $). Ratine : en rupture de stock pour le moment.")]},
  "en": {"path": "/en/guides/metal-shop-rags-laval-montreal/", "short": "Rags for metal shops in Laval and Montréal",
   "title": "Rags for machine and metal shops in Laval and Montréal",
   "desc": "Where to buy rags for a CNC machine shop, welding or metal fabrication shop in Laval and Montréal: products, prices, pickup and delivery.",
@@ -332,23 +342,24 @@ P["guide-metal"] = {"kind": "guide", "img": SHOP, "rel": ["usinage", "soudure", 
   "alt": "Bag of shop rags for machining and metal fabrication",
   "body": """<h2>The right rag for the job</h2>
 <table><thead><tr><th>Job</th><th>Recommended rag</th><th>Price (25 lb bag, before tax)</th></tr></thead><tbody>
-<tr><td>Cutting oil, coolant, spills</td><td>Coloured terry or white terry</td><td>$32 / $42</td></tr>
+<tr><td>Cutting oil, coolant, spills</td><td>Coloured or white T-shirt (terry: out of stock for now)</td><td>$32 / $42</td></tr>
 <tr><td>Finished parts, measuring, inspection</td><td>White T-shirt</td><td>$42</td></tr>
 <tr><td>Degreasing before welding or painting</td><td>White T-shirt</td><td>$42</td></tr>
 <tr><td>Hands, tools, benches, machine maintenance</td><td>Coloured T-shirt</td><td>$32</td></tr></tbody></table>
-<p>White terry absorbs as much as coloured terry, with no dye transfer: a good choice for cutting oil on finished parts. All our rags are free of buttons, zippers and metal.</p>
+<p>Terry: out of stock for now. For cutting oil on finished parts, use white T-shirt rags: no dye transfer. All our rags are free of buttons, zippers and metal.</p>
 <h2>Pickup and delivery</h2>
 <ul><li><b>Pickup in Laval</b>: 1355 boul. Le Corbusier.</li>
 <li><b>Delivery in Laval</b>: $15, from 1 [pack].</li>
 <li><b>Delivery in Montréal</b>: $25, from 2 [packs].</li>
+<li><b>South Shore and North Shore delivery</b>: """ + f"${_Z['rive-sud']['fee']}, from {_Z['rive-sud']['min_bags']} [packs]" + """.</li>
 <li><b>Elsewhere in Québec</b>: from 1,000 lb (40 [packs]).</li></ul>
 <h2>Volume pricing</h2>
 <p>From 50 [packs]: $28 coloured and $38 white, before tax. Invoice with GST and QST. See <a href="{{gros}}">wholesale rags</a> and the <a href="{{calculateur}}">calculator</a> to estimate your monthly needs.</p>
 <h2>Pages by trade</h2>
 <p><a href="{{usinage}}">Machine shops</a> · <a href="{{soudure}}">Welding and metal fabrication</a> · <a href="{{guide-industriel}}">Industrial shop rags buying guide</a></p>""",
-  "faq": [("Where can I buy rags for a CNC machine shop in Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 coloured or $42 white per 25 lb [pack], before tax. Delivery in Montréal $25 from 2 [packs], or pickup in Laval."),
+  "faq": [("Where can I buy rags for a CNC machine shop in Montréal?", "From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: T-shirt rags, $32 coloured or $42 white per 25 lb [pack] (terry: out of stock for now), before tax. Delivery in Montréal $25 from 2 [packs], or pickup in Laval."),
           ("What is the cheapest rag for a metal shop in Laval?", "The 25 lb coloured [pack] at $32 before tax ($1.28/lb), or $28 from 50 [packs]. Delivery in Laval $15 from 1 [pack]."),
-          ("Which rag is best for cutting oil?", "Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise coloured terry ($32).")]}}
+          ("Which rag is best for cutting oil?", "White T-shirt rags ($42) if you want no dye transfer on parts, otherwise coloured T-shirt ($32). Terry: out of stock for now.")]}}
 
 P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", "guide-prix"],
  "fr": {"path": "/guides/demarrer-entreprise-revente-chiffons/", "short": "Démarrer une entreprise de revente de chiffons",
@@ -361,8 +372,9 @@ P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", 
 <p>Les garages, ateliers d'usinage et de soudure, usines, fermes et entreprises d'entretien utilisent des chiffons chaque semaine. C'est un produit qui se consomme et se rachète : un client satisfait recommande régulièrement. Dans beaucoup de régions, surtout au nord de Montréal (Laurentides, Lanaudière, Mauricie, Abitibi, Saguenay–Lac-Saint-Jean), peu de fournisseurs passent directement chez les petites entreprises.</p>
 <h2>Votre prix d'achat</h2>
 <p>Dès 50 sacs de 25 lb, vous payez le prix distributeur (avant taxes) :</p>
-<ul><li>T-shirt ou ratine de couleur : 28 $ le [pack] au lieu de 32 $</li>
-<li>T-shirt ou ratine blanc : 38 $ le [pack] au lieu de 42 $</li></ul>
+<ul><li>T-shirt couleur : 28 $ le [pack] au lieu de 32 $</li>
+<li>T-shirt blanc : 38 $ le [pack] au lieu de 42 $</li>
+<li>Ratine : en rupture de stock pour le moment.</li></ul>
 <p>Prix spécial revendeur : ramassage seulement, sans livraison. Vous venez chercher vos sacs au 1355 boul. Le Corbusier, à Laval, et vous pouvez mélanger les produits.</p>
 <h2>Comment ça fonctionne</h2>
 <ol><li>Écrivez à info@entretienlaval.ca avec les produits et le nombre de sacs (minimum 50).</li>
@@ -390,8 +402,9 @@ P["guide-revendeur"] = {"kind": "guide", "img": SHOP, "rel": ["gros", "garage", 
 <p>Garages, machine and welding shops, factories, farms and cleaning companies use rags every week. It's a consumable that gets bought again and again: a happy customer reorders regularly. In many regions, especially north of Montréal (Laurentides, Lanaudière, Mauricie, Abitibi, Saguenay–Lac-Saint-Jean), few suppliers visit small businesses in person.</p>
 <h2>Your buying price</h2>
 <p>From 50 bags of 25 lb, you pay the distributor price (before tax):</p>
-<ul><li>Coloured T-shirt or terry: $28 per [pack] instead of $32</li>
-<li>White T-shirt or terry: $38 per [pack] instead of $42</li></ul>
+<ul><li>Coloured T-shirt: $28 per [pack] instead of $32</li>
+<li>White T-shirt: $38 per [pack] instead of $42</li>
+<li>Terry: out of stock for now.</li></ul>
 <p>Special reseller price: pickup only, no delivery. You collect your bags at 1355 boul. Le Corbusier, Laval, and mixed products are fine.</p>
 <h2>How it works</h2>
 <ol><li>Email info@entretienlaval.ca with the products and number of bags (minimum 50).</li>
@@ -453,41 +466,41 @@ P["guide-acheter"] = {"kind": "guide", "img": BAG, "rel": ["couleur", "blancs", 
 P["guide-peluches"] = {"kind": "guide", "img": TEXT, "rel": ["blancs", "peinture", "guide-ratine"],
  "fr": {"path": "/guides/chiffon-non-pelucheux/", "short": "Chiffon non pelucheux",
   "title": "Chiffon non pelucheux : lequel laisse le moins de peluches?",
-  "desc": "Quel chiffon laisse le moins de peluches? Le t-shirt de coton blanc est peu pelucheux, la ratine un peu plus. Quoi choisir pour la peinture, les vitres, l'auto.",
+  "desc": "Quel chiffon laisse le moins de peluches? Le t-shirt de coton blanc. Quoi choisir pour la peinture, les vitres, l'auto (ratine : en rupture de stock).",
   "eyebrow": "Guide · peluches", "h1": "Chiffon non pelucheux : quel chiffon choisir",
   "lede": "Aucun chiffon de coton recyclé n'est totalement sans peluches, mais le t-shirt blanc en laisse très peu. Voici quoi choisir selon le travail.",
-  "card": "T-shirt ou ratine, peinture, vitres, auto : ce qui laisse le moins de fibres.", "alt": "Textiles de coton récupérés",
+  "card": "T-shirt blanc, peinture, vitres, auto : ce qui laisse le moins de fibres.", "alt": "Textiles de coton récupérés",
   "body": """<h2>Le chiffon qui laisse le moins de peluches</h2>
-<p>Parmi nos produits, le <a href="{{blancs}}">t-shirt blanc</a> (jersey) est le plus mince et le moins pelucheux. La ratine laisse un peu plus de fibres à cause de ses boucles : gardez-la pour absorber.</p>
+<p>Parmi nos produits, le <a href="{{blancs}}">t-shirt blanc</a> (jersey) est le plus mince et le moins pelucheux. La ratine laisse un peu plus de fibres à cause de ses boucles. Ratine : en rupture de stock pour le moment.</p>
 <h2>Selon le travail</h2>
 <ul><li><b>Peinture, teinture, vernis</b> : t-shirt blanc. Voir les <a href="{{peinture}}">chiffons pour peintres</a>.</li>
 <li><b>Vitres et inox</b> : t-shirt blanc, mince et peu pelucheux.</li>
 <li><b>Polissage et esthétique auto</b> : t-shirt blanc.</li>
-<li><b>Huile, graisse, déversements</b> : ratine ou t-shirt couleur, les peluches comptent peu.</li></ul>
+<li><b>Huile, graisse, déversements</b> : t-shirt couleur, les peluches comptent peu (ratine : en rupture de stock pour le moment).</li></ul>
 <h2>Quand il faut un vrai « sans peluches »</h2>
 <p>Pour l'électronique, les salles blanches ou les optiques, il faut des lingettes spécialisées non tissées. Nous ne vendons pas ce type de produit : nos chiffons sont du coton recyclé, pour l'atelier, la finition et le nettoyage.</p>
 <p>Voir aussi : <a href="{{guide-ratine}}">ratine ou t-shirt</a>.</p>""",
   "faq": [("Quel chiffon ne laisse pas de peluches?", "Aucun chiffon de coton recyclé n'est 100 % sans peluches. Le t-shirt de coton blanc est le moins pelucheux de nos produits."),
-          ("La ratine laisse-t-elle des peluches?", "Un peu plus que le t-shirt, à cause de ses boucles. Elle reste le meilleur choix pour absorber."),
+          ("La ratine laisse-t-elle des peluches?", "Un peu plus que le t-shirt, à cause de ses boucles. Ratine : en rupture de stock pour le moment; prenez le t-shirt blanc ou couleur."),
           ("Quel chiffon pour teindre le bois sans peluches?", "Le t-shirt de coton blanc : mince, peu pelucheux et sans transfert de couleur. 42 $ le [pack] de 25 lb.")]},
  "en": {"path": "/en/guides/lint-free-rags/", "short": "Lint-free rags",
   "title": "Lint-free rags: which cotton rag leaves the least lint?",
-  "desc": "Which rag leaves the least lint? White cotton T-shirt rags are low-lint, terry a bit more. What works for paint, stain, glass and car detailing.",
+  "desc": "Which rag leaves the least lint? White cotton T-shirt rags are low-lint (terry: out of stock for now). What works for paint, stain, glass and car detailing.",
   "eyebrow": "Guide · lint", "h1": "Lint-free rags: which cotton rag to choose",
   "lede": "No recycled cotton rag is completely lint-free, but white T-shirt rags leave very little. Here is what to choose for each job.",
-  "card": "T-shirt or terry, paint, glass, cars: what leaves the fewest fibers.", "alt": "Recovered cotton textiles",
+  "card": "White T-shirt, paint, glass, cars: what leaves the fewest fibers.", "alt": "Recovered cotton textiles",
   "body": """<h2>The rag that leaves the least lint</h2>
-<p>Among our products, <a href="{{blancs}}">white T-shirt rags</a> (jersey) are the thinnest and lowest-lint. Terry leaves a few more fibers because of its loops: keep it for absorbing.</p>
+<p>Among our products, <a href="{{blancs}}">white T-shirt rags</a> (jersey) are the thinnest and lowest-lint. Terry leaves a few more fibers because of its loops. Terry: out of stock for now.</p>
 <h2>By job</h2>
 <ul><li><b>Paint, stain, varnish</b>: white T-shirt. See <a href="{{peinture}}">painters rags</a>.</li>
 <li><b>Glass and stainless steel</b>: white T-shirt, thin and low-lint.</li>
 <li><b>Polishing and car detailing</b>: white T-shirt.</li>
-<li><b>Oil, grease, spills</b>: coloured terry or T-shirt, lint matters little.</li></ul>
+<li><b>Oil, grease, spills</b>: coloured T-shirt, lint matters little (terry: out of stock for now).</li></ul>
 <h2>When you need truly lint-free</h2>
 <p>Electronics, cleanrooms and optics need specialized nonwoven wipes. We don't sell those: our rags are recycled cotton, for shops, finishing and cleaning.</p>
 <p>See also: <a href="{{guide-ratine}}">terry vs T-shirt rags</a>.</p>""",
   "faq": [("Which rag doesn't leave lint?", "No recycled cotton rag is 100% lint-free. White cotton T-shirt rags are the lowest-lint of our products."),
-          ("Does terry leave lint?", "A little more than T-shirt, because of its loops. It is still the best choice for absorbing."),
+          ("Does terry leave lint?", "A little more than T-shirt, because of its loops. Terry: out of stock for now; use white or coloured T-shirt rags."),
           ("What rag for staining wood without lint?", "White cotton T-shirt rags: thin, low-lint and no colour transfer. $42 per 25 lb [pack].")]}}
 
 GUIDE2_PAGES = P

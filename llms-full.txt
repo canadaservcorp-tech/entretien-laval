@@ -82,6 +82,24 @@ Contact: 438-831-3611 · info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, 
 - [À propos](https://entretienlaval.ca/a-propos/)
 - [Nos clients](https://entretienlaval.ca/nos-clients/)
 - [Tous les secteurs](https://entretienlaval.ca/secteurs/)
+- [Combien de chiffons par mois pour un garage](https://entretienlaval.ca/guides/combien-chiffons-par-mois-garage/)
+- [Chiffons pour vitres et inox](https://entretienlaval.ca/guides/chiffon-vitres-inox/)
+- [Chiffons et solvants : acétone, diluant, varsol](https://entretienlaval.ca/guides/chiffons-solvants-acetone-diluant/)
+- [Chiffons souillés en entreprise : entreposer et éliminer](https://entretienlaval.ca/guides/chiffons-souilles-entreprise-entreposage-elimination/)
+- [Acheter des guenilles en gros pour une entreprise](https://entretienlaval.ca/guides/acheter-guenilles-en-gros-entreprise/)
+- [Nettoyer un déversement d'huile](https://entretienlaval.ca/guides/nettoyer-deversement-huile-chiffons/)
+- [Chomedey](https://entretienlaval.ca/chiffons-guenilles-chomedey/)
+- [Laval-des-Rapides](https://entretienlaval.ca/chiffons-guenilles-laval-des-rapides/)
+- [Sainte-Rose](https://entretienlaval.ca/chiffons-guenilles-sainte-rose/)
+- [Vimont](https://entretienlaval.ca/chiffons-guenilles-vimont/)
+- [Fabreville](https://entretienlaval.ca/chiffons-guenilles-fabreville/)
+- [Duvernay](https://entretienlaval.ca/chiffons-guenilles-duvernay/)
+- [Auteuil](https://entretienlaval.ca/chiffons-guenilles-auteuil/)
+- [Repentigny](https://entretienlaval.ca/chiffons-guenilles-repentigny/)
+- [Mascouche](https://entretienlaval.ca/chiffons-guenilles-mascouche/)
+- [Saint-Eustache](https://entretienlaval.ca/chiffons-guenilles-saint-eustache/)
+- [Rosemère](https://entretienlaval.ca/chiffons-guenilles-rosemere/)
+- [Brossard](https://entretienlaval.ca/chiffons-guenilles-brossard/)
 - [Commander en ligne](https://entretienlaval.ca/commander/)
 
 ## English
@@ -154,13 +172,31 @@ Contact: 438-831-3611 · info@entretienlaval.ca · 309-1355 Boul. Le Corbusier, 
 - [About](https://entretienlaval.ca/en/about/)
 - [Our customers](https://entretienlaval.ca/en/our-customers/)
 - [All industries](https://entretienlaval.ca/en/industries/)
+- [How many rags a garage uses per month](https://entretienlaval.ca/en/guides/how-many-rags-per-month-garage/)
+- [Rags for glass and stainless steel](https://entretienlaval.ca/en/guides/rags-for-glass-stainless-steel/)
+- [Rags and solvents: acetone, thinner, spirits](https://entretienlaval.ca/en/guides/rags-for-solvents-acetone-thinner/)
+- [Soiled rags at work: storage and disposal](https://entretienlaval.ca/en/guides/soiled-rags-business-storage-disposal/)
+- [Buying rags in bulk for a business](https://entretienlaval.ca/en/guides/buying-rags-in-bulk-for-business/)
+- [Cleaning up an oil spill](https://entretienlaval.ca/en/guides/clean-up-oil-spill-with-rags/)
+- [Chomedey](https://entretienlaval.ca/en/rags-chomedey/)
+- [Laval-des-Rapides](https://entretienlaval.ca/en/rags-laval-des-rapides/)
+- [Sainte-Rose](https://entretienlaval.ca/en/rags-sainte-rose/)
+- [Vimont](https://entretienlaval.ca/en/rags-vimont/)
+- [Fabreville](https://entretienlaval.ca/en/rags-fabreville/)
+- [Duvernay](https://entretienlaval.ca/en/rags-duvernay/)
+- [Auteuil](https://entretienlaval.ca/en/rags-auteuil/)
+- [Repentigny](https://entretienlaval.ca/en/rags-repentigny/)
+- [Mascouche](https://entretienlaval.ca/en/rags-mascouche/)
+- [Saint-Eustache](https://entretienlaval.ca/en/rags-saint-eustache/)
+- [Rosemère](https://entretienlaval.ca/en/rags-rosemere/)
+- [Brossard](https://entretienlaval.ca/en/rags-brossard/)
 - [Order online](https://entretienlaval.ca/en/order/)
 
 ## Pages (français)
 
 ### Chiffons de garage et guenilles pour la mécanique
 URL: https://entretienlaval.ca/chiffons-garage-mecanique/
-Guenilles recyclées pour garages et mécanique : huile, graisse. Dès 32 $ le sac de 25 lb, à Laval et Montréal; ailleurs au Québec dès 1 000 lb.
+Guenilles recyclées pour garages et mécanique : huile, graisse. Dès 32 $ le sac de 25 lb, livré au Grand Montréal; ailleurs dès 1 000 lb.
 - Q: Combien de chiffons y a-t-il dans un sac de 25 lb? A: Nous vendons au poids, car la taille des morceaux varie. Demandez un échantillon pour juger du format avant de commander.
 - Q: Les chiffons laissent-ils des peluches? A: Le coton recyclé trié est peu pelucheux. Pour les surfaces peintes ou vernies, choisissez le t-shirt blanc.
 - Q: Peut-on laver et réutiliser les chiffons? A: Les chiffons légèrement sales peuvent être lavés. Ceux imbibés d'huile ou de solvant ne doivent pas aller dans une sécheuse domestique, à cause du risque d'incendie : faites-les traiter par un service spécialisé ou jetez-les de façon sécuritaire.
@@ -168,7 +204,7 @@ Guenilles recyclées pour garages et mécanique : huile, graisse. Dès 32 $ le s
 ### Chiffons pour la peinture, la teinture et la finition
 URL: https://entretienlaval.ca/chiffons-peinture-finition/
 Chiffons de coton blanc recyclé sans transfert de couleur pour peintres et ébénistes : teinture, vernis, huile. Sacs de 25 lb à 42 $, livrés au Québec.
-- Q: T-shirt ou ratine pour la teinture? A: Le t-shirt blanc pour appliquer et essuyer la teinture (fin et régulier), la ratine blanche pour les gros surplus et le nettoyage.
+- Q: T-shirt ou ratine pour la teinture? A: Le t-shirt blanc pour appliquer et essuyer la teinture (fin et régulier), et aussi pour les gros surplus et le nettoyage. Ratine : en rupture de stock pour le moment.
 - Q: Les chiffons couleur peuvent-ils tacher le bois? A: Avec des solvants, un tissu teint peut déteindre. Pour la finition, prenez du blanc.
 - Q: Comment jeter un chiffon de teinture à l'huile? A: Faites-le sécher à plat à l'extérieur ou mettez-le dans un contenant métallique fermé avec de l'eau, puis apportez-le à l'écocentre comme résidu domestique dangereux (RDD).
 
@@ -190,7 +226,7 @@ Guenilles recyclées pour entrepreneurs, plombiers, électriciens et chantiers :
 URL: https://entretienlaval.ca/chiffons-restauration-cuisine/
 Chiffons de coton recyclé pour l'entretien des restaurants : graisse, hottes, planchers, équipement. Lavés et traités, sacs de 25 lb, Laval et Grand Montréal.
 - Q: Peut-on utiliser ces chiffons sur les comptoirs? A: Pour les surfaces en contact avec les aliments, utilisez des linges réservés à cet usage selon les règles du MAPAQ. Nos chiffons servent à l'entretien : graisse, planchers, équipement.
-- Q: Quel chiffon pour la graisse? A: La ratine, épaisse et très absorbante.
+- Q: Quel chiffon pour la graisse? A: Le t-shirt couleur, absorbant et économique. Ratine : en rupture de stock pour le moment.
 - Q: Livrez-vous les restaurants de Montréal? A: Oui, à Montréal, Laval et dans le Grand Montréal.
 
 ### Chiffons industriels et chiffons d'imprimerie
@@ -202,22 +238,22 @@ Chiffons industriels en coton recyclé pour usines, imprimeries et maintenance :
 
 ### Guenilles en gros et chiffons recyclés pour distributeurs
 URL: https://entretienlaval.ca/guenilles-en-gros/
-Guenilles en gros recyclées pour distributeurs sanitaires, quincailleries et fournisseurs. Aucune quantité maximale; au Québec dès 1 000 lb.
+Guenilles en gros recyclées pour distributeurs sanitaires, quincailleries et fournisseurs. Aucune quantité maximale; hors Grand Montréal dès 1 000 lb.
 - Q: Offrez-vous des prix de volume? A: Oui : à partir de 50 sacs de 25 lb, 28 $ en couleur et 38 $ en blanc, avant taxes, ramassage à Laval. Une palette compte 45 sacs (environ 1 125 lb, 510 kg). Pour une livraison, demandez une soumission.
 - Q: Puis-je mélanger les produits dans une livraison? A: Oui, le minimum de 1 000 lb s'applique au total de la livraison.
 - Q: Livrez-vous en région? A: Oui, partout au Québec à partir de 1 000 lb, avec des frais selon la distance.
 
 ### Chiffons blancs recyclés : t-shirt et ratine
 URL: https://entretienlaval.ca/chiffons-blancs-recycles/
-Chiffons d'essuyage blancs en coton recyclé, t-shirt ou ratine, sans transfert de couleur. 42 $ le sac de 25 lb avant taxes. Laval, Montréal, Québec.
+Chiffons blancs en t-shirt de coton recyclé, sans transfert de couleur. 42 $ le sac de 25 lb avant taxes. Ratine : en rupture de stock pour le moment.
 - Q: Les chiffons blancs sont-ils 100 % blancs? A: Ils sont triés pour ne garder que des textiles blancs ou très pâles, sans transfert de couleur.
 - Q: Puis-je avoir un échantillon? A: Oui, sur demande.
 
 ### Chiffons couleur recyclés : t-shirt et ratine
 URL: https://entretienlaval.ca/chiffons-couleur-recycles/
-Chiffons d'essuyage couleur en coton recyclé, t-shirt ou ratine, pour garages, ateliers et chantiers. 32 $ le sac de 25 lb avant taxes. Livraison au Québec.
+Chiffons couleur en t-shirt de coton recyclé, pour garages et chantiers. 32 $ le sac de 25 lb avant taxes. Ratine : en rupture de stock pour le moment.
 - Q: Les couleurs peuvent-elles déteindre? A: Avec des solvants ou de la teinture, un tissu teint peut déteindre. Pour ces usages, choisissez le blanc.
-- Q: T-shirt ou ratine? A: T-shirt pour l'usage général, ratine pour l'huile, la graisse et les gros dégâts.
+- Q: T-shirt ou ratine? A: Ratine : en rupture de stock pour le moment. Le t-shirt couleur sert à l'usage général comme à l'huile, à la graisse et aux gros dégâts.
 
 ### Livraison à Laval, Montréal et partout au Québec
 URL: https://entretienlaval.ca/livraison-grand-montreal/
@@ -252,9 +288,9 @@ Chiffons t-shirt couleur en coton recyclé, lavés et traités à la chaleur con
 - Q: Le t-shirt couleur peut-il déteindre? A: Avec des solvants, de la teinture ou du vernis, un tissu teint peut déteindre. Pour ces usages, choisissez le t-shirt blanc.
 - Q: Quelle taille ont les morceaux? A: Ils sont coupés en morceaux prêts à utiliser, faciles à tenir en main. La taille varie selon le vêtement d'origine.
 
-### Chiffons ratine couleur : 32 $ le sac de 25 lb
+### Chiffons ratine couleur : en rupture de stock pour le moment
 URL: https://entretienlaval.ca/chiffons-ratine-couleur/
-Chiffons ratine couleur en coton recyclé, lavés et traités à la chaleur contre les punaises. 32 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+Chiffons ratine couleur en coton recyclé. Ratine : en rupture de stock pour le moment. Prenez le t-shirt couleur à la place.
 - Q: La ratine laisse-t-elle des peluches? A: Un peu plus que le t-shirt. Pour les surfaces qui doivent rester sans peluches, prenez le t-shirt.
 - Q: Que faire des chiffons pleins d'huile? A: Rangez-les dans un contenant métallique fermé : voir notre guide chiffons huileux et risque d'incendie.
 
@@ -264,9 +300,9 @@ Chiffons t-shirt blanc en coton recyclé, lavés et traités à la chaleur contr
 - Q: Les chiffons t-shirt blancs sont-ils 100 % blancs? A: Ils sont triés pour ne garder que des textiles blancs ou très pâles, sans transfert de couleur.
 - Q: Conviennent-ils au vernis et à la laque? A: Oui. Le jersey blanc mince laisse peu de peluches et ne transfère pas de couleur.
 
-### Chiffons ratine blanc : 42 $ le sac de 25 lb
+### Chiffons ratine blanc : en rupture de stock pour le moment
 URL: https://entretienlaval.ca/chiffons-ratine-blanc/
-Chiffons ratine blanc en coton recyclé, lavés et traités à la chaleur contre les punaises. 42 $ le sac de 25 lb avant taxes. Livraison à Laval et Montréal.
+Chiffons ratine blanc en coton recyclé. Ratine : en rupture de stock pour le moment. Prenez le t-shirt blanc à la place.
 - Q: Pourquoi la ratine blanche coûte-t-elle plus cher? A: Le tri des textiles blancs est plus long et le blanc est plus rare. Elle coûte 42 $ le sac, contre 32 $ pour la couleur.
 - Q: Puis-je avoir un échantillon? A: Oui, sur demande.
 
@@ -291,7 +327,7 @@ Chiffons de coton recyclé pour ébénistes et menuisiers : teinture, huile de l
 ### Chiffons pour la plomberie et le CVAC
 URL: https://entretienlaval.ca/chiffons-plomberie-cvac/
 Guenilles recyclées pour plomberie, chauffage, ventilation et climatisation : joints, huile de filetage, purges, fuites. Dès 32 $ le sac de 25 lb.
-- Q: Quel chiffon pour absorber l'eau d'une purge? A: La ratine (tissu éponge) : c'est la plus absorbante de nos options.
+- Q: Quel chiffon pour absorber l'eau d'une purge? A: Le t-shirt couleur : prenez-en quelques morceaux de plus pour une grosse purge. Ratine : en rupture de stock pour le moment.
 - Q: Livrez-vous à notre entrepôt pour toute la flotte? A: Oui, nous livrons à l'adresse de votre entreprise. Les frais dépendent de l'emplacement et de la quantité.
 
 ### Chiffons pour marinas et bateaux
@@ -328,14 +364,14 @@ Chiffons recyclés pour garages municipaux, travaux publics, arénas, écoles et
 ### Chiffons pour camions lourds et entreprises de transport
 URL: https://entretienlaval.ca/chiffons-camions-lourds-transport/
 Guenilles recyclées pour garages de poids lourds, transporteurs et ateliers de remorques : huile, graisse, diesel. Dès 32 $ le sac de 25 lb.
-- Q: Quel chiffon pour un garage de poids lourds? A: La ratine couleur à 32 $ le sac de 25 lb absorbe le plus d'huile et de graisse. Le t-shirt couleur suffit pour le nettoyage courant.
+- Q: Quel chiffon pour un garage de poids lourds? A: Le t-shirt couleur à 32 $ le sac de 25 lb, pour l'huile, la graisse et le nettoyage courant. Ratine : en rupture de stock pour le moment.
 - Q: Livrez-vous les transporteurs hors de Montréal? A: Oui. Nous livrons au Grand Montréal, et partout au Québec à partir de 1 000 lb (40 sacs).
 
 ### Chiffons pour centres de pneus
 URL: https://entretienlaval.ca/chiffons-centres-de-pneus/
 Guenilles recyclées pour centres de pneus : jantes, pâte de montage, mains, freins et nettoyage. Dès 32 $ le sac de 25 lb, livrées au Québec.
 - Q: Combien de chiffons pour la saison des pneus? A: Cela dépend du nombre de voitures. Notre calculateur estime la quantité selon votre usage par jour.
-- Q: Quel chiffon pour un centre de pneus? A: Le t-shirt ou la ratine couleur à 32 $ le sac de 25 lb convient à la plupart des tâches.
+- Q: Quel chiffon pour un centre de pneus? A: Le t-shirt couleur à 32 $ le sac de 25 lb convient à la plupart des tâches. Ratine : en rupture de stock pour le moment.
 
 ### Chiffons pour magasins de pièces d'auto
 URL: https://entretienlaval.ca/chiffons-magasins-pieces-auto-revente/
@@ -347,7 +383,7 @@ Chiffons recyclés en sacs de 25 lb pour magasins de pièces d'auto : à revendr
 URL: https://entretienlaval.ca/guides/ratine-ou-t-shirt/
 Ratine (tissu éponge) ou jersey de t-shirt, blanc ou couleur : comparaison de l'absorption, de la douceur et des usages pour choisir le bon chiffon d'essuyage.
 - Q: La ratine laisse-t-elle plus de peluches? A: Un peu plus que le t-shirt, à cause de ses boucles. Pour les surfaces délicates, choisissez le t-shirt blanc.
-- Q: Peut-on mélanger ratine et t-shirt dans une commande? A: Oui. Chaque sac de 25 lb contient un seul produit, mais vous pouvez commander plusieurs produits ensemble.
+- Q: Peut-on mélanger ratine et t-shirt dans une commande? A: Pas pour le moment : ratine : en rupture de stock pour le moment. Chaque sac de 25 lb contient un seul produit, et vous pouvez commander t-shirt couleur et t-shirt blanc ensemble.
 
 ### Ranger, laver, réutiliser et jeter ses chiffons
 URL: https://entretienlaval.ca/guides/ranger-laver-reutiliser-chiffons/
@@ -366,31 +402,31 @@ Estimez vos sacs de chiffons de 25 lb par mois et votre budget avant et après t
 ### Prix des guenilles et chiffons recyclés à Laval et Montréal
 URL: https://entretienlaval.ca/guides/prix-guenilles-laval-montreal/
 Prix des guenilles (chiffons recyclés) à Laval et Montréal : 32 $ le sac de 25 lb en couleur, 42 $ en blanc, soit 1,28 $ à 1,68 $ la livre avant taxes.
-- Q: Quelle est la guenille la moins chère à Laval? A: Chez Chiffons ÉCO, la guenille couleur (t-shirt ou ratine) : 32 $ le sac de 25 lb de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 sacs de 25 lb.
+- Q: Quelle est la guenille la moins chère à Laval? A: Chez Chiffons ÉCO, le t-shirt couleur : 32 $ le sac de 25 lb de 25 lb, soit 1,28 $ la livre avant taxes, ou 28 $ à partir de 50 sacs de 25 lb.
 - Q: Les taxes sont-elles incluses? A: Non. Les prix sont avant TPS (5 %) et TVQ (9,975 %).
 - Q: Où acheter des chiffons recyclés à Montréal? A: Chiffons ÉCO (Entretien Laval) livre ses chiffons recyclés à Montréal. Écrivez à info@entretienlaval.ca ou remplissez le formulaire de soumission.
 
 ### Quel chiffon utiliser pour teindre le bois?
 URL: https://entretienlaval.ca/guides/meilleur-chiffon-teinture-bois/
-Le meilleur chiffon pour teindre le bois, appliquer un vernis ou une huile : coton blanc, t-shirt peu pelucheux, ratine pour essuyer. Et quoi faire après.
-- Q: Quel est le meilleur chiffon pour teindre le bois? A: Un chiffon de coton blanc, propre et sans peluches. Le t-shirt blanc pour appliquer, la ratine blanche pour essuyer l'excédent.
+Le meilleur chiffon pour teindre le bois, appliquer un vernis ou une huile : coton blanc, t-shirt peu pelucheux pour appliquer et essuyer. Et quoi faire après.
+- Q: Quel est le meilleur chiffon pour teindre le bois? A: Un chiffon de coton blanc, propre et sans peluches : le t-shirt blanc, pour appliquer et pour essuyer l'excédent. Ratine : en rupture de stock pour le moment.
 - Q: Peut-on utiliser des chiffons de couleur pour la teinture? A: Pour nettoyer les outils, oui. Pour appliquer la teinture ou le vernis, prenez du blanc : les solvants peuvent faire déteindre un tissu coloré sur le bois.
 - Q: Que faire des chiffons imbibés de teinture à l'huile? A: Étalez-les à plat dehors pour sécher, ou mettez-les dans un contenant de métal fermé rempli d'eau. Ne les jetez pas en boule.
 
 ### Chiffons industriels : comment bien choisir
 URL: https://entretienlaval.ca/guides/chiffons-industriels-guide-achat/
-Chiffons industriels et d'atelier : ratine ou t-shirt, blanc ou couleur, quantité par mois et prix au Québec. Pour usines, garages et ateliers.
+Chiffons industriels et d'atelier : t-shirt blanc ou couleur, quantité par mois et prix au Québec. Pour usines, garages et ateliers.
 - Q: Où acheter des chiffons industriels pas chers à Laval? A: Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : chiffons recyclés – guenilles couleur à 32 $ le sac de 25 lb de 25 lb (1,28 $/lb), blancs à 42 $, ou 28 $ / 38 $ dès 50 sacs de 25 lb, avant taxes. Ramassage à Laval ou livraison à Laval (15 $) et Montréal (25 $, dès 2 sacs de 25 lb).
 - Q: Quelle est la différence entre chiffon industriel et chiffon d'atelier? A: Aucune en pratique : les deux désignent des chiffons de coton recyclé pour essuyer l'huile, la graisse et les solvants en usine, en garage ou en atelier.
-- Q: Quel chiffon pour un atelier d'usinage? A: La ratine couleur : épaisse et absorbante pour l'huile de coupe. Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces.
-- Q: Livrez-vous les chiffons industriels? A: Oui, à Laval (15 $, dès 1 sac de 25 lb), à Montréal (25 $, dès 2 sacs de 25 lb) et ailleurs au Québec à partir de 1 000 lb.
+- Q: Quel chiffon pour un atelier d'usinage? A: Le t-shirt couleur pour l'huile de coupe, le t-shirt blanc pour les pièces finies (ratine : en rupture de stock pour le moment). Nos chiffons n'ont ni métal ni boutons qui pourraient rayer les pièces.
+- Q: Livrez-vous les chiffons industriels? A: Oui : Laval 15 $ dès 1 sac, Montréal 25 $ dès 2 sacs, Rive-Sud et Rive-Nord 35 $ dès 2 sacs. Ailleurs au Québec, à partir de 1 000 lb.
 
 ### Chiffons pour ateliers d'usinage et de métal à Laval et Montréal
 URL: https://entretienlaval.ca/guides/chiffons-atelier-metal-laval-montreal/
 Où acheter des chiffons pour un atelier d'usinage CNC, de soudure ou de fabrication métallique à Laval et Montréal : produits, prix, ramassage et livraison.
-- Q: Où acheter des chiffons pour un atelier d'usinage CNC à Montréal? A: Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : ratine ou t-shirt, couleur à 32 $ ou blanc à 42 $ le sac de 25 lb de 25 lb, avant taxes. Livraison à Montréal 25 $ dès 2 sacs de 25 lb, ou ramassage à Laval.
+- Q: Où acheter des chiffons pour un atelier d'usinage CNC à Montréal? A: Chez Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval : t-shirt couleur à 32 $ ou blanc à 42 $ le sac de 25 lb de 25 lb (ratine : en rupture de stock pour le moment), avant taxes. Livraison à Montréal 25 $ dès 2 sacs de 25 lb, ou ramassage à Laval.
 - Q: Quel est le chiffon le moins cher pour un atelier de métal à Laval? A: Le sac de 25 lb de 25 lb en couleur à 32 $ avant taxes (1,28 $/lb), ou 28 $ dès 50 sacs de 25 lb. Livraison à Laval 15 $ dès 1 sac de 25 lb.
-- Q: Quel chiffon pour l'huile de coupe? A: La ratine : épaisse et très absorbante. Prenez la ratine blanche (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon la ratine couleur (32 $).
+- Q: Quel chiffon pour l'huile de coupe? A: Le t-shirt blanc (42 $) si vous ne voulez aucun transfert de teinture sur les pièces, sinon le t-shirt couleur (32 $). Ratine : en rupture de stock pour le moment.
 
 ### Idée d'entreprise : revendre des chiffons recyclés aux garages et aux usines
 URL: https://entretienlaval.ca/guides/demarrer-entreprise-revente-chiffons/
@@ -408,164 +444,164 @@ Acheter des guenilles (chiffons recyclés) à Laval et Montréal : sac de guenil
 
 ### Chiffon non pelucheux : quel chiffon choisir
 URL: https://entretienlaval.ca/guides/chiffon-non-pelucheux/
-Quel chiffon laisse le moins de peluches? Le t-shirt de coton blanc est peu pelucheux, la ratine un peu plus. Quoi choisir pour la peinture, les vitres, l'auto.
+Quel chiffon laisse le moins de peluches? Le t-shirt de coton blanc. Quoi choisir pour la peinture, les vitres, l'auto (ratine : en rupture de stock).
 - Q: Quel chiffon ne laisse pas de peluches? A: Aucun chiffon de coton recyclé n'est 100 % sans peluches. Le t-shirt de coton blanc est le moins pelucheux de nos produits.
-- Q: La ratine laisse-t-elle des peluches? A: Un peu plus que le t-shirt, à cause de ses boucles. Elle reste le meilleur choix pour absorber.
+- Q: La ratine laisse-t-elle des peluches? A: Un peu plus que le t-shirt, à cause de ses boucles. Ratine : en rupture de stock pour le moment; prenez le t-shirt blanc ou couleur.
 - Q: Quel chiffon pour teindre le bois sans peluches? A: Le t-shirt de coton blanc : mince, peu pelucheux et sans transfert de couleur. 42 $ le sac de 25 lb de 25 lb.
 
 ### Guenilles et chiffons à Laval
 URL: https://entretienlaval.ca/chiffons-guenilles-laval/
-Guenilles et chiffons d'essuyage recyclés livrés à Laval : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb.
-- Q: Livrez-vous à Laval? A: Oui. Nous livrons à Laval, notamment à Chomedey, Laval-des-Rapides, Pont-Viau, Vimont, Auteuil et Sainte-Rose. Les frais et les conditions de livraison à Laval dépendent de votre adresse et de la quantité. Ils sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Laval? A: Les frais de livraison à Laval dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Laval? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés à Laval : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 15 $ dès 1 sac.
+- Q: Livrez-vous à Laval? A: Oui. Nous livrons à Laval, notamment à Chomedey, Laval-des-Rapides, Pont-Viau, Vimont, Auteuil et Sainte-Rose. Livraison à Laval : 15 $ par commande, dès 1 sac, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Laval : code postal H7.
+- Q: Combien coûte la livraison à Laval? A: 15 $ par commande avant taxes, dès 1 sac, pour une adresse de la zone Laval (code postal H7). Le ramassage à Laval est gratuit.
+- Q: Quel chiffon choisir pour une entreprise à Laval? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Montréal
 URL: https://entretienlaval.ca/chiffons-guenilles-montreal/
-Guenilles et chiffons d'essuyage recyclés livrés à Montréal : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb.
-- Q: Livrez-vous à Montréal? A: Oui. Nous livrons à Montréal, notamment à Saint-Laurent, Ahuntsic-Cartierville, Montréal-Nord, Rivière-des-Prairies–Pointe-aux-Trembles, Anjou et Saint-Léonard. Les frais et les conditions de livraison à Montréal dépendent de votre adresse et de la quantité. Ils sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Montréal? A: Les frais de livraison à Montréal dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Montréal? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés à Montréal : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 25 $ dès 2 sacs.
+- Q: Livrez-vous à Montréal? A: Oui. Nous livrons à Montréal, notamment à Saint-Laurent, Ahuntsic-Cartierville, Montréal-Nord, Rivière-des-Prairies–Pointe-aux-Trembles, Anjou et Saint-Léonard. Livraison à Montréal : 25 $ par commande, dès 2 sacs, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Montréal : autres codes postaux en H.
+- Q: Combien coûte la livraison à Montréal? A: 25 $ par commande avant taxes, dès 2 sacs, pour une adresse de la zone Montréal (autres codes postaux en H). Le ramassage à Laval est gratuit.
+- Q: Quel chiffon choisir pour une entreprise à Montréal? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Longueuil
 URL: https://entretienlaval.ca/chiffons-guenilles-longueuil/
-Guenilles et chiffons d'essuyage recyclés livrés à Longueuil : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Longueuil? A: Oui. Nous livrons à Longueuil, notamment à Le Vieux-Longueuil, Saint-Hubert, Greenfield Park et LeMoyne. Livraison à Longueuil à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Longueuil? A: Les frais de livraison à Longueuil dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Longueuil? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés à Longueuil : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 35 $ dès 2 sacs.
+- Q: Livrez-vous à Longueuil? A: Oui. Nous livrons à Longueuil, notamment à Le Vieux-Longueuil, Saint-Hubert, Greenfield Park et LeMoyne. Livraison à Longueuil : 35 $ par commande, dès 2 sacs, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Rive-Sud : Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay.
+- Q: Combien coûte la livraison à Longueuil? A: 35 $ par commande avant taxes, dès 2 sacs, pour une adresse de la zone Rive-Sud (Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay). Le ramassage à Laval est gratuit.
+- Q: Quel chiffon choisir pour une entreprise à Longueuil? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Terrebonne
 URL: https://entretienlaval.ca/chiffons-guenilles-terrebonne/
-Guenilles et chiffons d'essuyage recyclés livrés à Terrebonne : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Terrebonne? A: Oui. Nous livrons à Terrebonne, notamment à Terrebonne, Lachenaie, La Plaine et Mascouche. Livraison à Terrebonne à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Terrebonne? A: Les frais de livraison à Terrebonne dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Terrebonne? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés à Terrebonne : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 35 $ dès 2 sacs.
+- Q: Livrez-vous à Terrebonne? A: Oui. Nous livrons à Terrebonne, notamment à Terrebonne, Lachenaie, La Plaine et Mascouche. Livraison à Terrebonne : 35 $ par commande, dès 2 sacs, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Rive-Nord : Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel.
+- Q: Combien coûte la livraison à Terrebonne? A: 35 $ par commande avant taxes, dès 2 sacs, pour une adresse de la zone Rive-Nord (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel). Le ramassage à Laval est gratuit.
+- Q: Quel chiffon choisir pour une entreprise à Terrebonne? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Blainville et Boisbriand
 URL: https://entretienlaval.ca/chiffons-guenilles-blainville-boisbriand/
-Guenilles et chiffons d'essuyage recyclés livrés à Blainville et Boisbriand : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Blainville et Boisbriand? A: Oui. Nous livrons à Blainville et Boisbriand, notamment à Blainville, Boisbriand, Sainte-Thérèse, Rosemère, Lorraine et Bois-des-Filion. Livraison à Blainville et Boisbriand à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison à Blainville et Boisbriand? A: Les frais de livraison à Blainville et Boisbriand dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Blainville et Boisbriand? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés à Blainville et Boisbriand : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 35 $ dès 2 sacs.
+- Q: Livrez-vous à Blainville et Boisbriand? A: Oui. Nous livrons à Blainville et Boisbriand, notamment à Blainville, Boisbriand, Sainte-Thérèse, Rosemère, Lorraine et Bois-des-Filion. Livraison à Blainville et Boisbriand : 35 $ par commande, dès 2 sacs, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Rive-Nord : Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel.
+- Q: Combien coûte la livraison à Blainville et Boisbriand? A: 35 $ par commande avant taxes, dès 2 sacs, pour une adresse de la zone Rive-Nord (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel). Le ramassage à Laval est gratuit.
+- Q: Quel chiffon choisir pour une entreprise à Blainville et Boisbriand? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons sur la Rive-Nord
 URL: https://entretienlaval.ca/chiffons-guenilles-rive-nord/
-Guenilles et chiffons d'essuyage recyclés livrés sur la Rive-Nord : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous sur la Rive-Nord? A: Oui. Nous livrons sur la Rive-Nord, notamment à Saint-Eustache, Deux-Montagnes, Mirabel, Saint-Jérôme, Repentigny et L'Assomption. Livraison sur la Rive-Nord à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison sur la Rive-Nord? A: Les frais de livraison sur la Rive-Nord dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise sur la Rive-Nord? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés sur la Rive-Nord : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 35 $ dès 2 sacs.
+- Q: Livrez-vous sur la Rive-Nord? A: Oui. Nous livrons sur la Rive-Nord, notamment à Saint-Eustache, Deux-Montagnes, Mirabel, Saint-Jérôme, Repentigny et L'Assomption. Livraison sur la Rive-Nord : 35 $ par commande, dès 2 sacs, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Rive-Nord : Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel. Pour une adresse hors de ces villes, contactez-nous.
+- Q: Combien coûte la livraison sur la Rive-Nord? A: 35 $ par commande avant taxes, dès 2 sacs, pour une adresse de la zone Rive-Nord (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel). Le ramassage à Laval est gratuit. Pour une adresse hors de ces villes, contactez-nous.
+- Q: Quel chiffon choisir pour une entreprise sur la Rive-Nord? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons sur la Rive-Sud
 URL: https://entretienlaval.ca/chiffons-guenilles-rive-sud/
-Guenilles et chiffons d'essuyage recyclés livrés sur la Rive-Sud : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous sur la Rive-Sud? A: Oui. Nous livrons sur la Rive-Sud, notamment à Brossard, Boucherville, Saint-Lambert, La Prairie, Candiac et Châteauguay. Livraison sur la Rive-Sud à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
-- Q: Combien coûte la livraison sur la Rive-Sud? A: Les frais de livraison sur la Rive-Sud dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise sur la Rive-Sud? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+Guenilles et chiffons d'essuyage recyclés livrés sur la Rive-Sud : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Livraison 35 $ dès 2 sacs.
+- Q: Livrez-vous sur la Rive-Sud? A: Oui. Nous livrons sur la Rive-Sud, notamment à Brossard, Boucherville, Saint-Lambert, La Prairie, Candiac et Châteauguay. Livraison sur la Rive-Sud : 35 $ par commande, dès 2 sacs, avant taxes. Commandez en ligne et payez par PayPal ou carte, ou choisissez le ramassage gratuit à Laval. Zone Rive-Sud : Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay. Pour une adresse hors de ces villes, contactez-nous.
+- Q: Combien coûte la livraison sur la Rive-Sud? A: 35 $ par commande avant taxes, dès 2 sacs, pour une adresse de la zone Rive-Sud (Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay). Le ramassage à Laval est gratuit. Pour une adresse hors de ces villes, contactez-nous.
+- Q: Quel chiffon choisir pour une entreprise sur la Rive-Sud? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Québec
 URL: https://entretienlaval.ca/chiffons-guenilles-quebec/
-Guenilles et chiffons d'essuyage recyclés livrés à Québec : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Québec : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Québec? A: Oui. Nous livrons à Québec, notamment à Sainte-Foy, Charlesbourg, Beauport, Limoilou, Les Rivières et L'Ancienne-Lorette. Livraison à Québec à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Québec? A: Les frais de livraison à Québec dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Québec? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Québec? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Sherbrooke
 URL: https://entretienlaval.ca/chiffons-guenilles-sherbrooke/
-Guenilles et chiffons d'essuyage recyclés livrés à Sherbrooke : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Sherbrooke : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Sherbrooke? A: Oui. Nous livrons à Sherbrooke, notamment à Sherbrooke et Magog. Livraison à Sherbrooke à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Sherbrooke? A: Les frais de livraison à Sherbrooke dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Sherbrooke? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Sherbrooke? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Trois-Rivières
 URL: https://entretienlaval.ca/chiffons-guenilles-trois-rivieres/
-Guenilles et chiffons d'essuyage recyclés livrés à Trois-Rivières : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Trois-Rivières : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Trois-Rivières? A: Oui. Nous livrons à Trois-Rivières, notamment à Trois-Rivières, Cap-de-la-Madeleine, Bécancour et Shawinigan. Livraison à Trois-Rivières à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Trois-Rivières? A: Les frais de livraison à Trois-Rivières dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Trois-Rivières? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Trois-Rivières? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Gatineau
 URL: https://entretienlaval.ca/chiffons-guenilles-gatineau/
-Guenilles et chiffons d'essuyage recyclés livrés à Gatineau : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Gatineau : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Gatineau? A: Oui. Nous livrons à Gatineau, notamment à Hull, Aylmer, Gatineau, Buckingham et Masson-Angers. Livraison à Gatineau à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Gatineau? A: Les frais de livraison à Gatineau dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Gatineau? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Gatineau? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Saint-Jean-sur-Richelieu
 URL: https://entretienlaval.ca/chiffons-guenilles-saint-jean-sur-richelieu/
-Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jean-sur-Richelieu : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jean-sur-Richelieu : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Saint-Jean-sur-Richelieu? A: Oui. Nous livrons à Saint-Jean-sur-Richelieu, notamment à Saint-Jean, Iberville, Saint-Luc, L'Acadie et Chambly. Livraison à Saint-Jean-sur-Richelieu à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Saint-Jean-sur-Richelieu? A: Les frais de livraison à Saint-Jean-sur-Richelieu dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saint-Jean-sur-Richelieu? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Saint-Jean-sur-Richelieu? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Saint-Hyacinthe
 URL: https://entretienlaval.ca/chiffons-guenilles-saint-hyacinthe/
-Guenilles et chiffons d'essuyage recyclés livrés à Saint-Hyacinthe : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Saint-Hyacinthe : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Saint-Hyacinthe? A: Oui. Nous livrons à Saint-Hyacinthe, notamment à Saint-Hyacinthe, Sainte-Rosalie et Saint-Thomas-d'Aquin. Livraison à Saint-Hyacinthe à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Saint-Hyacinthe? A: Les frais de livraison à Saint-Hyacinthe dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saint-Hyacinthe? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Saint-Hyacinthe? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Vaudreuil-Dorion
 URL: https://entretienlaval.ca/chiffons-guenilles-vaudreuil-dorion/
-Guenilles et chiffons d'essuyage recyclés livrés à Vaudreuil-Dorion : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Vaudreuil-Dorion : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Vaudreuil-Dorion? A: Oui. Nous livrons à Vaudreuil-Dorion, notamment à Vaudreuil-Dorion, L'Île-Perrot, Pincourt, Saint-Lazare, Les Cèdres et Coteau-du-Lac. Livraison à Vaudreuil-Dorion à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Vaudreuil-Dorion? A: Les frais de livraison à Vaudreuil-Dorion dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Vaudreuil-Dorion? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Vaudreuil-Dorion? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Joliette
 URL: https://entretienlaval.ca/chiffons-guenilles-joliette/
-Guenilles et chiffons d'essuyage recyclés livrés à Joliette : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Joliette : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Joliette? A: Oui. Nous livrons à Joliette, notamment à Joliette, Saint-Charles-Borromée, Notre-Dame-des-Prairies et Saint-Paul. Livraison à Joliette à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Joliette? A: Les frais de livraison à Joliette dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Joliette? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Joliette? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Granby
 URL: https://entretienlaval.ca/chiffons-guenilles-granby/
-Guenilles et chiffons d'essuyage recyclés livrés à Granby : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Granby : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Granby? A: Oui. Nous livrons à Granby, notamment à Granby, Bromont, Cowansville et Waterloo. Livraison à Granby à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Granby? A: Les frais de livraison à Granby dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Granby? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Granby? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Drummondville
 URL: https://entretienlaval.ca/chiffons-guenilles-drummondville/
-Guenilles et chiffons d'essuyage recyclés livrés à Drummondville : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Drummondville : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Drummondville? A: Oui. Nous livrons à Drummondville, notamment à Drummondville, Saint-Nicéphore et Saint-Cyrille-de-Wendover. Livraison à Drummondville à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Drummondville? A: Les frais de livraison à Drummondville dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Drummondville? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Drummondville? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Victoriaville
 URL: https://entretienlaval.ca/chiffons-guenilles-victoriaville/
-Guenilles et chiffons d'essuyage recyclés livrés à Victoriaville : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Victoriaville : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Victoriaville? A: Oui. Nous livrons à Victoriaville, notamment à Victoriaville, Princeville, Plessisville et Warwick. Livraison à Victoriaville à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Victoriaville? A: Les frais de livraison à Victoriaville dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Victoriaville? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Victoriaville? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Saguenay
 URL: https://entretienlaval.ca/chiffons-guenilles-saguenay/
-Guenilles et chiffons d'essuyage recyclés livrés à Saguenay : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Saguenay : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Saguenay? A: Oui. Nous livrons à Saguenay, notamment à Chicoutimi, Jonquière, La Baie et Alma. Livraison à Saguenay à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Saguenay? A: Les frais de livraison à Saguenay dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saguenay? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Saguenay? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Sorel-Tracy
 URL: https://entretienlaval.ca/chiffons-guenilles-sorel-tracy/
-Guenilles et chiffons d'essuyage recyclés livrés à Sorel-Tracy : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Sorel-Tracy : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Sorel-Tracy? A: Oui. Nous livrons à Sorel-Tracy, notamment à Sorel-Tracy, Saint-Joseph-de-Sorel, Sainte-Anne-de-Sorel, Contrecoeur, Saint-Ours et Yamaska. Livraison à Sorel-Tracy à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Sorel-Tracy? A: Les frais de livraison à Sorel-Tracy dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Sorel-Tracy? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Sorel-Tracy? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Saint-Jérôme et Mirabel
 URL: https://entretienlaval.ca/chiffons-guenilles-saint-jerome-mirabel/
-Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jérôme et Mirabel : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
-- Q: Livrez-vous à Saint-Jérôme et Mirabel? A: Oui. Nous livrons à Saint-Jérôme et Mirabel, notamment à Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost et Sainte-Sophie. Livraison à Saint-Jérôme et Mirabel à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
+Guenilles et chiffons d'essuyage recyclés livrés à Saint-Jérôme et Mirabel : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Mirabel : 35 $ dès 2 sacs.
+- Q: Livrez-vous à Saint-Jérôme et Mirabel? A: Oui. Nous livrons à Saint-Jérôme et Mirabel, notamment à Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost et Sainte-Sophie. Mirabel (codes postaux J7J) : livraison 35 $ par commande, dès 2 sacs, en commandant en ligne. Saint-Jérôme et les autres villes : livraison à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés, frais indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Saint-Jérôme et Mirabel? A: Les frais de livraison à Saint-Jérôme et Mirabel dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Saint-Jérôme et Mirabel? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Saint-Jérôme et Mirabel? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Guenilles et chiffons à Beloeil et Chambly
 URL: https://entretienlaval.ca/chiffons-guenilles-beloeil-chambly/
-Guenilles et chiffons d'essuyage recyclés livrés à Beloeil et Chambly : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
+Guenilles et chiffons d'essuyage recyclés livrés à Beloeil et Chambly : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. Minimum 1 000 lb.
 - Q: Livrez-vous à Beloeil et Chambly? A: Oui. Nous livrons à Beloeil et Chambly, notamment à Beloeil, McMasterville, Mont-Saint-Hilaire, Saint-Basile-le-Grand, Chambly et Carignan. Livraison à Beloeil et Chambly à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission.
 - Q: Combien coûte la livraison à Beloeil et Chambly? A: Les frais de livraison à Beloeil et Chambly dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande.
-- Q: Quel chiffon choisir pour une entreprise à Beloeil et Chambly? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.
+- Q: Quel chiffon choisir pour une entreprise à Beloeil et Chambly? A: Le t-shirt couleur (32 $ le sac de 25 lb) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. Ratine : en rupture de stock pour le moment.
 
 ### Fournisseur de chiffons recyclés en gros pour les distributeurs du Canada
 URL: https://entretienlaval.ca/fournisseur-chiffons-recycles-canada/
@@ -585,7 +621,7 @@ Lingettes jetables ou chiffons en coton recyclé réutilisables : usages, coût 
 URL: https://entretienlaval.ca/a-propos/
 Entretien Laval (Chiffons ÉCO) vend des chiffons d'essuyage recyclés en sacs de 25 lb, dès 32 $, livrés au Grand Montréal et ailleurs au Québec dès 1 000 lb.
 - Q: Où acheter des chiffons d'essuyage en gros au Québec? A: Chez Entretien Laval (Chiffons ÉCO), à Laval : sacs de 25 lb dès 32 $, livrés au Grand Montréal et partout au Québec à partir de 1 000 lb.
-- Q: Qui vend des guenilles de garage à Laval? A: Entretien Laval vend des guenilles de coton recyclé pour garages, en t-shirt ou en ratine, au 438-831-3611.
+- Q: Qui vend des guenilles de garage à Laval? A: Entretien Laval vend des guenilles de coton recyclé pour garages, en t-shirt couleur ou blanc (ratine : en rupture de stock pour le moment), au 438-831-3611.
 
 ### Nos clients
 URL: https://entretienlaval.ca/nos-clients/
@@ -595,6 +631,132 @@ Qui achète les chiffons recyclés d'Entretien Laval : Ajax CNC Precision (usina
 ### Chiffons d'essuyage pour chaque secteur
 URL: https://entretienlaval.ca/secteurs/
 Guenilles et chiffons recyclés pour 18 secteurs : garages, carrosserie, peinture, ménage, chantiers, restaurants, usinage, soudure, fermes, marinas.
+
+### Combien de chiffons par mois pour un garage?
+URL: https://entretienlaval.ca/guides/combien-chiffons-par-mois-garage/
+Combien de sacs de chiffons un garage utilise-t-il par mois? Une méthode en 4 étapes pour mesurer votre consommation, des exemples chiffrés et le budget.
+- Q: Combien de chiffons y a-t-il dans un sac de 25 lb? A: Nous vendons au poids, car la taille des morceaux varie. C'est pourquoi la méthode se base sur les livres utilisées par semaine plutôt que sur un nombre de chiffons.
+- Q: Quel chiffon commander pour un garage? A: Le t-shirt couleur à 32 $ le sac de 25 lb pour la mécanique. Gardez du t-shirt blanc à 42 $ pour la carrosserie. La ratine est en rupture de stock pour le moment.
+- Q: Peut-on être livré chaque mois sans rappeler? A: Oui. Choisissez la quantité et le rythme (toutes les 2 semaines ou chaque mois) : nous livrons au même prix, avec facture.
+
+### Quel chiffon pour les vitres et l'inox?
+URL: https://entretienlaval.ca/guides/chiffon-vitres-inox/
+Le bon chiffon pour nettoyer les vitres, les miroirs et l'inox sans traces : coton blanc peu pelucheux, technique dans le sens du grain et erreurs à éviter.
+- Q: Quel chiffon pour laver les vitres sans traces? A: Un chiffon de coton blanc mince, propre et sec pour la finition. Parmi nos produits : le t-shirt blanc, 42 $ le sac de 25 lb de 25 lb avant taxes.
+- Q: Faut-il essuyer l'inox en cercles? A: Non. Essuyez dans le sens du grain du métal pour éviter les marques, puis séchez avec un chiffon sec.
+- Q: Le coton recyclé remplace-t-il la microfibre pour les vitres? A: Pour la plupart des vitres et de l'inox, un t-shirt blanc propre fait bien le travail. La microfibre reste utile pour les surfaces très délicates ou les écrans.
+
+### Quel chiffon utiliser avec les solvants?
+URL: https://entretienlaval.ca/guides/chiffons-solvants-acetone-diluant/
+Quel chiffon utiliser avec l'acétone, le diluant à peinture, le varsol ou l'alcool isopropylique? Coton, blanc ou couleur, sécurité et rangement après usage.
+- Q: Peut-on utiliser un chiffon de coton avec de l'acétone? A: Oui, le coton supporte l'acétone. Prenez du blanc pour éviter que la teinture déteigne, travaillez dans un endroit ventilé et rangez le chiffon usé dans un contenant métallique fermé.
+- Q: Pourquoi un chiffon blanc avec les solvants? A: Parce qu'un solvant peut dissoudre la teinture d'un tissu coloré et la déposer sur la surface. Le blanc élimine ce risque.
+- Q: Un chiffon imbibé de solvant peut-il aller à la poubelle? A: Non. Gardez-le dans un contenant métallique fermé et éliminez-le selon les règles de votre municipalité ou avec une entreprise de collecte spécialisée.
+
+### Chiffons souillés en entreprise : entreposer, faire collecter, éliminer
+URL: https://entretienlaval.ca/guides/chiffons-souilles-entreprise-entreposage-elimination/
+Entreprises du Québec : entreposer, faire collecter et éliminer les chiffons souillés d'huile, de solvant ou de peinture. Liste de vérification pratique.
+- Q: Un chiffon huileux peut-il aller à la poubelle de l'entreprise? A: Non. Gardez-le dans un contenant métallique fermé et faites-le collecter par une entreprise spécialisée ou un service de lavage de chiffons industriels, selon les règles qui s'appliquent à vous.
+- Q: Les chiffons souillés sont-ils des matières dangereuses? A: Cela dépend du produit absorbé et des quantités. Selon le cas, ils peuvent être des matières dangereuses résiduelles au sens du Règlement sur les matières dangereuses du Québec. Vérifiez avec votre collecteur ou le ministère de l'Environnement.
+- Q: Faut-il un contenant spécial pour les chiffons huileux? A: Un contenant métallique avec un couvercle à fermeture automatique, conçu pour les chiffons huileux, est la pratique recommandée. Videz-le chaque jour.
+
+### Acheter des guenilles en gros pour votre entreprise
+URL: https://entretienlaval.ca/guides/acheter-guenilles-en-gros-entreprise/
+Garage, atelier, entreprise d'entretien : comment acheter vos guenilles en gros, choisir le produit, la quantité, la livraison, la facture et le prix de volume.
+- Q: Quel est le prix des guenilles en gros pour une entreprise? A: 32 $ le sac de 25 lb en t-shirt couleur et 42 $ en t-shirt blanc, avant taxes. Dès 50 sacs : 28 $ et 38 $, en ramassage seulement à Laval.
+- Q: Livrez-vous les entreprises hors du Grand Montréal? A: La livraison en ligne couvre Laval, Montréal, la Rive-Nord et la Rive-Sud. Ailleurs, contactez-nous au 438-831-3611 ou à info@entretienlaval.ca pour savoir ce qui est possible.
+- Q: Puis-je avoir un échantillon avant une grosse commande? A: Oui, sur demande, pour vérifier la qualité et la taille des morceaux.
+
+### Nettoyer un déversement d'huile avec des chiffons
+URL: https://entretienlaval.ca/guides/nettoyer-deversement-huile-chiffons/
+Nettoyer un déversement d'huile ou de carburant sur un plancher de garage ou d'atelier avec des chiffons, étape par étape, et quoi faire des chiffons après.
+- Q: Comment nettoyer de l'huile sur un plancher de garage? A: Contenez le déversement, absorbez-le avec des chiffons de l'extérieur vers le centre, dégraissez la tache restante et séchez. Mettez les chiffons imbibés dans un contenant métallique fermé.
+- Q: Peut-on rincer l'huile vers le drain? A: Non. L'huile ne doit jamais aller dans un drain de plancher, un égout pluvial ou un fossé. Absorbez-la et faites éliminer les chiffons correctement.
+- Q: Quoi faire des chiffons pleins d'huile? A: Les garder dans un contenant métallique fermé, puis les apporter à l'écocentre (particuliers) ou les faire collecter par une entreprise spécialisée (entreprises).
+
+### Guenilles et chiffons d'essuyage à Chomedey
+URL: https://entretienlaval.ca/chiffons-guenilles-chomedey/
+Guenilles recyclées livrées à Chomedey : sac de 25 lb, t-shirt couleur 32 $ ou blanc 42 $, livraison 15 $ dès 1 sac ou ramassage gratuit à Laval.
+- Q: Combien coûte la livraison à Chomedey? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Quel chiffon pour un garage de Chomedey? A: Le t-shirt couleur à 32 $ le sac de 25 lb pour la mécanique courante, et quelques sacs de t-shirt blanc à 42 $ pour la carrosserie et les surfaces peintes.
+- Q: Avez-vous de la ratine pour l'huile? A: La ratine (couleur et blanche) est en rupture de stock pour le moment. Le t-shirt couleur absorbe bien l'huile et la graisse courantes; prenez-en quelques morceaux de plus pour un gros dégât.
+
+### Guenilles et chiffons d'essuyage à Laval-des-Rapides
+URL: https://entretienlaval.ca/chiffons-guenilles-laval-des-rapides/
+Chiffons recyclés pour l'entretien d'immeubles, de bureaux et de restaurants à Laval-des-Rapides : sac de 25 lb dès 32 $, livré pour 15 $ dès 1 sac.
+- Q: Combien coûte la livraison à Laval-des-Rapides? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Pouvez-vous livrer un immeuble chaque mois? A: Oui. Choisissez la quantité et le rythme (toutes les 2 semaines ou chaque mois) et nous livrons au même prix, avec facture.
+- Q: Quel chiffon pour l'inox d'un hall ou d'une cuisine? A: Le t-shirt blanc : il ne déteint pas et laisse peu de peluches. Essuyez dans le sens du grain de l'inox.
+
+### Guenilles et chiffons d'essuyage à Sainte-Rose
+URL: https://entretienlaval.ca/chiffons-guenilles-sainte-rose/
+Chiffons de coton blanc pour peintres, ébénistes et rénovation à Sainte-Rose (Laval) : 42 $ le sac de 25 lb, livraison 15 $ dès 1 sac ou ramassage gratuit.
+- Q: Combien coûte la livraison à Sainte-Rose? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Quel chiffon pour teindre une galerie ou des boiseries? A: Le t-shirt blanc : mince, peu pelucheux et sans transfert de couleur. Après usage, étendez les chiffons imbibés d'huile ou de teinture à plat dehors, ou gardez-les dans un contenant métallique fermé avec de l'eau.
+- Q: Puis-je ramasser un seul sac? A: Oui, gratuitement, au 1355 boul. Le Corbusier, Laval. Commandez en ligne en choisissant « Ramassage » : nous vous écrivons quand c'est prêt.
+
+### Guenilles et chiffons d'essuyage à Vimont
+URL: https://entretienlaval.ca/chiffons-guenilles-vimont/
+Guenilles recyclées pour plombiers, électriciens, frigoristes et entrepreneurs de Vimont : sac de 25 lb à 32 $, livré pour 15 $ dès 1 sac, ou ramassage gratuit.
+- Q: Combien coûte la livraison à Vimont? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Livrez-vous à une adresse résidentielle? A: Oui, à l'adresse de votre choix : maison, bureau, entrepôt ou chantier. La livraison à Laval coûte 15 $ par commande, dès 1 sac.
+- Q: Combien de sacs pour une équipe de techniciens? A: Commencez par un sac par camion, notez combien de semaines il dure, puis utilisez notre calculateur pour planifier une commande mensuelle.
+
+### Guenilles et chiffons d'essuyage à Fabreville
+URL: https://entretienlaval.ca/chiffons-guenilles-fabreville/
+Guenilles recyclées pour flottes de véhicules, déneigement et entretien d'équipement à Fabreville : 32 $ le sac de 25 lb, livraison 15 $ ou ramassage gratuit.
+- Q: Combien coûte la livraison à Fabreville? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Puis-je commander plus de 10 sacs? A: En ligne, une commande compte jusqu'à 10 sacs. Au-delà, demandez une soumission ou écrivez à info@entretienlaval.ca.
+- Q: Y a-t-il un prix de volume? A: Oui, le prix distributeur dès 50 sacs : 28 $ couleur et 38 $ blanc le sac de 25 lb, avant taxes, en ramassage seulement à Laval.
+
+### Guenilles et chiffons d'essuyage à Duvernay
+URL: https://entretienlaval.ca/chiffons-guenilles-duvernay/
+Chiffons recyclés pour écoles, organismes, résidences et immeubles de Duvernay : sac de 25 lb dès 32 $, livraison 15 $ dès 1 sac, facture avec taxes.
+- Q: Combien coûte la livraison à Duvernay? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Recevrons-nous une facture pour notre organisme? A: Oui, une facture d'entreprise enregistrée avec TPS et TVQ (NEQ 2280629637).
+- Q: Les chiffons sont-ils propres pour une école? A: Ils sont lavés à l'eau chaude et traités à la chaleur, sans boutons ni fermetures éclair. Ce sont des chiffons d'entretien, pas des linges pour les aliments.
+
+### Guenilles et chiffons d'essuyage à Auteuil
+URL: https://entretienlaval.ca/chiffons-guenilles-auteuil/
+Chiffons de coton recyclé pour esthétique automobile, lave-autos et garages d'Auteuil : blanc 42 $, couleur 32 $ le sac de 25 lb, livraison 15 $.
+- Q: Combien coûte la livraison à Auteuil? A: 15 $ par commande, dès 1 sac, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Les chiffons remplacent-ils la microfibre? A: Pas sur la peinture. Ils remplacent la microfibre pour les roues, les moteurs, les cadres de portes et les gros dégâts, là où elle s'use vite.
+- Q: Quel chiffon pour les vitres d'auto? A: Le t-shirt blanc, propre et sec pour la finition. Évitez l'assouplissant si vous les lavez : il laisse des traces.
+
+### Guenilles et chiffons d'essuyage à Repentigny
+URL: https://entretienlaval.ca/chiffons-guenilles-repentigny/
+Guenilles recyclées livrées à Repentigny et Le Gardeur : sac de 25 lb, t-shirt couleur 32 $ ou blanc 42 $, livraison 35 $ dès 2 sacs ou ramassage à Laval.
+- Q: Combien coûte la livraison à Repentigny? A: 35 $ par commande, minimum 2 sacs, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Le secteur Le Gardeur est-il livré? A: Oui, Le Gardeur fait partie de Repentigny et de notre zone Rive-Nord, aux mêmes conditions.
+- Q: Je n'ai besoin que d'un sac, comment faire? A: La livraison sur la Rive-Nord commence à 2 sacs. Pour un seul sac, le ramassage est gratuit au 1355 boul. Le Corbusier, Laval.
+
+### Guenilles et chiffons d'essuyage à Mascouche
+URL: https://entretienlaval.ca/chiffons-guenilles-mascouche/
+Guenilles recyclées pour chantiers, excavation, transport et fermes à Mascouche : sac de 25 lb à 32 $, livraison 35 $ dès 2 sacs ou ramassage gratuit à Laval.
+- Q: Combien coûte la livraison à Mascouche? A: 35 $ par commande, minimum 2 sacs, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Pouvez-vous livrer directement au chantier à Mascouche? A: Oui, à l'adresse de votre choix dans la zone Rive-Nord : 35 $ par commande, dès 2 sacs. Indiquez les heures de réception dans les instructions.
+- Q: Mascouche a-t-elle une page avec Terrebonne? A: Oui, voir aussi notre page Terrebonne. Mascouche a les mêmes conditions de livraison Rive-Nord.
+
+### Guenilles et chiffons d'essuyage à Saint-Eustache
+URL: https://entretienlaval.ca/chiffons-guenilles-saint-eustache/
+Chiffons d'atelier recyclés pour usinage, fabrication et garages à Saint-Eustache : sac de 25 lb dès 32 $, livraison 35 $ dès 2 sacs, ou ramassage à Laval.
+- Q: Combien coûte la livraison à Saint-Eustache? A: 35 $ par commande, minimum 2 sacs, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Livrez-vous aussi Deux-Montagnes? A: Oui, Deux-Montagnes fait aussi partie de notre zone Rive-Nord : 35 $ par commande, dès 2 sacs.
+- Q: Quel chiffon pour l'huile de coupe sur des pièces finies? A: Le t-shirt blanc, sans transfert de teinture. La ratine est en rupture de stock pour le moment.
+
+### Guenilles et chiffons d'essuyage à Rosemère
+URL: https://entretienlaval.ca/chiffons-guenilles-rosemere/
+Chiffons recyclés pour restaurants, commerces et entretien ménager à Rosemère : sac de 25 lb, couleur 32 $ ou blanc 42 $, livraison 35 $ dès 2 sacs.
+- Q: Combien coûte la livraison à Rosemère? A: 35 $ par commande, minimum 2 sacs, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Peut-on utiliser ces chiffons sur les comptoirs de cuisine? A: Pour les surfaces en contact avec les aliments, utilisez des linges réservés à cet usage selon les règles du MAPAQ. Nos chiffons servent à l'entretien : graisse, planchers, équipement, inox.
+- Q: Puis-je mélanger couleur et blanc pour atteindre 2 sacs? A: Oui, le minimum de 2 sacs s'applique au total de la commande.
+
+### Guenilles et chiffons d'essuyage à Brossard
+URL: https://entretienlaval.ca/chiffons-guenilles-brossard/
+Chiffons recyclés livrés à Brossard : restaurants du DIX30, garages, entretien ménager. Sac de 25 lb dès 32 $, livraison 35 $ dès 2 sacs ou ramassage à Laval.
+- Q: Combien coûte la livraison à Brossard? A: 35 $ par commande, minimum 2 sacs, avant taxes. Livraison en 1 à 3 jours ouvrables après le paiement, ou ramassage gratuit au 1355 boul. Le Corbusier, Laval.
+- Q: Brossard fait-elle partie de la zone Rive-Sud? A: Oui : livraison 35 $ par commande, dès 2 sacs, en 1 à 3 jours ouvrables après le paiement. Le formulaire vérifie votre code postal.
+- Q: Livrez-vous aussi Longueuil et Saint-Lambert? A: Oui, aux mêmes conditions Rive-Sud. Voir aussi notre page Longueuil.
 
 ### Commander des chiffons en ligne
 URL: https://entretienlaval.ca/commander/
@@ -608,9 +770,9 @@ Commandez vos guenilles en ligne : sacs de 25 lb dès 32 $, livrés à Laval, Mo
 
 ## FAQ
 - Q: Où acheter des guenilles en gros à Laval? A: Chez Entretien Laval (Chiffons ÉCO) : guenilles et chiffons d'essuyage en coton recyclé, lavés et traités à la chaleur contre les punaises, en sacs de 25 lb. 32 $ couleur, 42 $ blanc, avant taxes. Livraison à Laval dès 1 sac (15 $), à Montréal dès 2 sacs (25 $), ramassage à Laval possible. Voir guenilles en gros.
-- Q: Combien coûte un sac de chiffons de 25 lb? A: 32 $ le sac de 25 lb pour les chiffons couleur (t-shirt ou ratine) et 42 $ pour les blancs (t-shirt ou ratine), avant taxes. La livraison est en sus et dépend de votre emplacement. Voir les produits.
-- Q: Qu'y a-t-il dans un sac de 25 lb? A: 25 lb de chiffons de coton recyclé d'un seul type : t-shirt ou ratine, blanc ou couleur. Les chiffons sont lavés, triés et traités à la chaleur contre les punaises de lit.
-- Q: Quelle est la différence entre ratine et t-shirt? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est épaisse et absorbe davantage : idéale pour l'huile, la graisse et les gros dégâts.
+- Q: Combien coûte un sac de chiffons de 25 lb? A: 32 $ le sac de 25 lb pour le t-shirt couleur et 42 $ pour le t-shirt blanc, avant taxes (ratine : en rupture de stock pour le moment). La livraison est en sus et dépend de votre emplacement. Voir les produits.
+- Q: Qu'y a-t-il dans un sac de 25 lb? A: 25 lb de chiffons de coton recyclé d'un seul type : t-shirt blanc ou t-shirt couleur (ratine : en rupture de stock pour le moment). Les chiffons sont lavés, triés et traités à la chaleur contre les punaises de lit.
+- Q: Quelle est la différence entre ratine et t-shirt? A: Le t-shirt (jersey) est mince, doux et souple : idéal pour l'usage général, les mains et les surfaces délicates. La ratine (tissu éponge) est plus épaisse. Ratine : en rupture de stock pour le moment; prenez le t-shirt couleur ou blanc à la place.
 - Q: Blanc ou couleur? A: Le blanc ne transfère pas de couleur : pour la peinture, la finition, le vernis et les surfaces claires. La couleur coûte moins cher et convient à l'essuyage de tous les jours au garage, à l'atelier et sur les chantiers.
 - Q: Livrez-vous? Où? A: Oui, à votre adresse : Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand et le reste du Grand Montréal. Ailleurs au Québec, nous livrons à partir de 1 000 lb par livraison. Les frais dépendent de l'emplacement. Voir la livraison.
 - Q: Livrez-vous ailleurs au Canada? A: Oui, aux distributeurs seulement : minimum 50 sacs à 28 $ couleur et 38 $ blanc, transport sur soumission. Voir fournisseur de chiffons au Canada.
@@ -630,7 +792,7 @@ Commandez vos guenilles en ligne : sacs de 25 lb dès 32 $, livrés à Laval, Mo
 
 ### Shop rags for garages and mechanics
 URL: https://entretienlaval.ca/en/shop-rags-garage-mechanics/
-Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 per 25 lb bag, delivered in Laval and Montreal; elsewhere in Québec from 1,000 lb.
+Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 per 25 lb bag, delivered across Greater Montreal; elsewhere from 1,000 lb.
 - Q: How many rags are in a 25 lb bag? A: We sell by weight because piece sizes vary. Ask for a sample to judge the size before you order.
 - Q: Do the rags leave lint? A: Sorted recycled cotton is low-lint. For painted or varnished surfaces, choose white T-shirt rags.
 - Q: Can rags be washed and reused? A: Lightly soiled rags can be washed. Rags soaked with oil or solvent must not go in a home dryer because of the fire risk: use a specialized service or dispose of them safely.
@@ -639,7 +801,7 @@ Recycled shop rags for garages and auto repair: oil, grease, fluids. From $32 pe
 URL: https://entretienlaval.ca/en/painting-finishing-rags/
 Painters rags in recycled white cotton with no colour transfer, for paint, stain, varnish and oil. $42 per 25 lb bag, delivered in Laval and Montréal.
 - Q: What are painters rags? A: Painters rags are clean, lint-low cotton rags, usually white, used to wipe brushes, apply stain or oil and clean up drips. White cotton is preferred because it leaves no dye on the surface.
-- Q: T-shirt or terry for staining? A: White T-shirt to apply and wipe stain (thin and even), white terry for heavy excess and cleanup.
+- Q: T-shirt or terry for staining? A: White T-shirt to apply and wipe stain (thin and even), and also for heavy excess and cleanup. Terry: out of stock for now.
 - Q: Can coloured rags stain wood? A: With solvents, dyed fabric can bleed. For finishing, choose white.
 - Q: How do I dispose of an oil-stain rag? A: Dry it flat outdoors or put it in a closed metal container with water, then take it to your local eco-centre as household hazardous waste.
 
@@ -661,7 +823,7 @@ Recycled rags for contractors, plumbers, electricians and job sites: tools, glue
 URL: https://entretienlaval.ca/en/restaurant-kitchen-rags/
 Recycled cotton rags for restaurant cleaning: grease, hoods, floors, equipment. Washed and treated, 25 lb bags, Laval and Greater Montreal.
 - Q: Can these rags be used on counters? A: For food-contact surfaces, use dedicated cloths under MAPAQ rules. Our rags are for cleaning: grease, floors, equipment.
-- Q: Which rag for grease? A: Terry, thick and very absorbent.
+- Q: Which rag for grease? A: Coloured T-shirt rags, absorbent and economical. Terry: out of stock for now.
 - Q: Do you deliver to Montreal restaurants? A: Yes, in Montréal, Laval and across Greater Montreal.
 
 ### Industrial wiping rags and print shop rags
@@ -680,15 +842,15 @@ Recycled rags in bulk for janitorial distributors, hardware stores and suppliers
 
 ### White recycled rags: T-shirt and terry
 URL: https://entretienlaval.ca/en/white-recycled-rags/
-White recycled cotton wiping rags, T-shirt or terry, with no colour transfer. $42 per 25 lb bag before tax. Laval, Montreal, Québec.
+White recycled cotton wiping rags, T-shirt, with no colour transfer. $42 per 25 lb bag before tax (terry: out of stock for now). Laval, Montreal, Québec.
 - Q: Are the white rags 100% white? A: They are sorted to keep only white or very pale textiles, with no colour transfer.
 - Q: Can I get a sample? A: Yes, on request.
 
 ### Coloured recycled rags: T-shirt and terry
 URL: https://entretienlaval.ca/en/colored-recycled-rags/
-Coloured recycled cotton rags, T-shirt or terry, for garages and job sites. $32 per 25 lb bag. Laval and Montreal; elsewhere in Québec from 1,000 lb.
+Coloured recycled cotton T-shirt rags for garages and job sites. $32 per 25 lb bag before tax. Terry: out of stock for now.
 - Q: Can the colours bleed? A: With solvents or stain, dyed fabric can bleed. For those jobs, choose white.
-- Q: T-shirt or terry? A: T-shirt for general use, terry for oil, grease and big spills.
+- Q: T-shirt or terry? A: Terry: out of stock for now. Coloured T-shirt rags handle general use as well as oil, grease and big spills.
 
 ### Delivery in Laval, Montreal and across Québec
 URL: https://entretienlaval.ca/en/delivery-greater-montreal/
@@ -723,9 +885,9 @@ Coloured T-shirt rags in recycled cotton, washed and heat-treated against bedbug
 - Q: Can coloured T-shirt rags bleed? A: With solvents, stain or varnish, dyed fabric can bleed. For those jobs, choose white T-shirt rags.
 - Q: How big are the pieces? A: They are cut into ready-to-use, hand-sized pieces. Size varies with the original garment.
 
-### Coloured terry rags: $32 per 25 lb bag
+### Coloured terry rags: out of stock for now
 URL: https://entretienlaval.ca/en/colored-terry-rags/
-Coloured terry rags in recycled cotton, washed and heat-treated against bedbugs. $32 per 25 lb bag before tax. Delivery in Laval and Montréal.
+Coloured terry rags in recycled cotton. Terry: out of stock for now. Use coloured T-shirt rags instead.
 - Q: Does terry leave lint? A: A little more than T-shirt. For surfaces that must stay lint-free, choose T-shirt.
 - Q: What do I do with oily rags? A: Store them in a closed metal container: see our guide oily rags and fire risk.
 
@@ -735,9 +897,9 @@ White T-shirt rags in recycled cotton, washed and heat-treated against bedbugs. 
 - Q: Are white T-shirt rags 100% white? A: They are sorted to keep only white or very pale textiles, with no colour transfer.
 - Q: Are they good for varnish and lacquer? A: Yes. Thin white jersey leaves little lint and transfers no colour.
 
-### White terry rags: $42 per 25 lb bag
+### White terry rags: out of stock for now
 URL: https://entretienlaval.ca/en/white-terry-rags/
-White terry rags in recycled cotton, washed and heat-treated against bedbugs. $42 per 25 lb bag before tax. Delivery in Laval and Montréal.
+White terry rags in recycled cotton. Terry: out of stock for now. Use white T-shirt rags instead.
 - Q: Why does white terry cost more? A: Sorting white textiles takes longer and white is rarer. It is $42 per bag, against $32 for coloured.
 - Q: Can I get a sample? A: Yes, on request.
 
@@ -762,7 +924,7 @@ Recycled cotton rags for woodworkers and cabinetmakers: stain, linseed oil, varn
 ### Rags for plumbing and HVAC
 URL: https://entretienlaval.ca/en/plumbing-hvac-rags/
 Recycled rags for plumbing, heating, ventilation and air conditioning: joints, threading oil, bleeding, leaks. From $32 per 25 lb bag.
-- Q: Which rag soaks up water from bleeding a system? A: Terry (towel cloth): it's our most absorbent option.
+- Q: Which rag soaks up water from bleeding a system? A: Coloured T-shirt rags: use a few extra pieces for a big bleed. Terry: out of stock for now.
 - Q: Do you deliver to our shop for the whole fleet? A: Yes, we deliver to your business address. Fees depend on location and quantity.
 
 ### Rags for marinas and boats
@@ -799,14 +961,14 @@ Recycled rags for municipal garages, public works, arenas, schools and instituti
 ### Rags for heavy trucks and trucking companies
 URL: https://entretienlaval.ca/en/truck-fleet-rags/
 Recycled shop rags for heavy truck garages, trucking fleets and trailer shops: oil, grease, diesel. From $32 per 25 lb bag.
-- Q: Which rag for a heavy truck garage? A: Coloured terry at $32 per 25 lb bag absorbs the most oil and grease. Coloured T-shirt is enough for everyday cleanup.
+- Q: Which rag for a heavy truck garage? A: Coloured T-shirt rags at $32 per 25 lb bag, for oil, grease and everyday cleanup. Terry: out of stock for now.
 - Q: Do you deliver to fleets outside Montreal? A: Yes. We deliver across Greater Montreal, and anywhere in Québec from 1,000 lb (40 bags).
 
 ### Rags for tire shops
 URL: https://entretienlaval.ca/en/tire-shop-rags/
 Recycled shop rags for tire shops: rims, mounting paste, hands, brakes and cleanup. From $32 per 25 lb bag, delivered in Québec.
 - Q: How many rags for tire season? A: It depends on the number of cars. Our calculator estimates the quantity based on your daily use.
-- Q: Which rag for a tire shop? A: Coloured T-shirt or terry at $32 per 25 lb bag fits most tasks.
+- Q: Which rag for a tire shop? A: Coloured T-shirt rags at $32 per 25 lb bag fit most tasks. Terry: out of stock for now.
 
 ### Rags for auto parts stores
 URL: https://entretienlaval.ca/en/auto-parts-store-rags-resale/
@@ -818,7 +980,7 @@ Recycled rags in 25 lb bags for auto parts stores and distributors: resell to ga
 URL: https://entretienlaval.ca/en/guides/terry-vs-t-shirt-rags/
 Terry (towel cloth) or T-shirt jersey, white or coloured: absorbency, softness and best uses compared, to choose the right wiping rag.
 - Q: Does terry leave more lint? A: A little more than T-shirt, because of its loops. For delicate surfaces, choose white T-shirt rags.
-- Q: Can I mix terry and T-shirt in one order? A: Yes. Each 25 lb bag holds one product, but you can order several products together.
+- Q: Can I mix terry and T-shirt in one order? A: Not for now: terry: out of stock for now. Each 25 lb bag holds one product, and you can order coloured and white T-shirt rags together.
 
 ### Storing, washing, reusing and disposing of rags
 URL: https://entretienlaval.ca/en/guides/store-wash-reuse-rags/
@@ -837,31 +999,31 @@ Estimate your 25 lb bags of rags per month and your budget before and after tax 
 ### Recycled rag prices in Laval and Montréal
 URL: https://entretienlaval.ca/en/guides/rag-prices-laval-montreal/
 How much do recycled wiping rags cost in Laval and Montréal? $32 per 25 lb bag for coloured, $42 for white: $1.28 to $1.68 per pound before tax.
-- Q: What are the cheapest rags in Laval? A: At Chiffons ÉCO, coloured rags (T-shirt or terry): $32 per 25 lb 25 lb bag, $1.28 per pound before tax, or $28 from 50 25 lb bags.
+- Q: What are the cheapest rags in Laval? A: At Chiffons ÉCO, coloured T-shirt rags: $32 per 25 lb 25 lb bag, $1.28 per pound before tax, or $28 from 50 25 lb bags.
 - Q: Are taxes included? A: No. Prices are before GST (5%) and QST (9.975%).
 - Q: Where can I buy recycled rags in Montréal? A: Chiffons ÉCO (Entretien Laval) delivers recycled rags in Montréal. Email info@entretienlaval.ca or fill in the quote form.
 
 ### What kind of rag should you use for staining wood?
 URL: https://entretienlaval.ca/en/guides/best-rag-for-staining-wood/
-The best rag for staining wood, varnish and finishing oil: white cotton, low-lint T-shirt to apply, terry to wipe off. Plus what to do with used rags.
-- Q: What is the best rag for staining wood? A: A clean, lint-free white cotton rag. White T-shirt to apply, white terry to wipe off the excess.
+The best rag for staining wood, varnish and finishing oil: white cotton, low-lint T-shirt to apply and wipe off. Plus what to do with used rags.
+- Q: What is the best rag for staining wood? A: A clean, lint-free white cotton rag: white T-shirt, to apply and to wipe off the excess. Terry: out of stock for now.
 - Q: Can I use coloured rags for staining? A: For cleaning tools, yes. To apply stain or varnish, use white: solvents can make a coloured fabric bleed onto the wood.
 - Q: How do I dispose of oil-based stain rags? A: Lay them flat outdoors to dry, or put them in a closed metal container filled with water. Never throw them out balled up.
 
 ### Industrial shop rags: how to choose
 URL: https://entretienlaval.ca/en/guides/industrial-shop-rags-buying-guide/
-Industrial and shop rags: terry or T-shirt, white or coloured, how many per month and prices in Québec. The guide for plants, garages and machine shops.
+Industrial and shop rags: white or coloured T-shirt, how many per month and prices in Québec. The guide for plants, garages and machine shops.
 - Q: Where can I buy cheap industrial rags in Laval? A: At Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: coloured recycled rags at $32 per 25 lb 25 lb bag ($1.28/lb), white at $42, or $28 / $38 from 50 25 lb bags, before tax. Pickup in Laval or delivery in Laval ($15) and Montréal ($25, from 2 25 lb bags).
 - Q: What's the difference between industrial rags and shop rags? A: None in practice: both are recycled cotton rags for wiping oil, grease and solvents in plants, garages and shops.
-- Q: Which rag is best for a machine shop? A: Coloured terry: thick and absorbent for cutting oil. Our rags have no metal or buttons that could scratch parts.
-- Q: Do you deliver industrial rags? A: Yes: Laval ($15, from 1 25 lb bag), Montréal ($25, from 2 25 lb bags) and elsewhere in Québec from 1,000 lb.
+- Q: Which rag is best for a machine shop? A: Coloured T-shirt for cutting oil, white T-shirt for finished parts (terry: out of stock for now). Our rags have no metal or buttons that could scratch parts.
+- Q: Do you deliver industrial rags? A: Yes: Laval $15 from 1 bag, Montréal $25 from 2 bags, South Shore and North Shore $35 from 2 bags. Elsewhere in Québec, from 1,000 lb.
 
 ### Rags for machine and metal shops in Laval and Montréal
 URL: https://entretienlaval.ca/en/guides/metal-shop-rags-laval-montreal/
 Where to buy rags for a CNC machine shop, welding or metal fabrication shop in Laval and Montréal: products, prices, pickup and delivery.
-- Q: Where can I buy rags for a CNC machine shop in Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: terry or T-shirt, $32 coloured or $42 white per 25 lb 25 lb bag, before tax. Delivery in Montréal $25 from 2 25 lb bags, or pickup in Laval.
+- Q: Where can I buy rags for a CNC machine shop in Montréal? A: From Chiffons ÉCO (Entretien Laval), 1355 boul. Le Corbusier, Laval: T-shirt rags, $32 coloured or $42 white per 25 lb 25 lb bag (terry: out of stock for now), before tax. Delivery in Montréal $25 from 2 25 lb bags, or pickup in Laval.
 - Q: What is the cheapest rag for a metal shop in Laval? A: The 25 lb coloured 25 lb bag at $32 before tax ($1.28/lb), or $28 from 50 25 lb bags. Delivery in Laval $15 from 1 25 lb bag.
-- Q: Which rag is best for cutting oil? A: Terry: thick and very absorbent. Choose white terry ($42) if you want no dye transfer on parts, otherwise coloured terry ($32).
+- Q: Which rag is best for cutting oil? A: White T-shirt rags ($42) if you want no dye transfer on parts, otherwise coloured T-shirt ($32). Terry: out of stock for now.
 
 ### Business idea: resell recycled rags to garages and factories
 URL: https://entretienlaval.ca/en/guides/start-rag-resale-business/
@@ -879,164 +1041,164 @@ Buy recycled cotton rags in Laval and Montréal: 25 lb bags at $32 coloured or $
 
 ### Lint-free rags: which cotton rag to choose
 URL: https://entretienlaval.ca/en/guides/lint-free-rags/
-Which rag leaves the least lint? White cotton T-shirt rags are low-lint, terry a bit more. What works for paint, stain, glass and car detailing.
+Which rag leaves the least lint? White cotton T-shirt rags are low-lint (terry: out of stock for now). What works for paint, stain, glass and car detailing.
 - Q: Which rag doesn't leave lint? A: No recycled cotton rag is 100% lint-free. White cotton T-shirt rags are the lowest-lint of our products.
-- Q: Does terry leave lint? A: A little more than T-shirt, because of its loops. It is still the best choice for absorbing.
+- Q: Does terry leave lint? A: A little more than T-shirt, because of its loops. Terry: out of stock for now; use white or coloured T-shirt rags.
 - Q: What rag for staining wood without lint? A: White cotton T-shirt rags: thin, low-lint and no colour transfer. $42 per 25 lb 25 lb bag.
 
 ### Rags and shop rags in Laval
 URL: https://entretienlaval.ca/en/rags-laval/
-Recycled wiping rags and shop rags delivered in Laval: T-shirt or terry, coloured or white, from $32 per 25 lb bag.
-- Q: Do you deliver in Laval? A: Yes. We deliver in Laval, including Chomedey, Laval-des-Rapides, Pont-Viau, Vimont, Auteuil and Sainte-Rose. Delivery fees and terms in Laval depend on your address and quantity. They're shown in your quote.
-- Q: How much is delivery in Laval? A: Delivery fees in Laval depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Laval choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in Laval: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $15 from 1 bag.
+- Q: Do you deliver in Laval? A: Yes. We deliver in Laval, including Chomedey, Laval-des-Rapides, Pont-Viau, Vimont, Auteuil and Sainte-Rose. Delivery in Laval: $15 per order, from 1 bag, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. Laval zone: postal code H7.
+- Q: How much is delivery in Laval? A: $15 per order before tax, from 1 bag, for an address in the Laval zone (postal code H7). Pickup in Laval is free.
+- Q: Which rag should a business in Laval choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Montréal
 URL: https://entretienlaval.ca/en/rags-montreal/
-Recycled wiping rags and shop rags delivered in Montréal: T-shirt or terry, coloured or white, from $32 per 25 lb bag.
-- Q: Do you deliver in Montréal? A: Yes. We deliver in Montréal, including Saint-Laurent, Ahuntsic-Cartierville, Montréal-Nord, Rivière-des-Prairies–Pointe-aux-Trembles, Anjou and Saint-Léonard. Delivery fees and terms in Montréal depend on your address and quantity. They're shown in your quote.
-- Q: How much is delivery in Montréal? A: Delivery fees in Montréal depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Montréal choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in Montréal: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $25 from 2 bags.
+- Q: Do you deliver in Montréal? A: Yes. We deliver in Montréal, including Saint-Laurent, Ahuntsic-Cartierville, Montréal-Nord, Rivière-des-Prairies–Pointe-aux-Trembles, Anjou and Saint-Léonard. Delivery in Montréal: $25 per order, from 2 bags, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. Montréal zone: other H postal codes.
+- Q: How much is delivery in Montréal? A: $25 per order before tax, from 2 bags, for an address in the Montréal zone (other H postal codes). Pickup in Laval is free.
+- Q: Which rag should a business in Montréal choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Longueuil
 URL: https://entretienlaval.ca/en/rags-longueuil/
-Recycled wiping rags and shop rags delivered in Longueuil: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Longueuil? A: Yes. We deliver in Longueuil, including Le Vieux-Longueuil, Saint-Hubert, Greenfield Park and LeMoyne. Delivery in Longueuil from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Longueuil? A: Delivery fees in Longueuil depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Longueuil choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in Longueuil: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $35 from 2 bags.
+- Q: Do you deliver in Longueuil? A: Yes. We deliver in Longueuil, including Le Vieux-Longueuil, Saint-Hubert, Greenfield Park and LeMoyne. Delivery in Longueuil: $35 per order, from 2 bags, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. South Shore zone: Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay.
+- Q: How much is delivery in Longueuil? A: $35 per order before tax, from 2 bags, for an address in the South Shore zone (Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay). Pickup in Laval is free.
+- Q: Which rag should a business in Longueuil choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Terrebonne
 URL: https://entretienlaval.ca/en/rags-terrebonne/
-Recycled wiping rags and shop rags delivered in Terrebonne: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Terrebonne? A: Yes. We deliver in Terrebonne, including Terrebonne, Lachenaie, La Plaine and Mascouche. Delivery in Terrebonne from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Terrebonne? A: Delivery fees in Terrebonne depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Terrebonne choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in Terrebonne: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $35 from 2 bags.
+- Q: Do you deliver in Terrebonne? A: Yes. We deliver in Terrebonne, including Terrebonne, Lachenaie, La Plaine and Mascouche. Delivery in Terrebonne: $35 per order, from 2 bags, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. North Shore zone: Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel.
+- Q: How much is delivery in Terrebonne? A: $35 per order before tax, from 2 bags, for an address in the North Shore zone (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel). Pickup in Laval is free.
+- Q: Which rag should a business in Terrebonne choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Blainville et Boisbriand
 URL: https://entretienlaval.ca/en/rags-blainville-boisbriand/
-Recycled wiping rags and shop rags delivered in Blainville et Boisbriand: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Blainville et Boisbriand? A: Yes. We deliver in Blainville et Boisbriand, including Blainville, Boisbriand, Sainte-Thérèse, Rosemère, Lorraine and Bois-des-Filion. Delivery in Blainville et Boisbriand from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in Blainville et Boisbriand? A: Delivery fees in Blainville et Boisbriand depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Blainville et Boisbriand choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in Blainville et Boisbriand: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $35 from 2 bags.
+- Q: Do you deliver in Blainville et Boisbriand? A: Yes. We deliver in Blainville et Boisbriand, including Blainville, Boisbriand, Sainte-Thérèse, Rosemère, Lorraine and Bois-des-Filion. Delivery in Blainville et Boisbriand: $35 per order, from 2 bags, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. North Shore zone: Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel.
+- Q: How much is delivery in Blainville et Boisbriand? A: $35 per order before tax, from 2 bags, for an address in the North Shore zone (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel). Pickup in Laval is free.
+- Q: Which rag should a business in Blainville et Boisbriand choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in the North Shore
 URL: https://entretienlaval.ca/en/rags-north-shore/
-Recycled wiping rags and shop rags delivered in the North Shore: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in the North Shore? A: Yes. We deliver in the North Shore, including Saint-Eustache, Deux-Montagnes, Mirabel, Saint-Jérôme, Repentigny and L'Assomption. Delivery in the North Shore from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in the North Shore? A: Delivery fees in the North Shore depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in the North Shore choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in the North Shore: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $35 from 2 bags.
+- Q: Do you deliver in the North Shore? A: Yes. We deliver in the North Shore, including Saint-Eustache, Deux-Montagnes, Mirabel, Saint-Jérôme, Repentigny and L'Assomption. Delivery in the North Shore: $35 per order, from 2 bags, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. North Shore zone: Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel. For an address outside these towns, contact us.
+- Q: How much is delivery in the North Shore? A: $35 per order before tax, from 2 bags, for an address in the North Shore zone (Terrebonne, Mascouche, Repentigny, Bois-des-Filion, Lorraine, Rosemère, Blainville, Sainte-Thérèse, Boisbriand, Saint-Eustache, Deux-Montagnes, Mirabel). Pickup in Laval is free. For an address outside these towns, contact us.
+- Q: Which rag should a business in the North Shore choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in the South Shore
 URL: https://entretienlaval.ca/en/rags-south-shore/
-Recycled wiping rags and shop rags delivered in the South Shore: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in the South Shore? A: Yes. We deliver in the South Shore, including Brossard, Boucherville, Saint-Lambert, La Prairie, Candiac and Châteauguay. Delivery in the South Shore from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
-- Q: How much is delivery in the South Shore? A: Delivery fees in the South Shore depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in the South Shore choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+Recycled wiping rags and shop rags delivered in the South Shore: coloured or white T-shirt rags, from $32 per 25 lb bag. Delivery $35 from 2 bags.
+- Q: Do you deliver in the South Shore? A: Yes. We deliver in the South Shore, including Brossard, Boucherville, Saint-Lambert, La Prairie, Candiac and Châteauguay. Delivery in the South Shore: $35 per order, from 2 bags, before tax. Order online and pay with PayPal or card, or choose free pickup in Laval. South Shore zone: Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay. For an address outside these towns, contact us.
+- Q: How much is delivery in the South Shore? A: $35 per order before tax, from 2 bags, for an address in the South Shore zone (Longueuil, Brossard, Boucherville, Saint-Lambert, Saint-Hubert, Saint-Bruno, La Prairie, Châteauguay). Pickup in Laval is free. For an address outside these towns, contact us.
+- Q: Which rag should a business in the South Shore choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Québec City
 URL: https://entretienlaval.ca/en/rags-quebec-city/
-Recycled wiping rags and shop rags delivered in Québec City: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Québec City: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Québec City? A: Yes. We deliver in Québec City, including Sainte-Foy, Charlesbourg, Beauport, Limoilou, Les Rivières and L'Ancienne-Lorette. Delivery in Québec City from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Québec City? A: Delivery fees in Québec City depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Québec City choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Québec City choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Sherbrooke
 URL: https://entretienlaval.ca/en/rags-sherbrooke/
-Recycled wiping rags and shop rags delivered in Sherbrooke: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Sherbrooke: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Sherbrooke? A: Yes. We deliver in Sherbrooke, including Sherbrooke and Magog. Delivery in Sherbrooke from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Sherbrooke? A: Delivery fees in Sherbrooke depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Sherbrooke choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Sherbrooke choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Trois-Rivières
 URL: https://entretienlaval.ca/en/rags-trois-rivieres/
-Recycled wiping rags and shop rags delivered in Trois-Rivières: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Trois-Rivières: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Trois-Rivières? A: Yes. We deliver in Trois-Rivières, including Trois-Rivières, Cap-de-la-Madeleine, Bécancour and Shawinigan. Delivery in Trois-Rivières from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Trois-Rivières? A: Delivery fees in Trois-Rivières depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Trois-Rivières choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Trois-Rivières choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Gatineau
 URL: https://entretienlaval.ca/en/rags-gatineau/
-Recycled wiping rags and shop rags delivered in Gatineau: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Gatineau: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Gatineau? A: Yes. We deliver in Gatineau, including Hull, Aylmer, Gatineau, Buckingham and Masson-Angers. Delivery in Gatineau from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Gatineau? A: Delivery fees in Gatineau depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Gatineau choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Gatineau choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Saint-Jean-sur-Richelieu
 URL: https://entretienlaval.ca/en/rags-saint-jean-sur-richelieu/
-Recycled wiping rags and shop rags delivered in Saint-Jean-sur-Richelieu: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saint-Jean-sur-Richelieu: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saint-Jean-sur-Richelieu? A: Yes. We deliver in Saint-Jean-sur-Richelieu, including Saint-Jean, Iberville, Saint-Luc, L'Acadie and Chambly. Delivery in Saint-Jean-sur-Richelieu from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saint-Jean-sur-Richelieu? A: Delivery fees in Saint-Jean-sur-Richelieu depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Jean-sur-Richelieu choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Saint-Jean-sur-Richelieu choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Saint-Hyacinthe
 URL: https://entretienlaval.ca/en/rags-saint-hyacinthe/
-Recycled wiping rags and shop rags delivered in Saint-Hyacinthe: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saint-Hyacinthe: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saint-Hyacinthe? A: Yes. We deliver in Saint-Hyacinthe, including Saint-Hyacinthe, Sainte-Rosalie and Saint-Thomas-d'Aquin. Delivery in Saint-Hyacinthe from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saint-Hyacinthe? A: Delivery fees in Saint-Hyacinthe depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Hyacinthe choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Saint-Hyacinthe choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Vaudreuil-Dorion
 URL: https://entretienlaval.ca/en/rags-vaudreuil-dorion/
-Recycled wiping rags and shop rags delivered in Vaudreuil-Dorion: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Vaudreuil-Dorion: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Vaudreuil-Dorion? A: Yes. We deliver in Vaudreuil-Dorion, including Vaudreuil-Dorion, L'Île-Perrot, Pincourt, Saint-Lazare, Les Cèdres and Coteau-du-Lac. Delivery in Vaudreuil-Dorion from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Vaudreuil-Dorion? A: Delivery fees in Vaudreuil-Dorion depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Vaudreuil-Dorion choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Vaudreuil-Dorion choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Joliette
 URL: https://entretienlaval.ca/en/rags-joliette/
-Recycled wiping rags and shop rags delivered in Joliette: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Joliette: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Joliette? A: Yes. We deliver in Joliette, including Joliette, Saint-Charles-Borromée, Notre-Dame-des-Prairies and Saint-Paul. Delivery in Joliette from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Joliette? A: Delivery fees in Joliette depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Joliette choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Joliette choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Granby
 URL: https://entretienlaval.ca/en/rags-granby/
-Recycled wiping rags and shop rags delivered in Granby: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Granby: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Granby? A: Yes. We deliver in Granby, including Granby, Bromont, Cowansville and Waterloo. Delivery in Granby from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Granby? A: Delivery fees in Granby depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Granby choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Granby choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Drummondville
 URL: https://entretienlaval.ca/en/rags-drummondville/
-Recycled wiping rags and shop rags delivered in Drummondville: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Drummondville: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Drummondville? A: Yes. We deliver in Drummondville, including Drummondville, Saint-Nicéphore and Saint-Cyrille-de-Wendover. Delivery in Drummondville from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Drummondville? A: Delivery fees in Drummondville depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Drummondville choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Drummondville choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Victoriaville
 URL: https://entretienlaval.ca/en/rags-victoriaville/
-Recycled wiping rags and shop rags delivered in Victoriaville: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Victoriaville: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Victoriaville? A: Yes. We deliver in Victoriaville, including Victoriaville, Princeville, Plessisville and Warwick. Delivery in Victoriaville from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Victoriaville? A: Delivery fees in Victoriaville depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Victoriaville choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Victoriaville choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Saguenay
 URL: https://entretienlaval.ca/en/rags-saguenay/
-Recycled wiping rags and shop rags delivered in Saguenay: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Saguenay: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Saguenay? A: Yes. We deliver in Saguenay, including Chicoutimi, Jonquière, La Baie and Alma. Delivery in Saguenay from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Saguenay? A: Delivery fees in Saguenay depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saguenay choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Saguenay choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Sorel-Tracy
 URL: https://entretienlaval.ca/en/rags-sorel-tracy/
-Recycled wiping rags and shop rags delivered in Sorel-Tracy: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Sorel-Tracy: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Sorel-Tracy? A: Yes. We deliver in Sorel-Tracy, including Sorel-Tracy, Saint-Joseph-de-Sorel, Sainte-Anne-de-Sorel, Contrecoeur, Saint-Ours and Yamaska. Delivery in Sorel-Tracy from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Sorel-Tracy? A: Delivery fees in Sorel-Tracy depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Sorel-Tracy choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Sorel-Tracy choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Saint-Jérôme et Mirabel
 URL: https://entretienlaval.ca/en/rags-saint-jerome-mirabel/
-Recycled wiping rags and shop rags delivered in Saint-Jérôme et Mirabel: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
-- Q: Do you deliver in Saint-Jérôme et Mirabel? A: Yes. We deliver in Saint-Jérôme et Mirabel, including Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost and Sainte-Sophie. Delivery in Saint-Jérôme et Mirabel from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
+Recycled wiping rags and shop rags delivered in Saint-Jérôme et Mirabel: coloured or white T-shirt rags, from $32 per 25 lb bag. Mirabel: $35 from 2 bags.
+- Q: Do you deliver in Saint-Jérôme et Mirabel? A: Yes. We deliver in Saint-Jérôme et Mirabel, including Saint-Jérôme, Mirabel, Saint-Janvier, Saint-Colomban, Prévost and Sainte-Sophie. Mirabel (J7J postal codes): $35 delivery per order, from 2 bags, when you order online. Saint-Jérôme and the other towns: delivery from 1,000 lb (40 bags of 25 lb), mixed products welcome, fees shown in your quote.
 - Q: How much is delivery in Saint-Jérôme et Mirabel? A: Delivery fees in Saint-Jérôme et Mirabel depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Saint-Jérôme et Mirabel choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Saint-Jérôme et Mirabel choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Rags and shop rags in Beloeil et Chambly
 URL: https://entretienlaval.ca/en/rags-beloeil-chambly/
-Recycled wiping rags and shop rags delivered in Beloeil et Chambly: T-shirt or terry, coloured or white, from $32 per 25 lb bag. 1,000 lb minimum.
+Recycled wiping rags and shop rags delivered in Beloeil et Chambly: coloured or white T-shirt rags, from $32 per 25 lb bag. 1,000 lb minimum.
 - Q: Do you deliver in Beloeil et Chambly? A: Yes. We deliver in Beloeil et Chambly, including Beloeil, McMasterville, Mont-Saint-Hilaire, Saint-Basile-le-Grand, Chambly and Carignan. Delivery in Beloeil et Chambly from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote.
 - Q: How much is delivery in Beloeil et Chambly? A: Delivery fees in Beloeil et Chambly depend on the exact address and quantity. They're shown in the quote, before you order.
-- Q: Which rag should a business in Beloeil et Chambly choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.
+- Q: Which rag should a business in Beloeil et Chambly choose? A: Coloured T-shirt rags ($32 per 25 lb bag) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. Terry: out of stock for now.
 
 ### Wholesale recycled rag supplier for distributors across Canada
 URL: https://entretienlaval.ca/en/recycled-rag-supplier-canada/
@@ -1056,7 +1218,7 @@ Disposable cleaning wipes or reusable recycled cotton rags: uses, cost per pound
 URL: https://entretienlaval.ca/en/about/
 Entretien Laval (ECO Rags) sells recycled wiping rags in 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec.
 - Q: Where can I buy wiping rags in bulk in Québec? A: From Entretien Laval (ECO Rags) in Laval: 25 lb bags from $32, delivered across Greater Montreal and anywhere in Québec from 1,000 lb.
-- Q: Who sells shop rags in Laval? A: Entretien Laval sells recycled cotton shop rags for garages, T-shirt or terry, at 438-831-3611.
+- Q: Who sells shop rags in Laval? A: Entretien Laval sells recycled cotton shop rags for garages, coloured or white T-shirt (terry: out of stock for now), at 438-831-3611.
 
 ### Our customers
 URL: https://entretienlaval.ca/en/our-customers/
@@ -1066,6 +1228,132 @@ Who buys Entretien Laval recycled rags: Ajax CNC Precision (machine shop, Montre
 ### Wiping rags for every industry
 URL: https://entretienlaval.ca/en/industries/
 Recycled rags for 18 industries: garages, auto body, painting, janitorial, job sites, restaurants, machine shops, welding, farms, marinas, municipalities.
+
+### How many shop rags does a garage use per month?
+URL: https://entretienlaval.ca/en/guides/how-many-rags-per-month-garage/
+How many bags of rags does a garage go through each month? A 4-step method to measure your real usage, worked examples and the monthly budget.
+- Q: How many rags are in a 25 lb bag? A: We sell by weight because piece sizes vary. That's why the method uses pounds per week rather than a number of rags.
+- Q: Which rag should a garage order? A: Coloured T-shirt rags at $32 per 25 lb bag for mechanics. Keep white T-shirt rags at $42 for body work. Terry is out of stock for now.
+- Q: Can I get monthly delivery without calling? A: Yes. Choose the quantity and schedule (every 2 weeks or every month): we deliver at the same price, with an invoice.
+
+### Which rag for glass and stainless steel?
+URL: https://entretienlaval.ca/en/guides/rags-for-glass-stainless-steel/
+The right rag for streak-free windows, mirrors and stainless steel: low-lint white cotton, wiping with the grain, and the mistakes to avoid.
+- Q: Which rag cleans windows without streaks? A: A thin white cotton rag, clean, with a dry one for the final wipe. Among our products: white T-shirt rags, $42 per 25 lb 25 lb bag before tax.
+- Q: Should stainless steel be wiped in circles? A: No. Wipe with the grain of the metal to avoid marks, then dry with a dry rag.
+- Q: Does recycled cotton replace microfiber for glass? A: For most glass and stainless steel, a clean white T-shirt rag does the job well. Microfiber is still useful for very delicate surfaces or screens.
+
+### Which rag should you use with solvents?
+URL: https://entretienlaval.ca/en/guides/rags-for-solvents-acetone-thinner/
+Which rag to use with acetone, paint thinner, mineral spirits or isopropyl alcohol? Cotton, white or coloured, safety and storing rags after use.
+- Q: Can I use a cotton rag with acetone? A: Yes, cotton handles acetone. Use white so no dye bleeds, work in a ventilated area and put the used rag in a closed metal container.
+- Q: Why a white rag with solvents? A: Because a solvent can dissolve the dye in a coloured fabric and leave it on the surface. White removes that risk.
+- Q: Can a solvent-soaked rag go in the trash? A: No. Keep it in a closed metal container and dispose of it under your municipality's rules or through a specialized waste pickup company.
+
+### Soiled rags at work: storage, pickup and disposal
+URL: https://entretienlaval.ca/en/guides/soiled-rags-business-storage-disposal/
+Québec businesses: how to store, have collected and dispose of rags soiled with oil, solvent or paint. A practical checklist for shops and plants.
+- Q: Can an oily rag go in the company trash? A: No. Keep it in a closed metal container and have it collected by a specialized company or an industrial rag laundry service, under the rules that apply to you.
+- Q: Are soiled rags hazardous waste? A: It depends on what they absorbed and the quantities. Sometimes they are residual hazardous materials under Québec's Regulation respecting hazardous materials. Check with your waste hauler or the Ministry of the Environment.
+- Q: Do oily rags need a special container? A: A metal container with a self-closing lid, designed for oily rags, is the recommended practice. Empty it every day.
+
+### Buying rags in bulk for your business
+URL: https://entretienlaval.ca/en/guides/buying-rags-in-bulk-for-business/
+Garage, shop, cleaning company: how to buy rags in bulk, choose the product and quantity, delivery, invoicing and the volume price.
+- Q: What do bulk rags cost for a business? A: $32 per 25 lb bag for coloured T-shirt and $42 for white T-shirt, before tax. From 50 bags: $28 and $38, pickup only in Laval.
+- Q: Do you deliver to businesses outside Greater Montreal? A: Online delivery covers Laval, Montréal, the North Shore and the South Shore. Elsewhere, contact us at 438-831-3611 or info@entretienlaval.ca to find out what's possible.
+- Q: Can I get a sample before a large order? A: Yes, on request, to check the quality and piece size.
+
+### Cleaning up an oil spill with rags
+URL: https://entretienlaval.ca/en/guides/clean-up-oil-spill-with-rags/
+How to clean up an oil, fluid or fuel spill on a garage or shop floor with rags, step by step, and what to do with the soaked rags afterwards.
+- Q: How do I clean oil off a garage floor? A: Contain the spill, absorb it with rags from the outside in, degrease the remaining stain and dry the floor. Put the soaked rags in a closed metal container.
+- Q: Can I rinse oil down the drain? A: No. Oil must never go into a floor drain, storm sewer or ditch. Absorb it and have the rags disposed of properly.
+- Q: What do I do with oil-soaked rags? A: Keep them in a closed metal container, then take them to an ecocentre (households) or have them collected by a specialized company (businesses).
+
+### Rags and shop rags in Chomedey
+URL: https://entretienlaval.ca/en/rags-chomedey/
+Recycled cotton rags delivered in Chomedey: 25 lb bag, coloured T-shirt $32 or white $42, $15 delivery from 1 bag, or free pickup in Laval.
+- Q: How much is delivery in Chomedey? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Which rag for a garage in Chomedey? A: Coloured T-shirt rags at $32 per 25 lb bag for everyday mechanics, plus a few bags of white T-shirt rags at $42 for body work and painted surfaces.
+- Q: Do you have terry for oil? A: Terry (coloured and white) is out of stock for now. Coloured T-shirt rags handle everyday oil and grease well; use a few extra pieces for a big spill.
+
+### Rags and shop rags in Laval-des-Rapides
+URL: https://entretienlaval.ca/en/rags-laval-des-rapides/
+Recycled rags for building, office and restaurant cleaning in Laval-des-Rapides: 25 lb bag from $32, delivered for $15 from 1 bag.
+- Q: How much is delivery in Laval-des-Rapides? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Can you deliver to a building every month? A: Yes. Choose the quantity and schedule (every 2 weeks or every month) and we deliver at the same price, with an invoice.
+- Q: Which rag for lobby or kitchen stainless steel? A: White T-shirt rags: they don't bleed and leave little lint. Wipe with the grain of the steel.
+
+### Rags and shop rags in Sainte-Rose
+URL: https://entretienlaval.ca/en/rags-sainte-rose/
+White cotton rags for painters, woodworkers and renovators in Sainte-Rose, Laval: $42 per 25 lb bag, $15 delivery from 1 bag, or free pickup.
+- Q: How much is delivery in Sainte-Rose? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Which rag for staining a deck or wood trim? A: White T-shirt rags: thin, low-lint and no colour transfer. After use, lay oil- or stain-soaked rags flat outdoors, or keep them in a closed metal container with water.
+- Q: Can I pick up a single bag? A: Yes, for free, at 1355 boul. Le Corbusier, Laval. Order online and choose “Pickup”: we email you when it's ready.
+
+### Rags and shop rags in Vimont
+URL: https://entretienlaval.ca/en/rags-vimont/
+Recycled rags for plumbers, electricians, HVAC techs and contractors in Vimont, Laval: $32 per 25 lb bag, $15 delivery from 1 bag, or free pickup.
+- Q: How much is delivery in Vimont? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Do you deliver to a home address? A: Yes, to any address you choose: home, office, warehouse or job site. Delivery in Laval is $15 per order, from 1 bag.
+- Q: How many bags for a team of technicians? A: Start with one bag per truck, note how many weeks it lasts, then use our calculator to plan a monthly order.
+
+### Rags and shop rags in Fabreville
+URL: https://entretienlaval.ca/en/rags-fabreville/
+Recycled rags for vehicle fleets, snow removal and equipment maintenance in Fabreville, Laval: $32 per 25 lb bag, $15 delivery or free pickup.
+- Q: How much is delivery in Fabreville? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Can I order more than 10 bags? A: Online, an order holds up to 10 bags. Beyond that, request a quote or email info@entretienlaval.ca.
+- Q: Is there a volume price? A: Yes, the distributor price from 50 bags: $28 coloured and $38 white per 25 lb bag, before tax, pickup only in Laval.
+
+### Rags and shop rags in Duvernay
+URL: https://entretienlaval.ca/en/rags-duvernay/
+Recycled rags for schools, non-profits, residences and buildings in Duvernay, Laval: 25 lb bag from $32, $15 delivery from 1 bag, invoice with tax.
+- Q: How much is delivery in Duvernay? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Will our organization get an invoice? A: Yes, a registered business invoice with GST and QST (NEQ 2280629637).
+- Q: Are the rags clean enough for a school? A: They are washed in hot water and heat-treated, with no buttons or zippers. They are cleaning rags, not food cloths.
+
+### Rags and shop rags in Auteuil
+URL: https://entretienlaval.ca/en/rags-auteuil/
+Recycled cotton rags for car detailing, car washes and garages in Auteuil, Laval: white $42, coloured $32 per 25 lb bag, $15 delivery.
+- Q: How much is delivery in Auteuil? A: $15 per order, from 1 bag, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Do the rags replace microfiber? A: Not on paint. They replace microfiber for wheels, engines, door jambs and big messes, where it wears out fast.
+- Q: Which rag for car windows? A: White T-shirt rags, clean and dry for the final wipe. Skip fabric softener when you wash them: it streaks.
+
+### Rags and shop rags in Repentigny
+URL: https://entretienlaval.ca/en/rags-repentigny/
+Recycled rags delivered in Repentigny and Le Gardeur: 25 lb bag, coloured T-shirt $32 or white $42, $35 delivery from 2 bags, or pickup in Laval.
+- Q: How much is delivery in Repentigny? A: $35 per order, minimum 2 bags, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Do you deliver to the Le Gardeur sector? A: Yes, Le Gardeur is part of Repentigny and of our North Shore zone, on the same terms.
+- Q: I only need one bag, what can I do? A: North Shore delivery starts at 2 bags. For a single bag, pickup is free at 1355 boul. Le Corbusier, Laval.
+
+### Rags and shop rags in Mascouche
+URL: https://entretienlaval.ca/en/rags-mascouche/
+Recycled rags for job sites, excavation, trucking and farms in Mascouche: $32 per 25 lb bag, $35 delivery from 2 bags, or free pickup in Laval.
+- Q: How much is delivery in Mascouche? A: $35 per order, minimum 2 bags, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Can you deliver straight to a Mascouche job site? A: Yes, to any address in the North Shore zone: $35 per order, from 2 bags. Add receiving hours in the instructions.
+- Q: Is Mascouche covered with Terrebonne? A: Yes, see our Terrebonne page too. Mascouche has the same North Shore delivery terms.
+
+### Rags and shop rags in Saint-Eustache
+URL: https://entretienlaval.ca/en/rags-saint-eustache/
+Recycled shop rags for machining, fabrication and garages in Saint-Eustache: 25 lb bag from $32, $35 delivery from 2 bags, or pickup in Laval.
+- Q: How much is delivery in Saint-Eustache? A: $35 per order, minimum 2 bags, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Do you deliver to Deux-Montagnes too? A: Yes, Deux-Montagnes is also in our North Shore zone: $35 per order, from 2 bags.
+- Q: Which rag for cutting oil on finished parts? A: White T-shirt rags, with no dye transfer. Terry is out of stock for now.
+
+### Rags and shop rags in Rosemère
+URL: https://entretienlaval.ca/en/rags-rosemere/
+Recycled rags for restaurants, shops and cleaning companies in Rosemère: 25 lb bag, coloured $32 or white $42, $35 delivery from 2 bags.
+- Q: How much is delivery in Rosemère? A: $35 per order, minimum 2 bags, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Can these rags be used on kitchen counters? A: For food-contact surfaces, use dedicated cloths under MAPAQ rules. Our rags are for cleaning: grease, floors, equipment, stainless steel.
+- Q: Can I mix coloured and white to reach 2 bags? A: Yes, the 2-bag minimum applies to the order total.
+
+### Rags and shop rags in Brossard
+URL: https://entretienlaval.ca/en/rags-brossard/
+Recycled rags delivered in Brossard: DIX30 restaurants, garages, cleaning crews. 25 lb bag from $32, $35 delivery from 2 bags, or pickup in Laval.
+- Q: How much is delivery in Brossard? A: $35 per order, minimum 2 bags, before tax. Delivered within 1 to 3 business days of payment, or free pickup at 1355 boul. Le Corbusier, Laval.
+- Q: Is Brossard in the South Shore zone? A: Yes: $35 delivery per order, from 2 bags, within 1 to 3 business days of payment. The form checks your postal code.
+- Q: Do you also deliver to Longueuil and Saint-Lambert? A: Yes, on the same South Shore terms. See our Longueuil page too.
 
 ### Order rags online
 URL: https://entretienlaval.ca/en/order/
@@ -1079,9 +1367,9 @@ Order recycled rags online: 25 lb bags from $32, delivered in Laval, Montréal a
 
 ## FAQ
 - Q: Where can I buy rags in bulk in Laval? A: From Entretien Laval (ECO Rags): recycled cotton wiping rags and shop rags, washed and heat-treated against bedbugs, in 25 lb bags. $32 coloured, $42 white, before tax. Delivery in Laval from 1 bag ($15), Montréal from 2 bags ($25), pickup in Laval available. See wholesale rags.
-- Q: How much does a 25 lb bag of rags cost? A: $32 per 25 lb bag for coloured rags (T-shirt or terry) and $42 for white (T-shirt or terry), before tax. Delivery is extra and depends on your location. See products.
-- Q: What's in a 25 lb bag? A: 25 lb of recycled cotton rags of a single type: T-shirt or terry, white or coloured. The rags are washed, sorted and heat-treated against bedbugs.
-- Q: What's the difference between terry and T-shirt rags? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thick and absorbs more: ideal for oil, grease and big spills.
+- Q: How much does a 25 lb bag of rags cost? A: $32 per 25 lb bag for coloured T-shirt rags and $42 for white T-shirt rags, before tax (terry: out of stock for now). Delivery is extra and depends on your location. See products.
+- Q: What's in a 25 lb bag? A: 25 lb of recycled cotton rags of a single type: white or coloured T-shirt (terry: out of stock for now). The rags are washed, sorted and heat-treated against bedbugs.
+- Q: What's the difference between terry and T-shirt rags? A: T-shirt (jersey) is thin, soft and flexible: ideal for general use, hands and delicate surfaces. Terry (towel cloth) is thicker. Terry: out of stock for now; use coloured or white T-shirt rags instead.
 - Q: White or coloured? A: White doesn't transfer color: for painting, finishing, varnish and light surfaces. Coloured costs less and suits everyday wiping in garages, shops and job sites.
 - Q: Do you deliver? Where? A: Yes, to your address: Laval, Montréal, Longueuil, Terrebonne, Blainville, Boisbriand and the rest of Greater Montreal. Elsewhere in Québec we deliver from 1,000 lb per delivery. The fee depends on the location. See delivery.
 - Q: Do you ship elsewhere in Canada? A: Yes, to distributors only: 50-bag minimum at $28 coloured and $38 white, freight quoted per order. See rag supplier in Canada.

@@ -296,7 +296,8 @@ def gloss(t):
 
 def calc_html(t, lang):
     x = t["tool"]
-    opts = "".join(f'<option value="{p["price"]}">{p[lang][0]} – {price(p["price"], lang)}</option>' for p in C.PRODUCTS)
+    oos_lbl = " – en rupture de stock pour le moment" if lang == "fr" else " – out of stock for now"
+    opts = "".join((f'<option disabled>{p[lang][0]}{oos_lbl}</option>' if p["id"] in OOS else f'<option value="{p["price"]}">{p[lang][0]} – {price(p["price"], lang)}</option>') for p in C.PRODUCTS)
     h = f"""<section class="section"><div class="wrap"><form class="calc" id="calc" onsubmit="return false">
 <div class="row"><div><label for="c-lbw">{x['lbw']}</label><input id="c-lbw" type="number" min="1" step="1" value="25" inputmode="numeric"></div>
 <div><label for="c-prod">{x['prod']}</label><select id="c-prod">{opts}</select></div>
@@ -404,7 +405,8 @@ def homepage(lang):
     cities = "".join(f'<a href="{L(k, lang)}">{C.PAGES[k][lang]["short"]}</a>' for k in C.CITY_KEYS) + f'<span>{"Partout au Québec (1 000 lb +)" if lang == "fr" else "Anywhere in Québec (1,000 lb +)"}</span>' + f'<span>{"Ramassage gratuit à Laval" if lang == "fr" else "Free pickup in Laval"}</span>'
     delivery = f'<section class="section band" id="livraison"><div class="wrap"><div class="sec-head" style="margin-bottom:10px"><div class="eyebrow">{h["del_eyebrow"]}</div><h2>{h["del_h2"]}</h2><p>{h["del_p"]}</p></div><div class="cities">{cities}</div><p style="margin-top:22px"><a class="btn btn-ghost" href="{L("livraison", lang)}">{h["del_link"]}</a></p></div></section>'
     faq = f'<section class="section" id="faq"><div class="wrap"><div class="sec-head"><div class="eyebrow">{h["faq_eyebrow"]}</div><h2>{h["faq_h2"]}</h2></div>{faq_html(C.FAQ[lang][:6], lang)}<p style="margin-top:22px"><a class="btn btn-ghost" href="{L("faq", lang)}">{u["see_all_faq"]}</a></p></div></section>'
-    opts = "".join(f"<option>{p[lang][0]}</option>" for p in C.PRODUCTS) + f'<option>{h["f_any"]}</option>'
+    oos_lbl = " – en rupture de stock pour le moment" if lang == "fr" else " – out of stock for now"
+    opts = "".join((f"<option disabled>{p[lang][0]}{oos_lbl}</option>" if p["id"] in OOS else f"<option>{p[lang][0]}</option>") for p in C.PRODUCTS) + f'<option>{h["f_any"]}</option>'
     form = f"""<form class="qform" name="soumission" method="POST" action="{L('merci', lang)}" data-netlify="true" netlify-honeypot="bot-field">
 <input type="hidden" name="form-name" value="soumission"><input type="hidden" name="langue" value="{lang}">
 <p class="hp" aria-hidden="true"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>

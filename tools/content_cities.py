@@ -1,50 +1,60 @@
-"""City / delivery-area pages. Each page has its own local details; the delivery terms come from the quote the user supplied."""
+"""City / delivery-area pages. Each page has its own local details.
+
+Pages with a "zone" key are inside an online delivery zone: their fee and minimum are read from
+content_order.CHECKOUT, so they always match the checkout. Other pages keep the bulk (1,000 lb) terms."""
+import content_order as O
+
+ZONES = {z["id"]: z for z in O.CHECKOUT["zones"]}
+ZONE_NAME = {"laval": ("Laval", "Laval"), "montreal": ("Montréal", "Montréal"), "rive-sud": ("Rive-Sud", "South Shore"), "rive-nord": ("Rive-Nord", "North Shore")}
+TERRY_FR = "Ratine : en rupture de stock pour le moment."
+TERRY_EN = "Terry: out of stock for now."
+
 BAG, BAGS, BALE = "sac-chiffons-t-shirt-couleur-25-lb.webp", "sacs-chiffons-couleur-25-lb.webp", "balle-compressee-de-chiffons-eco-en-textiles-recyc.webp"
 
 C = [
- dict(key="ville-laval", name="Laval", fr="/chiffons-guenilles-laval/", en="/en/rags-laval/", core=True, img=BAG,
+ dict(zone="laval", key="ville-laval", name="Laval", fr="/chiffons-guenilles-laval/", en="/en/rags-laval/", core=True, img=BAG,
   hoods=["Chomedey", "Laval-des-Rapides", "Pont-Viau", "Vimont", "Auteuil", "Sainte-Rose", "Fabreville", "Sainte-Dorothée", "Duvernay", "Saint-François", "Saint-Vincent-de-Paul", "Laval-Ouest"],
   intro_fr="Nos chiffons sont triés et emballés ici même, à Laval. C'est notre secteur principal : les garages, ateliers, chantiers et entreprises d'entretien de l'île Jésus sont nos voisins.",
   intro_en="Our rags are sorted and packed right here in Laval. It's our home area: garages, workshops, job sites and cleaning companies on Île Jésus are our neighbours.",
   ind_fr="garages et concessionnaires, ateliers de fabrication, entrepreneurs en construction, entreprises de ménage et gestionnaires d'immeubles",
   ind_en="garages and dealerships, fabrication shops, contractors, cleaning companies and property managers",
   rel=["garage", "entretien", "ville-montreal"]),
- dict(key="ville-montreal", name="Montréal", fr="/chiffons-guenilles-montreal/", en="/en/rags-montreal/", core=True, img=BAGS,
+ dict(zone="montreal", key="ville-montreal", name="Montréal", fr="/chiffons-guenilles-montreal/", en="/en/rags-montreal/", core=True, img=BAGS,
   hoods=["Saint-Laurent", "Ahuntsic-Cartierville", "Montréal-Nord", "Rivière-des-Prairies–Pointe-aux-Trembles", "Anjou", "Saint-Léonard", "Mercier–Hochelaga-Maisonneuve", "Rosemont–La Petite-Patrie", "Villeray–Saint-Michel–Parc-Extension", "Lachine", "LaSalle", "Le Sud-Ouest", "Montréal-Est", "Dorval et Pointe-Claire"],
   intro_fr="Montréal est à quelques minutes de Laval, où nous trions et emballons nos chiffons. Nous livrons partout sur l'île, des secteurs industriels de Saint-Laurent et d'Anjou jusqu'aux restaurants du centre.",
   intro_en="Montréal is minutes from Laval, where we sort and pack our rags. We deliver across the island, from the industrial areas of Saint-Laurent and Anjou to downtown restaurants.",
   ind_fr="garages, imprimeries, restaurants, ateliers de fabrication, entreprises de ménage commercial et distributeurs",
   ind_en="garages, print shops, restaurants, fabrication shops, commercial cleaning companies and distributors",
   rel=["restauration", "industrie", "ville-laval"]),
- dict(key="ville-longueuil", name="Longueuil", fr="/chiffons-guenilles-longueuil/", en="/en/rags-longueuil/", core=False, img=BALE,
+ dict(zone="rive-sud", key="ville-longueuil", name="Longueuil", fr="/chiffons-guenilles-longueuil/", en="/en/rags-longueuil/", core=False, img=BALE,
   hoods=["Le Vieux-Longueuil", "Saint-Hubert", "Greenfield Park", "LeMoyne"],
   intro_fr="De l'autre côté du fleuve, Longueuil compte beaucoup de garages, d'ateliers et d'entreprises de services. Nous y livrons nos sacs de 25 lb à l'adresse de votre entreprise.",
   intro_en="Across the river, Longueuil has many garages, workshops and service businesses. We deliver our 25 lb bags to your business address.",
   ind_fr="garages, ateliers d'entretien de véhicules et d'équipement, entrepreneurs et entreprises d'entretien",
   ind_en="garages, vehicle and equipment maintenance shops, contractors and cleaning companies",
   rel=["ville-rive-sud", "garage", "gros"]),
- dict(key="ville-terrebonne", name="Terrebonne", fr="/chiffons-guenilles-terrebonne/", en="/en/rags-terrebonne/", core=False, img=BAG,
+ dict(zone="rive-nord", key="ville-terrebonne", name="Terrebonne", fr="/chiffons-guenilles-terrebonne/", en="/en/rags-terrebonne/", core=False, img=BAG,
   hoods=["Terrebonne", "Lachenaie", "La Plaine", "Mascouche"],
   intro_fr="Terrebonne et le secteur Lachenaie sont à courte distance de Laval par l'autoroute 25. Nous y livrons les entreprises qui utilisent des chiffons chaque jour.",
   intro_en="Terrebonne and the Lachenaie area are a short drive from Laval along Highway 25. We deliver to businesses that go through rags every day.",
   ind_fr="garages, entrepreneurs en construction et en rénovation, ateliers et entreprises de transport",
   ind_en="garages, construction and renovation contractors, workshops and trucking companies",
   rel=["construction", "ville-rive-nord", "couleur"]),
- dict(key="ville-blainville", name="Blainville et Boisbriand", fr="/chiffons-guenilles-blainville-boisbriand/", en="/en/rags-blainville-boisbriand/", core=False, img=BAGS,
+ dict(zone="rive-nord", key="ville-blainville", name="Blainville et Boisbriand", fr="/chiffons-guenilles-blainville-boisbriand/", en="/en/rags-blainville-boisbriand/", core=False, img=BAGS,
   hoods=["Blainville", "Boisbriand", "Sainte-Thérèse", "Rosemère", "Lorraine", "Bois-des-Filion"],
   intro_fr="Blainville, Boisbriand et Sainte-Thérèse sont juste au nord de Laval, de l'autre côté de la rivière des Mille Îles. Leurs zones industrielles et commerciales utilisent beaucoup de chiffons d'atelier.",
   intro_en="Blainville, Boisbriand and Sainte-Thérèse sit just north of Laval, across the Rivière des Mille Îles. Their industrial and commercial areas use a lot of shop rags.",
   ind_fr="usines et ateliers, garages, entreprises de peinture et de finition, et services d'entretien",
   ind_en="plants and workshops, garages, painting and finishing companies, and maintenance services",
   rel=["usinage", "peinture", "ville-rive-nord"]),
- dict(key="ville-rive-nord", name="la Rive-Nord", fr="/chiffons-guenilles-rive-nord/", en="/en/rags-north-shore/", core=False, img=BALE, name_en="the North Shore",
+ dict(zone="rive-nord", partial=True, key="ville-rive-nord", name="la Rive-Nord", fr="/chiffons-guenilles-rive-nord/", en="/en/rags-north-shore/", core=False, img=BALE, name_en="the North Shore",
   hoods=["Saint-Eustache", "Deux-Montagnes", "Mirabel", "Saint-Jérôme", "Repentigny", "L'Assomption", "Mascouche"],
   intro_fr="De Saint-Eustache à Repentigny, en passant par Mirabel et Saint-Jérôme, nous livrons la couronne nord de Montréal.",
   intro_en="From Saint-Eustache to Repentigny, including Mirabel and Saint-Jérôme, we deliver across Montreal's North Shore.",
   ind_fr="garages, fermes et entreprises de machinerie, ateliers de fabrication et entrepreneurs",
   ind_en="garages, farms and equipment dealers, fabrication shops and contractors",
   rel=["agriculture", "ville-terrebonne", "ville-blainville"]),
- dict(key="ville-rive-sud", name="la Rive-Sud", fr="/chiffons-guenilles-rive-sud/", en="/en/rags-south-shore/", core=False, img=BAG, name_en="the South Shore",
+ dict(zone="rive-sud", partial=True, key="ville-rive-sud", name="la Rive-Sud", fr="/chiffons-guenilles-rive-sud/", en="/en/rags-south-shore/", core=False, img=BAG, name_en="the South Shore",
   hoods=["Brossard", "Boucherville", "Saint-Lambert", "La Prairie", "Candiac", "Châteauguay", "Saint-Bruno-de-Montarville", "Varennes", "Sainte-Julie"],
   intro_fr="Brossard, Boucherville, La Prairie, Châteauguay : la Rive-Sud compte de grands parcs industriels, comme celui de Boucherville. Nous y livrons nos chiffons recyclés.",
   intro_en="Brossard, Boucherville, La Prairie, Châteauguay: the South Shore has large industrial parks, such as Boucherville's. We deliver our recycled rags there.",
@@ -144,8 +154,12 @@ C = [
   rel=["soudure", "usinage", "gros"]),
  dict(key="ville-saint-jerome", name="Saint-Jérôme et Mirabel", fr="/chiffons-guenilles-saint-jerome-mirabel/", en="/en/rags-saint-jerome-mirabel/", core=False, img=BAG, far=False, dist=45,
   hoods=["Saint-Jérôme", "Mirabel", "Saint-Janvier", "Saint-Colomban", "Prévost", "Sainte-Sophie"],
-  intro_fr="Saint-Jérôme et Mirabel sont à environ 45 km au nord de Laval par l'autoroute 15. Leurs parcs industriels, autour de l'aéroport de Mirabel et le long de l'autoroute, comptent beaucoup d'ateliers et de garages. Mirabel (codes postaux J7J) fait partie de notre zone Rive-Nord : commande en ligne dès 2 sacs, livraison 35 $. Saint-Jérôme et les autres villes : à partir de 1 000 lb.",
-  intro_en="Saint-Jérôme and Mirabel are about 45 km north of Laval on Highway 15. Their industrial parks, around Mirabel airport and along the highway, have many shops and garages. Mirabel (J7J postal codes) is in our North Shore zone: order online from 2 bags, $35 delivery. Saint-Jérôme and the other towns: from 1,000 lb.",
+  intro_fr="Saint-Jérôme et Mirabel sont à environ 45 km au nord de Laval par l'autoroute 15. Leurs parcs industriels, autour de l'aéroport de Mirabel et le long de l'autoroute, comptent beaucoup d'ateliers et de garages. Mirabel (codes postaux J7J) fait partie de notre zone Rive-Nord : commande en ligne dès " + str(ZONES["rive-nord"]["min_bags"]) + " sacs, livraison " + str(ZONES["rive-nord"]["fee"]) + " $. Saint-Jérôme et les autres villes : à partir de 1 000 lb.",
+  intro_en="Saint-Jérôme and Mirabel are about 45 km north of Laval on Highway 15. Their industrial parks, around Mirabel airport and along the highway, have many shops and garages. Mirabel (J7J postal codes) is in our North Shore zone: order online from " + str(ZONES["rive-nord"]["min_bags"]) + " bags, $" + str(ZONES["rive-nord"]["fee"]) + " delivery. Saint-Jérôme and the other towns: from 1,000 lb.",
+  terms_fr="Mirabel (codes postaux J7J) : livraison " + str(ZONES["rive-nord"]["fee"]) + " $ par commande, dès " + str(ZONES["rive-nord"]["min_bags"]) + " sacs, en <a href=\"{{commander}}\">commandant en ligne</a>. Saint-Jérôme et les autres villes : livraison à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés, frais indiqués dans votre soumission.",
+  fee_fr="Mirabel : " + str(ZONES["rive-nord"]["fee"]) + " $ dès " + str(ZONES["rive-nord"]["min_bags"]) + " sacs.",
+  fee_en="Mirabel: $" + str(ZONES["rive-nord"]["fee"]) + " from " + str(ZONES["rive-nord"]["min_bags"]) + " bags.",
+  terms_en="Mirabel (J7J postal codes): $" + str(ZONES["rive-nord"]["fee"]) + " delivery per order, from " + str(ZONES["rive-nord"]["min_bags"]) + " bags, when you <a href=\"{{commander}}\">order online</a>. Saint-Jérôme and the other towns: delivery from 1,000 lb (40 bags of 25 lb), mixed products welcome, fees shown in your quote.",
   ind_fr="garages, entreprises de transport, ateliers d'usinage, usines et entrepreneurs",
   ind_en="garages, trucking companies, machine shops, plants and contractors",
   rel=["camions", "ville-rive-nord", "garage"]),
@@ -164,12 +178,41 @@ def _page(d):
     n = d["name"]; ne = d.get("name_en", n); core = d["core"]
     a_fr = "à " + n if not n.startswith("la ") else "sur " + n
     a_en = "in " + ne
-    if core:
+    z = ZONES.get(d.get("zone"))
+    if z:
+        zn_fr, zn_en = ZONE_NAME[z["id"]]
+        mn_fr = "dès 1 sac" if z["min_bags"] <= 1 else f"dès {z['min_bags']} sacs"
+        mn_en = "from 1 bag" if z["min_bags"] <= 1 else f"from {z['min_bags']} bags"
+        out_fr = (" Pour une adresse hors de ces villes, <a href=\"{{home#devis}}\">contactez-nous</a>." if d.get("partial") else "")
+        out_en = (" For an address outside these towns, <a href=\"{{home#devis}}\">contact us</a>." if d.get("partial") else "")
+        terms_fr = (f"Livraison {a_fr} : <b>{z['fee']} $ par commande, {mn_fr}</b>, avant taxes. <a href=\"{{{{commander}}}}\">Commandez en ligne</a> et payez par PayPal ou carte, "
+                    f"ou choisissez le ramassage gratuit à Laval. Zone {zn_fr} : {z['fr']}.{out_fr}")
+        terms_en = (f"Delivery {a_en}: <b>${z['fee']} per order, {mn_en}</b>, before tax. <a href=\"{{{{commander}}}}\">Order online</a> and pay with PayPal or card, "
+                    f"or choose free pickup in Laval. {zn_en} zone: {z['en']}.{out_en}")
+        fee_fr, fee_en = f"Livraison {z['fee']} $ {mn_fr}.", f"Delivery ${z['fee']} {mn_en}."
+        cost_fr = f"{z['fee']} $ par commande avant taxes, {mn_fr}, pour une adresse de la zone {zn_fr} ({z['fr']}). Le ramassage à Laval est gratuit." + out_fr
+        cost_en = f"${z['fee']} per order before tax, {mn_en}, for an address in the {zn_en} zone ({z['en']}). Pickup in Laval is free." + out_en
+    elif "terms_fr" in d:
+        terms_fr, terms_en = d["terms_fr"], d["terms_en"]
+    elif core:
         terms_fr = f"Les frais et les conditions de livraison {a_fr} dépendent de votre adresse et de la quantité. Ils sont indiqués dans votre soumission."
         terms_en = f"Delivery fees and terms {a_en} depend on your address and quantity. They're shown in your quote."
     else:
         terms_fr = f"Livraison {a_fr} à partir de 1 000 lb (40 sacs de 25 lb), produits mélangés acceptés. Les frais dépendent de la distance et sont indiqués dans votre soumission."
         terms_en = f"Delivery {a_en} from 1,000 lb (40 bags of 25 lb), mixed products welcome. Fees depend on distance and are shown in your quote."
+    if not z:
+        cost_fr = f"Les frais de livraison {a_fr} dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande."
+        cost_en = f"Delivery fees {a_en} depend on the exact address and quantity. They're shown in the quote, before you order."
+        if "terms_fr" in d:
+            fee_fr, fee_en = d["fee_fr"], d["fee_en"]
+        elif core:
+            fee_fr, fee_en = "", ""
+        else:
+            fee_fr, fee_en = "Minimum 1 000 lb.", "1,000 lb minimum."
+    card_fr = fee_fr or "Livraison selon votre adresse."
+    card_en = fee_en or "Delivery based on your address."
+    order_fr = "<a href=\"{{commander}}\">Commandez en ligne</a>, ou d" if z else "D"
+    order_en = "<a href=\"{{commander}}\">Order online</a>, or r" if z else "R"
     towns = [h for h in d["hoods"] if h[0].isupper()]
     hoods_fr, hoods_en = _lst(d["hoods"], "et"), _lst(towns, "and")
     body = lambda lang: (f"""<h2>Livraison {a_fr}</h2>
@@ -180,10 +223,11 @@ def _page(d):
 <h2>Pour quelles entreprises</h2>
 <p>Nos chiffons servent aux {d['ind_fr']}. Voir nos pages <a href="{{{{garage}}}}">garages</a>, <a href="{{{{entretien}}}}">entretien ménager</a>, <a href="{{{{construction}}}}">chantiers</a> et <a href="{{{{industrie}}}}">industrie</a>.</p>
 <h2>Nos chiffons et nos prix</h2>
-<ul><li><a href="{{{{couleur}}}}">T-shirt ou ratine couleur</a> : 32 $ le [pack], pour l'huile, la graisse et l'usage général.</li>
-<li><a href="{{{{blancs}}}}">T-shirt ou ratine blanc</a> : 42 $ le [pack], sans transfert de couleur, pour la finition et la peinture.</li></ul>
+<ul><li><a href="{{{{couleur}}}}">T-shirt couleur</a> : 32 $ le [pack], pour l'huile, la graisse et l'usage général.</li>
+<li><a href="{{{{blancs}}}}">T-shirt blanc</a> : 42 $ le [pack], sans transfert de couleur, pour la finition et la peinture.</li>
+<li>{TERRY_FR}</li></ul>
 <h2>Commander</h2>
-<p>Demandez une <a href="{{{{home#devis}}}}">soumission en ligne</a>, appelez le 438-831-3611 ou écrivez à info@entretienlaval.ca. Indiquez votre adresse {a_fr} et la quantité souhaitée.</p>""" if lang == "fr" else f"""<h2>Delivery {a_en}</h2>
+<p>{order_fr}emandez une <a href="{{{{home#devis}}}}">soumission en ligne</a>, appelez le 438-831-3611 ou écrivez à info@entretienlaval.ca. Indiquez votre adresse {a_fr} et la quantité souhaitée.</p>""" if lang == "fr" else f"""<h2>Delivery {a_en}</h2>
 <p>{d['intro_en']}</p>
 <p>{terms_en}</p>
 <h2>Areas we serve</h2>
@@ -191,32 +235,33 @@ def _page(d):
 <h2>Who uses our rags</h2>
 <p>Our rags are used by {d['ind_en']}. See our pages for <a href="{{{{garage}}}}">garages</a>, <a href="{{{{entretien}}}}">janitorial</a>, <a href="{{{{construction}}}}">job sites</a> and <a href="{{{{industrie}}}}">industry</a>.</p>
 <h2>Our rags and prices</h2>
-<ul><li><a href="{{{{couleur}}}}">Coloured T-shirt or terry</a>: $32 per [pack], for oil, grease and general use.</li>
-<li><a href="{{{{blancs}}}}">White T-shirt or terry</a>: $42 per [pack], no colour transfer, for finishing and painting.</li></ul>
+<ul><li><a href="{{{{couleur}}}}">Coloured T-shirt</a>: $32 per [pack], for oil, grease and general use.</li>
+<li><a href="{{{{blancs}}}}">White T-shirt</a>: $42 per [pack], no colour transfer, for finishing and painting.</li>
+<li>{TERRY_EN}</li></ul>
 <h2>How to order</h2>
-<p>Request a <a href="{{{{home#devis}}}}">quote online</a>, call 438-831-3611 or email info@entretienlaval.ca. Include your address {a_en} and the quantity you need.</p>""")
+<p>{order_en}equest a <a href="{{{{home#devis}}}}">quote online</a>, call 438-831-3611 or email info@entretienlaval.ca. Include your address {a_en} and the quantity you need.</p>""")
     lab_fr = "Guenilles et chiffons " + ("à " + n if not n.startswith("la ") else "sur " + n)
-    return {"kind": "city", "img": d["img"], "rel": d["rel"], "city": n, "city_en": ne, "core": core,
+    return {"kind": "city", "img": d["img"], "rel": d["rel"], "city": n, "city_en": ne, "core": core, "zone": d.get("zone"),
      "fr": {"path": d["fr"], "short": n[0].upper() + n[1:],
       "title": (f"Chiffons d'essuyage et guenilles {a_fr} – livraison" if len(n) < 20 else f"Chiffons d'essuyage et guenilles {a_fr}"),
-      "desc": f"Guenilles et chiffons d'essuyage recyclés livrés {a_fr} : t-shirt ou ratine, couleur ou blanc, dès 32 $ le sac de 25 lb." + ("" if core else " Minimum 1 000 lb."),
+      "desc": f"Guenilles et chiffons d'essuyage recyclés livrés {a_fr} : t-shirt couleur ou blanc, dès 32 $ le sac de 25 lb. " + fee_fr,
       "eyebrow": "Livraison · " + n, "h1": lab_fr,
       "lede": f"Chiffons de coton recyclé, lavés, triés et traités à la chaleur contre les punaises, livrés {a_fr} en [packs].",
-      "card": ("Livraison selon votre adresse." if core else "Livraison à partir de 1 000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
+      "card": card_fr + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"Sac de chiffons recyclés de 25 lb livré {a_fr}", "body": body("fr"),
       "faq": [(f"Livrez-vous {a_fr}?", f"Oui. Nous livrons {a_fr}, notamment à {_lst(towns[:6], 'et')}. {terms_fr}"),
-              (f"Combien coûte la livraison {a_fr}?", f"Les frais de livraison {a_fr} dépendent de l'adresse exacte et de la quantité. Ils sont indiqués dans la soumission, avant toute commande."),
-              (f"Quel chiffon choisir pour une entreprise {a_fr}?", "Le t-shirt couleur (32 $ le [pack]) convient à la plupart des usages. La ratine retient plus d'huile et de liquide. Le blanc (42 $) évite le transfert de couleur pour la peinture et la finition.")]},
+              (f"Combien coûte la livraison {a_fr}?", cost_fr),
+              (f"Quel chiffon choisir pour une entreprise {a_fr}?", "Le t-shirt couleur (32 $ le [pack]) convient à la plupart des usages, y compris l'huile et la graisse. Le t-shirt blanc (42 $) évite le transfert de couleur pour la peinture et la finition. " + TERRY_FR)]},
      "en": {"path": d["en"], "short": ne[0].upper() + ne[1:],
       "title": f"Wiping rags and shop rags {a_en} – delivery",
-      "desc": f"Recycled wiping rags and shop rags delivered {a_en}: T-shirt or terry, coloured or white, from $32 per 25 lb bag." + ("" if core else " 1,000 lb minimum."),
+      "desc": f"Recycled wiping rags and shop rags delivered {a_en}: coloured or white T-shirt rags, from $32 per 25 lb bag. " + fee_en,
       "eyebrow": "Delivery · " + ne.replace("the ", "").title() if ne.startswith("the ") else "Delivery · " + ne, "h1": f"Rags and shop rags {a_en}",
       "lede": f"Recycled cotton rags, washed, sorted and heat-treated against bedbugs, delivered {a_en} in [packs].",
-      "card": ("Delivery based on your address." if core else "Delivery from 1,000 lb.") + " " + ", ".join(d["hoods"][:3]) + "…",
+      "card": card_en + " " + ", ".join(d["hoods"][:3]) + "…",
       "alt": f"25 lb bag of recycled rags delivered {a_en}", "body": body("en"),
       "faq": [(f"Do you deliver {a_en}?", f"Yes. We deliver {a_en}, including {_lst(towns[:6], 'and')}. {terms_en}"),
-              (f"How much is delivery {a_en}?", f"Delivery fees {a_en} depend on the exact address and quantity. They're shown in the quote, before you order."),
-              (f"Which rag should a business {a_en} choose?", "Coloured T-shirt rags ($32 per [pack]) suit most uses. Terry holds more oil and liquid. White rags ($42) avoid colour transfer for painting and finishing.")]}}
+              (f"How much is delivery {a_en}?", cost_en),
+              (f"Which rag should a business {a_en} choose?", "Coloured T-shirt rags ($32 per [pack]) suit most uses, oil and grease included. White T-shirt rags ($42) avoid colour transfer for painting and finishing. " + TERRY_EN)]}}
 
 CITY_PAGES = {d["key"]: _page(d) for d in C}
 CITY_KEYS = list(CITY_PAGES)

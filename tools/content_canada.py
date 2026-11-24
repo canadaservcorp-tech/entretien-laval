@@ -16,8 +16,9 @@ P["canada"] = {"kind": "sector", "img": WARE, "rel": ["gros", "guide-lingettes",
 <p>Distributeurs de produits sanitaires et d'entretien, fournisseurs industriels, de sécurité, de peinture et de soudage, quincailleries et centres de location situés ailleurs au Canada : {PROV_FR}. Hors Québec, nous vendons <b>aux distributeurs seulement</b>, pas aux utilisateurs finaux.</p>
 <h2>Produits</h2>
 <p>Chiffons d'essuyage (guenilles) en tissu de coton recyclé, lavés à l'eau chaude, triés, coupés et traités à la chaleur contre les punaises de lit, sans boutons ni fermetures éclair, emballés à Laval en sacs de 25 lb :</p>
-<ul><li>T-shirt ou ratine de couleur : <b>28 $ le sac</b> (environ 1,12 $ la livre)</li>
-<li>T-shirt ou ratine blanc : <b>38 $ le sac</b> (environ 1,52 $ la livre)</li></ul>
+<ul><li>T-shirt couleur : <b>28 $ le sac</b> (environ 1,12 $ la livre)</li>
+<li>T-shirt blanc : <b>38 $ le sac</b> (environ 1,52 $ la livre)</li>
+<li>Ratine : en rupture de stock pour le moment.</li></ul>
 <h2>Conditions hors Québec</h2>
 <ul><li><b>Minimum</b> : 50 sacs de 25 lb (1 250 lb) par commande; produits mélangés acceptés.</li>
 <li><b>Prix</b> : 28 $ couleur, 38 $ blanc par sac, avant taxes.</li>
@@ -41,8 +42,9 @@ P["canada"] = {"kind": "sector", "img": WARE, "rel": ["gros", "guide-lingettes",
 <p>Janitorial and sanitation distributors, industrial, safety, paint and welding suppliers, hardware stores and rental centres elsewhere in Canada: {PROV_EN}. Outside Québec we sell <b>to distributors only</b>, not to end users.</p>
 <h2>Products</h2>
 <p>Recycled cotton cloth wiping rags (shop rags), hot-water washed, sorted, cut and heat-treated against bedbugs, with no buttons or zippers, packed in Laval in 25 lb bags:</p>
-<ul><li>Coloured T-shirt or terry: <b>$28 per bag</b> (about $1.12 per lb)</li>
-<li>White T-shirt or terry: <b>$38 per bag</b> (about $1.52 per lb)</li></ul>
+<ul><li>Coloured T-shirt: <b>$28 per bag</b> (about $1.12 per lb)</li>
+<li>White T-shirt: <b>$38 per bag</b> (about $1.52 per lb)</li>
+<li>Terry: out of stock for now.</li></ul>
 <h2>Terms outside Québec</h2>
 <ul><li><b>Minimum</b>: 50 bags of 25 lb (1,250 lb) per order; mixed products accepted.</li>
 <li><b>Price</b>: $28 coloured, $38 white per bag, before tax.</li>
@@ -66,7 +68,7 @@ P["guide-lingettes"] = {"kind": "guide", "img": BAGS, "rel": ["guide-papier", "c
   "body": """<h2>La différence</h2>
 <p>Une lingette de nettoyage est un non-tissé jetable, souvent humidifié d'un produit. Un chiffon d'essuyage recyclé est un morceau de vrai tissu de coton (t-shirt ou ratine) récupéré, lavé et coupé.</p>
 <h2>Quand le chiffon est le meilleur choix</h2>
-<ul><li><b>Huile, graisse, liquides</b> : le coton, surtout la ratine, absorbe beaucoup.</li>
+<ul><li><b>Huile, graisse, liquides</b> : le coton absorbe beaucoup (ratine : en rupture de stock pour le moment).</li>
 <li><b>Gros volumes</b> : en sac de 25 lb, vous payez au poids, environ 1,28 $ la livre en couleur (32 $ le sac avant taxes).</li>
 <li><b>Moins de déchets</b> : les textiles récupérés évitent l'enfouissement, et un chiffon peu sale se relave. Voir <a href="{{guide-ranger}}">ranger, laver et réutiliser</a>.</li>
 <li><b>Surfaces et outils</b> : le t-shirt blanc ne laisse pas de teinture et peu de peluches.</li></ul>
@@ -88,7 +90,7 @@ P["guide-lingettes"] = {"kind": "guide", "img": BAGS, "rel": ["guide-papier", "c
   "body": """<h2>The difference</h2>
 <p>A cleaning wipe is a disposable nonwoven sheet, often pre-moistened with a product. A recycled wiping rag is a piece of real cotton cloth (T-shirt or terry), reclaimed, washed and cut.</p>
 <h2>When a rag is the better choice</h2>
-<ul><li><b>Oil, grease, liquids</b>: cotton, especially terry, holds a lot.</li>
+<ul><li><b>Oil, grease, liquids</b>: cotton holds a lot (terry: out of stock for now).</li>
 <li><b>High volume</b>: in 25 lb bags you pay by weight, about $1.28 per lb for coloured ($32 per bag before tax).</li>
 <li><b>Less waste</b>: reclaimed textiles stay out of landfill, and a lightly soiled rag can be washed again. See <a href="{{guide-ranger}}">store, wash and reuse</a>.</li>
 <li><b>Surfaces and tools</b>: white T-shirt leaves no dye and little lint.</li></ul>
